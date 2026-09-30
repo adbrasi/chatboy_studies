@@ -1,0 +1,10 @@
+{
+ "n_models": 140,
+ "elo~creative_writing_score": 0.954,
+ "elo~avg_length": 0.128,
+ "elo~vocab_complexity": -0.502,
+ "elo~slop_score": -0.913,
+ "elo~repetition_score": -0.772,
+ "rubric~length": 0.217,
+ "rubric~slop": -0.864
+}

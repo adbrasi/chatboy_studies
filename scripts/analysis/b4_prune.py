@@ -2,7 +2,7 @@
 A LLM gera livre (condição A). O texto é quebrado em unidades (frases/linhas). O Jev responde, numa chamada por
 ponto, 4 Nouls por unidade + 1 Choice "se só pudesse mandar uma" (opções embaralhadas contra viés de posição).
 O código monta a resposta final. Saídas (condições derivadas, gravadas em gen.jsonl):
-  N        A + normalizador de código (sem poda)
+  (o 'A + normalizador' sai do b4_post.py como A+N)
   R1..R5   poda por regra (1ª unidade; última; tira perguntas; 1ªs unidades sem pergunta até o orçamento; idem + 1 pergunta se o orçamento pede)
   J1       só a unidade escolhida pelo Choice do Jev
   J2       unidades "essenciais" e sem vício pelos Nouls (limiar th), cortadas pelo orçamento
@@ -10,6 +10,7 @@ O código monta a resposta final. Saídas (condições derivadas, gravadas em ge
 Todas as podas passam também pelo normalizador (sufixo +N na análise).
 Uso: python3 b4_prune.py <split> <modelos> [th]"""
 import json, sys
+import b4_common  # noqa (põe scripts/ no sys.path)
 import jev
 from jev import noul, choice
 from b4_common import (load_points, load_gen, append_gen, budget, units, join_units, words, normalize, h01, BOT, USER)
@@ -108,7 +109,6 @@ def main(split, models, th=0.5, src="A"):
             base = {"model": model, "pid": p["id"], "split": p["split"], "cost": src_rec["cost"],
                     "latency": src_rec["latency"], "llm_calls": src_rec["llm_calls"], "n_units": len(us)}
             if th == 0.5:
-                recs.append(dict(base, cond="N", text=normalize(src_rec["text"], b), jev_calls=0))
                 for k, v in rules(us, b).items():
                     recs.append(dict(base, cond=k, text=join_units(v), jev_calls=0))
             if a is not None:

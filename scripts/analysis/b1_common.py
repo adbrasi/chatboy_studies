@@ -265,17 +265,18 @@ def val(a):
     return a["noul"] if t == "noul" else a["score"] if t == "score" else a["choice"]
 
 
-CORE_A8 = ["human", "base_gemini", "base_luna", "styled_luna", "styled_deepseek"]
+CORE_A8 = ["human", "base_luna", "styled_luna", "styled_deepseek"]
 CORE_A9 = ["human", "B"]
 
 
 def core_units(ctxs, units):
     """Subset used by the state-variant architectures (cost control): maichat only."""
     out = []
+    has_b = {u["ckey"] for u in units if u["cond"] == "B"}
     for u in units:
         c = ctxs[u["ckey"]]
         if c["src"] == "a8_maichat" and u["cond"] in CORE_A8:
             out.append(u)
-        elif c["src"] == "a9" and u["cond"] in CORE_A9:
+        elif c["src"] == "a9" and u["cond"] in CORE_A9 and u["ckey"] in has_b:
             out.append(u)
     return out

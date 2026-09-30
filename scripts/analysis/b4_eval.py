@@ -9,6 +9,7 @@ ficam em scratchpad/b4/eval.jsonl e keep.jsonl (grandes); a análise agrega.
 Validação do lote: modo 'single' avalia A/T/humano sozinhos (1 resposta por chamada) no dev para medir o efeito do lote.
 Uso: python3 b4_eval.py <split> <modelos> [eval|keep|single]"""
 import json, os, sys
+import b4_common  # noqa (põe scripts/ no sys.path)
 from jev import noul, score
 import jev
 from b4_common import load_points, load_gen, SCR, h01, BOT, USER

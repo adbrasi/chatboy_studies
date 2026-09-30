@@ -155,7 +155,8 @@ def normalize(t, b, strip_openers=True):
     t = DASH.sub(", ", t)
     t = re.sub(r"(?i),?\s*\balex\b\s*,?", " ", t) if re.search(r"(?i)\balex\b", t) else t
     if not b["excl"]:
-        t = re.sub(r"!+", lambda m: "", t)
+        t = re.sub(r"[!¡]+[ \t]+(?=\S)", "\n", t)  # "!" no meio vira quebra de bolha (como o humano faz), não some colando frases
+        t = re.sub(r"!+", "", t)
     else:
         t = re.sub(r"!{2,}", "!", t)
     if not b["emoji"]:
@@ -181,6 +182,7 @@ def normalize(t, b, strip_openers=True):
         if len(words(t2)) >= 1:
             t = t2
     t = re.sub(r"[ \t]{2,}", " ", t)
+    t = re.sub(r"[ \t]+\n", "\n", t)
     t = re.sub(r"\s+([,.?])", r"\1", t)
     t = re.sub(r"^[\s,.]+", "", t)
     t = re.sub(r"\n\s*\n+", "\n", t).strip()
