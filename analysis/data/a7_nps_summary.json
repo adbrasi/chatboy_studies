@@ -1,0 +1,711 @@
+{
+ "n": {
+  "cand": 504,
+  "ctrl": 300
+ },
+ "flirt_rate": {
+  "cand": 0.625,
+  "ctrl": 0.043
+ },
+ "n_flirt": 328,
+ "move_dist": {
+  "invitation_plan": 112,
+  "pet_name_greeting": 60,
+  "innuendo_sexual": 45,
+  "emoji_or_kiss_only": 35,
+  "compliment_direct": 18,
+  "tease_banter": 16,
+  "love_declaration": 14,
+  "vulnerable_share": 9,
+  "none": 6,
+  "affectionate_goodbye": 5,
+  "reassurance_validation": 3,
+  "miss_longing": 3,
+  "compliment_indirect": 2
+ },
+ "t_int_mean": 2.080609756097561,
+ "t_int_dist": {
+  "1.0": 38,
+  "2.0": 226,
+  "3.0": 52,
+  "4.0": 12
+ },
+ "acts_of_flirts": {
+  "Statement": 157,
+  "ynQuestion": 65,
+  "Emotion": 33,
+  "Greet": 30,
+  "whQuestion": 17,
+  "Continuer": 7,
+  "Emphasis": 6,
+  "Accept": 5,
+  "Bye": 4,
+  "Reject": 3,
+  "Other": 1
+ },
+ "directed_share": 0.27134146341463417,
+ "broadcast_solicit_share": 0.32926829268292684,
+ "directed_flirts": 87,
+ "got_reply_from_target": 0.8160919540229885,
+ "addressed_replies": 55,
+ "resp_dist": {
+  "minimal_ack": 19,
+  "reciprocate": 14,
+  "tease_back": 7,
+  "ignore_change_topic": 5,
+  "engage_enthusiastic": 2,
+  "escalate": 2,
+  "deflate_humor": 2,
+  "simple_thanks": 2,
+  "flustered_accept": 1,
+  "rude_reject": 1
+ },
+ "resp_alive_mean": {
+  "deflate_humor": 0.47,
+  "engage_enthusiastic": 0.68,
+  "escalate": 0.73,
+  "flustered_accept": 0.63,
+  "ignore_change_topic": 0.23,
+  "minimal_ack": 0.53,
+  "reciprocate": 0.75,
+  "rude_reject": 0.3,
+  "simple_thanks": 0.38,
+  "tease_back": 0.68
+ },
+ "r_int_minus_t_int": -0.875090909090909,
+ "examples_resp": {
+  "deflate_humor": [
+   "hiya 10-19-40sUser43 hug → wow must be lunch time",
+   "11-09-20sUser80 i like you → lol thanks i think"
+  ],
+  "engage_enthusiastic": [
+   "had a girlfriend with hair like you 10-19-30sUser9 → and what happened to her 10-19-30sUser17?",
+   "10-19-40sUser7...me needer...wanna run away? → i will in an hour"
+  ],
+  "escalate": [
+   "you love it 10-19-30sUser17 → actually i do....never liked soft women....",
+   "Thanks 11-09-20sUser156 baby! → do  your boobs  hang  low  do they"
+  ],
+  "flustered_accept": [
+   "cause we only accept none sexy people...except for 10-19-30sUser9 → shut up 10-19-30sUser17... everyone is sexy"
+  ],
+  "ignore_change_topic": [
+   "hey 10-19-30sUser23 hun → hey everyone",
+   "hugs 10-19-40sUser27   dad is  bed bound  with  fractured compoud  vet → am gonna shootthis pos thing",
+   "sorry to hear that 10-19-40sUser52 .... hugs hon → was my oldest sons dad.....",
+   "i'm great 10-19-adultsUser32 ;) → seriously?  i didnt think he would ever come back to TC",
+   "11-08-40sUser48....hugs hun → (((((((((((((((hey yall)))))))))))))"
+  ],
+  "minimal_ack": [
+   "ty 10-19-30sUser25 hun → oppsss lol",
+   "and horny right 10-19-30sUser28 → right ....",
+   "I love it when you take charge 10-19-adultsUser15 → smiles",
+   "hey 10-24-40sUser39 hugs → hi 10-24-40sUser34",
+   "hi 10-24-40sUser19    for the 2nd time ;) → ;-)"
+  ],
+  "reciprocate": [
+   "i'm going to bed now. iwant to have hot sexy dreams about 10-19-20sUse → ditto 10-19-20sUser30 nite",
+   "night 10-19-30sUser25 *hugs* → 10-19-30sUser11 have great night 10-19-30sUser31 hugs",
+   "ooer 10-19-adultsUser1.. how r you darlin? → 10-19-adultsUser16.. I'm ok, how are you babe?",
+   "huggs 10-24-40sUser16; 10-24-40sUser21; everyone → (((10-24-40sUser11)))",
+   "hiya 10-24-40sUser34 didn't see ya...hugggs → hi 10-24-40sUser6 huggss"
+  ],
+  "rude_reject": [
+   "yeah 10-19-adultsUser45..i believe it ;) → o no way he is a jerk"
+  ],
+  "simple_thanks": [
+   "wb 11-09-40sUser7 darlin → thanks 11-09-40sUser8",
+   "((((((((((11-09-40sUser34))))))))))) Hi honey.....how are you? → I'm ok 11-09-40sUser48......thank you and you????"
+  ],
+  "tease_back": [
+   "too hot huh 10-19-40sUser45 ? → LOL 10-19-40sUser43 typing from the pool !!!",
+   "LoL 10-19-adultsUser32. .You know yer on the list of ppl that I let PM → i can tell by the moaning",
+   "ohhhh 11-06-adultsUser60 i wanna Help.....pweeze → I dont think he can handle two red heads",
+   "11-06-adultsUser105 <33333333333333333 → this is a no pouting zone...all violators will be spanked",
+   "wanna fuck 11-08-20sUser104 → fuck a virgin..hmmm"
+  ]
+ },
+ "examples_move": {
+  "affectionate_goodbye": [
+   "night 10-19-30sUser25 *hugs*",
+   "byeee 10-24-40sUser26 hugs",
+   "bye honey bunny",
+   "shoot- up early tomorrow- nite much love",
+   "huggs 10-24-40sUser16; 10-24-40sUser21; everyone"
+  ],
+  "compliment_direct": [
+   "urs is cute too :)",
+   "you're fucking hot.",
+   "ryaon so sexy",
+   "you're so hot 10-26-teensUser66.",
+   "Well, the handsome 10-19-30sUser37",
+   "you guys are cute together"
+  ],
+  "compliment_indirect": [
+   "I love it when you take charge 10-19-adultsUser15",
+   "had a girlfriend with hair like you 10-19-30sUser9"
+  ],
+  "emoji_or_kiss_only": [
+   "mwahhss",
+   "<333",
+   "MUAH!!!!!",
+   "11-06-adultsUser105 <33333333333333333",
+   "kisses 11-09-20sUser34",
+   ";-)"
+  ],
+  "innuendo_sexual": [
+   "wanna fuck 11-08-20sUser104",
+   "i want to make love to him",
+   "who's horny ?",
+   "making love to you",
+   "i'm going to bed now. iwant to have hot sexy dreams about 10-19-20sUser68",
+   "any little hotties wanna get dirty?"
+  ],
+  "invitation_plan": [
+   "any girl wanna chat?",
+   "any girls wanna chat PM me",
+   "anyone want to pm me tonight",
+   "any girls wanna chat? pm me",
+   "17/f/FL pics, wanna chat?",
+   "any guys wanna have a fun chat  pm me now"
+  ],
+  "love_declaration": [
+   "i love each and everyone of yall",
+   "I love you too",
+   "I love you~!",
+   "11-09-20sUser156 ill love you",
+   "love u too",
+   "i love you"
+  ],
+  "miss_longing": [
+   "And i missed you!!!",
+   "I missed you yesterday",
+   "aww miss 10-19-40sUser20 it was muzak to my ears"
+  ],
+  "none": [
+   "Hey and single girls in here",
+   "6'6 185 pounds very fot swim everyday 19 m fl short brwn hair pm me",
+   "any single white females?",
+   "female w/cingular cell phone, pm me",
+   "i am a hot girl",
+   "11-08-20sUser65 is my wife"
+  ],
+  "pet_name_greeting": [
+   "wb baby",
+   "hey 10-19-30sUser23 hun",
+   "10-19-adultsUser16.. I'm ok, how are you babe?",
+   "hiya 10-19-adultsUser32 :) how r u babe?",
+   "wb 11-09-40sUser7 darlin",
+   "heyyyyyyyyyy 11-08-adultsUser65 honey *smewchies*"
+  ],
+  "reassurance_validation": [
+   "don't worry babe i'm not leaving you",
+   "awwwwwwwwww hugs 10-19-40sUser19",
+   "hey if he wants to call me darlin its ok"
+  ],
+  "tease_banter": [
+   "what what 11-08-40sUser48....huh ;)",
+   "ahhhh............. What a Coincidence ;)",
+   "hi 10-24-40sUser19    for the 2nd time ;)",
+   "Kiss me you fool",
+   "but seeing as i have all my claws.. i go where i wanna",
+   "what can I say ;)"
+  ],
+  "vulnerable_share": [
+   "... you don't love me no more do you? :(",
+   "i really like ladies but some guys are to hot to pass by..it's about control i guess...and",
+   "need  some  sweet  loveing",
+   "always needs sweet love",
+   "i love being kissed on my neck",
+   "thanks 10-19-20sUser7.. Im happy to have my fiance here!!"
+  ]
+ },
+ "vocab": {
+  "flirt": [
+   {
+    "w": "me",
+    "z": 6.18,
+    "n_flirt": 103,
+    "n_neutral": 15
+   },
+   {
+    "w": "pm",
+    "z": 5.9,
+    "n_flirt": 79,
+    "n_neutral": 6
+   },
+   {
+    "w": "chat",
+    "z": 5.43,
+    "n_flirt": 73,
+    "n_neutral": 8
+   },
+   {
+    "w": "any",
+    "z": 4.86,
+    "n_flirt": 58,
+    "n_neutral": 6
+   },
+   {
+    "w": "m",
+    "z": 4.6,
+    "n_flirt": 43,
+    "n_neutral": 0
+   },
+   {
+    "w": "girls",
+    "z": 3.61,
+    "n_flirt": 28,
+    "n_neutral": 1
+   },
+   {
+    "w": "guys",
+    "z": 3.41,
+    "n_flirt": 27,
+    "n_neutral": 2
+   },
+   {
+    "w": "u",
+    "z": 2.91,
+    "n_flirt": 29,
+    "n_neutral": 6
+   },
+   {
+    "w": "wanna",
+    "z": 2.91,
+    "n_flirt": 66,
+    "n_neutral": 27
+   },
+   {
+    "w": "tryin",
+    "z": 2.79,
+    "n_flirt": 16,
+    "n_neutral": 0
+   },
+   {
+    "w": "sexy",
+    "z": 2.65,
+    "n_flirt": 16,
+    "n_neutral": 1
+   },
+   {
+    "w": "f",
+    "z": 2.44,
+    "n_flirt": 18,
+    "n_neutral": 3
+   },
+   {
+    "w": "hugs",
+    "z": 2.41,
+    "n_flirt": 12,
+    "n_neutral": 0
+   },
+   {
+    "w": "girl",
+    "z": 2.24,
+    "n_flirt": 12,
+    "n_neutral": 1
+   },
+   {
+    "w": "with",
+    "z": 2.24,
+    "n_flirt": 22,
+    "n_neutral": 6
+   },
+   {
+    "w": "babe",
+    "z": 2.2,
+    "n_flirt": 10,
+    "n_neutral": 0
+   },
+   {
+    "w": "ladies",
+    "z": 2.2,
+    "n_flirt": 10,
+    "n_neutral": 0
+   },
+   {
+    "w": ":)",
+    "z": 2.09,
+    "n_flirt": 9,
+    "n_neutral": 0
+   },
+   {
+    "w": "honey",
+    "z": 2.09,
+    "n_flirt": 9,
+    "n_neutral": 0
+   },
+   {
+    "w": "want",
+    "z": 2.0,
+    "n_flirt": 10,
+    "n_neutral": 1
+   },
+   {
+    "w": ";-)",
+    "z": 2.0,
+    "n_flirt": 10,
+    "n_neutral": 1
+   },
+   {
+    "w": "hot",
+    "z": 1.98,
+    "n_flirt": 25,
+    "n_neutral": 9
+   },
+   {
+    "w": "gurls",
+    "z": 1.97,
+    "n_flirt": 8,
+    "n_neutral": 0
+   },
+   {
+    "w": "bi",
+    "z": 1.97,
+    "n_flirt": 8,
+    "n_neutral": 0
+   },
+   {
+    "w": ";)",
+    "z": 1.86,
+    "n_flirt": 13,
+    "n_neutral": 3
+   },
+   {
+    "w": "if",
+    "z": 1.84,
+    "n_flirt": 22,
+    "n_neutral": 8
+   },
+   {
+    "w": "females",
+    "z": 1.7,
+    "n_flirt": 6,
+    "n_neutral": 0
+   },
+   {
+    "w": "please",
+    "z": 1.7,
+    "n_flirt": 6,
+    "n_neutral": 0
+   },
+   {
+    "w": "hugss",
+    "z": 1.7,
+    "n_flirt": 6,
+    "n_neutral": 0
+   },
+   {
+    "w": "love",
+    "z": 1.64,
+    "n_flirt": 36,
+    "n_neutral": 18
+   },
+   {
+    "w": "sweet",
+    "z": 1.57,
+    "n_flirt": 7,
+    "n_neutral": 1
+   },
+   {
+    "w": "r",
+    "z": 1.56,
+    "n_flirt": 5,
+    "n_neutral": 0
+   },
+   {
+    "w": "wana",
+    "z": 1.56,
+    "n_flirt": 5,
+    "n_neutral": 0
+   },
+   {
+    "w": "tx",
+    "z": 1.56,
+    "n_flirt": 5,
+    "n_neutral": 0
+   },
+   {
+    "w": "fl",
+    "z": 1.56,
+    "n_flirt": 5,
+    "n_neutral": 0
+   },
+   {
+    "w": "lez",
+    "z": 1.56,
+    "n_flirt": 5,
+    "n_neutral": 0
+   },
+   {
+    "w": "canada",
+    "z": 1.39,
+    "n_flirt": 4,
+    "n_neutral": 0
+   },
+   {
+    "w": "aww",
+    "z": 1.39,
+    "n_flirt": 4,
+    "n_neutral": 0
+   },
+   {
+    "w": "heyy",
+    "z": 1.39,
+    "n_flirt": 4,
+    "n_neutral": 0
+   },
+   {
+    "w": "<3",
+    "z": 1.39,
+    "n_flirt": 4,
+    "n_neutral": 0
+   }
+  ],
+  "neutral": [
+   {
+    "w": "the",
+    "z": -4.51,
+    "n_flirt": 10,
+    "n_neutral": 45
+   },
+   {
+    "w": "lol",
+    "z": -4.06,
+    "n_flirt": 5,
+    "n_neutral": 32
+   },
+   {
+    "w": "i",
+    "z": -3.0,
+    "n_flirt": 45,
+    "n_neutral": 71
+   },
+   {
+    "w": "is",
+    "z": -2.65,
+    "n_flirt": 7,
+    "n_neutral": 21
+   },
+   {
+    "w": "was",
+    "z": -2.64,
+    "n_flirt": 1,
+    "n_neutral": 12
+   },
+   {
+    "w": "it",
+    "z": -2.26,
+    "n_flirt": 7,
+    "n_neutral": 18
+   },
+   {
+    "w": "her",
+    "z": -2.08,
+    "n_flirt": 0,
+    "n_neutral": 7
+   },
+   {
+    "w": "lmao",
+    "z": -2.08,
+    "n_flirt": 0,
+    "n_neutral": 7
+   },
+   {
+    "w": "up",
+    "z": -2.07,
+    "n_flirt": 3,
+    "n_neutral": 11
+   },
+   {
+    "w": "in",
+    "z": -2.0,
+    "n_flirt": 10,
+    "n_neutral": 20
+   },
+   {
+    "w": "no",
+    "z": -1.99,
+    "n_flirt": 2,
+    "n_neutral": 9
+   },
+   {
+    "w": "at",
+    "z": -1.93,
+    "n_flirt": 0,
+    "n_neutral": 6
+   },
+   {
+    "w": "not",
+    "z": -1.91,
+    "n_flirt": 3,
+    "n_neutral": 10
+   },
+   {
+    "w": "play",
+    "z": -1.73,
+    "n_flirt": 1,
+    "n_neutral": 6
+   },
+   {
+    "w": "oh",
+    "z": -1.73,
+    "n_flirt": 1,
+    "n_neutral": 6
+   },
+   {
+    "w": "ok",
+    "z": -1.65,
+    "n_flirt": 4,
+    "n_neutral": 10
+   },
+   {
+    "w": "one",
+    "z": -1.62,
+    "n_flirt": 2,
+    "n_neutral": 7
+   },
+   {
+    "w": "but",
+    "z": -1.62,
+    "n_flirt": 2,
+    "n_neutral": 7
+   },
+   {
+    "w": "pick",
+    "z": -1.57,
+    "n_flirt": 0,
+    "n_neutral": 4
+   },
+   {
+    "w": "look",
+    "z": -1.57,
+    "n_flirt": 0,
+    "n_neutral": 4
+   },
+   {
+    "w": "friends",
+    "z": -1.57,
+    "n_flirt": 0,
+    "n_neutral": 4
+   },
+   {
+    "w": "la",
+    "z": -1.57,
+    "n_flirt": 0,
+    "n_neutral": 4
+   },
+   {
+    "w": "said",
+    "z": -1.57,
+    "n_flirt": 0,
+    "n_neutral": 4
+   },
+   {
+    "w": "single",
+    "z": -1.53,
+    "n_flirt": 3,
+    "n_neutral": 8
+   },
+   {
+    "w": "got",
+    "z": -1.52,
+    "n_flirt": 1,
+    "n_neutral": 5
+   },
+   {
+    "w": "more",
+    "z": -1.52,
+    "n_flirt": 1,
+    "n_neutral": 5
+   },
+   {
+    "w": "this",
+    "z": -1.52,
+    "n_flirt": 1,
+    "n_neutral": 5
+   },
+   {
+    "w": "hi",
+    "z": -1.47,
+    "n_flirt": 15,
+    "n_neutral": 22
+   },
+   {
+    "w": "know",
+    "z": -1.46,
+    "n_flirt": 4,
+    "n_neutral": 9
+   },
+   {
+    "w": "and",
+    "z": -1.46,
+    "n_flirt": 16,
+    "n_neutral": 23
+   },
+   {
+    "w": "good",
+    "z": -1.41,
+    "n_flirt": 2,
+    "n_neutral": 6
+   },
+   {
+    "w": "dont",
+    "z": -1.41,
+    "n_flirt": 2,
+    "n_neutral": 6
+   },
+   {
+    "w": "soon",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   },
+   {
+    "w": "does",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   },
+   {
+    "w": "huge",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   },
+   {
+    "w": "parent",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   },
+   {
+    "w": "air",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   },
+   {
+    "w": "someone",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   },
+   {
+    "w": "rolling",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   },
+   {
+    "w": "think",
+    "z": -1.36,
+    "n_flirt": 0,
+    "n_neutral": 3
+   }
+  ],
+  "n_flirt_posts": 328,
+  "n_neutral_posts": 354
+ }
+}

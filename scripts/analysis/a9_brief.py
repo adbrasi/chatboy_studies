@@ -129,6 +129,10 @@ MOMENT_LBL = {
 }
 
 
+TONE_TXT = {"playful": "playful", "warm": "warm", "sincere": "sincere", "matter_of_fact": "plain",
+            "excited": "excited", "flirty": "flirty", "dry": "dry, deadpan"}
+
+
 def moment_of(j):
     """Rótulo do momento = argmax dos Nouls de leitura. Guardas aprendidas no dev: 'vulnerable' e 'annoyed' do Jev
     disparam em provocação de brincadeira, então são descontados pela probabilidade de 'teasing'."""
@@ -157,7 +161,7 @@ def build_brief(j, fp, variant="short"):
     L = []
     moment = moment_of(j)
     L.append(f"Moment: {MOMENT_LBL[moment]}.")
-    L.append(MOVE_TXT[j["move"]])
+    L.append(MOVE_TXT[j["move"]] + f" Tone: {TONE_TXT[j['tone']]}.")
     # tamanho: escala do Jev (quantis casados com os humanos) misturada com a "voz" da persona (mediana própria);
     # nº de bolhas: hábito da persona (o Score de bolhas do Jev não previu nada no dev: Spearman -0,16)
     own = max(2.0, fp["median_words_per_bubble"] * max(1.0, fp["bubbles_per_turn"]))
@@ -189,10 +193,9 @@ def build_brief(j, fp, variant="short"):
         st.append("all lowercase")
     if fp["period_frac"] < 0.2:
         st.append("no final period")
-        own_sl = [w for w in fp.get("own_slang", []) if not w.startswith("vibe")]
-    if own_sl:
-        st.append("words you use: " + ", ".join(own_sl))
+    # (dev: listar as gírias da própria persona, "words you use: idk, omg", fez a LLM enfiar gíria em tudo -> removido)
     L.append("Style: " + "; ".join(st) + ".")
+    L.append(f"It must make sense as a direct reply to {USER}'s last message.")
     if variant != "noban":
         L.append("Never use: " + ", ".join(BAN) + ".")
     return "\n".join(L)

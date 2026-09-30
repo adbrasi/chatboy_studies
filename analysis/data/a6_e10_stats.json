@@ -1,0 +1,125 @@
+{
+ "E1_confidence_vs_instability(4 calls: 2 identical + 2 run_id)": {
+  "choice": [
+   {
+    "conf": "[0,0.5)",
+    "n": 41,
+    "frac_unstable": 0.2682926829268293
+   },
+   {
+    "conf": "[0.5,0.7)",
+    "n": 46,
+    "frac_unstable": 0.021739130434782608
+   },
+   {
+    "conf": "[0.7,0.9)",
+    "n": 63,
+    "frac_unstable": 0.0
+   },
+   {
+    "conf": "[0.9,1.01)",
+    "n": 90,
+    "frac_unstable": 0.0
+   }
+  ],
+  "score": [
+   {
+    "conf": "[0,0.5)",
+    "n": 21,
+    "frac_unstable": 0.3333333333333333
+   },
+   {
+    "conf": "[0.5,0.7)",
+    "n": 96,
+    "frac_unstable": 0.125
+   },
+   {
+    "conf": "[0.7,0.9)",
+    "n": 69,
+    "frac_unstable": 0.0
+   },
+   {
+    "conf": "[0.9,1.01)",
+    "n": 54,
+    "frac_unstable": 0.0
+   }
+  ]
+ },
+ "E7_acc_ci95": {
+  "flat_full": {
+   "acc": 0.5052083333333334,
+   "ci95": [
+    0.4375,
+    0.5729166666666666
+   ]
+  },
+  "flat_first": {
+   "acc": 0.4322916666666667,
+   "ci95": [
+    0.3645833333333333,
+    0.5052083333333334
+   ]
+  },
+  "flat_two": {
+   "acc": 0.421875,
+   "ci95": [
+    0.3541666666666667,
+    0.4947916666666667
+   ]
+  },
+  "hier_greedy": {
+   "acc": 0.4427083333333333,
+   "ci95": [
+    0.375,
+    0.5104166666666666
+   ]
+  },
+  "hier_beam2": {
+   "acc": 0.4895833333333333,
+   "ci95": [
+    0.4166666666666667,
+    0.5625
+   ]
+  },
+  "group_direct_full": {
+   "acc": 0.703125,
+   "ci95": [
+    0.6354166666666666,
+    0.765625
+   ]
+  },
+  "group_from_flat_full": {
+   "acc": 0.75,
+   "ci95": [
+    0.6875,
+    0.8072916666666666
+   ]
+  }
+ },
+ "E7_paired": {
+  "flat_full_vs_first": {
+   "a_only": 27,
+   "b_only": 13,
+   "p_exact": 0.03847730828420026
+  },
+  "flat_full_vs_hier_greedy": {
+   "a_only": 14,
+   "b_only": 2,
+   "p_exact": 0.004180908203125
+  },
+  "flat_full_vs_hier_beam2": {
+   "a_only": 6,
+   "b_only": 3,
+   "p_exact": 0.5078125
+  },
+  "group_from_flat_vs_group_direct": {
+   "a_only": 12,
+   "b_only": 3,
+   "p_exact": 0.03515625
+  }
+ },
+ "E4_token_model": {
+  "intercept_tokens(state+overhead)": 861.747177124022,
+  "tokens_per_question": 33.56895446777343
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "gen_A_dev": {
+  "calls": 12,
+  "cost": 0.0010700999999999998,
+  "per_call": 8.917499999999999e-05
+ },
+ "gen_B_dev": {
+  "calls": 16,
+  "cost": 0.0010431,
+  "per_call": 6.519375e-05
+ },
+ "empty_B_dev_try1": 2,
+ "empty_B_dev_try2": 2,
+ "gen_S_dev": {
+  "calls": 12,
+  "cost": 0.0008635999999999996,
+  "per_call": 7.196666666666664e-05
+ }
+}
