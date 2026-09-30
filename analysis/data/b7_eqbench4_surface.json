@@ -1,0 +1,765 @@
+{
+ "n_per_model": 15,
+ "models": [
+  {
+   "model": "claude-opus-5",
+   "elo": 1385.0,
+   "naturalness": 7.83,
+   "validating": 5.83,
+   "analytical": 8.34,
+   "n_turns": 113,
+   "bot": {
+    "chars": 717,
+    "q": 81.4,
+    "endq": 59.3,
+    "excl": 0.9,
+    "dash": 99.1,
+    "paras": 4,
+    "words": 137
+   },
+   "persona_user": {
+    "chars": 667,
+    "q": 54.0,
+    "endq": 15.9,
+    "excl": 4.4,
+    "dash": 9.7,
+    "paras": 3,
+    "words": 119
+   }
+  },
+  {
+   "model": "claude-fable-5",
+   "elo": 1340.4,
+   "naturalness": 7.12,
+   "validating": 6.26,
+   "analytical": 8.2,
+   "n_turns": 112,
+   "bot": {
+    "chars": 775.5,
+    "q": 86.6,
+    "endq": 51.8,
+    "excl": 0,
+    "dash": 95.5,
+    "paras": 3.0,
+    "words": 141.5
+   },
+   "persona_user": {
+    "chars": 598.5,
+    "q": 49.1,
+    "endq": 14.3,
+    "excl": 5.4,
+    "dash": 20.5,
+    "paras": 3.0,
+    "words": 112.5
+   }
+  },
+  {
+   "model": "moonshotai/kimi-k3",
+   "elo": 1339.3,
+   "naturalness": 7.0,
+   "validating": 6.25,
+   "analytical": 8.54,
+   "n_turns": 115,
+   "bot": {
+    "chars": 1205,
+    "q": 88.7,
+    "endq": 67.0,
+    "excl": 0,
+    "dash": 94.8,
+    "paras": 4,
+    "words": 217
+   },
+   "persona_user": {
+    "chars": 767,
+    "q": 60.9,
+    "endq": 21.7,
+    "excl": 7.0,
+    "dash": 23.5,
+    "paras": 3,
+    "words": 146
+   }
+  },
+  {
+   "model": "openai/gpt-5.5",
+   "elo": 1314.8,
+   "naturalness": 6.26,
+   "validating": 6.83,
+   "analytical": 7.69,
+   "n_turns": 117,
+   "bot": {
+    "chars": 984,
+    "q": 84.6,
+    "endq": 69.2,
+    "excl": 0,
+    "dash": 87.2,
+    "paras": 4,
+    "words": 175
+   },
+   "persona_user": {
+    "chars": 664,
+    "q": 63.2,
+    "endq": 13.7,
+    "excl": 10.3,
+    "dash": 13.7,
+    "paras": 3,
+    "words": 127
+   }
+  },
+  {
+   "model": "claude-opus-4-7",
+   "elo": 1311.3,
+   "naturalness": 7.29,
+   "validating": 6.82,
+   "analytical": 7.34,
+   "n_turns": 118,
+   "bot": {
+    "chars": 790.0,
+    "q": 85.6,
+    "endq": 48.3,
+    "excl": 0,
+    "dash": 78.0,
+    "paras": 4.0,
+    "words": 146.0
+   },
+   "persona_user": {
+    "chars": 675.0,
+    "q": 55.9,
+    "endq": 15.3,
+    "excl": 6.8,
+    "dash": 18.6,
+    "paras": 3.0,
+    "words": 124.5
+   }
+  },
+  {
+   "model": "claude-opus-4-8",
+   "elo": 1281.4,
+   "naturalness": 6.96,
+   "validating": 6.52,
+   "analytical": 7.89,
+   "n_turns": 115,
+   "bot": {
+    "chars": 837,
+    "q": 91.3,
+    "endq": 64.3,
+    "excl": 0,
+    "dash": 91.3,
+    "paras": 3,
+    "words": 155
+   },
+   "persona_user": {
+    "chars": 652,
+    "q": 49.6,
+    "endq": 10.4,
+    "excl": 0.9,
+    "dash": 14.8,
+    "paras": 2,
+    "words": 119
+   }
+  },
+  {
+   "model": "openai/gpt-5.4",
+   "elo": 1271.8,
+   "naturalness": 6.36,
+   "validating": 6.75,
+   "analytical": 7.44,
+   "n_turns": 119,
+   "bot": {
+    "chars": 733,
+    "q": 88.2,
+    "endq": 75.6,
+    "excl": 0,
+    "dash": 48.7,
+    "paras": 4,
+    "words": 129
+   },
+   "persona_user": {
+    "chars": 550,
+    "q": 49.6,
+    "endq": 9.2,
+    "excl": 5.9,
+    "dash": 10.1,
+    "paras": 2,
+    "words": 104
+   }
+  },
+  {
+   "model": "meta/muse-spark-1.1",
+   "elo": 1260.4,
+   "naturalness": 6.65,
+   "validating": 8.13,
+   "analytical": 5.88,
+   "n_turns": 119,
+   "bot": {
+    "chars": 773,
+    "q": 91.6,
+    "endq": 83.2,
+    "excl": 1.7,
+    "dash": 25.2,
+    "paras": 4,
+    "words": 145
+   },
+   "persona_user": {
+    "chars": 709,
+    "q": 67.2,
+    "endq": 20.2,
+    "excl": 4.2,
+    "dash": 17.6,
+    "paras": 3,
+    "words": 132
+   }
+  },
+  {
+   "model": "openai/gpt-5.6-sol",
+   "elo": 1250.3,
+   "naturalness": 5.85,
+   "validating": 5.92,
+   "analytical": 7.51,
+   "n_turns": 119,
+   "bot": {
+    "chars": 871,
+    "q": 77.3,
+    "endq": 57.1,
+    "excl": 0,
+    "dash": 96.6,
+    "paras": 3,
+    "words": 144
+   },
+   "persona_user": {
+    "chars": 654,
+    "q": 63.0,
+    "endq": 19.3,
+    "excl": 3.4,
+    "dash": 7.6,
+    "paras": 3,
+    "words": 121
+   }
+  },
+  {
+   "model": "claude-sonnet-5",
+   "elo": 1236.0,
+   "naturalness": 6.86,
+   "validating": 6.7,
+   "analytical": 7.46,
+   "n_turns": 113,
+   "bot": {
+    "chars": 647,
+    "q": 83.2,
+    "endq": 61.1,
+    "excl": 0.9,
+    "dash": 75.2,
+    "paras": 2,
+    "words": 116
+   },
+   "persona_user": {
+    "chars": 533,
+    "q": 59.3,
+    "endq": 19.5,
+    "excl": 8.0,
+    "dash": 10.6,
+    "paras": 2,
+    "words": 100
+   }
+  },
+  {
+   "model": "openai/gpt-5.6-terra",
+   "elo": 1234.0,
+   "naturalness": 5.93,
+   "validating": 6.81,
+   "analytical": 6.87,
+   "n_turns": 114,
+   "bot": {
+    "chars": 866.0,
+    "q": 74.6,
+    "endq": 66.7,
+    "excl": 0,
+    "dash": 98.2,
+    "paras": 4.0,
+    "words": 150.0
+   },
+   "persona_user": {
+    "chars": 573.0,
+    "q": 50.0,
+    "endq": 17.5,
+    "excl": 3.5,
+    "dash": 16.7,
+    "paras": 2.0,
+    "words": 108.0
+   }
+  },
+  {
+   "model": "thinkingmachines/Inkling",
+   "elo": 1225.8,
+   "naturalness": 6.42,
+   "validating": 6.65,
+   "analytical": 7.42,
+   "n_turns": 117,
+   "bot": {
+    "chars": 794,
+    "q": 96.6,
+    "endq": 76.1,
+    "excl": 0,
+    "dash": 100,
+    "paras": 3,
+    "words": 140
+   },
+   "persona_user": {
+    "chars": 639,
+    "q": 59.0,
+    "endq": 19.7,
+    "excl": 2.6,
+    "dash": 12.8,
+    "paras": 3,
+    "words": 120
+   }
+  },
+  {
+   "model": "claude-opus-4-6",
+   "elo": 1222.7,
+   "naturalness": 6.75,
+   "validating": 6.45,
+   "analytical": 7.5,
+   "n_turns": 117,
+   "bot": {
+    "chars": 657,
+    "q": 82.9,
+    "endq": 59.0,
+    "excl": 0,
+    "dash": 74.4,
+    "paras": 3,
+    "words": 120
+   },
+   "persona_user": {
+    "chars": 531,
+    "q": 71.8,
+    "endq": 17.1,
+    "excl": 4.3,
+    "dash": 6.0,
+    "paras": 2,
+    "words": 99
+   }
+  },
+  {
+   "model": "z-ai/glm-5.2",
+   "elo": 1221.9,
+   "naturalness": 6.61,
+   "validating": 6.78,
+   "analytical": 7.48,
+   "n_turns": 116,
+   "bot": {
+    "chars": 924.5,
+    "q": 78.4,
+    "endq": 56.0,
+    "excl": 1.7,
+    "dash": 37.9,
+    "paras": 4.0,
+    "words": 165.5
+   },
+   "persona_user": {
+    "chars": 703.5,
+    "q": 60.3,
+    "endq": 12.1,
+    "excl": 13.8,
+    "dash": 18.1,
+    "paras": 3.0,
+    "words": 134.0
+   }
+  },
+  {
+   "model": "xiaomi/mimo-v2.5-pro",
+   "elo": 1208.3,
+   "naturalness": 6.67,
+   "validating": 6.96,
+   "analytical": 6.97,
+   "n_turns": 113,
+   "bot": {
+    "chars": 915,
+    "q": 77.9,
+    "endq": 58.4,
+    "excl": 0.9,
+    "dash": 79.6,
+    "paras": 4,
+    "words": 166
+   },
+   "persona_user": {
+    "chars": 715,
+    "q": 61.1,
+    "endq": 15.9,
+    "excl": 10.6,
+    "dash": 15.0,
+    "paras": 3,
+    "words": 135
+   }
+  },
+  {
+   "model": "claude-sonnet-4-6",
+   "elo": 1206.5,
+   "naturalness": 6.75,
+   "validating": 6.24,
+   "analytical": 7.28,
+   "n_turns": 116,
+   "bot": {
+    "chars": 600.5,
+    "q": 87.9,
+    "endq": 75.9,
+    "excl": 0,
+    "dash": 27.6,
+    "paras": 3.0,
+    "words": 107.0
+   },
+   "persona_user": {
+    "chars": 596.0,
+    "q": 69.8,
+    "endq": 15.5,
+    "excl": 4.3,
+    "dash": 17.2,
+    "paras": 3.0,
+    "words": 112.5
+   }
+  },
+  {
+   "model": "moonshotai/kimi-k2.6",
+   "elo": 1201.6,
+   "naturalness": 6.66,
+   "validating": 6.0,
+   "analytical": 7.77,
+   "n_turns": 109,
+   "bot": {
+    "chars": 859,
+    "q": 89.9,
+    "endq": 62.4,
+    "excl": 0,
+    "dash": 95.4,
+    "paras": 3,
+    "words": 153
+   },
+   "persona_user": {
+    "chars": 759,
+    "q": 66.1,
+    "endq": 22.0,
+    "excl": 4.6,
+    "dash": 14.7,
+    "paras": 3,
+    "words": 149
+   }
+  },
+  {
+   "model": "deepseek/deepseek-v4-pro",
+   "elo": 1165.7,
+   "naturalness": 6.23,
+   "validating": 7.68,
+   "analytical": 6.33,
+   "n_turns": 117,
+   "bot": {
+    "chars": 651,
+    "q": 88.0,
+    "endq": 70.1,
+    "excl": 0,
+    "dash": 85.5,
+    "paras": 3,
+    "words": 116
+   },
+   "persona_user": {
+    "chars": 650,
+    "q": 75.2,
+    "endq": 14.5,
+    "excl": 12.0,
+    "dash": 11.1,
+    "paras": 3,
+    "words": 119
+   }
+  },
+  {
+   "model": "openai/gpt-5.6-luna",
+   "elo": 1156.3,
+   "naturalness": 5.22,
+   "validating": 6.33,
+   "analytical": 7.01,
+   "n_turns": 117,
+   "bot": {
+    "chars": 833,
+    "q": 75.2,
+    "endq": 62.4,
+    "excl": 0,
+    "dash": 90.6,
+    "paras": 3,
+    "words": 138
+   },
+   "persona_user": {
+    "chars": 652,
+    "q": 59.8,
+    "endq": 17.9,
+    "excl": 12.0,
+    "dash": 15.4,
+    "paras": 3,
+    "words": 120
+   }
+  },
+  {
+   "model": "minimax/minimax-m3",
+   "elo": 1149.7,
+   "naturalness": 6.5,
+   "validating": 6.32,
+   "analytical": 6.65,
+   "n_turns": 118,
+   "bot": {
+    "chars": 380.5,
+    "q": 90.7,
+    "endq": 73.7,
+    "excl": 0,
+    "dash": 44.9,
+    "paras": 2.0,
+    "words": 72.0
+   },
+   "persona_user": {
+    "chars": 590.0,
+    "q": 57.6,
+    "endq": 16.9,
+    "excl": 5.9,
+    "dash": 12.7,
+    "paras": 2.0,
+    "words": 108.0
+   }
+  },
+  {
+   "model": "google/gemini-3.1-pro-preview",
+   "elo": 1142.3,
+   "naturalness": 5.78,
+   "validating": 8.58,
+   "analytical": 5.68,
+   "n_turns": 118,
+   "bot": {
+    "chars": 806.0,
+    "q": 82.2,
+    "endq": 73.7,
+    "excl": 11.0,
+    "dash": 49.2,
+    "paras": 3.0,
+    "words": 143.5
+   },
+   "persona_user": {
+    "chars": 649.0,
+    "q": 66.1,
+    "endq": 20.3,
+    "excl": 11.9,
+    "dash": 6.8,
+    "paras": 2.0,
+    "words": 119.0
+   }
+  },
+  {
+   "model": "google/gemma-4-31b-it",
+   "elo": 1120.3,
+   "naturalness": 5.8,
+   "validating": 7.43,
+   "analytical": 6.53,
+   "n_turns": 120,
+   "bot": {
+    "chars": 649.0,
+    "q": 82.5,
+    "endq": 80.0,
+    "excl": 0,
+    "dash": 59.2,
+    "paras": 2.0,
+    "words": 115.0
+   },
+   "persona_user": {
+    "chars": 598.5,
+    "q": 59.2,
+    "endq": 16.7,
+    "excl": 4.2,
+    "dash": 20.8,
+    "paras": 2.0,
+    "words": 111.0
+   }
+  },
+  {
+   "model": "qwen/qwen3.7-max",
+   "elo": 1109.7,
+   "naturalness": 5.21,
+   "validating": 7.98,
+   "analytical": 5.98,
+   "n_turns": 120,
+   "bot": {
+    "chars": 479.5,
+    "q": 72.5,
+    "endq": 64.2,
+    "excl": 0,
+    "dash": 14.2,
+    "paras": 1.0,
+    "words": 86.0
+   },
+   "persona_user": {
+    "chars": 712.0,
+    "q": 65.0,
+    "endq": 34.2,
+    "excl": 4.2,
+    "dash": 21.7,
+    "paras": 2.0,
+    "words": 132.0
+   }
+  },
+  {
+   "model": "google/gemini-3.5-flash",
+   "elo": 1087.2,
+   "naturalness": 5.03,
+   "validating": 8.42,
+   "analytical": 5.69,
+   "n_turns": 116,
+   "bot": {
+    "chars": 746.5,
+    "q": 83.6,
+    "endq": 75.0,
+    "excl": 2.6,
+    "dash": 45.7,
+    "paras": 3.0,
+    "words": 134.0
+   },
+   "persona_user": {
+    "chars": 613.5,
+    "q": 60.3,
+    "endq": 14.7,
+    "excl": 4.3,
+    "dash": 17.2,
+    "paras": 2.0,
+    "words": 118.0
+   }
+  },
+  {
+   "model": "x-ai/grok-4.3",
+   "elo": 1074.8,
+   "naturalness": 4.88,
+   "validating": 6.72,
+   "analytical": 4.35,
+   "n_turns": 118,
+   "bot": {
+    "chars": 307.0,
+    "q": 74.6,
+    "endq": 72.0,
+    "excl": 0,
+    "dash": 70.3,
+    "paras": 1.0,
+    "words": 52.5
+   },
+   "persona_user": {
+    "chars": 596.5,
+    "q": 61.9,
+    "endq": 19.5,
+    "excl": 5.1,
+    "dash": 18.6,
+    "paras": 2.0,
+    "words": 110.0
+   }
+  },
+  {
+   "model": "claude-haiku-4-5-20251001",
+   "elo": 1063.9,
+   "naturalness": 5.53,
+   "validating": 5.51,
+   "analytical": 7.99,
+   "n_turns": 114,
+   "bot": {
+    "chars": 673.5,
+    "q": 86.0,
+    "endq": 63.2,
+    "excl": 0,
+    "dash": 86.0,
+    "paras": 3.0,
+    "words": 118.0
+   },
+   "persona_user": {
+    "chars": 663.5,
+    "q": 65.8,
+    "endq": 14.0,
+    "excl": 2.6,
+    "dash": 14.9,
+    "paras": 3.0,
+    "words": 122.5
+   }
+  },
+  {
+   "model": "qwen/qwen3.6-27b",
+   "elo": 1025.5,
+   "naturalness": 4.79,
+   "validating": 6.83,
+   "analytical": 7.67,
+   "n_turns": 108,
+   "bot": {
+    "chars": 771.5,
+    "q": 89.8,
+    "endq": 76.9,
+    "excl": 0.9,
+    "dash": 38.0,
+    "paras": 3.0,
+    "words": 138.0
+   },
+   "persona_user": {
+    "chars": 723.5,
+    "q": 50.0,
+    "endq": 19.4,
+    "excl": 10.2,
+    "dash": 21.3,
+    "paras": 3.0,
+    "words": 131.5
+   }
+  },
+  {
+   "model": "mistralai/mistral-medium-3-5",
+   "elo": 993.0,
+   "naturalness": 5.09,
+   "validating": 7.42,
+   "analytical": 4.84,
+   "n_turns": 120,
+   "bot": {
+    "chars": 343.0,
+    "q": 94.2,
+    "endq": 81.7,
+    "excl": 0,
+    "dash": 75.8,
+    "paras": 1.0,
+    "words": 62.5
+   },
+   "persona_user": {
+    "chars": 612.0,
+    "q": 74.2,
+    "endq": 14.2,
+    "excl": 5.8,
+    "dash": 21.7,
+    "paras": 2.0,
+    "words": 116.5
+   }
+  }
+ ],
+ "spearman": {
+  "elo~bot_chars": 0.505,
+  "naturalness~bot_chars": 0.263,
+  "elo~bot_endq": -0.429,
+  "naturalness~bot_endq": -0.483,
+  "elo~bot_q": 0.075,
+  "naturalness~bot_q": 0.219,
+  "elo~bot_excl": -0.588,
+  "naturalness~bot_excl": -0.413,
+  "elo~bot_dash": 0.467,
+  "naturalness~bot_dash": 0.308,
+  "elo~bot_paras": 0.35,
+  "naturalness~bot_paras": 0.209
+ },
+ "pooled": {
+  "bot_chars_median_of_model_medians": 772.25,
+  "bot_chars_range": [
+   307.0,
+   1205
+  ],
+  "persona_chars_median_of_model_medians": 651.0,
+  "bot_endq_range": [
+   48.3,
+   83.2
+  ],
+  "bot_excl_range": [
+   0,
+   11.0
+  ],
+  "persona_endq_median": 16.799999999999997,
+  "persona_excl_median": 5.25
+ }
+}

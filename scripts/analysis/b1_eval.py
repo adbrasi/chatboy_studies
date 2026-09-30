@@ -252,8 +252,7 @@ R["A11_main_vice_choice"] = {"n_single_vice": tot, "top1_acc": round(hits / tot,
                              "vmain_dist_llm": Counter(bank[u["uid"]]["v_main"] for u in llm_units).most_common(),
                              "vmain_dist_human": Counter(bank[u["uid"]]["v_main"] for u in U if u["label"] == 0).most_common()}
 
-json.dump(R, open(os.path.join(B.SCR, "eval_bank_partial.json"), "w"), default=str, indent=1)
 import pickle
 pickle.dump({"MODELS": {k: {kk: vv for kk, vv in v.items() if kk != "model"} for k, v in MODELS.items()}}, open(os.path.join(B.SCR, "models_scores.pkl"), "wb"))
-pickle.dump({k: v["model"] for k, v in MODELS.items()}, open(os.path.join(B.SCR, "models.pkl"), "wb"))
 print("bank part done")
+exec(open(os.path.join(B.HERE, "b1_eval_part2.py")).read())

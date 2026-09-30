@@ -157,15 +157,25 @@ def reading_labels(b):
 
 # ------------------------------------------------------------------ retrieval (TF-IDF + rótulos D do parceiro)
 class Retriever:
-    def __init__(self, pts, w_cat=0.15):
+    """Similaridade híbrida: 0,5 × TF-IDF (última msg ×3 + turno anterior) + 0,5 × cosseno no "embedding Jev" do turno
+    do parceiro (rótulos D do jev_base: emoção, intenção, fase one-hot + nouls/scores + tem '?'). Peso escolhido no dev
+    pelo voto kNN (TF-IDF puro 24–28%, híbrido 35%)."""
+    NUM = ["valence", "arousal", "anxious", "playful", "flirting", "vulnerable", "seeks_support", "tension",
+           "seriousness", "engagement", "hook", "topic_shift"]
+    SC = {"valence": 4, "arousal": 4, "seriousness": 3, "engagement": 4}
+
+    def __init__(self, pts, w_d=0.5):
         from sklearn.feature_extraction.text import TfidfVectorizer
         self.pts = [p for p in pts if "gold" in p]
-        q = [self.qtext(p) for p in self.pts]
-        self.vec = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, min_df=1, token_pattern=r"(?u)\b\w+\b|[?!]")
-        self.X = self.vec.fit_transform(q)
-        self.cat = [self.cats(p) for p in self.pts]
+        self.EMO = sorted({str(p["prev_D"].get("emotion")) for p in self.pts})
+        self.INT = sorted({str(p["prev_D"].get("intent")) for p in self.pts})
+        self.PH = sorted({str(p["prev_D"].get("phase")) for p in self.pts})
+        self.vec = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, token_pattern=r"(?u)\b\w+\b|[?!]")
+        self.X = self.vec.fit_transform([self.qtext(p) for p in self.pts])
+        D = np.array([self.dvec(p) for p in self.pts])
+        self.D = D / np.linalg.norm(D, axis=1, keepdims=True)
         self.conv = np.array([p["conv_id"] for p in self.pts])
-        self.w_cat = w_cat
+        self.w_d = w_d
 
     @staticmethod
     def qtext(p):
@@ -173,17 +183,19 @@ class Retriever:
         prev = h[-2]["text"] if len(h) >= 2 else ""
         return (last_msg(p) + " ") * 3 + prev
 
-    @staticmethod
-    def cats(p):
+    def dvec(self, p):
         d = p["prev_D"]
-        return (d.get("intent"), d.get("emotion"), d.get("phase"))
+        v = [float(str(d.get("emotion")) == e) for e in self.EMO] + [float(str(d.get("intent")) == e) for e in self.INT]
+        v += [float(str(d.get("phase")) == e) for e in self.PH]
+        v += [float(d.get(k) or 0) / self.SC.get(k, 1) for k in self.NUM]
+        v += [float("?" in last_msg(p))] * 2
+        return np.array(v)
 
     def query(self, p, k=10):
         v = self.vec.transform([self.qtext(p)])
-        sim = (self.X @ v.T).toarray().ravel()
-        c = self.cats(p)
-        sim = sim + self.w_cat * np.array([sum(a == b for a, b in zip(c, cc)) for cc in self.cat]) / 3
-        sim[self.conv == p["conv_id"]] = -1  # nunca a própria conversa
+        dv = self.dvec(p); dv = dv / np.linalg.norm(dv)
+        sim = (1 - self.w_d) * (self.X @ v.T).toarray().ravel() + self.w_d * (self.D @ dv)
+        sim[self.conv == p["conv_id"]] = -9  # nunca a própria conversa
         top = np.argsort(-sim)[:k]
         return [(self.pts[i], float(sim[i])) for i in top]
 
