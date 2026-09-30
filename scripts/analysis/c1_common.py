@@ -178,6 +178,8 @@ def schema_messages(p, schema, brief=None, system_override=None, note_pos="befor
             m.append({"role": "system", "content": f"Director's note for your next message:\n{brief}"})
         return m
     sysm = system_override or LOG_SYS.format(platform=PLATFORM[schema])
+    if brief and note_pos == "system":
+        sysm += f"\n\nDirector's note for {BOT}'s next message (it guides what {BOT} writes; it is not part of the log):\n{brief}"
     u = (note_block(brief) if (brief and note_pos == "before") else "") + render_log(p, schema)
     if brief and note_pos == "end":
         u += f"\n\n{note_block(brief).strip()}"

@@ -9,6 +9,7 @@ import c1_common as C
 from b4_gen import target_brief
 
 EXP = "schema"
+NOTES = (0, 1)
 
 
 def brief_of(p):
@@ -17,7 +18,7 @@ def brief_of(p):
 
 def spec(p, model, cond):
     schema, note = cond.split("|")
-    msgs = C.schema_messages(p, schema, brief_of(p) if note == "1" else None)
+    msgs = C.schema_messages(p, schema, brief_of(p) if note in ("1", "2") else None, note_pos="system" if note == "2" else "before")
     return dict(messages=msgs, model=model, temperature=0.8, max_tokens=300 if schema == "free" else 400, seed=0,
                 tag=f"c1:{cond}"), {"schema": schema, "note": int(note)}
 
@@ -26,13 +27,13 @@ def post(p, model, cond, r, meta):
     return C.parsed_record(meta["schema"], r.get("text"), p)
 
 
-def conds_for(schemas):
-    return [f"{s}|{n}" for s in schemas for n in (0, 1)]
+def conds_for(schemas, notes=(0, 1)):
+    return [f"{s}|{n}" for s in schemas for n in notes]
 
 
 def gen(split, models=None, schemas=None):
     pts = C.split_pts(split)
-    C.run_gen(EXP, pts, models or C.MODELS, conds_for(schemas or C.SCHEMAS), spec, post)
+    C.run_gen(EXP, pts, models or C.MODELS, conds_for(schemas or C.SCHEMAS, NOTES), spec, post)
 
 
 def jev(split, conds=None):
@@ -62,7 +63,7 @@ def analyze(split, jev_on=True):
     print("HUMAN", {k: (round(v, 3) if isinstance(v, float) else v) for k, v in res["human"].items() if not isinstance(v, (dict, list))})
     for m in C.MODELS:
         rows = []
-        for c in conds_for(C.SCHEMAS):
+        for c in conds_for(C.SCHEMAS, (0, 1, 2)):
             items = []
             for p in pts:
                 r = G.get((EXP, m, c, p["id"]))

@@ -277,7 +277,17 @@ SPEC = {
         "playful": ("playfulness", 0.65, 0.50, ">"),
     },
     "mode_priority": ["cold", "jealous", "guarded", "worried", "warm", "playful"],
+    # ---- v1 (anti-deriva; escolhidos no dev, ver relatório): None/False = comportamento v0
+    "habituation": False,        # n-ésimo movimento na mesma direção, na mesma sessão (<3 h), vale 1/n
+    "mood_decay_msg": 0.0,       # humor (cumplicidade, preocupação, ciúme) volta 10% à base a cada mensagem
+    "routine_gate": False,       # subir trust/comfort/affection/playfulness exige nível >= 2 OU um evento concreto
+    "routine_thr": 0.5,          # limiar do Noul de direção para as dimensões "de rotina" (sobe)
 }
+ROUTINE_UP = {"trust": ["promise_kept", "vulnerability", "absence_explained"],
+              "comfort": ["vulnerability", "practical_care", "affection_expr", "interest_in_char", "friendly_tease", "gratitude"],
+              "affection": ["compliment", "affection_expr", "practical_care"],
+              "playfulness": ["friendly_tease"]}
+MOOD = ("playfulness", "protectiveness", "jealousy")
 DEFAULT_BASE = {"trust": 0.60, "comfort": 0.60, "affection": 0.50, "resentment": 0.10, "jealousy": 0.10,
                 "respect": 0.60, "protectiveness": 0.50, "playfulness": 0.50}
 EVENT_LABEL = {"hurtful_joke": "made a hurtful joke", "insult_criticism": "insulted or harshly criticized {C}",
@@ -297,6 +307,7 @@ class RelState:
         self.mode = None
         self.days_known = days_known
         self.t = None           # horas (tempo real do último evento)
+        self.session_moves = {}
         self.log = []
 
     def copy(self):
@@ -309,6 +320,8 @@ class RelState:
             return
         dt = max(0.0, t_hours - self.t)
         self.t = t_hours
+        if dt >= 3:
+            self.session_moves = {}
         if dt <= 0:
             return
         for d, hl in self.spec["half_life_h"].items():
@@ -421,6 +434,9 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
     Retorna dict de log."""
     spec = spec or rel.spec
     rel.decay(t_hours)
+    if spec.get("mood_decay_msg"):
+        for d in MOOD:
+            rel.v[d] = rel.base[d] + (rel.v[d] - rel.base[d]) * (1 - spec["mood_decay_msg"])
     before = dict(rel.v)
     ev = {e: a1.get("e_" + e, {}).get("noul", 0.0) for e in EVENTS}
     has_pending = bool(rel.unresolved)
@@ -430,7 +446,8 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
     for d in DIMS:
         for dr, sign in (("up", 1), ("down", -1)):
             p = a1.get(f"d_{d}_{dr}", {}).get("noul", 0.0)
-            if p < spec["detect_thr"]:
+            thr = spec["routine_thr"] if (dr == "up" and d in ROUTINE_UP) else spec["detect_thr"]
+            if p < thr:
                 continue
             if mag == "p" or not a2:
                 lvl = level_from_p(p)
@@ -440,7 +457,14 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
                 lvl = level_from_score(a2.get(f"s_{d}_{dr}"))
             if lvl == 0:
                 continue
+            if spec.get("routine_gate") and dr == "up" and d in ROUTINE_UP and lvl < 2 and \
+                    not any(ev.get(e, 0) >= spec["evt_thr"] for e in ROUTINE_UP[d]):
+                continue
             mult = 1.0
+            if spec.get("habituation"):
+                n = rel.session_moves.get((d, dr), 0) + 1
+                rel.session_moves[(d, dr)] = n
+                mult /= n
             # "desce" em dimensão de ativação só se houver o que descer (acima da base)
             if dr == "down" and d in ("jealousy", "protectiveness") and rel.v[d] <= rel.base[d] + 0.05:
                 continue
