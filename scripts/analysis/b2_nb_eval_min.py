@@ -1,4 +1,4 @@
-"""b2 Parte B: avaliação das arquiteturas de nº de bolhas (cenários T e P) + latência.
+"""b2 Parte B (versão mínima, cenário T com T1–T4 + código + T7; T5/T6/P/latência interrompidos por falta de créditos): avaliação das arquiteturas de nº de bolhas (cenários T e P) + latência.
 Escolha no DEV (RPS = ranked probability score, a métrica própria para distribuição ordinal), relato no TESTE com IC
 por bootstrap de conversas. Modelos de código e T7/P7 (Jev como features + regressão ordinal) treinados só no dev.
 Saída: analysis/data/b2_nb_results.json, b2_nb_preds_test.csv.gz"""
@@ -121,39 +121,13 @@ R = R.reset_index(drop=True)
 R["y"] = R.y.clip(upper=5).astype(int)
 for c in set(CODE_T + CODE_P + ["lat", "slow", "pt_lat", "own_llat"]):
     R[c] = [TI.loc[k, c] for k in R.key]
-ok = np.array([all(out[a][i] is not None for a in ("T1", "T2", "A", "T3", "T4", "T5")) for i in range(len(R))])
+ok = np.array([all(out[a][i] is not None for a in ("T1", "T2", "A", "T3", "T4")) for i in range(len(R))])
 R = R[ok].reset_index(drop=True)
 idx = np.where(ok)[0]
 PT = {}
 for a in ("T1", "T2", "T3", "T4"):
     PT[a] = np.array([dist_from_choice(out[a][i], "n") for i in idx])
-# T5 cuts
-cuts_p = []
-for i in idx:
-    ans = out["T5"][i]
-    cuts_p.append({int(k[1:]): v["noul"] for k, v in ans.items() if k.startswith("c")})
-R["cuts_p"] = cuts_p
-PT["T5"] = np.array([poisson_binomial(list(c.values())) for c in cuts_p])
-PT["T5_thr"] = np.array([onehot([min(1 + sum(p > .5 for p in c.values()), K)])[0] for c in cuts_p])
-# T6 cascade
-ps6 = [out["T6"][i] for i in idx]
 devmask = (R.split == "dev").values
-mean_pk = {k: np.mean([p[k] for p, dm in zip(ps6, devmask) if dm and k in p] or [0.3]) for k in (2, 3, 4, 5)}
-P6, P6thr = [], []
-for p in ps6:
-    surv, dist = 1.0, []
-    for k in (2, 3, 4, 5):
-        pk = p.get(k, mean_pk[k] if k > 2 else 0.5)
-        dist.append(surv * (1 - pk)); surv *= pk
-    dist.append(surv)
-    P6.append(dist)
-    n = 1
-    for k in (2, 3, 4, 5):
-        if p.get(k, 0) >= 0.5: n = k
-        else: break
-    P6thr.append(onehot([n])[0])
-PT["T6"] = np.array(P6); PT["T6_thr"] = np.array(P6thr)
-
 # Jev features for T7
 A = [out["A"][i] for i in idx]
 R["j_energy"] = [a["energy"]["score"] for a in A]; R["j_amount"] = [a["amount"]["score"] for a in A]
@@ -162,9 +136,8 @@ R["j_points"] = [sum(a["points"]["probabilities"].get(k, 0) * w for k, w in (("1
 for k in ("anxious", "playful", "tension", "excited", "defensive", "thinking_aloud", "story", "opens_reaction", "ends_question"):
     R["j_" + k] = [a[k]["noul"] for a in A]
 R["j_T2exp"] = PT["T2"] @ KS
-R["j_T5sum"] = [sum(c.values()) for c in cuts_p]
 R["j_T3exp"] = PT["T3"] @ KS
-JEV_T = ["j_energy", "j_amount", "j_serious", "j_points", "j_playful", "j_tension", "j_opens_reaction", "j_ends_question", "j_thinking_aloud", "j_T5sum", "j_T2exp"]
+JEV_T = ["j_energy", "j_amount", "j_serious", "j_points", "j_playful", "j_tension", "j_opens_reaction", "j_ends_question", "j_thinking_aloud", "j_T2exp"]
 
 # ---- code baselines for T ----
 Tdev = T[T.split == "dev"]
@@ -230,88 +203,10 @@ for name, P in PT.items():
     res["T"][name] = blk
     print("T", name, blk["dev"]["rps"], blk["test"]["rps"], blk["test"]["acc"], blk["test"]["rho"], blk["test"]["auc2"], blk["test"]["tvd"], flush=True)
 
-# boundary accuracy for T5 and LLM
-def f1_cuts(pred, true):
-    pred, true = set(pred), set(true)
-    if not pred and not true: return 1.0
-    tp = len(pred & true); p = tp / len(pred) if pred else 0; r = tp / len(true) if true else 0
-    return 2 * p * r / (p + r) if p + r else 0.0
-mt = (R.split == "test")
-res["T"]["T5"]["cut_f1_test_multi_only"] = float(np.mean([f1_cuts([g for g, p in c.items() if p > .5], tc) for c, tc, y in zip(R.cuts_p[mt], R.true_cuts[mt], R.y[mt]) if y > 1]))
-res["T"]["T5"]["cut_precision_at_true_n"] = float(np.mean([len(set(sorted(c, key=c.get, reverse=True)[:y - 1]) & set(tc)) / (y - 1) for c, tc, y in zip(R.cuts_p[mt], R.true_cuts[mt], R.y[mt]) if y > 1 and c]))
-# chance: random candidates at true n
-res["T"]["T5"]["cut_precision_chance"] = float(np.mean([(y - 1) / max(len(c), 1) for c, y in zip(R.cuts_p[mt], R.y[mt]) if y > 1 and c]))
-R.to_pickle(os.path.join(SCR, "nb_T_eval_R.pkl"))
-pd.to_pickle(PT, os.path.join(SCR, "nb_T_eval_PT.pkl"))
-
-# ---------------- evaluate P ----------------
-rawP = pd.read_pickle(os.path.join(SCR, "nb_P_raw.pkl"))
-RP, outP = rawP["R"].reset_index(drop=True), rawP["out"]
-RP["y"] = RP.y.clip(upper=5).astype(int)
-for c in set(CODE_P + ["lat", "slow", "pt_lat", "own_llat"]):
-    RP[c] = [TI.loc[k, c] for k in RP.key]
-okP = np.array([all(outP[a][i] is not None for a in ("P1", "P2", "A", "P3")) for i in range(len(RP))])
-idxP = np.where(okP)[0]; RP = RP[okP].reset_index(drop=True)
-PP = {a: np.array([dist_from_choice(outP[a][i], "n") for i in idxP]) for a in ("P1", "P2", "P3")}
-AP = [outP["A"][i] for i in idxP]
-for k in ("anxious", "excited", "playful", "tension", "challenged", "story", "asked", "ending", "needs_thought"):
-    RP["j_" + k] = [a[k]["noul"] for a in AP]
-for k in ("energy", "amount", "serious"):
-    RP["j_" + k] = [a[k]["score"] for a in AP]
-RP["j_P2exp"] = PP["P2"] @ KS
-JEV_P = ["j_amount", "j_energy", "j_serious", "j_anxious", "j_excited", "j_playful", "j_tension", "j_challenged", "j_story", "j_asked", "j_P2exp"]
-PP["C_base_rate"] = np.array([PT_base[c] for c in RP.corpus])
-PP["C_own_history"] = np.array([own_dist(k, c) for k, c in zip(RP.key, RP.corpus)])
-PP["C_mirror_partner"] = np.array([0.5 * onehot([int(n)])[0] + 0.5 * PT_base[c] for n, c in zip(RP.pt_n, RP.corpus)])
-PP["C_ordinal_alldev"] = smooth(ordinal_probs(Tdev_s[CODE_P].astype(float), Tdev_s.yc.values, RP[CODE_P].astype(float)))
-RPd = RP[RP.split == "dev"]
-PP["C_ordinal_devsample"] = smooth(ordinal_probs(RPd[CODE_P].astype(float), RPd.y.values, RP[CODE_P].astype(float)))
-PP["P7_ordinal_code+jev"] = smooth(ordinal_probs(RPd[CODE_P + JEV_P].astype(float), RPd.y.values, RP[CODE_P + JEV_P].astype(float)))
-PP["P8_mix_P1+own"] = 0.5 * PP["P1"] + 0.5 * PP["C_own_history"]
-for name, P in PP.items():
-    P = smooth(P, 1e-3)
-    blk = {}
-    for s in ("dev", "test"):
-        m = (RP.split == s).values
-        blk[s] = {k: (round(v, 4) if isinstance(v, float) else v) for k, v in metr(P[m], RP.y.values[m]).items()}
-    mt = (RP.split == "test").values
-    blk["test_ci"] = ci_block(RP[mt].reset_index(drop=True), P[mt], name)
-    res["P"][name] = blk
-    print("P", name, blk["dev"]["rps"], blk["test"]["rps"], blk["test"]["acc"], blk["test"]["rho"], blk["test"]["auc2"], blk["test"]["tvd"], flush=True)
-
-# ---------------- latency (P position) ----------------
-for a in ("P1", "P2", "P3"):
-    RP[f"lat_{a}"] = [outP[a][i]["lat"]["score"] for i in idxP]
-    RP[f"fast_{a}"] = [outP[a][i]["fast"]["noul"] for i in idxP]
-RP["pt_lat_f"] = RP.pt_lat.fillna(RP.groupby("corpus").pt_lat.transform("median"))
-RP["own_llat_f"] = RP.own_llat.fillna(RP.groupby("corpus").own_llat.transform("median"))
-LC = ["pt_lat_f", "own_llat_f", "pt_q", "pt_lchars", "wa"]
-LJ = ["lat_P2", "fast_P2", "j_needs_thought", "j_ending", "j_asked", "j_amount", "j_serious"]
-dl = RP.dropna(subset=["slow"])
-for c in ("maichat", "whatsapp_nl"):
-    dc = dl[dl.corpus == c]
-    dd, dt = dc[dc.split == "dev"], dc[dc.split == "test"]
-    blk = {"n_test": len(dt), "slow_rate_test": round(float(dt.slow.mean()), 3), "definition": "slow = latency > 20 s" if c == "maichat" else "slow = latency >= 5 min"}
-    preds = {f"{a}_lat_score": dt[f"lat_{a}"] for a in ("P1", "P2", "P3")}
-    preds |= {f"{a}_not_fast": 1 - dt[f"fast_{a}"] for a in ("P1", "P2", "P3")}
-    preds["code_partner_latency(mirror)"] = dt.pt_lat_f
-    preds["code_own_median_latency"] = dt.own_llat_f
-    for nm, cols in (("code_logit", LC[:-1]), ("jev_logit", LJ), ("code+jev_logit", LC[:-1] + LJ)):
-        m = LogisticRegression(max_iter=2000).fit(dd[cols], dd.slow)
-        preds[nm] = pd.Series(m.predict_proba(dt[cols])[:, 1], index=dt.index)
-    for nm, p in preds.items():
-        d = dt.assign(p=p.values)
-        pt, lo, hi = boot_ci(d, lambda x: roc_auc_score(x.slow, x.p) if x.slow.nunique() > 1 else np.nan, n=400)
-        rho = stats.spearmanr(d.p, d.lat)[0]
-        blk[nm] = {"auc_slow": [round(pt, 3), round(lo, 3), round(hi, 3)], "rho_latency": round(float(rho), 3)}
-    res["lat"][c] = blk
-    print("LAT", c, {k: v for k, v in blk.items() if isinstance(v, dict)}, flush=True)
-
-# multi-bubble "fast reply" link: in maichat, fast replies are more fragmented (report 01) -> check on sample
 dump(res, "b2_nb_results.json")
 keep = ["corpus", "split", "conv_id", "y", "chars", "text"]
 pt = R[R.split == "test"][keep].copy()
-for k in ("T1", "T2", "T3", "T4", "T5", "T6", "C_len_table", "T7_ordinal_code+jev", "C_ordinal_alldev"):
+for k in ("T1", "T2", "T3", "T4", "C_len_table", "T7_ordinal_code+jev", "C_ordinal_alldev"):
     pt[k + "_exp"] = (PT[k][(R.split == "test").values] @ KS).round(2)
 pt.to_csv(os.path.join(OUT, "b2_nb_preds_test.csv.gz"), index=False)
 print("done")

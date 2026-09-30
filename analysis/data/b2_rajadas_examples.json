@@ -1,0 +1,773 @@
+{
+ "defensive_serious_R3": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 10,
+   "context": "comforting_supporting",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"ja maar ik vind het stom dat ik in [REMOVED] bv iedereen aan het huilen heb gemaakt\", \"En ik kan er gewoon nog steeds niet bij dat dat geld weg is, ik bedoel als het gejat is\", \"En dan dat gedoe met die fiets vannacht\", \"En sowieso gaat het de laatste tijd ook niet hel",
+   "rajada": [
+    "Ja ach ja, dat soort dagen heb je soms ;) ik kan ook heel fel over komen! En ik moet zeggen dat ik vandaag ook gewoon heel moe was ;)",
+    "Ben..",
+    "Ja ik ook niet",
+    "Daarom moest ik ook wel een beetje huilen",
+    "Want ik heb het verkeerd gedaan als penningmeester",
+    "M'n perfectionisme komt om de hoek kijken",
+    "Ik vind het voorla gewoon heel stom van mezelf",
+    "Ja snap ik",
+    "O maar kut joh, dat het thuis niet goed gaat!",
+    "Thuis thuis of in [REMOVED]?",
+    "Voorla 〓 vooral, btw"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Ja maar misschien kun je er wel helemaal niets aan doen dat het weg is! dus je moet het echt niet zien als jouw persoonlijke fout! En al het andere klopt toch gewoon, dat is superfijn!\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "reassures_comforts",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "maichat",
+   "bubbles_in_60s": 3,
+   "context": "venting_complaining",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"I think you are lying to me\"]}",
+   "rajada": [
+    "Okay u got me ",
+    "ph may god ",
+    "IT DEKETED MY MESSAGE",
+    "IM SO ANNOYED "
+   ],
+   "defense_type": "caught_in_lie",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"omg that is so flop\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 4.4
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 10,
+   "context": "storytelling",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Haha loog m\", \"?\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "Haha",
+    "Ja",
+    "Conducteur broeg:",
+    "Wat heb je ervoor betaald",
+    "Hij:[REMOVED]",
+    "Conducteur: pin of contant",
+    "Hij: pin",
+    "Conducteur:",
+    "Welke bank zit je?",
+    "Hij: ing",
+    "Cond. : o, dan kun je het op je tel laten zien",
+    "Hij: o, ik heb toch contant betaald"
+   ],
+   "defense_type": "caught_in_lie",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Hahaha wat do.\", \"replied\": \"within the hour\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "answering_info",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Hm dat van het begrip kan wel weg hoor ;)\", \"Maar!!\", \"Alle mailadressen moeten in de bcc he\", \"Nooit in de to want dat is prive\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "JA KAK",
+    "Ik heb hem al verstuurd",
+    "Op die manier",
+    "De eerste",
+    "Godver de godver"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Oh boy\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "short_ack",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "logistics_planning",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Onzin\", \"Ja\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Ach jongeb",
+    "Google maps zei omdraaien",
+    "Oke",
+    "Nou gaat lekker",
+    "Ik loop zo nog langs t gymnasion"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Andere kant op\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "venting_complaining",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Hhmmm...heb je een spatie in de target variabele?\"], \"replied\": \"within the hour\"}",
+   "rajada": [
+    "Ja..",
+    "Heb die maar even overgeslagen en ben doorgegaan naar correlatieve maar daar loop ik natuurlijk ook weer vast...",
+    "Ik heb het idee dat ik aantekeningen kwijt ben..",
+    "Weet zeker van dingen dat ik die op heb geschreven maar vind het bergen terug..",
+    "Zoals wanneer nou er sprake is van correlatie en hoe je dat rapporteert"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Volgens mij is er voor correlatie geen specifieke manier van rapporteren...er is correlatie of niet...\", \"replied\": \"within the hour\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  }
+ ],
+ "playful_accusation_R3": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 9,
+   "context": "storytelling",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Wel he xd\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Aaaah",
+    "Mijn jas is gewoon nog steeds nat",
+    "Gistermiddag",
+    "[REMOVED] uur ofzo",
+    "Toen vertrokken leo en ik van de uni",
+    "Ik wilde nog in de refter wachten tot half zes want dan zou het droog zijn",
+    "Maar het regende niet keihard en leo vond het onzin",
+    "Mijn humeur was al ergens rond de [REMOVED]",
+    "fietsen we daar bij heyendaal",
+    "Begint het een partij te hozen",
+    "[REMOVED] pakt doodleuk haar paraplu",
+    "(moest ik dus nog op wachten ook, in de regen)",
+    "nou en toen ging het pas echt hard",
+    "Alsof ik onder een waterval stond",
+    "Be la che lijk",
+    "Zo",
+    "Toen was ik dus echt helemaal doorweekt",
+    "En ongekend chagrijnig :p",
+    "[REMOVED] had me nog nooit zo woest gezien zei ze haha",
+    "Maar dat mijn jas nog steeds nat is illustreert hoe erg ik er aan toe was"
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Aaaaaaaaah wat erg! Ooo ik heb medelijden Ben wel benieuwd hoe woest je dan was haha\", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "asks_follow_up",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "banter_joking",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Maar binnenband gelukkig.niet helemaal afgescheurd, maar kruisband we gescheurd dus operatie plannen en dan [REMOVED] maanden revalideren, fissa\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Althans.. Waar is dat ding?",
+    "Aah, kak!",
+    "Da's mooi balen!",
+    "Maar waar is je agenda?",
+    "O wacht. In je schooltas "
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Haha jaa thanks\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "short_ack",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 8,
+   "context": "reacting_surprise",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"En hij klopt\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    " Huh ",
+    " Wtf ",
+    " <‎afbeelding weggelaten> ",
+    " Nope ",
+    " Mijne is dood ",
+    " [REMOVED] dood ",
+    " Ofja ",
+    " Hij beweegt niet "
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Bij mijn wel Naja\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  }
+ ],
+ "excitement_news_R5": [
+  {
+   "corpus": "maichat",
+   "bubbles_in_60s": 5,
+   "context": "excitement_news",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Which is sad\", \"cause it would be fun\"]}",
+   "rajada": [
+    "honestly dream flat ",
+    "you ",
+    "morven ",
+    "willl ",
+    "Minh Hao "
+   ],
+   "defense_type": "not_defensive",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Sorry I have to keep refreshing the page\"}",
+   "partner_reaction": "changes_topic",
+   "gap_med_s": 3.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 6,
+   "context": "excitement_news",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Haha nee, ik zal het zo even uitrekenen :p\", \"Okee nu dus\"], \"replied\": \"a few minutes later\"}",
+   "rajada": [
+    "Ooooooh",
+    "[REMOVED]",
+    "[REMOVED]!",
+    "ik kom er net achter dat ik minder moet leren dan ik dacht",
+    "aaaaaah",
+    "Ik ben gelukkig"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Jeeeeeej! Vet vet vet Bij ons in de groepswhatsapp roepen ze allemaal dingen die ik helemaal niet ken Dus ik heb massieve paniek (verwarring) op dit moment\", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "matches_energy",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "maichat",
+   "bubbles_in_60s": 5,
+   "context": "excitement_news",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"yay! the babys was so cute pahah\"]}",
+   "rajada": [
+    "It was!! ",
+    "Although its hands must have hurt",
+    "Ahhhh the rugby!!!",
+    "Wooooooo",
+    "Wooooooooooooo"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"awww pahaha imagine having to clean it up\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 6.1
+  }
+ ],
+ "storytelling_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 6,
+   "context": "storytelling",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"\", \"Waarom?\"], \"replied\": \"a few minutes later\"}",
+   "rajada": [
+    "Ja",
+    "Honger haha",
+    "En mitchel",
+    "Ik was gister met die cobo even wat gaan drinken met chris, vera N en sonja",
+    "We zijn echt maar een kleine [REMOVED] kwartier weggeweest",
+    "En toen we terugwaren was mitchel er",
+    "Ik ben zelfs met hem gaan praten, goed he haha",
+    "Maargoed",
+    "Toen zag ik later, toen hij weer weg was, dat hij me had geappt toen ik er niet was",
+    "Toch niet naar de gsv vanavond?",
+    "Dus ik had thuis even gereageerd en we hebben niet zo lang geappt hoor aangezien ik wilde slapen inmiddels",
+    "Maar het was gewoon gezellig",
+    "Incl 'X' van mij en 'Xx' van hem haha",
+    "Maar veel te verwarrend",
+    "Hij moet me gewoon niet appen",
+    "En niet in zijn SOFvpak bij me in de buurt komen"
+   ],
+   "defense_type": "caught_in_lie",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Haha Ja maar niet praten is ook niet goed Niets is goed:( Hoe laat was je thuis dan ?\", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "asks_follow_up",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "storytelling",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Haha uitslaper jij\", \"In de stad met mama\", \"[REMOVED]\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Nee",
+    "Was om [REMOVED] wakker",
+    "Maar dacht dat je nog sliep dus ik deed rustig.",
+    "Tot ik boven keek en niemand zag.",
+    "Dus dacht .. Ah die slapen nog boven...."
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Hahaha Nee ik ben zelfs al naar fitness geweest ;)\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "maichat",
+   "bubbles_in_60s": 5,
+   "context": "storytelling",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"hahahaha <3\"]}",
+   "rajada": [
+    "i'm just a lil dumb round the edges ",
+    "ok yeah i do remember it ",
+    "the only like \"themed\" parties i went to were like",
+    "my friends decided they wanted to do like a \"ball de promo\" which is like prom or homecoming or whatever you want to call it",
+    "but they wanted to do it when we were still like in seconde ",
+    "so like 3 years before the end of highschool ",
+    "or 2 idk ",
+    "but it was really fun we all dressed up in suits and the fem presenting were all summer dresses ",
+    "it was so much fun "
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"I'll bring it when I come visit\"}",
+   "partner_reaction": "changes_topic",
+   "gap_med_s": 24.1
+  }
+ ],
+ "gossip_third_party_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "gossip_third_party",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Neee 😭 hier staat [REMOVED] o\", \"De mannen h\", \"Mis ik iets\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "O haha tuurlijk du",
+    "Nou is een meisje uit brunssum bij!",
+    "[REMOVED] jaar, donke",
+    "[REMOVED] heet z",
+    "Bij de laatste [REMOVED] zit ze!"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Owww ben benieuw Goed ook\", \"replied\": \"within the hour\"}",
+   "partner_reaction": "short_ack",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 6,
+   "context": "gossip_third_party",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Wilde graag oorlogscorrespondent worden maar kon niet tegen wijzigingen\", \"👍\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    " Hahahaha ",
+    " Topcarrière ",
+    " Ik had ook een oorlogsfanaat in mn klas ",
+    " [REMOVED] ",
+    " Was ook een erg gelovig mannetje ",
+    " Leek me ook niet een geweldige combi ",
+    " Hij werkt nu geloof ik ergens in [REMOVED]. Qua oorlogsgebied dus wel geslaagd. "
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"HAHA Hahaha [REMOVED].. De provincie die ze beter weer kunnen laten zinken\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "gossip_third_party",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Ze zegt normaal ook bijna niks\", \"Wat zou er gebeuren als [REMOVED] en [REMOVED] samen mondeling hebben?\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "Nee maar nu was t echt vervelend",
+    "Maarja",
+    "Hahaha",
+    "Ik denk dat lieke wel veel praat bij zoiets hoor",
+    "Zij oogt niet heel verlegen"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Nou ze praat ook best weinig Bij de intro liep ik met ze over die markt en toen was ik de hele tijd aan het praten en zij zeiden niks.\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  }
+ ],
+ "anxiety_insecurity_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "anxiety_insecurity",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Ja precies\", \"Je moet je niet schuldig voelen willy!\", \"Oh boy wij moeten echt zo keihard bijpraten!\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Ja ik weet niet",
+    "Misschien..",
+    "Nee",
+    "Ik weet niet",
+    "Ik ben echt super in de war"
+   ],
+   "defense_type": "not_defensive",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Over wat je van hem wilt?\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "asks_follow_up",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "anxiety_insecurity",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Precies... Weet jij of er bij een t-test tabellen of grafieken gerapporteerd worden?😬\"], \"replied\": \"within the hour\"}",
+   "rajada": [
+    "Haha dat is die vraag na de test uitvoeren hè?",
+    "Ik heb daar gewoon mijn eigen mening gegeven volgens mij vraagt ze waarom jij wel of niet een grafieknof tabel zou gebruiken bij jouw resultaat van e test",
+    "Ik weet niet of je iets uit had?",
+    "Ik dus niet dus ik heb gezegd dat ik niks zou gebruiken, maar of dat goed is...",
+    "Waah begin weer aan alles te twijfelen!"
+   ],
+   "defense_type": "misunderstanding_clarification",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"😬 Ga nu testen zo...\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "changes_topic",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "anxiety_insecurity",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Prima\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    " Oke wij gaan hard door ",
+    " Kom huisdieren ",
+    " Hierheen ",
+    " Please ",
+    " Kom nu ",
+    " Ik ben bang ",
+    " Het gaat niet goed ",
+    " Broer van [REMOVED] probeert vanalles ",
+    " Ik word er echt naar van ",
+    " Wij zijn de enige die nog wakker zijn "
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Kom er aan\", \"replied\": \"within the hour\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 60.0
+  }
+ ],
+ "arguing_accusing_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "arguing_accusing",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Jah...why?\"], \"replied\": \"a few minutes later\"}",
+   "rajada": [
+    "Nou ik heb ten eerste echt niet genoeg aan [REMOVED] woorden",
+    "Ligt dat alweer aan mij?",
+    "En heb jij wat gedaan met zo'n methode benoemen en informatie over de auteurs opzoeken?",
+    "Ik snap echt niet wat voor een methode die gebruiken enzo",
+    "Of wat hun stelling is zoals bij de eerste opdracht"
+   ],
+   "defense_type": "criticized_for_behavior",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Volgens mij heb ik dat niet echt gedaan...heb wel gezegd dat er kritiek is op de methode van lulofs...weer niet meer wie..Gerritsen volgens mij..toen hen ik iets over de methode gezegd...\", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "arguing_accusing",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Haha\", \"Ja ik weet niet\", \"Ik heb denk ik gewoon even een hele duidelijke afwijzing nodig om niet alles weer multi-interpretabel op te vatten :p\", \"En dan houd ik op met zeuren\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Haha",
+    "Ja maar als jullie gisteren niet met elkaar hadden gepraat, dan was dat ook niet goed geweest",
+    "En",
+    "In principe heb je die afwijzing toch gehad?",
+    "Je maakt het alleen maar moeilijk voor jezelf door alles te gaan multi-interpreteren"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Ja maar dat appen was gewoon stom :p\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 6,
+   "context": "arguing_accusing",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Negeren\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Gedaan",
+    "Maar dat is gewoon niet leuk communiceren",
+    "Of ligt het aan mij dat ik dit stom vind?",
+    "Bijna weg?",
+    "Hoe ga je het doen?",
+    "Fets",
+    "Je beltik",
+    "Mij",
+    "Tijdens fietsen?",
+    "Drol"
+   ],
+   "defense_type": "criticized_for_behavior",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Nee snap het! Haha auto ga ik pop Bijna weg\", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  }
+ ],
+ "banter_joking_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 8,
+   "context": "banter_joking",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Ach avh\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "Tja",
+    "Dus",
+    "...",
+    "Zodoende",
+    "Helaas",
+    "Jammer dan",
+    "He",
+    "Ik verveel me niet ofzo"
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Hahaha Duts\", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "banter_joking",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Ja das een beetje onhandig\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "Ja nou hij lost het wel o",
+    "Op",
+    "Jouw ouders betalen je vakantie",
+    "Dat is pas relaxed",
+    "Ga je nog een lekkere griek aan de haak slaan"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Ja zij vroegen of ik meeging. Nee niet mijn types. Maar er zijn veel scandinaviërs daar\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 7,
+   "context": "banter_joking",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Je hoeft niet per se mee te zingen hoor\", \"Want dat is iets minder f*cking awesome\"]}",
+   "rajada": [
+    "",
+    "Im gonna pop some tags",
+    "Only got [REMOVED] dollars in my pocket",
+    "I i im hunting",
+    "Looking for a dollar",
+    "This is facking awesomeee",
+    "😎"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"😑\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "short_ack",
+   "gap_med_s": 0.0
+  }
+ ],
+ "logistics_planning_R5": [
+  {
+   "corpus": "maichat",
+   "bubbles_in_60s": 7,
+   "context": "logistics_planning",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"praying for them\", \"elena defo has choc\", \"hidden in her room\"]}",
+   "rajada": [
+    "back now ",
+    "they were fine ",
+    "phew! ",
+    "only 25 mins of hard work ",
+    "do you think shes up yet ",
+    "she NEEDS the sleep tbf ",
+    "i say let her sleep as long as possible "
+   ],
+   "defense_type": "not_defensive",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"i think i heard someone\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 5.4
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "logistics_planning",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Zoals jij dus haha\", \"Nee we kunnen ook bruschetta maken\", \"Van die getoaste sneetjes ciabatta met tomaat en pesto en basilicum\", \"Weet alleen niet in hoeverre daar lactose in zit..\", \"Oh en we hebben iemand die allergisch is voor wit brood ofzo\"], \"replied\": \"a few mi",
+   "rajada": [
+    "Oooh, maar dat moet wel lukken",
+    "En ja, haha",
+    "Wat is dat nu weer voor een allergie dan",
+    "?",
+    "We kunnen ook super lekkere soep maken?"
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Ja dat kan ook Is niet typisch itialiaans dan, maar ach\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 7,
+   "context": "logistics_planning",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Denk ik\", \"Kan ol beter nu kappet\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Filiaal vN deouders van mn buren",
+    "Ja gewoon doen pop!",
+    "Ik fiets vanafstationenzo",
+    "En dan ga ik wel wammes epelen",
+    "Gewoon gaan pop!",
+    "O ik kan wel even langs stad dan nu joh!",
+    "Even actuon"
+   ],
+   "defense_type": "playful_accusation",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Top\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "short_ack",
+   "gap_med_s": 0.0
+  }
+ ],
+ "venting_complaining_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "venting_complaining",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Ja en het was s middags gewoon uitvoerig besproken!\", \"en dan spreekt hij leo daar op aan\", \"Die al omliep van vermoeidheid\", \"En tegen chris had hij ook nogal raar gedaan\", \"Bah ik was echt zo boos\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "Jaa precies! :o superflauw",
+    "Ja ook met het maken",
+    "'Hij was geen mentorpapa'",
+    "Doe niet zo moeilijk",
+    "En echt flauw dat hij hen daar daN op aanspreekt"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Ja en dan ook met dat presenteren nog zeggen Maareigenlijkwashijgeenmentorpapameer! Hij nam gewoon die hele mentorenquiz over En dan zei hij ook nog tegen leo dat zij de regie van hem overnam Ik kan me niet herinneren dat hem de regie uberhaupt was toebedeeld :p\", \"replied\"",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "venting_complaining",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Haha ooh sorry señorita. Mooizo, beter ben je weg van hier. Serieus sinds de dag dat wij terug zijn iedere dag een stortbui. Maar [REMOVED] was heerlijk :)\"], \"replied\": \"a few minutes later\"}",
+   "rajada": [
+    "Ja ik had ook nog een paar van die stortbuien meegemaakt. Hier regende het net ook een klein beetje, maar is in ieder geval warm!",
+    "Goedzo, wanneer ben je terug gekomen?",
+    "Wij kwamen eergisteravond aan he, en we gingen hostel zoeken",
+    "En het was echt zo'n red mijn vakantie-hostel maar dan erger. Een langwerpige kamer met bedden zodat je met je voeten naar elkaar toe moest slapen",
+    "En vies en het stonk"
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Ooh echt? Ooooh bahh\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "short_ack",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "venting_complaining",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Tuin tafel ook al kapot\", \"Het escaleerd\", \"[REMOVED] moeilijk pissig. Hij kan het niet hendelen\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    " Mongool ",
+    " [REMOVED] dan he ",
+    " Jezus ",
+    " Clubweekend staat gelijk aan zuipen en slopen ",
+    " Als je maar ongedeerd blijft "
+   ],
+   "defense_type": "not_defensive(no cascade)",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Ja idd Ik wel hoor. Alleen dikke kater\", \"replied\": \"within a minute\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  }
+ ],
+ "self_correction_clarifying_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 6,
+   "context": "self_correction_clarifying",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Jep\", \"Hoelaat komt je trein aan in sittard\"], \"replied\": \"a few minutes later\"}",
+   "rajada": [
+    "Ben al in [REMOVED]! Maar denk dat t niet gaat lukken.. Moet nog eten 😒 en heb echt honger dus kan ook niet slippe",
+    "Slippen bedoel ik ",
+    "Nou die  domme aanvullin",
+    "Waaaaaa",
+    "SKIPPEN bedoel i",
+    "Sorry ff frustratie ",
+    "Boh ik heb een buschauffeur, zit helemaal mee te swingen en zingen whah"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Wahahah ocherm, nee zeker logisch en anders ligt dat ook op je maag Hahahah geweldi Moet je morgen weer vroeg\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "maichat",
+   "bubbles_in_60s": 7,
+   "context": "self_correction_clarifying",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"That sounds like so much fun\", \"I really really want to have a party where everyone gets super dressed up\", \"Okay\", \"when I move back to edi and you have a flat with Will and stuff we could probably actually do it\", \"cause it will never happen in Kitchener\"]}",
+   "rajada": [
+    "yeah no it deffo won't ever happen here ",
+    "especially not now that all the cool people are gone",
+    "but yeah ",
+    "i kinda forgot i was getting a flat with will next year",
+    "like for some reason in my head i was getting a flat with morven ",
+    "but ",
+    "just yeah",
+    "my brain is not all there today "
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Which is sad cause it would be fun\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 8.8
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 5,
+   "context": "self_correction_clarifying",
+   "partner_before": "{\"speaker\": \"B\", \"messages\": [\"Zeker! Is deze analyse trouwens goed?\", \"<Media weggelaten>\"], \"replied\": \"about a minute later\"}",
+   "rajada": [
+    "<Media weggelaten>",
+    "\"Was en mooi van gestalte\" is niks",
+    "\"Die mooi was\" hoort bij elkaar",
+    "Tenminste, dat zou ik denken",
+    "Oh btw ik ergeet de woorden"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"B\", \"text\": \"Oke dat klopt ja! Die mooi was\", \"replied\": \"about a minute later\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  }
+ ],
+ "apologizing_R5": [
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 12,
+   "context": "apologizing",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Willieee niet onze eetdate vergeten he ;)\"]}",
+   "rajada": [
+    "O gawd",
+    "",
+    "Noooo",
+    "Mijn huisgenootje en ik gaan eten! En ik heb al keilang niet meer met haar gegeten",
+    "Tenminste",
+    "Gaan eten is groot",
+    ":(",
+    "Shit shit shit",
+    "Ik ben een grote hoop chaos",
+    "Is het heel erg als ik niet kom? :$ ik heb haar al keilang niet meer goed gesproken",
+    "Het spijt me echt heel erg",
+    "ik kan wel door de grond zakken",
+    "Ik maak het morgen goed! Promiss!"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Ooonooooo Dat wordt een eenzame reftermaaltijd \", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "laughs_along",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 6,
+   "context": "apologizing",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"[REMOVED]\", \"over de mail\", \"Nu lijkt het net of de borrel gratis is\", \"Maar alleen het eten is maar gratis :(\", \"Misschien moeten we dat wel even verduidelijken\", \"Op het fb-event ofzo\", \"Of een tweede mail\", \"Zo van NB het eten is gratis en het drinken niet\", \"Maar d",
+   "rajada": [
+    "Ooo sorry",
+    "Ja",
+    "Kut",
+    ":(",
+    "Zal ik een event maken dan?",
+    "Ja sorry"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"Nee ik bedoelde het studiereisevent Maar even mailen lijkt me beter\", \"replied\": \"a few minutes later\"}",
+   "partner_reaction": "engages_content",
+   "gap_med_s": 0.0
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "bubbles_in_60s": 7,
+   "context": "apologizing",
+   "partner_before": "{\"speaker\": \"A\", \"messages\": [\"Als studiereisseccie\"], \"replied\": \"within a minute\"}",
+   "rajada": [
+    "Ik ga nu ongeveer terug duss",
+    "Ja nee ik snap het",
+    "Hahaha",
+    "Sorry",
+    "Echrt helemaal niet aan gedacht",
+    "Koooomt goed",
+    "Had ik straks ook kunnen doen haha xd",
+    "Sorrryyy"
+   ],
+   "defense_type": "caught_in_mistake_or_forgetting",
+   "partner_after": "{\"speaker\": \"A\", \"text\": \"[REMOVED] over de mail Nu lijkt het net of de borrel gratis is Maar alleen het eten is maar gratis :( Misschien moeten we dat wel even verduidelijken Op het fb-event ofzo Of een tweede mail Zo van NB het eten is gratis en het drinken niet Maar dan aardig verwoord\", \"replied",
+   "partner_reaction": "changes_topic",
+   "gap_med_s": 0.0
+  }
+ ]
+}
