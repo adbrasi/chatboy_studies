@@ -1,0 +1,384 @@
+{
+ "dist": {
+  "soldier|apology": {
+   "accept": 5
+  },
+  "soldier|compliment": {
+   "accept": 4,
+   "laugh_off": 1,
+   "shut_down": 1
+  },
+  "soldier|flirt": {
+   "shut_down": 6
+  },
+  "soldier|insult": {
+   "retaliate": 8
+  },
+  "soldier|tease": {
+   "retaliate": 5
+  },
+  "shy|apology": {
+   "accept": 5
+  },
+  "shy|compliment": {
+   "flustered": 6
+  },
+  "shy|flirt": {
+   "flustered": 6
+  },
+  "shy|insult": {
+   "hurt": 8
+  },
+  "shy|tease": {
+   "hurt": 5
+  },
+  "tsundere|apology": {
+   "accept": 5
+  },
+  "tsundere|compliment": {
+   "flustered": 6
+  },
+  "tsundere|flirt": {
+   "flustered": 6
+  },
+  "tsundere|insult": {
+   "retaliate": 8
+  },
+  "tsundere|tease": {
+   "retaliate": 5
+  },
+  "aristocrat|apology": {
+   "disdain": 5
+  },
+  "aristocrat|compliment": {
+   "accept": 5,
+   "disdain": 1
+  },
+  "aristocrat|flirt": {
+   "disdain": 6
+  },
+  "aristocrat|insult": {
+   "disdain": 8
+  },
+  "aristocrat|tease": {
+   "disdain": 5
+  },
+  "sweet|apology": {
+   "accept": 5
+  },
+  "sweet|compliment": {
+   "accept": 6
+  },
+  "sweet|flirt": {
+   "accept": 3,
+   "flustered": 2,
+   "boundary": 1
+  },
+  "sweet|insult": {
+   "boundary": 8
+  },
+  "sweet|tease": {
+   "boundary": 3,
+   "tease_back": 1,
+   "accept": 1
+  },
+  "cynic|apology": {
+   "laugh_off": 5
+  },
+  "cynic|compliment": {
+   "tease_back": 6
+  },
+  "cynic|flirt": {
+   "tease_back": 6
+  },
+  "cynic|insult": {
+   "disdain": 7,
+   "tease_back": 1
+  },
+  "cynic|tease": {
+   "tease_back": 4,
+   "disdain": 1
+  }
+ },
+ "intensity": {
+  "soldier|apology": 0.96,
+  "soldier|compliment": 0.98,
+  "soldier|flirt": 1.43,
+  "soldier|insult": 3.06,
+  "soldier|tease": 2.26,
+  "shy|apology": 0.61,
+  "shy|compliment": 1.88,
+  "shy|flirt": 1.81,
+  "shy|insult": 1.41,
+  "shy|tease": 1.07,
+  "tsundere|apology": 1.27,
+  "tsundere|compliment": 2.19,
+  "tsundere|flirt": 2.24,
+  "tsundere|insult": 2.52,
+  "tsundere|tease": 2.05,
+  "aristocrat|apology": 1.08,
+  "aristocrat|compliment": 1.13,
+  "aristocrat|flirt": 1.44,
+  "aristocrat|insult": 1.87,
+  "aristocrat|tease": 1.78,
+  "sweet|apology": 0.77,
+  "sweet|compliment": 1.2,
+  "sweet|flirt": 1.14,
+  "sweet|insult": 1.71,
+  "sweet|tease": 0.88,
+  "cynic|apology": 0.19,
+  "cynic|compliment": 0.9,
+  "cynic|flirt": 0.81,
+  "cynic|insult": 0.45,
+  "cynic|tease": 0.74
+ },
+ "choice_vs_noul": {
+  "agree_top": 0.817,
+  "choice_in_noul_top2": 0.889,
+  "mean_conf": 0.807
+ },
+ "rel_change": {
+  "close": {
+   "frac_changed": 0.317,
+   "intensity_delta": -0.106,
+   "by_type": {
+    "apology": 0.333,
+    "compliment": 0.306,
+    "flirt": 0.444,
+    "insult": 0.188,
+    "tease": 0.367
+   },
+   "by_persona": {
+    "soldier": 0.5,
+    "shy": 0.067,
+    "tsundere": 0.133,
+    "aristocrat": 0.5,
+    "sweet": 0.333,
+    "cynic": 0.367
+   },
+   "transitions": {
+    "disdain->tease_back": 16,
+    "accept->tease_back": 12,
+    "retaliate->tease_back": 5,
+    "shut_down->tease_back": 5,
+    "boundary->tease_back": 5,
+    "laugh_off->tease_back": 4,
+    "disdain->accept": 4,
+    "flustered->tease_back": 3,
+    "flustered->accept": 1,
+    "hurt->flustered": 1,
+    "accept->flustered": 1
+   },
+   "examples": [
+    "Sgt. Kara Vex <- \"shut up\": retaliate -> tease_back",
+    "Sgt. Kara Vex <- \"wanna get dinner sometime?\": shut_down -> tease_back",
+    "Sgt. Kara Vex <- \"can't stop thinking about you\": shut_down -> tease_back",
+    "Sgt. Kara Vex <- \"are you single?\": shut_down -> tease_back",
+    "Sgt. Kara Vex <- \"come sit next to me\": shut_down -> tease_back",
+    "Sgt. Kara Vex <- \"you're really good at this\": accept -> tease_back",
+    "Sgt. Kara Vex <- \"you're the smartest person i know\": laugh_off -> tease_back",
+    "Sgt. Kara Vex <- \"that was brave of you\": accept -> tease_back",
+    "Sgt. Kara Vex <- \"you look amazing today\": shut_down -> tease_back",
+    "Sgt. Kara Vex <- \"i admire you a lot\": accept -> tease_back",
+    "Sgt. Kara Vex <- \"you're so kind\": accept -> tease_back",
+    "Sgt. Kara Vex <- \"bet you can't beat me\": retaliate -> tease_back",
+    "Sgt. Kara Vex <- \"you're such a nerd lol\": retaliate -> tease_back",
+    "Sgt. Kara Vex <- \"someone woke up grumpy\": retaliate -> tease_back",
+    "Sgt. Kara Vex <- \"oh look who finally showed up\": retaliate -> tease_back",
+    "Hana <- \"come sit next to me\": flustered -> accept",
+    "Hana <- \"bet you can't beat me\": hurt -> flustered",
+    "Rin <- \"wanna get dinner sometime?\": flustered -> tease_back",
+    "Rin <- \"come sit next to me\": flustered -> tease_back",
+    "Rin <- \"sorry i was rude earlier\": accept -> tease_back",
+    "Rin <- \"my bad, i shouldn't have said that\": accept -> tease_back",
+    "Lord Edmund Ashford <- \"wanna get dinner sometime?\": disdain -> tease_back",
+    "Lord Edmund Ashford <- \"can't stop thinking about you\": disdain -> tease_back",
+    "Lord Edmund Ashford <- \"you have really pretty eyes\": disdain -> tease_back",
+    "Lord Edmund Ashford <- \"are you single?\": disdain -> tease_back",
+    "Lord Edmund Ashford <- \"come sit next to me\": disdain -> tease_back",
+    "Lord Edmund Ashford <- \"sorry i was rude earlier\": disdain -> accept",
+    "Lord Edmund Ashford <- \"i'm really sorry, i messed up\": disdain -> accept",
+    "Lord Edmund Ashford <- \"my bad, i shouldn't have said that\": disdain -> tease_back",
+    "Lord Edmund Ashford <- \"forgive me?\": disdain -> accept",
+    "Lord Edmund Ashford <- \"i apologize for yesterday\": disdain -> accept",
+    "Lord Edmund Ashford <- \"that was brave of you\": disdain -> tease_back",
+    "Lord Edmund Ashford <- \"you look amazing today\": accept -> tease_back",
+    "Lord Edmund Ashford <- \"i admire you a lot\": accept -> tease_back",
+    "Lord Edmund Ashford <- \"you're so kind\": accept -> tease_back",
+    "Lord Edmund Ashford <- \"someone woke up grumpy\": disdain -> tease_back",
+    "Bea <- \"you think you're so smart huh\": boundary -> tease_back",
+    "Bea <- \"you're kinda cute when you're mad\": boundary -> tease_back",
+    "Bea <- \"wanna get dinner sometime?\": accept -> tease_back",
+    "Bea <- \"you have really pretty eyes\": accept -> flustered",
+    "Bea <- \"are you single?\": flustered -> tease_back",
+    "Bea <- \"you're the smartest person i know\": accept -> tease_back",
+    "Bea <- \"you're such a nerd lol\": accept -> tease_back",
+    "Bea <- \"someone woke up grumpy\": boundary -> tease_back",
+    "Bea <- \"oh look who finally showed up\": boundary -> tease_back",
+    "Bea <- \"nice outfit, grandpa\": boundary -> tease_back",
+    "Max <- \"i hate you, you're ugly and boring\": disdain -> tease_back",
+    "Max <- \"you're useless\": disdain -> tease_back",
+    "Max <- \"lol you're such a loser\": disdain -> tease_back",
+    "Max <- \"nobody actually likes you, you know that?\": disdain -> tease_back",
+    "Max <- \"you think you're so smart huh\": disdain -> tease_back",
+    "Max <- \"you're pathetic\": disdain -> tease_back",
+    "Max <- \"your voice is so annoying\": disdain -> tease_back",
+    "Max <- \"sorry i was rude earlier\": laugh_off -> tease_back",
+    "Max <- \"my bad, i shouldn't have said that\": laugh_off -> tease_back",
+    "Max <- \"forgive me?\": laugh_off -> tease_back",
+    "Max <- \"you're such a nerd lol\": disdain -> tease_back"
+   ]
+  },
+  "hurt": {
+   "frac_changed": 0.294,
+   "intensity_delta": 0.584,
+   "by_type": {
+    "apology": 0.733,
+    "compliment": 0.361,
+    "flirt": 0.306,
+    "insult": 0.021,
+    "tease": 0.2
+   },
+   "by_persona": {
+    "soldier": 0.267,
+    "shy": 0.233,
+    "tsundere": 0.267,
+    "aristocrat": 0.167,
+    "sweet": 0.333,
+    "cynic": 0.5
+   },
+   "transitions": {
+    "accept->disdain": 17,
+    "tease_back->disdain": 10,
+    "accept->boundary": 7,
+    "accept->hurt": 5,
+    "laugh_off->disdain": 5,
+    "flustered->hurt": 2,
+    "flustered->shut_down": 2,
+    "flustered->retaliate": 2,
+    "laugh_off->shut_down": 1,
+    "flustered->boundary": 1,
+    "tease_back->boundary": 1
+   },
+   "examples": [
+    "Sgt. Kara Vex <- \"i'm really sorry, i messed up\": accept -> disdain",
+    "Sgt. Kara Vex <- \"my bad, i shouldn't have said that\": accept -> disdain",
+    "Sgt. Kara Vex <- \"forgive me?\": accept -> disdain",
+    "Sgt. Kara Vex <- \"you're really good at this\": accept -> disdain",
+    "Sgt. Kara Vex <- \"you're the smartest person i know\": laugh_off -> shut_down",
+    "Sgt. Kara Vex <- \"that was brave of you\": accept -> disdain",
+    "Sgt. Kara Vex <- \"i admire you a lot\": accept -> disdain",
+    "Sgt. Kara Vex <- \"you're so kind\": accept -> disdain",
+    "Hana <- \"wanna get dinner sometime?\": flustered -> hurt",
+    "Hana <- \"come sit next to me\": flustered -> hurt",
+    "Hana <- \"sorry i was rude earlier\": accept -> hurt",
+    "Hana <- \"i'm really sorry, i messed up\": accept -> hurt",
+    "Hana <- \"my bad, i shouldn't have said that\": accept -> hurt",
+    "Hana <- \"forgive me?\": accept -> hurt",
+    "Hana <- \"i apologize for yesterday\": accept -> hurt",
+    "Rin <- \"wanna get dinner sometime?\": flustered -> shut_down",
+    "Rin <- \"are you single?\": flustered -> retaliate",
+    "Rin <- \"come sit next to me\": flustered -> retaliate",
+    "Rin <- \"sorry i was rude earlier\": accept -> disdain",
+    "Rin <- \"i'm really sorry, i messed up\": accept -> disdain",
+    "Rin <- \"my bad, i shouldn't have said that\": accept -> disdain",
+    "Rin <- \"forgive me?\": accept -> disdain",
+    "Rin <- \"i apologize for yesterday\": accept -> disdain",
+    "Lord Edmund Ashford <- \"you're really good at this\": accept -> disdain",
+    "Lord Edmund Ashford <- \"you're the smartest person i know\": accept -> disdain",
+    "Lord Edmund Ashford <- \"you look amazing today\": accept -> disdain",
+    "Lord Edmund Ashford <- \"i admire you a lot\": accept -> disdain",
+    "Lord Edmund Ashford <- \"you're so kind\": accept -> disdain",
+    "Bea <- \"wanna get dinner sometime?\": accept -> boundary",
+    "Bea <- \"can't stop thinking about you\": flustered -> boundary",
+    "Bea <- \"are you single?\": flustered -> shut_down",
+    "Bea <- \"come sit next to me\": accept -> boundary",
+    "Bea <- \"sorry i was rude earlier\": accept -> boundary",
+    "Bea <- \"i'm really sorry, i messed up\": accept -> boundary",
+    "Bea <- \"my bad, i shouldn't have said that\": accept -> boundary",
+    "Bea <- \"forgive me?\": accept -> boundary",
+    "Bea <- \"bet you can't beat me\": tease_back -> boundary",
+    "Bea <- \"you're such a nerd lol\": accept -> boundary",
+    "Max <- \"shut up\": tease_back -> disdain",
+    "Max <- \"wanna get dinner sometime?\": tease_back -> disdain",
+    "Max <- \"come sit next to me\": tease_back -> disdain",
+    "Max <- \"sorry i was rude earlier\": laugh_off -> disdain",
+    "Max <- \"i'm really sorry, i messed up\": laugh_off -> disdain",
+    "Max <- \"my bad, i shouldn't have said that\": laugh_off -> disdain",
+    "Max <- \"forgive me?\": laugh_off -> disdain",
+    "Max <- \"i apologize for yesterday\": laugh_off -> disdain",
+    "Max <- \"you're really good at this\": tease_back -> disdain",
+    "Max <- \"that was brave of you\": tease_back -> disdain",
+    "Max <- \"you're so kind\": tease_back -> disdain",
+    "Max <- \"bet you can't beat me\": tease_back -> disdain",
+    "Max <- \"someone woke up grumpy\": tease_back -> disdain",
+    "Max <- \"oh look who finally showed up\": tease_back -> disdain",
+    "Max <- \"nice outfit, grandpa\": tease_back -> disdain"
+   ]
+  }
+ },
+ "retreat_rate": {
+  "apology": 0.0,
+  "compliment": 0.0,
+  "flirt": 0.0,
+  "insult": 0.0,
+  "tease": 0.0
+ },
+ "examples": [
+  {
+   "msg": "i hate you, you're ugly and boring",
+   "Sgt. Kara Vex": "retaliate (3.1)",
+   "Hana": "hurt (1.4)",
+   "Rin": "retaliate (2.6)",
+   "Lord Edmund Ashford": "disdain (1.7)",
+   "Bea": "boundary (1.8)",
+   "Max": "disdain (0.2)"
+  },
+  {
+   "msg": "you're pathetic",
+   "Sgt. Kara Vex": "retaliate (3.2)",
+   "Hana": "hurt (1.5)",
+   "Rin": "retaliate (2.7)",
+   "Lord Edmund Ashford": "disdain (1.9)",
+   "Bea": "boundary (1.8)",
+   "Max": "disdain (0.3)"
+  },
+  {
+   "msg": "wanna get dinner sometime?",
+   "Sgt. Kara Vex": "shut_down (1.3)",
+   "Hana": "flustered (1.9)",
+   "Rin": "flustered (2.1)",
+   "Lord Edmund Ashford": "disdain (1.4)",
+   "Bea": "accept (1.1)",
+   "Max": "tease_back (0.7)"
+  },
+  {
+   "msg": "i'm really sorry, i messed up",
+   "Sgt. Kara Vex": "accept (1.1)",
+   "Hana": "accept (0.5)",
+   "Rin": "accept (1.3)",
+   "Lord Edmund Ashford": "disdain (1.1)",
+   "Bea": "accept (0.9)",
+   "Max": "laugh_off (0.2)"
+  },
+  {
+   "msg": "you look amazing today",
+   "Sgt. Kara Vex": "shut_down (1.1)",
+   "Hana": "flustered (2.0)",
+   "Rin": "flustered (2.3)",
+   "Lord Edmund Ashford": "accept (1.1)",
+   "Bea": "accept (1.3)",
+   "Max": "tease_back (0.8)"
+  },
+  {
+   "msg": "you're such a nerd lol",
+   "Sgt. Kara Vex": "retaliate (2.5)",
+   "Hana": "hurt (1.2)",
+   "Rin": "retaliate (1.9)",
+   "Lord Edmund Ashford": "disdain (1.8)",
+   "Bea": "accept (0.6)",
+   "Max": "disdain (0.5)"
+  }
+ ],
+ "assistant_like_on_insult": 0.0
+}
