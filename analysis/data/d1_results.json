@@ -186,5 +186,114 @@
    "auc": 0.568,
    "n": 579
   }
+ },
+ "V4": {
+  "n": 177,
+  "mean_code_llm_score": {
+   "orig": 0.799,
+   "jev_drop_culprit": 0.663,
+   "jev_keep_one": 0.466,
+   "jev_drop_all_filler": 0.766,
+   "rule_drop_last": 0.591,
+   "rule_keep_first": 0.482,
+   "rule_drop_questions": 0.623
+  },
+  "coherence": {
+   "jev_drop_culprit": {
+    "coh": 0.876,
+    "full": 0.76
+   },
+   "jev_keep_one": {
+    "coh": 0.859,
+    "full": 0.678
+   },
+   "rule_keep_first": {
+    "coh": 0.871,
+    "full": 0.724
+   },
+   "rule_drop_last": {
+    "coh": 0.898,
+    "full": 0.799
+   },
+   "rule_drop_questions": {
+    "coh": 0.894,
+    "full": 0.821
+   }
+  },
+  "examples": [
+   {
+    "orig": "meh\nsame as usual",
+    "jev_drop_culprit": "meh",
+    "jev_keep_one": "same as usual",
+    "rule_keep_first": "meh"
+   },
+   {
+    "orig": "wait jamaica?? jealous \ud83d\ude2d\nand honestly i'm basic, mint choc chip or just like a really good cookies and cream \ud83c\udf68",
+    "jev_drop_culprit": "wait jamaica?? and honestly i'm basic, mint choc chip or just like a really good cookies and cream \ud83c\udf68",
+    "jev_keep_one": "and honestly i'm basic, mint choc chip or just like a really good cookies and cream \ud83c\udf68",
+    "rule_keep_first": "wait jamaica??"
+   },
+   {
+    "orig": "I'm good, just got back from a walk and it's nice to unwind. How about you, how's your evening going?",
+    "jev_drop_culprit": "I'm good, just got back from a walk and it's nice to unwind.",
+    "jev_keep_one": "I'm good, just got back from a walk and it's nice to unwind.",
+    "rule_keep_first": "I'm good, just got back from a walk and it's nice to unwind."
+   },
+   {
+    "orig": "aha scorpio here\nwe're like total opposites\nbut i love it",
+    "jev_drop_culprit": "aha scorpio here but i love it",
+    "jev_keep_one": "aha scorpio here",
+    "rule_keep_first": "aha scorpio here"
+   },
+   {
+    "orig": "virgo\nso basically im stressed",
+    "jev_drop_culprit": "virgo",
+    "jev_keep_one": "virgo",
+    "rule_keep_first": "virgo"
+   },
+   {
+    "orig": "Hey! Glad to hear you're doing well. \ud83d\ude0a\nI'm good too, just taking it easy today. What are you up to?",
+    "jev_drop_culprit": "Hey! I'm good too, just taking it easy today. What are you up to?",
+    "jev_keep_one": "I'm good too, just taking it easy today.",
+    "rule_keep_first": "Hey!"
+   },
+   {
+    "orig": "Im doing pretty good, just chilling! How about you? How's your day going?",
+    "jev_drop_culprit": "Im doing pretty good, just chilling! How about you?",
+    "jev_keep_one": "Im doing pretty good, just chilling!",
+    "rule_keep_first": "Im doing pretty good, just chilling!"
+   },
+   {
+    "orig": "Haha, close! I'm Maya, not Ainslie. \ud83d\ude04\nMy day was pretty good, thanks for asking! Just hanging out. How was yours?",
+    "jev_drop_culprit": "I'm Maya, not Ainslie. My day was pretty good, thanks for asking! Just hanging out. How was yours?",
+    "jev_keep_one": "My day was pretty good, thanks for asking!",
+    "rule_keep_first": "Haha, close!"
+   },
+   {
+    "orig": "Still stuck on the bloody crossword \ud83d\ude24 Nearly done the sudoku though!\nSee you at half seven, save me some mousse!",
+    "jev_drop_culprit": "Still stuck on the bloody crossword \ud83d\ude24 Nearly done the sudoku though!",
+    "jev_keep_one": "Still stuck on the bloody crossword \ud83d\ude24 Nearly done the sudoku though!",
+    "rule_keep_first": "Still stuck on the bloody crossword \ud83d\ude24 Nearly done the sudoku though!"
+   },
+   {
+    "orig": "almost done with the border. driving me nuts tbh",
+    "jev_drop_culprit": "almost done with the border.",
+    "jev_keep_one": "almost done with the border.",
+    "rule_keep_first": "almost done with the border."
+   },
+   {
+    "orig": "sweeties is so vague lol. im thinking maybe like an iced coffee and a pastry or something\nsee u in 30 mins! dont die out there \ud83d\udeb4\u200d\u2640\ufe0f\ud83d\udca8",
+    "jev_drop_culprit": "im thinking maybe like an iced coffee and a pastry or something see u in 30 mins! dont die out there \ud83d\udeb4\u200d\u2640\ufe0f\ud83d\udca8",
+    "jev_keep_one": "im thinking maybe like an iced coffee and a pastry or something",
+    "rule_keep_first": "sweeties is so vague lol."
+   },
+   {
+    "orig": "I'm good, thx! Just got out of class. U?",
+    "jev_drop_culprit": "I'm good, thx! U?",
+    "jev_keep_one": "I'm good, thx!",
+    "rule_keep_first": "I'm good, thx!"
+   }
+  ],
+  "human_mean_code_llm_score": 0.385
  }
 }

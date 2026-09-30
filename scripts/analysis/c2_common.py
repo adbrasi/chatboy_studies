@@ -96,30 +96,33 @@ EVT_PT = {"apology": "pedido de desculpa", "hurtful_joke": "piada de mau gosto",
 def event_questions(C, U):
     """Jev 1, arquitetura EVT: um Noul por evento (18 Nouls)."""
     q = {
-        "apology": f"In `user_message`, does {U} apologize to {C}?",
-        "hurtful_joke": (f"Does {U} make a joke or teasing remark at {C}'s expense that could genuinely hurt or offend {C} "
-                         f"(mean-spirited, in poor taste, or touching a sensitive topic), rather than friendly banter?"),
-        "insult_criticism": f"Does {U} seriously criticize, insult, blame or belittle {C} in `user_message`?",
-        "promise_made": f"In `user_message`, does {U} promise or commit to doing something for or with {C}?",
-        "promise_kept": f"Does `user_message` show that {U} did something they had promised or planned to do for or with {C}?",
-        "cancel_or_broken_promise": (f"In `user_message`, does {U} cancel plans with {C}, say they cannot come, or admit "
-                                     f"failing to do something they promised {C}?"),
-        "absence_explained": f"In `user_message`, does {U} explain or apologize for having been away or not replying?",
-        "compliment": f"Does {U} compliment, praise or express admiration for {C} in `user_message`?",
-        "vulnerability": f"Does {U} reveal something personal, painful or vulnerable about themselves to {C}?",
-        "other_person_jealousy": (f"Does {U} mention spending time with, being interested in, or getting attention from "
-                                  f"another person in a way that could make {C} jealous?"),
-        "practical_care": (f"Does {U} show everyday care for {C}, e.g. asks if {C} ate, slept or got home safe, wishes {C} "
-                           f"luck, or offers practical help?"),
-        "defensive": f"Is {U} defending or justifying themselves, making excuses, or deflecting blame in `user_message`?",
-        "perceived_lie": (f"Would `user_message` seem dishonest to {C}: an excuse that does not add up, or something that "
-                          f"contradicts what {U} said earlier?"),
-        "dismissive": f"Does {U} dismiss, ignore or brush off {C}'s feelings, question or effort (curt, cold or uninterested)?",
-        "affection_expr": f"Does {U} express affection or love for {C}, or say they miss {C}?",
-        "friendly_tease": f"Does {U} playfully tease {C} or joke around with {C} in a friendly way?",
-        "gratitude": f"Does {U} thank {C} or express appreciation for something {C} did?",
-        "interest_in_char": f"Does {U} ask about {C}'s life, day or feelings with genuine interest?",
+        "apology": f"{U} apologizes to {C}.",
+        "hurtful_joke": (f"{U} makes a joke or teasing remark at {C}'s expense that could genuinely hurt or offend {C} "
+                         f"(mean-spirited, in poor taste, or touching a sensitive topic), rather than friendly banter."),
+        "insult_criticism": f"{U} seriously criticizes, insults, blames or belittles {C}.",
+        "promise_made": f"{U} promises or commits to doing something for or with {C}.",
+        "promise_kept": f"{U} reports having done something they had promised or planned to do for or with {C}.",
+        "cancel_or_broken_promise": (f"{U} cancels plans with {C}, says they cannot come, or admits failing to do "
+                                     f"something they promised {C}."),
+        "absence_explained": f"{U} explains or apologizes for having been away or not replying.",
+        "compliment": f"{U} compliments, praises or expresses admiration for {C}.",
+        "vulnerability": f"{U} reveals something personal, painful or vulnerable about themselves.",
+        "other_person_jealousy": (f"{U} mentions spending time with, being interested in, or getting attention from "
+                                  f"another person in a way that could make {C} jealous."),
+        "practical_care": (f"{U} shows everyday care for {C}: asks if {C} ate, slept or got home safe, wishes {C} "
+                           f"luck, or offers practical help."),
+        "defensive": f"{U} defends or justifies themselves, makes excuses, or deflects blame.",
+        "perceived_lie": (f"{U} gives an excuse that does not add up or says something that contradicts what {U} said "
+                          f"earlier, so it could seem dishonest to {C}."),
+        "dismissive": f"{U} dismisses, ignores or brushes off {C}'s feelings, question or effort (curt, cold or uninterested).",
+        "affection_expr": f"{U} expresses affection or love for {C}, or says they miss {C}.",
+        "friendly_tease": f"{U} playfully teases {C} or jokes around with {C} in a friendly way.",
+        "gratitude": f"{U} thanks {C} or expresses appreciation for something {C} did.",
+        "interest_in_char": f"{U} asks about {C}'s life, day or feelings with genuine interest.",
     }
+    q = {k: "Looking only at `user_message` (not at earlier turns), is this true? " + v for k, v in q.items()}
+    q["left_waiting"] = (f"In `previous_turns`, did {C}'s last message ask {U} something or need an answer that {U} "
+                         f"did not give before `user_message`?")
     return {"e_" + k: noul(v) for k, v in q.items()}
 
 
@@ -438,6 +441,9 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
             if lvl == 0:
                 continue
             mult = 1.0
+            # "desce" em dimensão de ativação só se houver o que descer (acima da base)
+            if dr == "down" and d in ("jealousy", "protectiveness") and rel.v[d] <= rel.base[d] + 0.05:
+                continue
             # evento composto: reduzir ressentimento exige pendência (AND em código)
             if d == "resentment" and dr == "down":
                 if not has_pending and rel.v["resentment"] <= rel.base["resentment"] + 0.1:
@@ -455,7 +461,8 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
             applied.append((d, dr, lvl, round(dv, 4)))
 
     # ---- 2) sumiço (código: intervalo) AND não explicou (Jev)
-    if gap_hours is not None and char_waiting and ev["absence_explained"] < spec["evt_thr"]:
+    waiting = a1.get("e_left_waiting", {}).get("noul", 0.0) >= spec["evt_thr"]
+    if gap_hours is not None and char_waiting and waiting and ev["absence_explained"] < spec["evt_thr"]:
         lvl = 0
         for h, l in spec["absence_h"]:
             if gap_hours >= h:

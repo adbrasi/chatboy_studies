@@ -52,3 +52,39 @@ if __name__ == "__main__":
         gen(a[2], a[3].split(",") if len(a) > 3 and a[3] != "all" else None, a[4].split(",") if len(a) > 4 else None)
     elif a[1] == "jev":
         jev(a[2], a[3].split(",") if len(a) > 3 else None)
+
+
+def analyze(split, jev_on=True):
+    import c1_metrics as M
+    pts = C.split_pts(split)
+    G = C.load_gen()
+    res = {"split": split, "human": M.human_block(pts), "models": {}}
+    print("HUMAN", {k: (round(v, 3) if isinstance(v, float) else v) for k, v in res["human"].items() if not isinstance(v, (dict, list))})
+    for m in C.MODELS:
+        rows = []
+        for c in conds_for(C.SCHEMAS):
+            items = []
+            for p in pts:
+                r = G.get((EXP, m, c, p["id"]))
+                if not r:
+                    continue
+                r = dict(r)
+                t = r.get("text") or ""
+                if not t.strip():  # quebrado/vazio: o sistema cairia no modo livre (fallback medido à parte)
+                    fb = G.get((EXP, m, "free|0", p["id"])) or {}
+                    t = fb.get("text") or ""
+                    r["fallback"] = True
+                items.append({"p": p, "text": t, "rec": r})
+            if len(items) < 0.9 * len(pts):
+                continue
+            o = M.summarize(items, boot=True, jev=jev_on)
+            res["models"].setdefault(m, {})[c] = o
+            rows.append((c, o))
+        print("==", m)
+        M.table(rows)
+    C.jdump(f"c1_schema_{split}.json", res)
+    return res
+
+
+if __name__ == "__main__" and sys.argv[1] == "analyze":
+    analyze(sys.argv[2], jev_on=(len(sys.argv) < 4 or sys.argv[3] != "nojev"))
