@@ -1,0 +1,1093 @@
+{
+ "agg": {
+  "T": {
+   "n": 28,
+   "hit_rate": 0.714,
+   "mean_signed_diff": 0.225
+  },
+  "S": {
+   "n": 28,
+   "hit_rate": 0.679,
+   "mean_signed_diff": 0.178
+  },
+  "TS": {
+   "n": 28,
+   "hit_rate": 0.857,
+   "mean_signed_diff": 0.324
+  },
+  "T_nostate": {
+   "n": 28,
+   "hit_rate": 0.75,
+   "mean_signed_diff": 0.226
+  }
+ },
+ "items": [
+  {
+   "k": "apology_after_fight",
+   "msg": "sorry about earlier",
+   "targets": [
+    {
+     "q": "d_resentment_down",
+     "expected": 1,
+     "N": 0.44,
+     "T": 0.65,
+     "S": 0.64,
+     "TS": 0.57,
+     "N_nostate": 0.62,
+     "T_nostate": 0.61
+    }
+   ],
+   "u_addr_TS": 0.58
+  },
+  {
+   "k": "joke_day2_vs_day200",
+   "msg": "lol you're such a nerd, no wonder you're single",
+   "targets": [
+    {
+     "q": "d_resentment_up",
+     "expected": -1,
+     "N": 0.6,
+     "T": 0.46,
+     "S": 0.09,
+     "TS": 0.07,
+     "N_nostate": 0.73,
+     "T_nostate": 0.59
+    },
+    {
+     "q": "e_hurtful_joke",
+     "expected": -1,
+     "N": 0.64,
+     "T": 0.53,
+     "S": 0.22,
+     "TS": 0.2,
+     "N_nostate": 0.72,
+     "T_nostate": 0.64
+    },
+    {
+     "q": "d_playfulness_up",
+     "expected": 1,
+     "N": 0.36,
+     "T": 0.52,
+     "S": 0.94,
+     "TS": 0.95,
+     "N_nostate": 0.64,
+     "T_nostate": 0.8
+    }
+   ],
+   "u_addr_TS": null
+  },
+  {
+   "k": "other_person_romantic",
+   "msg": "going out with Ana tonight 😊",
+   "targets": [
+    {
+     "q": "d_jealousy_up",
+     "expected": 1,
+     "N": 0.06,
+     "T": 0.1,
+     "S": 0.12,
+     "TS": 0.25,
+     "N_nostate": 0.32,
+     "T_nostate": 0.67
+    },
+    {
+     "q": "e_other_person_jealousy",
+     "expected": 1,
+     "N": 0.59,
+     "T": 0.59,
+     "S": 0.83,
+     "TS": 0.86,
+     "N_nostate": 0.88,
+     "T_nostate": 0.92
+    }
+   ],
+   "u_addr_TS": null
+  },
+  {
+   "k": "cancel_first_vs_third",
+   "msg": "can't make it tonight, something came up",
+   "targets": [
+    {
+     "q": "d_trust_down",
+     "expected": 1,
+     "N": 0.24,
+     "T": 0.79,
+     "S": 0.77,
+     "TS": 0.91,
+     "N_nostate": 0.47,
+     "T_nostate": 0.87
+    },
+    {
+     "q": "d_resentment_up",
+     "expected": 1,
+     "N": 0.15,
+     "T": 0.7,
+     "S": 0.75,
+     "TS": 0.89,
+     "N_nostate": 0.32,
+     "T_nostate": 0.83
+    },
+    {
+     "q": "e_perceived_lie",
+     "expected": 1,
+     "N": 0.12,
+     "T": 0.32,
+     "S": 0.21,
+     "TS": 0.42,
+     "N_nostate": 0.14,
+     "T_nostate": 0.33
+    }
+   ],
+   "u_addr_TS": 0.04
+  },
+  {
+   "k": "promise_after_broken",
+   "msg": "i promise i'll be there tomorrow",
+   "targets": [
+    {
+     "q": "d_trust_up",
+     "expected": -1,
+     "N": 0.6,
+     "T": 0.34,
+     "S": 0.29,
+     "TS": 0.18,
+     "N_nostate": 0.57,
+     "T_nostate": 0.36
+    }
+   ],
+   "u_addr_TS": 0.3
+  },
+  {
+   "k": "hey_after_silence_important",
+   "msg": "hey",
+   "targets": [
+    {
+     "q": "d_resentment_up",
+     "expected": 1,
+     "N": 0.02,
+     "T": 0.44,
+     "S": 0.08,
+     "TS": 0.47,
+     "N_nostate": 0.02,
+     "T_nostate": 0.59
+    },
+    {
+     "q": "e_dismissive",
+     "expected": 1,
+     "N": 0.05,
+     "T": 0.27,
+     "S": 0.08,
+     "TS": 0.35,
+     "N_nostate": 0.06,
+     "T_nostate": 0.36
+    }
+   ],
+   "u_addr_TS": 0.04
+  },
+  {
+   "k": "promise_kept",
+   "msg": "done, booked the table for friday 🙂",
+   "targets": [
+    {
+     "q": "d_trust_up",
+     "expected": 1,
+     "N": 0.72,
+     "T": 0.91,
+     "S": 0.85,
+     "TS": 0.89,
+     "N_nostate": 0.72,
+     "T_nostate": 0.92
+    },
+    {
+     "q": "e_promise_kept",
+     "expected": 1,
+     "N": 0.72,
+     "T": 0.95,
+     "S": 0.95,
+     "TS": 0.96,
+     "N_nostate": 0.71,
+     "T_nostate": 0.93
+    }
+   ],
+   "u_addr_TS": 0.88
+  },
+  {
+   "k": "you_look_tired",
+   "msg": "you look tired",
+   "targets": [
+    {
+     "q": "d_resentment_up",
+     "expected": 1,
+     "N": 0.08,
+     "T": 0.52,
+     "S": 0.45,
+     "TS": 0.69,
+     "N_nostate": 0.15,
+     "T_nostate": 0.81
+    }
+   ],
+   "u_addr_TS": 0.05
+  },
+  {
+   "k": "apology_repeated",
+   "msg": "sorry, i'm really sorry",
+   "targets": [
+    {
+     "q": "d_resentment_down",
+     "expected": -1,
+     "N": 0.7,
+     "T": 0.37,
+     "S": 0.45,
+     "TS": 0.27,
+     "N_nostate": 0.74,
+     "T_nostate": 0.33
+    },
+    {
+     "q": "d_trust_up",
+     "expected": -1,
+     "N": 0.14,
+     "T": 0.1,
+     "S": 0.12,
+     "TS": 0.09,
+     "N_nostate": 0.17,
+     "T_nostate": 0.1
+    }
+   ],
+   "u_addr_TS": 0.63
+  },
+  {
+   "k": "ok_after_vulnerable",
+   "msg": "ok",
+   "targets": [
+    {
+     "q": "d_resentment_up",
+     "expected": 1,
+     "N": 0.03,
+     "T": 0.15,
+     "S": 0.03,
+     "TS": 0.13,
+     "N_nostate": 0.05,
+     "T_nostate": 0.23
+    },
+    {
+     "q": "e_dismissive",
+     "expected": 1,
+     "N": 0.18,
+     "T": 0.58,
+     "S": 0.18,
+     "TS": 0.56,
+     "N_nostate": 0.22,
+     "T_nostate": 0.62
+    }
+   ],
+   "u_addr_TS": null
+  },
+  {
+   "k": "haha_whatever_after_confront",
+   "msg": "haha whatever",
+   "targets": [
+    {
+     "q": "d_resentment_up",
+     "expected": 1,
+     "N": 0.07,
+     "T": 0.91,
+     "S": 0.29,
+     "TS": 0.93,
+     "N_nostate": 0.2,
+     "T_nostate": 0.94
+    },
+    {
+     "q": "d_playfulness_up",
+     "expected": -1,
+     "N": 0.74,
+     "T": 0.15,
+     "S": 0.64,
+     "TS": 0.15,
+     "N_nostate": 0.72,
+     "T_nostate": 0.12
+    }
+   ],
+   "u_addr_TS": 0.02
+  },
+  {
+   "k": "youre_the_best_buttering",
+   "msg": "you're the best, you know that?",
+   "targets": [
+    {
+     "q": "d_affection_up",
+     "expected": -1,
+     "N": 0.56,
+     "T": 0.73,
+     "S": 0.55,
+     "TS": 0.63,
+     "N_nostate": 0.45,
+     "T_nostate": 0.71
+    }
+   ],
+   "u_addr_TS": 0.14
+  },
+  {
+   "k": "contradiction_lie",
+   "msg": "i was at jake's all night",
+   "targets": [
+    {
+     "q": "e_perceived_lie",
+     "expected": 1,
+     "N": 0.15,
+     "T": 0.53,
+     "S": 0.16,
+     "TS": 0.51,
+     "N_nostate": 0.21,
+     "T_nostate": 0.5
+    },
+    {
+     "q": "d_trust_down",
+     "expected": 1,
+     "N": 0.15,
+     "T": 0.53,
+     "S": 0.2,
+     "TS": 0.65,
+     "N_nostate": 0.35,
+     "T_nostate": 0.73
+    }
+   ],
+   "u_addr_TS": null
+  },
+  {
+   "k": "miss_you_after_ghosting",
+   "msg": "miss you",
+   "targets": [
+    {
+     "q": "d_resentment_down",
+     "expected": -1,
+     "N": 0.05,
+     "T": 0.4,
+     "S": 0.19,
+     "TS": 0.31,
+     "N_nostate": 0.11,
+     "T_nostate": 0.53
+    },
+    {
+     "q": "d_affection_up",
+     "expected": -1,
+     "N": 0.72,
+     "T": 0.74,
+     "S": 0.61,
+     "TS": 0.63,
+     "N_nostate": 0.7,
+     "T_nostate": 0.72
+    }
+   ],
+   "u_addr_TS": 0.1
+  },
+  {
+   "k": "good_luck_exam",
+   "msg": "good luck today!!",
+   "targets": [
+    {
+     "q": "e_practical_care",
+     "expected": 1,
+     "N": 0.93,
+     "T": 0.94,
+     "S": 0.93,
+     "TS": 0.93,
+     "N_nostate": 0.92,
+     "T_nostate": 0.89
+    },
+    {
+     "q": "d_affection_up",
+     "expected": 1,
+     "N": 0.4,
+     "T": 0.44,
+     "S": 0.4,
+     "TS": 0.4,
+     "N_nostate": 0.28,
+     "T_nostate": 0.26
+    }
+   ],
+   "u_addr_TS": null
+  }
+ ],
+ "detail": {
+  "T": [
+   {
+    "k": "apology_after_fight",
+    "q": "d_resentment_down",
+    "diff": 0.21,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_resentment_up",
+    "diff": 0.14,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "e_hurtful_joke",
+    "diff": 0.11,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_playfulness_up",
+    "diff": 0.16,
+    "ok": true
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "d_jealousy_up",
+    "diff": 0.04,
+    "ok": false
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "e_other_person_jealousy",
+    "diff": 0.0,
+    "ok": false
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_trust_down",
+    "diff": 0.55,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_resentment_up",
+    "diff": 0.55,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "e_perceived_lie",
+    "diff": 0.2,
+    "ok": true
+   },
+   {
+    "k": "promise_after_broken",
+    "q": "d_trust_up",
+    "diff": 0.26,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "d_resentment_up",
+    "diff": 0.42,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "e_dismissive",
+    "diff": 0.22,
+    "ok": true
+   },
+   {
+    "k": "promise_kept",
+    "q": "d_trust_up",
+    "diff": 0.19,
+    "ok": true
+   },
+   {
+    "k": "promise_kept",
+    "q": "e_promise_kept",
+    "diff": 0.23,
+    "ok": true
+   },
+   {
+    "k": "you_look_tired",
+    "q": "d_resentment_up",
+    "diff": 0.44,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_resentment_down",
+    "diff": 0.33,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_trust_up",
+    "diff": 0.04,
+    "ok": false
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "d_resentment_up",
+    "diff": 0.12,
+    "ok": true
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "e_dismissive",
+    "diff": 0.4,
+    "ok": true
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_resentment_up",
+    "diff": 0.84,
+    "ok": true
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_playfulness_up",
+    "diff": 0.59,
+    "ok": true
+   },
+   {
+    "k": "youre_the_best_buttering",
+    "q": "d_affection_up",
+    "diff": -0.17,
+    "ok": false
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "e_perceived_lie",
+    "diff": 0.38,
+    "ok": true
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "d_trust_down",
+    "diff": 0.38,
+    "ok": true
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_resentment_down",
+    "diff": -0.35,
+    "ok": false
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_affection_up",
+    "diff": -0.02,
+    "ok": false
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "e_practical_care",
+    "diff": 0.01,
+    "ok": false
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "d_affection_up",
+    "diff": 0.04,
+    "ok": false
+   }
+  ],
+  "S": [
+   {
+    "k": "apology_after_fight",
+    "q": "d_resentment_down",
+    "diff": 0.2,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_resentment_up",
+    "diff": 0.51,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "e_hurtful_joke",
+    "diff": 0.42,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_playfulness_up",
+    "diff": 0.58,
+    "ok": true
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "d_jealousy_up",
+    "diff": 0.06,
+    "ok": true
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "e_other_person_jealousy",
+    "diff": 0.24,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_trust_down",
+    "diff": 0.53,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_resentment_up",
+    "diff": 0.6,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "e_perceived_lie",
+    "diff": 0.09,
+    "ok": true
+   },
+   {
+    "k": "promise_after_broken",
+    "q": "d_trust_up",
+    "diff": 0.31,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "d_resentment_up",
+    "diff": 0.06,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "e_dismissive",
+    "diff": 0.03,
+    "ok": false
+   },
+   {
+    "k": "promise_kept",
+    "q": "d_trust_up",
+    "diff": 0.13,
+    "ok": true
+   },
+   {
+    "k": "promise_kept",
+    "q": "e_promise_kept",
+    "diff": 0.23,
+    "ok": true
+   },
+   {
+    "k": "you_look_tired",
+    "q": "d_resentment_up",
+    "diff": 0.37,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_resentment_down",
+    "diff": 0.25,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_trust_up",
+    "diff": 0.02,
+    "ok": false
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "d_resentment_up",
+    "diff": 0.0,
+    "ok": false
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "e_dismissive",
+    "diff": 0.0,
+    "ok": false
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_resentment_up",
+    "diff": 0.22,
+    "ok": true
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_playfulness_up",
+    "diff": 0.1,
+    "ok": true
+   },
+   {
+    "k": "youre_the_best_buttering",
+    "q": "d_affection_up",
+    "diff": 0.01,
+    "ok": false
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "e_perceived_lie",
+    "diff": 0.01,
+    "ok": false
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "d_trust_down",
+    "diff": 0.05,
+    "ok": true
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_resentment_down",
+    "diff": -0.14,
+    "ok": false
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_affection_up",
+    "diff": 0.11,
+    "ok": true
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "e_practical_care",
+    "diff": 0.0,
+    "ok": false
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "d_affection_up",
+    "diff": 0.0,
+    "ok": false
+   }
+  ],
+  "TS": [
+   {
+    "k": "apology_after_fight",
+    "q": "d_resentment_down",
+    "diff": 0.13,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_resentment_up",
+    "diff": 0.53,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "e_hurtful_joke",
+    "diff": 0.44,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_playfulness_up",
+    "diff": 0.59,
+    "ok": true
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "d_jealousy_up",
+    "diff": 0.19,
+    "ok": true
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "e_other_person_jealousy",
+    "diff": 0.27,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_trust_down",
+    "diff": 0.67,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_resentment_up",
+    "diff": 0.74,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "e_perceived_lie",
+    "diff": 0.3,
+    "ok": true
+   },
+   {
+    "k": "promise_after_broken",
+    "q": "d_trust_up",
+    "diff": 0.42,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "d_resentment_up",
+    "diff": 0.45,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "e_dismissive",
+    "diff": 0.3,
+    "ok": true
+   },
+   {
+    "k": "promise_kept",
+    "q": "d_trust_up",
+    "diff": 0.17,
+    "ok": true
+   },
+   {
+    "k": "promise_kept",
+    "q": "e_promise_kept",
+    "diff": 0.24,
+    "ok": true
+   },
+   {
+    "k": "you_look_tired",
+    "q": "d_resentment_up",
+    "diff": 0.61,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_resentment_down",
+    "diff": 0.43,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_trust_up",
+    "diff": 0.05,
+    "ok": true
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "d_resentment_up",
+    "diff": 0.1,
+    "ok": true
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "e_dismissive",
+    "diff": 0.38,
+    "ok": true
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_resentment_up",
+    "diff": 0.86,
+    "ok": true
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_playfulness_up",
+    "diff": 0.59,
+    "ok": true
+   },
+   {
+    "k": "youre_the_best_buttering",
+    "q": "d_affection_up",
+    "diff": -0.07,
+    "ok": false
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "e_perceived_lie",
+    "diff": 0.36,
+    "ok": true
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "d_trust_down",
+    "diff": 0.5,
+    "ok": true
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_resentment_down",
+    "diff": -0.26,
+    "ok": false
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_affection_up",
+    "diff": 0.09,
+    "ok": true
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "e_practical_care",
+    "diff": 0.0,
+    "ok": false
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "d_affection_up",
+    "diff": 0.0,
+    "ok": false
+   }
+  ],
+  "T_nostate": [
+   {
+    "k": "apology_after_fight",
+    "q": "d_resentment_down",
+    "diff": -0.01,
+    "ok": false
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_resentment_up",
+    "diff": 0.14,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "e_hurtful_joke",
+    "diff": 0.08,
+    "ok": true
+   },
+   {
+    "k": "joke_day2_vs_day200",
+    "q": "d_playfulness_up",
+    "diff": 0.16,
+    "ok": true
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "d_jealousy_up",
+    "diff": 0.35,
+    "ok": true
+   },
+   {
+    "k": "other_person_romantic",
+    "q": "e_other_person_jealousy",
+    "diff": 0.04,
+    "ok": false
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_trust_down",
+    "diff": 0.4,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "d_resentment_up",
+    "diff": 0.51,
+    "ok": true
+   },
+   {
+    "k": "cancel_first_vs_third",
+    "q": "e_perceived_lie",
+    "diff": 0.19,
+    "ok": true
+   },
+   {
+    "k": "promise_after_broken",
+    "q": "d_trust_up",
+    "diff": 0.21,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "d_resentment_up",
+    "diff": 0.57,
+    "ok": true
+   },
+   {
+    "k": "hey_after_silence_important",
+    "q": "e_dismissive",
+    "diff": 0.3,
+    "ok": true
+   },
+   {
+    "k": "promise_kept",
+    "q": "d_trust_up",
+    "diff": 0.2,
+    "ok": true
+   },
+   {
+    "k": "promise_kept",
+    "q": "e_promise_kept",
+    "diff": 0.22,
+    "ok": true
+   },
+   {
+    "k": "you_look_tired",
+    "q": "d_resentment_up",
+    "diff": 0.66,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_resentment_down",
+    "diff": 0.41,
+    "ok": true
+   },
+   {
+    "k": "apology_repeated",
+    "q": "d_trust_up",
+    "diff": 0.07,
+    "ok": true
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "d_resentment_up",
+    "diff": 0.18,
+    "ok": true
+   },
+   {
+    "k": "ok_after_vulnerable",
+    "q": "e_dismissive",
+    "diff": 0.4,
+    "ok": true
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_resentment_up",
+    "diff": 0.74,
+    "ok": true
+   },
+   {
+    "k": "haha_whatever_after_confront",
+    "q": "d_playfulness_up",
+    "diff": 0.6,
+    "ok": true
+   },
+   {
+    "k": "youre_the_best_buttering",
+    "q": "d_affection_up",
+    "diff": -0.26,
+    "ok": false
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "e_perceived_lie",
+    "diff": 0.29,
+    "ok": true
+   },
+   {
+    "k": "contradiction_lie",
+    "q": "d_trust_down",
+    "diff": 0.38,
+    "ok": true
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_resentment_down",
+    "diff": -0.42,
+    "ok": false
+   },
+   {
+    "k": "miss_you_after_ghosting",
+    "q": "d_affection_up",
+    "diff": -0.02,
+    "ok": false
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "e_practical_care",
+    "diff": -0.03,
+    "ok": false
+   },
+   {
+    "k": "good_luck_exam",
+    "q": "d_affection_up",
+    "diff": -0.02,
+    "ok": false
+   }
+  ]
+ }
+}
