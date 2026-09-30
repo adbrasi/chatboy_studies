@@ -1,0 +1,261 @@
+{
+ "n": 80,
+ "resp_dist": {
+  "human": {
+   "ignore_change_topic": 25,
+   "reciprocate": 15,
+   "tease_back": 11,
+   "minimal_ack": 7,
+   "deflate_humor": 7,
+   "engage_enthusiastic": 6,
+   "simple_thanks": 3,
+   "polite_decline": 2,
+   "flustered_accept": 2,
+   "mock_offense": 1,
+   "rude_reject": 1
+  },
+  "gem_base": {
+   "tease_back": 25,
+   "reciprocate": 18,
+   "engage_enthusiastic": 12,
+   "ignore_change_topic": 12,
+   "deflate_humor": 6,
+   "simple_thanks": 3,
+   "flustered_accept": 2,
+   "mock_offense": 1,
+   "minimal_ack": 1
+  },
+  "gpt_base": {
+   "engage_enthusiastic": 35,
+   "reciprocate": 17,
+   "simple_thanks": 10,
+   "ignore_change_topic": 9,
+   "tease_back": 7,
+   "deflate_humor": 2
+  },
+  "gem_brief": {
+   "reciprocate": 21,
+   "tease_back": 20,
+   "flustered_accept": 9,
+   "minimal_ack": 9,
+   "ignore_change_topic": 9,
+   "simple_thanks": 8,
+   "deflate_humor": 4
+  }
+ },
+ "agree_with_human_move": {
+  "gem_base": 0.2875,
+  "gpt_base": 0.3,
+  "gem_brief": 0.2375
+ },
+ "intensity": {
+  "human": {
+   "r_minus_t": -0.491,
+   "above_t_plus1": 0.05
+  },
+  "gem_base": {
+   "r_minus_t": -0.11599999999999996,
+   "above_t_plus1": 0.025,
+   "above_t": 0.1
+  },
+  "gpt_base": {
+   "r_minus_t": -0.21912500000000001,
+   "above_t_plus1": 0.025,
+   "above_t": 0.0625
+  },
+  "gem_brief": {
+   "r_minus_t": -0.29500000000000004,
+   "above_t_plus1": 0.025,
+   "above_t": 0.0875
+  }
+ },
+ "style_match": {
+  "gem_base": {
+   "len_bucket_eq": 0.2125,
+   "len_ratio_med": 2.161904761904762,
+   "q_eq": 0.5875,
+   "emoji_eq": 0.4875,
+   "two_part": 0.45,
+   "html_leak": 3,
+   "react_plus_q": 0.375
+  },
+  "gpt_base": {
+   "len_bucket_eq": 0.25,
+   "len_ratio_med": 1.8811764705882352,
+   "q_eq": 0.6,
+   "emoji_eq": 0.775,
+   "two_part": 0.0,
+   "html_leak": 0,
+   "react_plus_q": 0.25
+  },
+  "gem_brief": {
+   "len_bucket_eq": 0.4,
+   "len_ratio_med": 0.478856462179869,
+   "q_eq": 0.9,
+   "emoji_eq": 0.85,
+   "two_part": 0.0,
+   "html_leak": 0,
+   "react_plus_q": 0.0125
+  },
+  "human": {
+   "two_part": 0.0,
+   "react_plus_q": 0.0625
+  }
+ },
+ "brief_repeated_replies": [
+  [
+   "miss u too 😚",
+   4
+  ],
+  [
+   "ugh ur sweet",
+   3
+  ],
+  [
+   "keep dreaming",
+   3
+  ],
+  [
+   "miss u too",
+   3
+  ],
+  [
+   "u know im weak",
+   2
+  ],
+  [
+   "love u too",
+   2
+  ],
+  [
+   "love you too",
+   2
+  ],
+  [
+   "thanks",
+   2
+  ],
+  [
+   "dont expose me",
+   2
+  ]
+ ],
+ "phrases": {
+  "human": {
+   "aww": 1,
+   "stop": 0,
+   "blush": 0,
+   "so sweet": 0,
+   "you're the best": 0,
+   "u are the best": 0,
+   "can't wait": 0,
+   "cant wait": 0,
+   "i'd love": 0,
+   "love that": 2,
+   "😭": 0,
+   "🥹": 0,
+   "🥰": 0,
+   "❤️": 0,
+   "💖": 0,
+   "haha": 2,
+   "lol": 2,
+   "lmao": 0,
+   "tho": 2,
+   "fr": 2,
+   "literally": 0,
+   "right?": 0,
+   "wait": 0,
+   "omg": 2,
+   "glad": 0,
+   "fun": 3,
+   "!": 4
+  },
+  "gem_base": {
+   "aww": 0,
+   "stop": 1,
+   "blush": 1,
+   "so sweet": 1,
+   "you're the best": 0,
+   "u are the best": 0,
+   "can't wait": 1,
+   "cant wait": 0,
+   "i'd love": 0,
+   "love that": 0,
+   "😭": 4,
+   "🥹": 2,
+   "🥰": 4,
+   "❤️": 5,
+   "💖": 0,
+   "haha": 14,
+   "lol": 9,
+   "lmao": 4,
+   "tho": 10,
+   "fr": 5,
+   "literally": 1,
+   "right?": 3,
+   "wait": 8,
+   "omg": 2,
+   "glad": 2,
+   "fun": 2,
+   "!": 29
+  },
+  "gpt_base": {
+   "aww": 2,
+   "stop": 0,
+   "blush": 0,
+   "so sweet": 0,
+   "you're the best": 0,
+   "u are the best": 0,
+   "can't wait": 2,
+   "cant wait": 0,
+   "i'd love": 0,
+   "love that": 1,
+   "😭": 0,
+   "🥹": 0,
+   "🥰": 2,
+   "❤️": 4,
+   "💖": 3,
+   "haha": 3,
+   "lol": 1,
+   "lmao": 0,
+   "tho": 6,
+   "fr": 1,
+   "literally": 0,
+   "right?": 4,
+   "wait": 5,
+   "omg": 0,
+   "glad": 1,
+   "fun": 10,
+   "!": 78
+  },
+  "gem_brief": {
+   "aww": 0,
+   "stop": 1,
+   "blush": 0,
+   "so sweet": 0,
+   "you're the best": 0,
+   "u are the best": 0,
+   "can't wait": 0,
+   "cant wait": 0,
+   "i'd love": 0,
+   "love that": 0,
+   "😭": 0,
+   "🥹": 0,
+   "🥰": 1,
+   "❤️": 0,
+   "💖": 0,
+   "haha": 4,
+   "lol": 1,
+   "lmao": 0,
+   "tho": 0,
+   "fr": 1,
+   "literally": 0,
+   "right?": 0,
+   "wait": 0,
+   "omg": 0,
+   "glad": 0,
+   "fun": 0,
+   "!": 2
+  }
+ }
+}

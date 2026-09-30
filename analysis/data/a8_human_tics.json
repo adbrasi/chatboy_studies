@@ -1,0 +1,825 @@
+{
+ "maichat": {
+  "all_lower": 725.4,
+  "any_excl": 20.8,
+  "any_q": 70.1,
+  "elongation": 45.5,
+  "emoji": 30.6,
+  "ends_q": 67.0,
+  "final_period": 20.6,
+  "final_punct": 103.9,
+  "laugh": 32.1,
+  "le3_words": 454.9,
+  "llm:absolutely": 0.5,
+  "llm:can't wait": 0.7,
+  "llm:começa com 'Haha,' / 'Lol,'": 0.2,
+  "llm:começa com 'Oh,'": 0.2,
+  "llm:definitely": 1.2,
+  "llm:for sure": 1.0,
+  "llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 3.4,
+  "llm:i hope / hopefully": 1.7,
+  "llm:i'd love to / i would love": 0.2,
+  "llm:journey": 1.7,
+  "llm:right? (tag)": 0.7,
+  "llm:so much fun / a blast": 0.7,
+  "llm:sounds (like/amazing/fun/great…)": 2.6,
+  "llm:that's so sweet / aww": 2.2,
+  "llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.5,
+  "llm:totally": 0.2,
+  "llm:vibe(s)": 1.9,
+  "llm:what about you / how about you / and you?": 4.8,
+  "llm:💀/😭 (gíria emoji)": 5.5,
+  "llm:😂/🤣": 2.4,
+  "llm:😊/🥰/❤️/✨/🎉": 2.2,
+  "multi_excl": 7.9,
+  "no_apostrophe": 80.9,
+  "self_correction": 4.5,
+  "starts_lower": 753.9,
+  "tic:anyway(s)": 4.8,
+  "tic:começa com and/but": 32.1,
+  "tic:começa com wait": 2.6,
+  "tic:haha-família": 18.7,
+  "tic:hmm/umm/uh": 9.1,
+  "tic:honestly": 1.2,
+  "tic:i mean": 1.7,
+  "tic:idk/dunno": 8.1,
+  "tic:kinda/sorta/gonna/wanna": 14.6,
+  "tic:like (qualquer uso)": 46.7,
+  "tic:literally": 3.1,
+  "tic:lol no fim (pontuação)": 19.4,
+  "tic:lol/lmao": 11.0,
+  "tic:no/nah/nope": 30.2,
+  "tic:oh/ooh (início)": 25.9,
+  "tic:ok/okay/k (início)": 24.7,
+  "tic:omg": 6.9,
+  "tic:same": 5.7,
+  "tic:so (início)": 15.1,
+  "tic:tbh/ngl": 4.1,
+  "tic:true/fair/exactly": 8.4,
+  "tic:u/ur/r (abreviação)": 53.1,
+  "tic:ugh": 1.2,
+  "tic:wait": 4.5,
+  "tic:yeah/yea/ya/yes": 65.1,
+  "_n": 4177,
+  "_median_chars": 19
+ },
+ "nps_chatroom": {
+  "all_lower": 485.2,
+  "any_excl": 47.5,
+  "any_q": 101.3,
+  "elongation": 39.7,
+  "ends_q": 91.2,
+  "final_period": 38.1,
+  "final_punct": 196.8,
+  "laugh": 132.3,
+  "le3_words": 589.5,
+  "llm:can't wait": 0.5,
+  "llm:começa com 'Haha,' / 'Lol,'": 1.3,
+  "llm:começa com 'Oh,'": 0.8,
+  "llm:definitely": 0.1,
+  "llm:for sure": 0.1,
+  "llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.3,
+  "llm:i hope / hopefully": 0.8,
+  "llm:i'm (so) sorry to hear / sorry you're": 0.4,
+  "llm:let me know / feel free": 0.1,
+  "llm:right? (tag)": 0.5,
+  "llm:sounds (like/amazing/fun/great…)": 0.4,
+  "llm:that's so sweet / aww": 4.7,
+  "llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.4,
+  "llm:totally": 0.3,
+  "llm:what about you / how about you / and you?": 2.3,
+  "multi_excl": 19.0,
+  "no_apostrophe": 41.3,
+  "self_correction": 4.4,
+  "starts_lower": 746.4,
+  "tic:anyway(s)": 1.0,
+  "tic:começa com and/but": 10.2,
+  "tic:começa com wait": 0.3,
+  "tic:haha-família": 13.1,
+  "tic:hmm/umm/uh": 9.6,
+  "tic:i mean": 1.0,
+  "tic:idk/dunno": 2.0,
+  "tic:kinda/sorta/gonna/wanna": 20.7,
+  "tic:like (qualquer uso)": 18.9,
+  "tic:lol no fim (pontuação)": 84.7,
+  "tic:lol/lmao": 118.7,
+  "tic:no/nah/nope": 24.8,
+  "tic:oh/ooh (início)": 12.9,
+  "tic:ok/okay/k (início)": 10.1,
+  "tic:omg": 4.4,
+  "tic:same": 0.9,
+  "tic:so (início)": 3.9,
+  "tic:true/fair/exactly": 0.9,
+  "tic:u/ur/r (abreviação)": 28.4,
+  "tic:ugh": 1.0,
+  "tic:wait": 1.6,
+  "tic:yeah/yea/ya/yes": 39.1,
+  "_n": 7935,
+  "_median_chars": 20
+ },
+ "nus_sms": {
+  "all_lower": 101.0,
+  "any_excl": 181.8,
+  "any_q": 259.3,
+  "elongation": 31.4,
+  "ends_q": 191.9,
+  "final_period": 190.0,
+  "final_punct": 559.6,
+  "laugh": 157.6,
+  "le3_words": 225.9,
+  "llm:absolutely": 0.1,
+  "llm:can't wait": 0.7,
+  "llm:começa com 'Haha,' / 'Lol,'": 0.8,
+  "llm:começa com 'Oh,'": 0.6,
+  "llm:definitely": 1.1,
+  "llm:for sure": 0.4,
+  "llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.5,
+  "llm:i hope / hopefully": 3.8,
+  "llm:i'd love to / i would love": 0.1,
+  "llm:i'm (so) sorry to hear / sorry you're": 0.0,
+  "llm:i'm here for you / here if you need": 0.0,
+  "llm:it's okay to / it's normal to / it's understandable": 0.0,
+  "llm:journey": 0.5,
+  "llm:let me know / feel free": 3.8,
+  "llm:nome do usuário (vocativo)": 0.1,
+  "llm:right? (tag)": 4.2,
+  "llm:so much fun / a blast": 0.0,
+  "llm:sounds (like/amazing/fun/great…)": 0.9,
+  "llm:tell me (more/everything)": 0.1,
+  "llm:that's so sweet / aww": 1.7,
+  "llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.5,
+  "llm:totally": 1.0,
+  "llm:what about you / how about you / and you?": 4.0,
+  "multi_excl": 38.9,
+  "no_apostrophe": 38.8,
+  "self_correction": 4.7,
+  "starts_lower": 117.4,
+  "tic:anyway(s)": 6.6,
+  "tic:começa com and/but": 4.6,
+  "tic:começa com wait": 1.3,
+  "tic:haha-família": 118.3,
+  "tic:hmm/umm/uh": 19.4,
+  "tic:honestly": 0.2,
+  "tic:i mean": 1.8,
+  "tic:idk/dunno": 14.1,
+  "tic:kinda/sorta/gonna/wanna": 20.0,
+  "tic:like (qualquer uso)": 24.8,
+  "tic:literally": 0.2,
+  "tic:lol no fim (pontuação)": 20.0,
+  "tic:lol/lmao": 53.7,
+  "tic:no/nah/nope": 57.6,
+  "tic:oh/ooh (início)": 26.2,
+  "tic:ok/okay/k (início)": 55.4,
+  "tic:omg": 7.5,
+  "tic:same": 0.8,
+  "tic:so (início)": 6.1,
+  "tic:true/fair/exactly": 0.4,
+  "tic:u/ur/r (abreviação)": 180.3,
+  "tic:ugh": 0.4,
+  "tic:wait": 9.7,
+  "tic:yeah/yea/ya/yes": 73.7,
+  "_n": 55835,
+  "_median_chars": 36
+ },
+ "empathetic": {
+  "all_lower": 63.7,
+  "any_excl": 194.1,
+  "any_q": 198.5,
+  "elongation": 4.3,
+  "emoji": 0.0,
+  "ends_q": 180.4,
+  "final_period": 453.0,
+  "final_punct": 756.4,
+  "laugh": 25.3,
+  "le3_words": 36.8,
+  "llm:absolutely": 1.9,
+  "llm:can't wait": 5.6,
+  "llm:começa com 'Haha,' / 'Lol,'": 1.1,
+  "llm:começa com 'Oh,'": 5.9,
+  "llm:definitely": 5.4,
+  "llm:for sure": 3.9,
+  "llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.6,
+  "llm:i hope / hopefully": 33.5,
+  "llm:i'd love to / i would love": 0.7,
+  "llm:i'm (so) sorry to hear / sorry you're": 12.0,
+  "llm:i'm here for you / here if you need": 0.0,
+  "llm:it's okay to / it's normal to / it's understandable": 0.7,
+  "llm:journey": 0.3,
+  "llm:let me know / feel free": 0.2,
+  "llm:nome do usuário (vocativo)": 0.0,
+  "llm:right? (tag)": 2.6,
+  "llm:so much fun / a blast": 1.8,
+  "llm:so proud of you": 0.2,
+  "llm:sounds (like/amazing/fun/great…)": 12.5,
+  "llm:tell me (more/everything)": 0.3,
+  "llm:that's so sweet / aww": 4.1,
+  "llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 20.0,
+  "llm:totally": 2.3,
+  "llm:vibe(s)": 0.4,
+  "llm:what about you / how about you / and you?": 6.0,
+  "llm:😊/🥰/❤️/✨/🎉": 0.0,
+  "multi_excl": 4.9,
+  "no_apostrophe": 34.6,
+  "self_correction": 0.1,
+  "starts_lower": 78.1,
+  "tic:anyway(s)": 2.0,
+  "tic:começa com and/but": 1.9,
+  "tic:começa com wait": 0.2,
+  "tic:haha-família": 8.3,
+  "tic:hmm/umm/uh": 0.8,
+  "tic:honestly": 2.1,
+  "tic:i mean": 1.6,
+  "tic:idk/dunno": 6.2,
+  "tic:kinda/sorta/gonna/wanna": 6.2,
+  "tic:like (qualquer uso)": 58.8,
+  "tic:literally": 0.7,
+  "tic:lol no fim (pontuação)": 10.9,
+  "tic:lol/lmao": 17.1,
+  "tic:no/nah/nope": 46.1,
+  "tic:oh/ooh (início)": 52.1,
+  "tic:ok/okay/k (início)": 1.6,
+  "tic:omg": 1.1,
+  "tic:same": 0.5,
+  "tic:so (início)": 8.7,
+  "tic:tbh/ngl": 0.0,
+  "tic:true/fair/exactly": 2.3,
+  "tic:u/ur/r (abreviação)": 0.8,
+  "tic:ugh": 2.2,
+  "tic:wait": 9.5,
+  "tic:yeah/yea/ya/yes": 70.2,
+  "_n": 25934,
+  "_median_chars": 57.0
+ },
+ "whatsapp_nl": {
+  "all_lower": 28.5,
+  "any_excl": 121.6,
+  "any_q": 155.8,
+  "elongation": 44.1,
+  "emoji": 53.5,
+  "ends_q": 138.9,
+  "final_period": 22.2,
+  "final_punct": 242.1,
+  "laugh": 93.7,
+  "le3_words": 429.2,
+  "llm:começa com 'Haha,' / 'Lol,'": 2.5,
+  "llm:começa com 'Oh,'": 0.3,
+  "llm:for sure": 0.0,
+  "llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.0,
+  "llm:i hope / hopefully": 0.1,
+  "llm:let me know / feel free": 0.1,
+  "llm:sounds (like/amazing/fun/great…)": 0.1,
+  "llm:that's so sweet / aww": 0.2,
+  "llm:what about you / how about you / and you?": 0.2,
+  "llm:💀/😭 (gíria emoji)": 0.9,
+  "llm:😂/🤣": 0.9,
+  "llm:😊/🥰/❤️/✨/🎉": 6.4,
+  "multi_excl": 17.7,
+  "no_apostrophe": 0.6,
+  "self_correction": 3.3,
+  "starts_lower": 21.5,
+  "tic:anyway(s)": 0.0,
+  "tic:começa com and/but": 0.1,
+  "tic:haha-família": 89.9,
+  "tic:hmm/umm/uh": 5.0,
+  "tic:i mean": 0.0,
+  "tic:idk/dunno": 0.4,
+  "tic:kinda/sorta/gonna/wanna": 0.1,
+  "tic:like (qualquer uso)": 0.1,
+  "tic:lol no fim (pontuação)": 45.2,
+  "tic:lol/lmao": 0.7,
+  "tic:no/nah/nope": 3.9,
+  "tic:oh/ooh (início)": 14.2,
+  "tic:ok/okay/k (início)": 6.6,
+  "tic:omg": 0.4,
+  "tic:same": 0.0,
+  "tic:so (início)": 0.1,
+  "tic:true/fair/exactly": 0.1,
+  "tic:u/ur/r (abreviação)": 2.3,
+  "tic:ugh": 0.1,
+  "tic:yeah/yea/ya/yes": 3.2,
+  "_n": 59368,
+  "_median_chars": 21.0,
+  "nl:haha-família": 91.7,
+  "nl:echt": 23.5,
+  "nl:gewoon": 13.7,
+  "nl:wel": 65.8,
+  "nl:nou": 9.6,
+  "nl:hoor": 12.5,
+  "nl:zeg": 5.1,
+  "nl:toch": 16.4,
+  "nl:oke/ok (início)": 23.5,
+  "nl:ja/jaa (início)": 72.2,
+  "nl:nee (início)": 18.6,
+  "nl:xx/x (beijo)": 6.4,
+  "nl:pff/ugh": 4.1,
+  "nl:ehm/uhm": 5.3,
+  "nl:maar/en (início)": 53.6,
+  "nl:dus (início)": 7.3,
+  "nl:idd/wtf/omg": 7.3,
+  "nl:haha no fim (pontuação)": 46.0,
+  "nl:lekker/leuk": 27.0
+ },
+ "maichat_typing": {
+  "n": 4140,
+  "pct_msgs_with_deletion": 35.7,
+  "pct_msgs_abandoned_text": 5.0,
+  "pct_visible_star_correction": 0.43
+ },
+ "oov": {
+  "maichat": {
+   "pct_tokens_oov_4plus": 18.2,
+   "top_oov": [
+    [
+     "mins",
+     13
+    ],
+    [
+     "favourite",
+     12
+    ],
+    [
+     "tiktok",
+     12
+    ],
+    [
+     "emojis",
+     11
+    ],
+    [
+     "define",
+     11
+    ],
+    [
+     "productive",
+     11
+    ],
+    [
+     "youre",
+     10
+    ],
+    [
+     "rice",
+     9
+    ],
+    [
+     "pandas",
+     9
+    ],
+    [
+     "dramatic",
+     9
+    ],
+    [
+     "emoji",
+     8
+    ],
+    [
+     "lotus",
+     8
+    ],
+    [
+     "hmmm",
+     7
+    ],
+    [
+     "backpack",
+     7
+    ],
+    [
+     "acceptable",
+     7
+    ],
+    [
+     "panda",
+     7
+    ],
+    [
+     "prof",
+     7
+    ],
+    [
+     "edinburgh",
+     6
+    ],
+    [
+     "lowkey",
+     6
+    ],
+    [
+     "convo",
+     6
+    ],
+    [
+     "defo",
+     6
+    ],
+    [
+     "garmin",
+     6
+    ],
+    [
+     "pretending",
+     5
+    ],
+    [
+     "shops",
+     5
+    ],
+    [
+     "skipped",
+     5
+    ],
+    [
+     "lmao",
+     5
+    ],
+    [
+     "spread",
+     5
+    ],
+    [
+     "shit",
+     5
+    ],
+    [
+     "nooooo",
+     5
+    ],
+    [
+     "lecture",
+     5
+    ],
+    [
+     "telly",
+     5
+    ],
+    [
+     "cinema",
+     5
+    ],
+    [
+     "cappuccino",
+     5
+    ],
+    [
+     "wifi",
+     5
+    ],
+    [
+     "typing",
+     5
+    ],
+    [
+     "theyre",
+     5
+    ],
+    [
+     "nooo",
+     5
+    ],
+    [
+     "chaos",
+     5
+    ],
+    [
+     "mock",
+     5
+    ],
+    [
+     "chaotic",
+     5
+    ]
+   ]
+  },
+  "nus_sms": {
+   "pct_tokens_oov_4plus": 25.9,
+   "top_oov": [
+    [
+     "decimal",
+     720
+    ],
+    [
+     "liao",
+     670
+    ],
+    [
+     "lols",
+     509
+    ],
+    [
+     "reply",
+     496
+    ],
+    [
+     "hehe",
+     297
+    ],
+    [
+     "okie",
+     292
+    ],
+    [
+     "hmmm",
+     292
+    ],
+    [
+     "nite",
+     292
+    ],
+    [
+     "yeap",
+     288
+    ],
+    [
+     "rite",
+     282
+    ],
+    [
+     "thks",
+     264
+    ],
+    [
+     "shld",
+     258
+    ],
+    [
+     "mins",
+     238
+    ],
+    [
+     "tink",
+     215
+    ],
+    [
+     "moro",
+     206
+    ],
+    [
+     "reaching",
+     180
+    ],
+    [
+     "prob",
+     160
+    ],
+    [
+     "kiss",
+     158
+    ],
+    [
+     "sian",
+     155
+    ],
+    [
+     "oredi",
+     145
+    ],
+    [
+     "bhai",
+     144
+    ],
+    [
+     "fren",
+     139
+    ],
+    [
+     "icic",
+     136
+    ],
+    [
+     "intro",
+     132
+    ],
+    [
+     "paiseh",
+     128
+    ],
+    [
+     "abit",
+     126
+    ],
+    [
+     "thanx",
+     125
+    ],
+    [
+     "bathe",
+     123
+    ],
+    [
+     "aiya",
+     121
+    ],
+    [
+     "wana",
+     116
+    ],
+    [
+     "shit",
+     116
+    ],
+    [
+     "mayb",
+     115
+    ],
+    [
+     "fetch",
+     114
+    ],
+    [
+     "ryan",
+     114
+    ],
+    [
+     "orchard",
+     112
+    ],
+    [
+     "bles",
+     110
+    ],
+    [
+     "anot",
+     109
+    ],
+    [
+     "lecture",
+     106
+    ],
+    [
+     "poke",
+     106
+    ],
+    [
+     "chem",
+     102
+    ]
+   ]
+  },
+  "nps_chatroom": {
+   "pct_tokens_oov_4plus": 34.8,
+   "top_oov": [
+    [
+     "suser",
+     2336
+    ],
+    [
+     "adultsuser",
+     801
+    ],
+    [
+     "teensuser",
+     304
+    ],
+    [
+     "lmao",
+     128
+    ],
+    [
+     "hiya",
+     85
+    ],
+    [
+     "nick",
+     33
+    ],
+    [
+     "teens",
+     33
+    ],
+    [
+     "sexy",
+     26
+    ],
+    [
+     "talkcity",
+     22
+    ],
+    [
+     "howdy",
+     20
+    ],
+    [
+     "shit",
+     17
+    ],
+    [
+     "nite",
+     17
+    ],
+    [
+     "tryin",
+     17
+    ],
+    [
+     "virgin",
+     17
+    ],
+    [
+     "heya",
+     16
+    ],
+    [
+     "fuck",
+     15
+    ],
+    [
+     "doin",
+     13
+    ],
+    [
+     "elbows",
+     13
+    ],
+    [
+     "outta",
+     12
+    ],
+    [
+     "females",
+     12
+    ],
+    [
+     "hehe",
+     12
+    ],
+    [
+     "talkin",
+     12
+    ],
+    [
+     "honey",
+     11
+    ],
+    [
+     "perv",
+     11
+    ],
+    [
+     "whisper",
+     11
+    ],
+    [
+     "babe",
+     11
+    ],
+    [
+     "jesus",
+     10
+    ],
+    [
+     "heyy",
+     10
+    ],
+    [
+     "tongue",
+     10
+    ],
+    [
+     "kiss",
+     10
+    ],
+    [
+     "myspace",
+     10
+    ],
+    [
+     "waves",
+     10
+    ],
+    [
+     "liam",
+     10
+    ],
+    [
+     "profile",
+     9
+    ],
+    [
+     "cyber",
+     9
+    ],
+    [
+     "kisses",
+     9
+    ],
+    [
+     "hows",
+     9
+    ],
+    [
+     "aint",
+     9
+    ],
+    [
+     "temp",
+     9
+    ],
+    [
+     "hiyas",
+     9
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,866 @@
+{
+ "n_ctx": 80,
+ "lex": {
+  "human": {
+   "chars_med": 23.0,
+   "chars_mean": 43.7875,
+   "lines_mean": 1.775,
+   "q": 0.0875,
+   "excl_per_msg": 0.0875,
+   "emoji_any": 0.1375,
+   "emoji_mean": 0.25,
+   "llm_words_any": 0.025,
+   "upper_start": 0.2375,
+   "end_punct": 0.1,
+   "dash": 0.0125,
+   "laugh": 0.0625
+  },
+  "gem_base": {
+   "chars_med": 62.0,
+   "chars_mean": 78.225,
+   "lines_mean": 1.575,
+   "q": 0.425,
+   "excl_per_msg": 0.4875,
+   "emoji_any": 0.6,
+   "emoji_mean": 0.7,
+   "llm_words_any": 0.1125,
+   "upper_start": 0.2875,
+   "end_punct": 0.3875,
+   "dash": 0.025,
+   "laugh": 0.3125
+  },
+  "gpt_base": {
+   "chars_med": 46.5,
+   "chars_mean": 58.275,
+   "lines_mean": 1.025,
+   "q": 0.3625,
+   "excl_per_msg": 1.45,
+   "emoji_any": 0.2375,
+   "emoji_mean": 0.2625,
+   "llm_words_any": 0.125,
+   "upper_start": 0.375,
+   "end_punct": 0.8125,
+   "dash": 0.0,
+   "laugh": 0.05
+  },
+  "gem_brief": {
+   "chars_med": 13.0,
+   "chars_mean": 16.825,
+   "lines_mean": 1.0,
+   "q": 0.0375,
+   "excl_per_msg": 0.025,
+   "emoji_any": 0.1625,
+   "emoji_mean": 0.1625,
+   "llm_words_any": 0.025,
+   "upper_start": 0.0125,
+   "end_punct": 0.0625,
+   "dash": 0.0,
+   "laugh": 0.0625
+  }
+ },
+ "judge": {
+  "human": {
+   "human_like": 0.842,
+   "too_intense": 0.186,
+   "generic": 0.672,
+   "cliche": 0.133,
+   "over_valid": 0.148,
+   "teasing": 0.425,
+   "r_int": 0.914
+  },
+  "gem_base": {
+   "human_like": 0.878,
+   "too_intense": 0.188,
+   "generic": 0.611,
+   "cliche": 0.16,
+   "over_valid": 0.198,
+   "teasing": 0.602,
+   "r_int": 1.234
+  },
+  "gpt_base": {
+   "human_like": 0.809,
+   "too_intense": 0.171,
+   "generic": 0.778,
+   "cliche": 0.208,
+   "over_valid": 0.241,
+   "teasing": 0.291,
+   "r_int": 1.154
+  },
+  "gem_brief": {
+   "human_like": 0.879,
+   "too_intense": 0.182,
+   "generic": 0.73,
+   "cliche": 0.182,
+   "over_valid": 0.102,
+   "teasing": 0.433,
+   "r_int": 1.136
+  }
+ },
+ "pair": {
+  "gem_base": {
+   "p_human_real_mean": 0.37324999999999997,
+   "human_wins_real": 0.25,
+   "p_human_fits_mean": 0.224625,
+   "human_wins_fits": 0.1125,
+   "n": 80
+  },
+  "gpt_base": {
+   "p_human_real_mean": 0.5987500000000001,
+   "human_wins_real": 0.6625,
+   "p_human_fits_mean": 0.3635,
+   "human_wins_fits": 0.3,
+   "n": 80
+  },
+  "gem_brief": {
+   "p_human_real_mean": 0.45275,
+   "human_wins_real": 0.4125,
+   "p_human_fits_mean": 0.43499999999999994,
+   "human_wins_fits": 0.3625,
+   "n": 80
+  }
+ },
+ "llm_cost": {
+  "calls": 240,
+  "cached": 0,
+  "cost": 0.020288299999999995
+ },
+ "jev": {
+  "calls": 640,
+  "cached": 0,
+  "input_tokens": 484920,
+  "cost": 0.020366640000000002,
+  "latency_p50_s": 0.48383426666259766,
+  "n_lat": 640
+ },
+ "top_words": {
+  "human": [
+   [
+    "i",
+    34
+   ],
+   [
+    "the",
+    22
+   ],
+   [
+    "you",
+    19
+   ],
+   [
+    "it",
+    16
+   ],
+   [
+    "to",
+    15
+   ],
+   [
+    "a",
+    13
+   ],
+   [
+    "that",
+    13
+   ],
+   [
+    "like",
+    11
+   ],
+   [
+    "is",
+    8
+   ],
+   [
+    "just",
+    8
+   ],
+   [
+    "in",
+    8
+   ],
+   [
+    "bye",
+    7
+   ],
+   [
+    "my",
+    7
+   ],
+   [
+    "have",
+    7
+   ],
+   [
+    "of",
+    6
+   ],
+   [
+    "for",
+    6
+   ],
+   [
+    "and",
+    6
+   ],
+   [
+    "do",
+    6
+   ],
+   [
+    "love",
+    6
+   ],
+   [
+    "so",
+    5
+   ],
+   [
+    "yes",
+    5
+   ],
+   [
+    "will",
+    5
+   ],
+   [
+    "when",
+    5
+   ],
+   [
+    "me",
+    5
+   ],
+   [
+    "did",
+    5
+   ],
+   [
+    "good",
+    5
+   ],
+   [
+    "be",
+    5
+   ],
+   [
+    "too",
+    5
+   ],
+   [
+    "u",
+    5
+   ],
+   [
+    "they",
+    4
+   ],
+   [
+    "or",
+    4
+   ],
+   [
+    "we",
+    4
+   ],
+   [
+    "was",
+    4
+   ],
+   [
+    "all",
+    4
+   ],
+   [
+    "thank",
+    4
+   ],
+   [
+    "now",
+    4
+   ],
+   [
+    "what",
+    4
+   ],
+   [
+    "👍",
+    4
+   ],
+   [
+    "dont",
+    4
+   ],
+   [
+    "🥺",
+    3
+   ]
+  ],
+  "gem_base": [
+   [
+    "you",
+    31
+   ],
+   [
+    "to",
+    31
+   ],
+   [
+    "a",
+    28
+   ],
+   [
+    "the",
+    26
+   ],
+   [
+    "me",
+    18
+   ],
+   [
+    "i",
+    17
+   ],
+   [
+    "u",
+    17
+   ],
+   [
+    "are",
+    16
+   ],
+   [
+    "what",
+    16
+   ],
+   [
+    "it",
+    14
+   ],
+   [
+    "and",
+    14
+   ],
+   [
+    "😂",
+    14
+   ],
+   [
+    "just",
+    14
+   ],
+   [
+    "so",
+    12
+   ],
+   [
+    "of",
+    12
+   ],
+   [
+    "was",
+    10
+   ],
+   [
+    "or",
+    10
+   ],
+   [
+    "for",
+    10
+   ],
+   [
+    "lol",
+    9
+   ],
+   [
+    "wait",
+    9
+   ],
+   [
+    "like",
+    9
+   ],
+   [
+    "at",
+    9
+   ],
+   [
+    "haha",
+    9
+   ],
+   [
+    "get",
+    9
+   ],
+   [
+    "on",
+    9
+   ],
+   [
+    "right",
+    8
+   ],
+   [
+    "we",
+    8
+   ],
+   [
+    "how",
+    8
+   ],
+   [
+    "your",
+    8
+   ],
+   [
+    "my",
+    7
+   ],
+   [
+    "too",
+    7
+   ],
+   [
+    "going",
+    7
+   ],
+   [
+    "in",
+    7
+   ],
+   [
+    "day",
+    7
+   ],
+   [
+    "do",
+    7
+   ],
+   [
+    "that",
+    7
+   ],
+   [
+    "good",
+    7
+   ],
+   [
+    "don't",
+    6
+   ],
+   [
+    "be",
+    6
+   ],
+   [
+    "see",
+    6
+   ]
+  ],
+  "gpt_base": [
+   [
+    "you",
+    38
+   ],
+   [
+    "i",
+    28
+   ],
+   [
+    "to",
+    26
+   ],
+   [
+    "it",
+    25
+   ],
+   [
+    "a",
+    23
+   ],
+   [
+    "just",
+    15
+   ],
+   [
+    "the",
+    14
+   ],
+   [
+    "thanks",
+    13
+   ],
+   [
+    "we",
+    13
+   ],
+   [
+    "have",
+    12
+   ],
+   [
+    "s",
+    12
+   ],
+   [
+    "what",
+    11
+   ],
+   [
+    "your",
+    11
+   ],
+   [
+    "do",
+    10
+   ],
+   [
+    "be",
+    10
+   ],
+   [
+    "too",
+    10
+   ],
+   [
+    "fun",
+    9
+   ],
+   [
+    "that",
+    9
+   ],
+   [
+    "so",
+    9
+   ],
+   [
+    "can",
+    9
+   ],
+   [
+    "of",
+    9
+   ],
+   [
+    "ll",
+    8
+   ],
+   [
+    "how",
+    8
+   ],
+   [
+    "good",
+    7
+   ],
+   [
+    "for",
+    7
+   ],
+   [
+    "and",
+    7
+   ],
+   [
+    "love",
+    7
+   ],
+   [
+    "t",
+    7
+   ],
+   [
+    "about",
+    7
+   ],
+   [
+    "time",
+    6
+   ],
+   [
+    "soon",
+    6
+   ],
+   [
+    "going",
+    6
+   ],
+   [
+    "right",
+    6
+   ],
+   [
+    "all",
+    5
+   ],
+   [
+    "together",
+    5
+   ],
+   [
+    "definitely",
+    5
+   ],
+   [
+    "me",
+    5
+   ],
+   [
+    "wait",
+    5
+   ],
+   [
+    "see",
+    5
+   ],
+   [
+    "there",
+    5
+   ]
+  ],
+  "gem_brief": [
+   [
+    "u",
+    26
+   ],
+   [
+    "too",
+    16
+   ],
+   [
+    "miss",
+    8
+   ],
+   [
+    "love",
+    8
+   ],
+   [
+    "me",
+    7
+   ],
+   [
+    "ur",
+    7
+   ],
+   [
+    "dont",
+    6
+   ],
+   [
+    "the",
+    6
+   ],
+   [
+    "thanks",
+    5
+   ],
+   [
+    "to",
+    5
+   ],
+   [
+    "good",
+    5
+   ],
+   [
+    "haha",
+    4
+   ],
+   [
+    "expose",
+    4
+   ],
+   [
+    "😚",
+    4
+   ],
+   [
+    "true",
+    4
+   ],
+   [
+    "ugh",
+    3
+   ],
+   [
+    "sweet",
+    3
+   ],
+   [
+    "know",
+    3
+   ],
+   [
+    "don't",
+    3
+   ],
+   [
+    "keep",
+    3
+   ],
+   [
+    "dreaming",
+    3
+   ],
+   [
+    "🙄",
+    3
+   ],
+   [
+    "thx",
+    3
+   ],
+   [
+    "of",
+    3
+   ],
+   [
+    "when",
+    3
+   ],
+   [
+    "i",
+    3
+   ],
+   [
+    "like",
+    2
+   ],
+   [
+    "hey",
+    2
+   ],
+   [
+    "im",
+    2
+   ],
+   [
+    "weak",
+    2
+   ],
+   [
+    "be",
+    2
+   ],
+   [
+    "you",
+    2
+   ],
+   [
+    "yeah",
+    2
+   ],
+   [
+    "high",
+    2
+   ],
+   [
+    "ego",
+    2
+   ],
+   [
+    "she's",
+    2
+   ],
+   [
+    "sounds",
+    2
+   ],
+   [
+    "urself",
+    2
+   ],
+   [
+    "try",
+    2
+   ],
+   [
+    "up",
+    2
+   ]
+  ]
+ },
+ "pre_move_acc": 0.275,
+ "pre_move_dist": [
+  [
+   "tease_back",
+   24
+  ],
+  [
+   "reciprocate",
+   20
+  ],
+  [
+   "flustered_accept",
+   9
+  ],
+  [
+   "simple_thanks",
+   8
+  ],
+  [
+   "ignore_change_topic",
+   8
+  ],
+  [
+   "engage_enthusiastic",
+   5
+  ],
+  [
+   "minimal_ack",
+   5
+  ],
+  [
+   "deflate_humor",
+   1
+  ]
+ ],
+ "human_move_dist": [
+  [
+   "ignore_change_topic",
+   25
+  ],
+  [
+   "reciprocate",
+   15
+  ],
+  [
+   "tease_back",
+   11
+  ],
+  [
+   "minimal_ack",
+   7
+  ],
+  [
+   "deflate_humor",
+   7
+  ],
+  [
+   "engage_enthusiastic",
+   6
+  ],
+  [
+   "simple_thanks",
+   3
+  ],
+  [
+   "polite_decline",
+   2
+  ],
+  [
+   "flustered_accept",
+   2
+  ],
+  [
+   "mock_offense",
+   1
+  ],
+  [
+   "rude_reject",
+   1
+  ]
+ ]
+}
