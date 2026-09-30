@@ -1,0 +1,282 @@
+{
+ "n_contexts": 250,
+ "n_convs": 92,
+ "questions": {
+  "sensible": "Does the CANDIDATE MESSAGE make sense in the context of the conversation? It makes sense if it is reasonable in context and does not contradict or ignore anything said earlier; it does not make sense if it is confusing, illogical, off-context or factually wrong.",
+  "specific": "Is the CANDIDATE MESSAGE specific to the conversation? It is NOT specific if it is a generic reply that could be used in dozens of different contexts (for example 'ok', 'haha', 'me too', 'nice', 'true').",
+  "interesting": "Is the CANDIDATE MESSAGE interesting? It is interesting if it would likely catch someone's attention or arouse their curiosity, or if it is insightful, unexpected or witty. If it is monotonous and predictable, or if you are unsure, it is not interesting.",
+  "assistant_like": "Does the sender of the CANDIDATE MESSAGE behave like a 'helpful AI assistant', being overly verbose, helpful, didactic, moralistic, submissive or easily persuaded?",
+  "no_subtext": "Does the CANDIDATE MESSAGE directly speak out thoughts and feelings instead of leaving them implicit (subtext), in a way a real person texting would not?",
+  "repeats_other": "Does the CANDIDATE MESSAGE repeat or restate the other person's viewpoint or information that was already said?",
+  "humanlike": "Human-likeness: how natural is the CANDIDATE MESSAGE as a reply in this conversation?"
+ },
+ "means": {
+  "sensible": {
+   "human": 0.80112,
+   "base_gemini": 0.90352,
+   "base_gpt4omini": 0.90844,
+   "base_llama70b": 0.9095599999999999
+  },
+  "specific": {
+   "human": 0.6577200000000001,
+   "base_gemini": 0.83204,
+   "base_gpt4omini": 0.7348,
+   "base_llama70b": 0.7816
+  },
+  "interesting": {
+   "human": 0.24648,
+   "base_gemini": 0.351,
+   "base_gpt4omini": 0.19132,
+   "base_llama70b": 0.21715999999999996
+  },
+  "assistant_like": {
+   "human": 0.07400000000000001,
+   "base_gemini": 0.08672000000000002,
+   "base_gpt4omini": 0.15384,
+   "base_llama70b": 0.11984
+  },
+  "no_subtext": {
+   "human": 0.24852000000000002,
+   "base_gemini": 0.26292000000000004,
+   "base_gpt4omini": 0.2794,
+   "base_llama70b": 0.26196
+  },
+  "repeats_other": {
+   "human": 0.16328000000000004,
+   "base_gemini": 0.31292000000000003,
+   "base_gpt4omini": 0.30296000000000006,
+   "base_llama70b": 0.2974
+  },
+  "humanlike": {
+   "human": 2.8047600000000004,
+   "base_gemini": 3.45528,
+   "base_gpt4omini": 2.99032,
+   "base_llama70b": 3.25608
+  }
+ },
+ "paired_human_minus_llm": {
+  "sensible": {
+   "base_gemini": {
+    "mean_diff": -0.10239999999999998,
+    "ci95": [
+     -0.12816560977962096,
+     -0.0769010724095611
+    ],
+    "human_wins_pair": 0.22
+   },
+   "base_gpt4omini": {
+    "mean_diff": -0.10731999999999998,
+    "ci95": [
+     -0.13281447330994595,
+     -0.08317773791852218
+    ],
+    "human_wins_pair": 0.178
+   },
+   "base_llama70b": {
+    "mean_diff": -0.10844,
+    "ci95": [
+     -0.13627183227499515,
+     -0.08230595238095238
+    ],
+    "human_wins_pair": 0.21
+   }
+  },
+  "specific": {
+   "base_gemini": {
+    "mean_diff": -0.17432,
+    "ci95": [
+     -0.2054245816126929,
+     -0.14234720418470426
+    ],
+    "human_wins_pair": 0.212
+   },
+   "base_gpt4omini": {
+    "mean_diff": -0.07708000000000001,
+    "ci95": [
+     -0.11312299465240641,
+     -0.04244783855149001
+    ],
+    "human_wins_pair": 0.42000000000000004
+   },
+   "base_llama70b": {
+    "mean_diff": -0.12387999999999999,
+    "ci95": [
+     -0.16484233111849395,
+     -0.08443775100401608
+    ],
+    "human_wins_pair": 0.27
+   }
+  },
+  "interesting": {
+   "base_gemini": {
+    "mean_diff": -0.10451999999999999,
+    "ci95": [
+     -0.1320902490559252,
+     -0.077871351514846
+    ],
+    "human_wins_pair": 0.29600000000000004
+   },
+   "base_gpt4omini": {
+    "mean_diff": 0.05516,
+    "ci95": [
+     0.03127206083858591,
+     0.0786761012164238
+    ],
+    "human_wins_pair": 0.592
+   },
+   "base_llama70b": {
+    "mean_diff": 0.029319999999999992,
+    "ci95": [
+     0.002794133192389005,
+     0.05276299288946346
+    ],
+    "human_wins_pair": 0.51
+   }
+  },
+  "assistant_like": {
+   "base_gemini": {
+    "mean_diff": -0.012719999999999999,
+    "ci95": [
+     -0.023048780487804878,
+     -0.0018286346776246426
+    ],
+    "human_wins_pair": 0.406
+   },
+   "base_gpt4omini": {
+    "mean_diff": -0.07984000000000001,
+    "ci95": [
+     -0.09457675837272252,
+     -0.06566264496820054
+    ],
+    "human_wins_pair": 0.1
+   },
+   "base_llama70b": {
+    "mean_diff": -0.04584,
+    "ci95": [
+     -0.06122419533851277,
+     -0.03214483253588518
+    ],
+    "human_wins_pair": 0.28200000000000003
+   }
+  },
+  "no_subtext": {
+   "base_gemini": {
+    "mean_diff": -0.014399999999999998,
+    "ci95": [
+     -0.030001162790697672,
+     0.00339663743280927
+    ],
+    "human_wins_pair": 0.45399999999999996
+   },
+   "base_gpt4omini": {
+    "mean_diff": -0.03088,
+    "ci95": [
+     -0.04736325208165459,
+     -0.011627222068711454
+    ],
+    "human_wins_pair": 0.372
+   },
+   "base_llama70b": {
+    "mean_diff": -0.013439999999999999,
+    "ci95": [
+     -0.026842985717080808,
+     0.0005691685439278999
+    ],
+    "human_wins_pair": 0.432
+   }
+  },
+  "repeats_other": {
+   "base_gemini": {
+    "mean_diff": -0.14964,
+    "ci95": [
+     -0.18839533171747927,
+     -0.11314192491504542
+    ],
+    "human_wins_pair": 0.24200000000000002
+   },
+   "base_gpt4omini": {
+    "mean_diff": -0.13968,
+    "ci95": [
+     -0.16896516607251547,
+     -0.11358031123942103
+    ],
+    "human_wins_pair": 0.226
+   },
+   "base_llama70b": {
+    "mean_diff": -0.13412000000000002,
+    "ci95": [
+     -0.1644690312000673,
+     -0.10704696199467448
+    ],
+    "human_wins_pair": 0.27
+   }
+  },
+  "humanlike": {
+   "base_gemini": {
+    "mean_diff": -0.65052,
+    "ci95": [
+     -0.7693943528799445,
+     -0.5417505391804458
+    ],
+    "human_wins_pair": 0.108
+   },
+   "base_gpt4omini": {
+    "mean_diff": -0.18556,
+    "ci95": [
+     -0.2977759704711347,
+     -0.07101460528006173
+    ],
+    "human_wins_pair": 0.47400000000000003
+   },
+   "base_llama70b": {
+    "mean_diff": -0.45132,
+    "ci95": [
+     -0.5760777889784947,
+     -0.33124093159400647
+    ],
+    "human_wins_pair": 0.29
+   }
+  }
+ },
+ "corr_with_length": {
+  "sensible": 0.1900344513849204,
+  "specific": 0.507361785438198,
+  "interesting": 0.15251386102786885,
+  "assistant_like": 0.4616637919611045,
+  "no_subtext": 0.2723486098954919,
+  "repeats_other": 0.43167540310690006,
+  "humanlike": -0.03130089417381701
+ },
+ "length_matched": {
+  "base_gemini": {
+   "n": 43,
+   "sensible": -0.15,
+   "specific": -0.0855813953488372,
+   "interesting": -0.021162790697674422,
+   "assistant_like": 0.003255813953488373,
+   "no_subtext": 0.0172093023255814,
+   "repeats_other": -0.07651162790697673,
+   "humanlike": -0.7893023255813955
+  },
+  "base_gpt4omini": {
+   "n": 60,
+   "sensible": -0.12216666666666663,
+   "specific": 0.028833333333333322,
+   "interesting": 0.09699999999999999,
+   "assistant_like": -0.05833333333333333,
+   "no_subtext": -0.009000000000000001,
+   "repeats_other": -0.10000000000000002,
+   "humanlike": -0.2685
+  },
+  "base_llama70b": {
+   "n": 67,
+   "sensible": -0.09970149253731342,
+   "specific": -0.016865671641791043,
+   "interesting": 0.06343283582089553,
+   "assistant_like": -0.004179104477611941,
+   "no_subtext": 0.00044776119402984826,
+   "repeats_other": -0.08955223880597016,
+   "humanlike": -0.45253731343283576
+  }
+ }
+}
