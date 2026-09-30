@@ -55,3 +55,9 @@ def load_turns(corpora=("maichat", "whatsapp_nl", "empathetic", "nps_chatroom"))
         r["n_words"] = int(sum(x.n_words for x in base))
         rows.append(r)
     return pd.DataFrame(rows)
+
+
+if __name__ == "__main__":  # builds $A4_OUT/a4_turns.pkl (run after a4_style_feats.py)
+    T = load_turns()
+    T.to_pickle(f"{OUT}/a4_turns.pkl")
+    print(len(T))
