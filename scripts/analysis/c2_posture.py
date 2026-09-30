@@ -82,11 +82,18 @@ OUT_D = f"{ADATA}/c2_posture_decisions.json"
 GEN = f"{PROC}/c2_posture_gen.jsonl"
 JUD = f"{PROC}/c2_posture_judge.jsonl"
 REL = {"relationship_to_user": "acquaintances who chat now and then; no history of conflict"}
+# variantes do estado da relação (só na decisão): a mesma persona e a mesma mensagem mudam de postura com a história?
+REL_VAR = {
+    "close": {"relationship_to_user": "close friends for years; high trust and affection; they tease each other a lot",
+              "unresolved_issues": ["none"]},
+    "hurt": {"relationship_to_user": "used to be friendly, but trust is low and resentment is high right now",
+             "unresolved_issues": ["yesterday the user mocked the character in front of others and never apologized"]},
+}
 
 
-def dstate(pk, msg):
+def dstate(pk, msg, rel=None):
     p = PERSONAS[pk]
-    return {"character": p["name"], "persona": p["sheet"], **REL, "user_message": msg}
+    return {"character": p["name"], "persona": p["sheet"], **(rel or REL), "user_message": msg}
 
 
 def decide():
@@ -97,11 +104,12 @@ def decide():
         **{f"nl_{k}": noul(f"Would {PERSONAS[pk]['name']}, true to `persona`, react to `user_message` like this: {v}?")
            for k, v in POSTURES.items()},
     }
-    res = jev.ask_many([(dstate(pk, MSGS[mi][1]), qs(pk)) for pk, mi in items], workers=4)
+    keys = [(pk, mi, None) for pk, mi in items] + [(pk, mi, rk) for rk in REL_VAR for pk, mi in items]
+    res = jev.ask_many([(dstate(pk, MSGS[mi][1], REL_VAR.get(rk)), qs(pk)) for pk, mi, rk in keys], workers=4)
     out = {}
-    for (pk, mi), r in zip(items, res):
+    for (pk, mi, rk), r in zip(keys, res):
         nl = {k: r[f"nl_{k}"]["noul"] for k in POSTURES}
-        out[f"{pk}|{mi}"] = {"posture": r["posture"]["choice"], "conf": r["posture"]["confidence"],
+        out[f"{pk}|{mi}" + (f"|{rk}" if rk else "")] = {"posture": r["posture"]["choice"], "conf": r["posture"]["confidence"],
                              "probs": r["posture"]["probabilities"], "intensity": r["intensity"]["score"],
                              "noul_top": max(nl, key=nl.get), "nouls": nl}
     jdump(out, OUT_D)

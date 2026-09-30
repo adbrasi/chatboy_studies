@@ -123,23 +123,30 @@ def judge_qs():
 
 
 def judge():
+    """Duas chamadas por resposta: (1) os Nouls de forma SEM o estado no state (o juiz não sabe qual estado foi pedido,
+    para não "ver" frieza onde espera frieza); (2) só 'consistent', COM o estado (how_mia_feels)."""
     gens = [g for g in jl_load(OUT) if g["reply"]]
     done = {(d["actor"], d["kind"], d["fmt"], d["mi"]) for d in jl_load(JUD)}
     todo = [g for g in gens if (g["actor"], g["kind"], g["fmt"], g["mi"]) not in done]
     print("judge todo", len(todo), flush=True)
-    q = judge_qs()
+    qa = judge_qs()
+    qc = {"consistent": qa.pop("consistent")}
 
-    def st(g):
-        r = mk_state(g["kind"])
-        return {"character": C, "user": U, "how_mia_feels": r.sentences(C, U),
-                "previous_turns": [{"from": U, "text": "hey"}, {"from": C, "text": "hey"}],
-                "user_message": g["msg"], "reply": g["reply"]}
+    def st(g, with_state):
+        s = {"character": C, "user": U}
+        if with_state:
+            s["how_mia_feels"] = mk_state(g["kind"]).sentences(C, U)
+        s.update({"previous_turns": [{"from": U, "text": "hey"}, {"from": C, "text": "hey"}],
+                  "user_message": g["msg"], "reply": g["reply"]})
+        return s
     B = 100
     for i in range(0, len(todo), B):
         chunk = todo[i:i + B]
-        res = jev.ask_many([(st(g), q) for g in chunk], workers=4)
+        ra = jev.ask_many([(st(g, False), qa) for g in chunk], workers=4)
+        rc = jev.ask_many([(st(g, True), qc) for g in chunk], workers=4)
         jl_append(JUD, [{"actor": g["actor"], "kind": g["kind"], "fmt": g["fmt"], "mi": g["mi"],
-                         "j": {k: v["noul"] for k, v in r.items()}} for g, r in zip(chunk, res) if r])
+                         "j": {**{k: v["noul"] for k, v in a.items()}, **{k: v["noul"] for k, v in c.items()}}}
+                        for g, a, c in zip(chunk, ra, rc) if a and c])
         print("judged", i + B, jev.summary(), flush=True)
 
 

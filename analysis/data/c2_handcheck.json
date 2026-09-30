@@ -59,5 +59,29 @@
   "jaccard_moved": 0.407,
   "rate_a": 0.085,
   "rate_b": 0.167
+ },
+ "eu~jev_com_estado@0.74": {
+  "kappa": 0.651,
+  "jaccard_moved": 0.5,
+  "rate_a": 0.039,
+  "rate_b": 0.052
+ },
+ "eu~jev_com_estado@0.74|signal": {
+  "kappa": 0.74,
+  "jaccard_moved": 0.606,
+  "rate_a": 0.052,
+  "rate_b": 0.058
+ },
+ "luna~jev_com_estado@0.74": {
+  "kappa": 0.549,
+  "jaccard_moved": 0.403,
+  "rate_a": 0.06,
+  "rate_b": 0.052
+ },
+ "luna~jev_com_estado@0.74|signal": {
+  "kappa": 0.548,
+  "jaccard_moved": 0.408,
+  "rate_a": 0.085,
+  "rate_b": 0.058
  }
 }

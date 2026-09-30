@@ -45,6 +45,7 @@ def compare():
     G = {d["id"]: d["gold"] for d in jl_load(f"{PROC}/c2_gold_luna.jsonl") if d.get("gold")}
     ST = {d["id"]: d for d in jl_load(f"{PROC}/c2_jev_real_state.jsonl")}
     DD = [f"{d}_{dr}" for d in DIMS for dr in ("up", "down")]
+    THR = json.load(open(f"{ADATA}/c2_eval_real.json"))["arch"]["DIM|com_estado"]["thr_dev"]
     rows = []
     for o in S:
         i = o["id"]
@@ -54,7 +55,8 @@ def compare():
         lu = lab_set(G[i]["dims"])
         jv = {dd for dd in DD if NS[i]["a1"][f"d_{dd}"]["noul"] >= 0.5}
         js = {dd for dd in DD if ST[i]["a1"][f"d_{dd}"]["noul"] >= 0.5}
-        rows.append((me, lu, jv, js, o["stratum"]))
+        jt = {dd for dd in DD if ST[i]["a1"][f"d_{dd}"]["noul"] >= THR}
+        rows.append((me, lu, jv, js, o["stratum"], jt))
 
     def agree(a_idx, b_idx, rs):
         # concordância por célula (turno x dimensão-direção) e kappa de Cohen
@@ -67,9 +69,9 @@ def compare():
         mv = (ya | yb)
         jacc = float(np.mean((ya & yb)[mv])) if mv.any() else float("nan")
         return {"kappa": round(float(kappa), 3), "jaccard_moved": round(jacc, 3), "rate_a": round(float(pa), 3), "rate_b": round(float(pb), 3)}
-    names = ["eu", "luna", "jev_sem_estado", "jev_com_estado"]
+    names = ["eu", "luna", "jev_sem_estado", "jev_com_estado", "stratum", f"jev_com_estado@{THR}"]
     out = {"n": len(rows)}
-    for a, b in [(0, 1), (0, 2), (0, 3), (1, 2), (1, 3)]:
+    for a, b in [(0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (0, 5), (1, 5)]:
         out[f"{names[a]}~{names[b]}"] = agree(a, b, rows)
         out[f"{names[a]}~{names[b]}|signal"] = agree(a, b, [r for r in rows if r[4] == "signal"])
     jdump(out, f"{ADATA}/c2_handcheck.json")

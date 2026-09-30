@@ -129,6 +129,10 @@ def variants():
     s = copy.deepcopy(SPEC); s["habituation"] = True; s["mood_decay_msg"] = 0.1; s["routine_gate"] = True; v["v1"] = s
     s = copy.deepcopy(v["v1"]); s["routine_thr"] = 0.7; v["v1+thr0.7"] = s
     s = copy.deepcopy(v["v1"]); s["routine_thr"] = 0.8; s["detect_thr"] = 0.6; v["v1+thr0.8"] = s
+    s = copy.deepcopy(SPEC); s["detect_thr"] = 0.74; s["routine_thr"] = 0.74; v["v0+thr0.74"] = s
+    s = copy.deepcopy(v["v1"]); s["detect_thr"] = 0.74; s["routine_thr"] = 0.74; v["v1+thr0.74"] = s
+    s = copy.deepcopy(v["v0+thr0.74"]); s["mood_decay_msg"] = 0.1; v["v0+thr0.74+mood"] = s
+    s = copy.deepcopy(v["v0+thr0.74"]); s["habituation"] = True; v["v0+thr0.74+hab"] = s
     return v
 
 
@@ -143,7 +147,11 @@ if __name__ == "__main__":
     # escolha no dev: maior correlação média do estado final com o ouro, penalizando saturação acima da do ouro
     def crit(r):
         return (r["final_rho_mean"] or 0) + r["mode_agree"] - max(0, r["sat_jev"] - r["sat_gold"])
-    best = max(out["dev"], key=lambda n: crit(out["dev"][n]))
+    best0 = max(out["dev"], key=lambda n: crit(out["dev"][n]))
+    out["chosen_on_dev_criterion_v0"] = best0
+    # critério final (declarado após ver a saturação de v0+thr0.74): restrição dura de plausibilidade
+    ok = [n for n in out["dev"] if out["dev"][n]["sat_jev"] <= out["dev"][n]["sat_gold"] + 0.02]
+    best = max(ok, key=lambda n: (out["dev"][n]["final_rho_mean"] or 0) + out["dev"][n]["mode_agree"])
     out["chosen_on_dev"] = best
     for name in V:
         out["test"][name] = compare("test", V[name])

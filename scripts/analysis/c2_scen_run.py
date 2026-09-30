@@ -19,6 +19,8 @@ BASES = {"S01_sincere_apology": {"affection": 0.65}, "S07_jealousy": {"affection
          "S08_reconciliation": {"comfort": 0.7, "trust": 0.7}, "S10_constant_affection": {"affection": 0.6}}
 KNOWN = {"S14_day200_banter": "about 5 years, best friends", "S03_bad_joke": "a few weeks"}
 
+# v2 = especificação escolhida no dev dos dados reais (c2_replay.py): limiar de detecção 0,74 + humor volta 10%/msg
+SPEC2 = copy.deepcopy(SPEC); SPEC2["detect_thr"] = 0.74; SPEC2["routine_thr"] = 0.74; SPEC2["mood_decay_msg"] = 0.1
 NAIVE_SPEC = copy.deepcopy(SPEC)
 NAIVE_SPEC["rate_up"] = {d: 1.0 for d in DIMS}; NAIVE_SPEC["rate_down"] = {d: 1.0 for d in DIMS}
 NAIVE_SPEC["half_life_h"] = {d: None for d in DIMS}
@@ -64,10 +66,12 @@ def naive_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=Fal
     return rec
 
 
-def run(name, cfg):
+def run(name, cfg0):
+    cfg = cfg0.replace("v2", "")
+    spec = SPEC2 if cfg0.endswith("v2") else SPEC
     turns = SC[name]["turns"]
     base = dict(DEFAULT_BASE, **BASES.get(name, {}))
-    rel = NaiveRel(base, spec=NAIVE_SPEC) if cfg == "NAIVE" else RelState(base)
+    rel = NaiveRel(base, spec=NAIVE_SPEC) if cfg == "NAIVE" else RelState(base, spec=spec)
     if name in KNOWN:
         rel.days_known = KNOWN[name]
     traj, hist, n1, n2, lat = [], [], 0, 0, []
