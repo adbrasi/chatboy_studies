@@ -1,0 +1,551 @@
+{
+ "windows": [
+  {
+   "corpus": "maichat",
+   "conv": "conv081",
+   "n": 82,
+   "score": 14.14,
+   "sig": {
+    "tension": 55,
+    "conflict": 21,
+    "anger": 22,
+    "aff": 1,
+    "vuln": 7,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv091",
+   "n": 89,
+   "score": 12.61,
+   "sig": {
+    "tension": 44,
+    "conflict": 21,
+    "anger": 24,
+    "aff": 3,
+    "vuln": 3,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv019",
+   "n": 90,
+   "score": 11.81,
+   "sig": {
+    "tension": 32,
+    "conflict": 14,
+    "anger": 13,
+    "aff": 5,
+    "vuln": 10,
+    "apo": 5,
+    "jeal": 0,
+    "prom": 2,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv089",
+   "n": 61,
+   "score": 9.86,
+   "sig": {
+    "tension": 32,
+    "conflict": 6,
+    "anger": 14,
+    "aff": 6,
+    "vuln": 4,
+    "apo": 1,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv070",
+   "n": 89,
+   "score": 9.75,
+   "sig": {
+    "tension": 38,
+    "conflict": 10,
+    "anger": 9,
+    "aff": 5,
+    "vuln": 15,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv082",
+   "n": 81,
+   "score": 9.22,
+   "sig": {
+    "tension": 49,
+    "conflict": 5,
+    "anger": 12,
+    "aff": 3,
+    "vuln": 6,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv090",
+   "n": 90,
+   "score": 7.48,
+   "sig": {
+    "tension": 29,
+    "conflict": 3,
+    "anger": 9,
+    "aff": 7,
+    "vuln": 13,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv027",
+   "n": 43,
+   "score": 7.01,
+   "sig": {
+    "tension": 12,
+    "conflict": 9,
+    "anger": 11,
+    "aff": 1,
+    "vuln": 1,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 1
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv025",
+   "n": 70,
+   "score": 6.81,
+   "sig": {
+    "tension": 22,
+    "conflict": 6,
+    "anger": 4,
+    "aff": 2,
+    "vuln": 6,
+    "apo": 1,
+    "jeal": 0,
+    "prom": 3,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv092",
+   "n": 69,
+   "score": 5.9,
+   "sig": {
+    "tension": 0,
+    "conflict": 0,
+    "anger": 0,
+    "aff": 20,
+    "vuln": 9,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv068",
+   "n": 56,
+   "score": 5.88,
+   "sig": {
+    "tension": 4,
+    "conflict": 0,
+    "anger": 8,
+    "aff": 13,
+    "vuln": 6,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv088",
+   "n": 58,
+   "score": 5.78,
+   "sig": {
+    "tension": 18,
+    "conflict": 5,
+    "anger": 9,
+    "aff": 0,
+    "vuln": 5,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 1,
+    "gap20h": 0
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv054",
+   "n": 62,
+   "score": 5.59,
+   "sig": {
+    "tension": 0,
+    "conflict": 0,
+    "anger": 0,
+    "aff": 10,
+    "vuln": 4,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 10,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "maichat",
+   "conv": "conv093",
+   "n": 49,
+   "score": 5.43,
+   "sig": {
+    "tension": 13,
+    "conflict": 2,
+    "anger": 4,
+    "aff": 5,
+    "vuln": 7,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_026",
+   "n": 60,
+   "score": 9.68,
+   "sig": {
+    "tension": 6,
+    "conflict": 2,
+    "anger": 4,
+    "aff": 9,
+    "vuln": 4,
+    "apo": 1,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 18
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_031",
+   "n": 60,
+   "score": 8.39,
+   "sig": {
+    "tension": 15,
+    "conflict": 9,
+    "anger": 6,
+    "aff": 0,
+    "vuln": 8,
+    "apo": 4,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 3
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_004",
+   "n": 60,
+   "score": 8.0,
+   "sig": {
+    "tension": 7,
+    "conflict": 6,
+    "anger": 6,
+    "aff": 6,
+    "vuln": 15,
+    "apo": 0,
+    "jeal": 2,
+    "prom": 0,
+    "gap20h": 3
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_001",
+   "n": 60,
+   "score": 7.49,
+   "sig": {
+    "tension": 0,
+    "conflict": 0,
+    "anger": 1,
+    "aff": 8,
+    "vuln": 7,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 2,
+    "gap20h": 15
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_015",
+   "n": 60,
+   "score": 7.36,
+   "sig": {
+    "tension": 1,
+    "conflict": 1,
+    "anger": 0,
+    "aff": 8,
+    "vuln": 13,
+    "apo": 1,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 11
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_053",
+   "n": 60,
+   "score": 7.36,
+   "sig": {
+    "tension": 1,
+    "conflict": 3,
+    "anger": 2,
+    "aff": 7,
+    "vuln": 8,
+    "apo": 2,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 10
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_040",
+   "n": 42,
+   "score": 7.25,
+   "sig": {
+    "tension": 1,
+    "conflict": 4,
+    "anger": 4,
+    "aff": 4,
+    "vuln": 5,
+    "apo": 1,
+    "jeal": 0,
+    "prom": 1,
+    "gap20h": 8
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_003",
+   "n": 60,
+   "score": 6.97,
+   "sig": {
+    "tension": 4,
+    "conflict": 1,
+    "anger": 7,
+    "aff": 13,
+    "vuln": 15,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 0
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_046",
+   "n": 24,
+   "score": 6.53,
+   "sig": {
+    "tension": 0,
+    "conflict": 0,
+    "anger": 0,
+    "aff": 5,
+    "vuln": 6,
+    "apo": 2,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 5
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_002",
+   "n": 60,
+   "score": 6.45,
+   "sig": {
+    "tension": 7,
+    "conflict": 2,
+    "anger": 3,
+    "aff": 4,
+    "vuln": 10,
+    "apo": 2,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 6
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_034",
+   "n": 60,
+   "score": 6.2,
+   "sig": {
+    "tension": 17,
+    "conflict": 6,
+    "anger": 8,
+    "aff": 0,
+    "vuln": 3,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 1,
+    "gap20h": 3
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_005",
+   "n": 60,
+   "score": 6.07,
+   "sig": {
+    "tension": 7,
+    "conflict": 1,
+    "anger": 2,
+    "aff": 6,
+    "vuln": 10,
+    "apo": 0,
+    "jeal": 0,
+    "prom": 1,
+    "gap20h": 6
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_016",
+   "n": 60,
+   "score": 5.42,
+   "sig": {
+    "tension": 0,
+    "conflict": 0,
+    "anger": 5,
+    "aff": 3,
+    "vuln": 14,
+    "apo": 1,
+    "jeal": 0,
+    "prom": 1,
+    "gap20h": 6
+   },
+   "split": "test"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_057",
+   "n": 60,
+   "score": 5.16,
+   "sig": {
+    "tension": 2,
+    "conflict": 0,
+    "anger": 2,
+    "aff": 3,
+    "vuln": 20,
+    "apo": 2,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 2
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_029",
+   "n": 60,
+   "score": 5.03,
+   "sig": {
+    "tension": 2,
+    "conflict": 3,
+    "anger": 2,
+    "aff": 0,
+    "vuln": 7,
+    "apo": 2,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 8
+   },
+   "split": "dev"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "conv": "wa_M_011",
+   "n": 60,
+   "score": 4.78,
+   "sig": {
+    "tension": 1,
+    "conflict": 0,
+    "anger": 1,
+    "aff": 1,
+    "vuln": 11,
+    "apo": 2,
+    "jeal": 0,
+    "prom": 0,
+    "gap20h": 8
+   },
+   "split": "test"
+  }
+ ],
+ "n_turns": 1895,
+ "by_corpus_split": {
+  "maichat/dev": 367,
+  "maichat/test": 622,
+  "whatsapp_nl/test": 426,
+  "whatsapp_nl/dev": 480
+ }
+}
