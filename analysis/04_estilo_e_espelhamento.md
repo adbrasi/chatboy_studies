@@ -4,11 +4,12 @@ Dimensão a4. Scripts em `scripts/analysis/a4_*.py`, saídas em `analysis/data/a
 Dados: `messages.jsonl`/`turns.jsonl`/`jev_base.jsonl` (maichat EN, whatsapp_nl NL, nps_chatroom EN, nus_sms EN,
 empathetic EN). Jev: 1.740 chamadas novas (≈US$0,04); LLM (gemini-3.5-flash-lite via `scripts/llm.py`): 120 chamadas (≈US$0,01).
 
-> **Aviso sobre os dados (vale para outros agentes):** em `scripts/features.py` a classe `EMOJI` termina com um `-`
-> literal, então `f.n_emoji` (e o `n_emoji` dos turnos) **conta hífens**. Além disso, o whatsapp_nl de 2012–2014
-> usa emoji do iPhone antigo (SoftBank, na área de uso privado U+E001–U+E53E, ex.: `` = 😂), que nenhum regex
-> pega. Refiz as features de estilo em `a4_style_feats.py` com o regex corrigido: a taxa de mensagens com emoji no
-> whatsapp_nl vai de 5,3% para 11,0% (emoji ou emoticon: 17%).
+> **Nota do agente principal (corrige um aviso anterior deste relatório):** o regex `EMOJI` de `scripts/features.py`
+> **não** conta hífens e **inclui** a área de uso privado U+E000–U+F8FF, onde ficam os emoji do iPhone antigo do
+> whatsapp_nl. Checado sobre os dados: as 3.445 mensagens com esses caracteres têm `n_emoji > 0`, nenhuma mensagem que
+> só tem hífen é contada, e 10,8% das mensagens do whatsapp_nl têm emoji, em linha com os 11,0% daqui. O problema
+> estava na cópia do regex feita para esta análise (o `-` final de `a4_style_feats.py` é que é literal), então as
+> taxas de emoji deste relatório podem estar levemente infladas por hífens (<1% das mensagens). As conclusões não mudam.
 
 ---
 
