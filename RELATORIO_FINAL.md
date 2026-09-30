@@ -9,6 +9,12 @@
 > (≈US$ 1,90) e ≈3.500 gerações de LLM (≈US$ 0,31). Os relatórios detalhados estão em `analysis/01…09`; este
 > documento é a síntese e a proposta de sistema.
 
+> **Status (2ª rodada em andamento):** as conclusões "o Jev não serve para X" (juiz de humano × LLM, número de bolhas,
+> previsão do movimento) valem **só para as formulações testadas na 1ª rodada**: perguntas holísticas ou únicas, sem
+> guia, sem cascata e sem encadeamento. A 2ª rodada (relatórios 10–15) testa dezenas de arquiteturas de chamadas
+> (cascatas, roteamento, saídas de um Jev entrando no state de outro, guias e exemplos no state, retrieval de casos
+> humanos), mecanismos de controle de saída com atores mais fortes, e o respaldo da literatura científica.
+
 ---
 
 ## 0. Resumo em 13 pontos
