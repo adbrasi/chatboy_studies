@@ -210,11 +210,23 @@ def analyze():
             ps = [D[f"{pk}|{mi}"]["posture"] for mi, (t, _) in enumerate(MSGS) if t == typ]
             res["posture_dist"][f"{pk}|{typ}"] = {p: ps.count(p) for p in set(ps)}
     res["choice_vs_noul_agree"] = round(float(np.mean([d["posture"] == d["noul_top"] for d in D.values()])), 3)
+    # o estado da relação muda a postura? (mesma persona, mesma mensagem)
+    res["rel_change"] = {}
+    for rk in REL_VAR:
+        ch = [(pk, mi) for pk in PERSONAS for mi in range(len(MSGS)) if D[f"{pk}|{mi}|{rk}"]["posture"] != D[f"{pk}|{mi}"]["posture"]]
+        dint = [D[f"{pk}|{mi}|{rk}"]["intensity"] - D[f"{pk}|{mi}"]["intensity"] for pk in PERSONAS for mi in range(len(MSGS))]
+        res["rel_change"][rk] = {"frac_changed": round(len(ch) / (len(PERSONAS) * len(MSGS)), 3),
+                                 "mean_intensity_delta": round(float(np.mean(dint)), 3),
+                                 "by_type": {t: round(float(np.mean([D[f"{pk}|{mi}|{rk}"]["posture"] != D[f"{pk}|{mi}"]["posture"]
+                                                                     for pk in PERSONAS for mi, (tt, _) in enumerate(MSGS) if tt == t])), 3)
+                                             for t in sorted({t for t, _ in MSGS})},
+                                 "examples": [f"{pk} <- '{MSGS[mi][1]}': {D[f'{pk}|{mi}']['posture']} -> {D[f'{pk}|{mi}|{rk}']['posture']}"
+                                              for pk, mi in ch[:40]]}
     res["mean_conf"] = round(float(np.mean([d["conf"] for d in D.values()])), 3)
     # exemplos lado a lado
     ex = []
     for pk, mi in [("soldier", 0), ("shy", 0), ("tsundere", 22), ("aristocrat", 6), ("cynic", 15), ("sweet", 3),
-                   ("tsundere", 9), ("soldier", 16)]:
+                   ("tsundere", 9), ("soldier", 16), ("cynic", 1), ("aristocrat", 10)]:
         for a in MODELS:
             ex.append({"pk": pk, "msg": MSGS[mi][1], "actor": a, "posture": D[f"{pk}|{mi}"]["posture"],
                        "intensity": D[f"{pk}|{mi}"]["intensity"],

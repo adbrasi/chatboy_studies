@@ -288,6 +288,7 @@ SPEC = {
     "jealousy_rule": False,      # ciúme sobe se evento "outra pessoa" AND afeto >= 0,55 (AND em código)
     "resolve_v3": False,         # regra de resolução de pendência v3d (ver physics_step)
     "resolve_relief": False,     # ao resolver, alívio do ressentimento de nível (severidade - 1)
+    "pattern_rule": False,       # ofensa do mesmo tipo repetida (>= 2x): só reparação concreta resolve
 }
 ROUTINE_UP = {"trust": ["promise_kept", "vulnerability", "absence_explained"],
               "comfort": ["vulnerability", "practical_care", "affection_expr", "interest_in_char", "friendly_tease", "gratitude"],
@@ -534,6 +535,8 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
                 two = u["apologies"] >= 2
             else:
                 two = u["apologies"] >= 2 and ev["apology"] >= spec["evt_thr"]
+            if spec.get("pattern_rule") and u.get("pattern", 1) >= 2 and not concrete:
+                continue   # padrão repetido (mesmo tipo de ofensa >= 2x): só reparação concreta resolve
             if u["sev"] <= 2 or concrete or two:
                 if not (u.get("repeat_offense", 0) >= 2 and not concrete):   # desculpa repetida sem mudança não resolve
                     resolved.append(u)
@@ -574,6 +577,10 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
         # não duplica uma pendência que a mensagem só repetiu
         if not any(a1.get(f"u_worse_{i}", {}).get("noul", 0) >= spec["addr_thr"] for i in range(len(rel.unresolved))):
             _add_unres(rel, txt, max(x[2] for x in res_up), t_hours)
+            cat = best if ev[best] >= 0.3 else "resentment_up"
+            rel.offense_counts = getattr(rel, "offense_counts", {})
+            rel.offense_counts[cat] = rel.offense_counts.get(cat, 0) + 1
+            rel.unresolved[-1]["pattern"] = rel.offense_counts[cat]
     # memória compartilhada (positiva, marcante)
     if a1.get("m_remember", {}).get("noul", 0) >= 0.7 and not res_up:
         pos = [x for x in applied if x[1] == "up" and x[0] in ("affection", "comfort", "trust", "playfulness") and x[2] >= 2]

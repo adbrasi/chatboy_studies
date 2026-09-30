@@ -29,6 +29,8 @@ s3 = copy.deepcopy(s3); s3["delta_interp"] = [0.0, 0.04, 0.10, 0.18, 0.28]; SPEC
 s3 = copy.deepcopy(s3); s3["jealousy_rule"] = True
 s3["modes"] = dict(s3["modes"], cold=("resentment", 0.40, 0.28, ">"), jealous=("jealousy", 0.35, 0.22, ">")); SPECS["v3c"] = s3
 s3 = copy.deepcopy(s3); s3["resolve_v3"] = True; s3["resolve_relief"] = True; SPECS["v3d"] = s3
+s4 = copy.deepcopy(SPECS["v3c"]); s4["resolve_relief"] = True; SPECS["v3c+relief"] = s4
+s4 = copy.deepcopy(SPECS["v3d"]); s4["pattern_rule"] = True; SPECS["v3e"] = s4
 DEV_SC = [k for k in SC if k[1:3].isdigit() and int(k[1:3]) % 2 == 1]
 NAIVE_SPEC = copy.deepcopy(SPEC)
 NAIVE_SPEC["rate_up"] = {d: 1.0 for d in DIMS}; NAIVE_SPEC["rate_down"] = {d: 1.0 for d in DIMS}

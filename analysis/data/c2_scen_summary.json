@@ -287,6 +287,102 @@
    "max_jump": 0.225,
    "n_jev1": 161,
    "n_jev2": 161
+  },
+  "FULL@v3c_offline_check": {
+   "all": {
+    "specific": 0.811,
+    "n_spec": 53,
+    "global": 1.0,
+    "scen_all_pass": 8
+   },
+   "dev": {
+    "specific": 0.815,
+    "n_spec": 27,
+    "global": 1.0,
+    "scen_all_pass": 4
+   },
+   "test": {
+    "specific": 0.808,
+    "n_spec": 26,
+    "global": 1.0,
+    "scen_all_pass": 4
+   },
+   "mode_switches_mean": 0.94,
+   "max_jump": 0.225,
+   "n_jev1": 161,
+   "n_jev2": 161
+  },
+  "FULL@v3d_offline": {
+   "all": {
+    "specific": 0.811,
+    "n_spec": 53,
+    "global": 1.0,
+    "scen_all_pass": 8
+   },
+   "dev": {
+    "specific": 0.889,
+    "n_spec": 27,
+    "global": 1.0,
+    "scen_all_pass": 5
+   },
+   "test": {
+    "specific": 0.731,
+    "n_spec": 26,
+    "global": 1.0,
+    "scen_all_pass": 3
+   },
+   "mode_switches_mean": 0.88,
+   "max_jump": 0.225,
+   "n_jev1": 161,
+   "n_jev2": 161
+  },
+  "FULL@v3c+relief_offline": {
+   "all": {
+    "specific": 0.811,
+    "n_spec": 53,
+    "global": 1.0,
+    "scen_all_pass": 8
+   },
+   "dev": {
+    "specific": 0.815,
+    "n_spec": 27,
+    "global": 1.0,
+    "scen_all_pass": 4
+   },
+   "test": {
+    "specific": 0.808,
+    "n_spec": 26,
+    "global": 1.0,
+    "scen_all_pass": 4
+   },
+   "mode_switches_mean": 0.94,
+   "max_jump": 0.225,
+   "n_jev1": 161,
+   "n_jev2": 161
+  },
+  "FULL@v3e_offline": {
+   "all": {
+    "specific": 0.811,
+    "n_spec": 53,
+    "global": 1.0,
+    "scen_all_pass": 8
+   },
+   "dev": {
+    "specific": 0.889,
+    "n_spec": 27,
+    "global": 1.0,
+    "scen_all_pass": 5
+   },
+   "test": {
+    "specific": 0.731,
+    "n_spec": 26,
+    "global": 1.0,
+    "scen_all_pass": 3
+   },
+   "mode_switches_mean": 0.88,
+   "max_jump": 0.225,
+   "n_jev1": 161,
+   "n_jev2": 161
   }
  },
  "per_crit": {
@@ -302,7 +398,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S01_sincere_apology :: vira pendência": {
    "FULLv2": true,
@@ -316,7 +416,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S01_sincere_apology :: depois da desculpa+reparação o ressentimento cai >= 0,10 do pico": {
    "FULLv2": false,
@@ -330,7 +434,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": true
   },
   "S01_sincere_apology :: pendência resolvida até a promessa cumprida": {
    "FULLv2": true,
@@ -344,7 +452,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": true
   },
   "S01_sincere_apology :: confiança após cumprir >= confiança após o desdém": {
    "FULLv2": true,
@@ -358,7 +470,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S01_sincere_apology :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -372,7 +488,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S01_sincere_apology :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -386,7 +506,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S01_sincere_apology :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -400,7 +524,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S02_repeated_apology :: confiança final <= inicial - 0,15": {
    "FULLv2": true,
@@ -414,7 +542,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S02_repeated_apology :: desculpa repetida rende menos (queda 3a <= 2a <= 1a + 0,01)": {
    "FULLv2": true,
@@ -428,7 +560,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": false
   },
   "S02_repeated_apology :: pendência continua aberta no fim": {
    "FULLv2": false,
@@ -442,7 +578,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": false
   },
   "S02_repeated_apology :: ressentimento final >= base + 0,2": {
    "FULLv2": false,
@@ -456,7 +596,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": false
   },
   "S02_repeated_apology :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -470,7 +614,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S02_repeated_apology :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -484,7 +632,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S02_repeated_apology :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -498,7 +650,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S03_bad_joke :: ressentimento sobe >= +0,12 com a piada": {
    "FULLv2": false,
@@ -512,7 +668,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": false
   },
   "S03_bad_joke :: vira pendência": {
    "FULLv2": true,
@@ -526,7 +686,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S03_bad_joke :: defensividade não alivia (>= valor após a piada - 0,02)": {
    "FULLv2": true,
@@ -540,7 +704,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S03_bad_joke :: sem desculpa, a pendência segue no fim": {
    "FULLv2": true,
@@ -554,7 +722,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S03_bad_joke :: esfria com o tempo mas com piso (dia 3 < pico e >= base+0,1)": {
    "FULLv2": false,
@@ -568,7 +740,11 @@
    "NOSTATE": true,
    "FULL@v3a": false,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S03_bad_joke :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -582,7 +758,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S03_bad_joke :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -596,7 +776,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S03_bad_joke :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -610,7 +794,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04a_disappear_no_explanation :: volta sem explicar: ressentimento sobe >= +0,07": {
    "FULLv2": false,
@@ -624,7 +812,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": false
   },
   "S04a_disappear_no_explanation :: há pendência depois da desculpa esfarrapada": {
    "FULLv2": true,
@@ -638,7 +830,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04a_disappear_no_explanation :: confiança cai (após a desculpa esfarrapada < antes da volta)": {
    "FULLv2": true,
@@ -652,7 +848,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04a_disappear_no_explanation :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -666,7 +866,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04a_disappear_no_explanation :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -680,7 +884,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04a_disappear_no_explanation :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -694,7 +902,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04b_disappear_explained :: volta explicando: ressentimento <= base + 0,08": {
    "FULLv2": true,
@@ -708,7 +920,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04b_disappear_explained :: proteção/preocupação sobe >= +0,05": {
    "FULLv2": false,
@@ -722,7 +938,11 @@
    "NOSTATE": true,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": false
   },
   "S04b_disappear_explained :: sem pendência no fim": {
    "FULLv2": false,
@@ -736,7 +956,11 @@
    "NOSTATE": true,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": true
   },
   "S04b_disappear_explained :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -750,7 +974,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04b_disappear_explained :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -764,7 +992,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S04b_disappear_explained :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -778,7 +1010,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S05_promise_kept :: confiança final >= inicial + 0,05": {
    "FULLv2": false,
@@ -792,7 +1028,11 @@
    "NOSTATE": true,
    "FULL@v3a": false,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S05_promise_kept :: promessa sai da lista ao ser cumprida": {
    "FULLv2": true,
@@ -806,7 +1046,11 @@
    "NOSTATE": false,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S05_promise_kept :: ressentimento nunca passa de base + 0,05": {
    "FULLv2": true,
@@ -820,7 +1064,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S05_promise_kept :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -834,7 +1082,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S05_promise_kept :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -848,7 +1100,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S05_promise_kept :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -862,7 +1118,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S06_promise_broken :: confiança após o furo <= inicial - 0,10": {
    "FULLv2": true,
@@ -876,7 +1136,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": false
   },
   "S06_promise_broken :: vira pendência": {
    "FULLv2": true,
@@ -890,7 +1154,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S06_promise_broken :: ressentimento após o desdém >= base + 0,2": {
    "FULLv2": false,
@@ -904,7 +1172,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S06_promise_broken :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -918,7 +1190,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S06_promise_broken :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -932,7 +1208,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S06_promise_broken :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -946,7 +1226,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S07_jealousy :: ciúme >= 0,30 depois do encontro contado com entusiasmo": {
    "FULLv2": false,
@@ -960,7 +1244,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": false
   },
   "S07_jealousy :: ciúme final < pico - 0,10 (tranquilizado)": {
    "FULLv2": false,
@@ -974,7 +1262,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S07_jealousy :: afeto final >= inicial": {
    "FULLv2": true,
@@ -988,7 +1280,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S07_jealousy :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1002,7 +1298,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S07_jealousy :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1016,7 +1316,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S07_jealousy :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1030,7 +1334,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S08_reconciliation :: entra no modo frio na briga": {
    "FULLv2": false,
@@ -1044,7 +1352,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S08_reconciliation :: ressentimento final <= pico - 0,2": {
    "FULLv2": false,
@@ -1058,7 +1370,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": false
   },
   "S08_reconciliation :: sai do modo frio no fim": {
    "FULLv2": true,
@@ -1072,7 +1388,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S08_reconciliation :: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1086,7 +1406,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S08_reconciliation :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1100,7 +1424,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S08_reconciliation :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1114,7 +1442,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S08_reconciliation :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1128,7 +1460,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S09_neutral_control :: nenhuma dimensão se afasta > 0,12 da base (sem deriva)": {
    "FULLv2": true,
@@ -1142,7 +1478,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S09_neutral_control :: nenhuma pendência": {
    "FULLv2": true,
@@ -1156,7 +1496,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S09_neutral_control :: <= 1 troca de modo": {
    "FULLv2": true,
@@ -1170,7 +1514,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S09_neutral_control :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1184,7 +1532,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S09_neutral_control :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1198,7 +1550,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S09_neutral_control :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1212,7 +1568,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S10_constant_affection :: afeto final >= inicial + 0,10": {
    "FULLv2": true,
@@ -1226,7 +1586,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S10_constant_affection :: afeto final <= 0,95 (não satura)": {
    "FULLv2": true,
@@ -1240,7 +1604,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S10_constant_affection :: retornos decrescentes (3 últimos incrementos <= o 1o)": {
    "FULLv2": false,
@@ -1254,7 +1622,11 @@
    "NOSTATE": true,
    "FULL@v3a": false,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S10_constant_affection :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1268,7 +1640,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S10_constant_affection :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1282,7 +1658,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S10_constant_affection :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1296,7 +1676,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S11_vulnerability :: conforto final >= inicial + 0,05": {
    "FULLv2": true,
@@ -1310,7 +1694,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S11_vulnerability :: confiança final >= inicial + 0,03": {
    "FULLv2": true,
@@ -1324,7 +1712,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S11_vulnerability :: proteção sobe >= +0,05 com a revelação": {
    "FULLv2": true,
@@ -1338,7 +1730,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S11_vulnerability :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1352,7 +1748,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S11_vulnerability :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1366,7 +1766,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S11_vulnerability :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1380,7 +1784,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S12_perceived_lie :: confiança cai >= 0,07 com a contradição": {
    "FULLv2": false,
@@ -1394,7 +1802,11 @@
    "NOSTATE": true,
    "FULL@v3a": false,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S12_perceived_lie :: vira pendência": {
    "FULLv2": false,
@@ -1408,7 +1820,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S12_perceived_lie :: ressentimento final >= base + 0,1": {
    "FULLv2": false,
@@ -1422,7 +1838,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S12_perceived_lie :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1436,7 +1856,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S12_perceived_lie :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1450,7 +1874,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S12_perceived_lie :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1464,7 +1892,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S13_slow_neglect :: ressentimento final >= base + 0,2": {
    "FULLv2": false,
@@ -1478,7 +1910,11 @@
    "NOSTATE": false,
    "FULL@v3a": false,
    "FULL@v3b": false,
-   "FULL@v3c": false
+   "FULL@v3c": false,
+   "FULL@v3c_offline_check": false,
+   "FULL@v3d_offline": false,
+   "FULL@v3c+relief_offline": false,
+   "FULL@v3e_offline": false
   },
   "S13_slow_neglect :: conforto final <= inicial - 0,10": {
    "FULLv2": false,
@@ -1492,7 +1928,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S13_slow_neglect :: nenhum 'k' isolado sobe o ressentimento > 0,15": {
    "FULLv2": true,
@@ -1506,7 +1946,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S13_slow_neglect :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1520,7 +1964,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S13_slow_neglect :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1534,7 +1982,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S13_slow_neglect :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1548,7 +2000,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S14_day200_banter :: ressentimento <= base + 0,1 sempre": {
    "FULLv2": true,
@@ -1562,7 +2018,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S14_day200_banter :: cumplicidade final >= inicial + 0,05": {
    "FULLv2": true,
@@ -1576,7 +2036,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S14_day200_banter :: nenhuma pendência": {
    "FULLv2": true,
@@ -1590,7 +2054,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S14_day200_banter :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1604,7 +2072,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S14_day200_banter :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1618,7 +2090,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S14_day200_banter :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1632,7 +2108,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S15_hot_cold :: <= 3 trocas de modo (histerese)": {
    "FULLv2": true,
@@ -1646,7 +2126,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S15_hot_cold :: ressentimento final >= base + 0,1 (as grosserias acumulam)": {
    "FULLv2": false,
@@ -1660,7 +2144,11 @@
    "NOSTATE": true,
    "FULL@v3a": false,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S15_hot_cold :: sem saturação: todas as dimensões em [0,03; 0,97]": {
    "FULLv2": true,
@@ -1674,7 +2162,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S15_hot_cold :: sem oscilação: <= 3 trocas de modo": {
    "FULLv2": true,
@@ -1688,7 +2180,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   },
   "S15_hot_cold :: sem salto > 0,30 numa mensagem": {
    "FULLv2": true,
@@ -1702,7 +2198,11 @@
    "NOSTATE": true,
    "FULL@v3a": true,
    "FULL@v3b": true,
-   "FULL@v3c": true
+   "FULL@v3c": true,
+   "FULL@v3c_offline_check": true,
+   "FULL@v3d_offline": true,
+   "FULL@v3c+relief_offline": true,
+   "FULL@v3e_offline": true
   }
  }
 }
