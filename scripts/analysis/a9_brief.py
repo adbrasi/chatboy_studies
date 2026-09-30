@@ -158,6 +158,8 @@ def build_brief(j, fp, variant="short"):
     """j: respostas compactas do Jev; fp: impressão digital de estilo do bot. variant: short | noban | long"""
     if variant == "long":
         return build_long(j, fp)
+    if variant == "nojev":
+        return build_nojev(fp)
     L = []
     moment = moment_of(j)
     L.append(f"Moment: {MOMENT_LBL[moment]}.")
@@ -198,6 +200,27 @@ def build_brief(j, fp, variant="short"):
     L.append(f"It must make sense as a direct reply to {USER}'s last message.")
     if variant != "noban":
         L.append("Never use: " + ", ".join(BAN) + ".")
+    return "\n".join(L)
+
+
+def build_nojev(fp):
+    """Controle-chave: o MESMO formato de briefing, mas sem nada que venha do Jev (momento, movimento, tom, tamanho
+    contextual e flags de pergunta/riso/emoji substituídos pelas taxas-base humanas; o estilo da persona, que vem
+    de código, é mantido). B - nojev = valor do conteúdo CONTEXTUAL do Jev."""
+    own = max(2.0, fp["median_words_per_bubble"] * max(1.0, fp["bubbles_per_turn"]))
+    mw = int(round(max(2, 0.6 * 5 + 0.4 * own))) + 1  # 5 = mediana humana de palavras por turno no maichat
+    nb = 2 if (fp["bubbles_per_turn"] >= 1.5 and mw >= 7) else 1
+    L = [f"Max {mw} words" + (f", split into {nb} short messages, one per line." if nb > 1 else ", one message."),
+         "No question, no laughing, no emoji.", "Keep it low-key, not gushing."]
+    st = []
+    if fp["lower_frac"] > 0.7:
+        st.append("all lowercase")
+    if fp["period_frac"] < 0.2:
+        st.append("no final period")
+    if st:
+        L.append("Style: " + "; ".join(st) + ".")
+    L.append(f"It must make sense as a direct reply to {USER}'s last message.")
+    L.append("Never use: " + ", ".join(BAN) + ".")
     return "\n".join(L)
 
 

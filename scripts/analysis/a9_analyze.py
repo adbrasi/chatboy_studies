@@ -183,7 +183,7 @@ def main():
                  "llmish": float(np.mean([F[i][c]["llmish"] for i in sub])),
                  "has_q": float(np.mean([F[i][c]["has_q"] for i in sub])),
                  "abs_log2_len": float(np.mean([lenerr(i, c) for i in sub]))}
-        ab[c]["brief_words"] = (float(np.mean([len(words(pts[i]["brief"][c])) for i in sub]))
+        ab[c]["brief_words"] = (float(np.mean([len(words(pts[i]["brief"][c])) for i in sub if c in pts[i].get("brief", {})]))
                                 if c in ("B", "Bnoban", "Blong", "Bpure") else 0)
     R["ablations"] = ab
 
@@ -208,6 +208,8 @@ def main():
     pred = defaultdict(list)
     for i in ids:
         p, j = pts[i], pts[i]["jev"]
+        if p.get("fallback", {}).get("B"):
+            continue
         br = p["brief"]["B"]
         mw = int(re.search(r"Max (\d+) words", br).group(1))
         fb = F[i]["B"]
@@ -317,7 +319,7 @@ def main():
         p = pts[i]
         ex.append({"id": i, "stratum": p["stratum"], "ctx": [f"{h['who']}: {h['text']}" for h in p["history"][-3:]],
                    "H": p["human"], **{c: p["gen"].get(c) for c in ["A", "S", "B", "C", "D", "Blong", "Bnoban", "Bpure"]},
-                   "brief": p["brief"]["B"], "jev_fool": {c: jev_fool(i, c) for c in MAIN},
+                   "brief": p.get("brief", {}).get("B"), "jev_fool": {c: jev_fool(i, c) for c in MAIN},
                    "llm_fool": {c: llm_fool(i, c) for c in MAIN}, "gate": p["gate"]["pick"]})
     json.dump(ex, open(os.path.join(ADATA, "a9_examples.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps({k: R[k] for k in ("jev_fool_soft", "jev_fool_hard", "llm_fool")}, indent=0))

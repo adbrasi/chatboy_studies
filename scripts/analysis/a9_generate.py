@@ -6,6 +6,7 @@
   Bpure   : ablação, persona + briefing do Jev SEM o prompt estático (o desenho "A + briefing" literal; subamostra)
   Bnoban  : ablação, briefing sem a lista "Never use" (subamostra)
   Blong   : ablação, o Jev despejado em prosa longa, sem ordens concretas (subamostra)
+  Bnojev  : controle-chave, mesmo formato de briefing SEM conteúdo do Jev (taxas-base no lugar; subamostra)
   D       : claude-haiku-4.5, persona + histórico (referência "LLM mais cara", sem briefing)
 Uso: python3 a9_generate.py <split> <cond1,cond2,...> [limite]"""
 import os, sys
@@ -33,7 +34,7 @@ def spec(p, cond):
         return dict(messages=msgs(p, STATIC), model=GEN_MODEL, seed=0)
     if cond == "D":
         return dict(messages=msgs(p, PERSONA), model=STRONG_MODEL, seed=0)
-    variant = {"Bnoban": "noban", "Blong": "long"}.get(cond, "short")
+    variant = {"Bnoban": "noban", "Blong": "long", "Bnojev": "nojev"}.get(cond, "short")
     seed = {"B1": 1, "B2": 2}.get(cond, 0)
     base = PERSONA if cond == "Bpure" else STATIC
     sys_ = base + "\n\nFor your next message:\n" + build_brief(p["jev"], p["fp"], variant)
@@ -46,7 +47,7 @@ def main(split, conds, limit=None):
     if limit:
         todo = todo[:limit]
     for cond in conds:
-        sub = todo[:N_ABL] if cond in ("Bnoban", "Blong", "Bpure") and split == "test" else todo
+        sub = todo[:N_ABL] if cond in ("Bnoban", "Blong", "Bpure", "Bnojev") and split == "test" else todo
         c0, n0 = llm.stats["cost"], llm.stats["calls"]
         res = chat_many_timed([dict(spec(p, cond), temperature=0.8, max_tokens=300) for p in sub], workers=4)
         # a Gemini às vezes devolve finish_reason=error com conteúdo vazio (e o cache guarda o vazio): refaz com outra seed
@@ -69,7 +70,7 @@ def main(split, conds, limit=None):
                 continue
             p.setdefault("gen", {})[cond] = clean_reply(txt)
             p.setdefault("brief", {})
-            if cond in ("B", "Bnoban", "Blong", "Bpure"):
+            if cond in ("B", "Bnoban", "Blong", "Bpure", "Bnojev"):
                 p["brief"][cond] = spec(p, cond)["messages"][0]["content"].split("For your next message:\n", 1)[1]
             lat[p["id"]] = dt
         dc, dn = llm.stats["cost"] - c0, llm.stats["calls"] - n0
