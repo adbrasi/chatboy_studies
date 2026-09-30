@@ -1,0 +1,886 @@
+[
+ {
+  "id": "wa_M_034#42",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.0,
+  "ctx": [
+   "B: Ja\nHeb al ge appt",
+   "A: Okee\nIk wist niet dat jij die ook iende\nKende\nMaar hoezo wil jij dat?"
+  ],
+  "msg": "Ik wilde even kijken\nEn een extra taal met certificaat hebben is chill"
+ },
+ {
+  "id": "wa_M_005#30",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 57.167,
+  "ctx": [
+   "A: Oke slaap lekker",
+   "B: Trusten",
+   "A: Kans is groot dat ik terug moet naar [REMOVED], krijg mn werk niet geruild\nXxx",
+   "B: Ok laat maar weten! Succes met ruilen hoor\nXx"
+  ],
+  "msg": "Kom jij vnv nog?"
+ },
+ {
+  "id": "conv025#50",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.001,
+  "ctx": [
+   "A: dont say that\ni dont hate you xxx",
+   "B: thank you, that makes one of us x",
+   "A: okay YOUR TURN\nur taking too long",
+   "B: ❤️🤢"
+  ],
+  "msg": "love sick\nfor valentines day"
+ },
+ {
+  "id": "conv068#30",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.007,
+  "ctx": [
+   "A: very organic convo lol",
+   "B: so how was my day",
+   "A: tell me",
+   "B: kinda chill\ni cleaned my room"
+  ],
+  "msg": "wow im impressed"
+ },
+ {
+  "id": "wa_M_015#48",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 2506.733,
+  "ctx": [
+   "A: Mama slaapt al ",
+   "B: Haha dacht ik al\nTrusten",
+   "A: Truste ",
+   "A: Heb je de email al gestuurd ?"
+  ],
+  "msg": "Proberen te vangen in een glas/beker met papiertje zoals ik dat altijd doe en dan in de tuin eruit gooien 🙈"
+ },
+ {
+  "id": "wa_M_040#21",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 370.967,
+  "ctx": [
+   "A: Ohhh echt? Nice  Heb je die [REMOVED] al gesproken?",
+   "B: Ja eventjes. Nog best jong. Maar oké. Hij koopt een eigen koelkast :)",
+   "A: Oke, ik ben benieuwd :) Wel fijn dat hij een eigen koelkast koopt haha. Ik kom straks naar [REMOVED] dus misschien zie ik hem dan.",
+   "B: Ja hij is nu weer weg"
+  ],
+  "msg": "Het Nicole. Sorry van mijn afwas ik zie dat je het hebt opgeruimd. Ik had een drukke dag en werd toen ik ging afdrogen gebeld dat ik direct moest komen. Ik dacht dat ik alleen was. Dus dacht ik ruim het vanavond wel op ;). Maar niet dus. Je was toch thuis gekomen. Dus sorry. Onze nieuwe huisgenoot maalt veel herrie s nachts en slaapt tot [REMOVED] met de deur open. Hij had een troep gemaakt van de wc en wilde dat hij het uit Zichzelf op ging ruimen. Heb jij het gedaan of hij? Als jij het hebt gedaan dan dank je wel :) x"
+ },
+ {
+  "id": "wa_M_011#75",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 1.017,
+  "ctx": [
+   "B: Hey [REMOVED], als je nog geen plannen had vanavond. Kom gerust een biertje drinken, heb nog een halve krat staan!",
+   "A: Haai\nBen niet in [REMOVED], dus wordt lastig\nMaar thanks for the offer, miss eentje voordat we naar [REMOVED] gaan staren vrijdag?",
+   "B: Is goed :)",
+   "B: Hey [REMOVED], kun jij zaterdag ook nog steeds?\nWant ze hebben morgen iemand nodig bij de [REMOVED].."
+  ],
+  "msg": "Haai\nNee, sorry\nZaterdag en zondag al plannen gemaakt\nMaar je kunt wel gaan werken hoor\n[REMOVED] draait nog wel even toch?"
+ },
+ {
+  "id": "conv089#1",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.002,
+  "ctx": [
+   "A: hellooo are u ignoring me again"
+  ],
+  "msg": "nooo i was in the shower 😩"
+ },
+ {
+  "id": "conv089#57",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.003,
+  "ctx": [
+   "B: fine\ntext me in 30 if ur distracted",
+   "A: u know me too well",
+   "B: unfortunately yes",
+   "A: love u tho"
+  ],
+  "msg": "love u more idiot"
+ },
+ {
+  "id": "wa_M_005#29",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.0,
+  "ctx": [
+   "B: Nou prima dan hoor. Je bent welkom. Ik reken op je en dan gaan we zaterdag samen naar db.\nEn nu ga ik tukken",
+   "A: Oke slaap lekker",
+   "B: Trusten",
+   "A: Kans is groot dat ik terug moet naar [REMOVED], krijg mn werk niet geruild\nXxx"
+  ],
+  "msg": "Ok laat maar weten! Succes met ruilen hoor\nXx"
+ },
+ {
+  "id": "conv090#9",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.012,
+  "ctx": [
+   "B: im pre-suffering",
+   "A: respect the dedication",
+   "B: what are u doing",
+   "A: staring at my laptop"
+  ],
+  "msg": "working?"
+ },
+ {
+  "id": "wa_M_053#440",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.0,
+  "ctx": [
+   "B: Aangezien jullie de auto nodig hebben"
+  ],
+  "msg": "Oh! Ja klopt...\nSorry daarvoor"
+ },
+ {
+  "id": "wa_M_057#232",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.117,
+  "ctx": [
+   "B: \nJa als enige chinees\nProberen ze je ook dingen aan te smeren? Dat had ik steeds",
+   "A: [REMOVED] zijn niet zo opdringerig naar mij toe :)",
+   "B: ",
+   "A: Vandaag naar het staatskindertehuis geweest...Vind-document in mogen zien...Niet heel cool als je adoptieverhaal iets anders is als je altijd hebt gedacht "
+  ],
+  "msg": "Gut lieve schat wat dan?!\nViel het tegen meid?"
+ },
+ {
+  "id": "conv081#74",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.004,
+  "ctx": [
+   "A: i love how you understand me",
+   "B: i live with you. i have to.",
+   "A: fair\nok im getting up now",
+   "B: miracles happen"
+  ],
+  "msg": "dont push it"
+ },
+ {
+  "id": "conv081#62",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.006,
+  "ctx": [
+   "A: ok fine maybe i had one",
+   "B: you had three",
+   "A: allegedly",
+   "B: i counted"
+  ],
+  "msg": "you scare me sometimes"
+ },
+ {
+  "id": "wa_M_005#28",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.0,
+  "ctx": [
+   "A: Nou, eigenlijk zou ik niet goed weten waar ik anders heen moet.  Feestje begint om [REMOVED] uur",
+   "B: Nou prima dan hoor. Je bent welkom. Ik reken op je en dan gaan we zaterdag samen naar db.\nEn nu ga ik tukken",
+   "A: Oke slaap lekker",
+   "B: Trusten"
+  ],
+  "msg": "Kans is groot dat ik terug moet naar [REMOVED], krijg mn werk niet geruild\nXxx"
+ },
+ {
+  "id": "wa_M_053#445",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.433,
+  "ctx": [
+   "B: Had ik het geweten was ik met de trein gegaan.......",
+   "A: Ja sorry..... Mama kwam er pas daarnet mee",
+   "B: Weet ik\nAch ja. Kan nog wel een gebroken nacht bij.",
+   "B: Auto goed gevonden?  Hopelijk heb ik je niet wakker gemaakt vanacht."
+  ],
+  "msg": "Oh nee joh heb je echt niet gehoord. Was knock out :p\nThanks voor de auto!"
+ },
+ {
+  "id": "wa_M_004#367",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.017,
+  "ctx": [
+   "A: 😑😑😑😑\nWat reageert ie op dat laatste?",
+   "B: Nog niks\nEn moet zo weg gvd",
+   "A: Ahhh schatje\nMisschien moet je het er gewoon even bij laten zitten",
+   "B: Ja nee"
+  ],
+  "msg": "Want alles komt nu steeds van jou en dat is niet de bedoeling liefje"
+ },
+ {
+  "id": "conv093#28",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.009,
+  "ctx": [
+   "A: loving tho 💅",
+   "B: whatever\nwhat u doing now",
+   "A: supposed to study\nbut im laying on my bed\nscrolling n contemplating life",
+   "B: classic\nu said that yesterday too"
+  ],
+  "msg": "listen\ngrowth is not linear"
+ },
+ {
+  "id": "wa_M_015#39",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.0,
+  "ctx": [
+   "B: Welterusten",
+   "A: Soez, kan je zsm laten weten of je het rode bankje van joeri wilt hebben",
+   "B: Wil ik!",
+   "A: Okay. Dan spreken we nog af wanneer ik 'm kom brengen "
+  ],
+  "msg": "Oh ja als het teveel werk is dan laat maar hoor\nWant snap dat je daar geen zin in hebt"
+ },
+ {
+  "id": "wa_M_029#58",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.15,
+  "ctx": [
+   "A: Met vlagen;)",
+   "B: En jij bent alweer naar huis;) sta ik weer in tkb xD",
+   "A: [REMOVED].jpg (bestand bijgevoegd)\n[REMOVED].jpg (bestand bijgevoegd)",
+   "B: Hahaha\nTijdens vierdaagse ofzo?"
+  ],
+  "msg": "Ja\nHaha"
+ },
+ {
+  "id": "wa_M_057#229",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 35.1,
+  "ctx": [
+   "A: Ssssssst 🙊",
+   "B: Hoe vinden je ouders het? Om daar weer te zijn? En hoe is het met je [REMOVED]?",
+   "A: Mijn [REMOVED] is drama 🙈 En IEDEREEN spreekt me er natuurlijk in aan...\nMijn ouders vinden het erg leuk & speciaal natuurlijk. Mn vader vindt de hygiene dramatisch. Mn moeder vindt de cultuurshock erg meevallen",
+   "B: \nJa als enige chinees\nProberen ze je ook dingen aan te smeren? Dat had ik steeds"
+  ],
+  "msg": "[REMOVED] zijn niet zo opdringerig naar mij toe :)"
+ },
+ {
+  "id": "wa_M_031#87",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.0,
+  "ctx": [
+   "B: Is goed!\n[REMOVED]! Sorry maar zondag is echt niet handig bij nader inzien :(\nWant ik ben dan in emmeloord\ndus zou op zn vroegst [REMOVED] uur in maastricht kunnen zijn\n[REMOVED] uur reizen\nEn ik kan niet zaterdag al naar nijmegen gaan, want daar heb ik geen geld voor, [REMOVED] de trein betalen\nkunnen we niet maandag gaan?",
+   "A: Echt irritant. Heb ik net iets anders afgezegd.",
+   "B: Dan ga ik zondag al naar nijmegen",
+   "A: Hoefnie\nWatniekankannie\nMaar wel jammeik"
+  ],
+  "msg": "ja, sorry, echt, ik heb er geen moment aan gedacht"
+ },
+ {
+  "id": "conv082#73",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.011,
+  "ctx": [
+   "B: deal\nbut you study 30 mins first",
+   "A: blackmail??",
+   "B: motivation",
+   "A: … fine\nif i fail this exam its your fault"
+  ],
+  "msg": "if you pass its because of me"
+ },
+ {
+  "id": "conv093#21",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.007,
+  "ctx": [
+   "B: ugh fine ill make ramen\nwait do we have eggs",
+   "A: WE??\nu at ur house not mine ???",
+   "B: omg right im dumb\nignore that",
+   "A: i cant ignore that u share one brain cell w me"
+  ],
+  "msg": "and its currently on vacation"
+ },
+ {
+  "id": "conv090#25",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.007,
+  "ctx": [
+   "B: STOP",
+   "A: its a rlly strong title ok",
+   "B: how many words",
+   "A: 7"
+  ],
+  "msg": "ur insane"
+ },
+ {
+  "id": "conv089#56",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.004,
+  "ctx": [
+   "A: dont jinx it",
+   "B: fine\ntext me in 30 if ur distracted",
+   "A: u know me too well",
+   "B: unfortunately yes"
+  ],
+  "msg": "love u tho"
+ },
+ {
+  "id": "conv088#28",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.005,
+  "ctx": [
+   "A: cry about it",
+   "B: i will",
+   "A: so gym later?",
+   "B: maybe\nif im not lazy"
+  ],
+  "msg": "u are lazy"
+ },
+ {
+  "id": "wa_M_040#9",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.283,
+  "ctx": [
+   "B: Nee en als we ze zouden hebben zouden ze wel op de vallen zijn afgekomen. Als we weer wat merken zetten we ze weer neer",
+   "A: Jaa inderdaad, dat is helemaal waar. Yes, goed idee :) Dankjewel in ieder geval dat je ze hebt opgeruimd!",
+   "B: Haha tuurlijk :)",
+   "A: Hey jet, zou ik zometeen een stoel even van jou mogen lenen? Ik weet niet of je in [REMOVED] bent?"
+  ],
+  "msg": "Ik ben er niet maar als mijn deur open is mag je hemmende\nHem lenen\nNee inderdaad. Of Operatie met revalidatie van een jaar. Of heel hard trainen. Ik kies nu voor het tweede tenzij het echt niet gaat"
+ },
+ {
+  "id": "wa_M_001#59",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 19.0,
+  "ctx": [
+   "A: Hoi marieke, zal ik de formulieren morgen inscannen en mailen of wil je ze per post?",
+   "B: Nee dat is ook helemaal goed! Graag zelfs!",
+   "A: Doe ik.xxx",
+   "B: Wat jij het handigste vindt!\nDankjewel! Xx"
+  ],
+  "msg": "Heb je de formulieren ontvangen?"
+ },
+ {
+  "id": "conv070#6",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.003,
+  "ctx": [
+   "A: ur there?",
+   "B: physically yes academically no",
+   "A: same tbh\nwhy did prof assign 3 readings for ONE class",
+   "B: because he hates peace"
+  ],
+  "msg": "i opened the pdf\nclosed it immediately"
+ },
+ {
+  "id": "wa_M_002#27",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.017,
+  "ctx": [
+   "B: Maar als jij nog naar iets op zoek bent, wijncafe pinot zoekt nog mensen 😉",
+   "A: Haha 😁\nZe willen me niet 😩",
+   "B: Hahah pfft klootzakken..",
+   "A: Ik DENK dat ik te kritisch ben"
+  ],
+  "msg": "Jij? Nee joh, jij bent de meest meegaande persoon die ik ken. Altijd rustig, altijd je mening voor je houdend. 😉"
+ },
+ {
+  "id": "wa_M_031#89",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.0,
+  "ctx": [
+   "B: Dan ga ik zondag al naar nijmegen",
+   "A: Hoefnie\nWatniekankannie\nMaar wel jammeik",
+   "B: ja, sorry, echt, ik heb er geen moment aan gedacht",
+   "A: Jammer\nIk had het toch duidelijk gevraagd"
+  ],
+  "msg": "Ja, sorry!! Ik voel me echt lullig\nJa maar aan de [REMOVED] uur reistijd bedoel ik\nDaar heb ik me in vergist\nen op zondag gaat de eerste bus pas half [REMOVED], dus eerder weg kan ook niet\nMaar anders gaan we zondag naar een anderestad?\nOf ik kan ook naar jou toekomen\nzeg het maar!\nEn nogmaals mijn excuses\n?????"
+ },
+ {
+  "id": "conv070#84",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.003,
+  "ctx": [
+   "A: dont jinx it",
+   "B: ok go study",
+   "A: you too",
+   "B: fine"
+  ],
+  "msg": "if i fail im blaming you"
+ },
+ {
+  "id": "conv054#35",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.009,
+  "ctx": [
+   "B: yes there will be a few of us.",
+   "A: thats good, are you thinking of doing turkey and pigs in blankets ",
+   "B: She asked for orange and cranberry glazed gammon!!",
+   "A: yes I heard something like that too. if she will cook it and bring it then that's fine "
+  ],
+  "msg": "yes - but I'll stick to what I know."
+ },
+ {
+  "id": "conv091#35",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.005,
+  "ctx": [
+   "B: acceptable.",
+   "A: did you eat btw",
+   "B: i had noodles",
+   "A: again??"
+  ],
+  "msg": "dont judge my coping mechanisms"
+ },
+ {
+  "id": "conv091#41",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.01,
+  "ctx": [
+   "B: who are you my doctor",
+   "A: yes Dr. Rentpayer",
+   "B: ok thats kinda funny",
+   "A: thank you i try"
+  ],
+  "msg": "wait random question"
+ },
+ {
+  "id": "conv081#30",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.007,
+  "ctx": [
+   "A: time is fake",
+   "B: your stomach is not",
+   "A: ok mom",
+   "B: dont mom me"
+  ],
+  "msg": "then stop supervising my life"
+ },
+ {
+  "id": "wa_M_026#137",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 34.6,
+  "ctx": [
+   "A: Mama, kun jij misschien een bon van [REMOVED] euro halen bij sanit zodat sel en ik die aan [REMOVED] kunnen geven?\nDan krijg je zsm gewoon geld van me terug!",
+   "B: Is goed, ga ik morgen regelen. Xxx",
+   "A: Oké bedankt!!",
+   "B: <media weggelaten>"
+  ],
+  "msg": "Sorry dennis maar ben niet meer bij saniet geweest.  Breng de meeste tijd door op nr[REMOVED]. Goede reis morgen xxx"
+ },
+ {
+  "id": "conv088#22",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.01,
+  "ctx": [
+   "A: facts",
+   "B: did u eat yet",
+   "A: yeah had burgers",
+   "B: without me??"
+  ],
+  "msg": "u were busy dying in math"
+ },
+ {
+  "id": "wa_M_040#1",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.0,
+  "ctx": [
+   "A: Hey jet, ik kom net thuis en zie dat de muizenvallen weg zijn?"
+  ],
+  "msg": "Ja heb ze schoongemaakt en in de kast gelegd. Dacht volgens mij zijn er geen muizen meer en komen dan niet meer op oude pindakaas af ;-)\niig ik heb geen muizen meer gezien."
+ },
+ {
+  "id": "wa_M_057#237",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.367,
+  "ctx": [
+   "A: Ik moet even iets afmaken voor iemand, geef me een halfuur\nViel het tegen: nee.\nWas het schokkend/confronterend: ja",
+   "B: Meh\nNou laat maar weten als je klaar bent",
+   "A: Sorry degene waar we zijb hebben inpakstress\nDus ik heb aangeboden te scannen",
+   "B: Hahaha geeft niet\nDoe maar snel"
+  ],
+  "msg": "Ok ready for the story\nIk ben gevonden op [REMOVED] maart, toen was ik ws [REMOVED] mnd oud\nEchter ik ben bij het tehuis binnengebacht toen ik [REMOVED] mnd oud was\nEr heeft dus iemand een mnd voor mij gezorgd\nAnders dan mn ouders, maar ook niet mn bio-ouders\nWat bij geen van ons ooit bekend is geweest"
+ },
+ {
+  "id": "wa_M_005#55",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.0,
+  "ctx": [
+   "A: Aaah haha\nGefeliciteeeeeeeerd🎊\nDus nu ben je afgestudeerd?!",
+   "B: Yep!!",
+   "A: Jeeeej!!",
+   "B: Eindelijk "
+  ],
+  "msg": "Echt goed! Fijn man! Ben echt blij voor je!\n"
+ },
+ {
+  "id": "wa_M_053#480",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 1.983,
+  "ctx": [
+   "A: Op zich, maar ik zou bij renate eten vanavond. Zijn jullie pas om [REMOVED] terug thuis dan van ziekenhuis?",
+   "B: Half [REMOVED], [REMOVED]u",
+   "A: Ok\nDan zeg ik eten bij renate wel af",
+   "B: Bedankt. Ik vind het zelf namelijk prettiger als er iemand bij manon is"
+  ],
+  "msg": "Alles goed daar?"
+ },
+ {
+  "id": "conv054#60",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.003,
+  "ctx": [
+   "A: well I eont be doing loads but I think the work load is high and there is a lot of progress I need to make before I go into the 2nd year so I will keep a steady work pace going \nI think thats how I work best, not to go crazy in term and then take a long break of doing nothing but to keep a steady work pace the whole time ",
+   "B: OK whatever's best for you.",
+   "A: Anyway dad I need to go now \nthanks for chatting and doing this with me ",
+   "B: OK - see you Friday."
+  ],
+  "msg": "I will speak to you soon or see you when I get home 👍👍"
+ },
+ {
+  "id": "conv093#35",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.004,
+  "ctx": [
+   "B: im coming over tmr btw",
+   "A: oh fr??\nlike actually or fake plans",
+   "B: ACTUALLY omg\nwhy u always doubt me",
+   "A: bc last time u canceled for a nap"
+  ],
+  "msg": "IT WAS A NECESSARY NAP"
+ },
+ {
+  "id": "conv091#46",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.012,
+  "ctx": [
+   "A: what",
+   "B: did you move my charger",
+   "A: uh\ndefine move",
+   "B: why do you always say that"
+  ],
+  "msg": "because its versatile"
+ },
+ {
+  "id": "wa_M_015#77",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 131.267,
+  "ctx": [
+   "B: Ja gelukkig wel, waren gewoon mn darmen",
+   "A: Dacht ik al",
+   "B: Hihi",
+   "B: [REMOVED] euro aan bonnen van bol.com gekregen van de vader van [REMOVED]. Voor mn bachelor"
+  ],
+  "msg": "Sorry als jullie al sliepen😬. Er is niks ernstigs hoor!"
+ },
+ {
+  "id": "conv070#73",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.012,
+  "ctx": [
+   "B: ok but actually\nif youre confused we can review together later",
+   "A: wait thats kinda sweet",
+   "B: dont get used to it",
+   "A: too late <3"
+  ],
+  "msg": "finish at least 5 pages tonight"
+ },
+ {
+  "id": "wa_M_057#253",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.067,
+  "ctx": [
+   "A: Die zijn nergens meer verbaasd over...\nNee dit is alles wat zij hebben, meer is er niet (los van hele zoektochten enz)",
+   "B: Oke\nHahaha nee? Zoveel gezien?\nNou aan de ene kant mooi dat je het weet\nAan de andere kant, hoe weet je dat dingen kloppen?",
+   "A: Never [REMOVED]% guarantee maar het klopt allemaal wel aardig",
+   "B: Oke\nEn het tehuis verder?"
+  ],
+  "msg": "De beste afdeling mochten we zien. De rest mochten we niet in kijken\nMaar ja die ene afdeling is er helemaal op gemaakt dat er mensen komen kijken"
+ },
+ {
+  "id": "wa_M_015#81",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.017,
+  "ctx": [
+   "B: Sorry als jullie al sliepen😬. Er is niks ernstigs hoor!",
+   "B: Goede reis morgen",
+   "A: Dank je, snoeziewoezzie  mama ligt al te slapen ",
+   "B: Dacht ik al\nTrusten\nPiedewietske"
+  ],
+  "msg": "Truste "
+ },
+ {
+  "id": "wa_M_002#33",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.017,
+  "ctx": [
+   "B: Haha ik geloof daar idd niet in 😉",
+   "A: Op mijn stage willen ze bijvoorbeeld gaan proberen om me een dag per week aan te nemen omdat ze tevreden zijn 😱",
+   "B: Ooh supervet! Mooi compliment!\nMaar zijn jouw uren bij moenen ook gekort? Of wil jr gewoon wat extras?",
+   "A: Ik wilde niet per se iets, maar mijn stageplek heeft nog wel met mijn studie te maken. Ik denk overigens niet dat het zal lukken, want ze mogen eigenlijk echt niet nog iemand aannemen, maar sowieso een leuk compliment. Waarom solliciteer jij niet bij Pinot?"
+  ],
+  "msg": "Ooh op die manier. Ik duim voor je iig, zou leuk zijn. Ik wil echt niet in de bediening werken, vroeger wel gedaan, maar vind ik niet zo leuk. Liever een administratieve baan oid. Of, de droombaan, in een boekenwinkel 😉"
+ },
+ {
+  "id": "wa_M_001#55",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 193.5,
+  "ctx": [
+   "A: Ik heb de libelle besteld voor [REMOVED] weken en de andere bewaar ik nog even. Nogmaals bedankt. Xx",
+   "B: Leuk! Xx",
+   "A: Leuke foto👍",
+   "B: 😊 bedankt"
+  ],
+  "msg": "Hoi marieke, zal ik de formulieren morgen inscannen en mailen of wil je ze per post?"
+ },
+ {
+  "id": "wa_M_031#108",
+  "stratum": "random",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.05,
+  "ctx": [
+   "A: Gaaf!",
+   "B: [REMOVED]!\nWil je het vierdaagse-deel van mijn mail misschien ook nog even beantwoorden? :p",
+   "A: Nee\nIk weet niet of ik sowieso wel kan.\nVind je dat heel heel erg erg?",
+   "B: Oh\nHoe kan dat nou :("
+  ],
+  "msg": "Ik kan alleen die donderdag"
+ },
+ {
+  "id": "conv081#37",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.004,
+  "ctx": [
+   "B: you said ‘what does this spark mean’",
+   "A: i was curious",
+   "B: curiosity kills roommates",
+   "A: dramatic much"
+  ],
+  "msg": "just trying to keep the apartment intact"
+ },
+ {
+  "id": "wa_M_046#14",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "A",
+  "C": "B",
+  "gap_h": 42.55,
+  "ctx": [
+   "A: Schat! Hoe is t met je? Maandag ook weer naar college? Ik mis je! Als we dalijk beetje regelmaat van studie hebben gauw iets afspreken",
+   "B: Hee lieffie! Gaat goed! Nee geen colleges meer voor mij, hoef dit jaar alleen nog maar mn scriptie te schrijven\nZat heel toevallig gister nog aan je te denken!\nMoeten indd snel weer afspreken. Wil sws snel naar jullie huisje komen kijken",
+   "A: Aah super fijn! Ik had vandaag eerste dag en beviel goed. [REMOVED] juli afstuderen is t plan \nJaaa je moet gauw langskomen mup",
+   "B: Studeren we wsl tegelijk af ongeveer\nBuh zo geen zin in scriptie alweer"
+  ],
+  "msg": "Lieverd\nWil jij voor mij ff een enquete invullen? Is een opdr voor school.. duurt ongeveer [REMOVED]\nWat is je mailadres ook alweer"
+ },
+ {
+  "id": "conv091#50",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": 0.012,
+  "ctx": [
+   "A: because its versatile",
+   "B: did. you. move. it.",
+   "A: maybe temporarily relocated",
+   "B: TO WHERE"
+  ],
+  "msg": "my desk"
+ },
+ {
+  "id": "conv088#0",
+  "stratum": "signal",
+  "corpus": "maichat",
+  "U": "A",
+  "C": "B",
+  "gap_h": null,
+  "ctx": [],
+  "msg": "yo idiot u alive"
+ },
+ {
+  "id": "conv068#55",
+  "stratum": "random",
+  "corpus": "maichat",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.006,
+  "ctx": [
+   "B: go go",
+   "A: dont disappear",
+   "B: never",
+   "A: text u in 10"
+  ],
+  "msg": "i’ll be waiting 😌"
+ },
+ {
+  "id": "wa_M_002#15",
+  "stratum": "signal",
+  "corpus": "whatsapp_nl",
+  "U": "B",
+  "C": "A",
+  "gap_h": 0.0,
+  "ctx": [
+   "B: Jawel, maar niet hier en dua uitzondering enzo\nDus",
+   "A: Ik dacht dat je je gewoon bij honderd universiteiten in kon schrijven",
+   "B: Jawel, maar heeft niet zo veel nut, aangezien ik toch al maanden weg moet.",
+   "A: Ja boehoe\nStom allemaal"
+  ],
+  "msg": "Maar echt chill dat je meekijkt. Ik hoef niet perse weg bij moenen ofzo hoor, maar wel handig om opties open te houden 😁\nJe wil me eigenlijk gewoon zo snel mogelijk weg hebben he? 😉"
+ }
+]

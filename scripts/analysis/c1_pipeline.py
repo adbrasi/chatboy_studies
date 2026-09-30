@@ -21,7 +21,7 @@ from b4_gen import target_brief
 EXP = "pipe"
 # gerações (uma chamada por registro). "hdr_end#k" = cabeçalho de RP + ficha situacional + nota do diretor no FIM, seed k
 # (a seed 0 é o próprio H1e do experimento 4); "hdr_end_vs5" = idem, com a instrução de VS-5 junto da nota no fim.
-GENS = {"hdr_end": dict(n=None), "hdr_end_vs5": dict(n=5), "min_vs5": dict(n=5, header=False)}
+GENS = {"hdr_end": dict(n=None), "hdr_end_vs5": dict(n=5), "hdr0_vs5": dict(n=5, note=False)}
 CONFIGS = {
     # nome: geração, nº de seeds (se não for VS), estratégia de escolha
     "P1_hdr": dict(gen="hdr_end", k=1, strat="first"),
@@ -31,6 +31,10 @@ CONFIGS = {
     "P5_hdr_vs5_low": dict(gen="hdr_end_vs5", strat="lowpass"),
     "P5_hdr_vs5_viol": dict(gen="hdr_end_vs5", strat="viol"),
     "P5_hdr_vs5_bank": dict(gen="hdr_end_vs5", strat="bank_pass"),
+    # sem nota do diretor (o orçamento do Jev só entra nos filtros de código e no normalizador)
+    "P6_hdr0_vs5_low": dict(gen="hdr0_vs5", strat="lowpass"),
+    "P6_hdr0_vs5_viol": dict(gen="hdr0_vs5", strat="viol"),
+    "P6_hdr0_vs5_bank": dict(gen="hdr0_vs5", strat="bank_pass"),
 }
 
 
@@ -43,9 +47,10 @@ def messages(p, gname):
     br = brief_of(p)
     sysm = H.header_system(p) if g.get("header", True) else C.PERSONA
     m = C.schema_messages(p, "free", None, system_override=sysm)
-    tail = f"DIRECTOR NOTE (this turn only):\n{br}"
+    tail = f"DIRECTOR NOTE (this turn only):\n{br}" if g.get("note", True) else ""
     if g["n"]:
         tail += "\n" + V.VS_FREE.format(n=g["n"], u=C.USER)
+    tail = tail.strip()
     m.append({"role": "system", "content": tail})
     return m
 
