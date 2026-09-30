@@ -1,0 +1,214 @@
+{
+ "cell_thr": {
+  "trust_up": 0.64,
+  "trust_down": 0.59,
+  "comfort_up": 0.77,
+  "comfort_down": 0.57,
+  "affection_up": 0.57,
+  "affection_down": 0.5,
+  "resentment_up": 0.56,
+  "resentment_down": 0.54,
+  "jealousy_up": 0.5,
+  "jealousy_down": 0.5,
+  "respect_up": 0.58,
+  "respect_down": 0.5,
+  "protectiveness_up": 0.71,
+  "protectiveness_down": 0.5,
+  "playfulness_up": 0.72,
+  "playfulness_down": 0.74
+ },
+ "rates": {
+  "trust_up": {
+   "dev": {
+    "gold_rate": 0.0248,
+    "jev_rate@thr": 0.0272,
+    "jev_rate@0.5": 0.0803
+   },
+   "test": {
+    "gold_rate": 0.0267,
+    "jev_rate@thr": 0.0191,
+    "jev_rate@0.5": 0.0782
+   }
+  },
+  "trust_down": {
+   "dev": {
+    "gold_rate": 0.0059,
+    "jev_rate@thr": 0.0071,
+    "jev_rate@0.5": 0.013
+   },
+   "test": {
+    "gold_rate": 0.0029,
+    "jev_rate@thr": 0.001,
+    "jev_rate@0.5": 0.0029
+   }
+  },
+  "comfort_up": {
+   "dev": {
+    "gold_rate": 0.1311,
+    "jev_rate@thr": 0.1641,
+    "jev_rate@0.5": 0.8253
+   },
+   "test": {
+    "gold_rate": 0.1555,
+    "jev_rate@thr": 0.251,
+    "jev_rate@0.5": 0.8588
+   }
+  },
+  "comfort_down": {
+   "dev": {
+    "gold_rate": 0.0047,
+    "jev_rate@thr": 0.0047,
+    "jev_rate@0.5": 0.0165
+   },
+   "test": {
+    "gold_rate": 0.0067,
+    "jev_rate@thr": 0.0029,
+    "jev_rate@0.5": 0.0095
+   }
+  },
+  "affection_up": {
+   "dev": {
+    "gold_rate": 0.0638,
+    "jev_rate@thr": 0.0661,
+    "jev_rate@0.5": 0.1724
+   },
+   "test": {
+    "gold_rate": 0.1155,
+    "jev_rate@thr": 0.1737,
+    "jev_rate@0.5": 0.2824
+   }
+  },
+  "affection_down": {
+   "dev": {
+    "gold_rate": 0.0,
+    "jev_rate@thr": 0.0,
+    "jev_rate@0.5": 0.0
+   },
+   "test": {
+    "gold_rate": 0.0019,
+    "jev_rate@thr": 0.0,
+    "jev_rate@0.5": 0.0
+   }
+  },
+  "resentment_up": {
+   "dev": {
+    "gold_rate": 0.013,
+    "jev_rate@thr": 0.0118,
+    "jev_rate@0.5": 0.0153
+   },
+   "test": {
+    "gold_rate": 0.0076,
+    "jev_rate@thr": 0.0076,
+    "jev_rate@0.5": 0.0124
+   }
+  },
+  "resentment_down": {
+   "dev": {
+    "gold_rate": 0.0059,
+    "jev_rate@thr": 0.0059,
+    "jev_rate@0.5": 0.0094
+   },
+   "test": {
+    "gold_rate": 0.0029,
+    "jev_rate@thr": 0.0067,
+    "jev_rate@0.5": 0.0076
+   }
+  },
+  "jealousy_up": {
+   "dev": {
+    "gold_rate": 0.0,
+    "jev_rate@thr": 0.0,
+    "jev_rate@0.5": 0.0
+   },
+   "test": {
+    "gold_rate": 0.0019,
+    "jev_rate@thr": 0.0,
+    "jev_rate@0.5": 0.0
+   }
+  },
+  "jealousy_down": {
+   "dev": {
+    "gold_rate": 0.0,
+    "jev_rate@thr": 0.0118,
+    "jev_rate@0.5": 0.0118
+   },
+   "test": {
+    "gold_rate": 0.0,
+    "jev_rate@thr": 0.0391,
+    "jev_rate@0.5": 0.0391
+   }
+  },
+  "respect_up": {
+   "dev": {
+    "gold_rate": 0.0094,
+    "jev_rate@thr": 0.013,
+    "jev_rate@0.5": 0.0319
+   },
+   "test": {
+    "gold_rate": 0.0124,
+    "jev_rate@thr": 0.0105,
+    "jev_rate@0.5": 0.0382
+   }
+  },
+  "respect_down": {
+   "dev": {
+    "gold_rate": 0.0,
+    "jev_rate@thr": 0.0024,
+    "jev_rate@0.5": 0.0024
+   },
+   "test": {
+    "gold_rate": 0.001,
+    "jev_rate@thr": 0.001,
+    "jev_rate@0.5": 0.001
+   }
+  },
+  "protectiveness_up": {
+   "dev": {
+    "gold_rate": 0.0236,
+    "jev_rate@thr": 0.0248,
+    "jev_rate@0.5": 0.1334
+   },
+   "test": {
+    "gold_rate": 0.0229,
+    "jev_rate@thr": 0.0134,
+    "jev_rate@0.5": 0.1031
+   }
+  },
+  "protectiveness_down": {
+   "dev": {
+    "gold_rate": 0.0,
+    "jev_rate@thr": 0.2161,
+    "jev_rate@0.5": 0.2161
+   },
+   "test": {
+    "gold_rate": 0.0,
+    "jev_rate@thr": 0.2385,
+    "jev_rate@0.5": 0.2385
+   }
+  },
+  "playfulness_up": {
+   "dev": {
+    "gold_rate": 0.4144,
+    "jev_rate@thr": 0.4227,
+    "jev_rate@0.5": 0.6576
+   },
+   "test": {
+    "gold_rate": 0.3779,
+    "jev_rate@thr": 0.438,
+    "jev_rate@0.5": 0.6508
+   }
+  },
+  "playfulness_down": {
+   "dev": {
+    "gold_rate": 0.0012,
+    "jev_rate@thr": 0.0024,
+    "jev_rate@0.5": 0.026
+   },
+   "test": {
+    "gold_rate": 0.0019,
+    "jev_rate@thr": 0.0019,
+    "jev_rate@0.5": 0.0162
+   }
+  }
+ }
+}

@@ -189,9 +189,10 @@ def choose(p, model, cond, cands, strat):
         return cands[rest[int(u * len(rest))]]
     if strat == "viol":
         return min(cands, key=lambda c: violations(c["text"], p, b))
-    if strat in ("bank", "bank_pass"):
-        pool = [cands[i] for i in ok] if (strat == "bank_pass" and ok) else cands
-        sc = [(C.bank_score(p, c["text"]), k) for k, c in enumerate(pool)]
+    if strat in ("bank", "bank_pass", "bankA", "bankA_pass"):
+        pool = [cands[i] for i in ok] if (strat.endswith("_pass") and ok) else cands
+        fn = (lambda t: C.bank_half(p, t, "A")) if strat.startswith("bankA") else (lambda t: C.bank_score(p, t))
+        sc = [(fn(c["text"]), k) for k, c in enumerate(pool)]
         sc = [(s if s is not None else 9, k) for s, k in sc]
         return pool[min(sc)[1]]
     raise ValueError(strat)

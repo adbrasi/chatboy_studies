@@ -1,0 +1,7020 @@
+{
+ "split": "dev",
+ "human": {
+  "n": 60,
+  "words_med": 5.0,
+  "q": 0.15,
+  "excl": 0.0,
+  "emoji": 0.05,
+  "laugh": 0.03333333333333333,
+  "llmish": 0.016666666666666666,
+  "ge3": 0.08333333333333333,
+  "template": 0.016666666666666666,
+  "echo2": 0.05,
+  "perf": 0.016666666666666666,
+  "recip": 0.05,
+  "bubbles_mean": 1.3333333333333333,
+  "multi": 0.25,
+  "lat_med": 15.0,
+  "gap_med": 8.968499999999999,
+  "bank": 0.4540923341603179,
+  "bank_ci": [
+   0.4541,
+   0.3209,
+   0.5539,
+   60
+  ],
+  "coh": 0.778,
+  "move_entropy": 3.114860275890262,
+  "move_dist": {
+   "ask_follow_up": 13,
+   "answer": 10,
+   "tease_back": 9,
+   "share_own": 7,
+   "react_only": 7,
+   "disagree": 5
+  }
+ },
+ "models": {
+  "lite": {
+   "A": {
+    "n": 60,
+    "D": 3.8999997857801,
+    "D_ci": [
+     3.9,
+     3.108,
+     5.26
+    ],
+    "lenerr": 1.466666452446766,
+    "words_med": 15.0,
+    "q": 0.5,
+    "excl": 0.2833333333333333,
+    "emoji": 0.36666666666666664,
+    "laugh": 0.4166666666666667,
+    "llmish": 0.21666666666666667,
+    "ge3": 0.38333333333333336,
+    "template": 0.15,
+    "echo2": 0.1,
+    "perf": 0.35,
+    "recip": 0.13333333333333333,
+    "empty": 0.0,
+    "bubbles_mean": 1.5666666666666667,
+    "multi": 0.5333333333333333,
+    "bubbles_mae": 0.6333333333333333,
+    "bubbles_exact": 0.45,
+    "invented_user": 0.0,
+    "other_speaker": 0.0,
+    "broken": 0.0,
+    "plain": 0.0,
+    "deviation": 0.0,
+    "restart": 0.0,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "cost_per_resp": 8.686e-05,
+    "lat_p50": 1.0947715044021606,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4,
+     0.3115,
+     0.4933,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3829,
+     0.6471,
+     60
+    ],
+    "coh": [
+     0.8757,
+     0.8554,
+     0.8916,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.896,
+     0.8712,
+     0.9282,
+     60
+    ],
+    "move_entropy": 2.995485546751819,
+    "move_dist": {
+     "ask_follow_up": 18,
+     "joke_riff": 10,
+     "answer": 8,
+     "plan": 7,
+     "disagree": 4,
+     "agree": 4
+    },
+    "jev_calls": 0.0
+   },
+   "NCT+N": {
+    "n": 60,
+    "D": 1.2376572772038879,
+    "D_ci": [
+     1.238,
+     0.862,
+     1.866
+    ],
+    "lenerr": 0.8376572772038879,
+    "words_med": 5.5,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.05,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.016666666666666666,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00037030999999999994,
+    "lat_p50": 1.2206181287765503,
+    "llm_calls": 4.533333333333333,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4915,
+     0.3548,
+     0.5965,
+     59
+    ],
+    "family_match": [
+     0.5932,
+     0.4286,
+     0.6944,
+     59
+    ],
+    "coh": [
+     0.8376,
+     0.7754,
+     0.8752,
+     59
+    ],
+    "coh_lt05": 0.03389830508474576,
+    "bank": [
+     0.6937,
+     0.6347,
+     0.7361,
+     59
+    ],
+    "move_entropy": 3.0183074024673426,
+    "move_dist": {
+     "answer": 11,
+     "share_own": 10,
+     "tease_back": 10,
+     "ask_follow_up": 9,
+     "disagree": 5,
+     "agree": 5
+    },
+    "jev_calls": 1.0
+   },
+   "P1_hdr-N": {
+    "n": 60,
+    "D": 1.1987220619249337,
+    "D_ci": [
+     1.199,
+     0.907,
+     1.819
+    ],
+    "lenerr": 0.8153887285916004,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.03333333333333333,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.03333333333333333,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00014809833333333334,
+    "lat_p50": 0.8766252994537354,
+    "llm_calls": 1.15,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4167,
+     0.3333,
+     0.5,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3729,
+     0.6389,
+     60
+    ],
+    "coh": [
+     0.8257,
+     0.773,
+     0.8576,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.6348,
+     0.5364,
+     0.7091,
+     60
+    ],
+    "move_entropy": 3.082008291632257,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 10,
+     "joke_riff": 9,
+     "tease_back": 9,
+     "share_own": 7,
+     "disagree": 6
+    },
+    "jev_calls": 1.9666666666666666
+   },
+   "P4_hdr_seed4_viol-N": {
+    "n": 60,
+    "D": 1.2384243789042375,
+    "D_ci": [
+     1.238,
+     0.864,
+     1.884
+    ],
+    "lenerr": 0.8050910455709042,
+    "words_med": 5.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005821950000000001,
+    "lat_p50": 1.1283669471740723,
+    "llm_calls": 4.716666666666667,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4333,
+     0.2911,
+     0.5863,
+     60
+    ],
+    "family_match": [
+     0.5833,
+     0.4118,
+     0.6958,
+     60
+    ],
+    "coh": [
+     0.8267,
+     0.7702,
+     0.8585,
+     60
+    ],
+    "coh_lt05": 0.03333333333333333,
+    "bank": [
+     0.6487,
+     0.573,
+     0.7051,
+     60
+    ],
+    "move_entropy": 3.1639573012303464,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "answer": 10,
+     "share_own": 8,
+     "tease_back": 8,
+     "disagree": 7,
+     "joke_riff": 7
+    },
+    "jev_calls": 4.85
+   },
+   "P4_hdr_seed4_bank-N": {
+    "n": 60,
+    "D": 1.2952471644353363,
+    "D_ci": [
+     1.295,
+     0.9,
+     1.932
+    ],
+    "lenerr": 0.8452471644353362,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005821950000000001,
+    "lat_p50": 1.1283669471740723,
+    "llm_calls": 4.716666666666667,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4667,
+     0.35,
+     0.5807,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3889,
+     0.625,
+     60
+    ],
+    "coh": [
+     0.7747,
+     0.7078,
+     0.8139,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.5294,
+     0.4396,
+     0.5901,
+     60
+    ],
+    "move_entropy": 3.2530860000737643,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 10,
+     "tease_back": 9,
+     "share_own": 7,
+     "joke_riff": 6,
+     "disagree": 6
+    },
+    "jev_calls": 4.85
+   },
+   "P5_hdr_vs5_top-N": {
+    "n": 60,
+    "D": 1.2441956501049718,
+    "D_ci": [
+     1.244,
+     0.796,
+     1.911
+    ],
+    "lenerr": 0.8441956501049718,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4746,
+     0.3654,
+     0.5962,
+     59
+    ],
+    "family_match": [
+     0.5424,
+     0.4107,
+     0.6316,
+     59
+    ],
+    "coh": [
+     0.8219,
+     0.7817,
+     0.8453,
+     59
+    ],
+    "coh_lt05": 0.03389830508474576,
+    "bank": [
+     0.6003,
+     0.5423,
+     0.6551,
+     59
+    ],
+    "move_entropy": 3.066576900834376,
+    "move_dist": {
+     "ask_follow_up": 14,
+     "answer": 10,
+     "tease_back": 8,
+     "share_own": 7,
+     "joke_riff": 5,
+     "disagree": 5
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P5_hdr_vs5_low-N": {
+    "n": 60,
+    "D": 1.3173287627232348,
+    "D_ci": [
+     1.317,
+     0.808,
+     2.082
+    ],
+    "lenerr": 0.8673287627232349,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3898,
+     0.257,
+     0.5263,
+     59
+    ],
+    "family_match": [
+     0.4915,
+     0.3269,
+     0.5833,
+     59
+    ],
+    "coh": [
+     0.8068,
+     0.7453,
+     0.8438,
+     59
+    ],
+    "coh_lt05": 0.01694915254237288,
+    "bank": [
+     0.5912,
+     0.509,
+     0.6453,
+     59
+    ],
+    "move_entropy": 3.1617251903326213,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "joke_riff": 10,
+     "answer": 8,
+     "share_own": 8,
+     "disagree": 7,
+     "tease_back": 5
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P5_hdr_vs5_viol-N": {
+    "n": 60,
+    "D": 1.2545482931080936,
+    "D_ci": [
+     1.255,
+     0.753,
+     1.988
+    ],
+    "lenerr": 0.8045482931080936,
+    "words_med": 5.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4576,
+     0.3548,
+     0.5556,
+     59
+    ],
+    "family_match": [
+     0.5593,
+     0.4,
+     0.6667,
+     59
+    ],
+    "coh": [
+     0.8186,
+     0.7867,
+     0.8457,
+     59
+    ],
+    "coh_lt05": 0.03389830508474576,
+    "bank": [
+     0.5842,
+     0.5375,
+     0.6196,
+     59
+    ],
+    "move_entropy": 3.2033257661805226,
+    "move_dist": {
+     "ask_follow_up": 13,
+     "answer": 8,
+     "joke_riff": 7,
+     "disagree": 7,
+     "tease_back": 7,
+     "share_own": 6
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P5_hdr_vs5_bank-N": {
+    "n": 60,
+    "D": 1.3391463142174989,
+    "D_ci": [
+     1.339,
+     0.817,
+     2.023
+    ],
+    "lenerr": 0.8724796475508322,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3559,
+     0.2188,
+     0.5439,
+     59
+    ],
+    "family_match": [
+     0.4407,
+     0.2938,
+     0.5818,
+     59
+    ],
+    "coh": [
+     0.7151,
+     0.6675,
+     0.7718,
+     59
+    ],
+    "coh_lt05": 0.15254237288135594,
+    "bank": [
+     0.4332,
+     0.4006,
+     0.4713,
+     59
+    ],
+    "move_entropy": 3.1636840457261006,
+    "move_dist": {
+     "ask_follow_up": 13,
+     "joke_riff": 10,
+     "answer": 10,
+     "share_own": 6,
+     "disagree": 5,
+     "tease_back": 4
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P6_hdr0_vs5_low-N": {
+    "n": 60,
+    "D": 1.6381699338305944,
+    "D_ci": [
+     1.638,
+     1.097,
+     2.37
+    ],
+    "lenerr": 1.1881699338305944,
+    "words_med": 2.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.05,
+    "multi": 0.05,
+    "bubbles_mae": 0.35,
+    "bubbles_exact": 0.7333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0004449,
+    "lat_p50": 1.1891353130340576,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3333,
+     0.125,
+     0.4571,
+     60
+    ],
+    "family_match": [
+     0.4333,
+     0.1556,
+     0.6286,
+     60
+    ],
+    "coh": [
+     0.747,
+     0.68,
+     0.788,
+     60
+    ],
+    "coh_lt05": 0.1,
+    "bank": [
+     0.552,
+     0.4403,
+     0.6362,
+     60
+    ],
+    "move_entropy": 3.185265912550366,
+    "move_dist": {
+     "react_only": 12,
+     "answer": 10,
+     "tease_back": 9,
+     "joke_riff": 6,
+     "disagree": 6,
+     "share_own": 6
+    },
+    "jev_calls": 5.35
+   },
+   "P6_hdr0_vs5_viol-N": {
+    "n": 60,
+    "D": 1.3011300601416538,
+    "D_ci": [
+     1.301,
+     0.889,
+     1.919
+    ],
+    "lenerr": 0.8844633934749871,
+    "words_med": 3.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.05,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.0666666666666667,
+    "multi": 0.06666666666666667,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0004449,
+    "lat_p50": 1.1891353130340576,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3667,
+     0.2,
+     0.5,
+     60
+    ],
+    "family_match": [
+     0.4333,
+     0.1957,
+     0.6296,
+     60
+    ],
+    "coh": [
+     0.7757,
+     0.6937,
+     0.8275,
+     60
+    ],
+    "coh_lt05": 0.08333333333333333,
+    "bank": [
+     0.5973,
+     0.527,
+     0.6477,
+     60
+    ],
+    "move_entropy": 3.0974372499299823,
+    "move_dist": {
+     "tease_back": 13,
+     "answer": 9,
+     "disagree": 7,
+     "share_own": 7,
+     "agree": 6,
+     "joke_riff": 6
+    },
+    "jev_calls": 5.35
+   },
+   "P6_hdr0_vs5_bank-N": {
+    "n": 60,
+    "D": 1.6750127169295885,
+    "D_ci": [
+     1.675,
+     1.026,
+     2.635
+    ],
+    "lenerr": 1.208346050262922,
+    "words_med": 2.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.0166666666666666,
+    "multi": 0.016666666666666666,
+    "bubbles_mae": 0.35,
+    "bubbles_exact": 0.7333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0004449,
+    "lat_p50": 1.1891353130340576,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.2667,
+     0.1395,
+     0.3335,
+     60
+    ],
+    "family_match": [
+     0.35,
+     0.1778,
+     0.4667,
+     60
+    ],
+    "coh": [
+     0.645,
+     0.5849,
+     0.684,
+     60
+    ],
+    "coh_lt05": 0.2,
+    "bank": [
+     0.3882,
+     0.3013,
+     0.4399,
+     60
+    ],
+    "move_entropy": 3.2655532489661834,
+    "move_dist": {
+     "answer": 14,
+     "share_own": 8,
+     "react_only": 7,
+     "agree": 7,
+     "disagree": 6,
+     "tease_back": 5
+    },
+    "jev_calls": 5.35
+   },
+   "P1_hdr+N": {
+    "n": 60,
+    "D": 1.232055395258267,
+    "D_ci": [
+     1.232,
+     0.875,
+     1.831
+    ],
+    "lenerr": 0.8153887285916004,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.03333333333333333,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00014809833333333334,
+    "lat_p50": 0.8766252994537354,
+    "llm_calls": 1.15,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4167,
+     0.3461,
+     0.5,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.375,
+     0.6389,
+     60
+    ],
+    "coh": [
+     0.8257,
+     0.7768,
+     0.8556,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.6327,
+     0.531,
+     0.7071,
+     60
+    ],
+    "move_entropy": 3.082008291632257,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 10,
+     "joke_riff": 9,
+     "tease_back": 9,
+     "share_own": 7,
+     "disagree": 6
+    },
+    "jev_calls": 1.9666666666666666
+   },
+   "P4_hdr_seed4_viol+N": {
+    "n": 60,
+    "D": 1.2384243789042375,
+    "D_ci": [
+     1.238,
+     0.877,
+     1.818
+    ],
+    "lenerr": 0.8050910455709042,
+    "words_med": 5.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005821950000000001,
+    "lat_p50": 1.1283669471740723,
+    "llm_calls": 4.716666666666667,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4333,
+     0.2907,
+     0.5962,
+     60
+    ],
+    "family_match": [
+     0.5833,
+     0.4,
+     0.7,
+     60
+    ],
+    "coh": [
+     0.8267,
+     0.776,
+     0.8636,
+     60
+    ],
+    "coh_lt05": 0.03333333333333333,
+    "bank": [
+     0.6487,
+     0.5634,
+     0.709,
+     60
+    ],
+    "move_entropy": 3.1639573012303464,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "answer": 10,
+     "share_own": 8,
+     "tease_back": 8,
+     "disagree": 7,
+     "joke_riff": 7
+    },
+    "jev_calls": 4.85
+   },
+   "P4_hdr_seed4_bank+N": {
+    "n": 60,
+    "D": 1.2952471644353363,
+    "D_ci": [
+     1.295,
+     0.901,
+     1.932
+    ],
+    "lenerr": 0.8452471644353362,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005821950000000001,
+    "lat_p50": 1.1283669471740723,
+    "llm_calls": 4.716666666666667,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4667,
+     0.3414,
+     0.5862,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3818,
+     0.6333,
+     60
+    ],
+    "coh": [
+     0.7747,
+     0.71,
+     0.8128,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.5294,
+     0.4387,
+     0.5906,
+     60
+    ],
+    "move_entropy": 3.2530860000737643,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 10,
+     "tease_back": 9,
+     "share_own": 7,
+     "joke_riff": 6,
+     "disagree": 6
+    },
+    "jev_calls": 4.85
+   },
+   "P5_hdr_vs5_top+N": {
+    "n": 60,
+    "D": 1.2441956501049718,
+    "D_ci": [
+     1.244,
+     0.798,
+     1.891
+    ],
+    "lenerr": 0.8441956501049718,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4746,
+     0.3654,
+     0.6,
+     59
+    ],
+    "family_match": [
+     0.5424,
+     0.4107,
+     0.6364,
+     59
+    ],
+    "coh": [
+     0.8219,
+     0.7858,
+     0.8439,
+     59
+    ],
+    "coh_lt05": 0.03389830508474576,
+    "bank": [
+     0.6003,
+     0.5423,
+     0.6576,
+     59
+    ],
+    "move_entropy": 3.066576900834376,
+    "move_dist": {
+     "ask_follow_up": 14,
+     "answer": 10,
+     "tease_back": 8,
+     "share_own": 7,
+     "joke_riff": 5,
+     "disagree": 5
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P5_hdr_vs5_low+N": {
+    "n": 60,
+    "D": 1.3104114710685875,
+    "D_ci": [
+     1.31,
+     0.795,
+     2.055
+    ],
+    "lenerr": 0.8604114710685875,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9666666666666667,
+    "move_match": [
+     0.3966,
+     0.2765,
+     0.5201,
+     58
+    ],
+    "family_match": [
+     0.4828,
+     0.3077,
+     0.5758,
+     58
+    ],
+    "coh": [
+     0.8055,
+     0.7509,
+     0.8425,
+     58
+    ],
+    "coh_lt05": 0.017241379310344827,
+    "bank": [
+     0.586,
+     0.5131,
+     0.6375,
+     58
+    ],
+    "move_entropy": 3.1523859398122775,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "joke_riff": 10,
+     "answer": 8,
+     "share_own": 8,
+     "disagree": 7,
+     "tease_back": 4
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P5_hdr_vs5_viol+N": {
+    "n": 60,
+    "D": 1.2545482931080936,
+    "D_ci": [
+     1.255,
+     0.736,
+     1.988
+    ],
+    "lenerr": 0.8045482931080936,
+    "words_med": 5.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4576,
+     0.3548,
+     0.5577,
+     59
+    ],
+    "family_match": [
+     0.5593,
+     0.4062,
+     0.6668,
+     59
+    ],
+    "coh": [
+     0.8186,
+     0.7841,
+     0.8463,
+     59
+    ],
+    "coh_lt05": 0.03389830508474576,
+    "bank": [
+     0.5842,
+     0.5375,
+     0.6207,
+     59
+    ],
+    "move_entropy": 3.2033257661805226,
+    "move_dist": {
+     "ask_follow_up": 13,
+     "answer": 8,
+     "joke_riff": 7,
+     "disagree": 7,
+     "tease_back": 7,
+     "share_own": 6
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P5_hdr_vs5_bank+N": {
+    "n": 60,
+    "D": 1.3391463142174989,
+    "D_ci": [
+     1.339,
+     0.826,
+     2.105
+    ],
+    "lenerr": 0.8724796475508322,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0005348533333333332,
+    "lat_p50": 1.3212604522705078,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3559,
+     0.2187,
+     0.5439,
+     59
+    ],
+    "family_match": [
+     0.4407,
+     0.2826,
+     0.5741,
+     59
+    ],
+    "coh": [
+     0.7151,
+     0.6684,
+     0.77,
+     59
+    ],
+    "coh_lt05": 0.15254237288135594,
+    "bank": [
+     0.4332,
+     0.403,
+     0.4714,
+     59
+    ],
+    "move_entropy": 3.1636840457261006,
+    "move_dist": {
+     "ask_follow_up": 13,
+     "joke_riff": 10,
+     "answer": 10,
+     "share_own": 6,
+     "disagree": 5,
+     "tease_back": 4
+    },
+    "jev_calls": 5.716666666666667
+   },
+   "P6_hdr0_vs5_low+N": {
+    "n": 60,
+    "D": 1.6381699338305944,
+    "D_ci": [
+     1.638,
+     1.065,
+     2.484
+    ],
+    "lenerr": 1.1881699338305944,
+    "words_med": 2.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.05,
+    "multi": 0.05,
+    "bubbles_mae": 0.35,
+    "bubbles_exact": 0.7333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0004449,
+    "lat_p50": 1.1891353130340576,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3333,
+     0.1538,
+     0.4531,
+     60
+    ],
+    "family_match": [
+     0.4333,
+     0.1554,
+     0.6199,
+     60
+    ],
+    "coh": [
+     0.747,
+     0.6734,
+     0.7939,
+     60
+    ],
+    "coh_lt05": 0.1,
+    "bank": [
+     0.552,
+     0.4258,
+     0.6386,
+     60
+    ],
+    "move_entropy": 3.185265912550366,
+    "move_dist": {
+     "react_only": 12,
+     "answer": 10,
+     "tease_back": 9,
+     "joke_riff": 6,
+     "disagree": 6,
+     "share_own": 6
+    },
+    "jev_calls": 5.35
+   },
+   "P6_hdr0_vs5_viol+N": {
+    "n": 60,
+    "D": 1.3011300601416538,
+    "D_ci": [
+     1.301,
+     0.86,
+     2.008
+    ],
+    "lenerr": 0.8844633934749871,
+    "words_med": 3.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.05,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.0666666666666667,
+    "multi": 0.06666666666666667,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0004449,
+    "lat_p50": 1.1891353130340576,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3667,
+     0.1967,
+     0.5,
+     60
+    ],
+    "family_match": [
+     0.4333,
+     0.193,
+     0.6375,
+     60
+    ],
+    "coh": [
+     0.7757,
+     0.6785,
+     0.8265,
+     60
+    ],
+    "coh_lt05": 0.08333333333333333,
+    "bank": [
+     0.5973,
+     0.5181,
+     0.6492,
+     60
+    ],
+    "move_entropy": 3.0974372499299823,
+    "move_dist": {
+     "tease_back": 13,
+     "answer": 9,
+     "disagree": 7,
+     "share_own": 7,
+     "agree": 6,
+     "joke_riff": 6
+    },
+    "jev_calls": 5.35
+   },
+   "P6_hdr0_vs5_bank+N": {
+    "n": 60,
+    "D": 1.6750127169295885,
+    "D_ci": [
+     1.675,
+     1.025,
+     2.647
+    ],
+    "lenerr": 1.208346050262922,
+    "words_med": 2.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.0166666666666666,
+    "multi": 0.016666666666666666,
+    "bubbles_mae": 0.35,
+    "bubbles_exact": 0.7333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.016666666666666666,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0004449,
+    "lat_p50": 1.1891353130340576,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.2667,
+     0.1428,
+     0.3443,
+     60
+    ],
+    "family_match": [
+     0.35,
+     0.1665,
+     0.4603,
+     60
+    ],
+    "coh": [
+     0.645,
+     0.5894,
+     0.6836,
+     60
+    ],
+    "coh_lt05": 0.2,
+    "bank": [
+     0.3882,
+     0.3064,
+     0.4399,
+     60
+    ],
+    "move_entropy": 3.2655532489661834,
+    "move_dist": {
+     "answer": 14,
+     "share_own": 8,
+     "react_only": 7,
+     "agree": 7,
+     "disagree": 6,
+     "tease_back": 5
+    },
+    "jev_calls": 5.35
+   }
+  },
+  "luna": {
+   "A": {
+    "n": 60,
+    "D": 3.6805401830725852,
+    "D_ci": [
+     3.681,
+     3.407,
+     4.164
+    ],
+    "lenerr": 1.3138735164059188,
+    "words_med": 13.0,
+    "q": 0.36666666666666664,
+    "excl": 0.23333333333333334,
+    "emoji": 0.75,
+    "laugh": 0.45,
+    "llmish": 0.4166666666666667,
+    "ge3": 0.1,
+    "template": 0.05,
+    "echo2": 0.18333333333333332,
+    "perf": 0.23333333333333334,
+    "recip": 0.05,
+    "empty": 0.0,
+    "bubbles_mean": 1.0166666666666666,
+    "multi": 0.016666666666666666,
+    "bubbles_mae": 0.31666666666666665,
+    "bubbles_exact": 0.7666666666666667,
+    "invented_user": 0.0,
+    "other_speaker": 0.0,
+    "broken": 0.0,
+    "plain": 0.0,
+    "deviation": 0.0,
+    "restart": 0.0,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "cost_per_resp": 2.7435e-05,
+    "lat_p50": 1.4692914485931396,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.2167,
+     0.1148,
+     0.322,
+     60
+    ],
+    "family_match": [
+     0.3833,
+     0.2586,
+     0.4821,
+     60
+    ],
+    "coh": [
+     0.8823,
+     0.8478,
+     0.9047,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.91,
+     0.8666,
+     0.9393,
+     60
+    ],
+    "move_entropy": 3.2280239659903067,
+    "move_dist": {
+     "ask_follow_up": 13,
+     "joke_riff": 9,
+     "answer": 9,
+     "agree": 7,
+     "plan": 7,
+     "reassure": 3
+    },
+    "jev_calls": 0.0
+   },
+   "NCT+N": {
+    "n": 60,
+    "D": 1.2100805501270757,
+    "D_ci": [
+     1.21,
+     0.978,
+     1.708
+    ],
+    "lenerr": 0.843413883460409,
+    "words_med": 6.0,
+    "q": 0.18333333333333332,
+    "excl": 0.0,
+    "emoji": 0.05,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.2,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.15,
+    "multi": 0.15,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00014909500000000005,
+    "lat_p50": 1.7281850576400757,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4333,
+     0.3164,
+     0.5769,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.4386,
+     0.6364,
+     60
+    ],
+    "coh": [
+     0.8855,
+     0.856,
+     0.9043,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.8103,
+     0.7282,
+     0.8696,
+     60
+    ],
+    "move_entropy": 3.1223305414991476,
+    "move_dist": {
+     "ask_follow_up": 13,
+     "answer": 10,
+     "tease_back": 9,
+     "joke_riff": 8,
+     "agree": 5,
+     "share_own": 5
+    },
+    "jev_calls": 1.0
+   },
+   "P1_hdr-N": {
+    "n": 60,
+    "D": 1.1715447896037587,
+    "D_ci": [
+     1.172,
+     0.91,
+     1.744
+    ],
+    "lenerr": 0.8215447896037588,
+    "words_med": 6.0,
+    "q": 0.1,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.11666666666666667,
+    "perf": 0.03333333333333333,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 5.586e-05,
+    "lat_p50": 1.391363263130188,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3833,
+     0.2419,
+     0.5306,
+     60
+    ],
+    "family_match": [
+     0.4833,
+     0.3269,
+     0.5862,
+     60
+    ],
+    "coh": [
+     0.8792,
+     0.8575,
+     0.8979,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7852,
+     0.7,
+     0.8622,
+     60
+    ],
+    "move_entropy": 2.8277543408206895,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 12,
+     "ask_follow_up": 10,
+     "tease_back": 9,
+     "share_own": 6,
+     "agree": 5
+    },
+    "jev_calls": 2.0
+   },
+   "P4_hdr_seed4_viol-N": {
+    "n": 60,
+    "D": 1.1554164325375,
+    "D_ci": [
+     1.155,
+     0.838,
+     1.777
+    ],
+    "lenerr": 0.7887497658708333,
+    "words_med": 6.0,
+    "q": 0.13333333333333333,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.16666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0002233233333333333,
+    "lat_p50": 1.6996978521347046,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.35,
+     0.225,
+     0.4839,
+     60
+    ],
+    "family_match": [
+     0.5167,
+     0.3264,
+     0.619,
+     60
+    ],
+    "coh": [
+     0.8873,
+     0.87,
+     0.9016,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7778,
+     0.6815,
+     0.8493,
+     60
+    ],
+    "move_entropy": 2.970678385455363,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 11,
+     "ask_follow_up": 10,
+     "agree": 9,
+     "tease_back": 6,
+     "share_own": 4
+    },
+    "jev_calls": 5.0
+   },
+   "P4_hdr_seed4_bank-N": {
+    "n": 60,
+    "D": 1.1483442874516225,
+    "D_ci": [
+     1.148,
+     0.86,
+     1.71
+    ],
+    "lenerr": 0.7983442874516226,
+    "words_med": 6.0,
+    "q": 0.13333333333333333,
+    "excl": 0.0,
+    "emoji": 0.03333333333333333,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.16666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0002233233333333333,
+    "lat_p50": 1.6996978521347046,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3167,
+     0.2069,
+     0.453,
+     60
+    ],
+    "family_match": [
+     0.4667,
+     0.3469,
+     0.5556,
+     60
+    ],
+    "coh": [
+     0.8478,
+     0.8324,
+     0.8702,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.6617,
+     0.5111,
+     0.7692,
+     60
+    ],
+    "move_entropy": 2.989934578431766,
+    "move_dist": {
+     "joke_riff": 11,
+     "ask_follow_up": 11,
+     "answer": 10,
+     "agree": 9,
+     "tease_back": 7,
+     "share_own": 6
+    },
+    "jev_calls": 5.0
+   },
+   "P5_hdr_vs5_top-N": {
+    "n": 60,
+    "D": 1.2344440724670265,
+    "D_ci": [
+     1.234,
+     0.912,
+     1.87
+    ],
+    "lenerr": 0.8177774058003598,
+    "words_med": 6.0,
+    "q": 0.06666666666666667,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.13333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4,
+     0.2632,
+     0.5,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3846,
+     0.6133,
+     60
+    ],
+    "coh": [
+     0.882,
+     0.8603,
+     0.9029,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7943,
+     0.7231,
+     0.8499,
+     60
+    ],
+    "move_entropy": 2.7442358373198203,
+    "move_dist": {
+     "joke_riff": 13,
+     "ask_follow_up": 11,
+     "answer": 10,
+     "agree": 10,
+     "tease_back": 7,
+     "share_own": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_low-N": {
+    "n": 60,
+    "D": 1.1364727540718547,
+    "D_ci": [
+     1.136,
+     0.818,
+     1.759
+    ],
+    "lenerr": 0.769806087405188,
+    "words_med": 6.0,
+    "q": 0.08333333333333333,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.35,
+     0.2291,
+     0.4697,
+     60
+    ],
+    "family_match": [
+     0.5,
+     0.3654,
+     0.5926,
+     60
+    ],
+    "coh": [
+     0.8462,
+     0.8237,
+     0.8752,
+     60
+    ],
+    "coh_lt05": 0.03333333333333333,
+    "bank": [
+     0.7346,
+     0.6809,
+     0.7769,
+     60
+    ],
+    "move_entropy": 2.947564686323483,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 11,
+     "ask_follow_up": 10,
+     "agree": 9,
+     "tease_back": 7,
+     "share_own": 4
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_viol-N": {
+    "n": 60,
+    "D": 1.1189471436451772,
+    "D_ci": [
+     1.119,
+     0.805,
+     1.653
+    ],
+    "lenerr": 0.785613810311844,
+    "words_med": 6.0,
+    "q": 0.06666666666666667,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4,
+     0.2411,
+     0.5335,
+     60
+    ],
+    "family_match": [
+     0.5167,
+     0.3225,
+     0.6111,
+     60
+    ],
+    "coh": [
+     0.8783,
+     0.8576,
+     0.8925,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7785,
+     0.7098,
+     0.83,
+     60
+    ],
+    "move_entropy": 2.9161399072870227,
+    "move_dist": {
+     "joke_riff": 13,
+     "ask_follow_up": 12,
+     "answer": 9,
+     "agree": 9,
+     "tease_back": 7,
+     "share_own": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_bank-N": {
+    "n": 60,
+    "D": 1.145852045506978,
+    "D_ci": [
+     1.146,
+     0.798,
+     1.752
+    ],
+    "lenerr": 0.7958520455069781,
+    "words_med": 6.0,
+    "q": 0.06666666666666667,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3333,
+     0.1818,
+     0.483,
+     60
+    ],
+    "family_match": [
+     0.4333,
+     0.2407,
+     0.5636,
+     60
+    ],
+    "coh": [
+     0.8042,
+     0.7807,
+     0.8266,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.6271,
+     0.5462,
+     0.6918,
+     60
+    ],
+    "move_entropy": 3.099698191442595,
+    "move_dist": {
+     "ask_follow_up": 12,
+     "joke_riff": 11,
+     "answer": 10,
+     "share_own": 6,
+     "tease_back": 6,
+     "agree": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_low-N": {
+    "n": 60,
+    "D": 1.192849436953067,
+    "D_ci": [
+     1.193,
+     0.811,
+     1.788
+    ],
+    "lenerr": 0.8261827702864004,
+    "words_med": 4.5,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.05,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.06666666666666667,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.0666666666666667,
+    "multi": 0.06666666666666667,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 9.235666666666666e-05,
+    "lat_p50": 1.74622642993927,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.25,
+     0.1719,
+     0.3621,
+     60
+    ],
+    "family_match": [
+     0.3833,
+     0.2549,
+     0.5091,
+     60
+    ],
+    "coh": [
+     0.8203,
+     0.7963,
+     0.8588,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.5371,
+     0.3651,
+     0.6582,
+     60
+    ],
+    "move_entropy": 3.35870819647937,
+    "move_dist": {
+     "answer": 9,
+     "joke_riff": 9,
+     "share_own": 7,
+     "plan": 7,
+     "agree": 6,
+     "ask_follow_up": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_viol-N": {
+    "n": 60,
+    "D": 1.180407053612197,
+    "D_ci": [
+     1.18,
+     0.776,
+     1.834
+    ],
+    "lenerr": 0.7970737202788637,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.03333333333333333,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.06666666666666667,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1333333333333333,
+    "multi": 0.13333333333333333,
+    "bubbles_mae": 0.4,
+    "bubbles_exact": 0.6833333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 9.235666666666666e-05,
+    "lat_p50": 1.74622642993927,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3667,
+     0.2903,
+     0.4616,
+     60
+    ],
+    "family_match": [
+     0.4833,
+     0.3571,
+     0.5835,
+     60
+    ],
+    "coh": [
+     0.8585,
+     0.8385,
+     0.8786,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.5557,
+     0.36,
+     0.677,
+     60
+    ],
+    "move_entropy": 3.3968346133730556,
+    "move_dist": {
+     "answer": 10,
+     "tease_back": 8,
+     "agree": 8,
+     "share_own": 8,
+     "joke_riff": 6,
+     "ask_follow_up": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_bank-N": {
+    "n": 60,
+    "D": 1.2295064971292913,
+    "D_ci": [
+     1.23,
+     0.788,
+     1.892
+    ],
+    "lenerr": 0.8128398304626248,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.1,
+    "bubbles_mae": 0.4,
+    "bubbles_exact": 0.6833333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 9.235666666666666e-05,
+    "lat_p50": 1.74622642993927,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.25,
+     0.1781,
+     0.3878,
+     60
+    ],
+    "family_match": [
+     0.3833,
+     0.2941,
+     0.5,
+     60
+    ],
+    "coh": [
+     0.769,
+     0.7448,
+     0.7989,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.4024,
+     0.2541,
+     0.5101,
+     60
+    ],
+    "move_entropy": 3.31033131486041,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 9,
+     "share_own": 9,
+     "ask_follow_up": 6,
+     "tease_back": 5,
+     "plan": 4
+    },
+    "jev_calls": 6.0
+   },
+   "P1_hdr+N": {
+    "n": 60,
+    "D": 1.1451287479250727,
+    "D_ci": [
+     1.145,
+     0.835,
+     1.749
+    ],
+    "lenerr": 0.8117954145917394,
+    "words_med": 6.0,
+    "q": 0.1,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.11666666666666667,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 5.586e-05,
+    "lat_p50": 1.391363263130188,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3667,
+     0.2174,
+     0.5306,
+     60
+    ],
+    "family_match": [
+     0.4833,
+     0.3091,
+     0.5862,
+     60
+    ],
+    "coh": [
+     0.8793,
+     0.8591,
+     0.898,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7802,
+     0.6962,
+     0.8462,
+     60
+    ],
+    "move_entropy": 2.816622214820832,
+    "move_dist": {
+     "joke_riff": 14,
+     "answer": 12,
+     "ask_follow_up": 10,
+     "tease_back": 8,
+     "share_own": 6,
+     "agree": 5
+    },
+    "jev_calls": 2.0
+   },
+   "P4_hdr_seed4_viol+N": {
+    "n": 60,
+    "D": 1.1554164325375,
+    "D_ci": [
+     1.155,
+     0.858,
+     1.777
+    ],
+    "lenerr": 0.7887497658708333,
+    "words_med": 6.0,
+    "q": 0.13333333333333333,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.16666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0002233233333333333,
+    "lat_p50": 1.6996978521347046,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.35,
+     0.2195,
+     0.5002,
+     60
+    ],
+    "family_match": [
+     0.5167,
+     0.375,
+     0.6232,
+     60
+    ],
+    "coh": [
+     0.8873,
+     0.8708,
+     0.9017,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7778,
+     0.679,
+     0.85,
+     60
+    ],
+    "move_entropy": 2.970678385455363,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 11,
+     "ask_follow_up": 10,
+     "agree": 9,
+     "tease_back": 6,
+     "share_own": 4
+    },
+    "jev_calls": 5.0
+   },
+   "P4_hdr_seed4_bank+N": {
+    "n": 60,
+    "D": 1.1483442874516225,
+    "D_ci": [
+     1.148,
+     0.867,
+     1.667
+    ],
+    "lenerr": 0.7983442874516226,
+    "words_med": 6.0,
+    "q": 0.13333333333333333,
+    "excl": 0.0,
+    "emoji": 0.03333333333333333,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.16666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.0002233233333333333,
+    "lat_p50": 1.6996978521347046,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3167,
+     0.2083,
+     0.4545,
+     60
+    ],
+    "family_match": [
+     0.4667,
+     0.3461,
+     0.5556,
+     60
+    ],
+    "coh": [
+     0.8478,
+     0.8323,
+     0.8727,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.6617,
+     0.521,
+     0.7692,
+     60
+    ],
+    "move_entropy": 2.989934578431766,
+    "move_dist": {
+     "joke_riff": 11,
+     "ask_follow_up": 11,
+     "answer": 10,
+     "agree": 9,
+     "tease_back": 7,
+     "share_own": 6
+    },
+    "jev_calls": 5.0
+   },
+   "P5_hdr_vs5_top+N": {
+    "n": 60,
+    "D": 1.2177774058003599,
+    "D_ci": [
+     1.218,
+     0.893,
+     1.765
+    ],
+    "lenerr": 0.8177774058003598,
+    "words_med": 6.0,
+    "q": 0.06666666666666667,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.13333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4068,
+     0.2692,
+     0.5,
+     59
+    ],
+    "family_match": [
+     0.5424,
+     0.3846,
+     0.6301,
+     59
+    ],
+    "coh": [
+     0.8876,
+     0.8632,
+     0.9082,
+     59
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7911,
+     0.7138,
+     0.8422,
+     59
+    ],
+    "move_entropy": 2.748324089341752,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 10,
+     "ask_follow_up": 10,
+     "agree": 10,
+     "tease_back": 7,
+     "share_own": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_low+N": {
+    "n": 60,
+    "D": 1.1531394207385213,
+    "D_ci": [
+     1.153,
+     0.78,
+     1.754
+    ],
+    "lenerr": 0.769806087405188,
+    "words_med": 6.0,
+    "q": 0.08333333333333333,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3559,
+     0.2271,
+     0.4688,
+     59
+    ],
+    "family_match": [
+     0.5085,
+     0.3553,
+     0.6001,
+     59
+    ],
+    "coh": [
+     0.8451,
+     0.8231,
+     0.8735,
+     59
+    ],
+    "coh_lt05": 0.03389830508474576,
+    "bank": [
+     0.7307,
+     0.6842,
+     0.7716,
+     59
+    ],
+    "move_entropy": 2.952649852392191,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 11,
+     "agree": 9,
+     "ask_follow_up": 9,
+     "tease_back": 7,
+     "share_own": 4
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_viol+N": {
+    "n": 60,
+    "D": 1.135613810311844,
+    "D_ci": [
+     1.136,
+     0.782,
+     1.695
+    ],
+    "lenerr": 0.785613810311844,
+    "words_med": 6.0,
+    "q": 0.06666666666666667,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4068,
+     0.25,
+     0.5283,
+     59
+    ],
+    "family_match": [
+     0.5254,
+     0.3519,
+     0.6286,
+     59
+    ],
+    "coh": [
+     0.8778,
+     0.856,
+     0.8938,
+     59
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.7754,
+     0.7085,
+     0.8261,
+     59
+    ],
+    "move_entropy": 2.9253678104525838,
+    "move_dist": {
+     "joke_riff": 13,
+     "ask_follow_up": 11,
+     "answer": 9,
+     "agree": 9,
+     "tease_back": 7,
+     "share_own": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_bank+N": {
+    "n": 60,
+    "D": 1.1625187121736447,
+    "D_ci": [
+     1.163,
+     0.807,
+     1.801
+    ],
+    "lenerr": 0.7958520455069781,
+    "words_med": 6.0,
+    "q": 0.06666666666666667,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010966833333333333,
+    "lat_p50": 1.8448896408081055,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.339,
+     0.1833,
+     0.4647,
+     59
+    ],
+    "family_match": [
+     0.4407,
+     0.25,
+     0.579,
+     59
+    ],
+    "coh": [
+     0.8027,
+     0.78,
+     0.8253,
+     59
+    ],
+    "coh_lt05": 0.06779661016949153,
+    "bank": [
+     0.622,
+     0.5462,
+     0.6833,
+     59
+    ],
+    "move_entropy": 3.112037251966726,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "joke_riff": 11,
+     "answer": 10,
+     "share_own": 6,
+     "tease_back": 6,
+     "agree": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_low+N": {
+    "n": 60,
+    "D": 1.192849436953067,
+    "D_ci": [
+     1.193,
+     0.811,
+     1.817
+    ],
+    "lenerr": 0.8261827702864004,
+    "words_med": 4.5,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.05,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.06666666666666667,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.0666666666666667,
+    "multi": 0.06666666666666667,
+    "bubbles_mae": 0.36666666666666664,
+    "bubbles_exact": 0.7166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 9.235666666666666e-05,
+    "lat_p50": 1.74622642993927,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.25,
+     0.1718,
+     0.3654,
+     60
+    ],
+    "family_match": [
+     0.3833,
+     0.2623,
+     0.5098,
+     60
+    ],
+    "coh": [
+     0.8203,
+     0.7966,
+     0.8533,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.5371,
+     0.375,
+     0.6622,
+     60
+    ],
+    "move_entropy": 3.35870819647937,
+    "move_dist": {
+     "answer": 9,
+     "joke_riff": 9,
+     "share_own": 7,
+     "plan": 7,
+     "agree": 6,
+     "ask_follow_up": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_viol+N": {
+    "n": 60,
+    "D": 1.180407053612197,
+    "D_ci": [
+     1.18,
+     0.766,
+     1.81
+    ],
+    "lenerr": 0.7970737202788637,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.03333333333333333,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.06666666666666667,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1333333333333333,
+    "multi": 0.13333333333333333,
+    "bubbles_mae": 0.4,
+    "bubbles_exact": 0.6833333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 9.235666666666666e-05,
+    "lat_p50": 1.74622642993927,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3667,
+     0.2879,
+     0.4643,
+     60
+    ],
+    "family_match": [
+     0.4833,
+     0.3393,
+     0.5962,
+     60
+    ],
+    "coh": [
+     0.8585,
+     0.8404,
+     0.879,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.5557,
+     0.3734,
+     0.677,
+     60
+    ],
+    "move_entropy": 3.3968346133730556,
+    "move_dist": {
+     "answer": 10,
+     "tease_back": 8,
+     "agree": 8,
+     "share_own": 8,
+     "joke_riff": 6,
+     "ask_follow_up": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_bank+N": {
+    "n": 60,
+    "D": 1.2295064971292913,
+    "D_ci": [
+     1.23,
+     0.795,
+     1.921
+    ],
+    "lenerr": 0.8128398304626248,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.1,
+    "bubbles_mae": 0.4,
+    "bubbles_exact": 0.6833333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 9.235666666666666e-05,
+    "lat_p50": 1.74622642993927,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.25,
+     0.1731,
+     0.3878,
+     60
+    ],
+    "family_match": [
+     0.3833,
+     0.2923,
+     0.5098,
+     60
+    ],
+    "coh": [
+     0.769,
+     0.7449,
+     0.7977,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.4024,
+     0.253,
+     0.5126,
+     60
+    ],
+    "move_entropy": 3.31033131486041,
+    "move_dist": {
+     "joke_riff": 13,
+     "answer": 9,
+     "share_own": 9,
+     "ask_follow_up": 6,
+     "tease_back": 5,
+     "plan": 4
+    },
+    "jev_calls": 6.0
+   }
+  },
+  "deepseek": {
+   "A": {
+    "n": 60,
+    "D": 1.635766076803453,
+    "D_ci": [
+     1.636,
+     1.38,
+     2.397
+    ],
+    "lenerr": 1.0690994101367863,
+    "words_med": 8.0,
+    "q": 0.25,
+    "excl": 0.08333333333333333,
+    "emoji": 0.1,
+    "laugh": 0.08333333333333333,
+    "llmish": 0.13333333333333333,
+    "ge3": 0.15,
+    "template": 0.016666666666666666,
+    "echo2": 0.08333333333333333,
+    "perf": 0.06666666666666667,
+    "recip": 0.06666666666666667,
+    "empty": 0.0,
+    "bubbles_mean": 1.3166666666666667,
+    "multi": 0.25,
+    "bubbles_mae": 0.5833333333333334,
+    "bubbles_exact": 0.5333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": 0.0,
+    "broken": 0.0,
+    "plain": 0.0,
+    "deviation": 0.0,
+    "restart": 0.0,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "cost_per_resp": 3.281966816666667e-05,
+    "lat_p50": 1.213258147239685,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.2833,
+     0.2069,
+     0.359,
+     60
+    ],
+    "family_match": [
+     0.4,
+     0.22,
+     0.5254,
+     60
+    ],
+    "coh": [
+     0.8422,
+     0.7937,
+     0.8812,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.6482,
+     0.4915,
+     0.7419,
+     60
+    ],
+    "move_entropy": 3.338607988470557,
+    "move_dist": {
+     "answer": 9,
+     "joke_riff": 8,
+     "agree": 8,
+     "ask_follow_up": 7,
+     "share_own": 7,
+     "tease_back": 6
+    },
+    "jev_calls": 0.0
+   },
+   "NCT+N": {
+    "n": 60,
+    "D": 1.15889739625395,
+    "D_ci": [
+     1.159,
+     0.765,
+     1.739
+    ],
+    "lenerr": 0.7755640629206166,
+    "words_med": 6.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.03333333333333333,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.21666666666666667,
+    "bubbles_mae": 0.5,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00017978443633333334,
+    "lat_p50": 1.3444774150848389,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.5,
+     0.3528,
+     0.6379,
+     60
+    ],
+    "family_match": [
+     0.55,
+     0.4043,
+     0.661,
+     60
+    ],
+    "coh": [
+     0.8402,
+     0.8222,
+     0.8524,
+     60
+    ],
+    "coh_lt05": 0.03333333333333333,
+    "bank": [
+     0.5669,
+     0.3417,
+     0.7023,
+     60
+    ],
+    "move_entropy": 3.13640706494905,
+    "move_dist": {
+     "answer": 12,
+     "joke_riff": 10,
+     "ask_follow_up": 10,
+     "disagree": 7,
+     "agree": 6,
+     "share_own": 5
+    },
+    "jev_calls": 1.0
+   },
+   "P1_hdr-N": {
+    "n": 60,
+    "D": 1.2452702207485113,
+    "D_ci": [
+     1.245,
+     0.894,
+     1.894
+    ],
+    "lenerr": 0.8119368874151781,
+    "words_med": 5.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.13333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 6.060634666666667e-05,
+    "lat_p50": 1.1560837030410767,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.45,
+     0.3333,
+     0.5714,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3899,
+     0.6604,
+     60
+    ],
+    "coh": [
+     0.8603,
+     0.8405,
+     0.881,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.5732,
+     0.4187,
+     0.6678,
+     60
+    ],
+    "move_entropy": 3.2057736577192664,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "answer": 10,
+     "joke_riff": 9,
+     "share_own": 8,
+     "agree": 6,
+     "disagree": 4
+    },
+    "jev_calls": 2.0
+   },
+   "P4_hdr_seed4_viol-N": {
+    "n": 60,
+    "D": 1.247845721106413,
+    "D_ci": [
+     1.248,
+     0.881,
+     1.84
+    ],
+    "lenerr": 0.7811790544397462,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.13333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.3,
+    "multi": 0.3,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00012753512266666666,
+    "lat_p50": 1.4314813613891602,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4833,
+     0.381,
+     0.6364,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.4225,
+     0.6667,
+     60
+    ],
+    "coh": [
+     0.8578,
+     0.8272,
+     0.8809,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.6093,
+     0.4548,
+     0.6926,
+     60
+    ],
+    "move_entropy": 3.1304833045869844,
+    "move_dist": {
+     "answer": 12,
+     "ask_follow_up": 12,
+     "share_own": 9,
+     "joke_riff": 7,
+     "tease_back": 5,
+     "agree": 4
+    },
+    "jev_calls": 5.0
+   },
+   "P4_hdr_seed4_bank-N": {
+    "n": 60,
+    "D": 1.1546519813561231,
+    "D_ci": [
+     1.155,
+     0.781,
+     1.82
+    ],
+    "lenerr": 0.7879853146894565,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.05,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.3,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00012753512266666666,
+    "lat_p50": 1.4314813613891602,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4667,
+     0.3929,
+     0.5472,
+     60
+    ],
+    "family_match": [
+     0.55,
+     0.4629,
+     0.6393,
+     60
+    ],
+    "coh": [
+     0.8317,
+     0.7894,
+     0.8733,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.4582,
+     0.3048,
+     0.5481,
+     60
+    ],
+    "move_entropy": 3.2768541174803323,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 9,
+     "joke_riff": 7,
+     "disagree": 7,
+     "share_own": 7,
+     "tease_back": 6
+    },
+    "jev_calls": 5.0
+   },
+   "P5_hdr_vs5_top-N": {
+    "n": 60,
+    "D": 1.2148508240678826,
+    "D_ci": [
+     1.215,
+     0.805,
+     1.885
+    ],
+    "lenerr": 0.8315174907345492,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.03333333333333333,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.016666666666666666,
+    "recip": 0.016666666666666666,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4333,
+     0.3461,
+     0.5508,
+     60
+    ],
+    "family_match": [
+     0.6,
+     0.5,
+     0.6667,
+     60
+    ],
+    "coh": [
+     0.8602,
+     0.8413,
+     0.8785,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.6604,
+     0.6006,
+     0.7146,
+     60
+    ],
+    "move_entropy": 3.0360222718439793,
+    "move_dist": {
+     "answer": 12,
+     "ask_follow_up": 10,
+     "agree": 9,
+     "joke_riff": 8,
+     "tease_back": 6,
+     "disagree": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_low-N": {
+    "n": 60,
+    "D": 1.2953671134366014,
+    "D_ci": [
+     1.295,
+     0.823,
+     2.096
+    ],
+    "lenerr": 0.8620337801032681,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.06666666666666667,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3667,
+     0.3182,
+     0.4308,
+     60
+    ],
+    "family_match": [
+     0.4667,
+     0.431,
+     0.5075,
+     60
+    ],
+    "coh": [
+     0.8577,
+     0.832,
+     0.8778,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.6269,
+     0.5742,
+     0.668,
+     60
+    ],
+    "move_entropy": 3.327492557518933,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 9,
+     "tease_back": 8,
+     "share_own": 7,
+     "joke_riff": 6,
+     "agree": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_viol-N": {
+    "n": 60,
+    "D": 1.2387014979057815,
+    "D_ci": [
+     1.239,
+     0.782,
+     1.934
+    ],
+    "lenerr": 0.7887014979057816,
+    "words_med": 5.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3833,
+     0.3,
+     0.4426,
+     60
+    ],
+    "family_match": [
+     0.5167,
+     0.3999,
+     0.6061,
+     60
+    ],
+    "coh": [
+     0.8648,
+     0.8415,
+     0.8839,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.6798,
+     0.6212,
+     0.7179,
+     60
+    ],
+    "move_entropy": 3.0467664040020503,
+    "move_dist": {
+     "joke_riff": 11,
+     "answer": 11,
+     "ask_follow_up": 10,
+     "agree": 7,
+     "tease_back": 6,
+     "share_own": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_bank-N": {
+    "n": 60,
+    "D": 1.3467214718046352,
+    "D_ci": [
+     1.347,
+     0.914,
+     2.059
+    ],
+    "lenerr": 0.8967214718046352,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2333333333333334,
+    "multi": 0.23333333333333334,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4167,
+     0.2535,
+     0.623,
+     60
+    ],
+    "family_match": [
+     0.5167,
+     0.4098,
+     0.6493,
+     60
+    ],
+    "coh": [
+     0.7818,
+     0.7417,
+     0.83,
+     60
+    ],
+    "coh_lt05": 0.08333333333333333,
+    "bank": [
+     0.4808,
+     0.4323,
+     0.5202,
+     60
+    ],
+    "move_entropy": 3.2374425665507687,
+    "move_dist": {
+     "ask_follow_up": 12,
+     "answer": 11,
+     "share_own": 10,
+     "disagree": 5,
+     "joke_riff": 4,
+     "tease_back": 4
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_low-N": {
+    "n": 60,
+    "D": 1.4420625715575164,
+    "D_ci": [
+     1.442,
+     0.924,
+     2.293
+    ],
+    "lenerr": 1.0253959048908499,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1166666666666667,
+    "multi": 0.1,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010531678066666668,
+    "lat_p50": 1.6766016483306885,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.2667,
+     0.1404,
+     0.3948,
+     60
+    ],
+    "family_match": [
+     0.3833,
+     0.2143,
+     0.5501,
+     60
+    ],
+    "coh": [
+     0.8053,
+     0.7417,
+     0.8483,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.4987,
+     0.3346,
+     0.6066,
+     60
+    ],
+    "move_entropy": 3.316191689004784,
+    "move_dist": {
+     "answer": 8,
+     "agree": 8,
+     "ask_follow_up": 7,
+     "share_own": 7,
+     "plan": 6,
+     "react_only": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_viol-N": {
+    "n": 60,
+    "D": 1.2490958028748218,
+    "D_ci": [
+     1.249,
+     0.801,
+     1.911
+    ],
+    "lenerr": 0.799095802874822,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010531678066666668,
+    "lat_p50": 1.6766016483306885,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.45,
+     0.3077,
+     0.5918,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3809,
+     0.6596,
+     60
+    ],
+    "coh": [
+     0.8055,
+     0.7662,
+     0.848,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.4725,
+     0.3416,
+     0.5678,
+     60
+    ],
+    "move_entropy": 3.222766157863498,
+    "move_dist": {
+     "share_own": 12,
+     "answer": 11,
+     "tease_back": 8,
+     "ask_follow_up": 8,
+     "disagree": 5,
+     "plan": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_bank-N": {
+    "n": 60,
+    "D": 1.3559716277325422,
+    "D_ci": [
+     1.356,
+     0.859,
+     2.196
+    ],
+    "lenerr": 0.9059716277325424,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1833333333333333,
+    "multi": 0.18333333333333332,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010531678066666668,
+    "lat_p50": 1.6766016483306885,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3167,
+     0.1719,
+     0.4423,
+     60
+    ],
+    "family_match": [
+     0.3833,
+     0.2114,
+     0.5082,
+     60
+    ],
+    "coh": [
+     0.7078,
+     0.6608,
+     0.7685,
+     60
+    ],
+    "coh_lt05": 0.16666666666666666,
+    "bank": [
+     0.2889,
+     0.1706,
+     0.3617,
+     60
+    ],
+    "move_entropy": 3.412664442917057,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "answer": 10,
+     "share_own": 7,
+     "joke_riff": 5,
+     "disagree": 5,
+     "react_only": 4
+    },
+    "jev_calls": 6.0
+   },
+   "P1_hdr+N": {
+    "n": 60,
+    "D": 1.2521875124031587,
+    "D_ci": [
+     1.252,
+     0.884,
+     1.941
+    ],
+    "lenerr": 0.8188541790698255,
+    "words_med": 5.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.13333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 6.060634666666667e-05,
+    "lat_p50": 1.1560837030410767,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.45,
+     0.3396,
+     0.569,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3944,
+     0.6667,
+     60
+    ],
+    "coh": [
+     0.8603,
+     0.8424,
+     0.8813,
+     60
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.5695,
+     0.4187,
+     0.6704,
+     60
+    ],
+    "move_entropy": 3.2057736577192664,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "answer": 10,
+     "joke_riff": 9,
+     "share_own": 8,
+     "agree": 6,
+     "disagree": 4
+    },
+    "jev_calls": 2.0
+   },
+   "P4_hdr_seed4_viol+N": {
+    "n": 60,
+    "D": 1.245312336215662,
+    "D_ci": [
+     1.245,
+     0.846,
+     1.793
+    ],
+    "lenerr": 0.7786456695489953,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.13333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.3,
+    "multi": 0.3,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00012753512266666666,
+    "lat_p50": 1.4314813613891602,
+    "llm_calls": 4.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4915,
+     0.4,
+     0.6459,
+     59
+    ],
+    "family_match": [
+     0.5424,
+     0.4333,
+     0.6786,
+     59
+    ],
+    "coh": [
+     0.8586,
+     0.83,
+     0.8811,
+     59
+    ],
+    "coh_lt05": 0.01694915254237288,
+    "bank": [
+     0.6035,
+     0.4422,
+     0.6853,
+     59
+    ],
+    "move_entropy": 3.1203583546693787,
+    "move_dist": {
+     "answer": 12,
+     "ask_follow_up": 12,
+     "share_own": 9,
+     "joke_riff": 7,
+     "agree": 4,
+     "disagree": 4
+    },
+    "jev_calls": 5.0
+   },
+   "P4_hdr_seed4_bank+N": {
+    "n": 60,
+    "D": 1.1615692730107707,
+    "D_ci": [
+     1.162,
+     0.771,
+     1.801
+    ],
+    "lenerr": 0.794902606344104,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.0,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.05,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.3,
+    "multi": 0.2833333333333333,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00012753512266666666,
+    "lat_p50": 1.4314813613891602,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4667,
+     0.3928,
+     0.5455,
+     60
+    ],
+    "family_match": [
+     0.55,
+     0.449,
+     0.6379,
+     60
+    ],
+    "coh": [
+     0.8317,
+     0.7894,
+     0.8741,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.4545,
+     0.3135,
+     0.5457,
+     60
+    ],
+    "move_entropy": 3.2768541174803323,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 9,
+     "joke_riff": 7,
+     "disagree": 7,
+     "share_own": 7,
+     "tease_back": 6
+    },
+    "jev_calls": 5.0
+   },
+   "P5_hdr_vs5_top+N": {
+    "n": 60,
+    "D": 1.2261520224864264,
+    "D_ci": [
+     1.226,
+     0.821,
+     1.801
+    ],
+    "lenerr": 0.842818689153093,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.03333333333333333,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.016666666666666666,
+    "recip": 0.016666666666666666,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.4237,
+     0.3415,
+     0.5455,
+     59
+    ],
+    "family_match": [
+     0.5932,
+     0.5,
+     0.662,
+     59
+    ],
+    "coh": [
+     0.8598,
+     0.8405,
+     0.8777,
+     59
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.655,
+     0.6014,
+     0.7102,
+     59
+    ],
+    "move_entropy": 3.029219915531634,
+    "move_dist": {
+     "answer": 12,
+     "ask_follow_up": 10,
+     "agree": 9,
+     "joke_riff": 8,
+     "disagree": 5,
+     "tease_back": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_low+N": {
+    "n": 60,
+    "D": 1.2953671134366014,
+    "D_ci": [
+     1.295,
+     0.805,
+     1.988
+    ],
+    "lenerr": 0.8620337801032681,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.06666666666666667,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3667,
+     0.3191,
+     0.4286,
+     60
+    ],
+    "family_match": [
+     0.4667,
+     0.4286,
+     0.5077,
+     60
+    ],
+    "coh": [
+     0.8577,
+     0.8309,
+     0.8799,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.6269,
+     0.57,
+     0.6671,
+     60
+    ],
+    "move_entropy": 3.327492557518933,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 9,
+     "tease_back": 8,
+     "share_own": 7,
+     "joke_riff": 6,
+     "agree": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_viol+N": {
+    "n": 60,
+    "D": 1.243085404669678,
+    "D_ci": [
+     1.243,
+     0.751,
+     1.936
+    ],
+    "lenerr": 0.7930854046696781,
+    "words_med": 5.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2666666666666666,
+    "multi": 0.26666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3729,
+     0.3,
+     0.4355,
+     59
+    ],
+    "family_match": [
+     0.5085,
+     0.4037,
+     0.6066,
+     59
+    ],
+    "coh": [
+     0.8649,
+     0.8436,
+     0.8836,
+     59
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.6774,
+     0.6212,
+     0.7158,
+     59
+    ],
+    "move_entropy": 3.0401461516245876,
+    "move_dist": {
+     "joke_riff": 11,
+     "answer": 11,
+     "ask_follow_up": 10,
+     "agree": 7,
+     "share_own": 6,
+     "tease_back": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P5_hdr_vs5_bank+N": {
+    "n": 60,
+    "D": 1.3467214718046352,
+    "D_ci": [
+     1.347,
+     0.868,
+     2.064
+    ],
+    "lenerr": 0.8967214718046352,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2333333333333334,
+    "multi": 0.23333333333333334,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010009100599999999,
+    "lat_p50": 1.7075166702270508,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4167,
+     0.2609,
+     0.6038,
+     60
+    ],
+    "family_match": [
+     0.5167,
+     0.4027,
+     0.6494,
+     60
+    ],
+    "coh": [
+     0.7818,
+     0.7355,
+     0.8247,
+     60
+    ],
+    "coh_lt05": 0.08333333333333333,
+    "bank": [
+     0.4808,
+     0.429,
+     0.5221,
+     60
+    ],
+    "move_entropy": 3.2374425665507687,
+    "move_dist": {
+     "ask_follow_up": 12,
+     "answer": 11,
+     "share_own": 10,
+     "disagree": 5,
+     "joke_riff": 4,
+     "tease_back": 4
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_low+N": {
+    "n": 60,
+    "D": 1.4383560312019088,
+    "D_ci": [
+     1.438,
+     0.911,
+     2.235
+    ],
+    "lenerr": 1.0216893645352423,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.08333333333333333,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6666666666666666,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010531678066666668,
+    "lat_p50": 1.6766016483306885,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.2542,
+     0.129,
+     0.3846,
+     59
+    ],
+    "family_match": [
+     0.3729,
+     0.2143,
+     0.5264,
+     59
+    ],
+    "coh": [
+     0.8083,
+     0.75,
+     0.8479,
+     59
+    ],
+    "coh_lt05": 0.05084745762711865,
+    "bank": [
+     0.4993,
+     0.3207,
+     0.6127,
+     59
+    ],
+    "move_entropy": 3.2480339917987218,
+    "move_dist": {
+     "answer": 8,
+     "agree": 8,
+     "ask_follow_up": 7,
+     "share_own": 7,
+     "plan": 6,
+     "react_only": 6
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_viol+N": {
+    "n": 60,
+    "D": 1.2490958028748218,
+    "D_ci": [
+     1.249,
+     0.813,
+     1.951
+    ],
+    "lenerr": 0.799095802874822,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.25,
+    "multi": 0.25,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010531678066666668,
+    "lat_p50": 1.6766016483306885,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.45,
+     0.2908,
+     0.5882,
+     60
+    ],
+    "family_match": [
+     0.5333,
+     0.3818,
+     0.6471,
+     60
+    ],
+    "coh": [
+     0.8055,
+     0.7664,
+     0.8481,
+     60
+    ],
+    "coh_lt05": 0.05,
+    "bank": [
+     0.4725,
+     0.3391,
+     0.5696,
+     60
+    ],
+    "move_entropy": 3.222766157863498,
+    "move_dist": {
+     "share_own": 12,
+     "answer": 11,
+     "tease_back": 8,
+     "ask_follow_up": 8,
+     "disagree": 5,
+     "plan": 5
+    },
+    "jev_calls": 6.0
+   },
+   "P6_hdr0_vs5_bank+N": {
+    "n": 60,
+    "D": 1.3628889193871898,
+    "D_ci": [
+     1.363,
+     0.812,
+     2.204
+    ],
+    "lenerr": 0.9128889193871897,
+    "words_med": 4.0,
+    "q": 0.0,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1833333333333333,
+    "multi": 0.18333333333333332,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 0.00010531678066666668,
+    "lat_p50": 1.6766016483306885,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3051,
+     0.175,
+     0.4423,
+     59
+    ],
+    "family_match": [
+     0.3729,
+     0.1875,
+     0.5091,
+     59
+    ],
+    "coh": [
+     0.7131,
+     0.6736,
+     0.7665,
+     59
+    ],
+    "coh_lt05": 0.15254237288135594,
+    "bank": [
+     0.2868,
+     0.1639,
+     0.3629,
+     59
+    ],
+    "move_entropy": 3.42563265570769,
+    "move_dist": {
+     "ask_follow_up": 11,
+     "answer": 9,
+     "share_own": 7,
+     "joke_riff": 5,
+     "disagree": 5,
+     "react_only": 4
+    },
+    "jev_calls": 6.0
+   }
+  },
+  "mercury": {
+   "A": {
+    "n": 60,
+    "D": 1.9298675624429014,
+    "D_ci": [
+     1.93,
+     1.62,
+     2.44
+    ],
+    "lenerr": 0.9798675624429012,
+    "words_med": 7.0,
+    "q": 0.2833333333333333,
+    "excl": 0.2,
+    "emoji": 0.2,
+    "laugh": 0.18333333333333332,
+    "llmish": 0.16666666666666666,
+    "ge3": 0.13333333333333333,
+    "template": 0.0,
+    "echo2": 0.06666666666666667,
+    "perf": 0.1,
+    "recip": 0.05,
+    "empty": 0.0,
+    "bubbles_mean": 1.2833333333333334,
+    "multi": 0.16666666666666666,
+    "bubbles_mae": 0.55,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": 0.0,
+    "broken": 0.0,
+    "plain": 0.0,
+    "deviation": 0.0,
+    "restart": 0.0,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "cost_per_resp": 9.04483333333333e-06,
+    "lat_p50": 0.8329875469207764,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3333,
+     0.2593,
+     0.4333,
+     60
+    ],
+    "family_match": [
+     0.4333,
+     0.3207,
+     0.5312,
+     60
+    ],
+    "coh": [
+     0.8545,
+     0.8211,
+     0.8752,
+     60
+    ],
+    "coh_lt05": 0.016666666666666666,
+    "bank": [
+     0.7545,
+     0.6674,
+     0.8206,
+     60
+    ],
+    "move_entropy": 3.4604877889166548,
+    "move_dist": {
+     "ask_follow_up": 12,
+     "answer": 9,
+     "agree": 7,
+     "plan": 5,
+     "disagree": 5,
+     "tease_back": 5
+    },
+    "jev_calls": 0.0
+   },
+   "NCT+N": {
+    "n": 60,
+    "D": 1.1496461774652706,
+    "D_ci": [
+     1.15,
+     0.791,
+     1.773
+    ],
+    "lenerr": 0.7996461774652707,
+    "words_med": 5.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.03333333333333333,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.05,
+    "template": 0.0,
+    "echo2": 0.11666666666666667,
+    "perf": 0.03333333333333333,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.35,
+    "multi": 0.31666666666666665,
+    "bubbles_mae": 0.5166666666666667,
+    "bubbles_exact": 0.5666666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": null,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 5.7658166666666676e-05,
+    "lat_p50": 1.446124792098999,
+    "llm_calls": 4.016666666666667,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4,
+     0.2951,
+     0.5283,
+     60
+    ],
+    "family_match": [
+     0.5,
+     0.4411,
+     0.5854,
+     60
+    ],
+    "coh": [
+     0.8255,
+     0.7867,
+     0.8648,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.6324,
+     0.5493,
+     0.7154,
+     60
+    ],
+    "move_entropy": 3.308858376927887,
+    "move_dist": {
+     "answer": 11,
+     "ask_follow_up": 11,
+     "agree": 8,
+     "share_own": 8,
+     "react_only": 4,
+     "joke_riff": 3
+    },
+    "jev_calls": 1.0
+   },
+   "P1_hdr-N": {
+    "n": 60,
+    "D": 1.3232195495401395,
+    "D_ci": [
+     1.323,
+     0.927,
+     1.994
+    ],
+    "lenerr": 0.8898862162068063,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.06666666666666667,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.06666666666666667,
+    "recip": 0.016666666666666666,
+    "empty": 0.0,
+    "bubbles_mean": 1.3666666666666667,
+    "multi": 0.35,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 2.1816333333333333e-05,
+    "lat_p50": 0.8113242387771606,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3167,
+     0.2456,
+     0.4082,
+     60
+    ],
+    "family_match": [
+     0.45,
+     0.3488,
+     0.5263,
+     60
+    ],
+    "coh": [
+     0.8343,
+     0.7886,
+     0.8633,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.6087,
+     0.5135,
+     0.6688,
+     60
+    ],
+    "move_entropy": 3.2792598814981706,
+    "move_dist": {
+     "answer": 10,
+     "agree": 10,
+     "react_only": 8,
+     "ask_follow_up": 8,
+     "share_own": 5,
+     "disagree": 5
+    },
+    "jev_calls": 2.0
+   },
+   "P4_hdr_seed4_viol-N": {
+    "n": 60,
+    "D": 1.1685204544816739,
+    "D_ci": [
+     1.169,
+     0.853,
+     1.754
+    ],
+    "lenerr": 0.8185204544816739,
+    "words_med": 5.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.03333333333333333,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.016666666666666666,
+    "empty": 0.0,
+    "bubbles_mean": 1.4,
+    "multi": 0.36666666666666664,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 8.739366666666668e-05,
+    "lat_p50": 1.1342551708221436,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.35,
+     0.2281,
+     0.4909,
+     60
+    ],
+    "family_match": [
+     0.5,
+     0.3095,
+     0.6133,
+     60
+    ],
+    "coh": [
+     0.8242,
+     0.7566,
+     0.8677,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.5877,
+     0.45,
+     0.6716,
+     60
+    ],
+    "move_entropy": 3.214527264502953,
+    "move_dist": {
+     "answer": 14,
+     "ask_follow_up": 10,
+     "disagree": 8,
+     "share_own": 6,
+     "agree": 4,
+     "tease_back": 4
+    },
+    "jev_calls": 5.0
+   },
+   "P4_hdr_seed4_bank-N": {
+    "n": 60,
+    "D": 1.3069647520529366,
+    "D_ci": [
+     1.307,
+     0.852,
+     1.933
+    ],
+    "lenerr": 0.9236314187196033,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.05,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.4166666666666667,
+    "multi": 0.35,
+    "bubbles_mae": 0.5166666666666667,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 8.739366666666668e-05,
+    "lat_p50": 1.1342551708221436,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4167,
+     0.3077,
+     0.5536,
+     60
+    ],
+    "family_match": [
+     0.5667,
+     0.4516,
+     0.6539,
+     60
+    ],
+    "coh": [
+     0.797,
+     0.7567,
+     0.8309,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.4513,
+     0.3385,
+     0.535,
+     60
+    ],
+    "move_entropy": 3.236604503574633,
+    "move_dist": {
+     "answer": 12,
+     "ask_follow_up": 9,
+     "react_only": 9,
+     "agree": 6,
+     "share_own": 6,
+     "disagree": 6
+    },
+    "jev_calls": 5.0
+   },
+   "P5_hdr_vs5_top-N": {
+    "n": 60,
+    "D": 1.2387058942887252,
+    "D_ci": [
+     1.239,
+     0.843,
+     1.896
+    ],
+    "lenerr": 0.8553725609553919,
+    "words_med": 4.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.03333333333333333,
+    "llmish": 0.06666666666666667,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.03333333333333333,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2166666666666666,
+    "multi": 0.21666666666666667,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9166666666666666,
+    "move_match": [
+     0.3636,
+     0.2987,
+     0.4545,
+     55
+    ],
+    "family_match": [
+     0.4545,
+     0.4133,
+     0.4938,
+     55
+    ],
+    "coh": [
+     0.8564,
+     0.8388,
+     0.8728,
+     55
+    ],
+    "coh_lt05": 0.01818181818181818,
+    "bank": [
+     0.7051,
+     0.6556,
+     0.7371,
+     55
+    ],
+    "move_entropy": 3.037857373524574,
+    "move_dist": {
+     "agree": 14,
+     "answer": 13,
+     "ask_follow_up": 6,
+     "tease_back": 5,
+     "plan": 5,
+     "joke_riff": 3
+    },
+    "jev_calls": 5.4
+   },
+   "P5_hdr_vs5_low-N": {
+    "n": 60,
+    "D": 1.330911692198021,
+    "D_ci": [
+     1.331,
+     0.844,
+     2.084
+    ],
+    "lenerr": 0.9975783588646877,
+    "words_med": 4.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.15,
+    "multi": 0.15,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9166666666666666,
+    "move_match": [
+     0.3818,
+     0.2553,
+     0.4898,
+     55
+    ],
+    "family_match": [
+     0.4545,
+     0.3077,
+     0.55,
+     55
+    ],
+    "coh": [
+     0.8453,
+     0.8046,
+     0.8746,
+     55
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.673,
+     0.5975,
+     0.7209,
+     55
+    ],
+    "move_entropy": 3.1200738718947614,
+    "move_dist": {
+     "answer": 14,
+     "agree": 10,
+     "tease_back": 6,
+     "share_own": 5,
+     "disagree": 5,
+     "ask_follow_up": 5
+    },
+    "jev_calls": 5.4
+   },
+   "P5_hdr_vs5_viol-N": {
+    "n": 60,
+    "D": 1.1680040848390711,
+    "D_ci": [
+     1.168,
+     0.736,
+     1.809
+    ],
+    "lenerr": 0.8180040848390712,
+    "words_med": 5.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9166666666666666,
+    "move_match": [
+     0.3818,
+     0.3026,
+     0.4872,
+     55
+    ],
+    "family_match": [
+     0.4727,
+     0.4242,
+     0.525,
+     55
+    ],
+    "coh": [
+     0.8311,
+     0.8147,
+     0.8509,
+     55
+    ],
+    "coh_lt05": 0.01818181818181818,
+    "bank": [
+     0.6661,
+     0.6223,
+     0.6915,
+     55
+    ],
+    "move_entropy": 3.0806323580983275,
+    "move_dist": {
+     "answer": 13,
+     "agree": 11,
+     "ask_follow_up": 7,
+     "tease_back": 5,
+     "share_own": 5,
+     "joke_riff": 4
+    },
+    "jev_calls": 5.4
+   },
+   "P5_hdr_vs5_bank-N": {
+    "n": 60,
+    "D": 1.2266022582998553,
+    "D_ci": [
+     1.227,
+     0.808,
+     1.874
+    ],
+    "lenerr": 0.893268924966522,
+    "words_med": 4.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1666666666666667,
+    "multi": 0.16666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9166666666666666,
+    "move_match": [
+     0.3455,
+     0.2567,
+     0.4524,
+     55
+    ],
+    "family_match": [
+     0.4182,
+     0.3766,
+     0.4722,
+     55
+    ],
+    "coh": [
+     0.7507,
+     0.7095,
+     0.7903,
+     55
+    ],
+    "coh_lt05": 0.12727272727272726,
+    "bank": [
+     0.4858,
+     0.4279,
+     0.5425,
+     55
+    ],
+    "move_entropy": 3.211523173238999,
+    "move_dist": {
+     "answer": 13,
+     "ask_follow_up": 8,
+     "joke_riff": 7,
+     "agree": 5,
+     "share_own": 5,
+     "react_only": 5
+    },
+    "jev_calls": 5.4
+   },
+   "P6_hdr0_vs5_low-N": {
+    "n": 60,
+    "D": 1.3983223841357248,
+    "D_ci": [
+     1.398,
+     0.811,
+     2.264
+    ],
+    "lenerr": 0.9983223841357248,
+    "words_med": 3.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.1,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.027299999999999e-05,
+    "lat_p50": 0.946082353591919,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.2203,
+     0.16,
+     0.2955,
+     59
+    ],
+    "family_match": [
+     0.2712,
+     0.1852,
+     0.353,
+     59
+    ],
+    "coh": [
+     0.762,
+     0.7192,
+     0.8033,
+     59
+    ],
+    "coh_lt05": 0.0847457627118644,
+    "bank": [
+     0.5262,
+     0.4125,
+     0.6054,
+     59
+    ],
+    "move_entropy": 3.2841092626755257,
+    "move_dist": {
+     "answer": 10,
+     "react_only": 9,
+     "plan": 9,
+     "agree": 7,
+     "ask_follow_up": 6,
+     "tease_back": 5
+    },
+    "jev_calls": 5.816666666666666
+   },
+   "P6_hdr0_vs5_viol-N": {
+    "n": 60,
+    "D": 1.1500658015228802,
+    "D_ci": [
+     1.15,
+     0.737,
+     1.778
+    ],
+    "lenerr": 0.7667324681895468,
+    "words_med": 4.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.03333333333333333,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1333333333333333,
+    "multi": 0.13333333333333333,
+    "bubbles_mae": 0.4,
+    "bubbles_exact": 0.6666666666666666,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.027299999999999e-05,
+    "lat_p50": 0.946082353591919,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3559,
+     0.2308,
+     0.4717,
+     59
+    ],
+    "family_match": [
+     0.4237,
+     0.25,
+     0.566,
+     59
+    ],
+    "coh": [
+     0.8188,
+     0.7795,
+     0.845,
+     59
+    ],
+    "coh_lt05": 0.03389830508474576,
+    "bank": [
+     0.5784,
+     0.4725,
+     0.6478,
+     59
+    ],
+    "move_entropy": 3.4896061728401873,
+    "move_dist": {
+     "answer": 11,
+     "share_own": 10,
+     "agree": 7,
+     "tease_back": 6,
+     "ask_follow_up": 4,
+     "disagree": 4
+    },
+    "jev_calls": 5.816666666666666
+   },
+   "P6_hdr0_vs5_bank-N": {
+    "n": 60,
+    "D": 1.4143116843941024,
+    "D_ci": [
+     1.414,
+     0.895,
+     2.161
+    ],
+    "lenerr": 0.980978351060769,
+    "words_med": 3.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.1,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.027299999999999e-05,
+    "lat_p50": 0.946082353591919,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3898,
+     0.3373,
+     0.4668,
+     59
+    ],
+    "family_match": [
+     0.4407,
+     0.3922,
+     0.4912,
+     59
+    ],
+    "coh": [
+     0.7042,
+     0.6679,
+     0.7368,
+     59
+    ],
+    "coh_lt05": 0.11864406779661017,
+    "bank": [
+     0.3999,
+     0.3041,
+     0.4727,
+     59
+    ],
+    "move_entropy": 3.473700394328219,
+    "move_dist": {
+     "answer": 11,
+     "react_only": 7,
+     "ask_follow_up": 7,
+     "agree": 7,
+     "share_own": 5,
+     "disagree": 4
+    },
+    "jev_calls": 5.816666666666666
+   },
+   "P1_hdr+N": {
+    "n": 60,
+    "D": 1.304019497982722,
+    "D_ci": [
+     1.304,
+     0.913,
+     1.956
+    ],
+    "lenerr": 0.8873528313160555,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.06666666666666667,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.05,
+    "recip": 0.016666666666666666,
+    "empty": 0.0,
+    "bubbles_mean": 1.3666666666666667,
+    "multi": 0.35,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 2.1816333333333333e-05,
+    "lat_p50": 0.8113242387771606,
+    "llm_calls": 1.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.3167,
+     0.2453,
+     0.4091,
+     60
+    ],
+    "family_match": [
+     0.45,
+     0.3636,
+     0.5231,
+     60
+    ],
+    "coh": [
+     0.8343,
+     0.7895,
+     0.8629,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.6056,
+     0.5091,
+     0.6699,
+     60
+    ],
+    "move_entropy": 3.2792598814981706,
+    "move_dist": {
+     "answer": 10,
+     "agree": 10,
+     "react_only": 8,
+     "ask_follow_up": 8,
+     "share_own": 5,
+     "disagree": 5
+    },
+    "jev_calls": 2.0
+   },
+   "P4_hdr_seed4_viol+N": {
+    "n": 60,
+    "D": 1.1685204544816739,
+    "D_ci": [
+     1.169,
+     0.856,
+     1.792
+    ],
+    "lenerr": 0.8185204544816739,
+    "words_med": 5.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.03333333333333333,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.016666666666666666,
+    "empty": 0.0,
+    "bubbles_mean": 1.4,
+    "multi": 0.36666666666666664,
+    "bubbles_mae": 0.4666666666666667,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 8.739366666666668e-05,
+    "lat_p50": 1.1342551708221436,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.35,
+     0.2222,
+     0.4909,
+     60
+    ],
+    "family_match": [
+     0.5,
+     0.2857,
+     0.6111,
+     60
+    ],
+    "coh": [
+     0.8242,
+     0.7631,
+     0.8649,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.5877,
+     0.4232,
+     0.6724,
+     60
+    ],
+    "move_entropy": 3.214527264502953,
+    "move_dist": {
+     "answer": 14,
+     "ask_follow_up": 10,
+     "disagree": 8,
+     "share_own": 6,
+     "agree": 4,
+     "tease_back": 4
+    },
+    "jev_calls": 5.0
+   },
+   "P4_hdr_seed4_bank+N": {
+    "n": 60,
+    "D": 1.3069647520529366,
+    "D_ci": [
+     1.307,
+     0.846,
+     1.99
+    ],
+    "lenerr": 0.9236314187196033,
+    "words_med": 4.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.0,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.05,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.4166666666666667,
+    "multi": 0.35,
+    "bubbles_mae": 0.5166666666666667,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.0,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 8.739366666666668e-05,
+    "lat_p50": 1.1342551708221436,
+    "llm_calls": 4.0,
+    "jev_cov": 1.0,
+    "move_match": [
+     0.4167,
+     0.303,
+     0.569,
+     60
+    ],
+    "family_match": [
+     0.5667,
+     0.451,
+     0.6522,
+     60
+    ],
+    "coh": [
+     0.797,
+     0.7572,
+     0.8317,
+     60
+    ],
+    "coh_lt05": 0.06666666666666667,
+    "bank": [
+     0.4513,
+     0.3326,
+     0.535,
+     60
+    ],
+    "move_entropy": 3.236604503574633,
+    "move_dist": {
+     "answer": 12,
+     "ask_follow_up": 9,
+     "react_only": 9,
+     "agree": 6,
+     "share_own": 6,
+     "disagree": 6
+    },
+    "jev_calls": 5.0
+   },
+   "P5_hdr_vs5_top+N": {
+    "n": 60,
+    "D": 1.207905945846143,
+    "D_ci": [
+     1.208,
+     0.845,
+     1.864
+    ],
+    "lenerr": 0.8579059458461429,
+    "words_med": 4.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.03333333333333333,
+    "llmish": 0.05,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.1,
+    "perf": 0.016666666666666666,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2166666666666666,
+    "multi": 0.21666666666666667,
+    "bubbles_mae": 0.45,
+    "bubbles_exact": 0.6166666666666667,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9,
+    "move_match": [
+     0.3704,
+     0.2973,
+     0.4737,
+     54
+    ],
+    "family_match": [
+     0.463,
+     0.4151,
+     0.5143,
+     54
+    ],
+    "coh": [
+     0.8544,
+     0.8341,
+     0.8717,
+     54
+    ],
+    "coh_lt05": 0.018518518518518517,
+    "bank": [
+     0.7002,
+     0.6511,
+     0.7296,
+     54
+    ],
+    "move_entropy": 3.027424757245546,
+    "move_dist": {
+     "agree": 14,
+     "answer": 13,
+     "ask_follow_up": 6,
+     "tease_back": 5,
+     "plan": 4,
+     "joke_riff": 3
+    },
+    "jev_calls": 5.4
+   },
+   "P5_hdr_vs5_low+N": {
+    "n": 60,
+    "D": 1.330911692198021,
+    "D_ci": [
+     1.331,
+     0.859,
+     2.084
+    ],
+    "lenerr": 0.9975783588646877,
+    "words_med": 4.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.03333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.15,
+    "multi": 0.15,
+    "bubbles_mae": 0.4166666666666667,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9166666666666666,
+    "move_match": [
+     0.3818,
+     0.2499,
+     0.4853,
+     55
+    ],
+    "family_match": [
+     0.4545,
+     0.3076,
+     0.5455,
+     55
+    ],
+    "coh": [
+     0.8453,
+     0.8048,
+     0.8728,
+     55
+    ],
+    "coh_lt05": 0.0,
+    "bank": [
+     0.673,
+     0.6003,
+     0.7205,
+     55
+    ],
+    "move_entropy": 3.1200738718947614,
+    "move_dist": {
+     "answer": 14,
+     "agree": 10,
+     "tease_back": 6,
+     "share_own": 5,
+     "disagree": 5,
+     "ask_follow_up": 5
+    },
+    "jev_calls": 5.4
+   },
+   "P5_hdr_vs5_viol+N": {
+    "n": 60,
+    "D": 1.1680040848390711,
+    "D_ci": [
+     1.168,
+     0.736,
+     1.817
+    ],
+    "lenerr": 0.8180040848390712,
+    "words_med": 5.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.03333333333333333,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.08333333333333333,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.2,
+    "multi": 0.2,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9166666666666666,
+    "move_match": [
+     0.3818,
+     0.3014,
+     0.4892,
+     55
+    ],
+    "family_match": [
+     0.4727,
+     0.4211,
+     0.5227,
+     55
+    ],
+    "coh": [
+     0.8311,
+     0.8136,
+     0.8509,
+     55
+    ],
+    "coh_lt05": 0.01818181818181818,
+    "bank": [
+     0.6661,
+     0.6169,
+     0.6915,
+     55
+    ],
+    "move_entropy": 3.0806323580983275,
+    "move_dist": {
+     "answer": 13,
+     "agree": 11,
+     "ask_follow_up": 7,
+     "tease_back": 5,
+     "share_own": 5,
+     "joke_riff": 4
+    },
+    "jev_calls": 5.4
+   },
+   "P5_hdr_vs5_bank+N": {
+    "n": 60,
+    "D": 1.2288939836956876,
+    "D_ci": [
+     1.229,
+     0.778,
+     1.902
+    ],
+    "lenerr": 0.8955606503623542,
+    "words_med": 4.0,
+    "q": 0.05,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.016666666666666666,
+    "llmish": 0.016666666666666666,
+    "ge3": 0.016666666666666666,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1666666666666667,
+    "multi": 0.16666666666666666,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.6333333333333333,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.1,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.439966666666666e-05,
+    "lat_p50": 0.9936963319778442,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9,
+    "move_match": [
+     0.3519,
+     0.2568,
+     0.4737,
+     54
+    ],
+    "family_match": [
+     0.4259,
+     0.377,
+     0.5,
+     54
+    ],
+    "coh": [
+     0.7469,
+     0.7072,
+     0.7865,
+     54
+    ],
+    "coh_lt05": 0.12962962962962962,
+    "bank": [
+     0.4795,
+     0.4265,
+     0.5316,
+     54
+    ],
+    "move_entropy": 3.204306590288015,
+    "move_dist": {
+     "answer": 13,
+     "ask_follow_up": 8,
+     "joke_riff": 7,
+     "agree": 5,
+     "react_only": 5,
+     "share_own": 4
+    },
+    "jev_calls": 5.4
+   },
+   "P6_hdr0_vs5_low+N": {
+    "n": 60,
+    "D": 1.3983223841357248,
+    "D_ci": [
+     1.398,
+     0.834,
+     2.238
+    ],
+    "lenerr": 0.9983223841357248,
+    "words_med": 3.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.1,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.027299999999999e-05,
+    "lat_p50": 0.946082353591919,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.2203,
+     0.1552,
+     0.3002,
+     59
+    ],
+    "family_match": [
+     0.2712,
+     0.1851,
+     0.3478,
+     59
+    ],
+    "coh": [
+     0.762,
+     0.7218,
+     0.8044,
+     59
+    ],
+    "coh_lt05": 0.0847457627118644,
+    "bank": [
+     0.5262,
+     0.4139,
+     0.6076,
+     59
+    ],
+    "move_entropy": 3.2841092626755257,
+    "move_dist": {
+     "answer": 10,
+     "react_only": 9,
+     "plan": 9,
+     "agree": 7,
+     "ask_follow_up": 6,
+     "tease_back": 5
+    },
+    "jev_calls": 5.816666666666666
+   },
+   "P6_hdr0_vs5_viol+N": {
+    "n": 60,
+    "D": 1.1778420726274603,
+    "D_ci": [
+     1.178,
+     0.743,
+     1.796
+    ],
+    "lenerr": 0.7778420726274603,
+    "words_med": 4.0,
+    "q": 0.03333333333333333,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.016666666666666666,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.1,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.027299999999999e-05,
+    "lat_p50": 0.946082353591919,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9333333333333333,
+    "move_match": [
+     0.375,
+     0.2545,
+     0.5143,
+     56
+    ],
+    "family_match": [
+     0.4464,
+     0.2856,
+     0.604,
+     56
+    ],
+    "coh": [
+     0.8239,
+     0.7873,
+     0.8518,
+     56
+    ],
+    "coh_lt05": 0.03571428571428571,
+    "bank": [
+     0.5761,
+     0.4641,
+     0.6445,
+     56
+    ],
+    "move_entropy": 3.505393039547165,
+    "move_dist": {
+     "answer": 10,
+     "share_own": 9,
+     "agree": 7,
+     "tease_back": 6,
+     "ask_follow_up": 4,
+     "disagree": 4
+    },
+    "jev_calls": 5.816666666666666
+   },
+   "P6_hdr0_vs5_bank+N": {
+    "n": 60,
+    "D": 1.4143116843941024,
+    "D_ci": [
+     1.414,
+     0.889,
+     2.133
+    ],
+    "lenerr": 0.980978351060769,
+    "words_med": 3.0,
+    "q": 0.016666666666666666,
+    "excl": 0.0,
+    "emoji": 0.016666666666666666,
+    "laugh": 0.0,
+    "llmish": 0.0,
+    "ge3": 0.0,
+    "template": 0.0,
+    "echo2": 0.0,
+    "perf": 0.0,
+    "recip": 0.0,
+    "empty": 0.0,
+    "bubbles_mean": 1.1,
+    "multi": 0.1,
+    "bubbles_mae": 0.43333333333333335,
+    "bubbles_exact": 0.65,
+    "invented_user": 0.0,
+    "other_speaker": null,
+    "broken": null,
+    "plain": null,
+    "deviation": null,
+    "restart": null,
+    "fallback": 0.03333333333333333,
+    "invented_ci": [
+     0.0,
+     0.0,
+     0.0,
+     60
+    ],
+    "broken_ci": null,
+    "cost_per_resp": 4.027299999999999e-05,
+    "lat_p50": 0.946082353591919,
+    "llm_calls": 1.0,
+    "jev_cov": 0.9833333333333333,
+    "move_match": [
+     0.3898,
+     0.3377,
+     0.46,
+     59
+    ],
+    "family_match": [
+     0.4407,
+     0.3846,
+     0.4918,
+     59
+    ],
+    "coh": [
+     0.7042,
+     0.6703,
+     0.7368,
+     59
+    ],
+    "coh_lt05": 0.11864406779661017,
+    "bank": [
+     0.3999,
+     0.3041,
+     0.4664,
+     59
+    ],
+    "move_entropy": 3.473700394328219,
+    "move_dist": {
+     "answer": 11,
+     "react_only": 7,
+     "ask_follow_up": 7,
+     "agree": 7,
+     "share_own": 5,
+     "disagree": 4
+    },
+    "jev_calls": 5.816666666666666
+   }
+  }
+ }
+}

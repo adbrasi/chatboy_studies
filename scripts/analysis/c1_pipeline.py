@@ -27,14 +27,17 @@ CONFIGS = {
     "P1_hdr": dict(gen="hdr_end", k=1, strat="first"),
     "P4_hdr_seed4_viol": dict(gen="hdr_end", k=4, strat="viol"),
     "P4_hdr_seed4_bank": dict(gen="hdr_end", k=4, strat="bank_pass"),
+    "P4_hdr_seed4_bankA": dict(gen="hdr_end", k=4, strat="bankA_pass"),
     "P5_hdr_vs5_top": dict(gen="hdr_end_vs5", strat="top"),
     "P5_hdr_vs5_low": dict(gen="hdr_end_vs5", strat="lowpass"),
     "P5_hdr_vs5_viol": dict(gen="hdr_end_vs5", strat="viol"),
     "P5_hdr_vs5_bank": dict(gen="hdr_end_vs5", strat="bank_pass"),
+    "P5_hdr_vs5_bankA": dict(gen="hdr_end_vs5", strat="bankA_pass"),
     # sem nota do diretor (o orçamento do Jev só entra nos filtros de código e no normalizador)
     "P6_hdr0_vs5_low": dict(gen="hdr0_vs5", strat="lowpass"),
     "P6_hdr0_vs5_viol": dict(gen="hdr0_vs5", strat="viol"),
     "P6_hdr0_vs5_bank": dict(gen="hdr0_vs5", strat="bank_pass"),
+    "P6_hdr0_vs5_bankA": dict(gen="hdr0_vs5", strat="bankA_pass"),
 }
 
 
@@ -202,7 +205,7 @@ def analyze(split, configs):
             rows.append((c, o))
         print("==", m)
         M.table(rows, keys=("D", "lenerr", "words_med", "q", "excl", "emoji", "laugh", "llmish", "echo2", "multi", "fallback",
-                            "move_match", "move_entropy", "coh", "bank", "cost_per_resp", "lat_p50"))
+                            "move_match", "move_entropy", "coh", "bank", "bankB", "cost_per_resp", "lat_p50"))
     C.jdump(f"c1_pipeline_{split}.json", res)
     return res
 

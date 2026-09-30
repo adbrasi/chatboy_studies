@@ -23,6 +23,9 @@ def human_block(pts):
     J = [C.jev_get(p, p["human"]) for p in pts]
     bs = [C.bank_score(p, p["human"], j) for p, j in zip(pts, J) if j]
     out["bank"] = float(np.mean(bs)) if bs else None
+    bb = [C.bank_half(p, p["human"], "B", j) for p, j in zip(pts, J) if j]
+    out["bankB"] = float(np.mean(bb)) if bb else None
+    out["bankB_ci"] = C.cboot([C.bank_half(p, p["human"], "B", j) if j else None for p, j in zip(pts, J)], [p["conv_id"] for p in pts])
     out["bank_ci"] = C.cboot([C.bank_score(p, p["human"], j) if j else None for p, j in zip(pts, J)], [p["conv_id"] for p in pts])
     coh = [j["e_coh"] for j in J if j]
     out["coh"] = float(np.mean(coh)) if coh else None
@@ -89,6 +92,7 @@ def summarize(items, boot=True, jev=True):
         fm = [float(C.FAMILY[j["e_move"]] == C.FAMILY[h["e_move"]]) if (j and h) else None for j, h in zip(J, HJ)]
         coh = [j["e_coh"] if j else None for j in J]
         bk = [C.bank_score(it["p"], it["text"], j) if j else None for it, j in zip(items, J)]
+        bkB = [C.bank_half(it["p"], it["text"], "B", j) if j else None for it, j in zip(items, J)]
         o["jev_cov"] = float(np.mean([j is not None for j in J]))
         if o["jev_cov"] > 0.5:
             o["move_match"] = C.cboot(mv, groups) if boot else float(np.nanmean([x for x in mv if x is not None]))
@@ -96,6 +100,7 @@ def summarize(items, boot=True, jev=True):
             o["coh"] = C.cboot(coh, groups) if boot else float(np.mean([x for x in coh if x is not None]))
             o["coh_lt05"] = float(np.mean([x < 0.5 for x in coh if x is not None]))
             o["bank"] = C.cboot(bk, groups) if boot else float(np.mean([x for x in bk if x is not None]))
+            o["bankB"] = C.cboot(bkB, groups) if boot else float(np.mean([x for x in bkB if x is not None]))
             o["move_entropy"] = C.entropy([j["e_move"] for j in J if j])
             o["move_dist"] = dict(Counter(j["e_move"] for j in J if j).most_common(6))
     return o

@@ -804,3 +804,72 @@ def run_gen(exp, pts, models, conds, spec_fn, post_fn=None, workers=8, empty_fn=
                   f"cost={sum(r['cost'] or 0 for r in recs):.4f} wall={time.time() - t0:.0f}s | total LLM ${lstats['cost']:.3f}",
                   flush=True)
     return G
+
+
+# ====================================================================== escores de meia-bateria (seleção × avaliação independentes)
+# Escolher a candidata com o MESMO pontuador que depois avalia é circular (o escore do banco cai por construção).
+# Solução: meia-bateria A (código + perguntas de índice par) para ESCOLHER; meia-bateria B (só perguntas de índice ímpar,
+# sem código) para AVALIAR. Mesma receita (LR, C = 0,03, cross-fitting por conversa do maichat).
+QA = NUMQ[0::2]
+QB = NUMQ[1::2]
+_SCH = {}
+
+
+def _half_vec(text, other_text, ans, half):
+    import b1_common as B1
+    qs = QA if half == "A" else QB
+    v = [(float("nan") if ans.get(q) is None or isinstance(ans.get(q), str) else float(ans[q])) for q in qs]
+    if half == "A":
+        cf = B1.code_feats(text, other_text)
+        v = [cf[c] for c in B1.CODE_COLS] + v
+    return v
+
+
+def _half_scorer(half):
+    if half in _SCH:
+        return _SCH[half]
+    import pickle
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.pipeline import make_pipeline
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.metrics import roc_auc_score
+    import b1_common as B1
+    cache = os.path.join(SCR, f"bank_scorer_{half}.pkl")
+    if os.path.exists(cache):
+        _SCH[half] = pickle.load(open(cache, "rb"))
+        return _SCH[half]
+    ctxs, units = B1.load_units()
+    bank = json.load(open(os.path.join(B1.SCR, "bank.json")))
+    X, y, g = [], [], []
+    for u in units:
+        if u["uid"] not in bank:
+            continue
+        c = ctxs[u["ckey"]]
+        X.append(_half_vec(u["text"], B1.last_other(c), bank[u["uid"]], half))
+        y.append(u["label"]); g.append(c["conv"])
+    X, y = np.array(X, float), np.array(y)
+    mu = np.nanmean(X, 0); mu = np.where(np.isnan(mu), 0, mu)
+    X = np.where(np.isnan(X), mu, X)
+    # AUC por validação cruzada agrupada por conversa (para mostrar que a meia-bateria ainda discrimina)
+    from sklearn.model_selection import GroupKFold
+    oof = np.zeros(len(y))
+    for tr, te in GroupKFold(5).split(X, y, g):
+        m = make_pipeline(StandardScaler(), LogisticRegression(C=0.03, max_iter=4000)).fit(X[tr], y[tr])
+        oof[te] = m.predict_proba(X[te])[:, 1]
+    models = {}
+    for f in range(5):
+        keep = np.array([not (gg.startswith("conv") and fold_of(gg) == f) for gg in g])
+        models[f] = make_pipeline(StandardScaler(), LogisticRegression(C=0.03, max_iter=4000)).fit(X[keep], y[keep])
+    _SCH[half] = {"models": models, "mu": mu, "n": int(len(y)), "auc_cv": float(roc_auc_score(y, oof))}
+    pickle.dump(_SCH[half], open(cache, "wb"))
+    return _SCH[half]
+
+
+def bank_half(p, text, half, ans=None):
+    ans = ans or jev_get(p, text)
+    if not ans:
+        return None
+    sc = _half_scorer(half)
+    v = np.array(_half_vec(B1norm(text), p["history"][-1]["text"], ans, half), float)
+    v = np.where(np.isnan(v), sc["mu"], v)
+    return float(sc["models"][fold_of(p["conv_id"])].predict_proba(v[None])[0, 1])

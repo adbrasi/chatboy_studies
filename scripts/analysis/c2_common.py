@@ -282,6 +282,10 @@ SPEC = {
     "mood_decay_msg": 0.0,       # humor (cumplicidade, preocupação, ciúme) volta 10% à base a cada mensagem
     "routine_gate": False,       # subir trust/comfort/affection/playfulness exige nível >= 2 OU um evento concreto
     "routine_thr": 0.5,          # limiar do Noul de direção para as dimensões "de rotina" (sobe)
+    # ---- v3 (diagnóstico dos cenários-dev; ver relatório §4c)
+    "cell_thr": None,            # {dim_dir: limiar} calibrado no dev real por casamento de taxa (c2_calib.py)
+    "delta_interp": None,        # tabela contínua sobre o valor esperado do Score (0..4) -> delta
+    "jealousy_rule": False,      # ciúme sobe se evento "outra pessoa" AND afeto >= 0,55 (AND em código)
 }
 ROUTINE_UP = {"trust": ["promise_kept", "vulnerability", "absence_explained"],
               "comfort": ["vulnerability", "practical_care", "affection_expr", "interest_in_char", "friendly_tease", "gratitude"],
@@ -337,10 +341,13 @@ class RelState:
         # pendências muito antigas esfriam (30 dias)
         self.unresolved = [u for u in self.unresolved if t_hours - u["t"] < 24 * 30]
 
-    def _apply(self, d, sign, level, mult=1.0):
+    def _apply(self, d, sign, level, mult=1.0, cont=None):
         if level <= 0:
             return 0.0
-        base_delta = self.spec["delta"][int(level)] * mult
+        if cont is not None and self.spec.get("delta_interp"):
+            base_delta = float(np.interp(cont, range(5), self.spec["delta_interp"])) * mult
+        else:
+            base_delta = self.spec["delta"][int(level)] * mult
         v = self.v[d]
         if sign > 0:
             dv = base_delta * self.spec["rate_up"][d] * min(1.0, 2 * (1 - v))
@@ -447,14 +454,27 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
         for dr, sign in (("up", 1), ("down", -1)):
             p = a1.get(f"d_{d}_{dr}", {}).get("noul", 0.0)
             thr = spec["routine_thr"] if (dr == "up" and d in ROUTINE_UP) else spec["detect_thr"]
-            if p < thr:
+            if spec.get("cell_thr"):
+                thr = spec["cell_thr"].get(f"{d}_{dr}", thr)
+            forced = False
+            if d == "jealousy" and dr == "up" and spec.get("jealousy_rule") and \
+                    ev.get("other_person_jealousy", 0) >= 0.7 and rel.v["affection"] >= 0.55:
+                forced = True          # AND em código: evento "outra pessoa" + afeto alto
+            if p < thr and not forced:
                 continue
+            cont = None
             if mag == "p" or not a2:
-                lvl = level_from_p(p)
+                lvl = level_from_p(max(p, thr if forced else 0))
             elif mag == "choice":
                 lvl = level_from_choice(a2.get(f"n_{d}_{dr}"))
             else:
-                lvl = level_from_score(a2.get(f"s_{d}_{dr}"))
+                sa = a2.get(f"s_{d}_{dr}")
+                lvl = level_from_score(sa)
+                if sa and spec.get("delta_interp"):
+                    cont = float(sa.get("score", 0) or 0)
+                    lvl = max(lvl, 1) if cont >= 0.5 else lvl
+            if forced and lvl == 0:
+                lvl, cont = 2, None
             if lvl == 0:
                 continue
             if spec.get("routine_gate") and dr == "up" and d in ROUTINE_UP and lvl < 2 and \
@@ -481,7 +501,7 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
             # ciúme escala com o interesse (não há ciúme sem afeto)
             if d == "jealousy" and dr == "up":
                 mult *= 0.5 + rel.v["affection"]
-            dv = rel._apply(d, sign, lvl, mult)
+            dv = rel._apply(d, sign, lvl, mult, cont)
             applied.append((d, dr, lvl, round(dv, 4)))
 
     # ---- 2) sumiço (código: intervalo) AND não explicou (Jev)
