@@ -1,0 +1,5346 @@
+{
+ "maichat": {
+  "same": {
+   "n_turns": 2871,
+   "vulnerable": {
+    "n_in": 249,
+    "share": 0.087,
+    "feat": {
+     "laugh": {
+      "in": 0.0602,
+      "out": 0.0465,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0048,
+       "p": 0.7585,
+       "share_pos": 0.125
+      }
+     },
+     "emo_any": {
+      "in": 0.0763,
+      "out": 0.0526,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0009,
+       "p": 0.9668,
+       "share_pos": 0.175
+      }
+     },
+     "elong": {
+      "in": 0.0482,
+      "out": 0.0599,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0304,
+       "p": 0.0174,
+       "share_pos": 0.125
+      }
+     },
+     "end_period": {
+      "in": 0.004,
+      "out": 0.0198,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0039,
+       "p": 0.607,
+       "share_pos": 0.025
+      }
+     },
+     "any_period_end": {
+      "in": 0.0161,
+      "out": 0.0267,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0051,
+       "p": 0.6613,
+       "share_pos": 0.05
+      }
+     },
+     "end_excl": {
+      "in": 0.004,
+      "out": 0.0153,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.002,
+       "p": 0.8365,
+       "share_pos": 0.025
+      }
+     },
+     "punct_frac": {
+      "in": 0.0402,
+      "out": 0.1088,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0511,
+       "p": 0.0007,
+       "share_pos": 0.15
+      }
+     },
+     "starts_lower": {
+      "in": 0.7871,
+      "out": 0.7769,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0222,
+       "p": 0.401,
+       "share_pos": 0.525
+      }
+     },
+     "abbr": {
+      "in": 0.2892,
+      "out": 0.2567,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0069,
+       "p": 0.8466,
+       "share_pos": 0.4
+      }
+     },
+     "q": {
+      "in": 0.0643,
+      "out": 0.098,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0227,
+       "p": 0.3124,
+       "share_pos": 0.2
+      }
+     },
+     "ellipsis": {
+      "in": 0.012,
+      "out": 0.0095,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0046,
+       "p": 0.6734,
+       "share_pos": 0.05
+      }
+     },
+     "multi_punct": {
+      "in": 0.0241,
+      "out": 0.0313,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0108,
+       "p": 0.4038,
+       "share_pos": 0.05
+      }
+     },
+     "caps_word": {
+      "in": 0.0321,
+      "out": 0.0309,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0135,
+       "p": 0.3247,
+       "share_pos": 0.125
+      }
+     },
+     "logc": {
+      "in": 3.7236,
+      "out": 3.1705,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.5691,
+       "p": 0.0,
+       "share_pos": 1.0
+      }
+     },
+     "n_msgs": {
+      "in": 1.7912,
+      "out": 1.423,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.3654,
+       "p": 0.0006,
+       "share_pos": 0.625
+      }
+     }
+    }
+   },
+   "tension": {
+    "n_in": 462,
+    "share": 0.161,
+    "feat": {
+     "laugh": {
+      "in": 0.0087,
+      "out": 0.0552,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0225,
+       "p": 0.0015,
+       "share_pos": 0.05
+      }
+     },
+     "emo_any": {
+      "in": 0.026,
+      "out": 0.0602,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0372,
+       "p": 0.0013,
+       "share_pos": 0.125
+      }
+     },
+     "elong": {
+      "in": 0.0195,
+      "out": 0.0664,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0164,
+       "p": 0.0873,
+       "share_pos": 0.15
+      }
+     },
+     "end_period": {
+      "in": 0.0173,
+      "out": 0.0187,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0027,
+       "p": 0.7673,
+       "share_pos": 0.1
+      }
+     },
+     "any_period_end": {
+      "in": 0.0216,
+      "out": 0.0266,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0006,
+       "p": 0.9551,
+       "share_pos": 0.15
+      }
+     },
+     "end_excl": {
+      "in": 0.0043,
+      "out": 0.0162,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0028,
+       "p": 0.459,
+       "share_pos": 0.025
+      }
+     },
+     "punct_frac": {
+      "in": 0.0813,
+      "out": 0.1069,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0009,
+       "p": 0.9548,
+       "share_pos": 0.35
+      }
+     },
+     "starts_lower": {
+      "in": 0.8615,
+      "out": 0.7617,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0104,
+       "p": 0.4639,
+       "share_pos": 0.275
+      }
+     },
+     "abbr": {
+      "in": 0.2143,
+      "out": 0.2682,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0294,
+       "p": 0.3046,
+       "share_pos": 0.4
+      }
+     },
+     "q": {
+      "in": 0.0671,
+      "out": 0.1005,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0031,
+       "p": 0.8482,
+       "share_pos": 0.375
+      }
+     },
+     "ellipsis": {
+      "in": 0.0087,
+      "out": 0.01,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0056,
+       "p": 0.2413,
+       "share_pos": 0.075
+      }
+     },
+     "multi_punct": {
+      "in": 0.0411,
+      "out": 0.0286,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.022,
+       "p": 0.1594,
+       "share_pos": 0.275
+      }
+     },
+     "caps_word": {
+      "in": 0.0325,
+      "out": 0.0307,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0066,
+       "p": 0.5248,
+       "share_pos": 0.225
+      }
+     },
+     "logc": {
+      "in": 2.9415,
+      "out": 3.2716,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0656,
+       "p": 0.1231,
+       "share_pos": 0.525
+      }
+     },
+     "n_msgs": {
+      "in": 1.1861,
+      "out": 1.5064,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.1025,
+       "p": 0.0011,
+       "share_pos": 0.225
+      }
+     }
+    }
+   },
+   "conflict_phase": {
+    "n_in": 121,
+    "share": 0.042,
+    "feat": {
+     "laugh": {
+      "in": 0.0083,
+      "out": 0.0495,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0016,
+       "p": 0.9078,
+       "share_pos": 0.067
+      }
+     },
+     "emo_any": {
+      "in": 0.0248,
+      "out": 0.056,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0027,
+       "p": 0.911,
+       "share_pos": 0.133
+      }
+     },
+     "elong": {
+      "in": 0.0248,
+      "out": 0.0604,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0425,
+       "p": 0.2056,
+       "share_pos": 0.2
+      }
+     },
+     "end_period": {
+      "in": 0.0413,
+      "out": 0.0175,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0342,
+       "p": 0.2748,
+       "share_pos": 0.2
+      }
+     },
+     "any_period_end": {
+      "in": 0.0496,
+      "out": 0.0247,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0453,
+       "p": 0.1688,
+       "share_pos": 0.267
+      }
+     },
+     "end_excl": {
+      "in": 0.0165,
+      "out": 0.0142,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0097,
+       "p": 0.3343,
+       "share_pos": 0.067
+      }
+     },
+     "punct_frac": {
+      "in": 0.1219,
+      "out": 0.102,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0773,
+       "p": 0.2659,
+       "share_pos": 0.4
+      }
+     },
+     "starts_lower": {
+      "in": 0.8264,
+      "out": 0.7756,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.013,
+       "p": 0.5883,
+       "share_pos": 0.467
+      }
+     },
+     "abbr": {
+      "in": 0.157,
+      "out": 0.264,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0992,
+       "p": 0.0965,
+       "share_pos": 0.4
+      }
+     },
+     "q": {
+      "in": 0.0744,
+      "out": 0.096,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0204,
+       "p": 0.7139,
+       "share_pos": 0.2
+      }
+     },
+     "ellipsis": {
+      "in": 0.0,
+      "out": 0.0102,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.012,
+       "p": 0.0487,
+       "share_pos": 0.0
+      }
+     },
+     "multi_punct": {
+      "in": 0.0496,
+      "out": 0.0298,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0581,
+       "p": 0.2656,
+       "share_pos": 0.267
+      }
+     },
+     "caps_word": {
+      "in": 0.0496,
+      "out": 0.0302,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0169,
+       "p": 0.4931,
+       "share_pos": 0.267
+      }
+     },
+     "logc": {
+      "in": 3.0212,
+      "out": 3.2271,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.032,
+       "p": 0.7093,
+       "share_pos": 0.6
+      }
+     },
+     "n_msgs": {
+      "in": 1.1818,
+      "out": 1.4669,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.1445,
+       "p": 0.106,
+       "share_pos": 0.267
+      }
+     }
+    }
+   },
+   "deep_personal_phase": {
+    "n_in": 89,
+    "share": 0.031,
+    "feat": {
+     "laugh": {
+      "in": 0.0225,
+      "out": 0.0485,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0179,
+       "p": 0.5344,
+       "share_pos": 0.167
+      }
+     },
+     "emo_any": {
+      "in": 0.0225,
+      "out": 0.0557,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0516,
+       "p": 0.0025,
+       "share_pos": 0.0
+      }
+     },
+     "elong": {
+      "in": 0.0337,
+      "out": 0.0597,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.028,
+       "p": 0.1454,
+       "share_pos": 0.167
+      }
+     },
+     "end_period": {
+      "in": 0.0337,
+      "out": 0.018,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0265,
+       "p": 0.3988,
+       "share_pos": 0.083
+      }
+     },
+     "any_period_end": {
+      "in": 0.0337,
+      "out": 0.0255,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0116,
+       "p": 0.4662,
+       "share_pos": 0.083
+      }
+     },
+     "end_excl": {
+      "in": 0.0,
+      "out": 0.0147,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0174,
+       "p": 0.0453,
+       "share_pos": 0.0
+      }
+     },
+     "punct_frac": {
+      "in": 0.1236,
+      "out": 0.1021,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.012,
+       "p": 0.6552,
+       "share_pos": 0.417
+      }
+     },
+     "starts_lower": {
+      "in": 0.7416,
+      "out": 0.7789,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.053,
+       "p": 0.3382,
+       "share_pos": 0.5
+      }
+     },
+     "abbr": {
+      "in": 0.2921,
+      "out": 0.2584,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0886,
+       "p": 0.1695,
+       "share_pos": 0.583
+      }
+     },
+     "q": {
+      "in": 0.1124,
+      "out": 0.0945,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0082,
+       "p": 0.816,
+       "share_pos": 0.333
+      }
+     },
+     "ellipsis": {
+      "in": 0.0112,
+      "out": 0.0097,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0028,
+       "p": 0.7416,
+       "share_pos": 0.083
+      }
+     },
+     "multi_punct": {
+      "in": 0.0112,
+      "out": 0.0313,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0019,
+       "p": 0.9384,
+       "share_pos": 0.083
+      }
+     },
+     "caps_word": {
+      "in": 0.0225,
+      "out": 0.0313,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0216,
+       "p": 0.5279,
+       "share_pos": 0.167
+      }
+     },
+     "logc": {
+      "in": 3.4711,
+      "out": 3.2104,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.3041,
+       "p": 0.0736,
+       "share_pos": 0.833
+      }
+     },
+     "n_msgs": {
+      "in": 1.6292,
+      "out": 1.4493,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.2576,
+       "p": 0.0799,
+       "share_pos": 0.583
+      }
+     }
+    }
+   },
+   "sad": {
+    "n_in": 32,
+    "share": 0.011,
+    "feat": {
+     "laugh": {
+      "in": 0.0,
+      "out": 0.0483,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.125,
+      "out": 0.0539,
+      "within": null
+     },
+     "elong": {
+      "in": 0.0312,
+      "out": 0.0592,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0,
+      "out": 0.0187,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.0,
+      "out": 0.0261,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.0,
+      "out": 0.0144,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.0312,
+      "out": 0.1036,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.8125,
+      "out": 0.7774,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.2188,
+      "out": 0.26,
+      "within": null
+     },
+     "q": {
+      "in": 0.0312,
+      "out": 0.0958,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.0625,
+      "out": 0.0092,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.0,
+      "out": 0.031,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0313,
+      "within": null
+     },
+     "logc": {
+      "in": 2.9963,
+      "out": 3.221,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 1.4688,
+      "out": 1.4547,
+      "within": null
+     }
+    }
+   },
+   "anger": {
+    "n_in": 203,
+    "share": 0.071,
+    "feat": {
+     "laugh": {
+      "in": 0.0,
+      "out": 0.0513,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.028,
+       "p": 0.0004,
+       "share_pos": 0.0
+      }
+     },
+     "emo_any": {
+      "in": 0.0296,
+      "out": 0.0566,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0326,
+       "p": 0.0504,
+       "share_pos": 0.143
+      }
+     },
+     "elong": {
+      "in": 0.0296,
+      "out": 0.0611,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0099,
+       "p": 0.7235,
+       "share_pos": 0.107
+      }
+     },
+     "end_period": {
+      "in": 0.0493,
+      "out": 0.0161,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0325,
+       "p": 0.0833,
+       "share_pos": 0.214
+      }
+     },
+     "any_period_end": {
+      "in": 0.0591,
+      "out": 0.0232,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0284,
+       "p": 0.1306,
+       "share_pos": 0.214
+      }
+     },
+     "end_excl": {
+      "in": 0.0148,
+      "out": 0.0142,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0072,
+       "p": 0.3996,
+       "share_pos": 0.036
+      }
+     },
+     "punct_frac": {
+      "in": 0.1014,
+      "out": 0.1029,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0147,
+       "p": 0.5294,
+       "share_pos": 0.393
+      }
+     },
+     "starts_lower": {
+      "in": 0.8177,
+      "out": 0.7747,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0167,
+       "p": 0.5368,
+       "share_pos": 0.321
+      }
+     },
+     "abbr": {
+      "in": 0.2217,
+      "out": 0.2624,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0276,
+       "p": 0.4309,
+       "share_pos": 0.5
+      }
+     },
+     "q": {
+      "in": 0.0493,
+      "out": 0.0986,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0241,
+       "p": 0.3932,
+       "share_pos": 0.214
+      }
+     },
+     "ellipsis": {
+      "in": 0.0,
+      "out": 0.0105,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0147,
+       "p": 0.005,
+       "share_pos": 0.0
+      }
+     },
+     "multi_punct": {
+      "in": 0.0345,
+      "out": 0.0304,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0094,
+       "p": 0.6807,
+       "share_pos": 0.214
+      }
+     },
+     "caps_word": {
+      "in": 0.0788,
+      "out": 0.0274,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0674,
+       "p": 0.0071,
+       "share_pos": 0.393
+      }
+     },
+     "logc": {
+      "in": 3.0603,
+      "out": 3.2305,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0825,
+       "p": 0.206,
+       "share_pos": 0.571
+      }
+     },
+     "n_msgs": {
+      "in": 1.266,
+      "out": 1.4693,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0108,
+       "p": 0.8174,
+       "share_pos": 0.357
+      }
+     }
+    }
+   },
+   "flirting": {
+    "n_in": 106,
+    "share": 0.037,
+    "feat": {
+     "laugh": {
+      "in": 0.0566,
+      "out": 0.0474,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0245,
+       "p": 0.3802,
+       "share_pos": 0.25
+      }
+     },
+     "emo_any": {
+      "in": 0.2075,
+      "out": 0.0488,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.1827,
+       "p": 0.0084,
+       "share_pos": 0.75
+      }
+     },
+     "elong": {
+      "in": 0.0283,
+      "out": 0.06,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0341,
+       "p": 0.1263,
+       "share_pos": 0.167
+      }
+     },
+     "end_period": {
+      "in": 0.0094,
+      "out": 0.0188,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0022,
+       "p": 0.7736,
+       "share_pos": 0.083
+      }
+     },
+     "any_period_end": {
+      "in": 0.0094,
+      "out": 0.0264,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0089,
+       "p": 0.5276,
+       "share_pos": 0.083
+      }
+     },
+     "end_excl": {
+      "in": 0.0,
+      "out": 0.0148,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.021,
+       "p": 0.1221,
+       "share_pos": 0.0
+      }
+     },
+     "punct_frac": {
+      "in": 0.0472,
+      "out": 0.1049,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0276,
+       "p": 0.5327,
+       "share_pos": 0.25
+      }
+     },
+     "starts_lower": {
+      "in": 0.8113,
+      "out": 0.7765,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.009,
+       "p": 0.767,
+       "share_pos": 0.417
+      }
+     },
+     "abbr": {
+      "in": 0.2358,
+      "out": 0.2604,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0119,
+       "p": 0.843,
+       "share_pos": 0.333
+      }
+     },
+     "q": {
+      "in": 0.0472,
+      "out": 0.0969,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0026,
+       "p": 0.95,
+       "share_pos": 0.333
+      }
+     },
+     "ellipsis": {
+      "in": 0.0094,
+      "out": 0.0098,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0033,
+       "p": 0.3388,
+       "share_pos": 0.083
+      }
+     },
+     "multi_punct": {
+      "in": 0.0283,
+      "out": 0.0307,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0294,
+       "p": 0.3137,
+       "share_pos": 0.167
+      }
+     },
+     "caps_word": {
+      "in": 0.0189,
+      "out": 0.0315,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0192,
+       "p": 0.1403,
+       "share_pos": 0.167
+      }
+     },
+     "logc": {
+      "in": 2.9756,
+      "out": 3.2278,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0256,
+       "p": 0.8385,
+       "share_pos": 0.583
+      }
+     },
+     "n_msgs": {
+      "in": 1.3302,
+      "out": 1.4597,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0111,
+       "p": 0.8901,
+       "share_pos": 0.417
+      }
+     }
+    }
+   },
+   "playful": {
+    "n_in": 1911,
+    "share": 0.666,
+    "feat": {
+     "laugh": {
+      "in": 0.0701,
+      "out": 0.0031,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.1019,
+       "p": 0.0,
+       "share_pos": 0.563
+      }
+     },
+     "emo_any": {
+      "in": 0.0748,
+      "out": 0.0146,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.071,
+       "p": 0.0,
+       "share_pos": 0.563
+      }
+     },
+     "elong": {
+      "in": 0.0691,
+      "out": 0.0385,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0425,
+       "p": 0.0019,
+       "share_pos": 0.493
+      }
+     },
+     "end_period": {
+      "in": 0.0115,
+      "out": 0.0323,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0134,
+       "p": 0.1524,
+       "share_pos": 0.141
+      }
+     },
+     "any_period_end": {
+      "in": 0.0178,
+      "out": 0.0417,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0075,
+       "p": 0.3493,
+       "share_pos": 0.169
+      }
+     },
+     "end_excl": {
+      "in": 0.0078,
+      "out": 0.0271,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0068,
+       "p": 0.3464,
+       "share_pos": 0.113
+      }
+     },
+     "punct_frac": {
+      "in": 0.0759,
+      "out": 0.1565,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0502,
+       "p": 0.0138,
+       "share_pos": 0.423
+      }
+     },
+     "starts_lower": {
+      "in": 0.8221,
+      "out": 0.6896,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0003,
+       "p": 0.9792,
+       "share_pos": 0.282
+      }
+     },
+     "abbr": {
+      "in": 0.2459,
+      "out": 0.2865,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0753,
+       "p": 0.0024,
+       "share_pos": 0.437
+      }
+     },
+     "q": {
+      "in": 0.078,
+      "out": 0.1292,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0167,
+       "p": 0.3289,
+       "share_pos": 0.437
+      }
+     },
+     "ellipsis": {
+      "in": 0.012,
+      "out": 0.0052,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0084,
+       "p": 0.0146,
+       "share_pos": 0.155
+      }
+     },
+     "multi_punct": {
+      "in": 0.0319,
+      "out": 0.0281,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0154,
+       "p": 0.0509,
+       "share_pos": 0.31
+      }
+     },
+     "caps_word": {
+      "in": 0.0403,
+      "out": 0.0125,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0129,
+       "p": 0.1592,
+       "share_pos": 0.408
+      }
+     },
+     "logc": {
+      "in": 3.1864,
+      "out": 3.2822,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.1284,
+       "p": 0.004,
+       "share_pos": 0.62
+      }
+     },
+     "n_msgs": {
+      "in": 1.4662,
+      "out": 1.4323,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.1939,
+       "p": 0.0007,
+       "share_pos": 0.606
+      }
+     }
+    }
+   },
+   "negative_valence(<1.5)": {
+    "n_in": 481,
+    "share": 0.168,
+    "feat": {
+     "laugh": {
+      "in": 0.0042,
+      "out": 0.0565,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0261,
+       "p": 0.0,
+       "share_pos": 0.019
+      }
+     },
+     "emo_any": {
+      "in": 0.0374,
+      "out": 0.0582,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0142,
+       "p": 0.2525,
+       "share_pos": 0.222
+      }
+     },
+     "elong": {
+      "in": 0.0353,
+      "out": 0.0636,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0014,
+       "p": 0.9091,
+       "share_pos": 0.185
+      }
+     },
+     "end_period": {
+      "in": 0.0291,
+      "out": 0.0163,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0164,
+       "p": 0.0306,
+       "share_pos": 0.185
+      }
+     },
+     "any_period_end": {
+      "in": 0.0374,
+      "out": 0.0234,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0205,
+       "p": 0.0413,
+       "share_pos": 0.222
+      }
+     },
+     "end_excl": {
+      "in": 0.0125,
+      "out": 0.0146,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0026,
+       "p": 0.6201,
+       "share_pos": 0.019
+      }
+     },
+     "punct_frac": {
+      "in": 0.0877,
+      "out": 0.1059,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0024,
+       "p": 0.8495,
+       "share_pos": 0.352
+      }
+     },
+     "starts_lower": {
+      "in": 0.8337,
+      "out": 0.7665,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0046,
+       "p": 0.7291,
+       "share_pos": 0.389
+      }
+     },
+     "abbr": {
+      "in": 0.1954,
+      "out": 0.2724,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0723,
+       "p": 0.0094,
+       "share_pos": 0.296
+      }
+     },
+     "q": {
+      "in": 0.0582,
+      "out": 0.1025,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0263,
+       "p": 0.019,
+       "share_pos": 0.204
+      }
+     },
+     "ellipsis": {
+      "in": 0.0125,
+      "out": 0.0092,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0003,
+       "p": 0.9559,
+       "share_pos": 0.093
+      }
+     },
+     "multi_punct": {
+      "in": 0.0374,
+      "out": 0.0293,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0066,
+       "p": 0.4559,
+       "share_pos": 0.222
+      }
+     },
+     "caps_word": {
+      "in": 0.0478,
+      "out": 0.0276,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0111,
+       "p": 0.3033,
+       "share_pos": 0.278
+      }
+     },
+     "logc": {
+      "in": 3.0161,
+      "out": 3.2592,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0773,
+       "p": 0.109,
+       "share_pos": 0.444
+      }
+     },
+     "n_msgs": {
+      "in": 1.2599,
+      "out": 1.4941,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0791,
+       "p": 0.0257,
+       "share_pos": 0.315
+      }
+     }
+    }
+   }
+  },
+  "prev": {
+   "n_turns": 2826,
+   "vulnerable": {
+    "n_in": 249,
+    "share": 0.088,
+    "feat": {
+     "laugh": {
+      "in": 0.0522,
+      "out": 0.0481,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0169,
+       "p": 0.289,
+       "share_pos": 0.2
+      }
+     },
+     "emo_any": {
+      "in": 0.0643,
+      "out": 0.0539,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0066,
+       "p": 0.6818,
+       "share_pos": 0.225
+      }
+     },
+     "elong": {
+      "in": 0.0522,
+      "out": 0.0582,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0082,
+       "p": 0.6865,
+       "share_pos": 0.175
+      }
+     },
+     "end_period": {
+      "in": 0.0201,
+      "out": 0.0182,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0051,
+       "p": 0.6133,
+       "share_pos": 0.05
+      }
+     },
+     "any_period_end": {
+      "in": 0.0321,
+      "out": 0.0252,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0133,
+       "p": 0.2407,
+       "share_pos": 0.125
+      }
+     },
+     "end_excl": {
+      "in": 0.004,
+      "out": 0.0144,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0029,
+       "p": 0.5543,
+       "share_pos": 0.025
+      }
+     },
+     "punct_frac": {
+      "in": 0.0897,
+      "out": 0.1022,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0022,
+       "p": 0.9008,
+       "share_pos": 0.325
+      }
+     },
+     "starts_lower": {
+      "in": 0.8032,
+      "out": 0.7788,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0028,
+       "p": 0.8944,
+       "share_pos": 0.425
+      }
+     },
+     "abbr": {
+      "in": 0.2811,
+      "out": 0.2565,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0325,
+       "p": 0.3648,
+       "share_pos": 0.475
+      }
+     },
+     "q": {
+      "in": 0.0843,
+      "out": 0.0947,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0053,
+       "p": 0.7973,
+       "share_pos": 0.25
+      }
+     },
+     "ellipsis": {
+      "in": 0.008,
+      "out": 0.0101,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0057,
+       "p": 0.4304,
+       "share_pos": 0.05
+      }
+     },
+     "multi_punct": {
+      "in": 0.0201,
+      "out": 0.0307,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0066,
+       "p": 0.5519,
+       "share_pos": 0.1
+      }
+     },
+     "caps_word": {
+      "in": 0.0562,
+      "out": 0.0283,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0434,
+       "p": 0.0475,
+       "share_pos": 0.275
+      }
+     },
+     "logc": {
+      "in": 3.2439,
+      "out": 3.2303,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0026,
+       "p": 0.9609,
+       "share_pos": 0.525
+      }
+     },
+     "n_msgs": {
+      "in": 1.4137,
+      "out": 1.4645,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0029,
+       "p": 0.9526,
+       "share_pos": 0.375
+      }
+     }
+    }
+   },
+   "tension": {
+    "n_in": 457,
+    "share": 0.162,
+    "feat": {
+     "laugh": {
+      "in": 0.0197,
+      "out": 0.054,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.002,
+       "p": 0.8196,
+       "share_pos": 0.15
+      }
+     },
+     "emo_any": {
+      "in": 0.0481,
+      "out": 0.0561,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0049,
+       "p": 0.7246,
+       "share_pos": 0.325
+      }
+     },
+     "elong": {
+      "in": 0.0263,
+      "out": 0.0637,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0061,
+       "p": 0.6325,
+       "share_pos": 0.225
+      }
+     },
+     "end_period": {
+      "in": 0.0175,
+      "out": 0.0186,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0031,
+       "p": 0.726,
+       "share_pos": 0.1
+      }
+     },
+     "any_period_end": {
+      "in": 0.0197,
+      "out": 0.027,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0052,
+       "p": 0.611,
+       "share_pos": 0.125
+      }
+     },
+     "end_excl": {
+      "in": 0.0066,
+      "out": 0.0148,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0113,
+       "p": 0.3413,
+       "share_pos": 0.025
+      }
+     },
+     "punct_frac": {
+      "in": 0.0702,
+      "out": 0.107,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0084,
+       "p": 0.6337,
+       "share_pos": 0.275
+      }
+     },
+     "starts_lower": {
+      "in": 0.8643,
+      "out": 0.7649,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0094,
+       "p": 0.6144,
+       "share_pos": 0.3
+      }
+     },
+     "abbr": {
+      "in": 0.2429,
+      "out": 0.2617,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0185,
+       "p": 0.4805,
+       "share_pos": 0.55
+      }
+     },
+     "q": {
+      "in": 0.0591,
+      "out": 0.1005,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0017,
+       "p": 0.9078,
+       "share_pos": 0.325
+      }
+     },
+     "ellipsis": {
+      "in": 0.0044,
+      "out": 0.011,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0101,
+       "p": 0.0149,
+       "share_pos": 0.025
+      }
+     },
+     "multi_punct": {
+      "in": 0.0372,
+      "out": 0.0283,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": 0.0179,
+       "p": 0.1832,
+       "share_pos": 0.225
+      }
+     },
+     "caps_word": {
+      "in": 0.035,
+      "out": 0.03,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0088,
+       "p": 0.3972,
+       "share_pos": 0.225
+      }
+     },
+     "logc": {
+      "in": 2.9858,
+      "out": 3.2789,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0257,
+       "p": 0.5434,
+       "share_pos": 0.525
+      }
+     },
+     "n_msgs": {
+      "in": 1.2232,
+      "out": 1.5057,
+      "within": {
+       "n_spk": 40,
+       "mean_diff": -0.0508,
+       "p": 0.0856,
+       "share_pos": 0.35
+      }
+     }
+    }
+   },
+   "conflict_phase": {
+    "n_in": 121,
+    "share": 0.043,
+    "feat": {
+     "laugh": {
+      "in": 0.0165,
+      "out": 0.0499,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0061,
+       "p": 0.6678,
+       "share_pos": 0.067
+      }
+     },
+     "emo_any": {
+      "in": 0.0248,
+      "out": 0.0562,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0167,
+       "p": 0.5892,
+       "share_pos": 0.133
+      }
+     },
+     "elong": {
+      "in": 0.0248,
+      "out": 0.0591,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0117,
+       "p": 0.6516,
+       "share_pos": 0.133
+      }
+     },
+     "end_period": {
+      "in": 0.0331,
+      "out": 0.0177,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0106,
+       "p": 0.6869,
+       "share_pos": 0.2
+      }
+     },
+     "any_period_end": {
+      "in": 0.0331,
+      "out": 0.0255,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.009,
+       "p": 0.7338,
+       "share_pos": 0.2
+      }
+     },
+     "end_excl": {
+      "in": 0.0165,
+      "out": 0.0133,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0327,
+       "p": 0.3343,
+       "share_pos": 0.067
+      }
+     },
+     "punct_frac": {
+      "in": 0.0978,
+      "out": 0.1012,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0432,
+       "p": 0.2723,
+       "share_pos": 0.533
+      }
+     },
+     "starts_lower": {
+      "in": 0.8264,
+      "out": 0.7789,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0267,
+       "p": 0.3541,
+       "share_pos": 0.467
+      }
+     },
+     "abbr": {
+      "in": 0.2397,
+      "out": 0.2595,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0181,
+       "p": 0.6661,
+       "share_pos": 0.533
+      }
+     },
+     "q": {
+      "in": 0.0826,
+      "out": 0.0943,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0285,
+       "p": 0.4353,
+       "share_pos": 0.333
+      }
+     },
+     "ellipsis": {
+      "in": 0.0083,
+      "out": 0.01,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0012,
+       "p": 0.8881,
+       "share_pos": 0.067
+      }
+     },
+     "multi_punct": {
+      "in": 0.0496,
+      "out": 0.0288,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0439,
+       "p": 0.1603,
+       "share_pos": 0.267
+      }
+     },
+     "caps_word": {
+      "in": 0.0331,
+      "out": 0.0307,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0163,
+       "p": 0.23,
+       "share_pos": 0.133
+      }
+     },
+     "logc": {
+      "in": 3.1727,
+      "out": 3.2341,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0907,
+       "p": 0.2771,
+       "share_pos": 0.6
+      }
+     },
+     "n_msgs": {
+      "in": 1.2314,
+      "out": 1.4702,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.1116,
+       "p": 0.1203,
+       "share_pos": 0.333
+      }
+     }
+    }
+   },
+   "deep_personal_phase": {
+    "n_in": 89,
+    "share": 0.031,
+    "feat": {
+     "laugh": {
+      "in": 0.0562,
+      "out": 0.0482,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0258,
+       "p": 0.499,
+       "share_pos": 0.25
+      }
+     },
+     "emo_any": {
+      "in": 0.0449,
+      "out": 0.0552,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.005,
+       "p": 0.8571,
+       "share_pos": 0.25
+      }
+     },
+     "elong": {
+      "in": 0.0562,
+      "out": 0.0577,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0034,
+       "p": 0.9219,
+       "share_pos": 0.167
+      }
+     },
+     "end_period": {
+      "in": 0.0337,
+      "out": 0.0179,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0105,
+       "p": 0.1401,
+       "share_pos": 0.0
+      }
+     },
+     "any_period_end": {
+      "in": 0.0337,
+      "out": 0.0256,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0228,
+       "p": 0.1807,
+       "share_pos": 0.0
+      }
+     },
+     "end_excl": {
+      "in": 0.0,
+      "out": 0.0139,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0154,
+       "p": 0.0442,
+       "share_pos": 0.0
+      }
+     },
+     "punct_frac": {
+      "in": 0.1264,
+      "out": 0.1003,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0171,
+       "p": 0.6016,
+       "share_pos": 0.333
+      }
+     },
+     "starts_lower": {
+      "in": 0.7528,
+      "out": 0.7819,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0499,
+       "p": 0.2988,
+       "share_pos": 0.583
+      }
+     },
+     "abbr": {
+      "in": 0.2921,
+      "out": 0.2576,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0507,
+       "p": 0.4504,
+       "share_pos": 0.5
+      }
+     },
+     "q": {
+      "in": 0.1124,
+      "out": 0.0932,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0275,
+       "p": 0.3689,
+       "share_pos": 0.5
+      }
+     },
+     "ellipsis": {
+      "in": 0.0112,
+      "out": 0.0099,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0069,
+       "p": 0.3388,
+       "share_pos": 0.083
+      }
+     },
+     "multi_punct": {
+      "in": 0.0112,
+      "out": 0.0303,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0089,
+       "p": 0.241,
+       "share_pos": 0.0
+      }
+     },
+     "caps_word": {
+      "in": 0.0225,
+      "out": 0.0311,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0041,
+       "p": 0.7585,
+       "share_pos": 0.083
+      }
+     },
+     "logc": {
+      "in": 3.3502,
+      "out": 3.2277,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0206,
+       "p": 0.9141,
+       "share_pos": 0.667
+      }
+     },
+     "n_msgs": {
+      "in": 1.4719,
+      "out": 1.4596,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0191,
+       "p": 0.8975,
+       "share_pos": 0.417
+      }
+     }
+    }
+   },
+   "sad": {
+    "n_in": 32,
+    "share": 0.011,
+    "feat": {
+     "laugh": {
+      "in": 0.0,
+      "out": 0.049,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.0312,
+      "out": 0.0551,
+      "within": null
+     },
+     "elong": {
+      "in": 0.0938,
+      "out": 0.0573,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0,
+      "out": 0.0186,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.0,
+      "out": 0.0261,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.0,
+      "out": 0.0136,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.0781,
+      "out": 0.1013,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.8438,
+      "out": 0.7802,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.3125,
+      "out": 0.2581,
+      "within": null
+     },
+     "q": {
+      "in": 0.0625,
+      "out": 0.0941,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.0312,
+      "out": 0.0097,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.0,
+      "out": 0.0301,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0311,
+      "within": null
+     },
+     "logc": {
+      "in": 3.3974,
+      "out": 3.2296,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 1.5,
+      "out": 1.4596,
+      "within": null
+     }
+    }
+   },
+   "anger": {
+    "n_in": 201,
+    "share": 0.071,
+    "feat": {
+     "laugh": {
+      "in": 0.0149,
+      "out": 0.051,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0101,
+       "p": 0.465,
+       "share_pos": 0.036
+      }
+     },
+     "emo_any": {
+      "in": 0.0398,
+      "out": 0.056,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0037,
+       "p": 0.8762,
+       "share_pos": 0.25
+      }
+     },
+     "elong": {
+      "in": 0.0348,
+      "out": 0.0594,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0187,
+       "p": 0.2956,
+       "share_pos": 0.214
+      }
+     },
+     "end_period": {
+      "in": 0.0149,
+      "out": 0.0187,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0097,
+       "p": 0.2581,
+       "share_pos": 0.071
+      }
+     },
+     "any_period_end": {
+      "in": 0.0149,
+      "out": 0.0267,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0158,
+       "p": 0.0922,
+       "share_pos": 0.071
+      }
+     },
+     "end_excl": {
+      "in": 0.0149,
+      "out": 0.0133,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0309,
+       "p": 0.3352,
+       "share_pos": 0.036
+      }
+     },
+     "punct_frac": {
+      "in": 0.068,
+      "out": 0.1036,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0101,
+       "p": 0.6939,
+       "share_pos": 0.25
+      }
+     },
+     "starts_lower": {
+      "in": 0.8756,
+      "out": 0.7737,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0236,
+       "p": 0.224,
+       "share_pos": 0.536
+      }
+     },
+     "abbr": {
+      "in": 0.2488,
+      "out": 0.2594,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0021,
+       "p": 0.9596,
+       "share_pos": 0.464
+      }
+     },
+     "q": {
+      "in": 0.0597,
+      "out": 0.0964,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0043,
+       "p": 0.8297,
+       "share_pos": 0.25
+      }
+     },
+     "ellipsis": {
+      "in": 0.005,
+      "out": 0.0103,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0031,
+       "p": 0.5539,
+       "share_pos": 0.036
+      }
+     },
+     "multi_punct": {
+      "in": 0.0448,
+      "out": 0.0286,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": 0.0277,
+       "p": 0.2616,
+       "share_pos": 0.179
+      }
+     },
+     "caps_word": {
+      "in": 0.0149,
+      "out": 0.032,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0285,
+       "p": 0.0076,
+       "share_pos": 0.071
+      }
+     },
+     "logc": {
+      "in": 2.9844,
+      "out": 3.2504,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0584,
+       "p": 0.3765,
+       "share_pos": 0.393
+      }
+     },
+     "n_msgs": {
+      "in": 1.2239,
+      "out": 1.4781,
+      "within": {
+       "n_spk": 28,
+       "mean_diff": -0.0836,
+       "p": 0.0322,
+       "share_pos": 0.25
+      }
+     }
+    }
+   },
+   "flirting": {
+    "n_in": 100,
+    "share": 0.035,
+    "feat": {
+     "laugh": {
+      "in": 0.07,
+      "out": 0.0477,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.04,
+       "p": 0.1053,
+       "share_pos": 0.333
+      }
+     },
+     "emo_any": {
+      "in": 0.12,
+      "out": 0.0525,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0722,
+       "p": 0.2132,
+       "share_pos": 0.5
+      }
+     },
+     "elong": {
+      "in": 0.02,
+      "out": 0.0591,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0519,
+       "p": 0.0248,
+       "share_pos": 0.083
+      }
+     },
+     "end_period": {
+      "in": 0.02,
+      "out": 0.0183,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0233,
+       "p": 0.0577,
+       "share_pos": 0.0
+      }
+     },
+     "any_period_end": {
+      "in": 0.02,
+      "out": 0.026,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0268,
+       "p": 0.0652,
+       "share_pos": 0.0
+      }
+     },
+     "end_excl": {
+      "in": 0.01,
+      "out": 0.0136,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0072,
+       "p": 0.1687,
+       "share_pos": 0.0
+      }
+     },
+     "punct_frac": {
+      "in": 0.04,
+      "out": 0.1033,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0852,
+       "p": 0.0112,
+       "share_pos": 0.083
+      }
+     },
+     "starts_lower": {
+      "in": 0.88,
+      "out": 0.7773,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0108,
+       "p": 0.7065,
+       "share_pos": 0.417
+      }
+     },
+     "abbr": {
+      "in": 0.32,
+      "out": 0.2564,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0866,
+       "p": 0.182,
+       "share_pos": 0.667
+      }
+     },
+     "q": {
+      "in": 0.02,
+      "out": 0.0965,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0784,
+       "p": 0.0103,
+       "share_pos": 0.0
+      }
+     },
+     "ellipsis": {
+      "in": 0.0,
+      "out": 0.0103,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0068,
+       "p": 0.2025,
+       "share_pos": 0.0
+      }
+     },
+     "multi_punct": {
+      "in": 0.02,
+      "out": 0.0301,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.017,
+       "p": 0.4924,
+       "share_pos": 0.083
+      }
+     },
+     "caps_word": {
+      "in": 0.01,
+      "out": 0.0315,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0194,
+       "p": 0.339,
+       "share_pos": 0.083
+      }
+     },
+     "logc": {
+      "in": 2.9869,
+      "out": 3.2405,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.1012,
+       "p": 0.4854,
+       "share_pos": 0.583
+      }
+     },
+     "n_msgs": {
+      "in": 1.38,
+      "out": 1.4629,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0816,
+       "p": 0.6364,
+       "share_pos": 0.417
+      }
+     }
+    }
+   },
+   "playful": {
+    "n_in": 1886,
+    "share": 0.667,
+    "feat": {
+     "laugh": {
+      "in": 0.0546,
+      "out": 0.0362,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0498,
+       "p": 0.0001,
+       "share_pos": 0.465
+      }
+     },
+     "emo_any": {
+      "in": 0.0679,
+      "out": 0.0287,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0441,
+       "p": 0.0013,
+       "share_pos": 0.493
+      }
+     },
+     "elong": {
+      "in": 0.0583,
+      "out": 0.0564,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0023,
+       "p": 0.8147,
+       "share_pos": 0.366
+      }
+     },
+     "end_period": {
+      "in": 0.0138,
+      "out": 0.0277,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.002,
+       "p": 0.7676,
+       "share_pos": 0.155
+      }
+     },
+     "any_period_end": {
+      "in": 0.0201,
+      "out": 0.0372,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0055,
+       "p": 0.3459,
+       "share_pos": 0.197
+      }
+     },
+     "end_excl": {
+      "in": 0.0074,
+      "out": 0.0255,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0011,
+       "p": 0.8678,
+       "share_pos": 0.085
+      }
+     },
+     "punct_frac": {
+      "in": 0.0764,
+      "out": 0.1506,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0321,
+       "p": 0.06,
+       "share_pos": 0.394
+      }
+     },
+     "starts_lower": {
+      "in": 0.8197,
+      "out": 0.7032,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0174,
+       "p": 0.0768,
+       "share_pos": 0.225
+      }
+     },
+     "abbr": {
+      "in": 0.2587,
+      "out": 0.2585,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0058,
+       "p": 0.7947,
+       "share_pos": 0.521
+      }
+     },
+     "q": {
+      "in": 0.0716,
+      "out": 0.1383,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.043,
+       "p": 0.0173,
+       "share_pos": 0.324
+      }
+     },
+     "ellipsis": {
+      "in": 0.0101,
+      "out": 0.0096,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.003,
+       "p": 0.4985,
+       "share_pos": 0.113
+      }
+     },
+     "multi_punct": {
+      "in": 0.0228,
+      "out": 0.0436,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0176,
+       "p": 0.0367,
+       "share_pos": 0.155
+      }
+     },
+     "caps_word": {
+      "in": 0.0414,
+      "out": 0.0096,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0252,
+       "p": 0.0003,
+       "share_pos": 0.465
+      }
+     },
+     "logc": {
+      "in": 3.148,
+      "out": 3.3992,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": -0.0593,
+       "p": 0.1623,
+       "share_pos": 0.493
+      }
+     },
+     "n_msgs": {
+      "in": 1.4183,
+      "out": 1.5436,
+      "within": {
+       "n_spk": 71,
+       "mean_diff": 0.0299,
+       "p": 0.5116,
+       "share_pos": 0.493
+      }
+     }
+    }
+   },
+   "negative_valence(<1.5)": {
+    "n_in": 477,
+    "share": 0.169,
+    "feat": {
+     "laugh": {
+      "in": 0.021,
+      "out": 0.0541,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0152,
+       "p": 0.0291,
+       "share_pos": 0.093
+      }
+     },
+     "emo_any": {
+      "in": 0.0398,
+      "out": 0.0579,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0078,
+       "p": 0.5756,
+       "share_pos": 0.167
+      }
+     },
+     "elong": {
+      "in": 0.0356,
+      "out": 0.0622,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0023,
+       "p": 0.8615,
+       "share_pos": 0.204
+      }
+     },
+     "end_period": {
+      "in": 0.0126,
+      "out": 0.0196,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0059,
+       "p": 0.2785,
+       "share_pos": 0.093
+      }
+     },
+     "any_period_end": {
+      "in": 0.0147,
+      "out": 0.0281,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0099,
+       "p": 0.2335,
+       "share_pos": 0.111
+      }
+     },
+     "end_excl": {
+      "in": 0.0063,
+      "out": 0.0149,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0056,
+       "p": 0.5306,
+       "share_pos": 0.019
+      }
+     },
+     "punct_frac": {
+      "in": 0.065,
+      "out": 0.1084,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0246,
+       "p": 0.0395,
+       "share_pos": 0.259
+      }
+     },
+     "starts_lower": {
+      "in": 0.8532,
+      "out": 0.7663,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0162,
+       "p": 0.3278,
+       "share_pos": 0.426
+      }
+     },
+     "abbr": {
+      "in": 0.2558,
+      "out": 0.2593,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": 0.0194,
+       "p": 0.5167,
+       "share_pos": 0.481
+      }
+     },
+     "q": {
+      "in": 0.0587,
+      "out": 0.1009,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0193,
+       "p": 0.087,
+       "share_pos": 0.222
+      }
+     },
+     "ellipsis": {
+      "in": 0.0063,
+      "out": 0.0106,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0104,
+       "p": 0.133,
+       "share_pos": 0.037
+      }
+     },
+     "multi_punct": {
+      "in": 0.0252,
+      "out": 0.0307,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0052,
+       "p": 0.6183,
+       "share_pos": 0.111
+      }
+     },
+     "caps_word": {
+      "in": 0.0356,
+      "out": 0.0298,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0032,
+       "p": 0.7604,
+       "share_pos": 0.204
+      }
+     },
+     "logc": {
+      "in": 3.018,
+      "out": 3.2749,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0533,
+       "p": 0.314,
+       "share_pos": 0.444
+      }
+     },
+     "n_msgs": {
+      "in": 1.2767,
+      "out": 1.4972,
+      "within": {
+       "n_spk": 54,
+       "mean_diff": -0.0618,
+       "p": 0.1743,
+       "share_pos": 0.333
+      }
+     }
+    }
+   }
+  }
+ },
+ "whatsapp_nl": {
+  "same": {
+   "n_turns": 3078,
+   "serious(>=2)": {
+    "n_in": 64,
+    "share": 0.021,
+    "feat": {
+     "laugh": {
+      "in": 0.0625,
+      "out": 0.1904,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.1719,
+      "out": 0.2624,
+      "within": null
+     },
+     "elong": {
+      "in": 0.0469,
+      "out": 0.067,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0312,
+      "out": 0.0302,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.0469,
+      "out": 0.0431,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.0156,
+      "out": 0.0919,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.2638,
+      "out": 0.2904,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.0,
+      "out": 0.0255,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.1562,
+      "out": 0.1855,
+      "within": null
+     },
+     "q": {
+      "in": 0.2812,
+      "out": 0.2681,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.1562,
+      "out": 0.0322,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.0625,
+      "out": 0.0501,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0083,
+      "within": null
+     },
+     "logc": {
+      "in": 4.126,
+      "out": 3.6785,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 2.1406,
+      "out": 1.7468,
+      "within": null
+     }
+    }
+   },
+   "vulnerable": {
+    "n_in": 375,
+    "share": 0.122,
+    "feat": {
+     "laugh": {
+      "in": 0.2027,
+      "out": 0.1857,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.0089,
+       "p": 0.7108,
+       "share_pos": 0.431
+      }
+     },
+     "emo_any": {
+      "in": 0.376,
+      "out": 0.2445,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.1116,
+       "p": 0.0012,
+       "share_pos": 0.569
+      }
+     },
+     "elong": {
+      "in": 0.08,
+      "out": 0.0647,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.0167,
+       "p": 0.3796,
+       "share_pos": 0.241
+      }
+     },
+     "end_period": {
+      "in": 0.0453,
+      "out": 0.0281,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.0072,
+       "p": 0.6258,
+       "share_pos": 0.121
+      }
+     },
+     "any_period_end": {
+      "in": 0.08,
+      "out": 0.0381,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.0359,
+       "p": 0.0934,
+       "share_pos": 0.172
+      }
+     },
+     "end_excl": {
+      "in": 0.0427,
+      "out": 0.0969,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": -0.0488,
+       "p": 0.0016,
+       "share_pos": 0.121
+      }
+     },
+     "punct_frac": {
+      "in": 0.1875,
+      "out": 0.3041,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": -0.0962,
+       "p": 0.0002,
+       "share_pos": 0.293
+      }
+     },
+     "starts_lower": {
+      "in": 0.0107,
+      "out": 0.027,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": -0.0092,
+       "p": 0.0947,
+       "share_pos": 0.017
+      }
+     },
+     "abbr": {
+      "in": 0.2187,
+      "out": 0.1802,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.0466,
+       "p": 0.1146,
+       "share_pos": 0.5
+      }
+     },
+     "q": {
+      "in": 0.232,
+      "out": 0.2734,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": -0.0065,
+       "p": 0.8428,
+       "share_pos": 0.397
+      }
+     },
+     "ellipsis": {
+      "in": 0.0853,
+      "out": 0.0277,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.051,
+       "p": 0.0109,
+       "share_pos": 0.224
+      }
+     },
+     "multi_punct": {
+      "in": 0.0587,
+      "out": 0.0492,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": -0.0008,
+       "p": 0.961,
+       "share_pos": 0.172
+      }
+     },
+     "caps_word": {
+      "in": 0.0053,
+      "out": 0.0085,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": -0.0079,
+       "p": 0.1197,
+       "share_pos": 0.034
+      }
+     },
+     "logc": {
+      "in": 4.5869,
+      "out": 3.5631,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 1.0413,
+       "p": 0.0,
+       "share_pos": 0.983
+      }
+     },
+     "n_msgs": {
+      "in": 2.5227,
+      "out": 1.6485,
+      "within": {
+       "n_spk": 58,
+       "mean_diff": 0.8609,
+       "p": 0.0,
+       "share_pos": 0.879
+      }
+     }
+    }
+   },
+   "tension": {
+    "n_in": 110,
+    "share": 0.036,
+    "feat": {
+     "laugh": {
+      "in": 0.0636,
+      "out": 0.1924,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0108,
+       "p": 0.8352,
+       "share_pos": 0.188
+      }
+     },
+     "emo_any": {
+      "in": 0.1455,
+      "out": 0.2648,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0257,
+       "p": 0.6372,
+       "share_pos": 0.375
+      }
+     },
+     "elong": {
+      "in": 0.0182,
+      "out": 0.0684,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": -0.0749,
+       "p": 0.0053,
+       "share_pos": 0.0
+      }
+     },
+     "end_period": {
+      "in": 0.0091,
+      "out": 0.031,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": -0.0087,
+       "p": 0.0776,
+       "share_pos": 0.062
+      }
+     },
+     "any_period_end": {
+      "in": 0.0273,
+      "out": 0.0438,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0017,
+       "p": 0.9023,
+       "share_pos": 0.125
+      }
+     },
+     "end_excl": {
+      "in": 0.0545,
+      "out": 0.0916,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": -0.0501,
+       "p": 0.093,
+       "share_pos": 0.062
+      }
+     },
+     "punct_frac": {
+      "in": 0.2788,
+      "out": 0.2903,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": -0.0376,
+       "p": 0.481,
+       "share_pos": 0.375
+      }
+     },
+     "starts_lower": {
+      "in": 0.0091,
+      "out": 0.0256,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0078,
+       "p": 0.3332,
+       "share_pos": 0.062
+      }
+     },
+     "abbr": {
+      "in": 0.1,
+      "out": 0.188,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": -0.0431,
+       "p": 0.336,
+       "share_pos": 0.312
+      }
+     },
+     "q": {
+      "in": 0.2818,
+      "out": 0.2679,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": -0.0133,
+       "p": 0.8537,
+       "share_pos": 0.5
+      }
+     },
+     "ellipsis": {
+      "in": 0.0273,
+      "out": 0.035,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0054,
+       "p": 0.5258,
+       "share_pos": 0.062
+      }
+     },
+     "multi_punct": {
+      "in": 0.0455,
+      "out": 0.0505,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0101,
+       "p": 0.6486,
+       "share_pos": 0.188
+      }
+     },
+     "caps_word": {
+      "in": 0.0273,
+      "out": 0.0074,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0021,
+       "p": 0.7922,
+       "share_pos": 0.062
+      }
+     },
+     "logc": {
+      "in": 3.545,
+      "out": 3.6931,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": 0.0093,
+       "p": 0.9013,
+       "share_pos": 0.688
+      }
+     },
+     "n_msgs": {
+      "in": 1.7455,
+      "out": 1.7554,
+      "within": {
+       "n_spk": 16,
+       "mean_diff": -0.0104,
+       "p": 0.945,
+       "share_pos": 0.562
+      }
+     }
+    }
+   },
+   "conflict_phase": {
+    "n_in": 48,
+    "share": 0.016,
+    "feat": {
+     "laugh": {
+      "in": 0.1667,
+      "out": 0.1881,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.2083,
+      "out": 0.2614,
+      "within": null
+     },
+     "elong": {
+      "in": 0.0417,
+      "out": 0.067,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0417,
+      "out": 0.03,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.1042,
+      "out": 0.0422,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.0625,
+      "out": 0.0908,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.3403,
+      "out": 0.2891,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.0208,
+      "out": 0.0251,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.0625,
+      "out": 0.1868,
+      "within": null
+     },
+     "q": {
+      "in": 0.3542,
+      "out": 0.267,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.0417,
+      "out": 0.0347,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.0417,
+      "out": 0.0505,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0083,
+      "within": null
+     },
+     "logc": {
+      "in": 3.9915,
+      "out": 3.683,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 2.0,
+      "out": 1.7512,
+      "within": null
+     }
+    }
+   },
+   "deep_personal_phase": {
+    "n_in": 127,
+    "share": 0.041,
+    "feat": {
+     "laugh": {
+      "in": 0.1575,
+      "out": 0.1891,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0503,
+       "p": 0.3287,
+       "share_pos": 0.286
+      }
+     },
+     "emo_any": {
+      "in": 0.252,
+      "out": 0.2609,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0267,
+       "p": 0.7023,
+       "share_pos": 0.357
+      }
+     },
+     "elong": {
+      "in": 0.0787,
+      "out": 0.0661,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0216,
+       "p": 0.6644,
+       "share_pos": 0.357
+      }
+     },
+     "end_period": {
+      "in": 0.0472,
+      "out": 0.0295,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0195,
+       "p": 0.4804,
+       "share_pos": 0.143
+      }
+     },
+     "any_period_end": {
+      "in": 0.0866,
+      "out": 0.0413,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.043,
+       "p": 0.2032,
+       "share_pos": 0.214
+      }
+     },
+     "end_excl": {
+      "in": 0.063,
+      "out": 0.0915,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0404,
+       "p": 0.2847,
+       "share_pos": 0.214
+      }
+     },
+     "punct_frac": {
+      "in": 0.2505,
+      "out": 0.2916,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0053,
+       "p": 0.9111,
+       "share_pos": 0.429
+      }
+     },
+     "starts_lower": {
+      "in": 0.0,
+      "out": 0.0261,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0026,
+       "p": 0.3356,
+       "share_pos": 0.0
+      }
+     },
+     "abbr": {
+      "in": 0.2362,
+      "out": 0.1826,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0142,
+       "p": 0.7842,
+       "share_pos": 0.571
+      }
+     },
+     "q": {
+      "in": 0.2756,
+      "out": 0.268,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0466,
+       "p": 0.3571,
+       "share_pos": 0.5
+      }
+     },
+     "ellipsis": {
+      "in": 0.1024,
+      "out": 0.0319,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0517,
+       "p": 0.2099,
+       "share_pos": 0.357
+      }
+     },
+     "multi_punct": {
+      "in": 0.0709,
+      "out": 0.0495,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0649,
+       "p": 0.2251,
+       "share_pos": 0.286
+      }
+     },
+     "caps_word": {
+      "in": 0.0157,
+      "out": 0.0078,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0223,
+       "p": 0.1577,
+       "share_pos": 0.071
+      }
+     },
+     "logc": {
+      "in": 4.3224,
+      "out": 3.6605,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.3612,
+       "p": 0.0575,
+       "share_pos": 0.786
+      }
+     },
+     "n_msgs": {
+      "in": 2.1969,
+      "out": 1.736,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0462,
+       "p": 0.7972,
+       "share_pos": 0.571
+      }
+     }
+    }
+   },
+   "sad": {
+    "n_in": 61,
+    "share": 0.02,
+    "feat": {
+     "laugh": {
+      "in": 0.0984,
+      "out": 0.1896,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.4426,
+      "out": 0.2569,
+      "within": null
+     },
+     "elong": {
+      "in": 0.0492,
+      "out": 0.067,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0492,
+      "out": 0.0298,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.0492,
+      "out": 0.0431,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.0656,
+      "out": 0.0908,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.2033,
+      "out": 0.2916,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.0,
+      "out": 0.0255,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.0984,
+      "out": 0.1866,
+      "within": null
+     },
+     "q": {
+      "in": 0.1311,
+      "out": 0.2711,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.1148,
+      "out": 0.0331,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.0328,
+      "out": 0.0507,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0083,
+      "within": null
+     },
+     "logc": {
+      "in": 3.8474,
+      "out": 3.6846,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 2.0984,
+      "out": 1.7481,
+      "within": null
+     }
+    }
+   },
+   "anger": {
+    "n_in": 138,
+    "share": 0.045,
+    "feat": {
+     "laugh": {
+      "in": 0.1014,
+      "out": 0.1918,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0328,
+       "p": 0.5513,
+       "share_pos": 0.308
+      }
+     },
+     "emo_any": {
+      "in": 0.2101,
+      "out": 0.2629,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": 0.0107,
+       "p": 0.7858,
+       "share_pos": 0.385
+      }
+     },
+     "elong": {
+      "in": 0.0362,
+      "out": 0.068,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0367,
+       "p": 0.0726,
+       "share_pos": 0.077
+      }
+     },
+     "end_period": {
+      "in": 0.0362,
+      "out": 0.0299,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": 0.029,
+       "p": 0.3394,
+       "share_pos": 0.154
+      }
+     },
+     "any_period_end": {
+      "in": 0.0435,
+      "out": 0.0432,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": 0.0171,
+       "p": 0.4505,
+       "share_pos": 0.154
+      }
+     },
+     "end_excl": {
+      "in": 0.058,
+      "out": 0.0918,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0296,
+       "p": 0.1326,
+       "share_pos": 0.077
+      }
+     },
+     "punct_frac": {
+      "in": 0.2385,
+      "out": 0.2923,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0568,
+       "p": 0.241,
+       "share_pos": 0.385
+      }
+     },
+     "starts_lower": {
+      "in": 0.0072,
+      "out": 0.0259,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0089,
+       "p": 0.337,
+       "share_pos": 0.0
+      }
+     },
+     "abbr": {
+      "in": 0.1522,
+      "out": 0.1864,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0259,
+       "p": 0.6196,
+       "share_pos": 0.308
+      }
+     },
+     "q": {
+      "in": 0.2174,
+      "out": 0.2707,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0871,
+       "p": 0.2841,
+       "share_pos": 0.462
+      }
+     },
+     "ellipsis": {
+      "in": 0.0652,
+      "out": 0.0333,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0109,
+       "p": 0.6339,
+       "share_pos": 0.077
+      }
+     },
+     "multi_punct": {
+      "in": 0.058,
+      "out": 0.05,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": 0.0029,
+       "p": 0.8738,
+       "share_pos": 0.154
+      }
+     },
+     "caps_word": {
+      "in": 0.0072,
+      "out": 0.0082,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": -0.0095,
+       "p": 0.083,
+       "share_pos": 0.0
+      }
+     },
+     "logc": {
+      "in": 4.0286,
+      "out": 3.6719,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": 0.2339,
+       "p": 0.1955,
+       "share_pos": 0.615
+      }
+     },
+     "n_msgs": {
+      "in": 2.1304,
+      "out": 1.7374,
+      "within": {
+       "n_spk": 13,
+       "mean_diff": 0.2358,
+       "p": 0.1395,
+       "share_pos": 0.538
+      }
+     }
+    }
+   },
+   "flirting": {
+    "n_in": 125,
+    "share": 0.041,
+    "feat": {
+     "laugh": {
+      "in": 0.312,
+      "out": 0.1825,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0957,
+       "p": 0.2157,
+       "share_pos": 0.429
+      }
+     },
+     "emo_any": {
+      "in": 0.512,
+      "out": 0.2499,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.184,
+       "p": 0.0462,
+       "share_pos": 0.571
+      }
+     },
+     "elong": {
+      "in": 0.136,
+      "out": 0.0637,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0782,
+       "p": 0.1066,
+       "share_pos": 0.429
+      }
+     },
+     "end_period": {
+      "in": 0.0,
+      "out": 0.0315,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0029,
+       "p": 0.3356,
+       "share_pos": 0.0
+      }
+     },
+     "any_period_end": {
+      "in": 0.032,
+      "out": 0.0437,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0149,
+       "p": 0.4276,
+       "share_pos": 0.071
+      }
+     },
+     "end_excl": {
+      "in": 0.048,
+      "out": 0.0921,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0373,
+       "p": 0.2243,
+       "share_pos": 0.143
+      }
+     },
+     "punct_frac": {
+      "in": 0.1381,
+      "out": 0.2963,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.1328,
+       "p": 0.0002,
+       "share_pos": 0.143
+      }
+     },
+     "starts_lower": {
+      "in": 0.0,
+      "out": 0.0261,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": -0.0135,
+       "p": 0.0906,
+       "share_pos": 0.0
+      }
+     },
+     "abbr": {
+      "in": 0.24,
+      "out": 0.1825,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0679,
+       "p": 0.2717,
+       "share_pos": 0.571
+      }
+     },
+     "q": {
+      "in": 0.264,
+      "out": 0.2685,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0065,
+       "p": 0.9373,
+       "share_pos": 0.357
+      }
+     },
+     "ellipsis": {
+      "in": 0.032,
+      "out": 0.0349,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0289,
+       "p": 0.2945,
+       "share_pos": 0.143
+      }
+     },
+     "multi_punct": {
+      "in": 0.064,
+      "out": 0.0498,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0266,
+       "p": 0.2814,
+       "share_pos": 0.286
+      }
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0085,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.0,
+       "p": NaN,
+       "share_pos": 0.0
+      }
+     },
+     "logc": {
+      "in": 3.9085,
+      "out": 3.6785,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.2517,
+       "p": 0.1325,
+       "share_pos": 0.643
+      }
+     },
+     "n_msgs": {
+      "in": 2.24,
+      "out": 1.7345,
+      "within": {
+       "n_spk": 14,
+       "mean_diff": 0.2868,
+       "p": 0.1986,
+       "share_pos": 0.643
+      }
+     }
+    }
+   },
+   "playful": {
+    "n_in": 1430,
+    "share": 0.465,
+    "feat": {
+     "laugh": {
+      "in": 0.3916,
+      "out": 0.0109,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.3535,
+       "p": 0.0,
+       "share_pos": 0.862
+      }
+     },
+     "emo_any": {
+      "in": 0.4182,
+      "out": 0.1238,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.2606,
+       "p": 0.0,
+       "share_pos": 0.817
+      }
+     },
+     "elong": {
+      "in": 0.1063,
+      "out": 0.0322,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.0642,
+       "p": 0.0,
+       "share_pos": 0.486
+      }
+     },
+     "end_period": {
+      "in": 0.0119,
+      "out": 0.0461,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": -0.0189,
+       "p": 0.0029,
+       "share_pos": 0.046
+      }
+     },
+     "any_period_end": {
+      "in": 0.0196,
+      "out": 0.0637,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": -0.0228,
+       "p": 0.0025,
+       "share_pos": 0.073
+      }
+     },
+     "end_excl": {
+      "in": 0.079,
+      "out": 0.1001,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": -0.0253,
+       "p": 0.0527,
+       "share_pos": 0.266
+      }
+     },
+     "punct_frac": {
+      "in": 0.2151,
+      "out": 0.3548,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": -0.1351,
+       "p": 0.0,
+       "share_pos": 0.183
+      }
+     },
+     "starts_lower": {
+      "in": 0.0189,
+      "out": 0.0303,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.0002,
+       "p": 0.9692,
+       "share_pos": 0.092
+      }
+     },
+     "abbr": {
+      "in": 0.158,
+      "out": 0.2081,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": -0.0502,
+       "p": 0.0007,
+       "share_pos": 0.303
+      }
+     },
+     "q": {
+      "in": 0.2545,
+      "out": 0.2803,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": -0.0391,
+       "p": 0.0386,
+       "share_pos": 0.376
+      }
+     },
+     "ellipsis": {
+      "in": 0.0357,
+      "out": 0.034,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.0054,
+       "p": 0.4942,
+       "share_pos": 0.174
+      }
+     },
+     "multi_punct": {
+      "in": 0.0622,
+      "out": 0.04,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.029,
+       "p": 0.0075,
+       "share_pos": 0.257
+      }
+     },
+     "caps_word": {
+      "in": 0.0154,
+      "out": 0.0018,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.0132,
+       "p": 0.0022,
+       "share_pos": 0.138
+      }
+     },
+     "logc": {
+      "in": 3.8002,
+      "out": 3.5904,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.2922,
+       "p": 0.0,
+       "share_pos": 0.734
+      }
+     },
+     "n_msgs": {
+      "in": 1.9476,
+      "out": 1.588,
+      "within": {
+       "n_spk": 109,
+       "mean_diff": 0.3382,
+       "p": 0.0,
+       "share_pos": 0.752
+      }
+     }
+    }
+   },
+   "negative_valence(<1.5)": {
+    "n_in": 305,
+    "share": 0.099,
+    "feat": {
+     "laugh": {
+      "in": 0.0787,
+      "out": 0.1998,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.0986,
+       "p": 0.0,
+       "share_pos": 0.125
+      }
+     },
+     "emo_any": {
+      "in": 0.2426,
+      "out": 0.2625,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": 0.0244,
+       "p": 0.4732,
+       "share_pos": 0.396
+      }
+     },
+     "elong": {
+      "in": 0.0492,
+      "out": 0.0685,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.0197,
+       "p": 0.2384,
+       "share_pos": 0.104
+      }
+     },
+     "end_period": {
+      "in": 0.0492,
+      "out": 0.0281,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": 0.0051,
+       "p": 0.6147,
+       "share_pos": 0.125
+      }
+     },
+     "any_period_end": {
+      "in": 0.0656,
+      "out": 0.0408,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": 0.0041,
+       "p": 0.7327,
+       "share_pos": 0.167
+      }
+     },
+     "end_excl": {
+      "in": 0.0262,
+      "out": 0.0974,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.0389,
+       "p": 0.0014,
+       "share_pos": 0.062
+      }
+     },
+     "punct_frac": {
+      "in": 0.2123,
+      "out": 0.2984,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.0805,
+       "p": 0.0097,
+       "share_pos": 0.396
+      }
+     },
+     "starts_lower": {
+      "in": 0.0066,
+      "out": 0.027,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.0102,
+       "p": 0.3646,
+       "share_pos": 0.042
+      }
+     },
+     "abbr": {
+      "in": 0.0852,
+      "out": 0.1958,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.09,
+       "p": 0.0009,
+       "share_pos": 0.208
+      }
+     },
+     "q": {
+      "in": 0.1934,
+      "out": 0.2766,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.0906,
+       "p": 0.0112,
+       "share_pos": 0.375
+      }
+     },
+     "ellipsis": {
+      "in": 0.082,
+      "out": 0.0296,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": 0.025,
+       "p": 0.1868,
+       "share_pos": 0.125
+      }
+     },
+     "multi_punct": {
+      "in": 0.0328,
+      "out": 0.0523,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": -0.0001,
+       "p": 0.9937,
+       "share_pos": 0.125
+      }
+     },
+     "caps_word": {
+      "in": 0.0131,
+      "out": 0.0076,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": 0.0015,
+       "p": 0.8323,
+       "share_pos": 0.062
+      }
+     },
+     "logc": {
+      "in": 3.92,
+      "out": 3.6623,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": 0.1828,
+       "p": 0.0059,
+       "share_pos": 0.646
+      }
+     },
+     "n_msgs": {
+      "in": 2.1115,
+      "out": 1.7158,
+      "within": {
+       "n_spk": 48,
+       "mean_diff": 0.261,
+       "p": 0.0036,
+       "share_pos": 0.667
+      }
+     }
+    }
+   }
+  },
+  "prev": {
+   "n_turns": 2663,
+   "serious(>=2)": {
+    "n_in": 60,
+    "share": 0.023,
+    "feat": {
+     "laugh": {
+      "in": 0.1667,
+      "out": 0.2055,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.1833,
+      "out": 0.2562,
+      "within": null
+     },
+     "elong": {
+      "in": 0.05,
+      "out": 0.0653,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0,
+      "out": 0.0284,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.0167,
+      "out": 0.0403,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.0167,
+      "out": 0.0922,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.2619,
+      "out": 0.2642,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.0,
+      "out": 0.0223,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.2167,
+      "out": 0.1905,
+      "within": null
+     },
+     "q": {
+      "in": 0.3667,
+      "out": 0.2221,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.1333,
+      "out": 0.0338,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.0667,
+      "out": 0.0423,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0085,
+      "within": null
+     },
+     "logc": {
+      "in": 3.9076,
+      "out": 3.6116,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 2.1167,
+      "out": 1.7657,
+      "within": null
+     }
+    }
+   },
+   "vulnerable": {
+    "n_in": 347,
+    "share": 0.13,
+    "feat": {
+     "laugh": {
+      "in": 0.2767,
+      "out": 0.1939,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.081,
+       "p": 0.0196,
+       "share_pos": 0.531
+      }
+     },
+     "emo_any": {
+      "in": 0.2738,
+      "out": 0.2517,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0411,
+       "p": 0.2587,
+       "share_pos": 0.408
+      }
+     },
+     "elong": {
+      "in": 0.0778,
+      "out": 0.063,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0335,
+       "p": 0.1584,
+       "share_pos": 0.286
+      }
+     },
+     "end_period": {
+      "in": 0.0432,
+      "out": 0.0255,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0286,
+       "p": 0.0942,
+       "share_pos": 0.122
+      }
+     },
+     "any_period_end": {
+      "in": 0.0634,
+      "out": 0.0363,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0369,
+       "p": 0.0274,
+       "share_pos": 0.184
+      }
+     },
+     "end_excl": {
+      "in": 0.0922,
+      "out": 0.0902,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": -0.0086,
+       "p": 0.6999,
+       "share_pos": 0.245
+      }
+     },
+     "punct_frac": {
+      "in": 0.2822,
+      "out": 0.2614,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0491,
+       "p": 0.0699,
+       "share_pos": 0.551
+      }
+     },
+     "starts_lower": {
+      "in": 0.0173,
+      "out": 0.0225,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": -0.0037,
+       "p": 0.573,
+       "share_pos": 0.041
+      }
+     },
+     "abbr": {
+      "in": 0.2334,
+      "out": 0.1848,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0149,
+       "p": 0.6308,
+       "share_pos": 0.429
+      }
+     },
+     "q": {
+      "in": 0.2738,
+      "out": 0.218,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0819,
+       "p": 0.0421,
+       "share_pos": 0.592
+      }
+     },
+     "ellipsis": {
+      "in": 0.0461,
+      "out": 0.0345,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.0121,
+       "p": 0.3007,
+       "share_pos": 0.102
+      }
+     },
+     "multi_punct": {
+      "in": 0.0432,
+      "out": 0.0427,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": -0.0036,
+       "p": 0.8127,
+       "share_pos": 0.061
+      }
+     },
+     "caps_word": {
+      "in": 0.0058,
+      "out": 0.0086,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": -0.01,
+       "p": 0.0153,
+       "share_pos": 0.0
+      }
+     },
+     "logc": {
+      "in": 3.8914,
+      "out": 3.5773,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.366,
+       "p": 0.0,
+       "share_pos": 0.857
+      }
+     },
+     "n_msgs": {
+      "in": 1.9625,
+      "out": 1.7453,
+      "within": {
+       "n_spk": 49,
+       "mean_diff": 0.2415,
+       "p": 0.012,
+       "share_pos": 0.653
+      }
+     }
+    }
+   },
+   "tension": {
+    "n_in": 97,
+    "share": 0.036,
+    "feat": {
+     "laugh": {
+      "in": 0.1649,
+      "out": 0.2062,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0699,
+       "p": 0.398,
+       "share_pos": 0.333
+      }
+     },
+     "emo_any": {
+      "in": 0.1134,
+      "out": 0.2599,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0784,
+       "p": 0.0808,
+       "share_pos": 0.2
+      }
+     },
+     "elong": {
+      "in": 0.0825,
+      "out": 0.0643,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0172,
+       "p": 0.6221,
+       "share_pos": 0.067
+      }
+     },
+     "end_period": {
+      "in": 0.0103,
+      "out": 0.0284,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0181,
+       "p": 0.1106,
+       "share_pos": 0.0
+      }
+     },
+     "any_period_end": {
+      "in": 0.0206,
+      "out": 0.0405,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.011,
+       "p": 0.6672,
+       "share_pos": 0.067
+      }
+     },
+     "end_excl": {
+      "in": 0.0515,
+      "out": 0.092,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0458,
+       "p": 0.305,
+       "share_pos": 0.067
+      }
+     },
+     "punct_frac": {
+      "in": 0.1902,
+      "out": 0.2669,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0286,
+       "p": 0.7051,
+       "share_pos": 0.333
+      }
+     },
+     "starts_lower": {
+      "in": 0.0103,
+      "out": 0.0222,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0036,
+       "p": 0.6648,
+       "share_pos": 0.067
+      }
+     },
+     "abbr": {
+      "in": 0.1237,
+      "out": 0.1937,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.04,
+       "p": 0.5109,
+       "share_pos": 0.333
+      }
+     },
+     "q": {
+      "in": 0.1959,
+      "out": 0.2264,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.004,
+       "p": 0.962,
+       "share_pos": 0.4
+      }
+     },
+     "ellipsis": {
+      "in": 0.0206,
+      "out": 0.0366,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0048,
+       "p": 0.8072,
+       "share_pos": 0.067
+      }
+     },
+     "multi_punct": {
+      "in": 0.0206,
+      "out": 0.0436,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0274,
+       "p": 0.1251,
+       "share_pos": 0.067
+      }
+     },
+     "caps_word": {
+      "in": 0.0103,
+      "out": 0.0082,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": 0.0075,
+       "p": 0.6064,
+       "share_pos": 0.067
+      }
+     },
+     "logc": {
+      "in": 3.5594,
+      "out": 3.6205,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.0963,
+       "p": 0.4962,
+       "share_pos": 0.4
+      }
+     },
+     "n_msgs": {
+      "in": 1.8557,
+      "out": 1.7705,
+      "within": {
+       "n_spk": 15,
+       "mean_diff": -0.041,
+       "p": 0.8199,
+       "share_pos": 0.467
+      }
+     }
+    }
+   },
+   "conflict_phase": {
+    "n_in": 44,
+    "share": 0.017,
+    "feat": {
+     "laugh": {
+      "in": 0.2045,
+      "out": 0.2047,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.1818,
+      "out": 0.2558,
+      "within": null
+     },
+     "elong": {
+      "in": 0.0682,
+      "out": 0.0649,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0455,
+      "out": 0.0275,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.0682,
+      "out": 0.0393,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.0227,
+      "out": 0.0916,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.2148,
+      "out": 0.265,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.0227,
+      "out": 0.0218,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.1364,
+      "out": 0.1921,
+      "within": null
+     },
+     "q": {
+      "in": 0.2273,
+      "out": 0.2253,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.0455,
+      "out": 0.0359,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.0227,
+      "out": 0.0431,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0455,
+      "out": 0.0076,
+      "within": null
+     },
+     "logc": {
+      "in": 3.7161,
+      "out": 3.6166,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 2.0455,
+      "out": 1.769,
+      "within": null
+     }
+    }
+   },
+   "deep_personal_phase": {
+    "n_in": 118,
+    "share": 0.044,
+    "feat": {
+     "laugh": {
+      "in": 0.2119,
+      "out": 0.2043,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0657,
+       "p": 0.156,
+       "share_pos": 0.25
+      }
+     },
+     "emo_any": {
+      "in": 0.1949,
+      "out": 0.2574,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0152,
+       "p": 0.818,
+       "share_pos": 0.417
+      }
+     },
+     "elong": {
+      "in": 0.1102,
+      "out": 0.0629,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0256,
+       "p": 0.5022,
+       "share_pos": 0.333
+      }
+     },
+     "end_period": {
+      "in": 0.0339,
+      "out": 0.0275,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0185,
+       "p": 0.3149,
+       "share_pos": 0.083
+      }
+     },
+     "any_period_end": {
+      "in": 0.0593,
+      "out": 0.0389,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0055,
+       "p": 0.8457,
+       "share_pos": 0.167
+      }
+     },
+     "end_excl": {
+      "in": 0.0593,
+      "out": 0.0919,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0092,
+       "p": 0.5493,
+       "share_pos": 0.167
+      }
+     },
+     "punct_frac": {
+      "in": 0.2816,
+      "out": 0.2633,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0189,
+       "p": 0.6783,
+       "share_pos": 0.417
+      }
+     },
+     "starts_lower": {
+      "in": 0.0085,
+      "out": 0.0224,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0139,
+       "p": 0.3388,
+       "share_pos": 0.083
+      }
+     },
+     "abbr": {
+      "in": 0.2119,
+      "out": 0.1902,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0195,
+       "p": 0.7416,
+       "share_pos": 0.417
+      }
+     },
+     "q": {
+      "in": 0.3051,
+      "out": 0.2216,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.007,
+       "p": 0.8863,
+       "share_pos": 0.5
+      }
+     },
+     "ellipsis": {
+      "in": 0.0932,
+      "out": 0.0334,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0191,
+       "p": 0.2796,
+       "share_pos": 0.25
+      }
+     },
+     "multi_punct": {
+      "in": 0.0678,
+      "out": 0.0417,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": 0.0239,
+       "p": 0.4999,
+       "share_pos": 0.25
+      }
+     },
+     "caps_word": {
+      "in": 0.0169,
+      "out": 0.0079,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0073,
+       "p": 0.4522,
+       "share_pos": 0.083
+      }
+     },
+     "logc": {
+      "in": 3.9663,
+      "out": 3.6021,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.0897,
+       "p": 0.6666,
+       "share_pos": 0.417
+      }
+     },
+     "n_msgs": {
+      "in": 1.9831,
+      "out": 1.7639,
+      "within": {
+       "n_spk": 12,
+       "mean_diff": -0.2288,
+       "p": 0.2899,
+       "share_pos": 0.333
+      }
+     }
+    }
+   },
+   "sad": {
+    "n_in": 57,
+    "share": 0.021,
+    "feat": {
+     "laugh": {
+      "in": 0.1579,
+      "out": 0.2057,
+      "within": null
+     },
+     "emo_any": {
+      "in": 0.3158,
+      "out": 0.2533,
+      "within": null
+     },
+     "elong": {
+      "in": 0.1228,
+      "out": 0.0637,
+      "within": null
+     },
+     "end_period": {
+      "in": 0.0351,
+      "out": 0.0276,
+      "within": null
+     },
+     "any_period_end": {
+      "in": 0.0351,
+      "out": 0.0399,
+      "within": null
+     },
+     "end_excl": {
+      "in": 0.1053,
+      "out": 0.0902,
+      "within": null
+     },
+     "punct_frac": {
+      "in": 0.2743,
+      "out": 0.2639,
+      "within": null
+     },
+     "starts_lower": {
+      "in": 0.0175,
+      "out": 0.0219,
+      "within": null
+     },
+     "abbr": {
+      "in": 0.193,
+      "out": 0.1911,
+      "within": null
+     },
+     "q": {
+      "in": 0.1754,
+      "out": 0.2264,
+      "within": null
+     },
+     "ellipsis": {
+      "in": 0.0526,
+      "out": 0.0357,
+      "within": null
+     },
+     "multi_punct": {
+      "in": 0.1053,
+      "out": 0.0414,
+      "within": null
+     },
+     "caps_word": {
+      "in": 0.0175,
+      "out": 0.0081,
+      "within": null
+     },
+     "logc": {
+      "in": 3.7587,
+      "out": 3.6152,
+      "within": null
+     },
+     "n_msgs": {
+      "in": 2.0175,
+      "out": 1.7682,
+      "within": null
+     }
+    }
+   },
+   "anger": {
+    "n_in": 124,
+    "share": 0.047,
+    "feat": {
+     "laugh": {
+      "in": 0.1935,
+      "out": 0.2052,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0141,
+       "p": 0.7734,
+       "share_pos": 0.273
+      }
+     },
+     "emo_any": {
+      "in": 0.1694,
+      "out": 0.2588,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.1189,
+       "p": 0.007,
+       "share_pos": 0.0
+      }
+     },
+     "elong": {
+      "in": 0.0887,
+      "out": 0.0638,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0608,
+       "p": 0.247,
+       "share_pos": 0.364
+      }
+     },
+     "end_period": {
+      "in": 0.0323,
+      "out": 0.0276,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0076,
+       "p": 0.5527,
+       "share_pos": 0.091
+      }
+     },
+     "any_period_end": {
+      "in": 0.0403,
+      "out": 0.0398,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0159,
+       "p": 0.5129,
+       "share_pos": 0.091
+      }
+     },
+     "end_excl": {
+      "in": 0.0484,
+      "out": 0.0926,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0479,
+       "p": 0.0542,
+       "share_pos": 0.0
+      }
+     },
+     "punct_frac": {
+      "in": 0.2009,
+      "out": 0.2672,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0099,
+       "p": 0.827,
+       "share_pos": 0.364
+      }
+     },
+     "starts_lower": {
+      "in": 0.0161,
+      "out": 0.0221,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.014,
+       "p": 0.3409,
+       "share_pos": 0.091
+      }
+     },
+     "abbr": {
+      "in": 0.1452,
+      "out": 0.1934,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0236,
+       "p": 0.7199,
+       "share_pos": 0.364
+      }
+     },
+     "q": {
+      "in": 0.1855,
+      "out": 0.2273,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0397,
+       "p": 0.5476,
+       "share_pos": 0.455
+      }
+     },
+     "ellipsis": {
+      "in": 0.0565,
+      "out": 0.0351,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0106,
+       "p": 0.1717,
+       "share_pos": 0.0
+      }
+     },
+     "multi_punct": {
+      "in": 0.0323,
+      "out": 0.0433,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0068,
+       "p": 0.7513,
+       "share_pos": 0.091
+      }
+     },
+     "caps_word": {
+      "in": 0.0081,
+      "out": 0.0083,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0038,
+       "p": 0.3409,
+       "share_pos": 0.0
+      }
+     },
+     "logc": {
+      "in": 3.8469,
+      "out": 3.6071,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.109,
+       "p": 0.3866,
+       "share_pos": 0.818
+      }
+     },
+     "n_msgs": {
+      "in": 1.9435,
+      "out": 1.7653,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0034,
+       "p": 0.9815,
+       "share_pos": 0.545
+      }
+     }
+    }
+   },
+   "flirting": {
+    "n_in": 106,
+    "share": 0.04,
+    "feat": {
+     "laugh": {
+      "in": 0.3868,
+      "out": 0.1971,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.1267,
+       "p": 0.2062,
+       "share_pos": 0.727
+      }
+     },
+     "emo_any": {
+      "in": 0.3868,
+      "out": 0.2491,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0937,
+       "p": 0.209,
+       "share_pos": 0.636
+      }
+     },
+     "elong": {
+      "in": 0.0472,
+      "out": 0.0657,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0388,
+       "p": 0.2213,
+       "share_pos": 0.182
+      }
+     },
+     "end_period": {
+      "in": 0.0094,
+      "out": 0.0285,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0119,
+       "p": 0.3409,
+       "share_pos": 0.0
+      }
+     },
+     "any_period_end": {
+      "in": 0.0472,
+      "out": 0.0395,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0037,
+       "p": 0.8917,
+       "share_pos": 0.091
+      }
+     },
+     "end_excl": {
+      "in": 0.066,
+      "out": 0.0915,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0002,
+       "p": 0.996,
+       "share_pos": 0.182
+      }
+     },
+     "punct_frac": {
+      "in": 0.1706,
+      "out": 0.268,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.1001,
+       "p": 0.0368,
+       "share_pos": 0.273
+      }
+     },
+     "starts_lower": {
+      "in": 0.0189,
+      "out": 0.0219,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0077,
+       "p": 0.5431,
+       "share_pos": 0.091
+      }
+     },
+     "abbr": {
+      "in": 0.1887,
+      "out": 0.1912,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0862,
+       "p": 0.2064,
+       "share_pos": 0.091
+      }
+     },
+     "q": {
+      "in": 0.1604,
+      "out": 0.228,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.1194,
+       "p": 0.0129,
+       "share_pos": 0.182
+      }
+     },
+     "ellipsis": {
+      "in": 0.0189,
+      "out": 0.0368,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": 0.0084,
+       "p": 0.8138,
+       "share_pos": 0.091
+      }
+     },
+     "multi_punct": {
+      "in": 0.0283,
+      "out": 0.0434,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0252,
+       "p": 0.0221,
+       "share_pos": 0.0
+      }
+     },
+     "caps_word": {
+      "in": 0.0,
+      "out": 0.0086,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.0122,
+       "p": 0.0819,
+       "share_pos": 0.0
+      }
+     },
+     "logc": {
+      "in": 3.6205,
+      "out": 3.6182,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.1694,
+       "p": 0.4868,
+       "share_pos": 0.273
+      }
+     },
+     "n_msgs": {
+      "in": 1.9151,
+      "out": 1.7677,
+      "within": {
+       "n_spk": 11,
+       "mean_diff": -0.2811,
+       "p": 0.1801,
+       "share_pos": 0.273
+      }
+     }
+    }
+   },
+   "playful": {
+    "n_in": 1270,
+    "share": 0.477,
+    "feat": {
+     "laugh": {
+      "in": 0.3071,
+      "out": 0.1113,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.1577,
+       "p": 0.0,
+       "share_pos": 0.728
+      }
+     },
+     "emo_any": {
+      "in": 0.326,
+      "out": 0.1895,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.0735,
+       "p": 0.0001,
+       "share_pos": 0.612
+      }
+     },
+     "elong": {
+      "in": 0.0709,
+      "out": 0.0596,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": -0.0103,
+       "p": 0.3407,
+       "share_pos": 0.243
+      }
+     },
+     "end_period": {
+      "in": 0.0205,
+      "out": 0.0345,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": -0.0107,
+       "p": 0.2716,
+       "share_pos": 0.117
+      }
+     },
+     "any_period_end": {
+      "in": 0.0323,
+      "out": 0.0467,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": -0.0058,
+       "p": 0.6264,
+       "share_pos": 0.175
+      }
+     },
+     "end_excl": {
+      "in": 0.0992,
+      "out": 0.0826,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.0092,
+       "p": 0.4112,
+       "share_pos": 0.379
+      }
+     },
+     "punct_frac": {
+      "in": 0.2487,
+      "out": 0.2782,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": -0.0327,
+       "p": 0.0727,
+       "share_pos": 0.456
+      }
+     },
+     "starts_lower": {
+      "in": 0.0173,
+      "out": 0.0258,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.0057,
+       "p": 0.2631,
+       "share_pos": 0.117
+      }
+     },
+     "abbr": {
+      "in": 0.178,
+      "out": 0.2032,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": -0.0092,
+       "p": 0.6258,
+       "share_pos": 0.456
+      }
+     },
+     "q": {
+      "in": 0.2071,
+      "out": 0.2419,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": -0.04,
+       "p": 0.0413,
+       "share_pos": 0.427
+      }
+     },
+     "ellipsis": {
+      "in": 0.0346,
+      "out": 0.0373,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": -0.0012,
+       "p": 0.8963,
+       "share_pos": 0.155
+      }
+     },
+     "multi_punct": {
+      "in": 0.0465,
+      "out": 0.0395,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.0165,
+       "p": 0.1022,
+       "share_pos": 0.262
+      }
+     },
+     "caps_word": {
+      "in": 0.0118,
+      "out": 0.005,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.0049,
+       "p": 0.1213,
+       "share_pos": 0.097
+      }
+     },
+     "logc": {
+      "in": 3.6162,
+      "out": 3.6201,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.0339,
+       "p": 0.5081,
+       "share_pos": 0.573
+      }
+     },
+     "n_msgs": {
+      "in": 1.8323,
+      "out": 1.72,
+      "within": {
+       "n_spk": 103,
+       "mean_diff": 0.1002,
+       "p": 0.021,
+       "share_pos": 0.592
+      }
+     }
+    }
+   },
+   "negative_valence(<1.5)": {
+    "n_in": 274,
+    "share": 0.103,
+    "feat": {
+     "laugh": {
+      "in": 0.1934,
+      "out": 0.2059,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": -0.0301,
+       "p": 0.3509,
+       "share_pos": 0.279
+      }
+     },
+     "emo_any": {
+      "in": 0.2007,
+      "out": 0.2608,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": -0.0544,
+       "p": 0.1017,
+       "share_pos": 0.302
+      }
+     },
+     "elong": {
+      "in": 0.073,
+      "out": 0.064,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0098,
+       "p": 0.6442,
+       "share_pos": 0.233
+      }
+     },
+     "end_period": {
+      "in": 0.0438,
+      "out": 0.026,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0242,
+       "p": 0.2289,
+       "share_pos": 0.14
+      }
+     },
+     "any_period_end": {
+      "in": 0.0474,
+      "out": 0.0389,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0084,
+       "p": 0.6849,
+       "share_pos": 0.14
+      }
+     },
+     "end_excl": {
+      "in": 0.0511,
+      "out": 0.095,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": -0.028,
+       "p": 0.024,
+       "share_pos": 0.093
+      }
+     },
+     "punct_frac": {
+      "in": 0.2282,
+      "out": 0.2682,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": -0.0094,
+       "p": 0.7533,
+       "share_pos": 0.372
+      }
+     },
+     "starts_lower": {
+      "in": 0.0219,
+      "out": 0.0218,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0145,
+       "p": 0.3988,
+       "share_pos": 0.093
+      }
+     },
+     "abbr": {
+      "in": 0.135,
+      "out": 0.1976,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": -0.0532,
+       "p": 0.009,
+       "share_pos": 0.279
+      }
+     },
+     "q": {
+      "in": 0.1934,
+      "out": 0.229,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": -0.0369,
+       "p": 0.2213,
+       "share_pos": 0.372
+      }
+     },
+     "ellipsis": {
+      "in": 0.0511,
+      "out": 0.0343,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0133,
+       "p": 0.501,
+       "share_pos": 0.093
+      }
+     },
+     "multi_punct": {
+      "in": 0.0474,
+      "out": 0.0423,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0045,
+       "p": 0.6953,
+       "share_pos": 0.14
+      }
+     },
+     "caps_word": {
+      "in": 0.0109,
+      "out": 0.008,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0043,
+       "p": 0.665,
+       "share_pos": 0.047
+      }
+     },
+     "logc": {
+      "in": 3.7008,
+      "out": 3.6088,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0578,
+       "p": 0.354,
+       "share_pos": 0.535
+      }
+     },
+     "n_msgs": {
+      "in": 1.8869,
+      "out": 1.7606,
+      "within": {
+       "n_spk": 43,
+       "mean_diff": 0.0222,
+       "p": 0.7769,
+       "share_pos": 0.419
+      }
+     }
+    }
+   }
+  }
+ }
+}
