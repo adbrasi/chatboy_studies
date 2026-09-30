@@ -158,13 +158,14 @@ def all_texts(split, conds):
     return pts, G, pairs
 
 
-def jev(split, configs):
+def jev(split, configs, finals=None):
     pts, G, pairs = all_texts(split, configs)
     C.jev_eval(pairs, workers=4, tag=f"pipe-cands-{split}")  # 1º: candidatas (a escolha pelo banco depende delas)
     G = C.load_gen()
     fin = []
+    finals = finals or (["A", "NCT+N"] + [x + "+N" for x in configs] + [x + "-N" for x in configs])
     for m in C.MODELS:
-        for c in ["A", "NCT+N"] + [x + "+N" for x in configs] + [x + "-N" for x in configs]:
+        for c in finals:
             for p in pts:
                 t, _ = final(p, m, c, G)
                 if t and t.strip():
@@ -204,4 +205,7 @@ def analyze(split, configs):
 if __name__ == "__main__":
     a = sys.argv
     cfgs = a[3].split(",") if len(a) > 3 else list(CONFIGS)
-    {"gen": gen, "jev": jev, "analyze": analyze}[a[1]](a[2], cfgs)
+    if a[1] == "jev":
+        jev(a[2], cfgs, a[4].split(",") if len(a) > 4 else None)
+    else:
+        {"gen": gen, "analyze": analyze}[a[1]](a[2], cfgs)

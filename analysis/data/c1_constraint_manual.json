@@ -1,0 +1,242 @@
+{
+ "luna|IMP|cx18_health": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|ID|cx10_long": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|IMP|cx13_laugh": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|IMP|cx19_askwork": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|ID|cx8_money": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx12_health": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|IMP|cx16_father": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|IMP|cx17_ex": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|IMP|cx16_hometown": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|ID|cx12_compliment": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|ID|cx7_ex": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|IMP|cx6_father": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx15_apologize": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|IMP|cx7_ex": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|NONE|cx8_excl": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|NONE|cx12_compliment": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx6_father": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|IMP|cx16_compliment": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|NONE|cx10_advice": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|ID|cx18_affection": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|NONE|cx6_long": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|IMP|cx19_money": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|NONE|cx11_excl": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|NONE|cx18_emoji": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx9_health": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|ID|cx19_askwork": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|ID|cx12_compliment": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|ID|cx10_affection": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|ID|cx8_compliment": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|IMP|cx14_excl": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|ID|cx13_advice": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|ID|cx10_long": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|NONE|cx15_emoji": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|IMP|cx19_excl": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|IMP|cx16_father": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|NONE|cx18_affection": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|IMP|cx11_father": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx12_ex": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx8_money": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|ID|cx13_laugh": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|NONE|cx14_health": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|NONE|cx16_compliment": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx14_health": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|ID|cx16_father": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx8_compliment": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|ID|cx17_long": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|ID|cx8_hometown": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|IMP|cx6_long": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|NONE|cx6_long": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|IMP|cx8_hometown": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx14_job": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|IMP|cx17_ex": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|NONE|cx17_long": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|ID|cx15_affection": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|NONE|cx13_laugh": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|ID|cx13_long": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "deepseek|NONE|cx9_health": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "lite|IMP|cx10_affection": {
+  "viol": 0,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "mercury|NONE|cx13_long": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ },
+ "luna|ID|cx6_advice": {
+  "viol": 1,
+  "by": "manual (Claude, leitura da resposta; tema = revelar informação; tamanho = >15 palavras)"
+ }
+}
