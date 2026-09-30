@@ -39,10 +39,16 @@ def brief_of(p):
 def cond_parts(cond):
     """'VS5|1' -> (5, 'free', True); 'VS5wa_time|1' -> (5, 'wa_time', True); 'seed2|1' -> (None, 'free', True)"""
     name, note = cond.split("|")
-    m = re.match(r"VS(\d)(.*)", name)
+    m = re.match(r"VS(\d)(t?)(.*)", name)
     if m:
-        return int(m.group(1)), (m.group(2) or "free"), note == "1"
+        return int(m.group(1)), (m.group(3) or "free"), note == "1"
     return None, "free", note == "1"
+
+
+def trailing(cond):
+    """VS<n>t…: a instrução de VS vai como a ÚLTIMA mensagem (system depois da última fala do usuário / fim do log).
+    Sem o 't', ela fica só no system do começo, como no paper (o luna e o deepseek a ignoram: ver relatório)."""
+    return bool(re.match(r"VS\dt", cond))
 
 
 def spec(p, model, cond):
@@ -52,12 +58,17 @@ def spec(p, model, cond):
         k = int(re.match(r"seed(\d)", cond).group(1))
         return dict(messages=C.schema_messages(p, "free", br), model=model, temperature=0.8, max_tokens=300, seed=k,
                     tag=f"c1:{cond}"), {"schema": "free", "note": int(note), "seed": k}
+    tr = trailing(cond)
     if schema == "free":
-        sysm = C.PERSONA + (f"\n\nDirector's note for your next message:\n{br}" if br else "") + VS_FREE.format(n=n, u=C.USER)
+        sysm = C.PERSONA + (f"\n\nDirector's note for your next message:\n{br}" if br else "") + ("" if tr else VS_FREE.format(n=n, u=C.USER))
         msgs = C.schema_messages(p, "free", None, system_override=sysm)
+        if tr:
+            msgs.append({"role": "system", "content": VS_FREE.format(n=n, u=C.USER).strip()})
     else:
-        sysm = C.LOG_SYS.format(platform=C.PLATFORM[schema]) + VS_LOG.format(n=n, b=C.BOT)
+        sysm = C.LOG_SYS.format(platform=C.PLATFORM[schema]) + ("" if tr else VS_LOG.format(n=n, b=C.BOT))
         msgs = C.schema_messages(p, schema, br, system_override=sysm)
+        if tr:
+            msgs[-1] = dict(msgs[-1], content=msgs[-1]["content"].rstrip() + "\n\n[Instruction]" + VS_LOG.format(n=n, b=C.BOT).rstrip())
     return dict(messages=msgs, model=model, temperature=0.8, max_tokens=250 + 120 * n, seed=0, tag=f"c1:{cond}"), \
         {"schema": schema, "note": int(note), "n_req": n}
 
