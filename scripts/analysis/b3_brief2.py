@@ -129,7 +129,9 @@ def build(p, cond, ctx):
     L.append(START)
     # ---- sorteios com a taxa humana do momento (mesmos números aleatórios entre condições)
     serious = cond in ("B2", "O2") and (j9["seriousness"] >= 1.8)
-    q = u(pid, "q") < rates["q"]
+    q = u(pid, "q") < rates["q"] or move_line in (MOVE2["ask_follow_up"], FAM2["ask"])  # sem conflito com o movimento
+    if move_line == MOVE2["react_only"]:
+        q = False
     L.append("You can end with one short, specific question (not 'what about you?')." if q else "No question.")
     tok = fp.get("laugh_token") or "lol"
     lg = u(pid, "laugh") < rates["laugh"] and not serious
@@ -148,7 +150,7 @@ def build(p, cond, ctx):
         L.append("Style: " + "; ".join(st) + ".")
     L.append(f"It must make sense as a direct reply to {USER}'s last message.")
     L.append("Never use: " + ", ".join(BAN2) + ".")
-    return "\n".join(L), {"q": q, "laugh": lg, "excl": ex, "emoji": em, "words": mw, "move_line": move_line, "elem": el}
+    return "\n".join(L), {"q": bool(q), "laugh": bool(lg), "excl": bool(ex), "emoji": bool(em), "words": mw, "move_line": move_line, "elem": el}
 
 
 def context():
@@ -203,7 +205,7 @@ def context():
         if ep and ge:
             el.append((max(ep.values()), max(ep, key=ep.get) == ge))
     ctx = {"chosen": chosen, "dist": {p["id"]: dists[p["id"]].get(chosen) for p in ev},
-           "tau_move": pick_tau(mv), "tau_fam": pick_tau(fam, 0.6), "tau_knn": pick_tau(kn),
+           "tau_move": pick_tau(mv, 0.6), "tau_fam": pick_tau(fam, 0.6), "tau_knn": pick_tau(kn, 0.6),
            "tau_elem": pick_tau(el, 0.5, 0.1), "base": kv_load("pred_base"), "elem": E}
     return ctx, R, allp
 
@@ -216,7 +218,7 @@ def main_build():
     out = {}
     for p in pts:
         p["jev"] = a9[p["id"]]["jev"]
-        out[p["id"]] = {"B1": a9[p["id"]]["brief"]["B"]}
+        out[p["id"]] = {"B1": a9[p["id"]].get("brief", {}).get("B", "")}
         for c in ("N2", "K2", "B2", "O2"):
             txt, meta = build(p, c, ctx)
             out[p["id"]][c] = txt
@@ -244,7 +246,7 @@ def main_gen(actors, conds):
     G = kv_load("gen2")
     for actor in actors:
         for cond in conds:
-            ids = [i for i in B if f"{actor}|{cond}" not in G.get(i, {})]
+            ids = [i for i in sorted(B)[:int(os.environ.get("B3_N", "119"))] if f"{actor}|{cond}" not in G.get(i, {})]
             items = []
             for i in ids:
                 p = a9[i]

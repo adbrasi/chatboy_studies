@@ -37,7 +37,7 @@ def replies():
     G = kv_load("gen2")
     R = {}
     for i, g in G.items():
-        R[i] = {"H": a9[i]["human"], "D_haiku_hist": a9[i]["gen"].get("D")}
+        R[i] = {"H": a9[i]["human"], "D_haiku_hist": a9[i]["gen"].get("D"), "flash|B1_a9": a9[i]["gen"].get("B")}
         for k, v in g.items():
             if v:
                 R[i][k] = v
