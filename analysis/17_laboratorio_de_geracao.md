@@ -37,3 +37,12 @@
 - **VS:** com a instrução de VS só no system (como no paper), o luna e o deepseek **ignoram o pedido** (JSON em 63% e 3%);
   com a instrução como última mensagem, 93–100% de JSON válido. Sem nota, VS-5 + filtro de código leva a lite de D 3,90 para
   1,15 e o luna de 3,68 para 1,44 (4 seeds + o mesmo filtro: 2,67 e 2,96).
+
+## (checkpoint) Restrições como identidade × imperativo — TESTE concluído
+
+53 contextos de teste (14 personagens) × 4 atores. Sem restrição, o personagem viola o que a ficha proibiria em 64–83%
+dos casos; o imperativo derruba para 15–34% e a identidade em 3ª pessoa para 26–32%. **Identidade não é melhor que
+imperativo** (ICs sobrepostos em todos os atores; no deepseek o imperativo é melhor: 15% × 28%). Os dois formatos têm o
+mesmo custo colateral: menção indireta ao tema 30–55% (× 5–10% sem restrição), esquiva 19–36%, recusa explícita 13–30%,
+resposta "fria" 28–51% (× 2–11%) e coerência 0,72–0,85 (× 0,87–0,91). Checagem manual: 60 casos (não cega) + 20 cegos,
+concordância 100% com o Noul do Jev nos dois.

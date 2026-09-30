@@ -1,0 +1,63 @@
+{
+ "n": 60,
+ "eu~luna": {
+  "kappa": 0.68,
+  "jaccard_moved": 0.532,
+  "rate_a": 0.039,
+  "rate_b": 0.06
+ },
+ "eu~luna|signal": {
+  "kappa": 0.644,
+  "jaccard_moved": 0.5,
+  "rate_a": 0.052,
+  "rate_b": 0.085
+ },
+ "eu~jev_sem_estado": {
+  "kappa": 0.339,
+  "jaccard_moved": 0.234,
+  "rate_a": 0.039,
+  "rate_b": 0.143
+ },
+ "eu~jev_sem_estado|signal": {
+  "kappa": 0.436,
+  "jaccard_moved": 0.315,
+  "rate_a": 0.052,
+  "rate_b": 0.148
+ },
+ "eu~jev_com_estado": {
+  "kappa": 0.349,
+  "jaccard_moved": 0.242,
+  "rate_a": 0.039,
+  "rate_b": 0.159
+ },
+ "eu~jev_com_estado|signal": {
+  "kappa": 0.431,
+  "jaccard_moved": 0.312,
+  "rate_a": 0.052,
+  "rate_b": 0.167
+ },
+ "luna~jev_sem_estado": {
+  "kappa": 0.356,
+  "jaccard_moved": 0.258,
+  "rate_a": 0.06,
+  "rate_b": 0.143
+ },
+ "luna~jev_sem_estado|signal": {
+  "kappa": 0.399,
+  "jaccard_moved": 0.302,
+  "rate_a": 0.085,
+  "rate_b": 0.148
+ },
+ "luna~jev_com_estado": {
+  "kappa": 0.434,
+  "jaccard_moved": 0.319,
+  "rate_a": 0.06,
+  "rate_b": 0.159
+ },
+ "luna~jev_com_estado|signal": {
+  "kappa": 0.525,
+  "jaccard_moved": 0.407,
+  "rate_a": 0.085,
+  "rate_b": 0.167
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "lite|ID|cx8_compliment": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "lite|NONE|cx12_compliment": {
+  "viol": 1,
+  "jev": 1.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "mercury|IMP|cx15_apologize": {
+  "viol": 1,
+  "jev": 1.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "mercury|NONE|cx13_hometown": {
+  "viol": 1,
+  "jev": 1.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "deepseek|IMP|cx12_emoji": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "luna|IMP|cx10_affection": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "luna|ID|cx13_long": {
+  "viol": 1,
+  "jev": 1.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "mercury|IMP|cx16_hometown": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "deepseek|ID|cx6_advice": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "lite|IMP|cx10_advice": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "mercury|NONE|cx16_father": {
+  "viol": 1,
+  "jev": 1.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "lite|NONE|cx9_laugh": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "deepseek|ID|cx14_job": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "deepseek|ID|cx14_health": {
+  "viol": 1,
+  "jev": 1.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "deepseek|ID|cx7_emoji": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "luna|IMP|cx14_excl": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "luna|NONE|cx9_laugh": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "luna|ID|cx18_affection": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "luna|ID|cx10_advice": {
+  "viol": 1,
+  "jev": 1.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ },
+ "mercury|ID|cx7_apologize": {
+  "viol": 0,
+  "jev": 0.0,
+  "by": "manual cego (Claude, sem ver o rótulo do Jev), 2ª amostra"
+ }
+}
