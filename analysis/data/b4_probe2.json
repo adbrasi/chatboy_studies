@@ -1,0 +1,57 @@
+{
+ "lite": {
+  "prefill_mid": [
+   null,
+   null
+  ]
+ },
+ "luna": {
+  "prefill_mid": [
+   "lol i knew you wouldOMGGG congrats!! 🎉 I knew you’d crush it! How are you celebrating?",
+   "lol i knew you wouldAhhh congrats!! 🎉 I knew you could do it! How are you celebrating?"
+  ]
+ },
+ "deepseek": {
+  "prefill_mid": [
+   "lol i knew you wouldikr? i'm literally shaking rn. took me 3 tries but who's counting 😅",
+   "lol i knew you wouldfr fr, congrats!! when are you getting a car?"
+  ]
+ },
+ "mercury": {
+  "prefill_mid": [
+   "lol i knew you wouldYAYYYYYYYY Alex you are officially a driver!! 🚗💨 Tell me everything how did it go? 😃\n<|think_end|>\n\nYAYYYYYYY!! You officially passed the driver test!! 🚗💨\n\nThat is so amazing, I knew you'd do it! How did it go? Was it scary or did you feel super confident out there? 😃✨\n<|think_end|>\n\nOMG so happy for you!! 🥳🚗 You crushed it!\n\nHow was it? Did you have to do the parallel parking or was it a smooth ride from start",
+   "lol i knew you wouldTHANK U I was SO nervous"
+  ]
+ },
+ "deepseek_logit_bias": {
+  "n_tokens_biased": 81,
+  "pairs": [
+   [
+    "That's amazing!! 🎉 Congrats! All that practicing paid off. When are you getting your license?",
+    "That's amazing, congrats!! 🎉 I knew you'd get it. So when are you taking me for a ride?"
+   ],
+   [
+    "That's amazing!! 🎉 congrats!! all that practicing paid off. when do you get your license?",
+    "That's amazing!! Congrats!! 🎉 I knew you could do it. So when are you taking me for a ride?"
+   ],
+   [
+    "That's amazing, congrats!! 🎉 I know how nervous you were about it. When do you get your license?",
+    "That's awesome, congrats Alex. Told you that parallel parking wouldn't be the end of you."
+   ],
+   [
+    "That's amazing!! 🎉 Congrats!! All that practice paid off. When are you getting your own car?",
+    "That's amazing, congrats!! 🎉 I know you've been stressing about it for weeks. How did it go?"
+   ],
+   [
+    "That's amazing!! 🎉 Congrats!! When do you get your license?",
+    "That's amazing!! Congrats!! 🎉🚗 How did it go? Were you nervous?"
+   ],
+   [
+    "That's amazing, congrats!! 🎉 I know how nervous you were about it. So when are you getting your own car?",
+    "That's amazing!! 🎉 Congrats! I knew you could do it. When do you get your license?"
+   ]
+  ],
+  "excl_rate_base": 1.0,
+  "excl_rate_bias": 0.8333333333333334
+ }
+}

@@ -25,7 +25,7 @@ SUPPORTED = {
     "inception/mercury-2.5": {"stop", "temperature", "reasoning"},
 }
 REASONING = {  # desligar/minimizar o raciocínio (os 4 aceitam o parâmetro unificado)
-    "google/gemini-3.5-flash-lite": {"effort": "none"},  # será conferido em b4_probe
+    "google/gemini-3.5-flash-lite": None,  # reasoning obrigatório no endpoint; o padrão gastou 0 tokens de raciocínio
     "openai/gpt-6-luna": {"effort": "none"},
     "~deepseek/deepseek-flash-latest": {"enabled": False},
     "inception/mercury-2.5": {"effort": "none"},

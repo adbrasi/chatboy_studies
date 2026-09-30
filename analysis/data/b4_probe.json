@@ -1,0 +1,154 @@
+{
+ "lite": {
+  "reason_default": [
+   "NO WAY!! Huge congrats!! 🎉🚗 \n\nI knew you'd crush it! When are we going for a celebratory drive?",
+   {
+    "in": 24,
+    "out": 27,
+    "reason": 0
+   },
+   "stop",
+   7.47e-05
+  ],
+  "reason_off": [
+   null,
+   {},
+   "error",
+   0,
+   null
+  ],
+  "stop_!": [
+   null,
+   "error"
+  ],
+  "prefill_wait": [
+   null,
+   "error"
+  ],
+  "max5": [
+   null,
+   "error",
+   {}
+  ]
+ },
+ "luna": {
+  "reason_default": [
+   "OMG congrats!! 🎉 I knew you’d smash it! Where are you driving first?",
+   {
+    "in": 34,
+    "out": 51,
+    "reason": 26
+   },
+   "stop",
+   2.89e-05
+  ],
+  "reason_off": [
+   "OMG Alex, congrats!! 🎉 I knew you could do it! How are you celebrating?",
+   {
+    "in": 34,
+    "out": 24,
+    "reason": 0
+   },
+   "stop",
+   1.54e-05,
+   1.5376224517822266
+  ],
+  "stop_!": [
+   "AHH congrats!! 🎉🚗 You did it! So proud of you — where are we going for your first drive? 😄",
+   "stop"
+  ],
+  "prefill_wait": [
+   "waitOMG Alex, you did it!! 🥳🚗 I’m so proud of you! How are you celebrating?",
+   "stop"
+  ],
+  "max5": [
+   "OMG, Alex!! You passed!! 🎉🚗 I’m",
+   "length",
+   {
+    "in": 34,
+    "out": 16,
+    "reason": 0
+   }
+  ]
+ },
+ "deepseek": {
+  "reason_default": [
+   "Yesss Alex!! Congrats!! 🎉 That’s huge! Where are we going for your first drive?",
+   {
+    "in": 54,
+    "out": 220,
+    "reason": 195
+   },
+   "stop",
+   0.0001065
+  ],
+  "reason_off": [
+   "That's amazing!! Congrats!! 🎉 How does it feel to finally have your license?",
+   {
+    "in": 29,
+    "out": 20,
+    "reason": 0
+   },
+   "stop",
+   3.27e-05,
+   0.596900224685669
+  ],
+  "stop_!": [
+   "That's amazing, congrats",
+   "stop"
+  ],
+  "prefill_wait": [
+   "waitALEX WHAT. THAT'S HUGE!! congrats!! 🎉🎉 how many attempts was that?",
+   "stop"
+  ],
+  "max5": [
+   "That's amazing!!",
+   "length",
+   {
+    "in": 29,
+    "out": 4,
+    "reason": 0
+   }
+  ]
+ },
+ "mercury": {
+  "reason_default": [
+   "",
+   {
+    "in": 49,
+    "out": 394,
+    "reason": 394
+   },
+   "length",
+   6.11e-05
+  ],
+  "reason_off": [
+   "That's amazing, Alex! 🎉🚗 Huge congrats! How do you feel now that you're officially licensed?",
+   {
+    "in": 51,
+    "out": 27,
+    "reason": 0
+   },
+   "stop",
+   6.1e-06,
+   0.802133321762085
+  ],
+  "stop_!": [
+   "Sam: That’s awesome",
+   "stop"
+  ],
+  "prefill_wait": [
+   "waitOMG CONGRATS!! 😱🎉 how does it feel??",
+   "stop"
+  ],
+  "max5": [
+   "NO way!! That's",
+   "length",
+   {
+    "in": 49,
+    "out": 6,
+    "reason": 0
+   }
+  ]
+ }
+}

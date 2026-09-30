@@ -1,0 +1,1127 @@
+{
+ "maichat": {
+  "n_turns": 2871,
+  "n_msgs": 4177,
+  "pct_turns_R3": 9.09,
+  "n_R3": 261,
+  "pct_msgs_in_R3": 22.12,
+  "pct_turns_R5": 1.01,
+  "n_R5": 29,
+  "pct_msgs_in_R5": 3.95,
+  "pct_turns_R3s": 9.09,
+  "n_R3s": 261,
+  "pct_msgs_in_R3s": 22.12,
+  "pct_turns_R5s": 1.01,
+  "n_R5s": 29,
+  "pct_msgs_in_R5s": 3.95,
+  "dist_max60": {
+   "1": 0.6879,
+   "2": 0.2212,
+   "3": 0.062,
+   "4": 0.0188,
+   "5": 0.0073,
+   "6": 0.0014,
+   "7": 0.001,
+   "8": 0.0003
+  },
+  "R5_span_median_s": 28.849,
+  "speakers_ge30": 44,
+  "speaker_r3_p10_p50_p90": [
+   0.0,
+   5.3,
+   24.0
+  ],
+  "speaker_r5_p10_p50_p90": [
+   0.0,
+   0.0,
+   2.57
+  ],
+  "pct_speakers_with_any_R5": 22.7,
+  "share_R5_from_top10pct_speakers": 62.5,
+  "rho_speaker_multi_rate_vs_r3": 0.905,
+  "icc_R3_speaker": 0.094,
+  "conv_r3_p10_p50_p90": [
+   0.0,
+   5.4,
+   23.5
+  ],
+  "pct_convs_with_any_R5": 33.3,
+  "sessions_ge10_turns": 42,
+  "pct_sessions_ge10_with_R5": 33.3,
+  "pct_sessions_ge10_with_R3": 64.3,
+  "R5_per_conv_hour": 0.11,
+  "R3_per_conv_hour": 1.01,
+  "median_conv_minutes": 27.8,
+  "by_len": {
+   "1-20": {
+    "n": 1207,
+    "R3": 0.2,
+    "R5": 0.0
+   },
+   "21-40": {
+    "n": 867,
+    "R3": 2.9,
+    "R5": 0.3
+   },
+   "41-80": {
+    "n": 517,
+    "R3": 18.2,
+    "R5": 0.6
+   },
+   "81-160": {
+    "n": 241,
+    "R3": 47.3,
+    "R5": 4.6
+   },
+   "161-320": {
+    "n": 35,
+    "R3": 65.7,
+    "R5": 31.4
+   },
+   ">320": {
+    "n": 4,
+    "R3": 50.0,
+    "R5": 25.0
+   }
+  },
+  "share_R5_with_total_gt160": 41.4,
+  "by_session_pos": {
+   "first3": {
+    "n": 129,
+    "R3": 5.4,
+    "R5": 0.78
+   },
+   "middle": {
+    "n": 2616,
+    "R3": 9.2,
+    "R5": 0.99
+   },
+   "last3": {
+    "n": 126,
+    "R3": 10.3,
+    "R5": 1.59
+   }
+  },
+  "by_D_phase": {
+   "conflict_or_repair": {
+    "n": 121,
+    "R3": 1.7,
+    "R5": 0.0,
+    "lift_R3": 0.18,
+    "med_chars": 20.0
+   },
+   "deep_personal": {
+    "n": 89,
+    "R3": 12.4,
+    "R5": 3.37,
+    "lift_R3": 1.36,
+    "med_chars": 32.0
+   },
+   "logistics": {
+    "n": 450,
+    "R3": 11.3,
+    "R5": 2.22,
+    "lift_R3": 1.25,
+    "med_chars": 32.0
+   },
+   "opening": {
+    "n": 72,
+    "R3": 1.4,
+    "R5": 0.0,
+    "lift_R3": 0.15,
+    "med_chars": 11.5
+   },
+   "playful_banter": {
+    "n": 1544,
+    "R3": 8.5,
+    "R5": 0.91,
+    "lift_R3": 0.94,
+    "med_chars": 22.0
+   },
+   "small_talk": {
+    "n": 399,
+    "R3": 12.0,
+    "R5": 0.25,
+    "lift_R3": 1.32,
+    "med_chars": 33.0
+   },
+   "winding_down": {
+    "n": 196,
+    "R3": 8.2,
+    "R5": 0.51,
+    "lift_R3": 0.9,
+    "med_chars": 17.0
+   }
+  },
+  "by_D_intent": {
+   "answer": {
+    "n": 536,
+    "R3": 14.0,
+    "R5": 1.12,
+    "lift_R3": 1.54,
+    "med_chars": 29.0
+   },
+   "ask_question": {
+    "n": 469,
+    "R3": 11.9,
+    "R5": 1.07,
+    "lift_R3": 1.31,
+    "med_chars": 28.0
+   },
+   "change_topic": {
+    "n": 41,
+    "R3": 9.8,
+    "R5": 0.0,
+    "lift_R3": 1.07,
+    "med_chars": 38.0
+   },
+   "closing": {
+    "n": 88,
+    "R3": 11.4,
+    "R5": 1.14,
+    "lift_R3": 1.25,
+    "med_chars": 19.0
+   },
+   "comfort_support": {
+    "n": 24,
+    "R3": 4.2,
+    "R5": 0.0,
+    "lift_R3": 0.46,
+    "med_chars": 23.0
+   },
+   "compliment_affection": {
+    "n": 60,
+    "R3": 3.3,
+    "R5": 0.0,
+    "lift_R3": 0.37,
+    "med_chars": 17.5
+   },
+   "disagree_complain": {
+    "n": 240,
+    "R3": 3.3,
+    "R5": 0.42,
+    "lift_R3": 0.37,
+    "med_chars": 21.0
+   },
+   "greet": {
+    "n": 56,
+    "R3": 3.6,
+    "R5": 0.0,
+    "lift_R3": 0.39,
+    "med_chars": 8.5
+   },
+   "joke_tease": {
+    "n": 464,
+    "R3": 6.0,
+    "R5": 0.22,
+    "lift_R3": 0.66,
+    "med_chars": 22.5
+   },
+   "make_plans_logistics": {
+    "n": 124,
+    "R3": 11.3,
+    "R5": 3.23,
+    "lift_R3": 1.24,
+    "med_chars": 32.0
+   },
+   "react_acknowledge": {
+    "n": 374,
+    "R3": 2.9,
+    "R5": 0.27,
+    "lift_R3": 0.32,
+    "med_chars": 10.0
+   },
+   "share_feeling": {
+    "n": 147,
+    "R3": 8.8,
+    "R5": 0.68,
+    "lift_R3": 0.97,
+    "med_chars": 26.0
+   },
+   "share_story_or_info": {
+    "n": 248,
+    "R3": 14.9,
+    "R5": 3.63,
+    "lift_R3": 1.64,
+    "med_chars": 50.5
+   }
+  },
+  "by_D_emotion": {
+   "affection": {
+    "n": 113,
+    "R3": 4.4,
+    "R5": 1.77,
+    "lift_R3": 0.49,
+    "med_chars": 20.0
+   },
+   "amusement": {
+    "n": 217,
+    "R3": 13.4,
+    "R5": 0.0,
+    "lift_R3": 1.47,
+    "med_chars": 32.0
+   },
+   "anxiety_insecurity": {
+    "n": 66,
+    "R3": 7.6,
+    "R5": 0.0,
+    "lift_R3": 0.83,
+    "med_chars": 24.5
+   },
+   "boredom_disengaged": {
+    "n": 52,
+    "R3": 9.6,
+    "R5": 0.0,
+    "lift_R3": 1.06,
+    "med_chars": 24.0
+   },
+   "curiosity_interest": {
+    "n": 308,
+    "R3": 13.3,
+    "R5": 0.97,
+    "lift_R3": 1.46,
+    "med_chars": 28.0
+   },
+   "frustration_anger": {
+    "n": 203,
+    "R3": 4.9,
+    "R5": 0.49,
+    "lift_R3": 0.54,
+    "med_chars": 21.0
+   },
+   "gratitude": {
+    "n": 19,
+    "R3": 0.0,
+    "R5": 0.0,
+    "lift_R3": 0.0,
+    "med_chars": 12.0
+   },
+   "joy_excitement": {
+    "n": 230,
+    "R3": 18.7,
+    "R5": 3.91,
+    "lift_R3": 2.06,
+    "med_chars": 34.0
+   },
+   "neutral_informational": {
+    "n": 648,
+    "R3": 7.7,
+    "R5": 0.62,
+    "lift_R3": 0.85,
+    "med_chars": 28.0
+   },
+   "playful_teasing": {
+    "n": 940,
+    "R3": 6.8,
+    "R5": 0.96,
+    "lift_R3": 0.75,
+    "med_chars": 21.0
+   },
+   "sadness": {
+    "n": 32,
+    "R3": 6.2,
+    "R5": 3.12,
+    "lift_R3": 0.69,
+    "med_chars": 21.0
+   },
+   "surprise": {
+    "n": 43,
+    "R3": 16.3,
+    "R5": 0.0,
+    "lift_R3": 1.79,
+    "med_chars": 17.0
+   }
+  },
+  "by_D_relationship": {
+   "acquaintances_or_new": {
+    "n": 181,
+    "R3": 10.5,
+    "R5": 0.0,
+    "lift_R3": 1.15,
+    "med_chars": 27.0
+   },
+   "close_friends": {
+    "n": 1881,
+    "R3": 10.0,
+    "R5": 1.38,
+    "lift_R3": 1.1,
+    "med_chars": 25.0
+   },
+   "colleagues_or_classmates": {
+    "n": 389,
+    "R3": 10.0,
+    "R5": 0.77,
+    "lift_R3": 1.1,
+    "med_chars": 25.0
+   },
+   "family": {
+    "n": 161,
+    "R3": 3.1,
+    "R5": 0.0,
+    "lift_R3": 0.34,
+    "med_chars": 25.0
+   },
+   "flirting_or_crush": {
+    "n": 72,
+    "R3": 9.7,
+    "R5": 0.0,
+    "lift_R3": 1.07,
+    "med_chars": 22.0
+   },
+   "romantic_partners": {
+    "n": 187,
+    "R3": 1.6,
+    "R5": 0.0,
+    "lift_R3": 0.18,
+    "med_chars": 21.0
+   }
+  },
+  "D_effects_on_R3": {
+   "D_anxious": {
+    "OR_raw": 0.61,
+    "p_raw": 0.4209207537514561,
+    "OR_len_ctrl": 0.86,
+    "p_len_ctrl": 0.7880174917400327
+   },
+   "D_arousal": {
+    "OR_raw": 2.0,
+    "p_raw": 7.896137909748718e-16,
+    "OR_len_ctrl": 1.83,
+    "p_len_ctrl": 1.5951206995851734e-05
+   },
+   "D_tension": {
+    "OR_raw": 0.06,
+    "p_raw": 1.379681474458878e-05,
+    "OR_len_ctrl": 0.4,
+    "p_len_ctrl": 0.15819412356373852
+   },
+   "D_playful": {
+    "OR_raw": 1.31,
+    "p_raw": 0.5784790247489724,
+    "OR_len_ctrl": 3.28,
+    "p_len_ctrl": 0.03186234853545527
+   },
+   "D_flirting": {
+    "OR_raw": 0.53,
+    "p_raw": 0.43037900528153106,
+    "OR_len_ctrl": 1.95,
+    "p_len_ctrl": 0.3079727590843623
+   },
+   "D_vulnerable": {
+    "OR_raw": 9.11,
+    "p_raw": 1.07316497632003e-09,
+    "OR_len_ctrl": 0.96,
+    "p_len_ctrl": 0.9349072499590557
+   },
+   "D_seeks_support": {
+    "OR_raw": 0.32,
+    "p_raw": 0.1367117998066836,
+    "OR_len_ctrl": 0.89,
+    "p_len_ctrl": 0.8824617454220699
+   },
+   "D_seriousness": {
+    "OR_raw": 1.06,
+    "p_raw": 0.8272162598157236,
+    "OR_len_ctrl": 0.38,
+    "p_len_ctrl": 0.004627714143866498
+   },
+   "D_engagement": {
+    "OR_raw": 3.33,
+    "p_raw": 7.31317319921954e-36,
+    "OR_len_ctrl": 1.38,
+    "p_len_ctrl": 0.07506752552261042
+   },
+   "D_valence": {
+    "OR_raw": 2.04,
+    "p_raw": 1.0820631038129836e-07,
+    "OR_len_ctrl": 1.38,
+    "p_len_ctrl": 0.008780931307414194
+   }
+  },
+  "shape": {
+   "R3": {
+    "n": 261,
+    "n_msgs_mean": 3.54,
+    "total_chars_med": 83.0,
+    "bub_med": 21.5,
+    "first_bub_med": 24.0,
+    "ends_punct": 11.9,
+    "q_bub": 7.7,
+    "excl_bub": 3.6,
+    "laugh_bub": 4.2,
+    "caps_bub": 1.3,
+    "elong_bub": 4.4,
+    "emoji_bub": 1.5,
+    "selfcorr_turn": 3.4,
+    "latency_med": 8.181,
+    "gap_med": 7.1370000000000005,
+    "gap_p25_p75": [
+     4.044499999999999,
+     12.329999999999998
+    ],
+    "idle_med": 1.374,
+    "cps_med": 4.023292747485442,
+    "del_any": 49.5,
+    "abandoned": 3.0
+   },
+   "multi_not_R3": {
+    "n": 638,
+    "n_msgs_mean": 2.01,
+    "total_chars_med": 41.5,
+    "bub_med": 20.75,
+    "first_bub_med": 16.0,
+    "ends_punct": 10.3,
+    "q_bub": 6.4,
+    "excl_bub": 2.1,
+    "laugh_bub": 3.8,
+    "caps_bub": 2.5,
+    "elong_bub": 4.5,
+    "emoji_bub": 2.7,
+    "selfcorr_turn": 0.9,
+    "latency_med": 12.0,
+    "gap_med": 11.37,
+    "gap_p25_p75": [
+     6.2065,
+     21.0
+    ],
+    "idle_med": 3.014,
+    "cps_med": 4.393438851932887,
+    "del_any": 40.8,
+    "abandoned": 2.3
+   },
+   "single": {
+    "n": 1972,
+    "n_msgs_mean": 1.0,
+    "total_chars_med": 18.0,
+    "bub_med": 18.0,
+    "first_bub_med": 18.0,
+    "ends_punct": 9.9,
+    "q_bub": 7.3,
+    "excl_bub": 1.3,
+    "laugh_bub": 2.6,
+    "caps_bub": 2.4,
+    "elong_bub": 4.7,
+    "emoji_bub": 4.1,
+    "selfcorr_turn": 0.1,
+    "latency_med": 15.0,
+    "gap_med": null,
+    "gap_p25_p75": null,
+    "idle_med": NaN,
+    "cps_med": 5.291005291005291,
+    "del_any": 25.2,
+    "abandoned": 2.1
+   }
+  },
+  "partner_after": {
+   "R3": {
+    "next_latency_med": [
+     7.693,
+     10.71120689655172
+    ],
+    "next_chars_med": [
+     44.0,
+     42.57471264367816
+    ],
+    "next_nmsgs_mean": [
+     1.81,
+     1.7
+    ],
+    "next_R3_pct": [
+     20.7,
+     16.0
+    ],
+    "next_q_pct": [
+     14.3,
+     14.5
+    ],
+    "next_laugh_pct": [
+     7.3,
+     7.3
+    ],
+    "session_ends_pct": [
+     0.8,
+     0.1
+    ],
+    "_note": "[rajada, controle sem rajada com a mesma distribuição de tamanho]"
+   },
+   "R5": {
+    "next_latency_med": [
+     5.3294999999999995,
+     11.00927586206897
+    ],
+    "next_chars_med": [
+     41.0,
+     49.1551724137931
+    ],
+    "next_nmsgs_mean": [
+     2.11,
+     1.59
+    ],
+    "next_R3_pct": [
+     31.0,
+     14.2
+    ],
+    "next_q_pct": [
+     3.6,
+     13.1
+    ],
+    "next_laugh_pct": [
+     7.1,
+     8.8
+    ],
+    "session_ends_pct": [
+     3.4,
+     0.2
+    ],
+    "_note": "[rajada, controle sem rajada com a mesma distribuição de tamanho]"
+   }
+  }
+ },
+ "whatsapp_nl": {
+  "n_turns": 33396,
+  "n_msgs": 59798,
+  "pct_turns_R3": 15.76,
+  "n_R3": 5263,
+  "pct_msgs_in_R3": 33.27,
+  "pct_turns_R5": 1.81,
+  "n_R5": 606,
+  "pct_msgs_in_R5": 6.42,
+  "pct_turns_R3s": 10.91,
+  "n_R3s": 3642,
+  "pct_msgs_in_R3s": 24.21,
+  "pct_turns_R5s": 0.76,
+  "n_R5s": 253,
+  "pct_msgs_in_R5s": 2.94,
+  "dist_max60": {
+   "1": 0.556,
+   "2": 0.2864,
+   "3": 0.1054,
+   "4": 0.034,
+   "5": 0.0113,
+   "6": 0.004,
+   "7": 0.0014,
+   "8": 0.0015
+  },
+  "R5_span_median_s": 60.0,
+  "speakers_ge30": 83,
+  "speaker_r3_p10_p50_p90": [
+   2.8,
+   11.8,
+   28.5
+  ],
+  "speaker_r5_p10_p50_p90": [
+   0.0,
+   0.64,
+   4.9
+  ],
+  "pct_speakers_with_any_R5": 67.5,
+  "share_R5_from_top10pct_speakers": 67.2,
+  "rho_speaker_multi_rate_vs_r3": 0.914,
+  "icc_R3_speaker": 0.062,
+  "conv_r3_p10_p50_p90": [
+   4.4,
+   12.0,
+   27.4
+  ],
+  "pct_convs_with_any_R5": 73.7,
+  "sessions_ge10_turns": 987,
+  "pct_sessions_ge10_with_R5": 27.2,
+  "pct_sessions_ge10_with_R3": 86.6,
+  "R5_per_active_day_per_person": 0.114,
+  "R3_per_active_day_per_person": 0.987,
+  "pct_person_days_with_R5": 7.84,
+  "by_len": {
+   "1-20": {
+    "n": 9661,
+    "R3": 0.9,
+    "R5": 0.0
+   },
+   "21-40": {
+    "n": 8438,
+    "R3": 6.5,
+    "R5": 0.1
+   },
+   "41-80": {
+    "n": 8878,
+    "R3": 20.4,
+    "R5": 0.7
+   },
+   "81-160": {
+    "n": 4946,
+    "R3": 41.1,
+    "R5": 5.8
+   },
+   "161-320": {
+    "n": 1258,
+    "R3": 52.8,
+    "R5": 15.3
+   },
+   ">320": {
+    "n": 215,
+    "R3": 59.1,
+    "R5": 27.4
+   }
+  },
+  "share_R5_with_total_gt160": 41.4,
+  "by_session_pos": {
+   "first3": {
+    "n": 9085,
+    "R3": 15.1,
+    "R5": 1.85
+   },
+   "middle": {
+    "n": 18919,
+    "R3": 17.2,
+    "R5": 1.98
+   },
+   "last3": {
+    "n": 5392,
+    "R3": 11.8,
+    "R5": 1.17
+   }
+  },
+  "by_D_phase": {
+   "conflict_or_repair": {
+    "n": 50,
+    "R3": 14.0,
+    "R5": 4.0,
+    "lift_R3": 0.97,
+    "med_chars": 48.5
+   },
+   "deep_personal": {
+    "n": 127,
+    "R3": 28.3,
+    "R5": 3.94,
+    "lift_R3": 1.97,
+    "med_chars": 87.0
+   },
+   "logistics": {
+    "n": 1489,
+    "R3": 14.0,
+    "R5": 2.01,
+    "lift_R3": 0.98,
+    "med_chars": 48.0
+   },
+   "opening": {
+    "n": 125,
+    "R3": 6.4,
+    "R5": 1.6,
+    "lift_R3": 0.45,
+    "med_chars": 28.0
+   },
+   "playful_banter": {
+    "n": 656,
+    "R3": 15.9,
+    "R5": 1.68,
+    "lift_R3": 1.1,
+    "med_chars": 36.0
+   },
+   "small_talk": {
+    "n": 276,
+    "R3": 16.7,
+    "R5": 1.81,
+    "lift_R3": 1.16,
+    "med_chars": 47.5
+   },
+   "winding_down": {
+    "n": 277,
+    "R3": 7.6,
+    "R5": 1.08,
+    "lift_R3": 0.53,
+    "med_chars": 21.0
+   }
+  },
+  "by_D_intent": {
+   "answer": {
+    "n": 600,
+    "R3": 17.8,
+    "R5": 3.17,
+    "lift_R3": 1.24,
+    "med_chars": 48.0
+   },
+   "ask_question": {
+    "n": 609,
+    "R3": 13.6,
+    "R5": 1.64,
+    "lift_R3": 0.95,
+    "med_chars": 46.0
+   },
+   "closing": {
+    "n": 85,
+    "R3": 11.8,
+    "R5": 2.35,
+    "lift_R3": 0.82,
+    "med_chars": 27.0
+   },
+   "comfort_support": {
+    "n": 79,
+    "R3": 7.6,
+    "R5": 0.0,
+    "lift_R3": 0.53,
+    "med_chars": 55.0
+   },
+   "compliment_affection": {
+    "n": 49,
+    "R3": 12.2,
+    "R5": 0.0,
+    "lift_R3": 0.85,
+    "med_chars": 48.0
+   },
+   "disagree_complain": {
+    "n": 75,
+    "R3": 16.0,
+    "R5": 2.67,
+    "lift_R3": 1.11,
+    "med_chars": 49.0
+   },
+   "greet": {
+    "n": 35,
+    "R3": 8.6,
+    "R5": 2.86,
+    "lift_R3": 0.6,
+    "med_chars": 24.0
+   },
+   "joke_tease": {
+    "n": 183,
+    "R3": 15.8,
+    "R5": 1.09,
+    "lift_R3": 1.1,
+    "med_chars": 48.0
+   },
+   "make_plans_logistics": {
+    "n": 342,
+    "R3": 17.0,
+    "R5": 2.34,
+    "lift_R3": 1.18,
+    "med_chars": 66.0
+   },
+   "react_acknowledge": {
+    "n": 479,
+    "R3": 4.6,
+    "R5": 0.0,
+    "lift_R3": 0.32,
+    "med_chars": 10.0
+   },
+   "share_feeling": {
+    "n": 86,
+    "R3": 15.1,
+    "R5": 1.16,
+    "lift_R3": 1.05,
+    "med_chars": 43.0
+   },
+   "share_story_or_info": {
+    "n": 371,
+    "R3": 21.8,
+    "R5": 3.5,
+    "lift_R3": 1.52,
+    "med_chars": 64.0
+   }
+  },
+  "by_D_emotion": {
+   "affection": {
+    "n": 130,
+    "R3": 14.6,
+    "R5": 2.31,
+    "lift_R3": 1.02,
+    "med_chars": 50.0
+   },
+   "amusement": {
+    "n": 262,
+    "R3": 13.7,
+    "R5": 0.38,
+    "lift_R3": 0.96,
+    "med_chars": 25.0
+   },
+   "anxiety_insecurity": {
+    "n": 97,
+    "R3": 23.7,
+    "R5": 3.09,
+    "lift_R3": 1.65,
+    "med_chars": 83.0
+   },
+   "boredom_disengaged": {
+    "n": 17,
+    "R3": 11.8,
+    "R5": 0.0,
+    "lift_R3": 0.82,
+    "med_chars": 40.0
+   },
+   "curiosity_interest": {
+    "n": 273,
+    "R3": 15.0,
+    "R5": 2.56,
+    "lift_R3": 1.05,
+    "med_chars": 44.0
+   },
+   "frustration_anger": {
+    "n": 138,
+    "R3": 23.9,
+    "R5": 3.62,
+    "lift_R3": 1.66,
+    "med_chars": 57.5
+   },
+   "gratitude": {
+    "n": 82,
+    "R3": 7.3,
+    "R5": 0.0,
+    "lift_R3": 0.51,
+    "med_chars": 24.5
+   },
+   "joy_excitement": {
+    "n": 369,
+    "R3": 14.1,
+    "R5": 2.44,
+    "lift_R3": 0.98,
+    "med_chars": 39.0
+   },
+   "neutral_informational": {
+    "n": 1053,
+    "R3": 10.0,
+    "R5": 1.33,
+    "lift_R3": 0.69,
+    "med_chars": 39.0
+   },
+   "playful_teasing": {
+    "n": 489,
+    "R3": 19.8,
+    "R5": 3.07,
+    "lift_R3": 1.38,
+    "med_chars": 52.0
+   },
+   "sadness": {
+    "n": 55,
+    "R3": 25.5,
+    "R5": 1.82,
+    "lift_R3": 1.77,
+    "med_chars": 44.0
+   },
+   "surprise": {
+    "n": 35,
+    "R3": 8.6,
+    "R5": 0.0,
+    "lift_R3": 0.6,
+    "med_chars": 23.0
+   }
+  },
+  "by_D_relationship": {
+   "acquaintances_or_new": {
+    "n": 111,
+    "R3": 11.7,
+    "R5": 0.9,
+    "lift_R3": 0.82,
+    "med_chars": 24.0
+   },
+   "close_friends": {
+    "n": 1379,
+    "R3": 14.6,
+    "R5": 1.67,
+    "lift_R3": 1.01,
+    "med_chars": 42.0
+   },
+   "colleagues_or_classmates": {
+    "n": 1098,
+    "R3": 14.8,
+    "R5": 2.09,
+    "lift_R3": 1.03,
+    "med_chars": 45.0
+   },
+   "family": {
+    "n": 161,
+    "R3": 8.7,
+    "R5": 1.24,
+    "lift_R3": 0.61,
+    "med_chars": 40.0
+   },
+   "flirting_or_crush": {
+    "n": 92,
+    "R3": 14.1,
+    "R5": 5.43,
+    "lift_R3": 0.98,
+    "med_chars": 43.5
+   },
+   "romantic_partners": {
+    "n": 159,
+    "R3": 17.6,
+    "R5": 2.52,
+    "lift_R3": 1.23,
+    "med_chars": 45.0
+   }
+  },
+  "D_effects_on_R3": {
+   "D_anxious": {
+    "OR_raw": 7.91,
+    "p_raw": 2.4004420957109613e-15,
+    "OR_len_ctrl": 2.41,
+    "p_len_ctrl": 0.004978285208612349
+   },
+   "D_arousal": {
+    "OR_raw": 1.99,
+    "p_raw": 7.195467069377746e-22,
+    "OR_len_ctrl": 1.64,
+    "p_len_ctrl": 3.18507877373552e-07
+   },
+   "D_tension": {
+    "OR_raw": 1.69,
+    "p_raw": 0.18491800750925613,
+    "OR_len_ctrl": 2.71,
+    "p_len_ctrl": 0.04784631664215139
+   },
+   "D_playful": {
+    "OR_raw": 4.7,
+    "p_raw": 2.380706540644276e-09,
+    "OR_len_ctrl": 3.8,
+    "p_len_ctrl": 1.3918652914187277e-06
+   },
+   "D_flirting": {
+    "OR_raw": 2.26,
+    "p_raw": 0.0020436295304765905,
+    "OR_len_ctrl": 2.09,
+    "p_len_ctrl": 0.042630747680267415
+   },
+   "D_vulnerable": {
+    "OR_raw": 18.36,
+    "p_raw": 7.465472571001136e-35,
+    "OR_len_ctrl": 2.55,
+    "p_len_ctrl": 0.003773095646982102
+   },
+   "D_seeks_support": {
+    "OR_raw": 20.48,
+    "p_raw": 2.7711209991047406e-19,
+    "OR_len_ctrl": 5.94,
+    "p_len_ctrl": 8.23054340415857e-05
+   },
+   "D_seriousness": {
+    "OR_raw": 1.1,
+    "p_raw": 0.5148499353888449,
+    "OR_len_ctrl": 0.66,
+    "p_len_ctrl": 0.011001573017417767
+   },
+   "D_engagement": {
+    "OR_raw": 2.9,
+    "p_raw": 1.6088793558900824e-30,
+    "OR_len_ctrl": 1.34,
+    "p_len_ctrl": 0.01772508976166779
+   },
+   "D_valence": {
+    "OR_raw": 0.86,
+    "p_raw": 0.11804357610754192,
+    "OR_len_ctrl": 0.84,
+    "p_len_ctrl": 0.09460831524819201
+   }
+  },
+  "shape": {
+   "R3": {
+    "n": 5263,
+    "n_msgs_mean": 3.78,
+    "total_chars_med": 85.0,
+    "bub_med": 21.0,
+    "first_bub_med": 15.0,
+    "ends_punct": 18.9,
+    "q_bub": 10.5,
+    "excl_bub": 9.5,
+    "laugh_bub": 9.5,
+    "caps_bub": 0.7,
+    "elong_bub": 4.3,
+    "emoji_bub": 8.6,
+    "selfcorr_turn": 1.9,
+    "latency_med": 60.0
+   },
+   "multi_not_R3": {
+    "n": 10586,
+    "n_msgs_mean": 2.11,
+    "total_chars_med": 48.0,
+    "bub_med": 23.0,
+    "first_bub_med": 17.0,
+    "ends_punct": 24.9,
+    "q_bub": 16.1,
+    "excl_bub": 11.3,
+    "laugh_bub": 9.6,
+    "caps_bub": 0.4,
+    "elong_bub": 3.9,
+    "emoji_bub": 10.2,
+    "selfcorr_turn": 0.4,
+    "latency_med": 60.0
+   },
+   "single": {
+    "n": 17547,
+    "n_msgs_mean": 1.0,
+    "total_chars_med": 22.0,
+    "bub_med": 22.0,
+    "first_bub_med": 22.0,
+    "ends_punct": 28.9,
+    "q_bub": 20.3,
+    "excl_bub": 15.8,
+    "laugh_bub": 11.1,
+    "caps_bub": 0.5,
+    "elong_bub": 4.6,
+    "emoji_bub": 13.7,
+    "selfcorr_turn": 0.1,
+    "latency_med": 60.0
+   }
+  },
+  "partner_after": {
+   "R3": {
+    "next_latency_med": [
+     60.0,
+     87.05301159034771
+    ],
+    "next_chars_med": [
+     41.0,
+     46.915162454873645
+    ],
+    "next_nmsgs_mean": [
+     2.01,
+     1.84
+    ],
+    "next_R3_pct": [
+     21.3,
+     17.5
+    ],
+    "next_q_pct": [
+     20.9,
+     22.9
+    ],
+    "next_laugh_pct": [
+     24.7,
+     20.2
+    ],
+    "session_ends_pct": [
+     6.8,
+     9.1
+    ],
+    "_note": "[rajada, controle sem rajada com a mesma distribuição de tamanho]"
+   },
+   "R5": {
+    "next_latency_med": [
+     60.0,
+     109.7029702970297
+    ],
+    "next_chars_med": [
+     44.0,
+     57.656765676567666
+    ],
+    "next_nmsgs_mean": [
+     2.24,
+     1.99
+    ],
+    "next_R3_pct": [
+     26.4,
+     21.8
+    ],
+    "next_q_pct": [
+     21.7,
+     23.5
+    ],
+    "next_laugh_pct": [
+     30.6,
+     23.3
+    ],
+    "session_ends_pct": [
+     8.7,
+     8.9
+    ],
+    "_note": "[rajada, controle sem rajada com a mesma distribuição de tamanho]"
+   }
+  }
+ }
+}
