@@ -196,8 +196,9 @@
 
 ## ★ Próxima camada: técnicas de geração e estado vivo do personagem
 
-> Propostas do usuário, integradas à arquitetura. Ainda **não foram medidas** neste estudo; cada uma vem com o desenho
-> do teste. Onde há evidência nossa ou da literatura, ela é citada.
+> Propostas do usuário, integradas à arquitetura e **medidas na 3ª rodada** (relatórios 17 e 18; resultados no fim desta
+> seção). Parte ficou pela metade porque os créditos do OpenRouter acabaram, e cada relatório lista os comandos que faltam
+> rodar (quase tudo já está em cache).
 
 ### A. Geração com variações e probabilidade (Verbalized Sampling)
 **Ideia:** em vez de "escreva a resposta", pedir "escreva 3–5 variações, cada uma com a probabilidade de ser a resposta
@@ -384,6 +385,27 @@ conflito, pede desculpa, valida e acalma. A literatura confirma:
 
 **Teste em andamento:** 4–6 personas contrastantes × ~30 provocações, insultos, flertes e desculpas, com e sem a postura do
 Jev (relatório 18).
+
+### Resultados medidos das seções A–D (relatório 17)
+Teste: 119 pontos reais em 35 conversas. D = distância às taxas humanas (menor é melhor; o humano tem 0). Os 4 atores são os
+permitidos. Cada número do relatório 17 está marcado [TESTE] ou [DEV].
+
+| técnica | resultado | veredito |
+|---|---|---|
+| **D: cabeçalho de roleplay** com a ficha como **comportamentos situacionais** + nota do diretor no fim + normalizador, numa chamada ("P1") [TESTE] | D: flash-lite 3,79 → 1,26; luna 3,16 → 1,19; deepseek 1,55 → 1,17; mercury 2,15 → 1,19 (ICs pareados longe de 0). A mesma ficha com **adjetivos** fica em 2,9–3,3, igual à LLM pura [DEV] | **adotar como padrão.** Descrever a personalidade por comportamentos, nunca por adjetivos |
+| **C: gerar dentro de um log de chat** (7 schemas) [TESTE] | **Sem nenhuma instrução de estilo**, o log sozinho já corta o D (flash-lite 3,79 → 1,14 com o Messenger JSON; o JSON venceu o formato WhatsApp). Mas o deepseek **inventa a fala do usuário** em 38–48% dos logs de linha (mercury: até 34%), os JSONs quebram em até 52%, e **com a nota do diretor o schema deixa de importar** (D 1,03–1,34), e 3 dos 4 atores abandonam o formato em 21–100% dos casos | **a ideia está certa** (o formato ativa o registro de chat), **mas não como formato de produção**: a nota do diretor e o cabeçalho já capturam o ganho com menos risco. Os horários que a LLM propõe perdem para "copiar a latência anterior do personagem" (ρ 0,57 × 0,59): **o timing fica no código** |
+| **A: Verbalized Sampling** (N variações com probabilidade) [DEV] | Com a instrução só no system (como no paper), o luna e o deepseek **ignoram** o pedido (JSON válido em 63% e 3%); com a instrução como **última mensagem**, 90–100%. **Sem nota do diretor**, VS-5 + filtro de código vence 4 seeds com folga (flash-lite 1,15 × 2,67; luna 1,44 × 2,96). **Com a nota**, não vence. Escolher a de maior probabilidade é a pior estratégia. VS varia o **texto**, não o **movimento** | **útil quando não há diretor** (ou para diversificar a superfície). Com o diretor, o ganho é de 0–0,08 de D, por 2–4× o custo |
+| **B: restrições "nunca…"** (20 fichas, 53 contextos de tentação) [TESTE] | Sem restrição: violação em 64–83%. Imperativo ("não fale"): 15–34%. Identidade em 3ª pessoa ("ela nunca fala"): 26–32%. **A identidade não foi melhor.** Os dois formatos têm efeito colateral parecido: menção indireta ao tema em 30–55%, resposta fria em 28–51%, coerência caindo para 0,72–0,85. O Noul do Jev de violação bateu com a checagem manual em **80 de 80** casos | **a hipótese não se confirmou nesses atores.** O que funciona é qualquer formato + **um Noul do Jev por restrição** checando a saída + regenerar se violar |
+| escolha entre candidatas pelo banco atômico do Jev [DEV] | Com o banco dividido em metades (uma escolhe, a outra avalia, para não ser circular), o ganho persiste (P(LLM) 0,61 → 0,55), mas custa 0,03–0,10 de coerência | ganho pequeno; opcional nos momentos de maior risco |
+
+**Conclusão prática do relatório 17:**
+- **Cabeçalho de roleplay com a ficha comportamental + a nota do diretor do Jev no fim + normalizador de código, numa única
+  chamada**, deixa os 4 atores a D ≈ 1,1–1,3, contra 1,6–3,8 sem isso.
+- Gerar várias candidatas ou usar VS só vale sem diretor.
+- O timing e as bolhas ficam no código.
+- As restrições são checadas pelo Jev depois da geração.
+- **Falta no teste:** o banco, a coerência e o movimento dos pipelines. As gerações estão em disco, e medir custa só ~3,5 mil
+  chamadas ao Jev.
 
 ### Resultados medidos da seção E e da seção F (relatório 18)
 **Estado da relação:**
