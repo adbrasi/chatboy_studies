@@ -317,6 +317,28 @@ def main():
     R["latency"] = L
     R["cost_per_reply_usd"] = cpr
     R["cost_components"] = {"jev_brief_per_call": brief_cost, "jev_gate_per_call": gate_cost}
+    # ---------------- "o que escrever": movimento/tom rotulados pelo Jev (a9_moves.py)
+    mp = os.path.join(ADATA, "a9_moves.jsonl")
+    if os.path.exists(mp):
+        MV = {d["id"]: d for d in map(json.loads, open(mp))}
+        mids = [i for i in ids if i in MV]
+
+        def mv(i, c):
+            return None if c not in MV[i]["move"] else float(MV[i]["move"][c] == MV[i]["move"]["H"])
+
+        def tn(i, c):
+            return None if c not in MV[i]["tone"] else float(MV[i]["tone"][c] == MV[i]["tone"]["H"])
+        R["move_match_H"] = col(mv, MAIN + ["Bnojev"], mids)
+        R["tone_match_H"] = col(tn, MAIN + ["Bnojev"], mids)
+        sub36 = [i for i in mids if "Bnojev" in MV[i]["move"]]
+        R["move_paired"] = {"B-A": paired(mv, "B", "A", mids), "B-S": paired(mv, "B", "S", mids), "B-D": paired(mv, "B", "D", mids),
+                            "B-Bnojev(36)": paired(mv, "B", "Bnojev", sub36), "S-A": paired(mv, "S", "A", mids)}
+        R["move_H_dist"] = dict(Counter(MV[i]["move"]["H"] for i in mids))
+        R["move_dist"] = {c: dict(Counter(MV[i]["move"][c] for i in mids if c in MV[i]["move"])) for c in MAIN}
+        R["jev_pred_move_acc"] = cboot([float(pts[i]["jev"]["move"] == MV[i]["move"]["H"]) for i in mids], [grp[i] for i in mids])
+        R["jev_pred_move_majority"] = Counter(MV[i]["move"]["H"] for i in mids).most_common(1)[0][1] / len(mids)
+        R["B_realizes_briefed_move"] = float(np.mean([pts[i]["jev"]["move"] == MV[i]["move"]["B"] for i in mids]))
+        R["ask_follow_up_rate"] = {c: float(np.mean([MV[i]["move"].get(c) == "ask_follow_up" for i in mids])) for c in ["H"] + MAIN}
     json.dump(R, open(os.path.join(ADATA, "a9_results.json"), "w"), indent=1, ensure_ascii=False)
 
     # ---------------- vocabulário: tokens super-representados nas LLMs vs humanos (log-odds com prior)

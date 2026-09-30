@@ -10,7 +10,7 @@
 
 - **A LLM fala 2,2 a 2,6 vezes mais do que a pessoa no mesmo ponto da conversa.** Mediana de 73–88 caracteres contra 31,5 do humano. Em 76–90% dos pares a LLM foi mais longa. Frases por resposta: 2,4–2,8 contra 1,6. Respostas com 3 frases ou mais: 42–61% contra 13%.
 - **O "template em 3 tempos" é a assinatura mais forte.** A LLM reage ou valida, comenta ou parafraseia e fecha com uma pergunta de continuação em 19–25% das respostas (humano: 1,6%). "Reação seguida de pergunta" aparece em 24–30% (humano: 4,8%).
-- **A LLM pergunta demais.** 44–58% das respostas terminam em "?" contra 20% do humano (no maichat: 33–50% contra 11,5%). No "como vai?" a pergunta de volta aparece em 70–90% (humano: 35%). Diante de uma notícia boa, 56–64% (humano: 8%). Diante de um flerte ou carinho, 16–52% (humano: 0 de 25).
+- **A LLM pergunta demais.** 44–58% das respostas terminam em "?" contra 20% do humano (no maichat: 33–50% contra 11,5%). No "como vai?" a pergunta de volta aparece em 70–90% (humano: 35%). Diante de uma notícia boa, 56–64% (humano: 8%). Diante de um flerte ou carinho, 16–52% (humano: 0 de 25 terminaram em pergunta).
 - **Pontuação e emoji de "entusiasmo".** Há "!" em 40–92% das respostas da LLM (gpt-4o-mini: 92%) contra 6,8% do humano. O "!" é o n-grama mais "LLM" do corpus (log-odds z = 11,1). O Gemini põe emoji em 61% das respostas (humano: 2,4%) e 😂 em 14% (humano: 0%).
 - **Os dois extremos que o usuário percebeu existem e dependem do modelo.** O gpt-4o-mini erra para o lado **formal/assistente** (detector Jev "formal": AUC 0,80). Ele usa "Absolutely!", "I totally get that", "sorry to hear that" e "!" no fim de quase tudo. O Gemini erra para o lado **caricato** (detector "forced": AUC 0,76), com 💀/😭 em 8,4%, "lol/lmao" em 13,6%, "wait" em 13,2%, "honestly" em 4,8% das respostas (humano: 0%) e memórias compartilhadas inventadas ("the raccoon one", "that art contest back in college").
 - **A LLM repete o que a pessoa disse e valida demais.** Ela reaproveita duas ou mais palavras de conteúdo da última mensagem do outro em 14–21% das respostas (humano: 2,8%). O detector Jev de paráfrase separa bem (AUC 0,74; 0,69 com controle de tamanho), e o de validação excessiva também (AUC 0,69). "Sorry to hear" aparece em 30,7 de cada 1.000 respostas de LLM contra 0 de cada 1.000 mensagens no maichat. Ela também chama o usuário pelo nome em ~5% das respostas; humanos, 0%.
@@ -240,7 +240,7 @@ Os mais "humanos" foram: "i" · "u" · "what" (início) · "its" · "im" · "yes
 
 O prompt "com guia de estilo" (regras tiradas dos achados acima: 2–8 palavras, reagir a uma coisa, sem pergunta reflexa, sem fórmulas de validação, minúscula ok, ≤1 emoji, sem travessão, sem nome) **zerou a blacklist** e o template. Todos os detectores Jev e de código passam a achar a LLM "mais humana" que o humano (AUC < 0,5). Mas a resposta **ficou errada de outro jeito**:
 - **curta demais:** 0,59× o humano, com 43% em até 3 palavras (humano: 24%). Os dois lados perdem conteúdo. Onde o humano conta algo ("We would make hot chocolate and watch the Polar Express…"), a LLM com estilo manda "same";
-- **pergunta de menos:** 2% contra 20% (no empathetic, 12% contra 54% após desabafo). O humano *pergunta* quando alguém conta um problema ("Was it a birthday party?", "What seems to be the cause?");
+- **pergunta de menos:** 2% contra 20% (no empathetic, 12% contra 52% após desabafo). O humano *pergunta* quando alguém conta um problema ("Was it a birthday party?", "What seems to be the cause?");
 - **minúscula em 98–99,6%** contra 54–60% do humano;
 - **vícios substitutos:** "wait" no início em 12,4% (humano: 0%; ex.: "wait really", "wait no never lol", "wait why"), "tbh/ngl" em 9,6% (humano: 1,2%), "true" em 56/1.000 (humano: 8), "lol" em 80/1.000 (humano, mesmos pontos: 8), "ugh" em 28/1.000 (humano: 0);
 - lixo de formatação: `</p>` em 5 respostas do Gemini (2%).
@@ -254,7 +254,7 @@ No **best-of-3** (styled + 2 amostras com temperatura 1,0 e seeds diferentes), a
 ## 3. Padrões "invisíveis" que o bot deveria imitar
 
 1. **Reagir ao conteúdo, não à emoção.** Em notícia boa ou ruim, o humano comenta o fato ("u did scream", "because he hates peace", "omg that is so flop") em vez de nomear o sentimento ("That's amazing!", "I'm sorry you're feeling that way"). As fórmulas emocionais têm 0–1/1.000 no chat real.
-2. **Resposta de 1–3 palavras que reenquadra.** No flerte e na provocação, o humano responde com um rótulo seco ou uma releitura literal: "i miss ur face" → "its the same face as yesterday"; "affectionate." → "acceptable."; "dont mock my journey" → "your journey lasted 4 minutes"; "i was productive" → "define productive"; "you had three" → "allegedly". Nenhum dos 25 contextos de flerte teve pergunta na resposta humana.
+2. **Resposta de 1–3 palavras que reenquadra.** No flerte e na provocação, o humano responde com um rótulo seco ou uma releitura literal: "i miss ur face" → "its the same face as yesterday"; "affectionate." → "acceptable."; "dont mock my journey" → "your journey lasted 4 minutes"; "i was productive" → "define productive"; "you had three" → "allegedly". Nos 25 contextos de flerte, nenhuma resposta humana terminou em pergunta (só 1 tinha "?").
 3. **Flerte se responde com deflexão bem-humorada ou reciprocidade curta**, não com agradecimento. Veja "Love you xxx" → "Love you too" e "🥺🥺🥺 yes please / I miss you". A LLM responde "Aww, that's so sweet of you to say!!" (aww/sweet: 4,8% no Gemini, 0% no humano).
 4. **~1 em cada 5 respostas não responde à última mensagem.** A pessoa continua o próprio fio, muda de assunto com "btw", solta um carinho ("love you <3") ou uma logística ("btw are u coming to grandma's on sunday"). A LLM responde a tudo, sempre.
 5. **Metade das respostas humanas é "genérica"**: "true", "fair", "exactly", "haha", "same", "rude", "nice". É *backchannel*, não falta de atenção. No reconhecimento, a mediana é de 10 caracteres.
@@ -341,7 +341,13 @@ Esse conjunto separa as respostas baseline das humanas com **AUC 0,87–0,90** s
 - o Choice pareado "qual é humana?" (12% de acerto contra o Gemini);
 - `direct`, `generic` e `register`, que saem invertidos. Exigir "responde diretamente e de modo específico" empurra o bot para a LLM.
 
-Custo: ~US$ 0,00003 e ~0,5 s por chamada. A regeneração acontece em uma fração das respostas: com o prompt baseline, `paraphrase` > 0,5 em ≈ 30–35% e `overvalidation` > 0,35 em ≈ 20%. Esses números são estimativa pela média das distribuições medidas; conferir em produção.
+Custo: ~US$ 0,00003 e ~0,5 s por chamada. Com que frequência cada limiar dispara (medido nos 250 contextos, LLM baseline × humano, este último como taxa de falso positivo):
+- `paraphrase` > 0,5: 27–33% × 9%;
+- `overvalidation` > 0,35: 10–20% × 8%;
+- `forced` > 0,35: 23% no Gemini × 9%;
+- `formal` > 0,3: 41% no GPT × 11%.
+
+Com o prompt de estilo, todos caem para ≤ 9%.
 
 **N candidatos → escolha.** Como a amostragem com seeds rende pouca diversidade (2,64 distintos em 3) e o juiz de humanidade falha, gerar os candidatos com **briefings diferentes** (ex.: "só reage", "reage + um detalhe seu", "pergunta curta") e escolher em **código** pelo menor número de violações (C1 + J2), com desempate aleatório. Não use "qual soa mais humana?". O best-of-3 por gate Jev **não** melhorou nada no nosso teste.
 
