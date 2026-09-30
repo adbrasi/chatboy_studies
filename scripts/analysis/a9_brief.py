@@ -119,20 +119,27 @@ MOVE_TXT = {
     "greet_back": "Greet back casually.",
     "new_topic": "Bring up something new.",
 }
-MOMENT = [  # (condição, rótulo) em ordem de prioridade
-    (lambda j: j["closing"] > 0.6, f"{USER} is wrapping up"),
-    (lambda j: j["greeting"] > 0.6, "start of the chat"),
-    (lambda j: j["vulnerable"] > 0.6 or j["seriousness"] >= 2, f"serious moment, {USER} is sharing something personal"),
-    (lambda j: j["annoyed"] > 0.6, f"{USER} is annoyed with you"),
-    (lambda j: j["flirting"] > 0.6, f"{USER} is flirting with you"),
-    (lambda j: j["affection"] > 0.6, f"{USER} is being sweet to you"),
-    (lambda j: j["complaint"] > 0.6, f"{USER} is venting"),
-    (lambda j: j["good_news"] > 0.6, f"{USER} is sharing good news"),
-    (lambda j: j["teasing"] > 0.6, f"light banter, {USER} is teasing/joking"),
-    (lambda j: j["logistics"] > 0.6, "logistics/plans"),
-    (lambda j: j["minimal"] > 0.6, f"{USER} gave a minimal reply"),
-    (lambda j: True, "casual chat"),
-]
+MOMENT_LBL = {
+    "closing": f"{USER} is wrapping up", "greeting": "start of the chat",
+    "serious": f"serious moment, {USER} is sharing something personal", "annoyed": f"{USER} is annoyed with you",
+    "flirting": f"{USER} is flirting with you", "affection": f"{USER} is being sweet to you",
+    "complaint": f"{USER} is venting", "good_news": f"{USER} is sharing good news",
+    "teasing": f"light banter, {USER} is teasing/joking", "logistics": "logistics/plans",
+    "minimal": f"{USER} gave a minimal reply", "casual": "casual chat",
+}
+
+
+def moment_of(j):
+    """Rótulo do momento = argmax dos Nouls de leitura. Guardas aprendidas no dev: 'vulnerable' e 'annoyed' do Jev
+    disparam em provocação de brincadeira, então são descontados pela probabilidade de 'teasing'."""
+    c = {k: j[k] for k in ("closing", "greeting", "flirting", "affection", "complaint", "good_news", "teasing",
+                           "logistics", "minimal")}
+    c["serious"] = max(j["vulnerable"] * (1 - j["teasing"]), 1.0 if j["seriousness"] >= 1.8 else 0)
+    c["annoyed"] = j["annoyed"] * (1 - j["teasing"])
+    k = max(c, key=c.get)
+    return k if c[k] >= 0.55 else "casual"
+
+
 BAN = ["aww", "totally", "absolutely", "amazing", "sounds like", "that sounds", "I'd love", "honestly", "vibe(s)",
        "super", "definitely", "journey", "em dashes (—)", "exclamation marks"]
 
@@ -148,8 +155,8 @@ def build_brief(j, fp, variant="short"):
     if variant == "long":
         return build_long(j, fp)
     L = []
-    moment = next(lbl for cond, lbl in MOMENT if cond(j))
-    L.append(f"Moment: {moment}.")
+    moment = moment_of(j)
+    L.append(f"Moment: {MOMENT_LBL[moment]}.")
     L.append(MOVE_TXT[j["move"]])
     # tamanho: escala do Jev (quantis casados com os humanos) misturada com a "voz" da persona (mediana própria);
     # nº de bolhas: hábito da persona (o Score de bolhas do Jev não previu nada no dev: Spearman -0,16)
@@ -159,29 +166,32 @@ def build_brief(j, fp, variant="short"):
         mw = min(mw, 4)
     nb = 2 if (fp["bubbles_per_turn"] >= 1.5 and mw >= 7) else 1
     L.append(f"Max {mw} words" + (f", split into {nb} short messages, one per line." if nb > 1 else ", one message."))
+    no = []
     if j["p_question"] >= TH["q"] and j["move"] != "react_only":
         L.append("You can end with one short question.")
     else:
-        L.append("No question.")
+        no.append("no question")
     tok = fp.get("laugh_token") or "lol"
-    if j["p_laugh"] >= TH["laugh"] and j["seriousness"] < 2:
+    if j["p_laugh"] >= TH["laugh"] and moment != "serious":
         L.append(f"Laugh the way you usually do ('{tok}').")
-    else:
-        L.append("Don't laugh.")
+    elif j["p_laugh"] < 0.35 or moment == "serious":
+        no.append("no laughing")
     if j["p_emoji"] < TH["emoji"] or fp["emoji_frac"] < 0.05:
-        L.append("No emoji.")
-    if j["seriousness"] >= 2 or j["vulnerable"] > 0.6:
+        no.append("no emoji")
+    if no:
+        L.append(", ".join(no).capitalize() + ".")
+    if moment == "serious" and j["p_joke"] < 0.5:
         L.append("No jokes. Be simple and sincere.")
-    if j["p_overkill"] > 0.5 and j["p_excitement"] < 0.5:
+    elif j["p_overkill"] > 0.5 and j["p_excitement"] < 0.5:
         L.append("Keep it low-key, not gushing.")
     st = []
     if fp["lower_frac"] > 0.7:
         st.append("all lowercase")
     if fp["period_frac"] < 0.2:
         st.append("no final period")
-    st.append("texting abbreviations ok ('u', 'rn', 'idk')")
-    if fp.get("own_slang"):
-        st.append("words you use: " + ", ".join(fp["own_slang"]))
+        own_sl = [w for w in fp.get("own_slang", []) if not w.startswith("vibe")]
+    if own_sl:
+        st.append("words you use: " + ", ".join(own_sl))
     L.append("Style: " + "; ".join(st) + ".")
     if variant != "noban":
         L.append("Never use: " + ", ".join(BAN) + ".")

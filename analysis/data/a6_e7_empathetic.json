@@ -1,0 +1,523 @@
+{
+ "n": 192,
+ "per_class": 6,
+ "chance_fine": 0.03125,
+ "chance_group": 0.125,
+ "flat_first": {
+  "acc": 0.4322916666666667,
+  "top3": 0.6875,
+  "group_acc_from_flat": 0.671875,
+  "conf_mean": 0.7781249999999998,
+  "p_gold_mean": 0.41963541666666665
+ },
+ "group_first": {
+  "acc": 0.6302083333333334,
+  "conf_mean": 0.8527083333333333
+ },
+ "flat_two": {
+  "acc": 0.421875,
+  "top3": 0.6875,
+  "group_acc_from_flat": 0.65625,
+  "conf_mean": 0.7805208333333334,
+  "p_gold_mean": 0.4239583333333334
+ },
+ "group_two": {
+  "acc": 0.6354166666666666,
+  "conf_mean": 0.8553645833333334
+ },
+ "flat_full": {
+  "acc": 0.5052083333333334,
+  "top3": 0.71875,
+  "group_acc_from_flat": 0.75,
+  "conf_mean": 0.7986979166666667,
+  "p_gold_mean": 0.4652083333333333
+ },
+ "group_full": {
+  "acc": 0.703125,
+  "conf_mean": 0.863125
+ },
+ "hier_greedy_full": {
+  "acc": 0.4427083333333333
+ },
+ "hier_beam2_full": {
+  "acc": 0.4895833333333333
+ },
+ "group_x_flat_product_full": {
+  "acc": 0.4791666666666667
+ },
+ "calib_flat_full_by_conf": [
+  {
+   "bin": "[0.30,0.50)",
+   "n": 19,
+   "acc": 0.2631578947368421,
+   "mean_val": 0.4189473684210527
+  },
+  {
+   "bin": "[0.50,0.70)",
+   "n": 42,
+   "acc": 0.30952380952380953,
+   "mean_val": 0.6109523809523809
+  },
+  {
+   "bin": "[0.70,0.85)",
+   "n": 34,
+   "acc": 0.5588235294117647,
+   "mean_val": 0.7691176470588235
+  },
+  {
+   "bin": "[0.85,1.01)",
+   "n": 97,
+   "acc": 0.6185567010309279,
+   "mean_val": 0.9647422680412371
+  }
+ ],
+ "calib_flat_full_by_pmax": [
+  {
+   "bin": "[0.30,0.50)",
+   "n": 16,
+   "acc": 0.25,
+   "mean_val": 0.4375
+  },
+  {
+   "bin": "[0.50,0.70)",
+   "n": 40,
+   "acc": 0.25,
+   "mean_val": 0.6137500000000001
+  },
+  {
+   "bin": "[0.70,0.85)",
+   "n": 36,
+   "acc": 0.5833333333333334,
+   "mean_val": 0.7669444444444443
+  },
+  {
+   "bin": "[0.85,1.01)",
+   "n": 100,
+   "acc": 0.62,
+   "mean_val": 0.9658
+  }
+ ],
+ "calib_flat_full_groupacc_by_conf": [
+  {
+   "bin": "[0.30,0.50)",
+   "n": 19,
+   "acc": 0.47368421052631576,
+   "mean_val": 0.4189473684210527
+  },
+  {
+   "bin": "[0.50,0.70)",
+   "n": 42,
+   "acc": 0.5714285714285714,
+   "mean_val": 0.6109523809523809
+  },
+  {
+   "bin": "[0.70,0.85)",
+   "n": 34,
+   "acc": 0.7647058823529411,
+   "mean_val": 0.7691176470588235
+  },
+  {
+   "bin": "[0.85,1.01)",
+   "n": 97,
+   "acc": 0.8762886597938144,
+   "mean_val": 0.9647422680412371
+  }
+ ],
+ "ece_flat_full": 0.3059375,
+ "threshold_curve_flat_full": [
+  {
+   "thr": 0,
+   "coverage": 1.0,
+   "acc": 0.5052083333333334,
+   "group_acc": 0.75
+  },
+  {
+   "thr": 0.3,
+   "coverage": 1.0,
+   "acc": 0.5052083333333334,
+   "group_acc": 0.75
+  },
+  {
+   "thr": 0.4,
+   "coverage": 0.9739583333333334,
+   "acc": 0.5187165775401069,
+   "group_acc": 0.7647058823529411
+  },
+  {
+   "thr": 0.5,
+   "coverage": 0.9010416666666666,
+   "acc": 0.5317919075144508,
+   "group_acc": 0.7803468208092486
+  },
+  {
+   "thr": 0.6,
+   "coverage": 0.8229166666666666,
+   "acc": 0.5569620253164557,
+   "group_acc": 0.8037974683544303
+  },
+  {
+   "thr": 0.7,
+   "coverage": 0.6822916666666666,
+   "acc": 0.6030534351145038,
+   "group_acc": 0.8473282442748091
+  },
+  {
+   "thr": 0.8,
+   "coverage": 0.5729166666666666,
+   "acc": 0.6272727272727273,
+   "group_acc": 0.8636363636363636
+  },
+  {
+   "thr": 0.9,
+   "coverage": 0.46875,
+   "acc": 0.6222222222222222,
+   "group_acc": 0.8777777777777778
+  }
+ ],
+ "calib_flat_first_by_conf": [
+  {
+   "bin": "[0.00,0.30)",
+   "n": 2,
+   "acc": 0.0,
+   "mean_val": 0.20500000000000002
+  },
+  {
+   "bin": "[0.30,0.50)",
+   "n": 26,
+   "acc": 0.2692307692307692,
+   "mean_val": 0.4157692307692308
+  },
+  {
+   "bin": "[0.50,0.70)",
+   "n": 34,
+   "acc": 0.23529411764705882,
+   "mean_val": 0.6002941176470589
+  },
+  {
+   "bin": "[0.70,0.85)",
+   "n": 42,
+   "acc": 0.2857142857142857,
+   "mean_val": 0.7735714285714285
+  },
+  {
+   "bin": "[0.85,1.01)",
+   "n": 88,
+   "acc": 0.6363636363636364,
+   "mean_val": 0.9690909090909091
+  }
+ ],
+ "calib_flat_first_by_pmax": [
+  {
+   "bin": "[0.00,0.30)",
+   "n": 2,
+   "acc": 0.0,
+   "mean_val": 0.245
+  },
+  {
+   "bin": "[0.30,0.50)",
+   "n": 24,
+   "acc": 0.2916666666666667,
+   "mean_val": 0.4379166666666667
+  },
+  {
+   "bin": "[0.50,0.70)",
+   "n": 34,
+   "acc": 0.23529411764705882,
+   "mean_val": 0.6091176470588234
+  },
+  {
+   "bin": "[0.70,0.85)",
+   "n": 39,
+   "acc": 0.2564102564102564,
+   "mean_val": 0.7735897435897434
+  },
+  {
+   "bin": "[0.85,1.01)",
+   "n": 93,
+   "acc": 0.6236559139784946,
+   "mean_val": 0.9661290322580643
+  }
+ ],
+ "calib_flat_first_groupacc_by_conf": [
+  {
+   "bin": "[0.00,0.30)",
+   "n": 2,
+   "acc": 0.0,
+   "mean_val": 0.20500000000000002
+  },
+  {
+   "bin": "[0.30,0.50)",
+   "n": 26,
+   "acc": 0.5,
+   "mean_val": 0.4157692307692308
+  },
+  {
+   "bin": "[0.50,0.70)",
+   "n": 34,
+   "acc": 0.5588235294117647,
+   "mean_val": 0.6002941176470589
+  },
+  {
+   "bin": "[0.70,0.85)",
+   "n": 42,
+   "acc": 0.4523809523809524,
+   "mean_val": 0.7735714285714285
+  },
+  {
+   "bin": "[0.85,1.01)",
+   "n": 88,
+   "acc": 0.8863636363636364,
+   "mean_val": 0.9690909090909091
+  }
+ ],
+ "ece_flat_first": 0.35796874999999995,
+ "threshold_curve_flat_first": [
+  {
+   "thr": 0,
+   "coverage": 1.0,
+   "acc": 0.4322916666666667,
+   "group_acc": 0.671875
+  },
+  {
+   "thr": 0.3,
+   "coverage": 0.9895833333333334,
+   "acc": 0.4368421052631579,
+   "group_acc": 0.6789473684210526
+  },
+  {
+   "thr": 0.4,
+   "coverage": 0.953125,
+   "acc": 0.4371584699453552,
+   "group_acc": 0.6830601092896175
+  },
+  {
+   "thr": 0.5,
+   "coverage": 0.8541666666666666,
+   "acc": 0.4634146341463415,
+   "group_acc": 0.7073170731707317
+  },
+  {
+   "thr": 0.6,
+   "coverage": 0.7708333333333334,
+   "acc": 0.5,
+   "group_acc": 0.7297297297297297
+  },
+  {
+   "thr": 0.7,
+   "coverage": 0.6770833333333334,
+   "acc": 0.5230769230769231,
+   "group_acc": 0.7461538461538462
+  },
+  {
+   "thr": 0.8,
+   "coverage": 0.5364583333333334,
+   "acc": 0.5825242718446602,
+   "group_acc": 0.8349514563106796
+  },
+  {
+   "thr": 0.9,
+   "coverage": 0.4114583333333333,
+   "acc": 0.6455696202531646,
+   "group_acc": 0.8860759493670886
+  }
+ ],
+ "threshold_curve_group_full": [
+  {
+   "thr": 0,
+   "coverage": 1.0,
+   "acc": 0.703125
+  },
+  {
+   "thr": 0.3,
+   "coverage": 0.9947916666666666,
+   "acc": 0.7015706806282722
+  },
+  {
+   "thr": 0.5,
+   "coverage": 0.9270833333333334,
+   "acc": 0.7303370786516854
+  },
+  {
+   "thr": 0.7,
+   "coverage": 0.8177083333333334,
+   "acc": 0.7707006369426752
+  },
+  {
+   "thr": 0.8,
+   "coverage": 0.7291666666666666,
+   "acc": 0.7857142857142857
+  },
+  {
+   "thr": 0.9,
+   "coverage": 0.6458333333333334,
+   "acc": 0.8145161290322581
+  }
+ ],
+ "group_acc_by_gold_group(full)": {
+  "happy_excited": 0.8666666666666667,
+  "proud_confident": 0.4583333333333333,
+  "warm_caring": 0.5,
+  "surprised": 0.3333333333333333,
+  "sad_down": 0.8333333333333334,
+  "fear_worry": 0.875,
+  "anger_disgust": 0.7,
+  "self_conscious": 0.8888888888888888
+ },
+ "fine_acc_by_gold(full,flat)": {
+  "afraid": 0.6666666666666666,
+  "angry": 0.3333333333333333,
+  "annoyed": 0.8333333333333334,
+  "anticipating": 0.0,
+  "anxious": 1.0,
+  "apprehensive": 0.5,
+  "ashamed": 0.0,
+  "caring": 0.6666666666666666,
+  "confident": 0.6666666666666666,
+  "content": 0.8333333333333334,
+  "devastated": 0.0,
+  "disappointed": 0.6666666666666666,
+  "disgusted": 0.5,
+  "embarrassed": 1.0,
+  "excited": 1.0,
+  "faithful": 0.16666666666666666,
+  "furious": 0.0,
+  "grateful": 0.5,
+  "guilty": 0.8333333333333334,
+  "hopeful": 0.3333333333333333,
+  "impressed": 0.6666666666666666,
+  "jealous": 0.6666666666666666,
+  "joyful": 0.5,
+  "lonely": 0.8333333333333334,
+  "nostalgic": 0.8333333333333334,
+  "prepared": 0.16666666666666666,
+  "proud": 0.6666666666666666,
+  "sad": 0.5,
+  "sentimental": 0.0,
+  "surprised": 0.3333333333333333,
+  "terrified": 0.16666666666666666,
+  "trusting": 0.3333333333333333
+ },
+ "top_confusions(full)": [
+  [
+   [
+    "devastated",
+    "sad"
+   ],
+   5
+  ],
+  [
+   [
+    "furious",
+    "angry"
+   ],
+   5
+  ],
+  [
+   [
+    "ashamed",
+    "embarrassed"
+   ],
+   4
+  ],
+  [
+   [
+    "anticipating",
+    "anxious"
+   ],
+   3
+  ],
+  [
+   [
+    "hopeful",
+    "excited"
+   ],
+   3
+  ],
+  [
+   [
+    "sentimental",
+    "nostalgic"
+   ],
+   3
+  ],
+  [
+   [
+    "terrified",
+    "afraid"
+   ],
+   3
+  ],
+  [
+   [
+    "anticipating",
+    "excited"
+   ],
+   2
+  ],
+  [
+   [
+    "apprehensive",
+    "anxious"
+   ],
+   2
+  ],
+  [
+   [
+    "prepared",
+    "confident"
+   ],
+   2
+  ],
+  [
+   [
+    "prepared",
+    "excited"
+   ],
+   2
+  ],
+  [
+   [
+    "sentimental",
+    "sad"
+   ],
+   2
+  ]
+ ],
+ "examples_lowconf_wrong": [
+  {
+   "gold": "disgusted",
+   "pred": "sad",
+   "conf": 0.37,
+   "first": "I was in a hospital and a guy game in with some really bad burns."
+  },
+  {
+   "gold": "faithful",
+   "pred": "annoyed",
+   "conf": 0.38,
+   "first": "In my last job most of my co-workers had different beliefs to me. It was a little awkward at times."
+  },
+  {
+   "gold": "furious",
+   "pred": "annoyed",
+   "conf": 0.34,
+   "first": "There was a back neighbor that called my 10 year old son a ugly name one time, simply because he entered her yard slightly when he rode arou"
+  },
+  {
+   "gold": "trusting",
+   "pred": "sad",
+   "conf": 0.38,
+   "first": "I had to leave town last week and that meant leaving my pets who are my babies. I needed someone who could take care of them properly."
+  },
+  {
+   "gold": "trusting",
+   "pred": "excited",
+   "conf": 0.36,
+   "first": "I told my brother that I was planning to propose to my best friend, but I hope he keeps it a secret!"
+  }
+ ],
+ "tokens": {
+  "e7_full": 903.125,
+  "e7_first": 788.90625,
+  "e7_fine": 565.5520833333334
+ }
+}
