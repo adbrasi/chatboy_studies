@@ -1,0 +1,3023 @@
+{
+ "S01_sincere_apology": {
+  "desc": "Close friends with a crush. Leo cancels dinner rudely, next day apologizes sincerely and reschedules.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "18:00",
+    "t_hours": 18.0,
+    "from": "Leo",
+    "gist": "hey, still on for dinner at 8?",
+    "tag": null,
+    "text": "hey, still on for dinner at 8?"
+   },
+   {
+    "day": 1,
+    "time": "18:01",
+    "t_hours": 18.016666666666666,
+    "from": "Mia",
+    "gist": "yes!! booked the thai place",
+    "tag": null,
+    "text": "yes!! booked the thai place"
+   },
+   {
+    "day": 1,
+    "time": "18:03",
+    "t_hours": 18.05,
+    "from": "Leo",
+    "gist": "nice",
+    "tag": null,
+    "text": "nice"
+   },
+   {
+    "day": 1,
+    "time": "18:05",
+    "t_hours": 18.083333333333332,
+    "from": "Mia",
+    "gist": "been looking forward to it all week",
+    "tag": null,
+    "text": "been looking forward to it all week"
+   },
+   {
+    "day": 1,
+    "time": "19:40",
+    "t_hours": 19.666666666666668,
+    "from": "Leo",
+    "gist": "actually can't come, going out with the guys instead, it's whatever",
+    "tag": "cancel",
+    "text": "actually can't come, going out with the guys instead, it's whatever"
+   },
+   {
+    "day": 1,
+    "time": "19:41",
+    "t_hours": 19.683333333333334,
+    "from": "Mia",
+    "gist": "wait what. i'm literally ready to leave",
+    "tag": null,
+    "text": "wait what. i'm literally ready to leave"
+   },
+   {
+    "day": 1,
+    "time": "19:43",
+    "t_hours": 19.716666666666665,
+    "from": "Leo",
+    "gist": "relax it's just dinner",
+    "tag": "dismiss",
+    "text": "relax it's just dinner"
+   },
+   {
+    "day": 1,
+    "time": "19:44",
+    "t_hours": 19.733333333333334,
+    "from": "Mia",
+    "gist": "wow ok",
+    "tag": null,
+    "text": "wow ok"
+   },
+   {
+    "day": 1,
+    "time": "19:50",
+    "t_hours": 19.833333333333332,
+    "from": "Mia",
+    "gist": "enjoy your night then",
+    "tag": null,
+    "text": "enjoy your night then"
+   },
+   {
+    "day": 2,
+    "time": "10:15",
+    "t_hours": 34.25,
+    "from": "Leo",
+    "gist": "hey",
+    "tag": "after",
+    "text": "hey"
+   },
+   {
+    "day": 2,
+    "time": "10:40",
+    "t_hours": 34.666666666666664,
+    "from": "Mia",
+    "gist": "hi",
+    "tag": null,
+    "text": "hi"
+   },
+   {
+    "day": 2,
+    "time": "10:42",
+    "t_hours": 34.7,
+    "from": "Leo",
+    "gist": "i was a jerk yesterday. i'm really sorry, you'd booked it and been looking forward to it, and i bailed for nothing",
+    "tag": "apology",
+    "text": "i was a jerk yesterday. i'm really sorry, you'd booked it and been looking forward to it, and i bailed for nothing"
+   },
+   {
+    "day": 2,
+    "time": "10:43",
+    "t_hours": 34.71666666666667,
+    "from": "Leo",
+    "gist": "let me make it up to you, dinner friday, my treat, i already booked the same place",
+    "tag": "repair",
+    "text": "let me make it up to you, dinner friday, my treat, i already booked the same place"
+   },
+   {
+    "day": 2,
+    "time": "11:02",
+    "t_hours": 35.03333333333333,
+    "from": "Mia",
+    "gist": "ok. that meant a lot to hear",
+    "tag": null,
+    "text": "ok. that meant a lot to hear"
+   },
+   {
+    "day": 2,
+    "time": "11:03",
+    "t_hours": 35.05,
+    "from": "Mia",
+    "gist": "friday then",
+    "tag": null,
+    "text": "friday then"
+   },
+   {
+    "day": 2,
+    "time": "11:05",
+    "t_hours": 35.083333333333336,
+    "from": "Leo",
+    "gist": "friday. i'll be there early",
+    "tag": null,
+    "text": "friday. i'll be there early"
+   },
+   {
+    "day": 2,
+    "time": "11:10",
+    "t_hours": 35.166666666666664,
+    "from": "Mia",
+    "gist": "you better be lol",
+    "tag": null,
+    "text": "you better be lol"
+   },
+   {
+    "day": 2,
+    "time": "11:12",
+    "t_hours": 35.2,
+    "from": "Leo",
+    "gist": "what are you up to today",
+    "tag": null,
+    "text": "what are you up to today"
+   },
+   {
+    "day": 2,
+    "time": "11:15",
+    "t_hours": 35.25,
+    "from": "Mia",
+    "gist": "work, then gym",
+    "tag": null,
+    "text": "work, then gym"
+   },
+   {
+    "day": 2,
+    "time": "11:16",
+    "t_hours": 35.266666666666666,
+    "from": "Leo",
+    "gist": "have a good one",
+    "tag": null,
+    "text": "have a good one"
+   },
+   {
+    "day": 5,
+    "time": "19:55",
+    "t_hours": 115.91666666666667,
+    "from": "Leo",
+    "gist": "here, got us the corner table",
+    "tag": "kept",
+    "text": "here, got us the corner table"
+   },
+   {
+    "day": 5,
+    "time": "19:56",
+    "t_hours": 115.93333333333334,
+    "from": "Mia",
+    "gist": "omw!! 5 min",
+    "tag": null,
+    "text": "omw!! 5 min"
+   },
+   {
+    "day": 5,
+    "time": "19:57",
+    "t_hours": 115.95,
+    "from": "Leo",
+    "gist": "take your time",
+    "tag": null,
+    "text": "take your time"
+   }
+  ],
+  "polished": true
+ },
+ "S02_repeated_apology": {
+  "desc": "Leo keeps cancelling and apologizing without changing.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "17:00",
+    "t_hours": 17.0,
+    "from": "Leo",
+    "gist": "hey sorry can't make it tonight, work thing",
+    "tag": "cancel1",
+    "text": "hey sorry can't make it tonight, work thing"
+   },
+   {
+    "day": 1,
+    "time": "17:05",
+    "t_hours": 17.083333333333332,
+    "from": "Mia",
+    "gist": "oh. ok",
+    "tag": null,
+    "text": "oh. ok"
+   },
+   {
+    "day": 1,
+    "time": "17:06",
+    "t_hours": 17.1,
+    "from": "Leo",
+    "gist": "sorry!! next week for sure",
+    "tag": "apology1",
+    "text": "sorry!! next week for sure"
+   },
+   {
+    "day": 1,
+    "time": "17:10",
+    "t_hours": 17.166666666666668,
+    "from": "Mia",
+    "gist": "ok sure",
+    "tag": null,
+    "text": "ok sure"
+   },
+   {
+    "day": 8,
+    "time": "16:30",
+    "t_hours": 184.5,
+    "from": "Leo",
+    "gist": "ugh can't make it again, something came up",
+    "tag": "cancel2",
+    "text": "ugh can't make it again, something came up"
+   },
+   {
+    "day": 8,
+    "time": "16:35",
+    "t_hours": 184.58333333333334,
+    "from": "Mia",
+    "gist": "seriously?",
+    "tag": null,
+    "text": "seriously?"
+   },
+   {
+    "day": 8,
+    "time": "16:36",
+    "t_hours": 184.6,
+    "from": "Leo",
+    "gist": "i'm sorry, i know, i'm the worst",
+    "tag": "apology2",
+    "text": "i'm sorry, i know, i'm the worst"
+   },
+   {
+    "day": 8,
+    "time": "16:40",
+    "t_hours": 184.66666666666666,
+    "from": "Mia",
+    "gist": "this is the second time leo",
+    "tag": null,
+    "text": "this is the second time leo"
+   },
+   {
+    "day": 8,
+    "time": "16:41",
+    "t_hours": 184.68333333333334,
+    "from": "Leo",
+    "gist": "i know, sorry, next time i promise",
+    "tag": "promise",
+    "text": "i know, sorry, next time i promise"
+   },
+   {
+    "day": 8,
+    "time": "16:45",
+    "t_hours": 184.75,
+    "from": "Mia",
+    "gist": "fine",
+    "tag": null,
+    "text": "fine"
+   },
+   {
+    "day": 15,
+    "time": "18:00",
+    "t_hours": 354.0,
+    "from": "Leo",
+    "gist": "hey so about tonight... i can't, sorry",
+    "tag": "cancel3",
+    "text": "hey so about tonight... i can't, sorry"
+   },
+   {
+    "day": 15,
+    "time": "18:02",
+    "t_hours": 354.03333333333336,
+    "from": "Mia",
+    "gist": "wow",
+    "tag": null,
+    "text": "wow"
+   },
+   {
+    "day": 15,
+    "time": "18:03",
+    "t_hours": 354.05,
+    "from": "Leo",
+    "gist": "i'm really sorry",
+    "tag": "apology3",
+    "text": "i'm really sorry"
+   },
+   {
+    "day": 15,
+    "time": "18:04",
+    "t_hours": 354.06666666666666,
+    "from": "Mia",
+    "gist": "you always say that",
+    "tag": null,
+    "text": "you always say that"
+   },
+   {
+    "day": 15,
+    "time": "18:05",
+    "t_hours": 354.0833333333333,
+    "from": "Leo",
+    "gist": "i mean it this time, sorry",
+    "tag": "apology4",
+    "text": "i mean it this time, sorry"
+   },
+   {
+    "day": 15,
+    "time": "18:10",
+    "t_hours": 354.1666666666667,
+    "from": "Mia",
+    "gist": "whatever",
+    "tag": null,
+    "text": "whatever"
+   },
+   {
+    "day": 15,
+    "time": "18:30",
+    "t_hours": 354.5,
+    "from": "Leo",
+    "gist": "are you mad",
+    "tag": null,
+    "text": "are you mad"
+   },
+   {
+    "day": 15,
+    "time": "18:40",
+    "t_hours": 354.6666666666667,
+    "from": "Mia",
+    "gist": "what do you think",
+    "tag": null,
+    "text": "what do you think"
+   },
+   {
+    "day": 15,
+    "time": "18:41",
+    "t_hours": 354.68333333333334,
+    "from": "Leo",
+    "gist": "sorry",
+    "tag": null,
+    "text": "sorry"
+   },
+   {
+    "day": 15,
+    "time": "19:00",
+    "t_hours": 355.0,
+    "from": "Mia",
+    "gist": "i'm going to sleep",
+    "tag": null,
+    "text": "i'm going to sleep"
+   }
+  ],
+  "polished": true
+ },
+ "S03_bad_joke": {
+  "desc": "Friends of a few weeks. Leo makes a cruel joke about Mia's weight, then gets defensive.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "20:00",
+    "t_hours": 20.0,
+    "from": "Leo",
+    "gist": "what you up to",
+    "tag": null,
+    "text": "what you up to"
+   },
+   {
+    "day": 1,
+    "time": "20:01",
+    "t_hours": 20.016666666666666,
+    "from": "Mia",
+    "gist": "trying on dresses for my cousin's wedding",
+    "tag": null,
+    "text": "trying on dresses for my cousin's wedding"
+   },
+   {
+    "day": 1,
+    "time": "20:02",
+    "t_hours": 20.033333333333335,
+    "from": "Leo",
+    "gist": "send pics",
+    "tag": null,
+    "text": "send pics"
+   },
+   {
+    "day": 1,
+    "time": "20:04",
+    "t_hours": 20.066666666666666,
+    "from": "Mia",
+    "gist": "no way lol",
+    "tag": null,
+    "text": "no way lol"
+   },
+   {
+    "day": 1,
+    "time": "20:05",
+    "t_hours": 20.083333333333332,
+    "from": "Leo",
+    "gist": "come onnn",
+    "tag": null,
+    "text": "come onnn"
+   },
+   {
+    "day": 1,
+    "time": "20:06",
+    "t_hours": 20.1,
+    "from": "Mia",
+    "gist": "ok fine just one [photo]",
+    "tag": null,
+    "text": "ok fine just one [photo]"
+   },
+   {
+    "day": 1,
+    "time": "20:08",
+    "t_hours": 20.133333333333333,
+    "from": "Leo",
+    "gist": "damn did they have it in your size or did you have to go to the elephant section 😂",
+    "tag": "joke",
+    "text": "damn did they have it in your size or did you have to go to the elephant section 😂"
+   },
+   {
+    "day": 1,
+    "time": "20:09",
+    "t_hours": 20.15,
+    "from": "Mia",
+    "gist": "wow",
+    "tag": null,
+    "text": "wow"
+   },
+   {
+    "day": 1,
+    "time": "20:09",
+    "t_hours": 20.15,
+    "from": "Mia",
+    "gist": "i've been struggling with my weight and you know that",
+    "tag": null,
+    "text": "i've been struggling with my weight and you know that"
+   },
+   {
+    "day": 1,
+    "time": "20:11",
+    "t_hours": 20.183333333333334,
+    "from": "Leo",
+    "gist": "relax it was a joke, you're so sensitive",
+    "tag": "defensive",
+    "text": "relax it was a joke, you're so sensitive"
+   },
+   {
+    "day": 1,
+    "time": "20:12",
+    "t_hours": 20.2,
+    "from": "Mia",
+    "gist": "it wasn't funny",
+    "tag": null,
+    "text": "it wasn't funny"
+   },
+   {
+    "day": 1,
+    "time": "20:14",
+    "t_hours": 20.233333333333334,
+    "from": "Leo",
+    "gist": "whatever, can't say anything anymore",
+    "tag": "dismiss",
+    "text": "whatever, can't say anything anymore"
+   },
+   {
+    "day": 1,
+    "time": "20:20",
+    "t_hours": 20.333333333333332,
+    "from": "Mia",
+    "gist": "goodnight",
+    "tag": null,
+    "text": "goodnight"
+   },
+   {
+    "day": 2,
+    "time": "13:00",
+    "t_hours": 37.0,
+    "from": "Leo",
+    "gist": "hey what are you doing later",
+    "tag": "after",
+    "text": "hey what are you doing later"
+   },
+   {
+    "day": 2,
+    "time": "13:30",
+    "t_hours": 37.5,
+    "from": "Mia",
+    "gist": "busy",
+    "tag": null,
+    "text": "busy"
+   },
+   {
+    "day": 2,
+    "time": "13:31",
+    "t_hours": 37.516666666666666,
+    "from": "Leo",
+    "gist": "ok",
+    "tag": null,
+    "text": "ok"
+   },
+   {
+    "day": 3,
+    "time": "12:00",
+    "t_hours": 60.0,
+    "from": "Leo",
+    "gist": "did you watch the new episode",
+    "tag": "later",
+    "text": "did you watch the new episode"
+   },
+   {
+    "day": 3,
+    "time": "12:40",
+    "t_hours": 60.666666666666664,
+    "from": "Mia",
+    "gist": "not yet",
+    "tag": null,
+    "text": "not yet"
+   },
+   {
+    "day": 3,
+    "time": "12:41",
+    "t_hours": 60.68333333333333,
+    "from": "Leo",
+    "gist": "it's good",
+    "tag": null,
+    "text": "it's good"
+   },
+   {
+    "day": 3,
+    "time": "12:45",
+    "t_hours": 60.75,
+    "from": "Mia",
+    "gist": "ok",
+    "tag": null,
+    "text": "ok"
+   }
+  ],
+  "polished": true
+ },
+ "S04a_disappear_no_explanation": {
+  "desc": "Mia shares that her mom has surgery; Leo promises to call, vanishes 3 days, returns with a casual hey.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "21:00",
+    "t_hours": 21.0,
+    "from": "Mia",
+    "gist": "my mom's surgery is tomorrow morning",
+    "tag": null,
+    "text": "my mom's surgery is tomorrow morning"
+   },
+   {
+    "day": 1,
+    "time": "21:01",
+    "t_hours": 21.016666666666666,
+    "from": "Leo",
+    "gist": "oh no, what time?",
+    "tag": "care",
+    "text": "oh no, what time?"
+   },
+   {
+    "day": 1,
+    "time": "21:01",
+    "t_hours": 21.016666666666666,
+    "from": "Mia",
+    "gist": "8am. i'm so scared",
+    "tag": null,
+    "text": "8am. i'm so scared"
+   },
+   {
+    "day": 1,
+    "time": "21:02",
+    "t_hours": 21.033333333333335,
+    "from": "Leo",
+    "gist": "i'll call you after, promise",
+    "tag": "promise",
+    "text": "i'll call you after, promise"
+   },
+   {
+    "day": 1,
+    "time": "21:03",
+    "t_hours": 21.05,
+    "from": "Mia",
+    "gist": "thank you. really",
+    "tag": null,
+    "text": "thank you. really"
+   },
+   {
+    "day": 1,
+    "time": "21:05",
+    "t_hours": 21.083333333333332,
+    "from": "Leo",
+    "gist": "try to sleep ok",
+    "tag": null,
+    "text": "try to sleep ok"
+   },
+   {
+    "day": 2,
+    "time": "13:00",
+    "t_hours": 37.0,
+    "from": "Mia",
+    "gist": "surgery went ok",
+    "tag": null,
+    "text": "surgery went ok"
+   },
+   {
+    "day": 2,
+    "time": "18:00",
+    "t_hours": 42.0,
+    "from": "Mia",
+    "gist": "are you there?",
+    "tag": null,
+    "text": "are you there?"
+   },
+   {
+    "day": 4,
+    "time": "20:10",
+    "t_hours": 92.16666666666667,
+    "from": "Leo",
+    "gist": "heyy what's up",
+    "tag": "return",
+    "text": "heyy what's up"
+   },
+   {
+    "day": 4,
+    "time": "20:30",
+    "t_hours": 92.5,
+    "from": "Mia",
+    "gist": "seriously?",
+    "tag": null,
+    "text": "seriously?"
+   },
+   {
+    "day": 4,
+    "time": "20:31",
+    "t_hours": 92.51666666666667,
+    "from": "Leo",
+    "gist": "what",
+    "tag": null,
+    "text": "what"
+   },
+   {
+    "day": 4,
+    "time": "20:33",
+    "t_hours": 92.55,
+    "from": "Mia",
+    "gist": "you said you'd call",
+    "tag": null,
+    "text": "you said you'd call"
+   },
+   {
+    "day": 4,
+    "time": "20:35",
+    "t_hours": 92.58333333333333,
+    "from": "Leo",
+    "gist": "oh yeah been busy, anyway you free saturday?",
+    "tag": "excuse",
+    "text": "oh yeah been busy, anyway you free saturday?"
+   },
+   {
+    "day": 4,
+    "time": "20:40",
+    "t_hours": 92.66666666666667,
+    "from": "Mia",
+    "gist": "wow",
+    "tag": null,
+    "text": "wow"
+   },
+   {
+    "day": 4,
+    "time": "20:41",
+    "t_hours": 92.68333333333334,
+    "from": "Leo",
+    "gist": "what did i do",
+    "tag": null,
+    "text": "what did i do"
+   },
+   {
+    "day": 4,
+    "time": "20:45",
+    "t_hours": 92.75,
+    "from": "Mia",
+    "gist": "nothing. forget it",
+    "tag": null,
+    "text": "nothing. forget it"
+   },
+   {
+    "day": 5,
+    "time": "09:00",
+    "t_hours": 105.0,
+    "from": "Leo",
+    "gist": "morning",
+    "tag": null,
+    "text": "morning"
+   },
+   {
+    "day": 5,
+    "time": "10:00",
+    "t_hours": 106.0,
+    "from": "Mia",
+    "gist": "morning",
+    "tag": null,
+    "text": "morning"
+   }
+  ],
+  "polished": true
+ },
+ "S04b_disappear_explained": {
+  "desc": "Same, but Leo returns explaining he was in the hospital with his grandpa and apologizes.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "21:00",
+    "t_hours": 21.0,
+    "from": "Mia",
+    "gist": "my mom's surgery is tomorrow morning",
+    "tag": null,
+    "text": "my mom's surgery is tomorrow morning"
+   },
+   {
+    "day": 1,
+    "time": "21:01",
+    "t_hours": 21.016666666666666,
+    "from": "Leo",
+    "gist": "oh no, what time?",
+    "tag": "care",
+    "text": "oh no, what time?"
+   },
+   {
+    "day": 1,
+    "time": "21:01",
+    "t_hours": 21.016666666666666,
+    "from": "Mia",
+    "gist": "8am. i'm so scared",
+    "tag": null,
+    "text": "8am. i'm so scared"
+   },
+   {
+    "day": 1,
+    "time": "21:02",
+    "t_hours": 21.033333333333335,
+    "from": "Leo",
+    "gist": "i'll call you after, promise",
+    "tag": "promise",
+    "text": "i'll call you after, promise"
+   },
+   {
+    "day": 1,
+    "time": "21:03",
+    "t_hours": 21.05,
+    "from": "Mia",
+    "gist": "thank you. really",
+    "tag": null,
+    "text": "thank you. really"
+   },
+   {
+    "day": 1,
+    "time": "21:05",
+    "t_hours": 21.083333333333332,
+    "from": "Leo",
+    "gist": "try to sleep ok",
+    "tag": null,
+    "text": "try to sleep ok"
+   },
+   {
+    "day": 2,
+    "time": "13:00",
+    "t_hours": 37.0,
+    "from": "Mia",
+    "gist": "surgery went ok",
+    "tag": null,
+    "text": "surgery went ok"
+   },
+   {
+    "day": 2,
+    "time": "18:00",
+    "t_hours": 42.0,
+    "from": "Mia",
+    "gist": "are you there?",
+    "tag": null,
+    "text": "are you there?"
+   },
+   {
+    "day": 4,
+    "time": "20:10",
+    "t_hours": 92.16666666666667,
+    "from": "Leo",
+    "gist": "mia i'm so sorry. my grandpa had a stroke the same night, i've been at the hospital since and my phone died. how's your mom??",
+    "tag": "return",
+    "text": "mia i'm so sorry. my grandpa had a stroke the same night, i've been at the hospital since and my phone died. how's your mom??"
+   },
+   {
+    "day": 4,
+    "time": "20:15",
+    "t_hours": 92.25,
+    "from": "Mia",
+    "gist": "oh my god leo",
+    "tag": null,
+    "text": "oh my god leo"
+   },
+   {
+    "day": 4,
+    "time": "20:16",
+    "t_hours": 92.26666666666667,
+    "from": "Mia",
+    "gist": "she's fine, recovering. how is he?",
+    "tag": null,
+    "text": "she's fine, recovering. how is he?"
+   },
+   {
+    "day": 4,
+    "time": "20:18",
+    "t_hours": 92.3,
+    "from": "Leo",
+    "gist": "stable now. i felt awful not calling you",
+    "tag": "apology",
+    "text": "stable now. i felt awful not calling you"
+   },
+   {
+    "day": 4,
+    "time": "20:20",
+    "t_hours": 92.33333333333333,
+    "from": "Mia",
+    "gist": "don't even think about it",
+    "tag": null,
+    "text": "don't even think about it"
+   },
+   {
+    "day": 4,
+    "time": "20:22",
+    "t_hours": 92.36666666666666,
+    "from": "Leo",
+    "gist": "i'm glad she's ok",
+    "tag": null,
+    "text": "i'm glad she's ok"
+   },
+   {
+    "day": 4,
+    "time": "20:25",
+    "t_hours": 92.41666666666667,
+    "from": "Mia",
+    "gist": "me too. are you ok?",
+    "tag": null,
+    "text": "me too. are you ok?"
+   },
+   {
+    "day": 4,
+    "time": "20:27",
+    "t_hours": 92.45,
+    "from": "Leo",
+    "gist": "tired. but better now talking to you",
+    "tag": "vuln",
+    "text": "tired. but better now talking to you"
+   },
+   {
+    "day": 4,
+    "time": "20:30",
+    "t_hours": 92.5,
+    "from": "Mia",
+    "gist": "call me if you need anything",
+    "tag": null,
+    "text": "call me if you need anything"
+   },
+   {
+    "day": 5,
+    "time": "09:00",
+    "t_hours": 105.0,
+    "from": "Leo",
+    "gist": "morning",
+    "tag": null,
+    "text": "morning"
+   },
+   {
+    "day": 5,
+    "time": "09:10",
+    "t_hours": 105.16666666666667,
+    "from": "Mia",
+    "gist": "morning, how's grandpa",
+    "tag": null,
+    "text": "morning, how's grandpa"
+   },
+   {
+    "day": 5,
+    "time": "09:12",
+    "t_hours": 105.2,
+    "from": "Leo",
+    "gist": "eating jello and complaining, so good",
+    "tag": null,
+    "text": "eating jello and complaining, so good"
+   }
+  ],
+  "polished": true
+ },
+ "S05_promise_kept": {
+  "desc": "Leo promises to help Mia move and shows up with the van.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "19:00",
+    "t_hours": 19.0,
+    "from": "Mia",
+    "gist": "dreading saturday, i have to move all my stuff alone",
+    "tag": null,
+    "text": "not looking forward to saturday, gotta move all my stuff by myself"
+   },
+   {
+    "day": 1,
+    "time": "19:02",
+    "t_hours": 19.033333333333335,
+    "from": "Leo",
+    "gist": "i'll help you. i'll bring my brother's van",
+    "tag": "promise",
+    "text": "i'll help. i can borrow my brother's van"
+   },
+   {
+    "day": 1,
+    "time": "19:03",
+    "t_hours": 19.05,
+    "from": "Mia",
+    "gist": "wait really??",
+    "tag": null,
+    "text": "wait seriously??"
+   },
+   {
+    "day": 1,
+    "time": "19:03",
+    "t_hours": 19.05,
+    "from": "Leo",
+    "gist": "yes, 9am saturday",
+    "tag": null,
+    "text": "yeah, 9am saturday"
+   },
+   {
+    "day": 1,
+    "time": "19:05",
+    "t_hours": 19.083333333333332,
+    "from": "Mia",
+    "gist": "you're a lifesaver",
+    "tag": null,
+    "text": "you're a lifesaver"
+   },
+   {
+    "day": 1,
+    "time": "19:06",
+    "t_hours": 19.1,
+    "from": "Leo",
+    "gist": "lol it's nothing",
+    "tag": null,
+    "text": "lol it's nothing"
+   },
+   {
+    "day": 3,
+    "time": "20:00",
+    "t_hours": 68.0,
+    "from": "Leo",
+    "gist": "still on for tomorrow 9am?",
+    "tag": null,
+    "text": "still good for tomorrow 9am?"
+   },
+   {
+    "day": 3,
+    "time": "20:01",
+    "t_hours": 68.01666666666667,
+    "from": "Mia",
+    "gist": "yes!! if you still can",
+    "tag": null,
+    "text": "yes!! if you still can"
+   },
+   {
+    "day": 3,
+    "time": "20:02",
+    "t_hours": 68.03333333333333,
+    "from": "Leo",
+    "gist": "of course",
+    "tag": null,
+    "text": "of course"
+   },
+   {
+    "day": 4,
+    "time": "08:50",
+    "t_hours": 80.83333333333333,
+    "from": "Leo",
+    "gist": "outside with the van",
+    "tag": "kept",
+    "text": "outside with the van"
+   },
+   {
+    "day": 4,
+    "time": "08:51",
+    "t_hours": 80.85,
+    "from": "Mia",
+    "gist": "coming down!!",
+    "tag": null,
+    "text": "coming down!!"
+   },
+   {
+    "day": 4,
+    "time": "17:30",
+    "t_hours": 89.5,
+    "from": "Leo",
+    "gist": "that's the last box",
+    "tag": "kept2",
+    "text": "that's the last box"
+   },
+   {
+    "day": 4,
+    "time": "17:31",
+    "t_hours": 89.51666666666667,
+    "from": "Mia",
+    "gist": "i owe you big time",
+    "tag": null,
+    "text": "i owe you big time"
+   },
+   {
+    "day": 4,
+    "time": "17:32",
+    "t_hours": 89.53333333333333,
+    "from": "Leo",
+    "gist": "pizza and we're even",
+    "tag": null,
+    "text": "pizza and we're even"
+   },
+   {
+    "day": 4,
+    "time": "17:33",
+    "t_hours": 89.55,
+    "from": "Mia",
+    "gist": "deal",
+    "tag": null,
+    "text": "deal"
+   },
+   {
+    "day": 4,
+    "time": "17:40",
+    "t_hours": 89.66666666666667,
+    "from": "Leo",
+    "gist": "your new place is really nice btw",
+    "tag": "compliment",
+    "text": "your new place is really nice btw"
+   },
+   {
+    "day": 4,
+    "time": "17:41",
+    "t_hours": 89.68333333333334,
+    "from": "Mia",
+    "gist": "thanks, i love it",
+    "tag": null,
+    "text": "thanks, i love it"
+   },
+   {
+    "day": 4,
+    "time": "17:45",
+    "t_hours": 89.75,
+    "from": "Leo",
+    "gist": "proud of you for doing this",
+    "tag": "compliment2",
+    "text": "proud of you for doing this"
+   },
+   {
+    "day": 4,
+    "time": "17:46",
+    "t_hours": 89.76666666666667,
+    "from": "Mia",
+    "gist": "🥹",
+    "tag": null,
+    "text": "🥹"
+   }
+  ],
+  "polished": true
+ },
+ "S06_promise_broken": {
+  "desc": "Leo promises to help Mia move and doesn't show up.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "19:00",
+    "t_hours": 19.0,
+    "from": "Mia",
+    "gist": "dreading saturday, i have to move all my stuff alone",
+    "tag": null,
+    "text": "not looking forward to saturday, gotta move all my stuff by myself"
+   },
+   {
+    "day": 1,
+    "time": "19:02",
+    "t_hours": 19.033333333333335,
+    "from": "Leo",
+    "gist": "i'll help you. i'll bring my brother's van",
+    "tag": "promise",
+    "text": "i'll help. i can borrow my brother's van"
+   },
+   {
+    "day": 1,
+    "time": "19:03",
+    "t_hours": 19.05,
+    "from": "Mia",
+    "gist": "wait really??",
+    "tag": null,
+    "text": "wait fr??"
+   },
+   {
+    "day": 1,
+    "time": "19:03",
+    "t_hours": 19.05,
+    "from": "Leo",
+    "gist": "yes, 9am saturday",
+    "tag": null,
+    "text": "yeah, 9am saturday"
+   },
+   {
+    "day": 1,
+    "time": "19:05",
+    "t_hours": 19.083333333333332,
+    "from": "Mia",
+    "gist": "you're a lifesaver",
+    "tag": null,
+    "text": "you're a lifesaver"
+   },
+   {
+    "day": 3,
+    "time": "20:00",
+    "t_hours": 68.0,
+    "from": "Mia",
+    "gist": "still on for tomorrow 9am?",
+    "tag": null,
+    "text": "still good for tomorrow 9am?"
+   },
+   {
+    "day": 3,
+    "time": "22:00",
+    "t_hours": 70.0,
+    "from": "Leo",
+    "gist": "yeah should be",
+    "tag": null,
+    "text": "yeah should be"
+   },
+   {
+    "day": 4,
+    "time": "09:30",
+    "t_hours": 81.5,
+    "from": "Mia",
+    "gist": "where are you?",
+    "tag": null,
+    "text": "where r u?"
+   },
+   {
+    "day": 4,
+    "time": "10:15",
+    "t_hours": 82.25,
+    "from": "Mia",
+    "gist": "leo??",
+    "tag": null,
+    "text": "leo??"
+   },
+   {
+    "day": 4,
+    "time": "13:00",
+    "t_hours": 85.0,
+    "from": "Leo",
+    "gist": "omg sorry overslept, then my brother needed the van, can't make it",
+    "tag": "broken",
+    "text": "omg sorry overslept, then my brother needed the van, can't make it"
+   },
+   {
+    "day": 4,
+    "time": "13:02",
+    "t_hours": 85.03333333333333,
+    "from": "Mia",
+    "gist": "i've been waiting since 9",
+    "tag": null,
+    "text": "been waiting since 9"
+   },
+   {
+    "day": 4,
+    "time": "13:03",
+    "t_hours": 85.05,
+    "from": "Leo",
+    "gist": "i said sorry",
+    "tag": "defensive",
+    "text": "i said sorry"
+   },
+   {
+    "day": 4,
+    "time": "13:05",
+    "t_hours": 85.08333333333333,
+    "from": "Mia",
+    "gist": "i moved half of it alone",
+    "tag": null,
+    "text": "moved half of it alone"
+   },
+   {
+    "day": 4,
+    "time": "13:10",
+    "t_hours": 85.16666666666667,
+    "from": "Leo",
+    "gist": "you're making it a bigger deal than it is",
+    "tag": "dismiss",
+    "text": "you're making it a bigger deal than it is"
+   },
+   {
+    "day": 4,
+    "time": "13:15",
+    "t_hours": 85.25,
+    "from": "Mia",
+    "gist": "ok",
+    "tag": null,
+    "text": "ok"
+   },
+   {
+    "day": 5,
+    "time": "11:00",
+    "t_hours": 107.0,
+    "from": "Leo",
+    "gist": "hey",
+    "tag": "after",
+    "text": "hey"
+   },
+   {
+    "day": 5,
+    "time": "11:40",
+    "t_hours": 107.66666666666667,
+    "from": "Mia",
+    "gist": "hi",
+    "tag": null,
+    "text": "hi"
+   },
+   {
+    "day": 5,
+    "time": "11:41",
+    "t_hours": 107.68333333333334,
+    "from": "Leo",
+    "gist": "how's the new place",
+    "tag": null,
+    "text": "how's the new place"
+   },
+   {
+    "day": 5,
+    "time": "11:50",
+    "t_hours": 107.83333333333333,
+    "from": "Mia",
+    "gist": "fine",
+    "tag": null,
+    "text": "fine"
+   }
+  ],
+  "polished": true
+ },
+ "S07_jealousy": {
+  "desc": "Mia is into Leo. Leo talks excitedly about a date with Ana, later reassures Mia.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "20:00",
+    "t_hours": 20.0,
+    "from": "Leo",
+    "gist": "guess what",
+    "tag": null,
+    "text": "guess what"
+   },
+   {
+    "day": 1,
+    "time": "20:01",
+    "t_hours": 20.016666666666666,
+    "from": "Mia",
+    "gist": "what",
+    "tag": null,
+    "text": "what"
+   },
+   {
+    "day": 1,
+    "time": "20:02",
+    "t_hours": 20.033333333333335,
+    "from": "Leo",
+    "gist": "i have a date with ana on friday!!!",
+    "tag": "jeal1",
+    "text": "got a date with ana friday!!!"
+   },
+   {
+    "day": 1,
+    "time": "20:05",
+    "t_hours": 20.083333333333332,
+    "from": "Mia",
+    "gist": "oh",
+    "tag": null,
+    "text": "oh"
+   },
+   {
+    "day": 1,
+    "time": "20:05",
+    "t_hours": 20.083333333333332,
+    "from": "Mia",
+    "gist": "nice",
+    "tag": null,
+    "text": "nice"
+   },
+   {
+    "day": 1,
+    "time": "20:06",
+    "t_hours": 20.1,
+    "from": "Leo",
+    "gist": "she's so cool, she does rock climbing and she's hilarious",
+    "tag": "jeal2",
+    "text": "shes so cool, does rock climbing and shes hilarious"
+   },
+   {
+    "day": 1,
+    "time": "20:08",
+    "t_hours": 20.133333333333333,
+    "from": "Mia",
+    "gist": "cool",
+    "tag": null,
+    "text": "cool"
+   },
+   {
+    "day": 1,
+    "time": "20:10",
+    "t_hours": 20.166666666666668,
+    "from": "Leo",
+    "gist": "what should i wear lol",
+    "tag": "jeal3",
+    "text": "what should i wear lol"
+   },
+   {
+    "day": 1,
+    "time": "20:15",
+    "t_hours": 20.25,
+    "from": "Mia",
+    "gist": "idk whatever",
+    "tag": null,
+    "text": "idk whatever"
+   },
+   {
+    "day": 1,
+    "time": "20:16",
+    "t_hours": 20.266666666666666,
+    "from": "Leo",
+    "gist": "you ok?",
+    "tag": null,
+    "text": "you ok?"
+   },
+   {
+    "day": 1,
+    "time": "20:20",
+    "t_hours": 20.333333333333332,
+    "from": "Mia",
+    "gist": "yeah just tired",
+    "tag": null,
+    "text": "yeah just tired"
+   },
+   {
+    "day": 3,
+    "time": "22:00",
+    "t_hours": 70.0,
+    "from": "Leo",
+    "gist": "ok the date was weird. no chemistry at all",
+    "tag": "reassure0",
+    "text": "ok the date was weird. no chemistry at all"
+   },
+   {
+    "day": 3,
+    "time": "22:05",
+    "t_hours": 70.08333333333333,
+    "from": "Mia",
+    "gist": "oh no lol",
+    "tag": null,
+    "text": "oh no lol"
+   },
+   {
+    "day": 3,
+    "time": "22:06",
+    "t_hours": 70.1,
+    "from": "Leo",
+    "gist": "honestly i kept thinking i'd rather be hanging out with you",
+    "tag": "reassure",
+    "text": "honestly i kept thinking id rather be hanging out with you"
+   },
+   {
+    "day": 3,
+    "time": "22:08",
+    "t_hours": 70.13333333333334,
+    "from": "Mia",
+    "gist": "wait really",
+    "tag": null,
+    "text": "wait really"
+   },
+   {
+    "day": 3,
+    "time": "22:09",
+    "t_hours": 70.15,
+    "from": "Leo",
+    "gist": "yeah. you're my favorite person to talk to",
+    "tag": "affection",
+    "text": "yeah. youre my favorite person to talk to"
+   },
+   {
+    "day": 3,
+    "time": "22:12",
+    "t_hours": 70.2,
+    "from": "Mia",
+    "gist": "stop 🙈",
+    "tag": null,
+    "text": "stop 🙈"
+   },
+   {
+    "day": 3,
+    "time": "22:13",
+    "t_hours": 70.21666666666667,
+    "from": "Leo",
+    "gist": "no seriously",
+    "tag": null,
+    "text": "no seriously"
+   },
+   {
+    "day": 3,
+    "time": "22:15",
+    "t_hours": 70.25,
+    "from": "Mia",
+    "gist": "ok you're kinda my favorite too",
+    "tag": null,
+    "text": "ok youre kinda my favorite too"
+   },
+   {
+    "day": 3,
+    "time": "22:20",
+    "t_hours": 70.33333333333333,
+    "from": "Leo",
+    "gist": "movies saturday?",
+    "tag": null,
+    "text": "movies saturday?"
+   },
+   {
+    "day": 3,
+    "time": "22:21",
+    "t_hours": 70.35,
+    "from": "Mia",
+    "gist": "yes",
+    "tag": null,
+    "text": "yes"
+   }
+  ],
+  "polished": true
+ },
+ "S08_reconciliation": {
+  "desc": "A real fight with insults both ways, two days of silence, then reconciliation.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "21:00",
+    "t_hours": 21.0,
+    "from": "Leo",
+    "gist": "so you told sam about my job thing?",
+    "tag": null,
+    "text": "so you told sam about my job thing?"
+   },
+   {
+    "day": 1,
+    "time": "21:01",
+    "t_hours": 21.016666666666666,
+    "from": "Mia",
+    "gist": "i just mentioned it, i didn't think it was a secret",
+    "tag": null,
+    "text": "i just mentioned it, didn't think it was a secret"
+   },
+   {
+    "day": 1,
+    "time": "21:02",
+    "t_hours": 21.033333333333335,
+    "from": "Leo",
+    "gist": "i told you that in confidence. you can never keep your mouth shut",
+    "tag": "accuse",
+    "text": "i told you that in confidence. you can never keep your mouth shut"
+   },
+   {
+    "day": 1,
+    "time": "21:03",
+    "t_hours": 21.05,
+    "from": "Mia",
+    "gist": "excuse me??",
+    "tag": null,
+    "text": "excuse me??"
+   },
+   {
+    "day": 1,
+    "time": "21:04",
+    "t_hours": 21.066666666666666,
+    "from": "Leo",
+    "gist": "you're such a gossip, honestly it's pathetic",
+    "tag": "insult",
+    "text": "you're such a gossip, honestly it's pathetic"
+   },
+   {
+    "day": 1,
+    "time": "21:05",
+    "t_hours": 21.083333333333332,
+    "from": "Mia",
+    "gist": "wow. you know what, forget it",
+    "tag": null,
+    "text": "wow. you know what, forget it"
+   },
+   {
+    "day": 1,
+    "time": "21:06",
+    "t_hours": 21.1,
+    "from": "Leo",
+    "gist": "yeah whatever, typical",
+    "tag": "dismiss",
+    "text": "yeah whatever, typical"
+   },
+   {
+    "day": 1,
+    "time": "21:07",
+    "t_hours": 21.116666666666667,
+    "from": "Mia",
+    "gist": "don't text me",
+    "tag": null,
+    "text": "don't text me"
+   },
+   {
+    "day": 3,
+    "time": "19:00",
+    "t_hours": 67.0,
+    "from": "Leo",
+    "gist": "hey",
+    "tag": "return",
+    "text": "hey"
+   },
+   {
+    "day": 3,
+    "time": "19:30",
+    "t_hours": 67.5,
+    "from": "Mia",
+    "gist": "what",
+    "tag": null,
+    "text": "what"
+   },
+   {
+    "day": 3,
+    "time": "19:32",
+    "t_hours": 67.53333333333333,
+    "from": "Leo",
+    "gist": "i've been thinking. i was way out of line. calling you pathetic was cruel and i'm sorry",
+    "tag": "apology",
+    "text": "i've been thinking. i was way out of line. calling you pathetic was cruel and i'm sorry"
+   },
+   {
+    "day": 3,
+    "time": "19:33",
+    "t_hours": 67.55,
+    "from": "Leo",
+    "gist": "i was embarrassed about the job and took it out on you",
+    "tag": "vuln",
+    "text": "i was embarrassed about the job and took it out on you"
+   },
+   {
+    "day": 3,
+    "time": "19:40",
+    "t_hours": 67.66666666666667,
+    "from": "Mia",
+    "gist": "it really hurt",
+    "tag": null,
+    "text": "it really hurt"
+   },
+   {
+    "day": 3,
+    "time": "19:41",
+    "t_hours": 67.68333333333334,
+    "from": "Mia",
+    "gist": "and i'm sorry i told sam, i should have asked",
+    "tag": null,
+    "text": "and i'm sorry i told sam, i should have asked"
+   },
+   {
+    "day": 3,
+    "time": "19:43",
+    "t_hours": 67.71666666666667,
+    "from": "Leo",
+    "gist": "thank you. i mean it, i'm sorry",
+    "tag": "apology2",
+    "text": "thank you. i mean it, i'm sorry"
+   },
+   {
+    "day": 3,
+    "time": "19:50",
+    "t_hours": 67.83333333333333,
+    "from": "Mia",
+    "gist": "ok. we're ok",
+    "tag": null,
+    "text": "ok. we're ok"
+   },
+   {
+    "day": 3,
+    "time": "19:52",
+    "t_hours": 67.86666666666666,
+    "from": "Leo",
+    "gist": "coffee tomorrow? my treat",
+    "tag": "repair",
+    "text": "coffee tomorrow? my treat"
+   },
+   {
+    "day": 3,
+    "time": "19:53",
+    "t_hours": 67.88333333333334,
+    "from": "Mia",
+    "gist": "yes",
+    "tag": null,
+    "text": "yes"
+   },
+   {
+    "day": 4,
+    "time": "10:00",
+    "t_hours": 82.0,
+    "from": "Leo",
+    "gist": "here already, got you the oat latte",
+    "tag": "kept",
+    "text": "here already, got you the oat latte"
+   },
+   {
+    "day": 4,
+    "time": "10:05",
+    "t_hours": 82.08333333333333,
+    "from": "Mia",
+    "gist": "you remembered 🥲",
+    "tag": null,
+    "text": "you remembered 🥲"
+   }
+  ],
+  "polished": true
+ },
+ "S09_neutral_control": {
+  "desc": "Plain small talk over two days; nothing relationship-relevant happens.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "18:00",
+    "t_hours": 18.0,
+    "from": "Leo",
+    "gist": "hey",
+    "tag": null,
+    "text": "hey"
+   },
+   {
+    "day": 1,
+    "time": "18:01",
+    "t_hours": 18.016666666666666,
+    "from": "Mia",
+    "gist": "hey",
+    "tag": null,
+    "text": "hey"
+   },
+   {
+    "day": 1,
+    "time": "18:02",
+    "t_hours": 18.033333333333335,
+    "from": "Leo",
+    "gist": "how was work",
+    "tag": null,
+    "text": "how was work"
+   },
+   {
+    "day": 1,
+    "time": "18:03",
+    "t_hours": 18.05,
+    "from": "Mia",
+    "gist": "long. yours?",
+    "tag": null,
+    "text": "long. yours?"
+   },
+   {
+    "day": 1,
+    "time": "18:04",
+    "t_hours": 18.066666666666666,
+    "from": "Leo",
+    "gist": "same, meetings all day",
+    "tag": null,
+    "text": "same, meetings all day"
+   },
+   {
+    "day": 1,
+    "time": "18:05",
+    "t_hours": 18.083333333333332,
+    "from": "Mia",
+    "gist": "ugh",
+    "tag": null,
+    "text": "ugh"
+   },
+   {
+    "day": 1,
+    "time": "18:07",
+    "t_hours": 18.116666666666667,
+    "from": "Leo",
+    "gist": "making tacos tonight",
+    "tag": null,
+    "text": "making tacos tonight"
+   },
+   {
+    "day": 1,
+    "time": "18:08",
+    "t_hours": 18.133333333333333,
+    "from": "Mia",
+    "gist": "nice",
+    "tag": null,
+    "text": "nice"
+   },
+   {
+    "day": 1,
+    "time": "18:10",
+    "t_hours": 18.166666666666668,
+    "from": "Leo",
+    "gist": "you watched the game?",
+    "tag": null,
+    "text": "you watch the game?"
+   },
+   {
+    "day": 1,
+    "time": "18:11",
+    "t_hours": 18.183333333333334,
+    "from": "Mia",
+    "gist": "nope, not into football",
+    "tag": null,
+    "text": "nah not into football"
+   },
+   {
+    "day": 1,
+    "time": "18:12",
+    "t_hours": 18.2,
+    "from": "Leo",
+    "gist": "fair",
+    "tag": null,
+    "text": "fair"
+   },
+   {
+    "day": 1,
+    "time": "18:30",
+    "t_hours": 18.5,
+    "from": "Leo",
+    "gist": "traffic was insane btw",
+    "tag": null,
+    "text": "traffic was insane btw"
+   },
+   {
+    "day": 1,
+    "time": "18:31",
+    "t_hours": 18.516666666666666,
+    "from": "Mia",
+    "gist": "always is on fridays",
+    "tag": null,
+    "text": "always is on fridays"
+   },
+   {
+    "day": 1,
+    "time": "18:33",
+    "t_hours": 18.55,
+    "from": "Leo",
+    "gist": "true",
+    "tag": null,
+    "text": "true"
+   },
+   {
+    "day": 2,
+    "time": "11:00",
+    "t_hours": 35.0,
+    "from": "Leo",
+    "gist": "morning",
+    "tag": null,
+    "text": "morning"
+   },
+   {
+    "day": 2,
+    "time": "11:05",
+    "t_hours": 35.083333333333336,
+    "from": "Mia",
+    "gist": "morning",
+    "tag": null,
+    "text": "morning"
+   },
+   {
+    "day": 2,
+    "time": "11:06",
+    "t_hours": 35.1,
+    "from": "Leo",
+    "gist": "any plans today",
+    "tag": null,
+    "text": "any plans today"
+   },
+   {
+    "day": 2,
+    "time": "11:07",
+    "t_hours": 35.11666666666667,
+    "from": "Mia",
+    "gist": "laundry lol",
+    "tag": null,
+    "text": "laundry lol"
+   },
+   {
+    "day": 2,
+    "time": "11:08",
+    "t_hours": 35.13333333333333,
+    "from": "Leo",
+    "gist": "thrilling",
+    "tag": null,
+    "text": "thrilling"
+   },
+   {
+    "day": 2,
+    "time": "11:10",
+    "t_hours": 35.166666666666664,
+    "from": "Mia",
+    "gist": "my life is so glamorous",
+    "tag": null,
+    "text": "my life is so glamorous"
+   },
+   {
+    "day": 2,
+    "time": "11:12",
+    "t_hours": 35.2,
+    "from": "Leo",
+    "gist": "gonna go for a run later",
+    "tag": null,
+    "text": "gonna go for a run later"
+   },
+   {
+    "day": 2,
+    "time": "11:13",
+    "t_hours": 35.21666666666667,
+    "from": "Mia",
+    "gist": "nice",
+    "tag": null,
+    "text": "nice"
+   },
+   {
+    "day": 2,
+    "time": "11:30",
+    "t_hours": 35.5,
+    "from": "Leo",
+    "gist": "its so hot out",
+    "tag": null,
+    "text": "its so hot out"
+   },
+   {
+    "day": 2,
+    "time": "11:31",
+    "t_hours": 35.516666666666666,
+    "from": "Mia",
+    "gist": "yeah",
+    "tag": null,
+    "text": "yeah"
+   },
+   {
+    "day": 2,
+    "time": "11:35",
+    "t_hours": 35.583333333333336,
+    "from": "Leo",
+    "gist": "ok ttyl",
+    "tag": null,
+    "text": "ok ttyl"
+   },
+   {
+    "day": 2,
+    "time": "11:36",
+    "t_hours": 35.6,
+    "from": "Mia",
+    "gist": "bye",
+    "tag": null,
+    "text": "bye"
+   }
+  ],
+  "polished": true
+ },
+ "S10_constant_affection": {
+  "desc": "Leo sends affectionate messages nonstop; checks that affection saturates without flooding.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "20:00",
+    "t_hours": 20.0,
+    "from": "Leo",
+    "gist": "you looked great today",
+    "tag": "aff",
+    "text": "you looked great today"
+   },
+   {
+    "day": 1,
+    "time": "20:01",
+    "t_hours": 20.016666666666666,
+    "from": "Mia",
+    "gist": "aw thanks",
+    "tag": null,
+    "text": "aw thanks"
+   },
+   {
+    "day": 1,
+    "time": "20:02",
+    "t_hours": 20.033333333333335,
+    "from": "Leo",
+    "gist": "seriously you're so pretty",
+    "tag": "aff",
+    "text": "seriously you're so pretty"
+   },
+   {
+    "day": 1,
+    "time": "20:03",
+    "t_hours": 20.05,
+    "from": "Mia",
+    "gist": "stop lol",
+    "tag": null,
+    "text": "stop lol"
+   },
+   {
+    "day": 1,
+    "time": "20:04",
+    "t_hours": 20.066666666666666,
+    "from": "Leo",
+    "gist": "you're my favorite person",
+    "tag": "aff",
+    "text": "you're my favorite person"
+   },
+   {
+    "day": 1,
+    "time": "20:05",
+    "t_hours": 20.083333333333332,
+    "from": "Mia",
+    "gist": "🙈",
+    "tag": null,
+    "text": "🙈"
+   },
+   {
+    "day": 1,
+    "time": "20:06",
+    "t_hours": 20.1,
+    "from": "Leo",
+    "gist": "thinking about you",
+    "tag": "aff",
+    "text": "thinking about you"
+   },
+   {
+    "day": 1,
+    "time": "20:07",
+    "t_hours": 20.116666666666667,
+    "from": "Mia",
+    "gist": "you're sweet",
+    "tag": null,
+    "text": "you're sweet"
+   },
+   {
+    "day": 1,
+    "time": "20:08",
+    "t_hours": 20.133333333333333,
+    "from": "Leo",
+    "gist": "you're the best thing that happened to me this year",
+    "tag": "aff",
+    "text": "you're the best thing that happened to me this year"
+   },
+   {
+    "day": 1,
+    "time": "20:09",
+    "t_hours": 20.15,
+    "from": "Mia",
+    "gist": "leo",
+    "tag": null,
+    "text": "leo"
+   },
+   {
+    "day": 1,
+    "time": "20:10",
+    "t_hours": 20.166666666666668,
+    "from": "Leo",
+    "gist": "i mean it",
+    "tag": "aff",
+    "text": "i mean it"
+   },
+   {
+    "day": 1,
+    "time": "20:11",
+    "t_hours": 20.183333333333334,
+    "from": "Mia",
+    "gist": "i know",
+    "tag": null,
+    "text": "i know"
+   },
+   {
+    "day": 1,
+    "time": "20:12",
+    "t_hours": 20.2,
+    "from": "Leo",
+    "gist": "miss you already",
+    "tag": "aff",
+    "text": "miss you already"
+   },
+   {
+    "day": 1,
+    "time": "20:13",
+    "t_hours": 20.216666666666665,
+    "from": "Mia",
+    "gist": "we saw each other 3 hours ago lol",
+    "tag": null,
+    "text": "we saw each other 3 hours ago lol"
+   },
+   {
+    "day": 1,
+    "time": "20:14",
+    "t_hours": 20.233333333333334,
+    "from": "Leo",
+    "gist": "still",
+    "tag": "aff",
+    "text": "still"
+   },
+   {
+    "day": 1,
+    "time": "20:15",
+    "t_hours": 20.25,
+    "from": "Mia",
+    "gist": "cute",
+    "tag": null,
+    "text": "cute"
+   },
+   {
+    "day": 1,
+    "time": "20:16",
+    "t_hours": 20.266666666666666,
+    "from": "Leo",
+    "gist": "you're amazing",
+    "tag": "aff",
+    "text": "you're amazing"
+   },
+   {
+    "day": 1,
+    "time": "20:17",
+    "t_hours": 20.283333333333335,
+    "from": "Mia",
+    "gist": "ok ok",
+    "tag": null,
+    "text": "ok ok"
+   },
+   {
+    "day": 1,
+    "time": "20:18",
+    "t_hours": 20.3,
+    "from": "Leo",
+    "gist": "love talking to you",
+    "tag": "aff",
+    "text": "love talking to you"
+   },
+   {
+    "day": 1,
+    "time": "20:19",
+    "t_hours": 20.316666666666666,
+    "from": "Mia",
+    "gist": "me too",
+    "tag": null,
+    "text": "me too"
+   },
+   {
+    "day": 1,
+    "time": "20:20",
+    "t_hours": 20.333333333333332,
+    "from": "Leo",
+    "gist": "you're perfect",
+    "tag": "aff",
+    "text": "you're perfect"
+   },
+   {
+    "day": 1,
+    "time": "20:21",
+    "t_hours": 20.35,
+    "from": "Mia",
+    "gist": "i'm not lol",
+    "tag": null,
+    "text": "i'm not lol"
+   },
+   {
+    "day": 1,
+    "time": "20:22",
+    "t_hours": 20.366666666666667,
+    "from": "Leo",
+    "gist": "to me you are",
+    "tag": "aff",
+    "text": "to me you are"
+   },
+   {
+    "day": 1,
+    "time": "20:23",
+    "t_hours": 20.383333333333333,
+    "from": "Mia",
+    "gist": "goodnight you",
+    "tag": null,
+    "text": "goodnight you"
+   },
+   {
+    "day": 1,
+    "time": "20:24",
+    "t_hours": 20.4,
+    "from": "Leo",
+    "gist": "goodnight beautiful",
+    "tag": "aff",
+    "text": "goodnight beautiful"
+   }
+  ],
+  "polished": true
+ },
+ "S11_vulnerability": {
+  "desc": "Leo opens up late at night about panic attacks after his dad's death.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "23:30",
+    "t_hours": 23.5,
+    "from": "Leo",
+    "gist": "you awake?",
+    "tag": null,
+    "text": "u up?"
+   },
+   {
+    "day": 1,
+    "time": "23:31",
+    "t_hours": 23.516666666666666,
+    "from": "Mia",
+    "gist": "yeah what's up",
+    "tag": null,
+    "text": "yeah whats up"
+   },
+   {
+    "day": 1,
+    "time": "23:33",
+    "t_hours": 23.55,
+    "from": "Leo",
+    "gist": "can i tell you something i haven't told anyone",
+    "tag": null,
+    "text": "can i tell u something i havent told anyone"
+   },
+   {
+    "day": 1,
+    "time": "23:33",
+    "t_hours": 23.55,
+    "from": "Mia",
+    "gist": "of course",
+    "tag": null,
+    "text": "ofc"
+   },
+   {
+    "day": 1,
+    "time": "23:36",
+    "t_hours": 23.6,
+    "from": "Leo",
+    "gist": "i've been having panic attacks since my dad died. like every night",
+    "tag": "vuln1",
+    "text": "ive been having panic attacks since my dad died. like every night"
+   },
+   {
+    "day": 1,
+    "time": "23:37",
+    "t_hours": 23.616666666666667,
+    "from": "Mia",
+    "gist": "oh leo",
+    "tag": null,
+    "text": "oh leo"
+   },
+   {
+    "day": 1,
+    "time": "23:37",
+    "t_hours": 23.616666666666667,
+    "from": "Mia",
+    "gist": "i'm so sorry",
+    "tag": null,
+    "text": "im so sorry"
+   },
+   {
+    "day": 1,
+    "time": "23:40",
+    "t_hours": 23.666666666666668,
+    "from": "Leo",
+    "gist": "i feel stupid even saying it",
+    "tag": "vuln2",
+    "text": "i feel dumb even saying it"
+   },
+   {
+    "day": 1,
+    "time": "23:41",
+    "t_hours": 23.683333333333334,
+    "from": "Mia",
+    "gist": "it's not stupid at all",
+    "tag": null,
+    "text": "its not dumb at all"
+   },
+   {
+    "day": 1,
+    "time": "23:43",
+    "t_hours": 23.716666666666665,
+    "from": "Leo",
+    "gist": "thanks for not making it weird",
+    "tag": null,
+    "text": "thanks for not making it weird"
+   },
+   {
+    "day": 1,
+    "time": "23:44",
+    "t_hours": 23.733333333333334,
+    "from": "Mia",
+    "gist": "want me to call?",
+    "tag": null,
+    "text": "want me to call?"
+   },
+   {
+    "day": 1,
+    "time": "23:45",
+    "t_hours": 23.75,
+    "from": "Leo",
+    "gist": "yeah. that'd help",
+    "tag": "vuln3",
+    "text": "yeah. thatd help"
+   },
+   {
+    "day": 2,
+    "time": "09:00",
+    "t_hours": 33.0,
+    "from": "Leo",
+    "gist": "thanks for last night. really",
+    "tag": "grat",
+    "text": "thanks for last night. really"
+   },
+   {
+    "day": 2,
+    "time": "09:05",
+    "t_hours": 33.083333333333336,
+    "from": "Mia",
+    "gist": "anytime. how are you today",
+    "tag": null,
+    "text": "anytime. how r u today"
+   },
+   {
+    "day": 2,
+    "time": "09:07",
+    "t_hours": 33.11666666666667,
+    "from": "Leo",
+    "gist": "better. slept a bit",
+    "tag": null,
+    "text": "better. slept a bit"
+   },
+   {
+    "day": 2,
+    "time": "09:08",
+    "t_hours": 33.13333333333333,
+    "from": "Mia",
+    "gist": "good",
+    "tag": null,
+    "text": "good"
+   },
+   {
+    "day": 2,
+    "time": "09:10",
+    "t_hours": 33.166666666666664,
+    "from": "Leo",
+    "gist": "i'm gonna look for a therapist",
+    "tag": "growth",
+    "text": "im gonna look for a therapist"
+   },
+   {
+    "day": 2,
+    "time": "09:12",
+    "t_hours": 33.2,
+    "from": "Mia",
+    "gist": "proud of you",
+    "tag": null,
+    "text": "proud of u"
+   },
+   {
+    "day": 2,
+    "time": "09:13",
+    "t_hours": 33.21666666666667,
+    "from": "Leo",
+    "gist": "🙂",
+    "tag": null,
+    "text": "🙂"
+   }
+  ],
+  "polished": true
+ },
+ "S12_perceived_lie": {
+  "desc": "Leo says he's home sick; later it slips that he was at a party.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "19:00",
+    "t_hours": 19.0,
+    "from": "Mia",
+    "gist": "still coming to my show tonight?",
+    "tag": null,
+    "text": "still coming to my show tonight?"
+   },
+   {
+    "day": 1,
+    "time": "19:30",
+    "t_hours": 19.5,
+    "from": "Leo",
+    "gist": "ugh sorry, i'm sick, staying home",
+    "tag": "cancel",
+    "text": "ugh sorry, i'm sick, staying home"
+   },
+   {
+    "day": 1,
+    "time": "19:31",
+    "t_hours": 19.516666666666666,
+    "from": "Mia",
+    "gist": "oh no, feel better",
+    "tag": null,
+    "text": "oh no, feel better"
+   },
+   {
+    "day": 1,
+    "time": "19:32",
+    "t_hours": 19.533333333333335,
+    "from": "Leo",
+    "gist": "thanks",
+    "tag": null,
+    "text": "thanks"
+   },
+   {
+    "day": 2,
+    "time": "10:00",
+    "t_hours": 34.0,
+    "from": "Mia",
+    "gist": "how are you feeling",
+    "tag": null,
+    "text": "how are you feeling"
+   },
+   {
+    "day": 2,
+    "time": "10:30",
+    "t_hours": 34.5,
+    "from": "Leo",
+    "gist": "better",
+    "tag": null,
+    "text": "better"
+   },
+   {
+    "day": 2,
+    "time": "10:31",
+    "t_hours": 34.516666666666666,
+    "from": "Leo",
+    "gist": "jake's party was insane btw, got home at 4",
+    "tag": "lie",
+    "text": "jake's party was insane btw, got home at 4"
+   },
+   {
+    "day": 2,
+    "time": "10:32",
+    "t_hours": 34.53333333333333,
+    "from": "Mia",
+    "gist": "wait",
+    "tag": null,
+    "text": "wait"
+   },
+   {
+    "day": 2,
+    "time": "10:32",
+    "t_hours": 34.53333333333333,
+    "from": "Mia",
+    "gist": "you were at jake's party?",
+    "tag": null,
+    "text": "you were at jake's party?"
+   },
+   {
+    "day": 2,
+    "time": "10:34",
+    "t_hours": 34.56666666666667,
+    "from": "Leo",
+    "gist": "i mean i went for like an hour",
+    "tag": "lie2",
+    "text": "i mean i went for like an hour"
+   },
+   {
+    "day": 2,
+    "time": "10:35",
+    "t_hours": 34.583333333333336,
+    "from": "Mia",
+    "gist": "you said you were sick",
+    "tag": null,
+    "text": "you said you were sick"
+   },
+   {
+    "day": 2,
+    "time": "10:37",
+    "t_hours": 34.61666666666667,
+    "from": "Leo",
+    "gist": "i felt better later, why are you interrogating me",
+    "tag": "defensive",
+    "text": "i felt better later, why are you interrogating me"
+   },
+   {
+    "day": 2,
+    "time": "10:40",
+    "t_hours": 34.666666666666664,
+    "from": "Mia",
+    "gist": "because you skipped my show",
+    "tag": null,
+    "text": "because you skipped my show"
+   },
+   {
+    "day": 2,
+    "time": "10:42",
+    "t_hours": 34.7,
+    "from": "Leo",
+    "gist": "it's not a big deal",
+    "tag": "dismiss",
+    "text": "it's not a big deal"
+   },
+   {
+    "day": 2,
+    "time": "10:50",
+    "t_hours": 34.833333333333336,
+    "from": "Mia",
+    "gist": "ok",
+    "tag": null,
+    "text": "ok"
+   },
+   {
+    "day": 3,
+    "time": "12:00",
+    "t_hours": 60.0,
+    "from": "Leo",
+    "gist": "hey",
+    "tag": "after",
+    "text": "hey"
+   },
+   {
+    "day": 3,
+    "time": "12:30",
+    "t_hours": 60.5,
+    "from": "Mia",
+    "gist": "hi",
+    "tag": null,
+    "text": "hi"
+   },
+   {
+    "day": 3,
+    "time": "12:31",
+    "t_hours": 60.516666666666666,
+    "from": "Leo",
+    "gist": "lunch?",
+    "tag": null,
+    "text": "lunch?"
+   },
+   {
+    "day": 3,
+    "time": "12:45",
+    "t_hours": 60.75,
+    "from": "Mia",
+    "gist": "busy",
+    "tag": null,
+    "text": "busy"
+   }
+  ],
+  "polished": true
+ },
+ "S13_slow_neglect": {
+  "desc": "Over a week Leo answers Mia with curt, uninterested replies.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "19:00",
+    "t_hours": 19.0,
+    "from": "Mia",
+    "gist": "i got the internship!!!",
+    "tag": null,
+    "text": "i got the internship!!!"
+   },
+   {
+    "day": 1,
+    "time": "20:30",
+    "t_hours": 20.5,
+    "from": "Leo",
+    "gist": "nice",
+    "tag": "curt",
+    "text": "nice"
+   },
+   {
+    "day": 1,
+    "time": "20:31",
+    "t_hours": 20.516666666666666,
+    "from": "Mia",
+    "gist": "that's it? lol",
+    "tag": null,
+    "text": "that's it? lol"
+   },
+   {
+    "day": 1,
+    "time": "21:10",
+    "t_hours": 21.166666666666668,
+    "from": "Leo",
+    "gist": "busy sorry",
+    "tag": "curt",
+    "text": "busy sorry"
+   },
+   {
+    "day": 2,
+    "time": "18:00",
+    "t_hours": 42.0,
+    "from": "Mia",
+    "gist": "want to celebrate this weekend?",
+    "tag": null,
+    "text": "want to celebrate this weekend?"
+   },
+   {
+    "day": 2,
+    "time": "23:00",
+    "t_hours": 47.0,
+    "from": "Leo",
+    "gist": "maybe",
+    "tag": "curt",
+    "text": "maybe"
+   },
+   {
+    "day": 3,
+    "time": "12:00",
+    "t_hours": 60.0,
+    "from": "Mia",
+    "gist": "i made that pasta you like",
+    "tag": null,
+    "text": "i made that pasta you like"
+   },
+   {
+    "day": 3,
+    "time": "16:00",
+    "t_hours": 64.0,
+    "from": "Leo",
+    "gist": "k",
+    "tag": "curt",
+    "text": "k"
+   },
+   {
+    "day": 4,
+    "time": "20:00",
+    "t_hours": 92.0,
+    "from": "Mia",
+    "gist": "are you mad at me or something?",
+    "tag": null,
+    "text": "are you mad at me or something?"
+   },
+   {
+    "day": 4,
+    "time": "22:00",
+    "t_hours": 94.0,
+    "from": "Leo",
+    "gist": "no why",
+    "tag": "curt",
+    "text": "no why"
+   },
+   {
+    "day": 4,
+    "time": "22:01",
+    "t_hours": 94.01666666666667,
+    "from": "Mia",
+    "gist": "you've been really distant",
+    "tag": null,
+    "text": "you've been really distant"
+   },
+   {
+    "day": 4,
+    "time": "22:40",
+    "t_hours": 94.66666666666667,
+    "from": "Leo",
+    "gist": "just tired",
+    "tag": "curt",
+    "text": "just tired"
+   },
+   {
+    "day": 5,
+    "time": "19:00",
+    "t_hours": 115.0,
+    "from": "Mia",
+    "gist": "ok well i'm here if you want to talk",
+    "tag": null,
+    "text": "ok well i'm here if you want to talk"
+   },
+   {
+    "day": 6,
+    "time": "13:00",
+    "t_hours": 133.0,
+    "from": "Leo",
+    "gist": "ok",
+    "tag": "curt",
+    "text": "ok"
+   },
+   {
+    "day": 7,
+    "time": "18:00",
+    "t_hours": 162.0,
+    "from": "Mia",
+    "gist": "we still on for saturday?",
+    "tag": null,
+    "text": "we still on for saturday?"
+   },
+   {
+    "day": 7,
+    "time": "21:00",
+    "t_hours": 165.0,
+    "from": "Leo",
+    "gist": "idk",
+    "tag": "curt",
+    "text": "idk"
+   },
+   {
+    "day": 7,
+    "time": "21:01",
+    "t_hours": 165.01666666666668,
+    "from": "Mia",
+    "gist": "wow ok",
+    "tag": null,
+    "text": "wow ok"
+   },
+   {
+    "day": 7,
+    "time": "21:30",
+    "t_hours": 165.5,
+    "from": "Leo",
+    "gist": "what",
+    "tag": "curt",
+    "text": "what"
+   }
+  ],
+  "polished": true
+ },
+ "S14_day200_banter": {
+  "desc": "Best friends of years roast each other constantly; nothing is actually offensive between them.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "20:00",
+    "t_hours": 20.0,
+    "from": "Leo",
+    "gist": "you're alive? thought the cats finally ate you",
+    "tag": "tease",
+    "text": "you alive? thought the cats finally ate you"
+   },
+   {
+    "day": 1,
+    "time": "20:01",
+    "t_hours": 20.016666666666666,
+    "from": "Mia",
+    "gist": "they tried. i'm too bitter",
+    "tag": null,
+    "text": "they tried. too bitter"
+   },
+   {
+    "day": 1,
+    "time": "20:02",
+    "t_hours": 20.033333333333335,
+    "from": "Leo",
+    "gist": "accurate",
+    "tag": null,
+    "text": "accurate"
+   },
+   {
+    "day": 1,
+    "time": "20:03",
+    "t_hours": 20.05,
+    "from": "Mia",
+    "gist": "says the guy who cried at a pixar movie last week",
+    "tag": null,
+    "text": "says the guy who cried at a pixar movie last week"
+   },
+   {
+    "day": 1,
+    "time": "20:04",
+    "t_hours": 20.066666666666666,
+    "from": "Leo",
+    "gist": "it was about a robot and his plant ok",
+    "tag": "tease",
+    "text": "it was about a robot and his plant ok"
+   },
+   {
+    "day": 1,
+    "time": "20:05",
+    "t_hours": 20.083333333333332,
+    "from": "Mia",
+    "gist": "sure grandpa",
+    "tag": null,
+    "text": "sure grandpa"
+   },
+   {
+    "day": 1,
+    "time": "20:06",
+    "t_hours": 20.1,
+    "from": "Leo",
+    "gist": "at least i can parallel park",
+    "tag": "tease",
+    "text": "at least i can parallel park"
+   },
+   {
+    "day": 1,
+    "time": "20:07",
+    "t_hours": 20.116666666666667,
+    "from": "Mia",
+    "gist": "one time. ONE time",
+    "tag": null,
+    "text": "one time. ONE time"
+   },
+   {
+    "day": 1,
+    "time": "20:08",
+    "t_hours": 20.133333333333333,
+    "from": "Leo",
+    "gist": "the fire hydrant remembers",
+    "tag": "tease",
+    "text": "the fire hydrant remembers"
+   },
+   {
+    "day": 1,
+    "time": "20:09",
+    "t_hours": 20.15,
+    "from": "Mia",
+    "gist": "i hate you",
+    "tag": null,
+    "text": "i hate you"
+   },
+   {
+    "day": 1,
+    "time": "20:10",
+    "t_hours": 20.166666666666668,
+    "from": "Leo",
+    "gist": "no you don't",
+    "tag": "tease",
+    "text": "no you don't"
+   },
+   {
+    "day": 1,
+    "time": "20:11",
+    "t_hours": 20.183333333333334,
+    "from": "Mia",
+    "gist": "unfortunately",
+    "tag": null,
+    "text": "unfortunately"
+   },
+   {
+    "day": 1,
+    "time": "20:12",
+    "t_hours": 20.2,
+    "from": "Leo",
+    "gist": "trivia thursday? need you to lose the music round for us again",
+    "tag": "tease",
+    "text": "trivia thursday? need you to lose the music round for us again"
+   },
+   {
+    "day": 1,
+    "time": "20:13",
+    "t_hours": 20.216666666666665,
+    "from": "Mia",
+    "gist": "i will destroy you",
+    "tag": null,
+    "text": "i will destroy you"
+   },
+   {
+    "day": 1,
+    "time": "20:14",
+    "t_hours": 20.233333333333334,
+    "from": "Leo",
+    "gist": "you say that every week",
+    "tag": "tease",
+    "text": "you say that every week"
+   },
+   {
+    "day": 1,
+    "time": "20:15",
+    "t_hours": 20.25,
+    "from": "Mia",
+    "gist": "and every week i'm right",
+    "tag": null,
+    "text": "and every week i'm right"
+   },
+   {
+    "day": 1,
+    "time": "20:16",
+    "t_hours": 20.266666666666666,
+    "from": "Leo",
+    "gist": "delusional queen",
+    "tag": "tease",
+    "text": "delusional queen"
+   },
+   {
+    "day": 1,
+    "time": "20:17",
+    "t_hours": 20.283333333333335,
+    "from": "Mia",
+    "gist": "see you thursday loser",
+    "tag": null,
+    "text": "see you thursday loser"
+   },
+   {
+    "day": 1,
+    "time": "20:18",
+    "t_hours": 20.3,
+    "from": "Leo",
+    "gist": "bring snacks, peasant",
+    "tag": "tease",
+    "text": "bring snacks, peasant"
+   },
+   {
+    "day": 1,
+    "time": "20:19",
+    "t_hours": 20.316666666666666,
+    "from": "Mia",
+    "gist": "🙄",
+    "tag": null,
+    "text": "🙄"
+   }
+  ],
+  "polished": true
+ },
+ "S15_hot_cold": {
+  "desc": "Stress test: Leo alternates between sweet and mean messages every turn.",
+  "turns": [
+   {
+    "day": 1,
+    "time": "20:00",
+    "t_hours": 20.0,
+    "from": "Leo",
+    "gist": "you're honestly the best",
+    "tag": "nice",
+    "text": "you're honestly the best"
+   },
+   {
+    "day": 1,
+    "time": "20:01",
+    "t_hours": 20.016666666666666,
+    "from": "Mia",
+    "gist": "aw",
+    "tag": null,
+    "text": "aw"
+   },
+   {
+    "day": 1,
+    "time": "20:02",
+    "t_hours": 20.033333333333335,
+    "from": "Leo",
+    "gist": "actually you've been kind of annoying lately",
+    "tag": "mean",
+    "text": "actually you've been kind of annoying lately"
+   },
+   {
+    "day": 1,
+    "time": "20:03",
+    "t_hours": 20.05,
+    "from": "Mia",
+    "gist": "what?",
+    "tag": null,
+    "text": "what?"
+   },
+   {
+    "day": 1,
+    "time": "20:04",
+    "t_hours": 20.066666666666666,
+    "from": "Leo",
+    "gist": "jk you're great",
+    "tag": "nice",
+    "text": "jk you're great"
+   },
+   {
+    "day": 1,
+    "time": "20:05",
+    "t_hours": 20.083333333333332,
+    "from": "Mia",
+    "gist": "ok??",
+    "tag": null,
+    "text": "ok??"
+   },
+   {
+    "day": 1,
+    "time": "20:06",
+    "t_hours": 20.1,
+    "from": "Leo",
+    "gist": "but seriously you talk too much",
+    "tag": "mean",
+    "text": "but seriously you talk too much"
+   },
+   {
+    "day": 1,
+    "time": "20:07",
+    "t_hours": 20.116666666666667,
+    "from": "Mia",
+    "gist": "wow",
+    "tag": null,
+    "text": "wow"
+   },
+   {
+    "day": 1,
+    "time": "20:08",
+    "t_hours": 20.133333333333333,
+    "from": "Leo",
+    "gist": "sorry that was rude, you're amazing",
+    "tag": "nice",
+    "text": "sorry that was rude, you're amazing"
+   },
+   {
+    "day": 1,
+    "time": "20:09",
+    "t_hours": 20.15,
+    "from": "Mia",
+    "gist": "make up your mind",
+    "tag": null,
+    "text": "make up your mind"
+   },
+   {
+    "day": 1,
+    "time": "20:10",
+    "t_hours": 20.166666666666668,
+    "from": "Leo",
+    "gist": "you're so dramatic lol",
+    "tag": "mean",
+    "text": "you're so dramatic lol"
+   },
+   {
+    "day": 1,
+    "time": "20:11",
+    "t_hours": 20.183333333333334,
+    "from": "Mia",
+    "gist": "i'm not doing this",
+    "tag": null,
+    "text": "i'm not doing this"
+   },
+   {
+    "day": 1,
+    "time": "20:12",
+    "t_hours": 20.2,
+    "from": "Leo",
+    "gist": "no wait, i really like you",
+    "tag": "nice",
+    "text": "no wait, i really like you"
+   },
+   {
+    "day": 1,
+    "time": "20:13",
+    "t_hours": 20.216666666666665,
+    "from": "Mia",
+    "gist": "then act like it",
+    "tag": null,
+    "text": "then act like it"
+   },
+   {
+    "day": 1,
+    "time": "20:14",
+    "t_hours": 20.233333333333334,
+    "from": "Leo",
+    "gist": "you're exhausting",
+    "tag": "mean",
+    "text": "you're exhausting"
+   },
+   {
+    "day": 1,
+    "time": "20:15",
+    "t_hours": 20.25,
+    "from": "Mia",
+    "gist": "goodnight leo",
+    "tag": null,
+    "text": "goodnight leo"
+   },
+   {
+    "day": 1,
+    "time": "20:16",
+    "t_hours": 20.266666666666666,
+    "from": "Leo",
+    "gist": "i miss you already",
+    "tag": "nice",
+    "text": "i miss you already"
+   },
+   {
+    "day": 1,
+    "time": "20:17",
+    "t_hours": 20.283333333333335,
+    "from": "Mia",
+    "gist": "...",
+    "tag": null,
+    "text": "..."
+   }
+  ],
+  "polished": true
+ }
+}

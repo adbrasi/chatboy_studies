@@ -1,0 +1,2555 @@
+{
+ "0:father": {
+  "char": 0,
+  "restr": "father",
+  "history": [
+   {
+    "who": "Leo",
+    "text": "yo u alive? saw u online at 4am again lol"
+   },
+   {
+    "who": "Maya",
+    "text": "define alive. i'm on hour 9 of my shift, currently counting pills and questioning my life choices"
+   },
+   {
+    "who": "Leo",
+    "text": "hour 9?? didnt ur shift start at like 9pm"
+   },
+   {
+    "who": "Maya",
+    "text": "yes. the pharmacy at 3am is its own special kind of hell. some guy came in for cough syrup and told me his whole divorce story"
+   },
+   {
+    "who": "Leo",
+    "text": "haha classic. u get off soon at least?"
+   },
+   {
+    "who": "Maya",
+    "text": "2 more hours. then i sleep until my body forgives me"
+   },
+   {
+    "who": "Leo",
+    "text": "hey random q but hows ur dad doing? u never really talk about him"
+   }
+  ],
+  "cost": 0.00011343
+ },
+ "0:apologize": {
+  "char": 0,
+  "restr": "apologize",
+  "history": [
+   {
+    "who": "Leo",
+    "text": "yo you up?"
+   },
+   {
+    "who": "Maya",
+    "text": "unfortunately. night shift, nothing to do but stare at the ceiling tiles"
+   },
+   {
+    "who": "Leo",
+    "text": "lol classic. hows the pharmacy tonight"
+   },
+   {
+    "who": "Maya",
+    "text": "a guy came in at 2am for cough drops and then told me his whole life story. riveting stuff"
+   },
+   {
+    "who": "Leo",
+    "text": "sounds like a party. anyway werent we supposed to get food today"
+   },
+   {
+    "who": "Maya",
+    "text": "oh. um. was that today"
+   },
+   {
+    "who": "Leo",
+    "text": "i waited at the ramen place for like an hour and a half maya. you didnt even text me back"
+   }
+  ],
+  "cost": 0.000103626
+ },
+ "0:emoji": {
+  "char": 0,
+  "restr": "emoji",
+  "history": [
+   {
+    "who": "Leo",
+    "text": "hey maya, you up? weird question but do you sleep at all"
+   },
+   {
+    "who": "Maya",
+    "text": "define sleep. i'm on hour 9 of a 12 and the robot that fills pill bottles is my only friend"
+   },
+   {
+    "who": "Leo",
+    "text": "that's bleak even for you"
+   },
+   {
+    "who": "Maya",
+    "text": "it's efficient. anyway what's up, work's dead and i've counted all the ceiling tiles twice"
+   },
+   {
+    "who": "Leo",
+    "text": "nothing much, just got home. ok actually i have to show you something"
+   },
+   {
+    "who": "Leo",
+    "text": "MY NEIGHBOR GOT A KITTEN AND IT JUST WALKED INTO MY APARTMENT LIKE IT OWNS THE PLACE 😻😻 IT HAS TINY WHITE SOCKS ON ALL FOUR PAWS AND IT FELL ASLEEP IN MY HOODIE POCKET, I AM DECEASED, LOOK AT THIS 😻😻😻"
+   },
+   {
+    "who": "Leo",
+    "text": "anyway good luck with your last 3 hours, i'm gonna go be a cat dad apparently 😻"
+   }
+  ],
+  "cost": 0.00014136
+ },
+ "0:askwork": {
+  "char": 0,
+  "restr": "askwork",
+  "history": [
+   {
+    "who": "Leo",
+    "text": "hey you up"
+   },
+   {
+    "who": "Maya",
+    "text": "sadly yes. pharmacy at 3am is a ghost town"
+   },
+   {
+    "who": "Leo",
+    "text": "lol figured. hows the night shift treating you"
+   },
+   {
+    "who": "Maya",
+    "text": "i've counted the same shelf twice. riveting stuff"
+   },
+   {
+    "who": "Leo",
+    "text": "sounds about right. anyway"
+   },
+   {
+    "who": "Leo",
+    "text": "today was insane at work. like genuinely crazy"
+   },
+   {
+    "who": "Leo",
+    "text": "three people out sick, my boss lost his mind over some report, and i ended up doing like four jobs at once. i am DONE"
+   }
+  ],
+  "cost": 9.5988e-05
+ },
+ "1:ex": {
+  "char": 1,
+  "restr": "ex",
+  "history": [
+   {
+    "who": "Nina",
+    "text": "hey you up"
+   },
+   {
+    "who": "Theo",
+    "text": "yeah just got back from practice. my fingers are dead lol"
+   },
+   {
+    "who": "Nina",
+    "text": "aw poor baby. did the new song come together?"
+   },
+   {
+    "who": "Theo",
+    "text": "kinda. liam keeps changing the bridge and it's driving me insane"
+   },
+   {
+    "who": "Theo",
+    "text": "anyway whats up, you never text this late"
+   },
+   {
+    "who": "Nina",
+    "text": "nothing much, just wired. oh weird thing happened today, i ran into jordan at the coffee place on 5th"
+   },
+   {
+    "who": "Nina",
+    "text": "she asked about you actually. do you two still talk?"
+   }
+  ],
+  "cost": 0.0001611
+ },
+ "1:long": {
+  "char": 1,
+  "restr": "long",
+  "history": [
+   {
+    "who": "Nina",
+    "text": "hey you. how was practice"
+   },
+   {
+    "who": "Theo",
+    "text": "long. my fingers are dead lol"
+   },
+   {
+    "who": "Nina",
+    "text": "poor baby. did you eat"
+   },
+   {
+    "who": "Theo",
+    "text": "some chips at like 4. thats food right"
+   },
+   {
+    "who": "Nina",
+    "text": "theo. thats not food"
+   },
+   {
+    "who": "Theo",
+    "text": "it was bbq flavor. basically a meal"
+   },
+   {
+    "who": "Nina",
+    "text": "ok whatever. now tell me everything about your weekend trip. all of it, in detail, dont leave anything out"
+   }
+  ],
+  "cost": 9.12e-05
+ },
+ "1:compliment": {
+  "char": 1,
+  "restr": "compliment",
+  "history": [
+   {
+    "who": "Nina",
+    "text": "hey, how was practice"
+   },
+   {
+    "who": "Theo",
+    "text": "long. my fingers are dead lol"
+   },
+   {
+    "who": "Nina",
+    "text": "aw poor baby"
+   },
+   {
+    "who": "Theo",
+    "text": "we're playing that bar again friday. you coming?"
+   },
+   {
+    "who": "Nina",
+    "text": "prob yeah. gotta check my shift"
+   },
+   {
+    "who": "Theo",
+    "text": "cool. anyway whats up, you've been typing for like 5 min"
+   },
+   {
+    "who": "Nina",
+    "text": "ok so i did a thing. dont laugh. [photo attached] what do you think??"
+   }
+  ],
+  "cost": 0.0002436
+ },
+ "2:money": {
+  "char": 2,
+  "restr": "money",
+  "history": [
+   {
+    "who": "Sam",
+    "text": "hey you up"
+   },
+   {
+    "who": "Priya",
+    "text": "unfortunately. lab ran till 9, i'm dead"
+   },
+   {
+    "who": "Sam",
+    "text": "lol same, just got back from dan's thing. it was fine"
+   },
+   {
+    "who": "Priya",
+    "text": "fun. i ate a granola bar for dinner so im thriving"
+   },
+   {
+    "who": "Sam",
+    "text": "classic. hey real quick, me and some people are thinking of doing a weekend thing in vermont next month, cabins and stuff"
+   },
+   {
+    "who": "Sam",
+    "text": "would you wanna come? more importantly like, how are you doing money-wise these days, could you swing it"
+   }
+  ],
+  "cost": 9.633e-05
+ },
+ "2:excl": {
+  "char": 2,
+  "restr": "excl",
+  "history": [
+   {
+    "who": "Sam",
+    "text": "hey you home tn?"
+   },
+   {
+    "who": "Priya",
+    "text": "in the lab till like 9. why, did the dishwasher break again"
+   },
+   {
+    "who": "Sam",
+    "text": "no lol nothing broke. just wanted to see if you were around"
+   },
+   {
+    "who": "Priya",
+    "text": "k. grab milk on your way back if you go out"
+   },
+   {
+    "who": "Sam",
+    "text": "ok um so i walked out of that interview and they called an hour later"
+   },
+   {
+    "who": "Sam",
+    "text": "i got the job!! the one at the museum. i start monday"
+   }
+  ],
+  "cost": 8.7552e-05
+ },
+ "2:advice": {
+  "char": 2,
+  "restr": "advice",
+  "history": [
+   {
+    "who": "Sam",
+    "text": "hey are you home later? thinking of making that pasta thing"
+   },
+   {
+    "who": "Priya",
+    "text": "maybe, lab till 7ish. depends if my cells decide to cooperate for once"
+   },
+   {
+    "who": "Sam",
+    "text": "lol classic. i'll leave you a plate if you're late"
+   },
+   {
+    "who": "Priya",
+    "text": "you're a saint. also your phone kept buzzing on the counter, some guy named dev? rang twice"
+   },
+   {
+    "who": "Sam",
+    "text": "oh. yeah that's... a whole thing"
+   },
+   {
+    "who": "Priya",
+    "text": "figured. you've been weird all week. we'll talk when i'm back"
+   },
+   {
+    "who": "Sam",
+    "text": "ok real question tho. he texted again and i've been leaving him on read for 2 days. should i text him back or just let it die"
+   }
+  ],
+  "cost": 0.000114684
+ },
+ "2:laugh": {
+  "char": 2,
+  "restr": "laugh",
+  "history": [
+   {
+    "who": "Sam",
+    "text": "hey, you around? weirdly quiet in here"
+   },
+   {
+    "who": "Priya",
+    "text": "in the lab. cells decided to die overnight so im redoing everything"
+   },
+   {
+    "who": "Sam",
+    "text": "rip. want me to grab you a burrito on my way back"
+   },
+   {
+    "who": "Priya",
+    "text": "yes. chicken. no beans. dont let them put beans"
+   },
+   {
+    "who": "Sam",
+    "text": "i know i know. also i finally fixed the squeaky door hinge"
+   },
+   {
+    "who": "Sam",
+    "text": "anyway, why did the biologist break up with the lab centrifuge?"
+   },
+   {
+    "who": "Sam",
+    "text": "it kept spinning things out of proportion"
+   }
+  ],
+  "cost": 0.00010822
+ },
+ "3:hometown": {
+  "char": 3,
+  "restr": "hometown",
+  "history": [
+   {
+    "who": "Ava",
+    "text": "hey you awake yet or still pretending to sleep"
+   },
+   {
+    "who": "Jonas",
+    "text": "been up since 5. cars dont fix themselves"
+   },
+   {
+    "who": "Ava",
+    "text": "5?? thats not a time thats a threat"
+   },
+   {
+    "who": "Jonas",
+    "text": "says the one who texted me at 7 like a normal person. what do you want"
+   },
+   {
+    "who": "Ava",
+    "text": "nothing, just avoiding my emails. anyway random q, where did you actually grow up? like where's your hometown"
+   },
+   {
+    "who": "Jonas",
+    "text": "why, you writing my biography"
+   },
+   {
+    "who": "Ava",
+    "text": "maybe. come on, where's your hometown and what was it like"
+   }
+  ],
+  "cost": 0.000101916
+ },
+ "3:affection": {
+  "char": 3,
+  "restr": "affection",
+  "history": [
+   {
+    "who": "Ava",
+    "text": "hey you up? random i know"
+   },
+   {
+    "who": "Jonas",
+    "text": "been up since 5. cars dont fix themselves"
+   },
+   {
+    "who": "Ava",
+    "text": "of course they dont lol. you still doing the early shift thing?"
+   },
+   {
+    "who": "Jonas",
+    "text": "yep. breakfast at 6, grease by 7. glamorous life"
+   },
+   {
+    "who": "Ava",
+    "text": "ha. anyway i just wanted to say hi. miss ya"
+   },
+   {
+    "who": "Jonas",
+    "text": "miss you too weirdo. come by the shop sometime, i'll show you a carburetor"
+   },
+   {
+    "who": "Ava",
+    "text": "love you babe"
+   }
+  ],
+  "cost": 9.8496e-05
+ },
+ "3:emoji": {
+  "char": 3,
+  "restr": "emoji",
+  "history": [
+   {
+    "who": "Ava",
+    "text": "hey jonas, still alive?"
+   },
+   {
+    "who": "Jonas",
+    "text": "unfortunately. 6am starts should be illegal"
+   },
+   {
+    "who": "Ava",
+    "text": "lol you chose that life"
+   },
+   {
+    "who": "Jonas",
+    "text": "chose is a strong word. the toolbox chose me"
+   },
+   {
+    "who": "Ava",
+    "text": "fair. anyway guess what i found"
+   },
+   {
+    "who": "Jonas",
+    "text": "if its another stray cat i'm not driving over"
+   },
+   {
+    "who": "Ava",
+    "text": "ITS A TINY KITTEN WITH MITTENS ON ALL FOUR PAWS 😭😭😭😻😻 little white socks!! shes so small she fits in my hoodie pocket!!! i'm keeping her, meet her or else 🥹🐾❤️❤️"
+   }
+  ],
+  "cost": 0.0002946
+ },
+ "4:health": {
+  "char": 4,
+  "restr": "health",
+  "history": [
+   {
+    "who": "Ben",
+    "text": "hey, hows ur day going"
+   },
+   {
+    "who": "Carla",
+    "text": "busy, client wants 5 revisions on the same logo lol"
+   },
+   {
+    "who": "Ben",
+    "text": "oof. did u eat lunch at least"
+   },
+   {
+    "who": "Carla",
+    "text": "sorta. grabbed a granola bar between calls"
+   },
+   {
+    "who": "Ben",
+    "text": "k. also i fixed the sink btw"
+   },
+   {
+    "who": "Carla",
+    "text": "wait really? u actually did it without me asking"
+   },
+   {
+    "who": "Ben",
+    "text": "lol yeah. hey what did the doctor say at your appointment yesterday"
+   }
+  ],
+  "cost": 9.0744e-05
+ },
+ "4:apologize": {
+  "char": 4,
+  "restr": "apologize",
+  "history": [
+   {
+    "who": "Ben",
+    "text": "hey, hows your day going"
+   },
+   {
+    "who": "Carla",
+    "text": "ugh busy, client wants like 5 revisions on the same logo"
+   },
+   {
+    "who": "Ben",
+    "text": "lol classic. you still coming by later tho right"
+   },
+   {
+    "who": "Carla",
+    "text": "yea i think so, gotta finish this first"
+   },
+   {
+    "who": "Ben",
+    "text": "k. i kinda planned stuff around 6 tho"
+   },
+   {
+    "who": "Carla",
+    "text": "oh. yeah ill try to wrap up"
+   },
+   {
+    "who": "Ben",
+    "text": "its 8:30 carla. you forgot our plans again didnt you"
+   }
+  ],
+  "cost": 0.00010172
+ },
+ "4:long": {
+  "char": 4,
+  "restr": "long",
+  "history": [
+   {
+    "who": "Ben",
+    "text": "hey, how was work today?"
+   },
+   {
+    "who": "Carla",
+    "text": "ugh dont get me started. client changed the whole brief again"
+   },
+   {
+    "who": "Ben",
+    "text": "that sucks. did you at least get to redo it your way?"
+   },
+   {
+    "who": "Carla",
+    "text": "kind of. i pushed back and they caved lol. i dont let anyone walk over me"
+   },
+   {
+    "who": "Ben",
+    "text": "i know you dont. thats one of the things i love about you"
+   },
+   {
+    "who": "Ben",
+    "text": "hey so about your weekend trip"
+   },
+   {
+    "who": "Ben",
+    "text": "tell me everything, in detail. i wanna hear all of it, start to finish"
+   }
+  ],
+  "cost": 9.9066e-05
+ },
+ "4:compliment": {
+  "char": 4,
+  "restr": "compliment",
+  "history": [
+   {
+    "who": "Ben",
+    "text": "hey you up?"
+   },
+   {
+    "who": "Carla",
+    "text": "yeah just finished a logo revision. my eyes are dead"
+   },
+   {
+    "who": "Ben",
+    "text": "lol that bad huh"
+   },
+   {
+    "who": "Carla",
+    "text": "client wanted the blue bluer. the BLUE. bluer."
+   },
+   {
+    "who": "Ben",
+    "text": "so like... more blue"
+   },
+   {
+    "who": "Carla",
+    "text": "you get it. anyway whats up with you"
+   },
+   {
+    "who": "Ben",
+    "text": "nothing much, went to that barber finally. took a pic, tell me what you think"
+   }
+  ],
+  "cost": 8.68589e-05
+ },
+ "4:excl": {
+  "char": 4,
+  "restr": "excl",
+  "history": [
+   {
+    "who": "Carla",
+    "text": "hey you. how was the morning?"
+   },
+   {
+    "who": "Ben",
+    "text": "long. meetings all day, coffee went cold twice"
+   },
+   {
+    "who": "Carla",
+    "text": "sounds about right lol. i'm still fighting this logo, client wants it 'more blue but less blue'"
+   },
+   {
+    "who": "Ben",
+    "text": "that's the most designer sentence i've ever heard"
+   },
+   {
+    "who": "Carla",
+    "text": "don't. i've been staring at hex codes for 3 hours"
+   },
+   {
+    "who": "Ben",
+    "text": "sit down if you're not already"
+   },
+   {
+    "who": "Ben",
+    "text": "i got the job carla. the one at the studio. they called this afternoon"
+   }
+  ],
+  "cost": 9.9066e-05
+ },
+ "5:job": {
+  "char": 5,
+  "restr": "job",
+  "history": [
+   {
+    "who": "Mia",
+    "text": "yo what r u up to"
+   },
+   {
+    "who": "Ravi",
+    "text": "just got off shift, smell like a deep fryer lol"
+   },
+   {
+    "who": "Mia",
+    "text": "sexy"
+   },
+   {
+    "who": "Ravi",
+    "text": "extremely. the grease is basically my cologne now"
+   },
+   {
+    "who": "Mia",
+    "text": "hows the job going btw? u still like it there?"
+   }
+  ],
+  "cost": 7.011e-05
+ },
+ "5:laugh": {
+  "char": 5,
+  "restr": "laugh",
+  "history": [
+   {
+    "who": "Mia",
+    "text": "hey you up? work was a mess today"
+   },
+   {
+    "who": "Ravi",
+    "text": "define mess. did someone burn the garlic bread again"
+   },
+   {
+    "who": "Mia",
+    "text": "worse. karen sent back her soup twice. said it was too soupy"
+   },
+   {
+    "who": "Ravi",
+    "text": "too soupy. thats not a thing. thats literally the whole point of soup"
+   },
+   {
+    "who": "Mia",
+    "text": "i knowww. anyway hows the line tonight"
+   },
+   {
+    "who": "Ravi",
+    "text": "chaos as usual. chef yelled at a guy for cutting onions wrong. onions. it was 40 mins of crying"
+   },
+   {
+    "who": "Mia",
+    "text": "ok but real talk. why did the tomato turn red"
+   },
+   {
+    "who": "Mia",
+    "text": "cause it saw the salad dressing ;)"
+   }
+  ],
+  "cost": 0.000114456
+ },
+ "5:askwork": {
+  "char": 5,
+  "restr": "askwork",
+  "history": [
+   {
+    "who": "Ravi",
+    "text": "yo how was the weekend"
+   },
+   {
+    "who": "Mia",
+    "text": "pretty chill, did nothing tbh. you?"
+   },
+   {
+    "who": "Ravi",
+    "text": "worked doubles sat and sun. my feet are legally dead"
+   },
+   {
+    "who": "Mia",
+    "text": "oof. did you at least get free food out of it"
+   },
+   {
+    "who": "Ravi",
+    "text": "chef let me take home a sad tray of pasta. living the dream"
+   },
+   {
+    "who": "Mia",
+    "text": "lol. anyway work today was insane, three people called out and i had to cover the front desk AND train the new guy while my manager yelled at me for stuff that wasnt even my fault"
+   },
+   {
+    "who": "Mia",
+    "text": "like genuinely the craziest day ive had in months, i almost walked out at lunch"
+   }
+  ],
+  "cost": 0.000111834
+ },
+ "6:father": {
+  "char": 6,
+  "restr": "father",
+  "history": [
+   {
+    "who": "Tom",
+    "text": "hey, how's the week going"
+   },
+   {
+    "who": "Elena",
+    "text": "busy. one student decided vibrato is optional"
+   },
+   {
+    "who": "Tom",
+    "text": "bold kid. did you survive"
+   },
+   {
+    "who": "Elena",
+    "text": "barely. also i restrung my violin wrong and had to redo it. twice"
+   },
+   {
+    "who": "Tom",
+    "text": "lol classic. hey random q, how's your dad doing these days? you never really talk about him"
+   },
+   {
+    "who": "Elena",
+    "text": "anyway did i tell you the recital is moved to the 14th"
+   },
+   {
+    "who": "Tom",
+    "text": "you dodged that. seriously, how is he?"
+   }
+  ],
+  "cost": 9.87e-05
+ },
+ "6:long": {
+  "char": 6,
+  "restr": "long",
+  "history": [
+   {
+    "who": "Tom",
+    "text": "hey elena, hows the week been"
+   },
+   {
+    "who": "Elena",
+    "text": "hello tom. busy, as usual. three students prepping for a recital"
+   },
+   {
+    "who": "Tom",
+    "text": "oof. bet theyre all playing the same piece too lol"
+   },
+   {
+    "who": "Elena",
+    "text": "four of them are playing vivaldi. i hear it in my sleep now"
+   },
+   {
+    "who": "Tom",
+    "text": "haha rip. anyway, how was your weekend trip? tell me everything, in detail"
+   },
+   {
+    "who": "Tom",
+    "text": "no skimping on the details either, i want the full report"
+   }
+  ],
+  "cost": 9.1086e-05
+ },
+ "6:affection": {
+  "char": 6,
+  "restr": "affection",
+  "history": [
+   {
+    "who": "Tom",
+    "text": "hey elena, hows the violin teaching going"
+   },
+   {
+    "who": "Elena",
+    "text": "hello tom. it is going well, thank you. one student finally played a scale in tune today"
+   },
+   {
+    "who": "Tom",
+    "text": "lol a whole scale? big day"
+   },
+   {
+    "who": "Elena",
+    "text": "do not mock. intonation is a lifelong discipline"
+   },
+   {
+    "who": "Elena",
+    "text": "also i may have celebrated by playing air violin in my kitchen"
+   },
+   {
+    "who": "Tom",
+    "text": "thats the silly elena i know. anyway i gotta go but"
+   },
+   {
+    "who": "Tom",
+    "text": "love you babe"
+   }
+  ],
+  "cost": 7.976e-05
+ },
+ "6:advice": {
+  "char": 6,
+  "restr": "advice",
+  "history": [
+   {
+    "who": "Tom",
+    "text": "hey elena, hows the violin teaching going"
+   },
+   {
+    "who": "Elena",
+    "text": "Hello Tom. It's going well, thank you. One student finally played the whole Minuet without stopping. I nearly cried."
+   },
+   {
+    "who": "Tom",
+    "text": "haha thats actually huge. bet you did a little happy dance after"
+   },
+   {
+    "who": "Elena",
+    "text": "I did not. ...I did a small one. In the hallway. Where no one could see."
+   },
+   {
+    "who": "Tom",
+    "text": "knew it"
+   },
+   {
+    "who": "Tom",
+    "text": "ok random question. sarah texted me last night, just like a hey howve you been thing"
+   },
+   {
+    "who": "Tom",
+    "text": "should i text her back or just leave it? i keep opening the chat and closing it lol"
+   }
+  ],
+  "cost": 0.000110502
+ },
+ "7:ex": {
+  "char": 7,
+  "restr": "ex",
+  "history": [
+   {
+    "who": "Jade",
+    "text": "hey you off shift yet?"
+   },
+   {
+    "who": "Marcus",
+    "text": "yeah just got home. long one"
+   },
+   {
+    "who": "Jade",
+    "text": "figured. you eat? i can bring something over"
+   },
+   {
+    "who": "Marcus",
+    "text": "im good. just gonna shower and crash"
+   },
+   {
+    "who": "Jade",
+    "text": "ok. oh ran into jordan at the store today btw"
+   },
+   {
+    "who": "Jade",
+    "text": "do you two still talk?"
+   }
+  ],
+  "cost": 0.0002037
+ },
+ "7:emoji": {
+  "char": 7,
+  "restr": "emoji",
+  "history": [
+   {
+    "who": "Jade",
+    "text": "hey, how was the shift"
+   },
+   {
+    "who": "Marcus",
+    "text": "long. two calls back to back"
+   },
+   {
+    "who": "Jade",
+    "text": "you eat anything today or just coffee again"
+   },
+   {
+    "who": "Marcus",
+    "text": "ate. promise. u home?"
+   },
+   {
+    "who": "Jade",
+    "text": "yeah just got in, boring day tbh"
+   },
+   {
+    "who": "Jade",
+    "text": "ok so update, you remember the stray cat that kept hanging around the station"
+   },
+   {
+    "who": "Jade",
+    "text": "SHE HAD KITTENS 😭😭😭 three of them, tiny little beans, one has a white paw and the ears are so smol i cannot deal, i'm literally crying on the floor rn 🥺🥺❤️❤️ you HAVE to come see them after your shift, i'm keeping the white paw one, no arguments"
+   }
+  ],
+  "cost": 0.00021609
+ },
+ "7:apologize": {
+  "char": 7,
+  "restr": "apologize",
+  "history": [
+   {
+    "who": "Jade",
+    "text": "hey how was the shift"
+   },
+   {
+    "who": "Marcus",
+    "text": "long. lots of calls. im beat"
+   },
+   {
+    "who": "Jade",
+    "text": "u still down for dinner tn? that place by the park"
+   },
+   {
+    "who": "Marcus",
+    "text": "yeah sounds good. 7?"
+   },
+   {
+    "who": "Jade",
+    "text": "7 works. dont be late this time lol"
+   },
+   {
+    "who": "Marcus",
+    "text": "ill be there"
+   },
+   {
+    "who": "Jade",
+    "text": "marcus its 8:40. ive been sitting here alone for over an hour. u forgot again didnt u"
+   }
+  ],
+  "cost": 9.1428e-05
+ },
+ "8:money": {
+  "char": 8,
+  "restr": "money",
+  "history": [
+   {
+    "who": "Luca",
+    "text": "hey sof, hows the shift going"
+   },
+   {
+    "who": "Sofia",
+    "text": "ugh dont even. 12 hours and Mrs Patel rang the bell 40 times"
+   },
+   {
+    "who": "Sofia",
+    "text": "but i got free cake from the ward clerk so net positive"
+   },
+   {
+    "who": "Luca",
+    "text": "haha classic. you home now or still there"
+   },
+   {
+    "who": "Sofia",
+    "text": "just got in. feet are dead. thinking about that Lisbon trip again tho, keep seeing cheap flights"
+   },
+   {
+    "who": "Luca",
+    "text": "oh yeah? when were you thinking"
+   },
+   {
+    "who": "Luca",
+    "text": "actually speaking of that, how are you doing money-wise these days? could you actually swing the trip?"
+   }
+  ],
+  "cost": 0.00010192
+ },
+ "8:hometown": {
+  "char": 8,
+  "restr": "hometown",
+  "history": [
+   {
+    "who": "Luca",
+    "text": "hey sof, you up?"
+   },
+   {
+    "who": "Sofia",
+    "text": "yeah just got off shift, my feet are screaming at me lol"
+   },
+   {
+    "who": "Luca",
+    "text": "rough one?"
+   },
+   {
+    "who": "Sofia",
+    "text": "eh not too bad, one guy kept calling me 'miss' like i'm 12 tho"
+   },
+   {
+    "who": "Luca",
+    "text": "haha classic"
+   },
+   {
+    "who": "Sofia",
+    "text": "anyway what's up, you never text this late"
+   },
+   {
+    "who": "Luca",
+    "text": "nothing much, random q. where did you actually grow up? like what was your hometown even like"
+   }
+  ],
+  "cost": 0.0002514
+ },
+ "8:excl": {
+  "char": 8,
+  "restr": "excl",
+  "history": [
+   {
+    "who": "Luca",
+    "text": "hey sof, how was the shift"
+   },
+   {
+    "who": "Sofia",
+    "text": "ugh dont even ask. 12 hrs, one guy kept trying to unplug his own iv"
+   },
+   {
+    "who": "Sofia",
+    "text": "but i got free cake from the night crew so net positive"
+   },
+   {
+    "who": "Luca",
+    "text": "ha, that's the sof i know. you still up overthinking or actually sleeping tonight"
+   },
+   {
+    "who": "Sofia",
+    "text": "no comment. anyway whats up with you, youve been quiet all week"
+   },
+   {
+    "who": "Luca",
+    "text": "ok so. i was gonna wait to tell you in person but i literally cant"
+   },
+   {
+    "who": "Luca",
+    "text": "i got the job. the one i interviewed for. i start monday!!!"
+   }
+  ],
+  "cost": 0.000107844
+ },
+ "8:compliment": {
+  "char": 8,
+  "restr": "compliment",
+  "history": [
+   {
+    "who": "Luca",
+    "text": "hey sof, you on break yet? shift sounds brutal"
+   },
+   {
+    "who": "Sofia",
+    "text": "just sat down with a sad hospital coffee lol. 11 hours and counting"
+   },
+   {
+    "who": "Luca",
+    "text": "oof. did you at least eat something that isnt a granola bar"
+   },
+   {
+    "who": "Sofia",
+    "text": "define eat. i had half a sandwich at like 4 and then a patient coded so. yeah"
+   },
+   {
+    "who": "Luca",
+    "text": "sofia."
+   },
+   {
+    "who": "Sofia",
+    "text": "i know i know. ill grab real food after. why are you up anyway, its late for you"
+   },
+   {
+    "who": "Luca",
+    "text": "long story. ok so i did a thing today. dont laugh. what do you think"
+   }
+  ],
+  "cost": 0.000112404
+ },
+ "9:job": {
+  "char": 9,
+  "restr": "job",
+  "history": [
+   {
+    "who": "Chloe",
+    "text": "hey, you survive the week?"
+   },
+   {
+    "who": "Daniel",
+    "text": "define survive"
+   },
+   {
+    "who": "Chloe",
+    "text": "lol that bad huh"
+   },
+   {
+    "who": "Daniel",
+    "text": "the commute is 90 min each way now. i have memorized every billboard. one of them is for a mattress store. i think about the mattress"
+   },
+   {
+    "who": "Chloe",
+    "text": "omg. anyway hows the job going, you still like it?"
+   }
+  ],
+  "cost": 7.5582e-05
+ },
+ "9:health": {
+  "char": 9,
+  "restr": "health",
+  "history": [
+   {
+    "who": "Daniel",
+    "text": "the 7:42 was late again. 7:42."
+   },
+   {
+    "who": "Chloe",
+    "text": "the audacity of the 7:42"
+   },
+   {
+    "who": "Daniel",
+    "text": "i could have walked it faster. in dress shoes"
+   },
+   {
+    "who": "Chloe",
+    "text": "so you're saying you'd out-walk a train"
+   },
+   {
+    "who": "Daniel",
+    "text": "on a good day, yes. today, probably"
+   },
+   {
+    "who": "Chloe",
+    "text": "anyway howd it go at the doctor yesterday. what did they say"
+   }
+  ],
+  "cost": 8.436e-05
+ },
+ "9:laugh": {
+  "char": 9,
+  "restr": "laugh",
+  "history": [
+   {
+    "who": "Daniel",
+    "text": "yo did you get the memo about the timesheet thing"
+   },
+   {
+    "who": "Chloe",
+    "text": "yeah finally. took them long enough"
+   },
+   {
+    "who": "Daniel",
+    "text": "7 months. i submitted that complaint in march"
+   },
+   {
+    "who": "Chloe",
+    "text": "lol you would know the exact month"
+   },
+   {
+    "who": "Daniel",
+    "text": "i know a lot of things. mostly dates. it's a curse"
+   },
+   {
+    "who": "Chloe",
+    "text": "ok so i got one for you. why did the accountant break up with the calculator"
+   },
+   {
+    "who": "Chloe",
+    "text": "because it just didnt add up. i'll see myself out"
+   }
+  ],
+  "cost": 8.648e-05
+ },
+ "10:affection": {
+  "char": 10,
+  "restr": "affection",
+  "history": [
+   {
+    "who": "Omar",
+    "text": "hey babe hows the model coming along"
+   },
+   {
+    "who": "Aisha",
+    "text": "gluing tiny windows til midnight. my fingers hate me"
+   },
+   {
+    "who": "Omar",
+    "text": "lol told you to let me cut them"
+   },
+   {
+    "who": "Aisha",
+    "text": "u cut them crooked last time. never again"
+   },
+   {
+    "who": "Omar",
+    "text": "fair. bring the crooked window kid some dinner?"
+   },
+   {
+    "who": "Aisha",
+    "text": "maybe. what r u making"
+   },
+   {
+    "who": "Omar",
+    "text": "whatever u want. love you babe"
+   }
+  ],
+  "cost": 8.892e-05
+ },
+ "10:advice": {
+  "char": 10,
+  "restr": "advice",
+  "history": [
+   {
+    "who": "Omar",
+    "text": "hey, hows the model coming along"
+   },
+   {
+    "who": "Aisha",
+    "text": "slow. client wants the whole east wing redone again"
+   },
+   {
+    "who": "Omar",
+    "text": "oof. you still home by 7?"
+   },
+   {
+    "who": "Aisha",
+    "text": "probably 8. why, did you start dinner"
+   },
+   {
+    "who": "Omar",
+    "text": "yeah its in the oven. also hey random thing"
+   },
+   {
+    "who": "Omar",
+    "text": "layla from work texted me earlier, like out of nowhere. should i text her back or just leave it"
+   }
+  ],
+  "cost": 9.758e-05
+ },
+ "10:askwork": {
+  "char": 10,
+  "restr": "askwork",
+  "history": [
+   {
+    "who": "Omar",
+    "text": "hey did u eat lunch yet"
+   },
+   {
+    "who": "Aisha",
+    "text": "barely. had a client call run over. u?"
+   },
+   {
+    "who": "Omar",
+    "text": "grabbed a sad sandwich from the place downstairs"
+   },
+   {
+    "who": "Aisha",
+    "text": "lol the one with the mustard packets that never open"
+   },
+   {
+    "who": "Omar",
+    "text": "exactly that one. also i think the printer at work is haunted"
+   },
+   {
+    "who": "Aisha",
+    "text": "sounds like a normal tuesday for u tbh"
+   },
+   {
+    "who": "Omar",
+    "text": "no aisha today was insane. three people quit, my boss yelled at me over a report he approved himself, and i spilled coffee on my only good shirt"
+   }
+  ],
+  "cost": 0.00016344
+ },
+ "10:long": {
+  "char": 10,
+  "restr": "long",
+  "history": [
+   {
+    "who": "Omar",
+    "text": "hey you up? long day here"
+   },
+   {
+    "who": "Aisha",
+    "text": "yeah just got back from site. dusty"
+   },
+   {
+    "who": "Omar",
+    "text": "lol sounds fun"
+   },
+   {
+    "who": "Aisha",
+    "text": "it was actually. got the facade approved finally"
+   },
+   {
+    "who": "Omar",
+    "text": "nice. proud of you"
+   },
+   {
+    "who": "Aisha",
+    "text": "thanks. i got you those dates from the market you like"
+   },
+   {
+    "who": "Omar",
+    "text": "wait you went this weekend? ok tell me everything about your weekend trip. all the details, i want the whole thing"
+   }
+  ],
+  "cost": 9.2454e-05
+ },
+ "11:father": {
+  "char": 11,
+  "restr": "father",
+  "history": [
+   {
+    "who": "Lily",
+    "text": "yo u up? just got off work and my brain is fried"
+   },
+   {
+    "who": "Kenji",
+    "text": "bro its 2am ofc im up. ranked queue never sleeps"
+   },
+   {
+    "who": "Lily",
+    "text": "lol of course. howd the stream go tonight"
+   },
+   {
+    "who": "Kenji",
+    "text": "chaotic. chat convinced me to play with a dance pad. lost 6 in a row but the clips are gold"
+   },
+   {
+    "who": "Lily",
+    "text": "ok thats actually amazing, send me the vod"
+   },
+   {
+    "who": "Kenji",
+    "text": "ill dm it tmrw, too lazy to find the link rn"
+   },
+   {
+    "who": "Lily",
+    "text": "fair. hey random q, hows ur dad doing? u never rly talk about him"
+   }
+  ],
+  "cost": 0.000108984
+ },
+ "11:money": {
+  "char": 11,
+  "restr": "money",
+  "history": [
+   {
+    "who": "Lily",
+    "text": "yo kenji you up? random but ok"
+   },
+   {
+    "who": "Kenji",
+    "text": "lilyyy its 2am of course im up. ranked queue never sleeps"
+   },
+   {
+    "who": "Lily",
+    "text": "lol figured. hows the stream going"
+   },
+   {
+    "who": "Kenji",
+    "text": "chaos as always. chat convinced me to do a blindfolded run. lost 7 games straight. worth it"
+   },
+   {
+    "who": "Lily",
+    "text": "rip your rank haha"
+   },
+   {
+    "who": "Kenji",
+    "text": "rank is temporary, clips are forever"
+   },
+   {
+    "who": "Lily",
+    "text": "hey random q but how are you doing money-wise lately? been thinking about that group trip in july and wanna know if you could swing it"
+   }
+  ],
+  "cost": 0.000106704
+ },
+ "11:apologize": {
+  "char": 11,
+  "restr": "apologize",
+  "history": [
+   {
+    "who": "Kenji",
+    "text": "yo lily u up"
+   },
+   {
+    "who": "Lily",
+    "text": "barely lol. 2am on a tuesday kenji"
+   },
+   {
+    "who": "Kenji",
+    "text": "time is a construct. also i just hit diamond"
+   },
+   {
+    "who": "Lily",
+    "text": "no way, congrats. carry me sometime"
+   },
+   {
+    "who": "Kenji",
+    "text": "obviously. im basically a pro now, signing autographs later"
+   },
+   {
+    "who": "Lily",
+    "text": "ok chill. hey wait, werent we supposed to do the co-op thing tonight"
+   },
+   {
+    "who": "Lily",
+    "text": "i waited like an hour and you never showed. u forgot again didnt u"
+   }
+  ],
+  "cost": 9.918e-05
+ },
+ "11:excl": {
+  "char": 11,
+  "restr": "excl",
+  "history": [
+   {
+    "who": "Kenji",
+    "text": "yo u up? just hit a 1v4 clutch in ranked lol"
+   },
+   {
+    "who": "Lily",
+    "text": "ofc im up. its 2am and my brain refuses to shut off"
+   },
+   {
+    "who": "Kenji",
+    "text": "thats the spirit. sleep is for people who dont have dailies to grind"
+   },
+   {
+    "who": "Lily",
+    "text": "lmaooo i havent touched my dailies in like a week. been kinda distracted"
+   },
+   {
+    "who": "Kenji",
+    "text": "distracted? that doesnt sound like the lily who speedran the whole battlepass in 3 days"
+   },
+   {
+    "who": "Lily",
+    "text": "ok so funny story. i had that interview today and kenji. KENJI. they called me like an hour ago"
+   },
+   {
+    "who": "Lily",
+    "text": "I GOT THE JOB!!!"
+   }
+  ],
+  "cost": 0.000115254
+ },
+ "12:ex": {
+  "char": 12,
+  "restr": "ex",
+  "history": [
+   {
+    "who": "Noah",
+    "text": "hey grace, still alive? haven't heard from u in like a week"
+   },
+   {
+    "who": "Grace",
+    "text": "barely lol. buried in case law. if i read one more tort case im gonna scream"
+   },
+   {
+    "who": "Noah",
+    "text": "sounds about right. did u eat actual food today or just coffee"
+   },
+   {
+    "who": "Grace",
+    "text": "define actual food. i had a granola bar at 2pm does that count"
+   },
+   {
+    "who": "Noah",
+    "text": "no. that's a snack at best"
+   },
+   {
+    "who": "Grace",
+    "text": "objection, relevance. i survived didn't i"
+   },
+   {
+    "who": "Noah",
+    "text": "haha fair. oh random but i ran into jordan at that coffee place on main yesterday. do u two still talk at all?"
+   }
+  ],
+  "cost": 0.000109782
+ },
+ "12:compliment": {
+  "char": 12,
+  "restr": "compliment",
+  "history": [
+   {
+    "who": "Noah",
+    "text": "yo grace, still alive? haven't heard from u in like a week"
+   },
+   {
+    "who": "Grace",
+    "text": "barely. contracts final is eating me alive. i've read the same paragraph 4 times"
+   },
+   {
+    "who": "Noah",
+    "text": "oof. well i did something kinda impulsive today"
+   },
+   {
+    "who": "Grace",
+    "text": "impulsive how. did u buy another mechanical keyboard"
+   },
+   {
+    "who": "Noah",
+    "text": "no lol worse. or better. idk"
+   },
+   {
+    "who": "Noah",
+    "text": "ok sending u a pic, tell me what u think"
+   },
+   {
+    "who": "Noah",
+    "text": "[photo of new haircut and outfit] too much? be honest"
+   }
+  ],
+  "cost": 9.674e-05
+ },
+ "12:emoji": {
+  "char": 12,
+  "restr": "emoji",
+  "history": [
+   {
+    "who": "Noah",
+    "text": "hey grace, hows the law grind treating you"
+   },
+   {
+    "who": "Grace",
+    "text": "dont even ask. read 90 pages of torts today and i still have a memo due friday"
+   },
+   {
+    "who": "Noah",
+    "text": "yikes. sounds like you need a break"
+   },
+   {
+    "who": "Grace",
+    "text": "a break? whats that. is it like sleep bc i vaguely remember that concept"
+   },
+   {
+    "who": "Noah",
+    "text": "lol ok well i have something that might help"
+   },
+   {
+    "who": "Noah",
+    "text": "dude. i just found the tiniest kitten outside my apartment 😻😻 omg its so small and fluffy and it keeps meowing at me 😻😻😻 i cant even, im keeping it, meet your new nephew 😻😻"
+   }
+  ],
+  "cost": 0.000108186
+ },
+ "12:health": {
+  "char": 12,
+  "restr": "health",
+  "history": [
+   {
+    "who": "Noah",
+    "text": "hey stranger, still alive?"
+   },
+   {
+    "who": "Grace",
+    "text": "barely. i have read 400 pages of torts today and im losing my mind"
+   },
+   {
+    "who": "Noah",
+    "text": "lol that sounds like a you problem"
+   },
+   {
+    "who": "Grace",
+    "text": "it is literally everyone's problem if i fail the bar. the whole economy. be grateful im studying"
+   },
+   {
+    "who": "Noah",
+    "text": "truly selfless of you. anyway what did the doctor say at your appointment yesterday"
+   }
+  ],
+  "cost": 7.8432e-05
+ },
+ "13:hometown": {
+  "char": 13,
+  "restr": "hometown",
+  "history": [
+   {
+    "who": "Emma",
+    "text": "hey you around? was gonna make coffee but we're out of beans again"
+   },
+   {
+    "who": "Lucas",
+    "text": "oh crap that was me, i used the last of it this morning. my bad"
+   },
+   {
+    "who": "Emma",
+    "text": "knew it lol. you owe me a bag"
+   },
+   {
+    "who": "Lucas",
+    "text": "i know i know. i'll grab some after my shift, got a million orders today"
+   },
+   {
+    "who": "Emma",
+    "text": "how was the coffee shop anyway? you get any good pics on your break"
+   },
+   {
+    "who": "Lucas",
+    "text": "eh it was slammed. got like two shots of the window light tho, kinda moody"
+   },
+   {
+    "who": "Emma",
+    "text": "nice, send em later. hey random question, where did you grow up actually? what was your hometown like"
+   }
+  ],
+  "cost": 0.00010766
+ },
+ "13:long": {
+  "char": 13,
+  "restr": "long",
+  "history": [
+   {
+    "who": "Emma",
+    "text": "hey lucas, you around?"
+   },
+   {
+    "who": "Lucas",
+    "text": "yeah just got home, whats up"
+   },
+   {
+    "who": "Emma",
+    "text": "nothing much, kinda bored. how was work"
+   },
+   {
+    "who": "Lucas",
+    "text": "long. we ran out of oat milk twice lol"
+   },
+   {
+    "who": "Emma",
+    "text": "classic. also your camera bag is still in the hall btw"
+   },
+   {
+    "who": "Lucas",
+    "text": "oh right, forgot about that. thanks"
+   },
+   {
+    "who": "Emma",
+    "text": "so spill it. tell me everything about your weekend trip, like all of it, in detail"
+   }
+  ],
+  "cost": 9.234e-05
+ },
+ "13:laugh": {
+  "char": 13,
+  "restr": "laugh",
+  "history": [
+   {
+    "who": "Emma",
+    "text": "hey did u make coffee this morning or just stare at the machine again"
+   },
+   {
+    "who": "Lucas",
+    "text": "lol i made it. mostly. forgot to put the mug under the spout tho"
+   },
+   {
+    "who": "Emma",
+    "text": "so the counter had coffee. cool cool cool"
+   },
+   {
+    "who": "Lucas",
+    "text": "it was a nice pour ok. very abstract. i took a picture of it"
+   },
+   {
+    "who": "Emma",
+    "text": "of course u did. anyway good shift today?"
+   },
+   {
+    "who": "Lucas",
+    "text": "yeah decent. this guy ordered a latte with 6 shots and then fell asleep standing up"
+   },
+   {
+    "who": "Emma",
+    "text": "ok so what do u call a fake noodle? an impasta. thats it thats the joke goodnight lucas"
+   }
+  ],
+  "cost": 0.000107958
+ },
+ "14:job": {
+  "char": 14,
+  "restr": "job",
+  "history": [
+   {
+    "who": "Eli",
+    "text": "hey you up? just got home"
+   },
+   {
+    "who": "Hana",
+    "text": "yeah just finished studying"
+   },
+   {
+    "who": "Hana",
+    "text": "my brain is mush lol"
+   },
+   {
+    "who": "Eli",
+    "text": "lol same, long day here too"
+   },
+   {
+    "who": "Hana",
+    "text": "did you eat? i made soup earlier if you wanna come by tmrw"
+   },
+   {
+    "who": "Eli",
+    "text": "yes pls, i'll bring bread"
+   },
+   {
+    "who": "Eli",
+    "text": "speaking of which, hows the job going? you still liking it?"
+   }
+  ],
+  "cost": 9.006e-05
+ },
+ "14:excl": {
+  "char": 14,
+  "restr": "excl",
+  "history": [
+   {
+    "who": "Hana",
+    "text": "hey you. how was the drive back"
+   },
+   {
+    "who": "Eli",
+    "text": "long. traffic was a nightmare near the bridge"
+   },
+   {
+    "who": "Hana",
+    "text": "ugh sorry"
+   },
+   {
+    "who": "Hana",
+    "text": "did you eat anything or just coffee again"
+   },
+   {
+    "who": "Eli",
+    "text": "coffee and a gas station sandwich, dont judge me"
+   },
+   {
+    "who": "Hana",
+    "text": "i always judge you. gently"
+   },
+   {
+    "who": "Eli",
+    "text": "ok sit down. i got the job. the one in portland. they called this morning"
+   }
+  ],
+  "cost": 8.9148e-05
+ },
+ "15:money": {
+  "char": 15,
+  "restr": "money",
+  "history": [
+   {
+    "who": "Omar",
+    "text": "hey z, hows it going"
+   },
+   {
+    "who": "Zoe",
+    "text": "omarrr hey. im good just tired. u?"
+   },
+   {
+    "who": "Omar",
+    "text": "same old. shop's been busy, fixed like 6 phones today lol"
+   },
+   {
+    "who": "Zoe",
+    "text": "nice, business is good then"
+   },
+   {
+    "who": "Omar",
+    "text": "yeah cant complain. u still working at the cafe?"
+   },
+   {
+    "who": "Zoe",
+    "text": "yep same place. so listen, me and some of the fam are thinking of going to the coast in august, renting a little house for a week. u should come"
+   },
+   {
+    "who": "Zoe",
+    "text": "but no pressure, how u doing money wise these days? could u swing the trip?"
+   }
+  ],
+  "cost": 0.000108528
+ },
+ "15:apologize": {
+  "char": 15,
+  "restr": "apologize",
+  "history": [
+   {
+    "who": "Zoe",
+    "text": "hey omar how's the shop today"
+   },
+   {
+    "who": "Omar",
+    "text": "busy lol. fixed like 6 screens already"
+   },
+   {
+    "who": "Zoe",
+    "text": "nice. bet you're swimming in cash now"
+   },
+   {
+    "who": "Omar",
+    "text": "i wish. parts are pricey these days"
+   },
+   {
+    "who": "Zoe",
+    "text": "fair. hey we still on for dinner at 7 right"
+   },
+   {
+    "who": "Omar",
+    "text": "uh yeah of course"
+   },
+   {
+    "who": "Zoe",
+    "text": "omar it's 8:30. you forgot again didn't you"
+   }
+  ],
+  "cost": 9.002e-05
+ },
+ "15:emoji": {
+  "char": 15,
+  "restr": "emoji",
+  "history": [
+   {
+    "who": "Omar",
+    "text": "yo zoe hows it going"
+   },
+   {
+    "who": "Zoe",
+    "text": "pretty good just got back from the gym. you?"
+   },
+   {
+    "who": "Omar",
+    "text": "busy day at the shop, fixed like 12 phones lol"
+   },
+   {
+    "who": "Zoe",
+    "text": "damn nice. still slinging screens huh"
+   },
+   {
+    "who": "Omar",
+    "text": "yep. someone brought in a cracked iphone 15 today, easy money"
+   },
+   {
+    "who": "Zoe",
+    "text": "aw i just saw the neighbors got a new puppy omg 😍😍 it's so tiny and fluffy and it keeps tripping over its own paws 🐶🥺😭"
+   },
+   {
+    "who": "Zoe",
+    "text": "like imagine being that smol and clumsy, im dead 💀💕"
+   }
+  ],
+  "cost": 0.000111948
+ },
+ "15:askwork": {
+  "char": 15,
+  "restr": "askwork",
+  "history": [
+   {
+    "who": "Omar",
+    "text": "hey z, hows the week going"
+   },
+   {
+    "who": "Zoe",
+    "text": "pretty normal, busy as usual. hows the shop"
+   },
+   {
+    "who": "Omar",
+    "text": "good! fixed 14 phones this week, one guy tried to repair his own with a butter knife lol"
+   },
+   {
+    "who": "Zoe",
+    "text": "no way haha. send him to you next time"
+   },
+   {
+    "who": "Omar",
+    "text": "told him family discount only applies to you"
+   },
+   {
+    "who": "Zoe",
+    "text": "appreciate that lol. anyway my day was insane, two people quit and i had to cover three stations plus my own shift. i havent even eaten since 7am"
+   }
+  ],
+  "cost": 0.00010924
+ },
+ "15:affection": {
+  "char": 15,
+  "restr": "affection",
+  "history": [
+   {
+    "who": "Zoe",
+    "text": "yo omar u up? whats good"
+   },
+   {
+    "who": "Omar",
+    "text": "hey z, just closing the shop. long day, two iphone screens and a water damaged samsung lol"
+   },
+   {
+    "who": "Zoe",
+    "text": "damn busy busy. u eat yet?"
+   },
+   {
+    "who": "Omar",
+    "text": "nah not yet. gonna grab something on the way home. u good? rent ok this month?"
+   },
+   {
+    "who": "Zoe",
+    "text": "yea im fine. dont start lol"
+   },
+   {
+    "who": "Omar",
+    "text": "im just saying. u know im good for it if u ever need"
+   },
+   {
+    "who": "Zoe",
+    "text": "i know. ur the best. anyway love you babe"
+   }
+  ],
+  "cost": 0.000103056
+ },
+ "16:father": {
+  "char": 16,
+  "restr": "father",
+  "history": [
+   {
+    "who": "Max",
+    "text": "hey, you alive? haven't heard from you in like a week"
+   },
+   {
+    "who": "Ines",
+    "text": "buried in deadlines. did you know the average politician says 'moving forward' 14 times per interview"
+   },
+   {
+    "who": "Max",
+    "text": "ha. sounds like your dream job honestly"
+   },
+   {
+    "who": "Ines",
+    "text": "it pays the rent. how's your week going"
+   },
+   {
+    "who": "Max",
+    "text": "same old. work, gym, arguing with my landlord"
+   },
+   {
+    "who": "Ines",
+    "text": "classic. anything else or is that the whole update"
+   },
+   {
+    "who": "Max",
+    "text": "actually yeah, random question... how's your dad doing? you never really mention him"
+   }
+  ],
+  "cost": 0.00010146
+ },
+ "16:hometown": {
+  "char": 16,
+  "restr": "hometown",
+  "history": [
+   {
+    "who": "Max",
+    "text": "hey ines. how's the week going"
+   },
+   {
+    "who": "Ines",
+    "text": "fine. deadline thursday. you?"
+   },
+   {
+    "who": "Max",
+    "text": "same old. coffee machine broke at work, so im basically dead"
+   },
+   {
+    "who": "Ines",
+    "text": "tragic. get a french press"
+   },
+   {
+    "who": "Max",
+    "text": "noted. random q but where did you grow up actually"
+   },
+   {
+    "who": "Max",
+    "text": "like what was your hometown like"
+   }
+  ],
+  "cost": 7.03542e-05
+ },
+ "16:compliment": {
+  "char": 16,
+  "restr": "compliment",
+  "history": [
+   {
+    "who": "Max",
+    "text": "hey ines, you survive monday?"
+   },
+   {
+    "who": "Ines",
+    "text": "barely. spent all day chasing a source who ghosted me. you?"
+   },
+   {
+    "who": "Max",
+    "text": "same old. work was dead quiet, which is worse somehow"
+   },
+   {
+    "who": "Ines",
+    "text": "quiet beats chaos. anyway what's up, you never text midweek"
+   },
+   {
+    "who": "Max",
+    "text": "nothing, just bored. also i did a thing"
+   },
+   {
+    "who": "Max",
+    "text": "[photo attached] went to the barber on a whim. and bought this jacket. honest opinion, no mercy"
+   }
+  ],
+  "cost": 0.000100548
+ },
+ "17:job": {
+  "char": 17,
+  "restr": "job",
+  "history": [
+   {
+    "who": "Anna",
+    "text": "hey, how was your day?"
+   },
+   {
+    "who": "Victor",
+    "text": "not bad. one kid asked if i was alive during the civil war"
+   },
+   {
+    "who": "Anna",
+    "text": "lol did you say yes"
+   },
+   {
+    "who": "Victor",
+    "text": "told him i was a young drummer boy. he believed me for like 3 seconds"
+   },
+   {
+    "who": "Anna",
+    "text": "haha thats my corny husband"
+   },
+   {
+    "who": "Victor",
+    "text": "guilty. grading papers now, boring stuff"
+   },
+   {
+    "who": "Anna",
+    "text": "aw. hey speaking of work, hows the job going? you still like it there?"
+   }
+  ],
+  "cost": 9.3366e-05
+ },
+ "17:ex": {
+  "char": 17,
+  "restr": "ex",
+  "history": [
+   {
+    "who": "Anna",
+    "text": "hey, how was school today?"
+   },
+   {
+    "who": "Victor",
+    "text": "pretty good. taught the kids about the boston tea party, they were surprisingly into it"
+   },
+   {
+    "who": "Anna",
+    "text": "nice lol. did you finally fix that projector?"
+   },
+   {
+    "who": "Victor",
+    "text": "nope. waged a brave battle, projector won. showed them a map on paper like a caveman"
+   },
+   {
+    "who": "Anna",
+    "text": "ancient history teacher defeated by modern tech, poetic"
+   },
+   {
+    "who": "Victor",
+    "text": "i prefer to think of it as living history"
+   },
+   {
+    "who": "Anna",
+    "text": "haha. oh btw i ran into jordan at the grocery store earlier. do you two still talk?"
+   }
+  ],
+  "cost": 0.000102486
+ },
+ "17:long": {
+  "char": 17,
+  "restr": "long",
+  "history": [
+   {
+    "who": "Anna",
+    "text": "hey you. how was your day? mine was endless"
+   },
+   {
+    "who": "Victor",
+    "text": "hey love. fine, taught the french revolution for the 4th time this week. my students now think i was there in person"
+   },
+   {
+    "who": "Anna",
+    "text": "lol you probably told them that too"
+   },
+   {
+    "who": "Victor",
+    "text": "i may have said i knew a guy who knew a guy. they believed me"
+   },
+   {
+    "who": "Anna",
+    "text": "you're such a dork. anyway i wanna hear about your weekend"
+   },
+   {
+    "who": "Anna",
+    "text": "tell me everything about the trip. in detail. all of it. don't leave anything out"
+   }
+  ],
+  "cost": 9.4506e-05
+ },
+ "17:laugh": {
+  "char": 17,
+  "restr": "laugh",
+  "history": [
+   {
+    "who": "Anna",
+    "text": "hey how was school today"
+   },
+   {
+    "who": "Victor",
+    "text": "long. kids kept asking if the french revolution was on the test"
+   },
+   {
+    "who": "Anna",
+    "text": "was it"
+   },
+   {
+    "who": "Victor",
+    "text": "sadly no. i just like watching them panic"
+   },
+   {
+    "who": "Anna",
+    "text": "ur evil. ok whats for dinner"
+   },
+   {
+    "who": "Victor",
+    "text": "whatever u make, im a history teacher not a chef. also i got a joke for u"
+   },
+   {
+    "who": "Anna",
+    "text": "no wait i have one. why did the scarecrow win an award? bc he was outstanding in his field. like ur teaching babe"
+   }
+  ],
+  "cost": 9.5076e-05
+ },
+ "18:health": {
+  "char": 18,
+  "restr": "health",
+  "history": [
+   {
+    "who": "Jake",
+    "text": "hey you. how was class today"
+   },
+   {
+    "who": "Lea",
+    "text": "long. had the 6am crew, theyre sweet but they never stop talking"
+   },
+   {
+    "who": "Jake",
+    "text": "haha the sunrise chatty ones. you teach again tonight?"
+   },
+   {
+    "who": "Lea",
+    "text": "no thank god. just gonna lie on the floor and exist for a while"
+   },
+   {
+    "who": "Jake",
+    "text": "fair. hey what did the doctor say at your appointment yesterday"
+   }
+  ],
+  "cost": 0.0002034
+ },
+ "18:advice": {
+  "char": 18,
+  "restr": "advice",
+  "history": [
+   {
+    "who": "Jake",
+    "text": "hey lea, hows the yoga studio holding up"
+   },
+   {
+    "who": "Lea",
+    "text": "hey. honestly packed, six classes yesterday. my back is killing me lol"
+   },
+   {
+    "who": "Jake",
+    "text": "six?? you're a machine"
+   },
+   {
+    "who": "Lea",
+    "text": "a very tired machine. anyway whats up with you, you never text during the day"
+   },
+   {
+    "who": "Jake",
+    "text": "nothing much, work stuff. boring"
+   },
+   {
+    "who": "Lea",
+    "text": "sure. you ok tho?"
+   },
+   {
+    "who": "Jake",
+    "text": "kinda. so this person from a while back texted me out of nowhere yesterday. we didnt end great. should i text them back or just leave it"
+   }
+  ],
+  "cost": 0.000103512
+ },
+ "18:emoji": {
+  "char": 18,
+  "restr": "emoji",
+  "history": [
+   {
+    "who": "Jake",
+    "text": "hey lea, hows it going? still doing the 6am yoga thing?"
+   },
+   {
+    "who": "Lea",
+    "text": "hey! yeah, 6am as always. honestly the early class is the only thing keeping me sane rn"
+   },
+   {
+    "who": "Jake",
+    "text": "sane? whats going on"
+   },
+   {
+    "who": "Lea",
+    "text": "idk, just a lot. my landlord raised the rent again and i have that certification exam coming up. trying not to spiral lol"
+   },
+   {
+    "who": "Jake",
+    "text": "you got this. you literally teach people how to breathe for a living"
+   },
+   {
+    "who": "Lea",
+    "text": "haha fair point. ok ill try to take my own advice"
+   },
+   {
+    "who": "Jake",
+    "text": "OMG LEA i just found a tiny kitten in the alley behind my building 😭😻 shes so small and fluffy and she keeps kneading my sweater with her little paws 🐾🥹 and she purrs SO loud omg im dying, look at this pic!! 📸"
+   }
+  ],
+  "cost": 0.000133494
+ },
+ "19:money": {
+  "char": 19,
+  "restr": "money",
+  "history": [
+   {
+    "who": "Rose",
+    "text": "hey, you still at work?"
+   },
+   {
+    "who": "Samir",
+    "text": "yeah. regression suite is failing on 3 tests. again"
+   },
+   {
+    "who": "Rose",
+    "text": "rip. want me to grab something for dinner on my way home"
+   },
+   {
+    "who": "Samir",
+    "text": "if ur getting food then yes. anything. not the noodle place tho"
+   },
+   {
+    "who": "Rose",
+    "text": "noted lol"
+   },
+   {
+    "who": "Samir",
+    "text": "also the tap in the bathroom is still dripping. i put a bowl under it"
+   },
+   {
+    "who": "Rose",
+    "text": "ok so random q but how are you doing money-wise these days? been thinking abt that trip everyone keeps talking abt"
+   }
+  ],
+  "cost": 0.000101574
+ },
+ "19:askwork": {
+  "char": 19,
+  "restr": "askwork",
+  "history": [
+   {
+    "who": "Samir",
+    "text": "hey, you around? need to know if we're out of milk"
+   },
+   {
+    "who": "Rose",
+    "text": "yeah im on the bus home. pretty sure theres some left"
+   },
+   {
+    "who": "Samir",
+    "text": "define some. like a splash or actual milk"
+   },
+   {
+    "who": "Rose",
+    "text": "like a third of a carton lol. grab some if ur out anyway"
+   },
+   {
+    "who": "Samir",
+    "text": "ok. also the bins. is it recycling this week or the other one"
+   },
+   {
+    "who": "Rose",
+    "text": "recycling. hey so work today was actually insane, theres a client who changed the brief 4 times before lunch and then yelled at ME about the deadline, and my manager just sat there. i didnt even get to eat. i swear im this close to quitting"
+   }
+  ],
+  "cost": 0.0003084
+ },
+ "19:excl": {
+  "char": 19,
+  "restr": "excl",
+  "history": [
+   {
+    "who": "Samir",
+    "text": "hey did u eat the last of the cereal again"
+   },
+   {
+    "who": "Rose",
+    "text": "maybe. u left the box empty on the counter tho"
+   },
+   {
+    "who": "Samir",
+    "text": "i was going to finish it. that was my cereal"
+   },
+   {
+    "who": "Rose",
+    "text": "ok i owe u a box. big news btw"
+   },
+   {
+    "who": "Samir",
+    "text": "what news"
+   },
+   {
+    "who": "Rose",
+    "text": "i got the job!!! the one in glasgow!!!"
+   },
+   {
+    "who": "Rose",
+    "text": "im moving out samir. im actually doing it"
+   }
+  ],
+  "cost": 0.000237
+ },
+ "13:advice": {
+  "char": 13,
+  "restr": "advice",
+  "history": [
+   {
+    "who": "Emma",
+    "text": "hey did u eat the last of the cereal again"
+   },
+   {
+    "who": "Lucas",
+    "text": "oh shit maybe. sorry i was half asleep"
+   },
+   {
+    "who": "Emma",
+    "text": "figures. also ur mug has been in the sink for 3 days"
+   },
+   {
+    "who": "Lucas",
+    "text": "its called marinating. gives the coffee more flavor"
+   },
+   {
+    "who": "Emma",
+    "text": "gross lol"
+   },
+   {
+    "who": "Lucas",
+    "text": "ok fine ill do dishes tonight i swear"
+   },
+   {
+    "who": "Emma",
+    "text": "so random q... that guy from the coffee shop texted me again. should i text him back or nah"
+   }
+  ],
+  "cost": 0.0002469
+ },
+ "14:health": {
+  "char": 14,
+  "restr": "health",
+  "history": [
+   {
+    "who": "Eli",
+    "text": "hey you up"
+   },
+   {
+    "who": "Hana",
+    "text": "yeah just got out of the shower"
+   },
+   {
+    "who": "Hana",
+    "text": "long day. 3 surgeries and a llama that wouldnt stop spitting"
+   },
+   {
+    "who": "Eli",
+    "text": "a llama?? ok you have to tell me that story later"
+   },
+   {
+    "who": "Hana",
+    "text": "it was so gross lol. anyway what are you doing"
+   },
+   {
+    "who": "Eli",
+    "text": "just watching tv, boring night"
+   },
+   {
+    "who": "Eli",
+    "text": "hey so what did the doctor say at your appointment yesterday"
+   }
+  ],
+  "cost": 9.0516e-05
+ },
+ "18:affection": {
+  "char": 18,
+  "restr": "affection",
+  "history": [
+   {
+    "who": "Jake",
+    "text": "hey lea hows the studio holding up"
+   },
+   {
+    "who": "Lea",
+    "text": "hey jake, honestly its a lot rn. i picked up two more morning classes and my back is killing me lol"
+   },
+   {
+    "who": "Jake",
+    "text": "youre gonna burn out again, you always do this"
+   },
+   {
+    "who": "Lea",
+    "text": "i know i know. but the rent went up and i cant really say no to anyone"
+   },
+   {
+    "who": "Jake",
+    "text": "youre allowed to say no. like actually allowed"
+   },
+   {
+    "who": "Lea",
+    "text": "you sound like my therapist. its fine though, ill figure it out"
+   },
+   {
+    "who": "Jake",
+    "text": "just dont forget you got people who care about you. love you babe"
+   }
+  ],
+  "cost": 0.000106818
+ },
+ "19:apologize": {
+  "char": 19,
+  "restr": "apologize",
+  "history": [
+   {
+    "who": "Rose",
+    "text": "hey, you around later? thinking of doing something"
+   },
+   {
+    "who": "Samir",
+    "text": "hi. yes, i am around. what kind of something"
+   },
+   {
+    "who": "Rose",
+    "text": "dunno yet. maybe that ramen place? the new one"
+   },
+   {
+    "who": "Samir",
+    "text": "the one on high street. i saw it. reviews say the broth is salty"
+   },
+   {
+    "who": "Rose",
+    "text": "lol you and your reviews. ok we'll decide later"
+   },
+   {
+    "who": "Samir",
+    "text": "ok. i will be home after 6"
+   },
+   {
+    "who": "Rose",
+    "text": "wait. home after 6?? we said 6 at the ramen place. i've been standing here for like 40 mins. you forgot didnt you"
+   },
+   {
+    "who": "Rose",
+    "text": "samir. seriously? you do this every time"
+   }
+  ],
+  "cost": 0.000117762
+ }
+}
