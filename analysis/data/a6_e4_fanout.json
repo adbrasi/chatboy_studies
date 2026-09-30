@@ -1,0 +1,114 @@
+{
+ "n_turns": 12,
+ "n_questions_pool": 132,
+ "sizes": {
+  "1": {
+   "lat_p50": 0.5217998027801514,
+   "lat_p90": 0.5998849391937255,
+   "lat_max": 0.7456176280975342,
+   "tokens_mean": 574.75,
+   "cost_mean_usd": 2.41395e-05,
+   "cost_per_question_usd": 2.41395e-05
+  },
+  "10": {
+   "lat_p50": 0.47249066829681396,
+   "lat_p90": 0.6884380578994751,
+   "lat_max": 0.7909765243530273,
+   "tokens_mean": 1464.75,
+   "cost_mean_usd": 6.15195e-05,
+   "cost_per_question_usd": 6.15195e-06
+  },
+  "40": {
+   "lat_p50": 0.5398930311203003,
+   "lat_p90": 0.5985517740249634,
+   "lat_max": 0.7327637672424316,
+   "tokens_mean": 2465.75,
+   "cost_mean_usd": 0.0001035615,
+   "cost_per_question_usd": 2.5890375e-06
+  },
+  "100": {
+   "lat_p50": 0.5240024328231812,
+   "lat_p90": 0.6542572259902955,
+   "lat_max": 1.4762763977050781,
+   "tokens_mean": 3760.75,
+   "cost_mean_usd": 0.00015795150000000001,
+   "cost_per_question_usd": 1.579515e-06
+  },
+  "132": {
+   "lat_p50": 0.5463032722473145,
+   "lat_p90": 0.7056665182113647,
+   "lat_max": 2.0681002140045166,
+   "tokens_mean": 5542.75,
+   "cost_mean_usd": 0.00023279549999999992,
+   "cost_per_question_usd": 1.7636022727272721e-06
+  }
+ },
+ "ten_separate_calls": {
+  "lat_p50_each": 0.48635947704315186,
+  "cost_sum_per_turn": 0.000270837,
+  "vs_one_call_of_10_cost": 6.15195e-05
+ },
+ "drift": {
+  "10": {
+   "noul_meanabs_vs_size10": 0.0,
+   "noul_meanabs_rep_noise": 0.009,
+   "choice_flip_vs10": 0.0,
+   "score_meanabs_vs10": 0.0
+  },
+  "40": {
+   "noul_meanabs_vs_size10": 0.006666666666666669,
+   "noul_meanabs_rep_noise": 0.007499999999999997,
+   "choice_flip_vs10": 0.027777777777777776,
+   "score_meanabs_vs10": 0.017499999999999984
+  },
+  "100": {
+   "noul_meanabs_vs_size10": 0.007500000000000002,
+   "noul_meanabs_rep_noise": 0.00883333333333333,
+   "choice_flip_vs10": 0.0,
+   "score_meanabs_vs10": 0.025833333333333364
+  },
+  "132": {
+   "noul_meanabs_vs_size10": 0.006500000000000001,
+   "noul_meanabs_rep_noise": 0.006333333333333335,
+   "choice_flip_vs10": 0.0,
+   "score_meanabs_vs10": 0.022500000000000003
+  },
+  "single_vs_full": {
+   "noul_meanabs": 0.007666666666666666,
+   "noul_max": 0.04999999999999999,
+   "choice_flip": 0.0,
+   "score_meanabs": 0.01375000000000002
+  }
+ },
+ "parallel_full_briefing": {
+  "1": {
+   "wall_p50": 0.5504415035247803,
+   "wall_p90": 0.7819368362426757,
+   "wall_max": 1.5349700450897217,
+   "call_lat_p50": 0.5504415035247803,
+   "n": 24
+  },
+  "2": {
+   "wall_p50": 0.5348031520843506,
+   "wall_p90": 0.6122594833374023,
+   "wall_max": 2.1559877395629883,
+   "call_lat_p50": 0.4979250431060791,
+   "n": 24
+  },
+  "4": {
+   "wall_p50": 0.6029696464538574,
+   "wall_p90": 0.7315208911895752,
+   "wall_max": 0.8051204681396484,
+   "call_lat_p50": 0.5461901426315308,
+   "n": 24
+  }
+ },
+ "one_call_per_question": {
+  "n_calls": 132,
+  "wall_s_sequential_4workers": 17.810506105422974,
+  "cost_total": 0.0026156340000000004,
+  "lat_p50": 0.49499964714050293,
+  "cost_one_call_all": 0.000227766,
+  "noul_meanabs_vs_full_call": 0.005670103092783506
+ }
+}

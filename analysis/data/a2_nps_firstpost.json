@@ -1,0 +1,115 @@
+{
+ "logit_room_FE": [
+  {
+   "index": "Intercept",
+   "OR": 0.398,
+   "lo": 0.202,
+   "hi": 0.787,
+   "p": 0.008
+  },
+  {
+   "index": "addressed",
+   "OR": 1.258,
+   "lo": 0.842,
+   "hi": 1.88,
+   "p": 0.262
+  },
+  {
+   "index": "flirting",
+   "OR": 0.649,
+   "lo": 0.314,
+   "hi": 1.344,
+   "p": 0.245
+  },
+  {
+   "index": "pushy_creepy",
+   "OR": 1.145,
+   "lo": 0.572,
+   "hi": 2.293,
+   "p": 0.702
+  },
+  {
+   "index": "greet",
+   "OR": 1.255,
+   "lo": 0.858,
+   "hi": 1.835,
+   "p": 0.243
+  },
+  {
+   "index": "j_energy",
+   "OR": 1.332,
+   "lo": 1.023,
+   "hi": 1.735,
+   "p": 0.033
+  }
+ ],
+ "by_type": [
+  {
+   "j_open_type": "compliment_or_flirt",
+   "n": 10,
+   "resp": 0.3,
+   "stays": 0.8
+  },
+  {
+   "j_open_type": "demographics_asl",
+   "n": 40,
+   "resp": 0.225,
+   "stays": 0.25
+  },
+  {
+   "j_open_type": "greet_bare",
+   "n": 70,
+   "resp": 0.386,
+   "stays": 0.414
+  },
+  {
+   "j_open_type": "greet_person",
+   "n": 127,
+   "resp": 0.528,
+   "stays": 0.717
+  },
+  {
+   "j_open_type": "greet_room",
+   "n": 123,
+   "resp": 0.39,
+   "stays": 0.415
+  },
+  {
+   "j_open_type": "joins_ongoing",
+   "n": 126,
+   "resp": 0.357,
+   "stays": 0.675
+  },
+  {
+   "j_open_type": "open_invitation",
+   "n": 79,
+   "resp": 0.127,
+   "stays": 0.203
+  },
+  {
+   "j_open_type": "other",
+   "n": 44,
+   "resp": 0.386,
+   "stays": 0.523
+  },
+  {
+   "j_open_type": "question_to_room",
+   "n": 26,
+   "resp": 0.192,
+   "stays": 0.423
+  },
+  {
+   "j_open_type": "self_statement",
+   "n": 41,
+   "resp": 0.415,
+   "stays": 0.732
+  },
+  {
+   "j_open_type": "sexual_proposition",
+   "n": 12,
+   "resp": 0.417,
+   "stays": 0.333
+  }
+ ],
+ "n": 698
+}

@@ -1,0 +1,42 @@
+{
+ "nps_greet_reply_by_elong": [
+  {
+   "el": false,
+   "n": 742,
+   "r_el": 0.02,
+   "r_greet": 0.642,
+   "r_q": 0.097
+  },
+  {
+   "el": true,
+   "n": 23,
+   "r_el": 0.0,
+   "r_greet": 0.783,
+   "r_q": 0.043
+  }
+ ],
+ "bare_greet_openings": [
+  {
+   "corpus": "maichat",
+   "n": 15,
+   "r_greet": 0.87,
+   "r_q": 0.2,
+   "r_el": 0.2,
+   "o_el": 0.13,
+   "r_topic": 0.4,
+   "lat_med_s": 19.0,
+   "r_nmsgs": 1.67
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "n": 8,
+   "r_greet": 0.75,
+   "r_q": 0.38,
+   "r_el": 0.12,
+   "o_el": 0.38,
+   "r_topic": 0.5,
+   "lat_med_s": 60.0,
+   "r_nmsgs": 1.62
+  }
+ ]
+}

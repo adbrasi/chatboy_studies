@@ -1,0 +1,554 @@
+{
+ "n_jev": 608,
+ "main_by_pol": {
+  "ambiguous": {
+   "advice": 0.0,
+   "congratulate_share_joy": 0.211,
+   "exploratory_question": 0.316,
+   "generic_reaction": 0.053,
+   "humor": 0.053,
+   "opinion_judgment": 0.053,
+   "reassure_minimize": 0.0,
+   "self_disclosure": 0.263,
+   "validation_empathy": 0.053
+  },
+  "negative": {
+   "advice": 0.072,
+   "congratulate_share_joy": 0.007,
+   "exploratory_question": 0.411,
+   "generic_reaction": 0.016,
+   "humor": 0.026,
+   "opinion_judgment": 0.056,
+   "reassure_minimize": 0.062,
+   "self_disclosure": 0.115,
+   "validation_empathy": 0.234
+  },
+  "positive": {
+   "advice": 0.035,
+   "congratulate_share_joy": 0.116,
+   "exploratory_question": 0.46,
+   "generic_reaction": 0.035,
+   "humor": 0.021,
+   "opinion_judgment": 0.07,
+   "reassure_minimize": 0.011,
+   "self_disclosure": 0.175,
+   "validation_empathy": 0.077
+  }
+ },
+ "first_by_pol": {
+  "ambiguous": {
+   "advice": 0.0,
+   "congratulate_share_joy": 0.211,
+   "exploratory_question": 0.211,
+   "generic_reaction": 0.211,
+   "humor": 0.053,
+   "opinion_judgment": 0.158,
+   "reassure_minimize": 0.0,
+   "self_disclosure": 0.053,
+   "validation_empathy": 0.105
+  },
+  "negative": {
+   "advice": 0.049,
+   "congratulate_share_joy": 0.03,
+   "exploratory_question": 0.243,
+   "generic_reaction": 0.204,
+   "humor": 0.02,
+   "opinion_judgment": 0.059,
+   "reassure_minimize": 0.036,
+   "self_disclosure": 0.062,
+   "validation_empathy": 0.296
+  },
+  "positive": {
+   "advice": 0.014,
+   "congratulate_share_joy": 0.175,
+   "exploratory_question": 0.225,
+   "generic_reaction": 0.235,
+   "humor": 0.007,
+   "opinion_judgment": 0.102,
+   "reassure_minimize": 0.018,
+   "self_disclosure": 0.116,
+   "validation_empathy": 0.109
+  }
+ },
+ "main_by_fam": {
+  "anger_disgust": {
+   "advice": 0.08,
+   "congratulate_share_joy": 0.01,
+   "exploratory_question": 0.42,
+   "generic_reaction": 0.01,
+   "humor": 0.04,
+   "opinion_judgment": 0.09,
+   "reassure_minimize": 0.02,
+   "self_disclosure": 0.14,
+   "validation_empathy": 0.18
+  },
+  "fear_anxiety": {
+   "advice": 0.08,
+   "congratulate_share_joy": 0.0,
+   "exploratory_question": 0.45,
+   "generic_reaction": 0.03,
+   "humor": 0.0,
+   "opinion_judgment": 0.03,
+   "reassure_minimize": 0.09,
+   "self_disclosure": 0.09,
+   "validation_empathy": 0.24
+  },
+  "hope_confidence": {
+   "advice": 0.04,
+   "congratulate_share_joy": 0.08,
+   "exploratory_question": 0.49,
+   "generic_reaction": 0.04,
+   "humor": 0.01,
+   "opinion_judgment": 0.06,
+   "reassure_minimize": 0.02,
+   "self_disclosure": 0.2,
+   "validation_empathy": 0.06
+  },
+  "joy_pride": {
+   "advice": 0.02,
+   "congratulate_share_joy": 0.2,
+   "exploratory_question": 0.45,
+   "generic_reaction": 0.04,
+   "humor": 0.03,
+   "opinion_judgment": 0.08,
+   "reassure_minimize": 0.01,
+   "self_disclosure": 0.13,
+   "validation_empathy": 0.05
+  },
+  "sadness": {
+   "advice": 0.08,
+   "congratulate_share_joy": 0.0,
+   "exploratory_question": 0.34,
+   "generic_reaction": 0.01,
+   "humor": 0.01,
+   "opinion_judgment": 0.03,
+   "reassure_minimize": 0.05,
+   "self_disclosure": 0.09,
+   "validation_empathy": 0.38
+  },
+  "shame_guilt": {
+   "advice": 0.04,
+   "congratulate_share_joy": 0.02,
+   "exploratory_question": 0.44,
+   "generic_reaction": 0.02,
+   "humor": 0.05,
+   "opinion_judgment": 0.07,
+   "reassure_minimize": 0.11,
+   "self_disclosure": 0.14,
+   "validation_empathy": 0.12
+  },
+  "warm_nostalgic": {
+   "advice": 0.05,
+   "congratulate_share_joy": 0.02,
+   "exploratory_question": 0.37,
+   "generic_reaction": 0.02,
+   "humor": 0.04,
+   "opinion_judgment": 0.07,
+   "reassure_minimize": 0.0,
+   "self_disclosure": 0.26,
+   "validation_empathy": 0.18
+  }
+ },
+ "noul_rate_by_pol": {
+  "ambiguous": {
+   "n_humor": 0.263,
+   "n_wish": 0.0,
+   "n_question": 0.474,
+   "n_congrats": 0.263,
+   "n_advice": 0.0,
+   "n_minimize": 0.105,
+   "n_validation": 0.684,
+   "n_selfdisc": 0.316
+  },
+  "negative": {
+   "n_humor": 0.086,
+   "n_wish": 0.086,
+   "n_question": 0.586,
+   "n_congrats": 0.039,
+   "n_advice": 0.132,
+   "n_minimize": 0.132,
+   "n_validation": 0.562,
+   "n_selfdisc": 0.201
+  },
+  "positive": {
+   "n_humor": 0.056,
+   "n_wish": 0.046,
+   "n_question": 0.554,
+   "n_congrats": 0.249,
+   "n_advice": 0.067,
+   "n_minimize": 0.028,
+   "n_validation": 0.579,
+   "n_selfdisc": 0.225
+  }
+ },
+ "noul_rate_by_fam": {
+  "anger_disgust": {
+   "n_humor": 0.09,
+   "n_wish": 0.04,
+   "n_question": 0.63,
+   "n_congrats": 0.0,
+   "n_advice": 0.14,
+   "n_minimize": 0.04,
+   "n_validation": 0.55,
+   "n_selfdisc": 0.25
+  },
+  "fear_anxiety": {
+   "n_humor": 0.04,
+   "n_wish": 0.05,
+   "n_question": 0.59,
+   "n_congrats": 0.09,
+   "n_advice": 0.14,
+   "n_minimize": 0.16,
+   "n_validation": 0.55,
+   "n_selfdisc": 0.18
+  },
+  "hope_confidence": {
+   "n_humor": 0.05,
+   "n_wish": 0.06,
+   "n_question": 0.57,
+   "n_congrats": 0.22,
+   "n_advice": 0.09,
+   "n_minimize": 0.04,
+   "n_validation": 0.48,
+   "n_selfdisc": 0.25
+  },
+  "joy_pride": {
+   "n_humor": 0.08,
+   "n_wish": 0.03,
+   "n_question": 0.54,
+   "n_congrats": 0.32,
+   "n_advice": 0.04,
+   "n_minimize": 0.04,
+   "n_validation": 0.68,
+   "n_selfdisc": 0.2
+  },
+  "sadness": {
+   "n_humor": 0.01,
+   "n_wish": 0.11,
+   "n_question": 0.57,
+   "n_congrats": 0.01,
+   "n_advice": 0.13,
+   "n_minimize": 0.16,
+   "n_validation": 0.63,
+   "n_selfdisc": 0.18
+  },
+  "shame_guilt": {
+   "n_humor": 0.23,
+   "n_wish": 0.18,
+   "n_question": 0.53,
+   "n_congrats": 0.07,
+   "n_advice": 0.11,
+   "n_minimize": 0.21,
+   "n_validation": 0.51,
+   "n_selfdisc": 0.16
+  },
+  "warm_nostalgic": {
+   "n_humor": 0.09,
+   "n_wish": 0.04,
+   "n_question": 0.53,
+   "n_congrats": 0.16,
+   "n_advice": 0.07,
+   "n_minimize": 0.02,
+   "n_validation": 0.56,
+   "n_selfdisc": 0.28
+  }
+ },
+ "n_strategies_per_reply": {
+  "ambiguous": 2.11,
+  "negative": 1.82,
+  "positive": 1.8
+ },
+ "chars_by_main": {
+  "advice": {
+   "median": 65.5,
+   "mean": 75.1,
+   "count": 32
+  },
+  "congratulate_share_joy": {
+   "median": 48.0,
+   "mean": 51.3,
+   "count": 39
+  },
+  "exploratory_question": {
+   "median": 36.0,
+   "mean": 40.2,
+   "count": 262
+  },
+  "generic_reaction": {
+   "median": 18.5,
+   "mean": 21.9,
+   "count": 16
+  },
+  "humor": {
+   "median": 38.0,
+   "mean": 39.8,
+   "count": 15
+  },
+  "opinion_judgment": {
+   "median": 46.0,
+   "mean": 59.1,
+   "count": 38
+  },
+  "reassure_minimize": {
+   "median": 71.0,
+   "mean": 72.0,
+   "count": 22
+  },
+  "self_disclosure": {
+   "median": 63.5,
+   "mean": 68.3,
+   "count": 90
+  },
+  "validation_empathy": {
+   "median": 53.0,
+   "mean": 58.5,
+   "count": 94
+  }
+ },
+ "examples": {
+  "exploratory_question": [
+   "[afraid] A: So last night im in bed it was aorund 3 AM and i hear a crash in my garage || B: Really? Did you get up to see what made the sound?",
+   "[afraid] A: Man you won't believe what happened. Some kid rammed his quad into my garage door || B: How'd he do that?",
+   "[afraid] A: Man this weekend might be weird || B: Why weird"
+  ],
+  "validation_empathy": [
+   "[afraid] A: My dog got really sick and was coughing up blood last week. I didn't know what to do. I had a panic attack. || B: Oh no, that's terrible!  Are both you and your dog alright now?",
+   "[afraid] A: i thought i was going to be attacked by a huge dog running at me in the dark! || B: I hate that! Where they're probably friendly, but because they're so big, you have no idea what could or would happen, so you get ",
+   "[afraid] A: About 6 years ago I was diagnosed with cancer. || B: Ohh, I so sorry."
+  ],
+  "reassure_minimize": [
+   "[afraid] A: Anytime I see an earthworm, I run away. I am so scored of them. || B: They can not curt you. They are tiny and powerless. ",
+   "[angry] A: I made a stupid mistake at work. Because of that mistake, I was fired. I am angry at myself. || B: I know it's a blow, but you're only human. Everybody makes mistakes sometimes.",
+   "[anxious] A: I really really really hope i get this job  || B: What job?  Don't be discouraged if you don't get it though!  Keep trying!"
+  ],
+  "opinion_judgment": [
+   "[afraid] A: My friend has a pet spider and they made me hold it the other day.  || B: thats gross.",
+   "[angry] A: My cable costs me 100 dollars a month || B: That's a rip off at that price.",
+   "[angry] A: I'm so irritated at my neighbor. She moved out recently and left ALL her garbage and old furniture in our park || B: That's not very considerate of her. Was she a bad neighbor while she lived there too? Some people!"
+  ],
+  "generic_reaction": [
+   "[afraid] A: 2 people escaped from jail in my town tonight! || B: thats insane stuff",
+   "[annoyed] A: Someone stole my dog from my house! || B: wth thats crazy",
+   "[anticipating] A: School is about to start again! I am so excited. || B: It is nice. School can be very exciting."
+  ],
+  "advice": [
+   "[afraid] A: There's this tree outside of my apartment bedroom window, and sometimes when the wind blows just right, it tap || B: Have you thought about cutting it down?",
+   "[angry] A: I had a rough day today and now my son refuses to go to bed || B: That really sucks. Maybe you should force feed him some melatonin?",
+   "[angry] A: Somebody said something about me that was not true || B: Please don't care about those people. Try to be true to yourself. World will recognize you one day.  "
+  ],
+  "self_disclosure": [
+   "[angry] A: My sister really gets on my nerves. She was supposed to do me a favor || B: because of my illness i got some frustration too",
+   "[angry] A: Someone threw a bunch of trash in my yard. || B: Ugh! They do that here too! Are you in a bad city too?",
+   "[annoyed] A: i hate when someone doesnt take the hint to stop rambling  || B: Oh me too. Social cues seem to get lost so easily on people these days."
+  ],
+  "humor": [
+   "[angry] A: i got up to get cereal this morning, but my roommate drank all my milk.  || B: did he get a beat down ?",
+   "[annoyed] A: I was working on a really tough and boring project. When I was done my boss didn't even care.  || B: Wow. Sounds like you have a wonderful boss. Sarcasm by the way.",
+   "[annoyed] A: Someone asked me to come pick them up at a specific place at a specific time. I was a little busy at the time, || B: Are you one of the Uber drivers?"
+  ],
+  "congratulate_share_joy": [
+   "[ashamed] A: I ate 20 Big Macs for dinner tonight. || B: Wow, that is really impressive!",
+   "[confident] A: I studied really hard for my math test last week, so I knew I would ace it. || B: Math is a tough subject. Good for you.",
+   "[content] A: I am pretty happy with my life right now, it is going pretty well overall || B: That's great when life just feels right"
+  ]
+ },
+ "n_regex": 24847,
+ "regex_by_pol": {
+  "ambiguous": {
+   "n": 1279,
+   "b_q": 0.595,
+   "q_first": 0.294,
+   "b_chars_med": 42.0,
+   "b_chars_mean": 49.33,
+   "b_words_med": 8.0,
+   "b2_q": 0.22613458528951486,
+   "b2_chars_med": 51.0,
+   "a2_q": 0.028146989835809225,
+   "sorry": 0.029,
+   "congrats": 0.102,
+   "me_too": 0.004,
+   "advice": 0.032,
+   "reassure": 0.002,
+   "understand": 0.071,
+   "wish_luck": 0.018,
+   "laugh": 0.019,
+   "wow_opener": 0.238
+  },
+  "negative": {
+   "n": 12281,
+   "b_q": 0.58,
+   "q_first": 0.299,
+   "b_chars_med": 46.0,
+   "b_chars_mean": 53.637,
+   "b_words_med": 9.0,
+   "b2_q": 0.19745741993317578,
+   "b2_chars_med": 56.0,
+   "a2_q": 0.03233689011973609,
+   "sorry": 0.175,
+   "congrats": 0.01,
+   "me_too": 0.014,
+   "advice": 0.06,
+   "reassure": 0.011,
+   "understand": 0.053,
+   "wish_luck": 0.034,
+   "laugh": 0.019,
+   "wow_opener": 0.256
+  },
+  "positive": {
+   "n": 11287,
+   "b_q": 0.526,
+   "q_first": 0.259,
+   "b_chars_med": 46.0,
+   "b_chars_mean": 52.011,
+   "b_words_med": 9.0,
+   "b2_q": 0.1838764094823759,
+   "b2_chars_med": 53.0,
+   "a2_q": 0.03730946472881957,
+   "sorry": 0.03,
+   "congrats": 0.105,
+   "me_too": 0.01,
+   "advice": 0.021,
+   "reassure": 0.009,
+   "understand": 0.071,
+   "wish_luck": 0.038,
+   "laugh": 0.01,
+   "wow_opener": 0.18
+  }
+ },
+ "regex_by_fam": {
+  "anger_disgust": {
+   "n": 4041,
+   "b_q": 0.561,
+   "b_chars_med": 46.0,
+   "sorry": 0.13,
+   "congrats": 0.009,
+   "me_too": 0.014,
+   "advice": 0.068,
+   "reassure": 0.005,
+   "understand": 0.05,
+   "wish_luck": 0.022,
+   "laugh": 0.019,
+   "wow_opener": 0.24
+  },
+  "fear_anxiety": {
+   "n": 2960,
+   "b_q": 0.621,
+   "b_chars_med": 46.0,
+   "sorry": 0.098,
+   "congrats": 0.021,
+   "me_too": 0.018,
+   "advice": 0.057,
+   "reassure": 0.019,
+   "understand": 0.055,
+   "wish_luck": 0.044,
+   "laugh": 0.011,
+   "wow_opener": 0.25
+  },
+  "hope_confidence": {
+   "n": 4215,
+   "b_q": 0.556,
+   "b_chars_med": 45.0,
+   "sorry": 0.028,
+   "congrats": 0.09,
+   "me_too": 0.009,
+   "advice": 0.024,
+   "reassure": 0.014,
+   "understand": 0.05,
+   "wish_luck": 0.066,
+   "laugh": 0.008,
+   "wow_opener": 0.161
+  },
+  "joy_pride": {
+   "n": 6211,
+   "b_q": 0.526,
+   "b_chars_med": 45.0,
+   "sorry": 0.017,
+   "congrats": 0.14,
+   "me_too": 0.008,
+   "advice": 0.023,
+   "reassure": 0.005,
+   "understand": 0.084,
+   "wish_luck": 0.019,
+   "laugh": 0.014,
+   "wow_opener": 0.201
+  },
+  "sadness": {
+   "n": 3153,
+   "b_q": 0.562,
+   "b_chars_med": 48.0,
+   "sorry": 0.305,
+   "congrats": 0.008,
+   "me_too": 0.011,
+   "advice": 0.053,
+   "reassure": 0.01,
+   "understand": 0.054,
+   "wish_luck": 0.036,
+   "laugh": 0.007,
+   "wow_opener": 0.25
+  },
+  "shame_guilt": {
+   "n": 2127,
+   "b_q": 0.586,
+   "b_chars_med": 43.0,
+   "sorry": 0.173,
+   "congrats": 0.002,
+   "me_too": 0.015,
+   "advice": 0.062,
+   "reassure": 0.015,
+   "understand": 0.053,
+   "wish_luck": 0.039,
+   "laugh": 0.049,
+   "wow_opener": 0.302
+  },
+  "warm_nostalgic": {
+   "n": 2140,
+   "b_q": 0.507,
+   "b_chars_med": 48.0,
+   "sorry": 0.067,
+   "congrats": 0.032,
+   "me_too": 0.017,
+   "advice": 0.016,
+   "reassure": 0.007,
+   "understand": 0.073,
+   "wish_luck": 0.023,
+   "laugh": 0.008,
+   "wow_opener": 0.19
+  }
+ },
+ "regex_by_emotion_q": {
+  "grateful": 0.439,
+  "proud": 0.446,
+  "faithful": 0.454,
+  "content": 0.479,
+  "nostalgic": 0.49,
+  "caring": 0.499,
+  "jealous": 0.505,
+  "disgusted": 0.518,
+  "impressed": 0.523,
+  "trusting": 0.524,
+  "sentimental": 0.532,
+  "sad": 0.541,
+  "joyful": 0.552,
+  "prepared": 0.559,
+  "devastated": 0.563,
+  "annoyed": 0.563,
+  "lonely": 0.564,
+  "embarrassed": 0.57,
+  "hopeful": 0.57,
+  "confident": 0.571,
+  "ashamed": 0.576,
+  "disappointed": 0.582,
+  "angry": 0.586,
+  "apprehensive": 0.59,
+  "surprised": 0.595,
+  "excited": 0.6,
+  "anxious": 0.609,
+  "guilty": 0.609,
+  "anticipating": 0.618,
+  "furious": 0.631,
+  "terrified": 0.635,
+  "afraid": 0.642
+ },
+ "q_neg_vs_pos_z": 8.34,
+ "corr_a_b_chars": 0.263
+}

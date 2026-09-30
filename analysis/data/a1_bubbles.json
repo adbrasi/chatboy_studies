@@ -1,0 +1,625 @@
+{
+ "heuristic": {
+  "maichat": {
+   "n_bursts": 866,
+   "n_bubbles": 2017,
+   "share": {
+    "content": 0.66,
+    "reaction": 0.231,
+    "question": 0.067,
+    "emoji": 0.019,
+    "laugh": 0.017,
+    "correction": 0.006
+   },
+   "first": {
+    "content": 0.597,
+    "reaction": 0.304,
+    "question": 0.048,
+    "emoji": 0.027,
+    "laugh": 0.023,
+    "correction": 0.001
+   },
+   "last": {
+    "content": 0.711,
+    "reaction": 0.165,
+    "question": 0.085,
+    "emoji": 0.017,
+    "correction": 0.012,
+    "laugh": 0.009
+   },
+   "top_pairs": {
+    "content>content": 0.455,
+    "reaction>content": 0.201,
+    "content>reaction": 0.101,
+    "reaction>reaction": 0.051,
+    "content>question": 0.043,
+    "question>content": 0.024,
+    "reaction>question": 0.02,
+    "laugh>content": 0.017,
+    "question>question": 0.016,
+    "emoji>content": 0.01,
+    "emoji>reaction": 0.009,
+    "content>emoji": 0.008
+   },
+   "top_sequences": {
+    "content+content": 271,
+    "reaction+content": 159,
+    "content+content+content": 63,
+    "content+reaction": 59,
+    "reaction+reaction": 34,
+    "reaction+content+content": 24,
+    "content+question": 22,
+    "question+content": 15,
+    "reaction+question": 14,
+    "content+reaction+content": 14,
+    "content+content+reaction": 12,
+    "content+content+content+content": 11
+   },
+   "question_single: P(last)": 0.592,
+   "question_single: chance": 0.425,
+   "n_q_bursts": 98,
+   "reaction_single: P(first)": 0.632,
+   "reaction_single: chance": 0.451,
+   "n_r_bursts": 337,
+   "laugh/emoji_single: P(last)": 0.314,
+   "P(first)": 0.586,
+   "n_le": 70,
+   "median_chars_by_position": {
+    "2": [
+     16.0,
+     21.0
+    ],
+    "3": [
+     21.0,
+     19.0,
+     23.0
+    ],
+    "4": [
+     29.0,
+     17.0,
+     24.0,
+     17.5
+    ]
+   }
+  },
+  "whatsapp_nl": {
+   "n_bursts": 14875,
+   "n_bubbles": 36345,
+   "share": {
+    "content": 0.573,
+    "reaction": 0.197,
+    "question": 0.137,
+    "emoji": 0.038,
+    "laugh": 0.033,
+    "media": 0.017,
+    "correction": 0.004
+   },
+   "first": {
+    "content": 0.515,
+    "reaction": 0.297,
+    "question": 0.079,
+    "laugh": 0.057,
+    "emoji": 0.032,
+    "media": 0.019,
+    "correction": 0.001
+   },
+   "last": {
+    "content": 0.591,
+    "question": 0.214,
+    "reaction": 0.113,
+    "emoji": 0.048,
+    "laugh": 0.015,
+    "media": 0.013,
+    "correction": 0.006
+   },
+   "top_pairs": {
+    "content>content": 0.368,
+    "reaction>content": 0.147,
+    "content>question": 0.088,
+    "content>reaction": 0.061,
+    "reaction>question": 0.051,
+    "question>content": 0.046,
+    "reaction>reaction": 0.04,
+    "laugh>content": 0.026,
+    "content>emoji": 0.024,
+    "question>question": 0.023,
+    "emoji>content": 0.017,
+    "laugh>reaction": 0.011
+   },
+   "top_sequences": {
+    "content+content": 3172,
+    "reaction+content": 1525,
+    "content+question": 984,
+    "content+content+content": 871,
+    "reaction+question": 723,
+    "content+reaction": 519,
+    "question+content": 467,
+    "reaction+content+content": 464,
+    "reaction+reaction": 384,
+    "laugh+content": 276,
+    "content+content+content+content": 259,
+    "question+question": 251
+   },
+   "question_single: P(last)": 0.692,
+   "question_single: chance": 0.435,
+   "n_q_bursts": 3902,
+   "reaction_single: P(first)": 0.689,
+   "reaction_single: chance": 0.426,
+   "n_r_bursts": 5174,
+   "laugh/emoji_single: P(last)": 0.36,
+   "P(first)": 0.529,
+   "n_le": 2280,
+   "median_chars_by_position": {
+    "2": [
+     17.0,
+     25.0
+    ],
+    "3": [
+     15.0,
+     23.0,
+     25.0
+    ],
+    "4": [
+     14.0,
+     21.0,
+     26.0,
+     25.0
+    ]
+   }
+  }
+ },
+ "examples": {
+  "maichat:reaction+content": [
+   [
+    "meh",
+    "tired but ok"
+   ],
+   [
+    "That’s true ",
+    "But some cars are nice "
+   ],
+   [
+    "ᥬ🌝᭄",
+    "haha i can still use my own keyboard emojis"
+   ],
+   [
+    "holy shit",
+    "your not having a conversation with the person reading this are you"
+   ]
+  ],
+  "maichat:content+question": [
+   [
+    "Almost certainly - its always popular.",
+    "do you want brussels sprouts?"
+   ],
+   [
+    "wait no way",
+    "really?"
+   ],
+   [
+    "mmm yeah that's true ",
+    "or just pour water on the ground?"
+   ],
+   [
+    "Yeah, genuinely the best ball ",
+    "ya know that highlighter I have that has two tones?"
+   ]
+  ],
+  "maichat:content+emoji": [
+   [
+    "Whats your favourite ice cream",
+    "🫣"
+   ],
+   [
+    "fluent in emoji",
+    "₍˄·͈༝·͈˄*₎◞ ̑̑"
+   ],
+   [
+    "my dad uses emojis often, 😀😀- is a favourite",
+    "😁"
+   ],
+   [
+    "What about u",
+    "?"
+   ]
+  ],
+  "maichat:content+laugh": [
+   [
+    "would not be me tho ",
+    "hahahaha "
+   ],
+   [
+    "\\great minds think alike",
+    "Hahaha"
+   ]
+  ],
+  "maichat:content+correction": [
+   [
+    "were u speak to a robot without knowing it",
+    "where*"
+   ],
+   [
+    "I thought we finished them earlier,m",
+    "*?"
+   ],
+   [
+    "i would enjoy having a panda do cuddle right now",
+    "*to"
+   ],
+   [
+    "Also how long is it gonna take us to walk there’s ",
+    "*there?"
+   ]
+  ],
+  "maichat:laugh+content": [
+   [
+    "HAHAHA",
+    "btw this counts as our chat task right"
+   ],
+   [
+    "hahahaha",
+    "The guy at the cafe thought it was so cool I paid for my muffin with my watch"
+   ],
+   [
+    "hahaha",
+    "similar to me, my flatmate just gave me her book of fourth wing and said its really good and i should read it ... but its SO large"
+   ],
+   [
+    "kk",
+    "talk to you soon!!"
+   ]
+  ],
+  "maichat:content+content": [
+   [
+    "i used to, mainly for cute animal videos, but it started to get too distracting",
+    "so i uninstalled it"
+   ],
+   [
+    "satisfying both parts of the brain lol",
+    "yes non fiction"
+   ],
+   [
+    "enjoy :^))))))",
+    "Byeeeeeeeeeee"
+   ],
+   [
+    "i don't think they had garlic rice but that would be nice",
+    "oh i don't think so"
+   ]
+  ],
+  "whatsapp_nl:reaction+content": [
+   [
+    " Jawel ",
+    " Kom je als geile boerin vanavond "
+   ],
+   [
+    " Zozo ",
+    " Die jongen kan niet eens een ei bakken "
+   ],
+   [
+    " Okee ",
+    " Laat maar weten dan kom ik jou kant op "
+   ],
+   [
+    "neehoor",
+    "half [REMOVED]"
+   ]
+  ],
+  "whatsapp_nl:content+question": [
+   [
+    " Stom anders had het misschien gekund 😇 ",
+    " Wel lekker geslapen zonder mij? "
+   ],
+   [
+    "Het ultieme gevoel van vrijheid",
+    "Waar heb je dat mogen ervaren?"
+   ],
+   [
+    " Het mooie [REMOVED] ",
+    " Ga je stappen vanavond? "
+   ],
+   [
+    "Ja denk t wel",
+    "Maar maakt toch niet echt uit?"
+   ]
+  ],
+  "whatsapp_nl:content+emoji": [
+   [
+    "Alleen dan de hond vervangen door een familiefoto",
+    ""
+   ],
+   [
+    "super! vooral dat neerdere chicks",
+    "😊"
+   ],
+   [
+    "Meende ik te zieb",
+    ""
+   ],
+   [
+    "Haha, doet ze wel goed altijd dan!",
+    ""
+   ]
+  ],
+  "whatsapp_nl:content+laugh": [
+   [
+    "Nee dat klopt",
+    "Haha"
+   ],
+   [
+    "Las de zin verkeerd ",
+    "Hihihi"
+   ],
+   [
+    "Hahaha ja omg",
+    "Hahaha"
+   ],
+   [
+    " Wij hebben geen filmpje hoor ",
+    " Hahaha "
+   ]
+  ],
+  "whatsapp_nl:content+correction": [
+   [
+    "Oe, da valt niet tegen ",
+    "*wbw*"
+   ],
+   [
+    "Ik heb net een meloen geslacht en die neem ik dan mee zodat we dat tijdens het kokkerellen kunnen opeten ;) wen soort minilunch",
+    "Een*"
+   ],
+   [
+    "Zit nu in de bus, dus tot ste als!",
+    "*straks"
+   ],
+   [
+    " Gewoon w dassen ",
+    " [numerical_value]* "
+   ]
+  ],
+  "whatsapp_nl:laugh+content": [
+   [
+    "Hahahahahahahahaha",
+    "Ik heb echt veel te veel gemist"
+   ],
+   [
+    "Hahahaha",
+    "Ik dacht dat je dat wel wist hihi"
+   ],
+   [
+    "Haha",
+    "Ik heb ook een foto van jou:👹"
+   ],
+   [
+    "Hahaha",
+    "[REMOVED] is kei lekker"
+   ]
+  ],
+  "whatsapp_nl:content+content": [
+   [
+    "Ben nu bij underground",
+    "Neem vera en willrmijn mee"
+   ],
+   [
+    "Ja weet je wat het is, ik heb die week daarna tentamens en ik moet nog groepsopdrachten maken misschien, vandaar dat ik nog even moet kijken!",
+    "[REMOVED] lijkt me leuker!"
+   ],
+   [
+    "Ja dat is wel",
+    "Ik had nog mail gestuurd maar, niks meer van gehoord"
+   ],
+   [
+    "Ben boodschappen aan het halen",
+    "Heb je nog iets nodig"
+   ]
+  ]
+ },
+ "jev": {
+  "maichat": {
+   "n_bursts": 866,
+   "n_bubbles": 2017,
+   "share": {
+    "add_on": 0.287,
+    "main_content": 0.273,
+    "reaction": 0.171,
+    "question": 0.129,
+    "afterthought_new_point": 0.044,
+    "greeting_closing": 0.026,
+    "laugh": 0.025,
+    "softener_hedge": 0.022,
+    "emoji_only": 0.014,
+    "correction": 0.009
+   },
+   "first": {
+    "main_content": 0.487,
+    "reaction": 0.285,
+    "question": 0.087,
+    "laugh": 0.036,
+    "greeting_closing": 0.03,
+    "softener_hedge": 0.027,
+    "emoji_only": 0.017,
+    "afterthought_new_point": 0.015,
+    "add_on": 0.015,
+    "correction": 0.001
+   },
+   "last": {
+    "add_on": 0.514,
+    "question": 0.174,
+    "main_content": 0.092,
+    "afterthought_new_point": 0.074,
+    "reaction": 0.064,
+    "greeting_closing": 0.025,
+    "correction": 0.015,
+    "emoji_only": 0.015,
+    "softener_hedge": 0.015,
+    "laugh": 0.012
+   },
+   "top_pairs": {
+    "main_content>add_on": 0.24,
+    "reaction>add_on": 0.109,
+    "add_on>add_on": 0.063,
+    "reaction>question": 0.049,
+    "main_content>question": 0.047,
+    "question>add_on": 0.04,
+    "main_content>reaction": 0.04,
+    "reaction>main_content": 0.036,
+    "main_content>afterthought_new_point": 0.028,
+    "reaction>afterthought_new_point": 0.021,
+    "main_content>main_content": 0.021,
+    "question>question": 0.02
+   },
+   "top_sequences": {
+    "main_content+add_on": 188,
+    "reaction+add_on": 93,
+    "main_content+question": 37,
+    "reaction+question": 34,
+    "main_content+add_on+add_on": 29,
+    "question+add_on": 27,
+    "reaction+main_content": 24,
+    "main_content+reaction": 24,
+    "main_content+afterthought_new_point": 23,
+    "main_content+main_content": 14,
+    "greeting_closing+question": 12,
+    "reaction+afterthought_new_point": 11,
+    "reaction+add_on+add_on": 11,
+    "question+question": 10,
+    "laugh+main_content": 9
+   },
+   "agreement_with_heuristic": 0.725,
+   "median_conf": 0.86,
+   "gap_before_function": {
+    "add_on": {
+     "n": 565,
+     "median_gap_s": 9.8,
+     "p25": 6.1,
+     "p75": 18.2
+    },
+    "question": {
+     "n": 185,
+     "median_gap_s": 11.8,
+     "p25": 5.2,
+     "p75": 19.3
+    },
+    "laugh": {
+     "n": 19,
+     "median_gap_s": 4.1,
+     "p25": 3.0,
+     "p75": 9.0
+    },
+    "main_content": {
+     "n": 129,
+     "median_gap_s": 10.8,
+     "p25": 6.0,
+     "p75": 16.0
+    },
+    "afterthought_new_point": {
+     "n": 76,
+     "median_gap_s": 11.5,
+     "p25": 7.3,
+     "p75": 18.2
+    },
+    "greeting_closing": {
+     "n": 26,
+     "median_gap_s": 8.8,
+     "p25": 2.5,
+     "p75": 14.6
+    },
+    "reaction": {
+     "n": 98,
+     "median_gap_s": 4.5,
+     "p25": 2.7,
+     "p75": 6.9
+    },
+    "softener_hedge": {
+     "n": 22,
+     "median_gap_s": 4.8,
+     "p25": 1.9,
+     "p75": 8.7
+    },
+    "correction": {
+     "n": 17,
+     "median_gap_s": 5.0,
+     "p25": 4.0,
+     "p75": 6.0
+    },
+    "emoji_only": {
+     "n": 14,
+     "median_gap_s": 6.8,
+     "p25": 4.7,
+     "p75": 11.3
+    }
+   }
+  },
+  "whatsapp_nl": {
+   "n_bursts": 350,
+   "n_bubbles": 860,
+   "share": {
+    "main_content": 0.272,
+    "add_on": 0.229,
+    "reaction": 0.185,
+    "question": 0.148,
+    "afterthought_new_point": 0.057,
+    "laugh": 0.045,
+    "emoji_only": 0.031,
+    "greeting_closing": 0.021,
+    "softener_hedge": 0.01,
+    "correction": 0.001
+   },
+   "first": {
+    "main_content": 0.446,
+    "reaction": 0.343,
+    "laugh": 0.089,
+    "question": 0.069,
+    "emoji_only": 0.02,
+    "greeting_closing": 0.017,
+    "softener_hedge": 0.014,
+    "afterthought_new_point": 0.003
+   },
+   "last": {
+    "add_on": 0.406,
+    "question": 0.246,
+    "main_content": 0.109,
+    "afterthought_new_point": 0.091,
+    "reaction": 0.057,
+    "emoji_only": 0.051,
+    "greeting_closing": 0.02,
+    "laugh": 0.014,
+    "softener_hedge": 0.006
+   },
+   "top_pairs": {
+    "main_content>add_on": 0.196,
+    "reaction>add_on": 0.071,
+    "main_content>question": 0.067,
+    "reaction>main_content": 0.067,
+    "reaction>question": 0.063,
+    "add_on>add_on": 0.055,
+    "main_content>afterthought_new_point": 0.037,
+    "main_content>main_content": 0.033,
+    "reaction>reaction": 0.025,
+    "add_on>question": 0.022,
+    "reaction>afterthought_new_point": 0.022,
+    "main_content>reaction": 0.022
+   },
+   "top_sequences": {
+    "main_content+add_on": 53,
+    "reaction+add_on": 28,
+    "main_content+question": 25,
+    "reaction+question": 23,
+    "main_content+add_on+add_on": 15,
+    "reaction+main_content": 12,
+    "laugh+question": 7,
+    "main_content+afterthought_new_point": 7,
+    "question+add_on": 6,
+    "laugh+main_content": 5,
+    "main_content+add_on+question": 5,
+    "laugh+add_on": 5,
+    "main_content+add_on+main_content": 4,
+    "main_content+emoji_only": 4,
+    "main_content+add_on+afterthought_new_point": 4
+   },
+   "agreement_with_heuristic": 0.827,
+   "median_conf": 0.82,
+   "gap_before_function": {}
+  }
+ }
+}

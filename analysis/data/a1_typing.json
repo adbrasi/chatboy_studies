@@ -1,0 +1,736 @@
+{
+ "overall": {
+  "compose_s": {
+   "n": 4140,
+   "p25": 2.26,
+   "med": 3.85,
+   "p75": 8.96
+  },
+  "cps": {
+   "n": 4140,
+   "p25": 2.82,
+   "med": 4.59,
+   "p75": 6.94
+  },
+  "cps_active(pauses>2s removed)": {
+   "n": 4140,
+   "p25": 3.54,
+   "med": 5.02,
+   "p75": 7.1
+  },
+  "share_with_deletion": 0.357,
+  "share_abandoned>=3chars": 0.023,
+  "share_reset(draft wiped & rewritten)": 0.05,
+  "share_pause>2s": 0.196,
+  "share_started_before_partner_msg_arrived": 0.299
+ },
+ "by_device": {
+  "Desktop": {
+   "n": 2699,
+   "cps_med": 4.34,
+   "cps_active_med": 4.88,
+   "compose_med": 4.5,
+   "del_share": 0.424
+  },
+  "Mobile": {
+   "n": 1440,
+   "cps_med": 5.12,
+   "cps_active_med": 5.45,
+   "compose_med": 2.9,
+   "del_share": 0.23
+  },
+  "Tablet": {
+   "n": 1,
+   "cps_med": 1.77,
+   "cps_active_med": 1.77,
+   "compose_med": 2.8,
+   "del_share": 1.0
+  }
+ },
+ "formula": {
+  "all": {
+   "median: a_s": -0.1,
+   "median: s_per_char": 0.219,
+   "p25: a,b": [
+    -0.26,
+    0.158
+   ],
+   "p75: a,b": [
+    0.57,
+    0.284
+   ],
+   "loglog: exp(a)": 0.44,
+   "loglog: exponent": 0.79,
+   "loglog_r2": 0.528,
+   "n": 3999
+  },
+  "Desktop": {
+   "median: a_s": -0.02,
+   "median: s_per_char": 0.224,
+   "p25: a,b": [
+    -0.34,
+    0.17
+   ],
+   "p75: a,b": [
+    0.7,
+    0.286
+   ],
+   "loglog: exp(a)": 0.47,
+   "loglog: exponent": 0.787,
+   "loglog_r2": 0.52,
+   "n": 2561
+  },
+  "Mobile": {
+   "median: a_s": -0.2,
+   "median: s_per_char": 0.209,
+   "p25: a,b": [
+    -0.07,
+    0.142
+   ],
+   "p75: a,b": [
+    0.44,
+    0.281
+   ],
+   "loglog: exp(a)": 0.42,
+   "loglog: exponent": 0.776,
+   "loglog_r2": 0.53,
+   "n": 1437
+  },
+  "Tablet": {
+   "median: a_s": 0.11,
+   "median: s_per_char": 0.543,
+   "p25: a,b": [
+    0.11,
+    0.543
+   ],
+   "p75: a,b": [
+    0.11,
+    0.543
+   ],
+   "loglog: exp(a)": 1.34,
+   "loglog: exponent": 0.465,
+   "loglog_r2": -Infinity,
+   "n": 1
+  }
+ },
+ "log_compose_model": {
+  "Intercept": {
+   "b": -0.463,
+   "p": 6.6e-06,
+   "x_factor": 0.629
+  },
+  "C(device)[T.Mobile]": {
+   "b": -0.106,
+   "p": 0.092,
+   "x_factor": 0.9
+  },
+  "C(device)[T.Tablet]": {
+   "b": 0.102,
+   "p": 0.28,
+   "x_factor": 1.107
+  },
+  "np.log(final_len)": {
+   "b": 0.758,
+   "p": 1.7e-179,
+   "x_factor": 2.133
+  },
+  "D_seriousness": {
+   "b": 0.155,
+   "p": 0.063,
+   "x_factor": 1.168
+  },
+  "D_vulnerable": {
+   "b": 0.089,
+   "p": 0.37,
+   "x_factor": 1.093
+  },
+  "D_anxious": {
+   "b": -0.306,
+   "p": 0.0097,
+   "x_factor": 0.736
+  },
+  "D_arousal": {
+   "b": 0.118,
+   "p": 0.0028,
+   "x_factor": 1.125
+  },
+  "D_tension": {
+   "b": -0.51,
+   "p": 6.2e-06,
+   "x_factor": 0.601
+  },
+  "D_playful": {
+   "b": -0.369,
+   "p": 0.00028,
+   "x_factor": 0.691
+  },
+  "D_engagement": {
+   "b": -0.052,
+   "p": 0.18,
+   "x_factor": 0.949
+  },
+  "r2": 0.583,
+  "n": 3993
+ },
+ "hesitation": {
+  "vuln_b": [
+   {
+    "vuln_b": "mid",
+    "n": 1168.0,
+    "cps_med": 4.796,
+    "del_share": 0.372,
+    "del_ratio_mean": 0.103,
+    "aband_share": 0.018,
+    "reset_share": 0.043,
+    "pause2_share": 0.188,
+    "pause5_share": 0.074,
+    "med_chars": 21.0,
+    "sec_per_char_med": 0.209
+   },
+   {
+    "vuln_b": "vulnerable<.2",
+    "n": 2527.0,
+    "cps_med": 4.468,
+    "del_share": 0.34,
+    "del_ratio_mean": 0.139,
+    "aband_share": 0.028,
+    "reset_share": 0.053,
+    "pause2_share": 0.193,
+    "pause5_share": 0.09,
+    "med_chars": 17.0,
+    "sec_per_char_med": 0.224
+   },
+   {
+    "vuln_b": "vulnerable>=.5",
+    "n": 445.0,
+    "cps_med": 4.567,
+    "del_share": 0.413,
+    "del_ratio_mean": 0.119,
+    "aband_share": 0.013,
+    "reset_share": 0.049,
+    "pause2_share": 0.236,
+    "pause5_share": 0.112,
+    "med_chars": 25.0,
+    "sec_per_char_med": 0.219
+   }
+  ],
+  "ser_b": [
+   {
+    "ser_b": "banter(0)",
+    "n": 2326.0,
+    "cps_med": 5.0,
+    "del_share": 0.283,
+    "del_ratio_mean": 0.095,
+    "aband_share": 0.017,
+    "reset_share": 0.034,
+    "pause2_share": 0.144,
+    "pause5_share": 0.073,
+    "med_chars": 18.0,
+    "sec_per_char_med": 0.2
+   },
+   {
+    "ser_b": "casual(1)",
+    "n": 1724.0,
+    "cps_med": 4.025,
+    "del_share": 0.446,
+    "del_ratio_mean": 0.166,
+    "aband_share": 0.032,
+    "reset_share": 0.068,
+    "pause2_share": 0.262,
+    "pause5_share": 0.106,
+    "med_chars": 22.0,
+    "sec_per_char_med": 0.248
+   },
+   {
+    "ser_b": "serious(2-3)",
+    "n": 90.0,
+    "cps_med": 4.443,
+    "del_share": 0.533,
+    "del_ratio_mean": 0.177,
+    "aband_share": 0.033,
+    "reset_share": 0.111,
+    "pause2_share": 0.278,
+    "pause5_share": 0.144,
+    "med_chars": 25.5,
+    "sec_per_char_med": 0.225
+   }
+  ],
+  "anx_b": [
+   {
+    "anx_b": "anxious<.2",
+    "n": 2496.0,
+    "cps_med": 4.294,
+    "del_share": 0.409,
+    "del_ratio_mean": 0.157,
+    "aband_share": 0.03,
+    "reset_share": 0.061,
+    "pause2_share": 0.216,
+    "pause5_share": 0.085,
+    "med_chars": 20.0,
+    "sec_per_char_med": 0.233
+   },
+   {
+    "anx_b": "anxious>=.5",
+    "n": 408.0,
+    "cps_med": 5.446,
+    "del_share": 0.225,
+    "del_ratio_mean": 0.073,
+    "aband_share": 0.01,
+    "reset_share": 0.037,
+    "pause2_share": 0.181,
+    "pause5_share": 0.108,
+    "med_chars": 19.0,
+    "sec_per_char_med": 0.184
+   },
+   {
+    "anx_b": "mid",
+    "n": 1236.0,
+    "cps_med": 5.038,
+    "del_share": 0.294,
+    "del_ratio_mean": 0.082,
+    "aband_share": 0.015,
+    "reset_share": 0.032,
+    "pause2_share": 0.161,
+    "pause5_share": 0.088,
+    "med_chars": 19.0,
+    "sec_per_char_med": 0.198
+   }
+  ],
+  "ten_b": [
+   {
+    "ten_b": "mid",
+    "n": 866.0,
+    "cps_med": 4.929,
+    "del_share": 0.268,
+    "del_ratio_mean": 0.077,
+    "aband_share": 0.01,
+    "reset_share": 0.03,
+    "pause2_share": 0.156,
+    "pause5_share": 0.104,
+    "med_chars": 17.0,
+    "sec_per_char_med": 0.203
+   },
+   {
+    "ten_b": "tension<.2",
+    "n": 2728.0,
+    "cps_med": 4.186,
+    "del_share": 0.429,
+    "del_ratio_mean": 0.16,
+    "aband_share": 0.031,
+    "reset_share": 0.063,
+    "pause2_share": 0.231,
+    "pause5_share": 0.093,
+    "med_chars": 21.0,
+    "sec_per_char_med": 0.239
+   },
+   {
+    "ten_b": "tension>=.5",
+    "n": 546.0,
+    "cps_med": 6.812,
+    "del_share": 0.137,
+    "del_ratio_mean": 0.038,
+    "aband_share": 0.005,
+    "reset_share": 0.016,
+    "pause2_share": 0.086,
+    "pause5_share": 0.035,
+    "med_chars": 17.0,
+    "sec_per_char_med": 0.147
+   }
+  ],
+  "D_emotion": [
+   {
+    "D_emotion": "affection",
+    "n": 153.0,
+    "cps_med": 5.102,
+    "del_share": 0.32,
+    "del_ratio_mean": 0.124,
+    "aband_share": 0.026,
+    "reset_share": 0.026,
+    "pause2_share": 0.137,
+    "pause5_share": 0.072,
+    "med_chars": 15.0,
+    "sec_per_char_med": 0.196
+   },
+   {
+    "D_emotion": "amusement",
+    "n": 340.0,
+    "cps_med": 4.217,
+    "del_share": 0.382,
+    "del_ratio_mean": 0.17,
+    "aband_share": 0.044,
+    "reset_share": 0.062,
+    "pause2_share": 0.215,
+    "pause5_share": 0.085,
+    "med_chars": 19.0,
+    "sec_per_char_med": 0.237
+   },
+   {
+    "D_emotion": "anxiety_insecurity",
+    "n": 95.0,
+    "cps_med": 4.133,
+    "del_share": 0.326,
+    "del_ratio_mean": 0.169,
+    "aband_share": 0.032,
+    "reset_share": 0.095,
+    "pause2_share": 0.263,
+    "pause5_share": 0.179,
+    "med_chars": 17.0,
+    "sec_per_char_med": 0.242
+   },
+   {
+    "D_emotion": "boredom_disengaged",
+    "n": 90.0,
+    "cps_med": 6.688,
+    "del_share": 0.056,
+    "del_ratio_mean": 0.07,
+    "aband_share": 0.022,
+    "reset_share": 0.022,
+    "pause2_share": 0.067,
+    "pause5_share": 0.022,
+    "med_chars": 15.0,
+    "sec_per_char_med": 0.148
+   },
+   {
+    "D_emotion": "curiosity_interest",
+    "n": 480.0,
+    "cps_med": 3.97,
+    "del_share": 0.51,
+    "del_ratio_mean": 0.2,
+    "aband_share": 0.04,
+    "reset_share": 0.085,
+    "pause2_share": 0.231,
+    "pause5_share": 0.092,
+    "med_chars": 21.0,
+    "sec_per_char_med": 0.252
+   },
+   {
+    "D_emotion": "frustration_anger",
+    "n": 256.0,
+    "cps_med": 6.503,
+    "del_share": 0.172,
+    "del_ratio_mean": 0.043,
+    "aband_share": 0.008,
+    "reset_share": 0.023,
+    "pause2_share": 0.078,
+    "pause5_share": 0.031,
+    "med_chars": 18.0,
+    "sec_per_char_med": 0.154
+   },
+   {
+    "D_emotion": "joy_excitement",
+    "n": 417.0,
+    "cps_med": 3.97,
+    "del_share": 0.508,
+    "del_ratio_mean": 0.175,
+    "aband_share": 0.024,
+    "reset_share": 0.058,
+    "pause2_share": 0.221,
+    "pause5_share": 0.065,
+    "med_chars": 22.0,
+    "sec_per_char_med": 0.252
+   },
+   {
+    "D_emotion": "neutral_informational",
+    "n": 911.0,
+    "cps_med": 4.092,
+    "del_share": 0.439,
+    "del_ratio_mean": 0.146,
+    "aband_share": 0.027,
+    "reset_share": 0.065,
+    "pause2_share": 0.268,
+    "pause5_share": 0.109,
+    "med_chars": 22.0,
+    "sec_per_char_med": 0.244
+   },
+   {
+    "D_emotion": "playful_teasing",
+    "n": 1264.0,
+    "cps_med": 5.588,
+    "del_share": 0.24,
+    "del_ratio_mean": 0.064,
+    "aband_share": 0.008,
+    "reset_share": 0.025,
+    "pause2_share": 0.148,
+    "pause5_share": 0.092,
+    "med_chars": 18.0,
+    "sec_per_char_med": 0.178
+   },
+   {
+    "D_emotion": "sadness",
+    "n": 47.0,
+    "cps_med": 4.237,
+    "del_share": 0.362,
+    "del_ratio_mean": 0.143,
+    "aband_share": 0.021,
+    "reset_share": 0.043,
+    "pause2_share": 0.17,
+    "pause5_share": 0.064,
+    "med_chars": 19.0,
+    "sec_per_char_med": 0.236
+   },
+   {
+    "D_emotion": "surprise",
+    "n": 65.0,
+    "cps_med": 3.213,
+    "del_share": 0.492,
+    "del_ratio_mean": 0.348,
+    "aband_share": 0.092,
+    "reset_share": 0.092,
+    "pause2_share": 0.262,
+    "pause5_share": 0.077,
+    "med_chars": 11.0,
+    "sec_per_char_med": 0.311
+   }
+  ],
+  "vuln_by_len": [
+   {
+    "len_b": "<=15",
+    "vuln_b": "vulnerable<.2",
+    "n": "1132.0",
+    "cps_med": "3.789",
+    "del_share": "0.182",
+    "del_ratio_mean": "0.169",
+    "aband_share": "0.041",
+    "reset_share": "0.045",
+    "pause2_share": "0.153",
+    "pause5_share": "0.068",
+    "med_chars": "8.0",
+    "sec_per_char_med": "0.264"
+   },
+   {
+    "len_b": "<=15",
+    "vuln_b": "vulnerable>=.5",
+    "n": "130.0",
+    "cps_med": "3.828",
+    "del_share": "0.246",
+    "del_ratio_mean": "0.16",
+    "aband_share": "0.023",
+    "reset_share": "0.015",
+    "pause2_share": "0.177",
+    "pause5_share": "0.069",
+    "med_chars": "9.0",
+    "sec_per_char_med": "0.261"
+   },
+   {
+    "len_b": "16-40",
+    "vuln_b": "vulnerable<.2",
+    "n": "1079.0",
+    "cps_med": "5.348",
+    "del_share": "0.385",
+    "del_ratio_mean": "0.112",
+    "aband_share": "0.019",
+    "reset_share": "0.055",
+    "pause2_share": "0.175",
+    "pause5_share": "0.092",
+    "med_chars": "24.0",
+    "sec_per_char_med": "0.187"
+   },
+   {
+    "len_b": "16-40",
+    "vuln_b": "vulnerable>=.5",
+    "n": "213.0",
+    "cps_med": "6.791",
+    "del_share": "0.315",
+    "del_ratio_mean": "0.086",
+    "aband_share": "0.005",
+    "reset_share": "0.042",
+    "pause2_share": "0.146",
+    "pause5_share": "0.075",
+    "med_chars": "26.0",
+    "sec_per_char_med": "0.147"
+   },
+   {
+    "len_b": ">40",
+    "vuln_b": "vulnerable<.2",
+    "n": "316.0",
+    "cps_med": "4.195",
+    "del_share": "0.75",
+    "del_ratio_mean": "0.121",
+    "aband_share": "0.013",
+    "reset_share": "0.076",
+    "pause2_share": "0.396",
+    "pause5_share": "0.161",
+    "med_chars": "54.0",
+    "sec_per_char_med": "0.238"
+   },
+   {
+    "len_b": ">40",
+    "vuln_b": "vulnerable>=.5",
+    "n": "102.0",
+    "cps_med": "4.028",
+    "del_share": "0.833",
+    "del_ratio_mean": "0.133",
+    "aband_share": "0.02",
+    "reset_share": "0.108",
+    "pause2_share": "0.5",
+    "pause5_share": "0.245",
+    "med_chars": "61.0",
+    "sec_per_char_med": "0.248"
+   }
+  ],
+  "logit_deleted": {
+   "Intercept": {
+    "OR": 0.021,
+    "p": 1.3e-18
+   },
+   "C(device)[T.Mobile]": {
+    "OR": 0.44,
+    "p": 0.0041
+   },
+   "C(device)[T.Tablet]": {
+    "OR": 142340339.721,
+    "p": 5e-72
+   },
+   "np.log(final_len)": {
+    "OR": 3.062,
+    "p": 1.4e-40
+   },
+   "D_vulnerable": {
+    "OR": 1.147,
+    "p": 0.64
+   },
+   "D_seriousness": {
+    "OR": 2.691,
+    "p": 3e-05
+   },
+   "D_anxious": {
+    "OR": 0.231,
+    "p": 0.00079
+   },
+   "D_tension": {
+    "OR": 0.123,
+    "p": 0.0033
+   },
+   "D_arousal": {
+    "OR": 1.243,
+    "p": 0.016
+   }
+  },
+  "logit_abandoned": {
+   "Intercept": {
+    "OR": 0.17,
+    "p": 0.0043
+   },
+   "C(device)[T.Mobile]": {
+    "OR": 0.541,
+    "p": 0.23
+   },
+   "C(device)[T.Tablet]": {
+    "OR": 0.0,
+    "p": 2.1e-51
+   },
+   "np.log(final_len)": {
+    "OR": 0.48,
+    "p": 4.5e-07
+   },
+   "D_vulnerable": {
+    "OR": 0.395,
+    "p": 0.12
+   },
+   "D_seriousness": {
+    "OR": 2.736,
+    "p": 0.00037
+   },
+   "D_anxious": {
+    "OR": 0.23,
+    "p": 0.2
+   },
+   "D_tension": {
+    "OR": 0.084,
+    "p": 0.014
+   },
+   "D_arousal": {
+    "OR": 1.277,
+    "p": 0.046
+   }
+  }
+ },
+ "resets": {
+  "n": 240,
+  "examples": [
+   [
+    "asdjkfl;a",
+    "and null space?!"
+   ],
+   [
+    "yeahhh o ",
+    "he had quite a complicated relationship with his mom and dad"
+   ],
+   [
+    "shes so funny i",
+    "im in the middle of elton johns"
+   ],
+   [
+    "he was growing up around the time elvis ",
+    "he had quite a complicated relationship with his mom and dad"
+   ],
+   [
+    "you did ",
+    "tf "
+   ],
+   [
+    "ON aopop",
+    "it's kinda hard to describe "
+   ],
+   [
+    "slow start but ",
+    "not bad! stayed up a little late last night so slept in a little today"
+   ],
+   [
+    "So you can go to college ",
+    "yeah of course"
+   ],
+   [
+    "ahhh, what do ",
+    "I do"
+   ],
+   [
+    "I'm trying to prepare for your return. ",
+    "OK"
+   ],
+   [
+    "What’s your favourites ",
+    "Do you have a favourite?   "
+   ],
+   [
+    "ive got a lecture later ",
+    "i went to the gym and then had a movie night with my flatmates "
+   ],
+   [
+    "I havetoo many",
+    "Yeah i like your chilli loads "
+   ],
+   [
+    "wowow i forgot you have the mac",
+    "do you have the mac"
+   ],
+   [
+    "On apple watch ",
+    "it's kinda hard to describe "
+   ]
+  ]
+ },
+ "burst_position": [
+  {
+   "p": 0,
+   "n": 2850,
+   "med_chars": 18.0,
+   "med_compose": 3.51,
+   "cps": 4.54
+  },
+  {
+   "p": 1,
+   "n": 894,
+   "med_chars": 20.5,
+   "med_compose": 4.24,
+   "cps": 4.85
+  },
+  {
+   "p": 2,
+   "n": 396,
+   "med_chars": 23.0,
+   "med_compose": 5.49,
+   "cps": 4.3
+  }
+ ]
+}

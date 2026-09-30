@@ -1,0 +1,275 @@
+{
+ "whatsapp_nl": {
+  "n": 30149,
+  "by_latbin": [
+   {
+    "latbin": "<1min",
+    "n": "10261",
+    "chars_med": "31.0",
+    "n_msgs_mean": "1.748",
+    "p_q": "0.199",
+    "p_ack": "0.111",
+    "eng": "2.063",
+    "p_parceiro_continua": "0.94",
+    "nxt_lat_med": "0.0"
+   },
+   {
+    "latbin": "1-2min",
+    "n": "8894",
+    "chars_med": "38.0",
+    "n_msgs_mean": "1.771",
+    "p_q": "0.217",
+    "p_ack": "0.089",
+    "eng": "2.028",
+    "p_parceiro_continua": "0.91",
+    "nxt_lat_med": "60.0"
+   },
+   {
+    "latbin": "3-9min",
+    "n": "4823",
+    "chars_med": "40.0",
+    "n_msgs_mean": "1.899",
+    "p_q": "0.232",
+    "p_ack": "0.085",
+    "eng": "2.084",
+    "p_parceiro_continua": "0.883",
+    "nxt_lat_med": "60.0"
+   },
+   {
+    "latbin": "10-59min",
+    "n": "3593",
+    "chars_med": "40.0",
+    "n_msgs_mean": "1.905",
+    "p_q": "0.263",
+    "p_ack": "0.065",
+    "eng": "2.064",
+    "p_parceiro_continua": "0.827",
+    "nxt_lat_med": "180.0"
+   },
+   {
+    "latbin": "1-3h",
+    "n": "1117",
+    "chars_med": "40.0",
+    "n_msgs_mean": "1.774",
+    "p_q": "0.315",
+    "p_ack": "0.051",
+    "eng": "1.671",
+    "p_parceiro_continua": "0.771",
+    "nxt_lat_med": "240.0"
+   }
+  ],
+  "within_rho_zlat_zchars": [
+   0.089,
+   7.26748140566354e-52
+  ],
+  "rho_partner_prevlat_mylat": [
+   0.303,
+   0.0
+  ],
+  "after_partner_latency": [
+   {
+    "prev_zlat": "(-9.0, -0.5]",
+    "n": "9801",
+    "my_lat_med": "0.0",
+    "my_zlat": "-0.354",
+    "my_zch": "-0.089",
+    "my_p_q": "0.197",
+    "my_eng": "2.042",
+    "my_ack": "0.095"
+   },
+   {
+    "prev_zlat": "(-0.5, 0.5]",
+    "n": "7347",
+    "my_lat_med": "60.0",
+    "my_zlat": "-0.192",
+    "my_zch": "-0.052",
+    "my_p_q": "0.215",
+    "my_eng": "2.06",
+    "my_ack": "0.094"
+   },
+   {
+    "prev_zlat": "(0.5, 1.0]",
+    "n": "4844",
+    "my_lat_med": "60.0",
+    "my_zlat": "0.125",
+    "my_zch": "-0.028",
+    "my_p_q": "0.217",
+    "my_eng": "2.021",
+    "my_ack": "0.098"
+   },
+   {
+    "prev_zlat": "(1.0, 9.0]",
+    "n": "3820",
+    "my_lat_med": "180.0",
+    "my_zlat": "0.499",
+    "my_zch": "-0.006",
+    "my_p_q": "0.258",
+    "my_eng": "1.992",
+    "my_ack": "0.087"
+   }
+  ],
+  "partner_lat_med_after_q": 60.0,
+  "partner_lat_med_after_noq": 60.0,
+  "partner_p_fast_after_q": 0.3372382851445663,
+  "partner_p_fast_after_noq": 0.40750282485875705,
+  "rho_zlat_engagement": [
+   -0.0735,
+   0.0003
+  ],
+  "ols_eng_on_zlat_ctrl_len": {
+   "b": -0.096,
+   "p": 1.3160365909124159e-15,
+   "n": 2440
+  },
+  "zlat_by_turns_left": [
+   {
+    "tl": "(-1.0, 0.0]",
+    "size": "2968",
+    "mean": "0.37"
+   },
+   {
+    "tl": "(0.0, 1.0]",
+    "size": "2468",
+    "mean": "0.226"
+   },
+   {
+    "tl": "(1.0, 3.0]",
+    "size": "3902",
+    "mean": "0.064"
+   },
+   {
+    "tl": "(3.0, 10.0]",
+    "size": "8053",
+    "mean": "-0.04"
+   },
+   {
+    "tl": "(10.0, 1000000000.0]",
+    "size": "12758",
+    "mean": "-0.126"
+   }
+  ]
+ },
+ "maichat": {
+  "n": 2826,
+  "by_latbin": [
+   {
+    "latbin": "<5s",
+    "n": "550",
+    "chars_med": "30.0",
+    "n_msgs_mean": "1.609",
+    "p_q": "0.131",
+    "p_ack": "0.067",
+    "eng": "2.058",
+    "p_parceiro_continua": "0.985",
+    "nxt_lat_med": "6.824"
+   },
+   {
+    "latbin": "5-15s",
+    "n": "982",
+    "chars_med": "27.5",
+    "n_msgs_mean": "1.513",
+    "p_q": "0.098",
+    "p_ack": "0.061",
+    "eng": "2.058",
+    "p_parceiro_continua": "0.987",
+    "nxt_lat_med": "10.399"
+   },
+   {
+    "latbin": "15-45s",
+    "n": "1250",
+    "chars_med": "21.0",
+    "n_msgs_mean": "1.337",
+    "p_q": "0.07",
+    "p_ack": "0.038",
+    "eng": "2.012",
+    "p_parceiro_continua": "0.983",
+    "nxt_lat_med": "22.0"
+   },
+   {
+    "latbin": "45-120s",
+    "n": "38",
+    "chars_med": "56.0",
+    "n_msgs_mean": "1.842",
+    "p_q": "0.158",
+    "p_ack": "0.053",
+    "eng": "2.047",
+    "p_parceiro_continua": "1.0",
+    "nxt_lat_med": "14.916"
+   },
+   {
+    "latbin": ">120s",
+    "n": "6",
+    "chars_med": "46.5",
+    "n_msgs_mean": "2.333",
+    "p_q": "0.5",
+    "p_ack": "0.0",
+    "eng": "2.025",
+    "p_parceiro_continua": "1.0",
+    "nxt_lat_med": "61.908"
+   }
+  ],
+  "within_rho_zlat_zchars": [
+   0.109,
+   6.308790215252796e-09
+  ],
+  "rho_partner_prevlat_mylat": [
+   0.041,
+   0.029454981427189705
+  ],
+  "after_partner_latency": [
+   {
+    "prev_zlat": "(-9.0, -0.5]",
+    "n": "813",
+    "my_lat_med": "12.248",
+    "my_zlat": "-0.05",
+    "my_zch": "-0.064",
+    "my_p_q": "0.084",
+    "my_eng": "1.999",
+    "my_ack": "0.054"
+   },
+   {
+    "prev_zlat": "(-0.5, 0.5]",
+    "n": "976",
+    "my_lat_med": "12.896",
+    "my_zlat": "-0.011",
+    "my_zch": "0.052",
+    "my_p_q": "0.111",
+    "my_eng": "2.097",
+    "my_ack": "0.055"
+   },
+   {
+    "prev_zlat": "(0.5, 1.0]",
+    "n": "577",
+    "my_lat_med": "15.067",
+    "my_zlat": "0.003",
+    "my_zch": "0.046",
+    "my_p_q": "0.062",
+    "my_eng": "2.033",
+    "my_ack": "0.045"
+   },
+   {
+    "prev_zlat": "(1.0, 9.0]",
+    "n": "418",
+    "my_lat_med": "16.159",
+    "my_zlat": "0.08",
+    "my_zch": "0.076",
+    "my_p_q": "0.12",
+    "my_eng": "2.009",
+    "my_ack": "0.053"
+   }
+  ],
+  "partner_lat_med_after_q": 12.258,
+  "partner_lat_med_after_noq": 14.0,
+  "partner_p_fast_after_q": 0.5756457564575646,
+  "partner_p_fast_after_noq": 0.5240704500978474,
+  "rho_zlat_engagement": [
+   0.0412,
+   0.0286
+  ],
+  "ols_eng_on_zlat_ctrl_len": {
+   "b": -0.01,
+   "p": 0.39168020688720595,
+   "n": 2826
+  }
+ }
+}

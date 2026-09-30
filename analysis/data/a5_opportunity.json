@@ -1,0 +1,1550 @@
+{
+ "n_pairs": 5045,
+ "ols": {
+  "nx_D_engagement|all": {
+   "n": 5045,
+   "coef": {
+    "mv_pergunta": {
+     "b": 0.015,
+     "lo": -0.033,
+     "hi": 0.062,
+     "p": 0.5378,
+     "n_mv": 1159
+    },
+    "mv_revela": {
+     "b": 0.149,
+     "lo": 0.091,
+     "hi": 0.208,
+     "p": 0.0,
+     "n_mv": 673
+    },
+    "mv_historia": {
+     "b": 0.176,
+     "lo": 0.104,
+     "hi": 0.247,
+     "p": 0.0,
+     "n_mv": 494
+    },
+    "mv_brinca": {
+     "b": 0.009,
+     "lo": -0.048,
+     "hi": 0.066,
+     "p": 0.7666,
+     "n_mv": 2964
+    },
+    "mv_elogia": {
+     "b": 0.097,
+     "lo": -0.078,
+     "hi": 0.273,
+     "p": 0.2777,
+     "n_mv": 88
+    },
+    "mv_muda_topico": {
+     "b": -0.032,
+     "lo": -0.101,
+     "hi": 0.037,
+     "p": 0.3623,
+     "n_mv": 579
+    },
+    "mv_so_reage": {
+     "b": 0.08,
+     "lo": 0.02,
+     "hi": 0.139,
+     "p": 0.0093,
+     "n_mv": 790
+    },
+    "mv_flerta": {
+     "b": 0.121,
+     "lo": -0.018,
+     "hi": 0.26,
+     "p": 0.0883,
+     "n_mv": 175
+    }
+   }
+  },
+  "nx_D_engagement|maichat": {
+   "n": 2784,
+   "coef": {
+    "mv_pergunta": {
+     "b": -0.028,
+     "lo": -0.081,
+     "hi": 0.026,
+     "p": 0.3124,
+     "n_mv": 549
+    },
+    "mv_revela": {
+     "b": 0.132,
+     "lo": 0.051,
+     "hi": 0.212,
+     "p": 0.0014,
+     "n_mv": 352
+    },
+    "mv_historia": {
+     "b": 0.128,
+     "lo": 0.033,
+     "hi": 0.224,
+     "p": 0.0086,
+     "n_mv": 248
+    },
+    "mv_brinca": {
+     "b": 0.004,
+     "lo": -0.077,
+     "hi": 0.084,
+     "p": 0.9312,
+     "n_mv": 1851
+    },
+    "mv_elogia": {
+     "b": 0.042,
+     "lo": -0.177,
+     "hi": 0.261,
+     "p": 0.7061,
+     "n_mv": 56
+    },
+    "mv_muda_topico": {
+     "b": -0.06,
+     "lo": -0.155,
+     "hi": 0.035,
+     "p": 0.2137,
+     "n_mv": 360
+    },
+    "mv_so_reage": {
+     "b": 0.067,
+     "lo": -0.0,
+     "hi": 0.134,
+     "p": 0.0516,
+     "n_mv": 409
+    },
+    "mv_flerta": {
+     "b": 0.15,
+     "lo": -0.04,
+     "hi": 0.34,
+     "p": 0.1208,
+     "n_mv": 92
+    }
+   }
+  },
+  "nx_D_engagement|whatsapp_nl": {
+   "n": 2261,
+   "coef": {
+    "mv_pergunta": {
+     "b": 0.061,
+     "lo": -0.017,
+     "hi": 0.138,
+     "p": 0.1254,
+     "n_mv": 610
+    },
+    "mv_revela": {
+     "b": 0.171,
+     "lo": 0.084,
+     "hi": 0.257,
+     "p": 0.0001,
+     "n_mv": 321
+    },
+    "mv_historia": {
+     "b": 0.221,
+     "lo": 0.114,
+     "hi": 0.328,
+     "p": 0.0001,
+     "n_mv": 246
+    },
+    "mv_brinca": {
+     "b": -0.005,
+     "lo": -0.086,
+     "hi": 0.077,
+     "p": 0.9064,
+     "n_mv": 1113
+    },
+    "mv_elogia": {
+     "b": 0.192,
+     "lo": -0.107,
+     "hi": 0.491,
+     "p": 0.2074,
+     "n_mv": 32
+    },
+    "mv_muda_topico": {
+     "b": 0.014,
+     "lo": -0.09,
+     "hi": 0.118,
+     "p": 0.7876,
+     "n_mv": 219
+    },
+    "mv_so_reage": {
+     "b": 0.097,
+     "lo": -0.006,
+     "hi": 0.201,
+     "p": 0.0653,
+     "n_mv": 381
+    },
+    "mv_flerta": {
+     "b": 0.082,
+     "lo": -0.096,
+     "hi": 0.259,
+     "p": 0.3673,
+     "n_mv": 83
+    }
+   }
+  },
+  "nx_zch|all": {
+   "n": 5018,
+   "coef": {
+    "mv_pergunta": {
+     "b": 0.324,
+     "lo": 0.249,
+     "hi": 0.399,
+     "p": 0.0,
+     "n_mv": 1154
+    },
+    "mv_revela": {
+     "b": 0.167,
+     "lo": 0.089,
+     "hi": 0.245,
+     "p": 0.0,
+     "n_mv": 666
+    },
+    "mv_historia": {
+     "b": 0.24,
+     "lo": 0.155,
+     "hi": 0.325,
+     "p": 0.0,
+     "n_mv": 491
+    },
+    "mv_brinca": {
+     "b": -0.012,
+     "lo": -0.093,
+     "hi": 0.068,
+     "p": 0.7625,
+     "n_mv": 2957
+    },
+    "mv_elogia": {
+     "b": 0.131,
+     "lo": -0.098,
+     "hi": 0.361,
+     "p": 0.2619,
+     "n_mv": 88
+    },
+    "mv_muda_topico": {
+     "b": 0.025,
+     "lo": -0.075,
+     "hi": 0.125,
+     "p": 0.6253,
+     "n_mv": 573
+    },
+    "mv_so_reage": {
+     "b": 0.14,
+     "lo": 0.051,
+     "hi": 0.229,
+     "p": 0.0021,
+     "n_mv": 783
+    },
+    "mv_flerta": {
+     "b": 0.095,
+     "lo": -0.108,
+     "hi": 0.298,
+     "p": 0.358,
+     "n_mv": 175
+    }
+   }
+  },
+  "nx_zch|maichat": {
+   "n": 2784,
+   "coef": {
+    "mv_pergunta": {
+     "b": 0.337,
+     "lo": 0.229,
+     "hi": 0.446,
+     "p": 0.0,
+     "n_mv": 549
+    },
+    "mv_revela": {
+     "b": 0.126,
+     "lo": 0.027,
+     "hi": 0.224,
+     "p": 0.0128,
+     "n_mv": 352
+    },
+    "mv_historia": {
+     "b": 0.213,
+     "lo": 0.097,
+     "hi": 0.329,
+     "p": 0.0003,
+     "n_mv": 248
+    },
+    "mv_brinca": {
+     "b": -0.039,
+     "lo": -0.143,
+     "hi": 0.064,
+     "p": 0.4539,
+     "n_mv": 1851
+    },
+    "mv_elogia": {
+     "b": 0.222,
+     "lo": -0.05,
+     "hi": 0.494,
+     "p": 0.1093,
+     "n_mv": 56
+    },
+    "mv_muda_topico": {
+     "b": 0.057,
+     "lo": -0.075,
+     "hi": 0.19,
+     "p": 0.3972,
+     "n_mv": 360
+    },
+    "mv_so_reage": {
+     "b": 0.194,
+     "lo": 0.072,
+     "hi": 0.315,
+     "p": 0.0018,
+     "n_mv": 409
+    },
+    "mv_flerta": {
+     "b": 0.067,
+     "lo": -0.191,
+     "hi": 0.326,
+     "p": 0.6097,
+     "n_mv": 92
+    }
+   }
+  },
+  "nx_zch|whatsapp_nl": {
+   "n": 2234,
+   "coef": {
+    "mv_pergunta": {
+     "b": 0.302,
+     "lo": 0.202,
+     "hi": 0.403,
+     "p": 0.0,
+     "n_mv": 605
+    },
+    "mv_revela": {
+     "b": 0.209,
+     "lo": 0.083,
+     "hi": 0.335,
+     "p": 0.0011,
+     "n_mv": 314
+    },
+    "mv_historia": {
+     "b": 0.268,
+     "lo": 0.14,
+     "hi": 0.396,
+     "p": 0.0,
+     "n_mv": 243
+    },
+    "mv_brinca": {
+     "b": 0.0,
+     "lo": -0.128,
+     "hi": 0.128,
+     "p": 0.9955,
+     "n_mv": 1106
+    },
+    "mv_elogia": {
+     "b": -0.031,
+     "lo": -0.478,
+     "hi": 0.416,
+     "p": 0.8931,
+     "n_mv": 32
+    },
+    "mv_muda_topico": {
+     "b": -0.023,
+     "lo": -0.176,
+     "hi": 0.13,
+     "p": 0.7698,
+     "n_mv": 213
+    },
+    "mv_so_reage": {
+     "b": 0.069,
+     "lo": -0.068,
+     "hi": 0.205,
+     "p": 0.3244,
+     "n_mv": 374
+    },
+    "mv_flerta": {
+     "b": 0.113,
+     "lo": -0.228,
+     "hi": 0.453,
+     "p": 0.5166,
+     "n_mv": 83
+    }
+   }
+  },
+  "nx_zlat|all": {
+   "n": 4831,
+   "coef": {
+    "mv_pergunta": {
+     "b": 0.108,
+     "lo": 0.036,
+     "hi": 0.181,
+     "p": 0.0034,
+     "n_mv": 1093
+    },
+    "mv_revela": {
+     "b": 0.032,
+     "lo": -0.048,
+     "hi": 0.111,
+     "p": 0.4368,
+     "n_mv": 644
+    },
+    "mv_historia": {
+     "b": -0.014,
+     "lo": -0.118,
+     "hi": 0.09,
+     "p": 0.7906,
+     "n_mv": 468
+    },
+    "mv_brinca": {
+     "b": -0.021,
+     "lo": -0.102,
+     "hi": 0.059,
+     "p": 0.603,
+     "n_mv": 2852
+    },
+    "mv_elogia": {
+     "b": -0.05,
+     "lo": -0.292,
+     "hi": 0.192,
+     "p": 0.6844,
+     "n_mv": 87
+    },
+    "mv_muda_topico": {
+     "b": 0.027,
+     "lo": -0.084,
+     "hi": 0.138,
+     "p": 0.6365,
+     "n_mv": 552
+    },
+    "mv_so_reage": {
+     "b": -0.003,
+     "lo": -0.107,
+     "hi": 0.101,
+     "p": 0.9537,
+     "n_mv": 761
+    },
+    "mv_flerta": {
+     "b": 0.094,
+     "lo": -0.091,
+     "hi": 0.279,
+     "p": 0.3195,
+     "n_mv": 171
+    }
+   }
+  },
+  "nx_zlat|whatsapp_nl": {
+   "n": 2047,
+   "coef": {
+    "mv_pergunta": {
+     "b": 0.073,
+     "lo": -0.038,
+     "hi": 0.184,
+     "p": 0.198,
+     "n_mv": 544
+    },
+    "mv_revela": {
+     "b": -0.004,
+     "lo": -0.125,
+     "hi": 0.117,
+     "p": 0.9467,
+     "n_mv": 292
+    },
+    "mv_historia": {
+     "b": -0.086,
+     "lo": -0.233,
+     "hi": 0.061,
+     "p": 0.2519,
+     "n_mv": 220
+    },
+    "mv_brinca": {
+     "b": -0.054,
+     "lo": -0.16,
+     "hi": 0.052,
+     "p": 0.3145,
+     "n_mv": 1001
+    },
+    "mv_elogia": {
+     "b": 0.073,
+     "lo": -0.347,
+     "hi": 0.492,
+     "p": 0.7344,
+     "n_mv": 31
+    },
+    "mv_muda_topico": {
+     "b": 0.157,
+     "lo": -0.016,
+     "hi": 0.33,
+     "p": 0.0753,
+     "n_mv": 192
+    },
+    "mv_so_reage": {
+     "b": -0.082,
+     "lo": -0.21,
+     "hi": 0.046,
+     "p": 0.2096,
+     "n_mv": 352
+    },
+    "mv_flerta": {
+     "b": -0.042,
+     "lo": -0.277,
+     "hi": 0.193,
+     "p": 0.7243,
+     "n_mv": 79
+    }
+   }
+  }
+ },
+ "logit_cont1_whatsapp": {
+  "n": 3097,
+  "coef": {
+   "mv_pergunta": {
+    "OR": 1.853,
+    "lo": 1.343,
+    "hi": 2.556,
+    "p": 0.0002
+   },
+   "mv_revela": {
+    "OR": 1.305,
+    "lo": 0.875,
+    "hi": 1.947,
+    "p": 0.191
+   },
+   "mv_historia": {
+    "OR": 0.863,
+    "lo": 0.602,
+    "hi": 1.237,
+    "p": 0.4224
+   },
+   "mv_brinca": {
+    "OR": 1.581,
+    "lo": 1.168,
+    "hi": 2.14,
+    "p": 0.003
+   },
+   "mv_elogia": {
+    "OR": 1.945,
+    "lo": 0.708,
+    "hi": 5.344,
+    "p": 0.1972
+   },
+   "mv_muda_topico": {
+    "OR": 0.838,
+    "lo": 0.597,
+    "hi": 1.178,
+    "p": 0.3097
+   },
+   "mv_so_reage": {
+    "OR": 0.359,
+    "lo": 0.273,
+    "hi": 0.473,
+    "p": 0.0
+   },
+   "mv_flerta": {
+    "OR": 0.521,
+    "lo": 0.297,
+    "hi": 0.916,
+    "p": 0.0235
+   }
+  }
+ },
+ "logit_cont5_whatsapp": {
+  "n": 3097,
+  "coef": {
+   "mv_pergunta": {
+    "OR": 1.539,
+    "lo": 1.272,
+    "hi": 1.864,
+    "p": 0.0
+   },
+   "mv_revela": {
+    "OR": 1.156,
+    "lo": 0.906,
+    "hi": 1.475,
+    "p": 0.244
+   },
+   "mv_historia": {
+    "OR": 1.034,
+    "lo": 0.809,
+    "hi": 1.321,
+    "p": 0.7922
+   },
+   "mv_brinca": {
+    "OR": 1.641,
+    "lo": 1.337,
+    "hi": 2.013,
+    "p": 0.0
+   },
+   "mv_elogia": {
+    "OR": 1.017,
+    "lo": 0.549,
+    "hi": 1.884,
+    "p": 0.9574
+   },
+   "mv_muda_topico": {
+    "OR": 1.007,
+    "lo": 0.804,
+    "hi": 1.262,
+    "p": 0.9495
+   },
+   "mv_so_reage": {
+    "OR": 0.865,
+    "lo": 0.697,
+    "hi": 1.075,
+    "p": 0.1923
+   },
+   "mv_flerta": {
+    "OR": 1.108,
+    "lo": 0.734,
+    "hi": 1.672,
+    "p": 0.6245
+   }
+  }
+ },
+ "strata": {
+  "phase_grp=encerrando": {
+   "n": 348,
+   "mv_pergunta": [
+    0.12,
+    0.475,
+    22
+   ],
+   "mv_revela": [
+    0.27,
+    0.027,
+    55
+   ],
+   "mv_historia": [
+    0.36,
+    0.027,
+    28
+   ],
+   "mv_brinca": [
+    0.12,
+    0.152,
+    163
+   ],
+   "mv_elogia": [
+    0.37,
+    0.137,
+    13
+   ],
+   "mv_muda_topico": [
+    -0.12,
+    0.394,
+    40
+   ],
+   "mv_so_reage": [
+    0.12,
+    0.245,
+    98
+   ],
+   "mv_flerta": [
+    -0.19,
+    0.405,
+    16
+   ]
+  },
+  "phase_grp=encerrando|zch": {
+   "n": 348,
+   "mv_pergunta": [
+    0.48,
+    0.034,
+    22
+   ],
+   "mv_revela": [
+    0.42,
+    0.008,
+    55
+   ],
+   "mv_historia": [
+    0.53,
+    0.012,
+    28
+   ],
+   "mv_brinca": [
+    0.04,
+    0.696,
+    163
+   ],
+   "mv_elogia": [
+    0.17,
+    0.602,
+    13
+   ],
+   "mv_muda_topico": [
+    -0.12,
+    0.515,
+    40
+   ],
+   "mv_so_reage": [
+    0.27,
+    0.04,
+    98
+   ],
+   "mv_flerta": [
+    -0.02,
+    0.945,
+    16
+   ]
+  },
+  "phase_grp=leve_brincadeira": {
+   "n": 2102,
+   "mv_pergunta": [
+    0.09,
+    0.053,
+    318
+   ],
+   "mv_revela": [
+    0.23,
+    0.0,
+    276
+   ],
+   "mv_historia": [
+    0.12,
+    0.038,
+    178
+   ],
+   "mv_brinca": [
+    0.07,
+    0.254,
+    1951
+   ],
+   "mv_elogia": [
+    0.11,
+    0.289,
+    51
+   ],
+   "mv_muda_topico": [
+    0.07,
+    0.26,
+    168
+   ],
+   "mv_so_reage": [
+    0.09,
+    0.037,
+    394
+   ],
+   "mv_flerta": [
+    0.21,
+    0.005,
+    105
+   ]
+  },
+  "phase_grp=leve_brincadeira|zch": {
+   "n": 2102,
+   "mv_pergunta": [
+    0.38,
+    0.0,
+    318
+   ],
+   "mv_revela": [
+    0.22,
+    0.001,
+    276
+   ],
+   "mv_historia": [
+    0.06,
+    0.417,
+    178
+   ],
+   "mv_brinca": [
+    0.04,
+    0.588,
+    1951
+   ],
+   "mv_elogia": [
+    0.18,
+    0.186,
+    51
+   ],
+   "mv_muda_topico": [
+    0.01,
+    0.869,
+    168
+   ],
+   "mv_so_reage": [
+    0.13,
+    0.018,
+    394
+   ],
+   "mv_flerta": [
+    0.12,
+    0.239,
+    105
+   ]
+  },
+  "phase_grp=leve_smalltalk": {
+   "n": 653,
+   "mv_pergunta": [
+    0.01,
+    0.876,
+    241
+   ],
+   "mv_revela": [
+    -0.02,
+    0.859,
+    96
+   ],
+   "mv_historia": [
+    0.38,
+    0.0,
+    86
+   ],
+   "mv_brinca": [
+    0.06,
+    0.344,
+    189
+   ],
+   "mv_elogia": [
+    0.26,
+    0.316,
+    8
+   ],
+   "mv_muda_topico": [
+    -0.04,
+    0.582,
+    136
+   ],
+   "mv_so_reage": [
+    0.12,
+    0.235,
+    68
+   ],
+   "mv_flerta": [
+    0.1,
+    0.699,
+    8
+   ]
+  },
+  "phase_grp=leve_smalltalk|zch": {
+   "n": 653,
+   "mv_pergunta": [
+    0.55,
+    0.0,
+    241
+   ],
+   "mv_revela": [
+    0.23,
+    0.04,
+    96
+   ],
+   "mv_historia": [
+    0.34,
+    0.004,
+    86
+   ],
+   "mv_brinca": [
+    -0.06,
+    0.471,
+    189
+   ],
+   "mv_elogia": [
+    0.2,
+    0.556,
+    8
+   ],
+   "mv_muda_topico": [
+    0.01,
+    0.93,
+    136
+   ],
+   "mv_so_reage": [
+    0.23,
+    0.09,
+    68
+   ],
+   "mv_flerta": [
+    0.15,
+    0.657,
+    8
+   ]
+  },
+  "phase_grp=logistica": {
+   "n": 1585,
+   "mv_pergunta": [
+    0.05,
+    0.267,
+    493
+   ],
+   "mv_revela": [
+    0.12,
+    0.082,
+    130
+   ],
+   "mv_historia": [
+    0.16,
+    0.011,
+    157
+   ],
+   "mv_brinca": [
+    0.05,
+    0.169,
+    515
+   ],
+   "mv_elogia": [
+    -0.03,
+    0.889,
+    10
+   ],
+   "mv_muda_topico": [
+    -0.06,
+    0.317,
+    185
+   ],
+   "mv_so_reage": [
+    0.04,
+    0.48,
+    183
+   ],
+   "mv_flerta": [
+    0.28,
+    0.049,
+    28
+   ]
+  },
+  "phase_grp=logistica|zch": {
+   "n": 1585,
+   "mv_pergunta": [
+    0.24,
+    0.0,
+    493
+   ],
+   "mv_revela": [
+    0.21,
+    0.021,
+    130
+   ],
+   "mv_historia": [
+    0.37,
+    0.0,
+    157
+   ],
+   "mv_brinca": [
+    -0.06,
+    0.301,
+    515
+   ],
+   "mv_elogia": [
+    -0.12,
+    0.696,
+    10
+   ],
+   "mv_muda_topico": [
+    0.08,
+    0.324,
+    185
+   ],
+   "mv_so_reage": [
+    0.1,
+    0.224,
+    183
+   ],
+   "mv_flerta": [
+    0.23,
+    0.226,
+    28
+   ]
+  },
+  "phase_grp=profundo_ou_tenso": {
+   "n": 357,
+   "mv_pergunta": [
+    -0.09,
+    0.348,
+    85
+   ],
+   "mv_revela": [
+    0.08,
+    0.353,
+    116
+   ],
+   "mv_historia": [
+    0.03,
+    0.783,
+    45
+   ],
+   "mv_brinca": [
+    -0.03,
+    0.715,
+    146
+   ],
+   "mv_elogia": [
+    0.15,
+    0.63,
+    6
+   ],
+   "mv_muda_topico": [
+    -0.13,
+    0.242,
+    50
+   ],
+   "mv_so_reage": [
+    -0.01,
+    0.955,
+    47
+   ],
+   "mv_flerta": [
+    0.15,
+    0.425,
+    18
+   ]
+  },
+  "phase_grp=profundo_ou_tenso|zch": {
+   "n": 357,
+   "mv_pergunta": [
+    0.11,
+    0.432,
+    85
+   ],
+   "mv_revela": [
+    -0.1,
+    0.453,
+    116
+   ],
+   "mv_historia": [
+    0.05,
+    0.778,
+    45
+   ],
+   "mv_brinca": [
+    -0.16,
+    0.164,
+    146
+   ],
+   "mv_elogia": [
+    0.07,
+    0.882,
+    6
+   ],
+   "mv_muda_topico": [
+    -0.03,
+    0.836,
+    50
+   ],
+   "mv_so_reage": [
+    -0.12,
+    0.488,
+    47
+   ],
+   "mv_flerta": [
+    -0.14,
+    0.601,
+    18
+   ]
+  },
+  "ser_bin=ser0.5-1": {
+   "n": 1860,
+   "mv_pergunta": [
+    0.07,
+    0.092,
+    514
+   ],
+   "mv_revela": [
+    0.1,
+    0.088,
+    209
+   ],
+   "mv_historia": [
+    0.19,
+    0.001,
+    218
+   ],
+   "mv_brinca": [
+    0.02,
+    0.604,
+    695
+   ],
+   "mv_elogia": [
+    0.06,
+    0.702,
+    27
+   ],
+   "mv_muda_topico": [
+    -0.06,
+    0.242,
+    252
+   ],
+   "mv_so_reage": [
+    0.03,
+    0.487,
+    290
+   ],
+   "mv_flerta": [
+    0.16,
+    0.216,
+    38
+   ]
+  },
+  "ser_bin=ser0.5-1|zch": {
+   "n": 1860,
+   "mv_pergunta": [
+    0.32,
+    0.0,
+    514
+   ],
+   "mv_revela": [
+    0.26,
+    0.001,
+    209
+   ],
+   "mv_historia": [
+    0.22,
+    0.003,
+    218
+   ],
+   "mv_brinca": [
+    0.01,
+    0.79,
+    695
+   ],
+   "mv_elogia": [
+    -0.16,
+    0.412,
+    27
+   ],
+   "mv_muda_topico": [
+    0.07,
+    0.32,
+    252
+   ],
+   "mv_so_reage": [
+    0.04,
+    0.558,
+    290
+   ],
+   "mv_flerta": [
+    0.04,
+    0.807,
+    38
+   ]
+  },
+  "ser_bin=ser<0.5": {
+   "n": 2256,
+   "mv_pergunta": [
+    0.08,
+    0.07,
+    378
+   ],
+   "mv_revela": [
+    0.21,
+    0.0,
+    253
+   ],
+   "mv_historia": [
+    0.16,
+    0.01,
+    160
+   ],
+   "mv_brinca": [
+    0.16,
+    0.008,
+    2098
+   ],
+   "mv_elogia": [
+    0.11,
+    0.243,
+    58
+   ],
+   "mv_muda_topico": [
+    0.02,
+    0.693,
+    207
+   ],
+   "mv_so_reage": [
+    0.1,
+    0.024,
+    400
+   ],
+   "mv_flerta": [
+    0.16,
+    0.018,
+    119
+   ]
+  },
+  "ser_bin=ser<0.5|zch": {
+   "n": 2256,
+   "mv_pergunta": [
+    0.38,
+    0.0,
+    378
+   ],
+   "mv_revela": [
+    0.17,
+    0.013,
+    253
+   ],
+   "mv_historia": [
+    0.1,
+    0.206,
+    160
+   ],
+   "mv_brinca": [
+    0.13,
+    0.109,
+    2098
+   ],
+   "mv_elogia": [
+    0.25,
+    0.057,
+    58
+   ],
+   "mv_muda_topico": [
+    0.04,
+    0.597,
+    207
+   ],
+   "mv_so_reage": [
+    0.21,
+    0.0,
+    400
+   ],
+   "mv_flerta": [
+    0.14,
+    0.127,
+    119
+   ]
+  },
+  "ser_bin=ser>=1": {
+   "n": 929,
+   "mv_pergunta": [
+    0.03,
+    0.58,
+    267
+   ],
+   "mv_revela": [
+    0.18,
+    0.003,
+    211
+   ],
+   "mv_historia": [
+    0.26,
+    0.001,
+    116
+   ],
+   "mv_brinca": [
+    0.04,
+    0.518,
+    171
+   ],
+   "mv_elogia": [
+    0.61,
+    0.158,
+    3
+   ],
+   "mv_muda_topico": [
+    -0.03,
+    0.647,
+    120
+   ],
+   "mv_so_reage": [
+    0.04,
+    0.597,
+    100
+   ],
+   "mv_flerta": [
+    0.27,
+    0.134,
+    18
+   ]
+  },
+  "ser_bin=ser>=1|zch": {
+   "n": 929,
+   "mv_pergunta": [
+    0.29,
+    0.0,
+    267
+   ],
+   "mv_revela": [
+    0.15,
+    0.067,
+    211
+   ],
+   "mv_historia": [
+    0.39,
+    0.0,
+    116
+   ],
+   "mv_brinca": [
+    -0.16,
+    0.069,
+    171
+   ],
+   "mv_elogia": [
+    0.78,
+    0.186,
+    3
+   ],
+   "mv_muda_topico": [
+    -0.07,
+    0.504,
+    120
+   ],
+   "mv_so_reage": [
+    0.09,
+    0.402,
+    100
+   ],
+   "mv_flerta": [
+    0.0,
+    0.987,
+    18
+   ]
+  }
+ },
+ "raw_by_phase": [
+  {
+   "move": "mv_pergunta",
+   "phase": "conflict_or_repair",
+   "n": 30,
+   "eng_after": 1.81,
+   "eng_after_others": 1.99
+  },
+  {
+   "move": "mv_pergunta",
+   "phase": "deep_personal",
+   "n": 55,
+   "eng_after": 2.09,
+   "eng_after_others": 2.11
+  },
+  {
+   "move": "mv_pergunta",
+   "phase": "logistics",
+   "n": 493,
+   "eng_after": 2.0,
+   "eng_after_others": 1.99
+  },
+  {
+   "move": "mv_pergunta",
+   "phase": "playful_banter",
+   "n": 318,
+   "eng_after": 2.16,
+   "eng_after_others": 2.13
+  },
+  {
+   "move": "mv_pergunta",
+   "phase": "small_talk",
+   "n": 233,
+   "eng_after": 1.93,
+   "eng_after_others": 2.05
+  },
+  {
+   "move": "mv_pergunta",
+   "phase": "winding_down",
+   "n": 22,
+   "eng_after": 1.84,
+   "eng_after_others": 1.73
+  },
+  {
+   "move": "mv_revela",
+   "phase": "conflict_or_repair",
+   "n": 23,
+   "eng_after": 2.19,
+   "eng_after_others": 1.91
+  },
+  {
+   "move": "mv_revela",
+   "phase": "deep_personal",
+   "n": 93,
+   "eng_after": 2.22,
+   "eng_after_others": 2.01
+  },
+  {
+   "move": "mv_revela",
+   "phase": "logistics",
+   "n": 130,
+   "eng_after": 2.13,
+   "eng_after_others": 1.98
+  },
+  {
+   "move": "mv_revela",
+   "phase": "playful_banter",
+   "n": 276,
+   "eng_after": 2.38,
+   "eng_after_others": 2.1
+  },
+  {
+   "move": "mv_revela",
+   "phase": "small_talk",
+   "n": 95,
+   "eng_after": 2.07,
+   "eng_after_others": 1.99
+  },
+  {
+   "move": "mv_revela",
+   "phase": "winding_down",
+   "n": 55,
+   "eng_after": 2.05,
+   "eng_after_others": 1.68
+  },
+  {
+   "move": "mv_historia",
+   "phase": "deep_personal",
+   "n": 40,
+   "eng_after": 2.17,
+   "eng_after_others": 2.09
+  },
+  {
+   "move": "mv_historia",
+   "phase": "logistics",
+   "n": 157,
+   "eng_after": 2.04,
+   "eng_after_others": 1.99
+  },
+  {
+   "move": "mv_historia",
+   "phase": "playful_banter",
+   "n": 178,
+   "eng_after": 2.26,
+   "eng_after_others": 2.13
+  },
+  {
+   "move": "mv_historia",
+   "phase": "small_talk",
+   "n": 86,
+   "eng_after": 2.26,
+   "eng_after_others": 1.96
+  },
+  {
+   "move": "mv_historia",
+   "phase": "winding_down",
+   "n": 28,
+   "eng_after": 2.07,
+   "eng_after_others": 1.71
+  },
+  {
+   "move": "mv_brinca",
+   "phase": "conflict_or_repair",
+   "n": 83,
+   "eng_after": 1.93,
+   "eng_after_others": 1.98
+  },
+  {
+   "move": "mv_brinca",
+   "phase": "deep_personal",
+   "n": 63,
+   "eng_after": 2.13,
+   "eng_after_others": 2.1
+  },
+  {
+   "move": "mv_brinca",
+   "phase": "logistics",
+   "n": 515,
+   "eng_after": 2.07,
+   "eng_after_others": 1.96
+  },
+  {
+   "move": "mv_brinca",
+   "phase": "playful_banter",
+   "n": 1951,
+   "eng_after": 2.14,
+   "eng_after_others": 2.08
+  },
+  {
+   "move": "mv_brinca",
+   "phase": "small_talk",
+   "n": 174,
+   "eng_after": 2.09,
+   "eng_after_others": 1.97
+  },
+  {
+   "move": "mv_brinca",
+   "phase": "winding_down",
+   "n": 163,
+   "eng_after": 1.82,
+   "eng_after_others": 1.67
+  },
+  {
+   "move": "mv_elogia",
+   "phase": "playful_banter",
+   "n": 51,
+   "eng_after": 2.22,
+   "eng_after_others": 2.13
+  },
+  {
+   "move": "mv_muda_topico",
+   "phase": "deep_personal",
+   "n": 31,
+   "eng_after": 1.79,
+   "eng_after_others": 2.17
+  },
+  {
+   "move": "mv_muda_topico",
+   "phase": "logistics",
+   "n": 185,
+   "eng_after": 1.86,
+   "eng_after_others": 2.01
+  },
+  {
+   "move": "mv_muda_topico",
+   "phase": "playful_banter",
+   "n": 168,
+   "eng_after": 2.14,
+   "eng_after_others": 2.14
+  },
+  {
+   "move": "mv_muda_topico",
+   "phase": "small_talk",
+   "n": 133,
+   "eng_after": 1.87,
+   "eng_after_others": 2.04
+  },
+  {
+   "move": "mv_muda_topico",
+   "phase": "winding_down",
+   "n": 40,
+   "eng_after": 1.71,
+   "eng_after_others": 1.74
+  },
+  {
+   "move": "mv_so_reage",
+   "phase": "conflict_or_repair",
+   "n": 25,
+   "eng_after": 1.94,
+   "eng_after_others": 1.96
+  },
+  {
+   "move": "mv_so_reage",
+   "phase": "deep_personal",
+   "n": 22,
+   "eng_after": 1.96,
+   "eng_after_others": 2.13
+  },
+  {
+   "move": "mv_so_reage",
+   "phase": "logistics",
+   "n": 183,
+   "eng_after": 2.01,
+   "eng_after_others": 1.99
+  },
+  {
+   "move": "mv_so_reage",
+   "phase": "playful_banter",
+   "n": 394,
+   "eng_after": 2.15,
+   "eng_after_others": 2.13
+  },
+  {
+   "move": "mv_so_reage",
+   "phase": "small_talk",
+   "n": 63,
+   "eng_after": 2.02,
+   "eng_after_others": 2.0
+  },
+  {
+   "move": "mv_so_reage",
+   "phase": "winding_down",
+   "n": 98,
+   "eng_after": 1.73,
+   "eng_after_others": 1.74
+  },
+  {
+   "move": "mv_flerta",
+   "phase": "logistics",
+   "n": 28,
+   "eng_after": 2.32,
+   "eng_after_others": 1.99
+  },
+  {
+   "move": "mv_flerta",
+   "phase": "playful_banter",
+   "n": 105,
+   "eng_after": 2.41,
+   "eng_after_others": 2.12
+  }
+ ]
+}

@@ -1,0 +1,980 @@
+{
+ "n_calls": 1472,
+ "n_by_cond": {
+  "A1": 608,
+  "A1B1A2": 608,
+  "FULL": 256
+ },
+ "accuracy": {
+  "A1": {
+   "flat_top1": {
+    "acc": 0.447,
+    "ci95": [
+     0.408,
+     0.487
+    ]
+   },
+   "flat_top3": {
+    "acc": 0.688,
+    "ci95": [
+     0.651,
+     0.724
+    ]
+   },
+   "casc_top1": {
+    "acc": 0.433,
+    "ci95": [
+     0.393,
+     0.472
+    ]
+   },
+   "soft_top1": {
+    "acc": 0.434,
+    "ci95": [
+     0.395,
+     0.474
+    ]
+   },
+   "soft_top3": {
+    "acc": 0.681,
+    "ci95": [
+     0.644,
+     0.718
+    ]
+   },
+   "ens_top1": {
+    "acc": 0.456,
+    "ci95": [
+     0.416,
+     0.495
+    ]
+   },
+   "ens_top3": {
+    "acc": 0.686,
+    "ci95": [
+     0.649,
+     0.723
+    ]
+   },
+   "fam_ok": {
+    "acc": 0.702,
+    "ci95": [
+     0.666,
+     0.739
+    ]
+   },
+   "flat_fam_ok": {
+    "acc": 0.715,
+    "ci95": [
+     0.68,
+     0.751
+    ]
+   },
+   "oracle_fine": {
+    "acc": 0.613,
+    "ci95": [
+     0.575,
+     0.652
+    ]
+   },
+   "n": 608,
+   "polarity_direct": 0.756,
+   "polarity_from_flat": 0.852
+  },
+  "A1B1A2": {
+   "flat_top1": {
+    "acc": 0.451,
+    "ci95": [
+     0.411,
+     0.49
+    ]
+   },
+   "flat_top3": {
+    "acc": 0.701,
+    "ci95": [
+     0.664,
+     0.737
+    ]
+   },
+   "casc_top1": {
+    "acc": 0.444,
+    "ci95": [
+     0.405,
+     0.484
+    ]
+   },
+   "soft_top1": {
+    "acc": 0.446,
+    "ci95": [
+     0.406,
+     0.485
+    ]
+   },
+   "soft_top3": {
+    "acc": 0.719,
+    "ci95": [
+     0.683,
+     0.754
+    ]
+   },
+   "ens_top1": {
+    "acc": 0.447,
+    "ci95": [
+     0.408,
+     0.487
+    ]
+   },
+   "ens_top3": {
+    "acc": 0.719,
+    "ci95": [
+     0.683,
+     0.754
+    ]
+   },
+   "fam_ok": {
+    "acc": 0.738,
+    "ci95": [
+     0.704,
+     0.773
+    ]
+   },
+   "flat_fam_ok": {
+    "acc": 0.73,
+    "ci95": [
+     0.695,
+     0.766
+    ]
+   },
+   "oracle_fine": {
+    "acc": 0.625,
+    "ci95": [
+     0.587,
+     0.663
+    ]
+   },
+   "n": 608,
+   "polarity_direct": 0.844,
+   "polarity_from_flat": 0.895
+  },
+  "FULL": {
+   "flat_top1": {
+    "acc": 0.449,
+    "ci95": [
+     0.388,
+     0.51
+    ]
+   },
+   "flat_top3": {
+    "acc": 0.68,
+    "ci95": [
+     0.623,
+     0.737
+    ]
+   },
+   "casc_top1": {
+    "acc": 0.418,
+    "ci95": [
+     0.358,
+     0.478
+    ]
+   },
+   "soft_top1": {
+    "acc": 0.426,
+    "ci95": [
+     0.365,
+     0.486
+    ]
+   },
+   "soft_top3": {
+    "acc": 0.676,
+    "ci95": [
+     0.618,
+     0.733
+    ]
+   },
+   "ens_top1": {
+    "acc": 0.449,
+    "ci95": [
+     0.388,
+     0.51
+    ]
+   },
+   "ens_top3": {
+    "acc": 0.684,
+    "ci95": [
+     0.627,
+     0.741
+    ]
+   },
+   "fam_ok": {
+    "acc": 0.727,
+    "ci95": [
+     0.672,
+     0.781
+    ]
+   },
+   "flat_fam_ok": {
+    "acc": 0.754,
+    "ci95": [
+     0.701,
+     0.807
+    ]
+   },
+   "oracle_fine": {
+    "acc": 0.602,
+    "ci95": [
+     0.542,
+     0.662
+    ]
+   },
+   "n": 256,
+   "polarity_direct": 0.827,
+   "polarity_from_flat": 0.899
+  }
+ },
+ "accuracy_subset256": {
+  "A1": {
+   "flat_top1": 0.469,
+   "flat_top3": 0.672,
+   "casc_top1": 0.449,
+   "soft_top1": 0.449,
+   "soft_top3": 0.656,
+   "ens_top1": 0.473,
+   "ens_top3": 0.672,
+   "fam_ok": 0.707,
+   "flat_fam_ok": 0.738,
+   "oracle_fine": 0.621
+  },
+  "A1B1A2": {
+   "flat_top1": 0.449,
+   "flat_top3": 0.676,
+   "casc_top1": 0.422,
+   "soft_top1": 0.422,
+   "soft_top3": 0.699,
+   "ens_top1": 0.434,
+   "ens_top3": 0.699,
+   "fam_ok": 0.734,
+   "flat_fam_ok": 0.754,
+   "oracle_fine": 0.609
+  },
+  "FULL": {
+   "flat_top1": 0.449,
+   "flat_top3": 0.68,
+   "casc_top1": 0.418,
+   "soft_top1": 0.426,
+   "soft_top3": 0.676,
+   "ens_top1": 0.449,
+   "ens_top3": 0.684,
+   "fam_ok": 0.727,
+   "flat_fam_ok": 0.754,
+   "oracle_fine": 0.602
+  }
+ },
+ "mcnemar": {
+  "flat_top1: A1 vs A1B1A2": {
+   "a_only": 56,
+   "b_only": 58,
+   "p": 0.9254
+  },
+  "flat_top1: A1B1A2 vs FULL": {
+   "a_only": 4,
+   "b_only": 4,
+   "p": 1
+  },
+  "casc_top1: A1 vs A1B1A2": {
+   "a_only": 54,
+   "b_only": 61,
+   "p": 0.576
+  },
+  "casc_top1: A1B1A2 vs FULL": {
+   "a_only": 5,
+   "b_only": 4,
+   "p": 1
+  },
+  "soft_top1: A1 vs A1B1A2": {
+   "a_only": 54,
+   "b_only": 61,
+   "p": 0.576
+  },
+  "soft_top1: A1B1A2 vs FULL": {
+   "a_only": 4,
+   "b_only": 5,
+   "p": 1
+  },
+  "fam_ok: A1 vs A1B1A2": {
+   "a_only": 33,
+   "b_only": 55,
+   "p": 0.0246
+  },
+  "fam_ok: A1B1A2 vs FULL": {
+   "a_only": 6,
+   "b_only": 4,
+   "p": 0.7539
+  },
+  "ens_top1: A1 vs A1B1A2": {
+   "a_only": 59,
+   "b_only": 54,
+   "p": 0.7069
+  },
+  "ens_top1: A1B1A2 vs FULL": {
+   "a_only": 3,
+   "b_only": 7,
+   "p": 0.3438
+  },
+  "A1: flat vs cascade(hard)": {
+   "a_only": 32,
+   "b_only": 23,
+   "p": 0.2806
+  },
+  "A1: flat vs soft": {
+   "a_only": 30,
+   "b_only": 22,
+   "p": 0.3317
+  },
+  "A1: flat vs ensemble": {
+   "a_only": 10,
+   "b_only": 15,
+   "p": 0.4244
+  },
+  "A1: family direct vs family-of-flat": {
+   "a_only": 33,
+   "b_only": 25,
+   "p": 0.3581
+  },
+  "A1B1A2: flat vs cascade(hard)": {
+   "a_only": 30,
+   "b_only": 26,
+   "p": 0.6889
+  },
+  "A1B1A2: flat vs soft": {
+   "a_only": 29,
+   "b_only": 26,
+   "p": 0.7877
+  },
+  "A1B1A2: flat vs ensemble": {
+   "a_only": 14,
+   "b_only": 12,
+   "p": 0.845
+  },
+  "A1B1A2: family direct vs family-of-flat": {
+   "a_only": 28,
+   "b_only": 33,
+   "p": 0.6089
+  }
+ },
+ "calibration": {
+  "A1": {
+   "flat_conf": {
+    "bins": [
+     {
+      "bin": "[0.0, 0.2)",
+      "n": 1,
+      "acc": 0.0,
+      "mean_conf": 0.16
+     },
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 28,
+      "acc": 0.179,
+      "mean_conf": 0.334
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 120,
+      "acc": 0.342,
+      "mean_conf": 0.515
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 135,
+      "acc": 0.356,
+      "mean_conf": 0.693
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 324,
+      "acc": 0.549,
+      "mean_conf": 0.946
+     }
+    ],
+    "ece": 0.328
+   },
+   "flat_maxp": {
+    "bins": [
+     {
+      "bin": "[0.0, 0.2)",
+      "n": 1,
+      "acc": 0.0,
+      "mean_conf": 0.19
+     },
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 19,
+      "acc": 0.211,
+      "mean_conf": 0.342
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 107,
+      "acc": 0.299,
+      "mean_conf": 0.515
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 144,
+      "acc": 0.382,
+      "mean_conf": 0.686
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 337,
+      "acc": 0.537,
+      "mean_conf": 0.945
+     }
+    ],
+    "ece": 0.341
+   },
+   "family_conf": {
+    "bins": [
+     {
+      "bin": "[0.0, 0.2)",
+      "n": 1,
+      "acc": 0.0,
+      "mean_conf": 0.16
+     },
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 16,
+      "acc": 0.188,
+      "mean_conf": 0.332
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 50,
+      "acc": 0.38,
+      "mean_conf": 0.506
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 72,
+      "acc": 0.444,
+      "mean_conf": 0.698
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 469,
+      "acc": 0.795,
+      "mean_conf": 0.968
+     }
+    ],
+    "ece": 0.178
+   }
+  },
+  "A1B1A2": {
+   "flat_conf": {
+    "bins": [
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 32,
+      "acc": 0.125,
+      "mean_conf": 0.34
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 101,
+      "acc": 0.277,
+      "mean_conf": 0.509
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 113,
+      "acc": 0.398,
+      "mean_conf": 0.693
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 362,
+      "acc": 0.544,
+      "mean_conf": 0.948
+     }
+    ],
+    "ece": 0.345
+   },
+   "flat_maxp": {
+    "bins": [
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 20,
+      "acc": 0.15,
+      "mean_conf": 0.348
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 96,
+      "acc": 0.229,
+      "mean_conf": 0.504
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 117,
+      "acc": 0.376,
+      "mean_conf": 0.685
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 375,
+      "acc": 0.547,
+      "mean_conf": 0.947
+     }
+    ],
+    "ece": 0.357
+   },
+   "family_conf": {
+    "bins": [
+     {
+      "bin": "[0.0, 0.2)",
+      "n": 2,
+      "acc": 0.5,
+      "mean_conf": 0.19
+     },
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 12,
+      "acc": 0.25,
+      "mean_conf": 0.318
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 50,
+      "acc": 0.46,
+      "mean_conf": 0.5
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 75,
+      "acc": 0.573,
+      "mean_conf": 0.696
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 469,
+      "acc": 0.808,
+      "mean_conf": 0.971
+     }
+    ],
+    "ece": 0.146
+   }
+  },
+  "FULL": {
+   "flat_conf": {
+    "bins": [
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 11,
+      "acc": 0.182,
+      "mean_conf": 0.335
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 42,
+      "acc": 0.286,
+      "mean_conf": 0.508
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 54,
+      "acc": 0.407,
+      "mean_conf": 0.694
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 149,
+      "acc": 0.53,
+      "mean_conf": 0.948
+     }
+    ],
+    "ece": 0.346
+   },
+   "flat_maxp": {
+    "bins": [
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 7,
+      "acc": 0.286,
+      "mean_conf": 0.343
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 39,
+      "acc": 0.231,
+      "mean_conf": 0.505
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 57,
+      "acc": 0.421,
+      "mean_conf": 0.692
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 153,
+      "acc": 0.523,
+      "mean_conf": 0.948
+     }
+    ],
+    "ece": 0.358
+   },
+   "family_conf": {
+    "bins": [
+     {
+      "bin": "[0.0, 0.2)",
+      "n": 1,
+      "acc": 1.0,
+      "mean_conf": 0.16
+     },
+     {
+      "bin": "[0.2, 0.4)",
+      "n": 8,
+      "acc": 0.5,
+      "mean_conf": 0.319
+     },
+     {
+      "bin": "[0.4, 0.6)",
+      "n": 24,
+      "acc": 0.458,
+      "mean_conf": 0.501
+     },
+     {
+      "bin": "[0.6, 0.8)",
+      "n": 30,
+      "acc": 0.667,
+      "mean_conf": 0.717
+     },
+     {
+      "bin": "[0.8, 1.01)",
+      "n": 193,
+      "acc": 0.777,
+      "mean_conf": 0.969
+     }
+    ],
+    "ece": 0.163
+   }
+  }
+ },
+ "selective": {
+  "A1": {
+   "0.5": {
+    "flat_coverage": 0.88,
+    "flat_acc": 0.469,
+    "fam_coverage": 0.941,
+    "fam_acc": 0.731
+   },
+   "0.7": {
+    "flat_coverage": 0.645,
+    "flat_acc": 0.533,
+    "fam_coverage": 0.837,
+    "fam_acc": 0.768
+   },
+   "0.9": {
+    "flat_coverage": 0.416,
+    "flat_acc": 0.581,
+    "fam_coverage": 0.669,
+    "fam_acc": 0.83
+   }
+  },
+  "A1B1A2": {
+   "0.5": {
+    "flat_coverage": 0.88,
+    "flat_acc": 0.486,
+    "fam_coverage": 0.938,
+    "fam_acc": 0.763
+   },
+   "0.7": {
+    "flat_coverage": 0.678,
+    "flat_acc": 0.534,
+    "fam_coverage": 0.842,
+    "fam_acc": 0.787
+   },
+   "0.9": {
+    "flat_coverage": 0.467,
+    "flat_acc": 0.57,
+    "fam_coverage": 0.679,
+    "fam_acc": 0.838
+   }
+  },
+  "FULL": {
+   "0.5": {
+    "flat_coverage": 0.891,
+    "flat_acc": 0.478,
+    "fam_coverage": 0.918,
+    "fam_acc": 0.753
+   },
+   "0.7": {
+    "flat_coverage": 0.68,
+    "flat_acc": 0.523,
+    "fam_coverage": 0.836,
+    "fam_acc": 0.766
+   },
+   "0.9": {
+    "flat_coverage": 0.469,
+    "flat_acc": 0.533,
+    "fam_coverage": 0.668,
+    "fam_acc": 0.825
+   }
+  }
+ },
+ "per_emotion_A1B1A2": {
+  "anticipating": {
+   "flat_top1": 0.11,
+   "flat_top3": 0.47,
+   "fam_ok": 0.21
+  },
+  "apprehensive": {
+   "flat_top1": 0.16,
+   "flat_top3": 0.63,
+   "fam_ok": 0.79
+  },
+  "faithful": {
+   "flat_top1": 0.16,
+   "flat_top3": 0.37,
+   "fam_ok": 0.37
+  },
+  "ashamed": {
+   "flat_top1": 0.21,
+   "flat_top3": 0.42,
+   "fam_ok": 0.84
+  },
+  "terrified": {
+   "flat_top1": 0.21,
+   "flat_top3": 0.74,
+   "fam_ok": 0.95
+  },
+  "furious": {
+   "flat_top1": 0.21,
+   "flat_top3": 0.21,
+   "fam_ok": 1.0
+  },
+  "trusting": {
+   "flat_top1": 0.26,
+   "flat_top3": 0.32,
+   "fam_ok": 0.26
+  },
+  "sentimental": {
+   "flat_top1": 0.26,
+   "flat_top3": 0.68,
+   "fam_ok": 0.79
+  },
+  "caring": {
+   "flat_top1": 0.32,
+   "flat_top3": 0.68,
+   "fam_ok": 0.26
+  },
+  "hopeful": {
+   "flat_top1": 0.32,
+   "flat_top3": 0.63,
+   "fam_ok": 0.63
+  },
+  "impressed": {
+   "flat_top1": 0.37,
+   "flat_top3": 0.58,
+   "fam_ok": 0.95
+  },
+  "devastated": {
+   "flat_top1": 0.37,
+   "flat_top3": 0.74,
+   "fam_ok": 0.68
+  },
+  "grateful": {
+   "flat_top1": 0.42,
+   "flat_top3": 0.79,
+   "fam_ok": 0.95
+  },
+  "surprised": {
+   "flat_top1": 0.42,
+   "flat_top3": 0.84,
+   "fam_ok": 0.84
+  },
+  "excited": {
+   "flat_top1": 0.42,
+   "flat_top3": 0.79,
+   "fam_ok": 0.68
+  },
+  "angry": {
+   "flat_top1": 0.47,
+   "flat_top3": 0.89,
+   "fam_ok": 0.84
+  },
+  "prepared": {
+   "flat_top1": 0.47,
+   "flat_top3": 0.63,
+   "fam_ok": 0.68
+  },
+  "confident": {
+   "flat_top1": 0.47,
+   "flat_top3": 0.68,
+   "fam_ok": 0.53
+  },
+  "afraid": {
+   "flat_top1": 0.53,
+   "flat_top3": 0.79,
+   "fam_ok": 0.84
+  },
+  "anxious": {
+   "flat_top1": 0.53,
+   "flat_top3": 0.63,
+   "fam_ok": 0.58
+  },
+  "annoyed": {
+   "flat_top1": 0.58,
+   "flat_top3": 0.84,
+   "fam_ok": 0.79
+  },
+  "guilty": {
+   "flat_top1": 0.58,
+   "flat_top3": 0.74,
+   "fam_ok": 0.74
+  },
+  "joyful": {
+   "flat_top1": 0.58,
+   "flat_top3": 0.84,
+   "fam_ok": 0.89
+  },
+  "disappointed": {
+   "flat_top1": 0.58,
+   "flat_top3": 0.74,
+   "fam_ok": 0.63
+  },
+  "lonely": {
+   "flat_top1": 0.63,
+   "flat_top3": 0.79,
+   "fam_ok": 0.95
+  },
+  "sad": {
+   "flat_top1": 0.63,
+   "flat_top3": 0.84,
+   "fam_ok": 0.89
+  },
+  "embarrassed": {
+   "flat_top1": 0.63,
+   "flat_top3": 0.79,
+   "fam_ok": 0.63
+  },
+  "jealous": {
+   "flat_top1": 0.63,
+   "flat_top3": 0.89,
+   "fam_ok": 0.63
+  },
+  "disgusted": {
+   "flat_top1": 0.68,
+   "flat_top3": 0.74,
+   "fam_ok": 0.95
+  },
+  "content": {
+   "flat_top1": 0.68,
+   "flat_top3": 0.95,
+   "fam_ok": 0.95
+  },
+  "proud": {
+   "flat_top1": 0.68,
+   "flat_top3": 0.84,
+   "fam_ok": 0.95
+  },
+  "nostalgic": {
+   "flat_top1": 0.84,
+   "flat_top3": 0.89,
+   "fam_ok": 0.95
+  }
+ },
+ "top_confusions_A1B1A2": [
+  "terrified->afraid: 13",
+  "furious->angry: 12",
+  "anticipating->excited: 9",
+  "apprehensive->anxious: 8",
+  "grateful->joyful: 8",
+  "sentimental->nostalgic: 8",
+  "anxious->excited: 6",
+  "ashamed->guilty: 6",
+  "devastated->sad: 6",
+  "joyful->excited: 6",
+  "angry->annoyed: 5",
+  "ashamed->embarrassed: 5",
+  "caring->sad: 5",
+  "content->joyful: 5",
+  "excited->joyful: 5",
+  "lonely->sad: 5",
+  "disappointed->angry: 4",
+  "faithful->grateful: 4",
+  "impressed->surprised: 4",
+  "sad->devastated: 4"
+ ],
+ "pred_distribution_A1B1A2": {
+  "joyful": 48,
+  "sad": 43,
+  "excited": 41,
+  "anxious": 37,
+  "afraid": 32,
+  "disappointed": 29,
+  "angry": 29,
+  "annoyed": 28,
+  "nostalgic": 27,
+  "proud": 26,
+  "content": 25,
+  "grateful": 22
+ },
+ "per_family_A1B1A2": {
+  "anger_disgust": {
+   "fam_ok": 0.84,
+   "flat_fam_ok": 0.81,
+   "oracle_fine": 0.62,
+   "flat_top1": 0.52
+  },
+  "fear_anxiety": {
+   "fam_ok": 0.79,
+   "flat_fam_ok": 0.72,
+   "oracle_fine": 0.55,
+   "flat_top1": 0.36
+  },
+  "hope_confidence": {
+   "fam_ok": 0.45,
+   "flat_fam_ok": 0.44,
+   "oracle_fine": 0.66,
+   "flat_top1": 0.3
+  },
+  "joy_pride": {
+   "fam_ok": 0.89,
+   "flat_fam_ok": 0.92,
+   "oracle_fine": 0.58,
+   "flat_top1": 0.51
+  },
+  "sadness": {
+   "fam_ok": 0.79,
+   "flat_fam_ok": 0.83,
+   "oracle_fine": 0.66,
+   "flat_top1": 0.55
+  },
+  "shame_guilt": {
+   "fam_ok": 0.74,
+   "flat_fam_ok": 0.7,
+   "oracle_fine": 0.67,
+   "flat_top1": 0.47
+  },
+  "warm_nostalgic": {
+   "fam_ok": 0.67,
+   "flat_fam_ok": 0.65,
+   "oracle_fine": 0.68,
+   "flat_top1": 0.47
+  }
+ },
+ "family_confusions_A1B1A2": [
+  "hope_confidence->joy_pride: 34",
+  "hope_confidence->fear_anxiety: 12",
+  "warm_nostalgic->joy_pride: 10",
+  "anger_disgust->sadness: 8",
+  "sadness->anger_disgust: 7",
+  "hope_confidence->sadness: 6",
+  "warm_nostalgic->sadness: 6",
+  "fear_anxiety->joy_pride: 5",
+  "hope_confidence->warm_nostalgic: 5",
+  "joy_pride->hope_confidence: 5"
+ ]
+}

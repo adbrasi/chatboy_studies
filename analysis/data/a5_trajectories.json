@@ -1,0 +1,310 @@
+{
+ "shapes": {
+  "maichat": {
+   "oscilante_sem_tendencia": 24,
+   "sobe_e_cai": 9,
+   "decrescente": 8,
+   "crescente": 1
+  },
+  "whatsapp_nl": {
+   "oscilante_sem_tendencia": 21,
+   "decrescente": 18,
+   "crescente": 14,
+   "sobe_e_cai": 10,
+   "cai_e_sobe": 6,
+   "plana": 4
+  }
+ },
+ "shape_stats_median": {
+  "n": {
+   "maichat": 60.0,
+   "whatsapp_nl": 18.0
+  },
+  "mean": {
+   "maichat": 1.997,
+   "whatsapp_nl": 2.058
+  },
+  "sd": {
+   "maichat": 0.692,
+   "whatsapp_nl": 0.74
+  },
+  "alt": {
+   "maichat": 0.713,
+   "whatsapp_nl": 0.692
+  },
+  "gap_speakers": {
+   "maichat": 0.223,
+   "whatsapp_nl": 0.272
+  }
+ },
+ "serra_share": {
+  "maichat": 0.833,
+  "whatsapp_nl": 0.658
+ },
+ "autocorr": {
+  "maichat": {
+   "rho_eng_vs_partner_prev": 0.262,
+   "rho_eng_vs_own_prev": 0.393,
+   "rho_eng_vs_logchars": 0.507
+  },
+  "whatsapp_nl": {
+   "rho_eng_vs_partner_prev": 0.176,
+   "rho_eng_vs_own_prev": 0.288,
+   "rho_eng_vs_logchars": 0.666
+  }
+ },
+ "mean_curve": [
+  {
+   "relbin": "(-0.001, 0.2]",
+   "maichat": "2.045",
+   "whatsapp_nl": "2.012"
+  },
+  {
+   "relbin": "(0.2, 0.4]",
+   "maichat": "2.04",
+   "whatsapp_nl": "2.146"
+  },
+  {
+   "relbin": "(0.4, 0.6]",
+   "maichat": "2.117",
+   "whatsapp_nl": "2.267"
+  },
+  {
+   "relbin": "(0.6, 0.8]",
+   "maichat": "2.079",
+   "whatsapp_nl": "2.094"
+  },
+  {
+   "relbin": "(0.8, 1.0]",
+   "maichat": "1.849",
+   "whatsapp_nl": "1.978"
+  }
+ ],
+ "rise_by_prev_intent": [
+  {
+   "prev_intent": "closing",
+   "n": 114,
+   "p_rise": 0.132,
+   "p_fall": 0.228,
+   "mean_delta": -0.199,
+   "lift_rise": 1.1
+  },
+  {
+   "prev_intent": "answer",
+   "n": 1065,
+   "p_rise": 0.067,
+   "p_fall": 0.152,
+   "mean_delta": -0.183,
+   "lift_rise": 0.56
+  },
+  {
+   "prev_intent": "make_plans_logistics",
+   "n": 386,
+   "p_rise": 0.111,
+   "p_fall": 0.176,
+   "mean_delta": -0.089,
+   "lift_rise": 0.92
+  },
+  {
+   "prev_intent": "joke_tease",
+   "n": 614,
+   "p_rise": 0.121,
+   "p_fall": 0.151,
+   "mean_delta": -0.075,
+   "lift_rise": 1.01
+  },
+  {
+   "prev_intent": "disagree_complain",
+   "n": 300,
+   "p_rise": 0.1,
+   "p_fall": 0.11,
+   "mean_delta": -0.037,
+   "lift_rise": 0.83
+  },
+  {
+   "prev_intent": "react_acknowledge",
+   "n": 706,
+   "p_rise": 0.127,
+   "p_fall": 0.142,
+   "mean_delta": -0.02,
+   "lift_rise": 1.06
+  },
+  {
+   "prev_intent": "comfort_support",
+   "n": 87,
+   "p_rise": 0.069,
+   "p_fall": 0.138,
+   "mean_delta": -0.004,
+   "lift_rise": 0.57
+  },
+  {
+   "prev_intent": "ask_question",
+   "n": 865,
+   "p_rise": 0.14,
+   "p_fall": 0.116,
+   "mean_delta": 0.037,
+   "lift_rise": 1.16
+  },
+  {
+   "prev_intent": "compliment_affection",
+   "n": 88,
+   "p_rise": 0.182,
+   "p_fall": 0.125,
+   "mean_delta": 0.07,
+   "lift_rise": 1.51
+  },
+  {
+   "prev_intent": "share_feeling",
+   "n": 222,
+   "p_rise": 0.14,
+   "p_fall": 0.117,
+   "mean_delta": 0.098,
+   "lift_rise": 1.16
+  },
+  {
+   "prev_intent": "share_story_or_info",
+   "n": 490,
+   "p_rise": 0.182,
+   "p_fall": 0.094,
+   "mean_delta": 0.192,
+   "lift_rise": 1.51
+  },
+  {
+   "prev_intent": "change_topic",
+   "n": 46,
+   "p_rise": 0.196,
+   "p_fall": 0.065,
+   "mean_delta": 0.204,
+   "lift_rise": 1.63
+  }
+ ],
+ "rise_by_prev_flag": {
+  "prev_D_playful": {
+   "n_hi": 2953,
+   "p_rise_hi": 0.123,
+   "p_rise_lo": 0.117,
+   "delta_hi": -0.029,
+   "delta_lo": -0.031
+  },
+  "prev_D_vulnerable": {
+   "n_hi": 510,
+   "p_rise_hi": 0.139,
+   "p_rise_lo": 0.118,
+   "delta_hi": 0.03,
+   "delta_lo": -0.037
+  },
+  "prev_D_topic_shift": {
+   "n_hi": 573,
+   "p_rise_hi": 0.19,
+   "p_rise_lo": 0.111,
+   "delta_hi": 0.139,
+   "delta_lo": -0.052
+  },
+  "prev_D_flirting": {
+   "n_hi": 175,
+   "p_rise_hi": 0.2,
+   "p_rise_lo": 0.117,
+   "delta_hi": 0.086,
+   "delta_lo": -0.034
+  },
+  "prev_D_hook": {
+   "n_hi": 2940,
+   "p_rise_hi": 0.124,
+   "p_rise_lo": 0.115,
+   "delta_hi": -0.013,
+   "delta_lo": -0.053
+  },
+  "prev_has_q": {
+   "n_hi": 812,
+   "p_rise_hi": 0.139,
+   "p_rise_lo": 0.117,
+   "delta_hi": -0.016,
+   "delta_lo": -0.033
+  },
+  "prev_laugh": {
+   "n_hi": 577,
+   "p_rise_hi": 0.114,
+   "p_rise_lo": 0.121,
+   "delta_hi": -0.153,
+   "delta_lo": -0.014
+  },
+  "prev_ack": {
+   "n_hi": 290,
+   "p_rise_hi": 0.131,
+   "p_rise_lo": 0.12,
+   "delta_hi": 0.028,
+   "delta_lo": -0.033
+  }
+ },
+ "delta_by_prev_level": [
+  {
+   "spk_prev_eng": 0.0,
+   "size": 86,
+   "mean": 1.156
+  },
+  {
+   "spk_prev_eng": 1.0,
+   "size": 1089,
+   "mean": 0.654
+  },
+  {
+   "spk_prev_eng": 2.0,
+   "size": 2334,
+   "mean": -0.034
+  },
+  {
+   "spk_prev_eng": 3.0,
+   "size": 1360,
+   "mean": -0.556
+  },
+  {
+   "spk_prev_eng": 4.0,
+   "size": 142,
+   "mean": -0.884
+  }
+ ],
+ "rise_examples": [
+  {
+   "corpus": "maichat",
+   "parceiro": "and I think the best ball was \"Euphoria Ball\" / everyone got so into it",
+   "resposta": "euphoria like the show ? ",
+   "delta": 1.51,
+   "prev_intent": "share_story_or_info"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "parceiro": "",
+   "resposta": "En [REMOVED], heul heul heul erg veel plezier in the usa!!",
+   "delta": 1.84,
+   "prev_intent": "react_acknowledge"
+  },
+  {
+   "corpus": "maichat",
+   "parceiro": "you know that panda caretakers dress up in panda suits so that baby pandas don't get scared? / lol",
+   "resposta": "wait no way / really?",
+   "delta": 1.89,
+   "prev_intent": "share_story_or_info"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "parceiro": "Lactose is melkeiwit / Of zo? / Maar daar hebben we alleen tijdens het voorgerecht mee te maken / Toch?",
+   "resposta": "Ik wilde als voorgerecht een torentje maken van mozzarella (dat valt dus af, of we maken een speciaal apart torentje voor diegene), tomaat en courgette (gebakke",
+   "delta": 2.22,
+   "prev_intent": "ask_question"
+  },
+  {
+   "corpus": "maichat",
+   "parceiro": "What about youu?  / Do you have a funny memory?",
+   "resposta": "I do! When I was around 6 or 7 I would wait for my mom to come home from work. I would then wear her slippers and attempt to wear her clothes and walk around th",
+   "delta": 1.71,
+   "prev_intent": "ask_question"
+  },
+  {
+   "corpus": "maichat",
+   "parceiro": "the elevator one??",
+   "resposta": "yesss / when the lights went off i lost it",
+   "delta": 2.0,
+   "prev_intent": "ask_question"
+  }
+ ]
+}

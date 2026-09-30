@@ -1,0 +1,98 @@
+{
+ "maichat": {
+  "n_resposta_a_pergunta": 271,
+  "p_devolve": 0.033,
+  "ci": [
+   0.018,
+   0.062
+  ],
+  "p_devolve_sem_pergunta_antes": 0.0108,
+  "n_apos_como_vai": 12,
+  "p_devolve_apos_como_vai": 0.25,
+  "n_conv": 42,
+  "q_share_max_median": 0.667,
+  "chars_share_max_median": 0.532,
+  "p_same_person_asks_and_talks_more": 0.524,
+  "spearman_q_asym_vs_n_turns": [
+   0.115,
+   0.4687
+  ],
+  "spearman_char_asym_vs_n_turns": [
+   -0.348,
+   0.024
+  ],
+  "spearman_q_rate_vs_n_turns": [
+   0.002,
+   0.9892
+  ],
+  "spearman_ret_rate_vs_n_turns": [
+   -0.12,
+   0.4495
+  ],
+  "spearman_eng_mean_vs_n_turns": [
+   0.022,
+   0.8933
+  ],
+  "topic_init_share_max_median": 0.647,
+  "spearman_topic_share_vs_q_share_a": [
+   0.012,
+   0.9428
+  ],
+  "spearman_topic_share_vs_char_share_a": [
+   0.497,
+   0.0009
+  ],
+  "next_chars_median_after_q": 38.0,
+  "next_chars_median_after_noq": 24.0,
+  "p_topic_shift_turn_has_q": 0.136,
+  "p_nonshift_turn_has_q": 0.088
+ },
+ "whatsapp_nl": {
+  "n_resposta_a_pergunta": 8024,
+  "p_devolve": 0.024,
+  "ci": [
+   0.02,
+   0.027
+  ],
+  "p_devolve_sem_pergunta_antes": 0.0064,
+  "n_apos_como_vai": 487,
+  "p_devolve_apos_como_vai": 0.103,
+  "n_conv": 60,
+  "q_share_max_median": 0.601,
+  "chars_share_max_median": 0.563,
+  "p_same_person_asks_and_talks_more": 0.517,
+  "spearman_q_asym_vs_sess_len_mean": [
+   0.014,
+   0.9166
+  ],
+  "spearman_char_asym_vs_sess_len_mean": [
+   0.042,
+   0.7483
+  ],
+  "spearman_q_rate_vs_sess_len_mean": [
+   -0.436,
+   0.0005
+  ],
+  "spearman_ret_rate_vs_sess_len_mean": [
+   0.205,
+   0.1169
+  ],
+  "spearman_eng_mean_vs_sess_len_mean": [
+   0.215,
+   0.1116
+  ],
+  "topic_init_share_max_median": 0.583,
+  "spearman_topic_share_vs_q_share_a": [
+   0.179,
+   0.1879
+  ],
+  "spearman_topic_share_vs_char_share_a": [
+   0.204,
+   0.1324
+  ],
+  "next_chars_median_after_q": 44.0,
+  "next_chars_median_after_noq": 34.0,
+  "p_topic_shift_turn_has_q": 0.493,
+  "p_nonshift_turn_has_q": 0.203
+ }
+}

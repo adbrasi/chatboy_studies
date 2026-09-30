@@ -1,0 +1,651 @@
+{
+ "maichat_intra_gap": {
+  "n": 1306,
+  "p10": 2.7,
+  "p25": 4.7,
+  "med": 8.7,
+  "p75": 16.5,
+  "p90": 28.0,
+  "rho_gap_vs_next_chars": 0.488,
+  "idle_between_bubbles": {
+   "n": 1290,
+   "p10": -0.2,
+   "p25": 0.4,
+   "med": 1.7,
+   "p75": 6.1,
+   "p90": 21.6
+  },
+  "share_started_next_before_sending_prev(idle<0)": 0.123,
+  "share_idle_under_1s": 0.367,
+  "gap_by_next_chars": {
+   "(0, 5]": 3.3,
+   "(5, 15]": 5.0,
+   "(15, 30]": 8.6,
+   "(30, 60]": 12.3,
+   "(60, 1000]": 17.7
+  }
+ },
+ "maichat_latency": {
+  "n": 2826,
+  "p10": 2.8,
+  "p25": 6.2,
+  "med": 13.8,
+  "p75": 27.0,
+  "p90": 38.0
+ },
+ "whatsapp_intra_gap": {
+  "n": 26396,
+  "same_minute": 0.706,
+  "1min": 0.197,
+  "2-9min": 0.047,
+  ">=10min": 0.05,
+  ">=60min": 0.016
+ },
+ "whatsapp_latency": {
+  "n": 28230,
+  "p10": 0.0,
+  "p25": 0.0,
+  "med": 60.0,
+  "p75": 300.0,
+  "p90": 1260.0,
+  "same_minute": 0.357,
+  "<=2min": 0.667,
+  ">=1h": 0.039
+ },
+ "late_addons_whatsapp": {
+  "n": 2562,
+  "share_of_turns_with_late_addon": 0.077,
+  "share_q": 0.29,
+  "share_prev_was_q": 0.108,
+  "gap": {
+   "n": 2562,
+   "p10": 120.0,
+   "p25": 180.0,
+   "med": 630.0,
+   "p75": 2220.0,
+   "p90": 5514.0
+  },
+  "examples": [
+   [
+    "Slaap lekker xx",
+    "Jij bent lief",
+    240.0
+   ],
+   [
+    "Oklee tot zo",
+    "Kom er aan",
+    420.0
+   ],
+   [
+    "Ahh nee das wel weer jammer.indd",
+    "En liza",
+    120.0
+   ],
+   [
+    "Loel vernaai die",
+    "Hoeveel kost ie in de maand",
+    2040.0
+   ],
+   [
+    "Mooi!",
+    "Hey zusje!",
+    1260.0
+   ],
+   [
+    "Geyl",
+    "Is de kiet al ondergespouwt",
+    480.0
+   ],
+   [
+    "Lizalizalizaliza",
+    "Lllllliiiiiiizzzzzzaaaaa",
+    300.0
+   ],
+   [
+    "Ooo haha!",
+    "Shit nu heb ik het al verklapt hahaha",
+    1380.0
+   ],
+   [
+    "Dan moeten ze het vrijdag maar halen maar dan moet ik de hele dag werken",
+    "Ik heb iig bekers",
+    600.0
+   ],
+   [
+    "????",
+    "Haha omg chaos, de engels lerares wilde hier in dit lokaal en ik zag allemaal spullen enzo",
+    3240.0
+   ],
+   [
+    "Oké rond half zes gaan?",
+    "Of later?",
+    1560.0
+   ],
+   [
+    "Doeken en vesten liggen op kamertje [numerical_value].",
+    "Alleen de doeken",
+    120.0
+   ]
+  ],
+  "baseline_share_q_nonfirst": 0.165
+ },
+ "latency_D": {
+  "maichat": {
+   "by_emotion": [
+    {
+     "D_emotion": "surprise",
+     "n": 43,
+     "med": 8.6,
+     "p25": 4.5,
+     "p75": 16.2
+    },
+    {
+     "D_emotion": "curiosity_interest",
+     "n": 308,
+     "med": 9.9,
+     "p25": 5.2,
+     "p75": 22.8
+    },
+    {
+     "D_emotion": "joy_excitement",
+     "n": 230,
+     "med": 10.0,
+     "p25": 4.3,
+     "p75": 20.5
+    },
+    {
+     "D_emotion": "amusement",
+     "n": 217,
+     "med": 12.0,
+     "p25": 6.0,
+     "p75": 22.0
+    },
+    {
+     "D_emotion": "neutral_informational",
+     "n": 648,
+     "med": 12.0,
+     "p25": 5.8,
+     "p75": 25.0
+    },
+    {
+     "D_emotion": "sadness",
+     "n": 32,
+     "med": 14.5,
+     "p25": 6.3,
+     "p75": 22.8
+    },
+    {
+     "D_emotion": "anxiety_insecurity",
+     "n": 66,
+     "med": 14.6,
+     "p25": 7.9,
+     "p75": 27.8
+    },
+    {
+     "D_emotion": "affection",
+     "n": 113,
+     "med": 15.3,
+     "p25": 7.0,
+     "p75": 28.8
+    },
+    {
+     "D_emotion": "playful_teasing",
+     "n": 940,
+     "med": 16.0,
+     "p25": 7.5,
+     "p75": 30.0
+    },
+    {
+     "D_emotion": "frustration_anger",
+     "n": 203,
+     "med": 19.0,
+     "p25": 10.0,
+     "p75": 31.2
+    },
+    {
+     "D_emotion": "boredom_disengaged",
+     "n": 52,
+     "med": 21.0,
+     "p25": 8.5,
+     "p75": 33.5
+    }
+   ],
+   "by_seriousness": [
+    {
+     "ser": 0.0,
+     "size": 1649,
+     "median": 14.0
+    },
+    {
+     "ser": 1.0,
+     "size": 1153,
+     "median": 14.0
+    },
+    {
+     "ser": 2.0,
+     "size": 69,
+     "median": 8.6
+    }
+   ],
+   "corr_latency": {
+    "D_engagement": {
+     "rho": -0.031,
+     "p": 0.1,
+     "rho_within_spk": 0.056,
+     "p_w": 0.0031,
+     "n": 2826
+    },
+    "D_seriousness": {
+     "rho": -0.03,
+     "p": 0.11,
+     "rho_within_spk": 0.059,
+     "p_w": 0.0017,
+     "n": 2826
+    },
+    "D_vulnerable": {
+     "rho": 0.04,
+     "p": 0.033,
+     "rho_within_spk": 0.019,
+     "p_w": 0.31,
+     "n": 2826
+    },
+    "D_anxious": {
+     "rho": 0.129,
+     "p": 4.9e-12,
+     "rho_within_spk": -0.007,
+     "p_w": 0.7,
+     "n": 2826
+    },
+    "D_arousal": {
+     "rho": -0.056,
+     "p": 0.0031,
+     "rho_within_spk": 0.011,
+     "p_w": 0.55,
+     "n": 2826
+    },
+    "D_playful": {
+     "rho": 0.073,
+     "p": 9.5e-05,
+     "rho_within_spk": -0.029,
+     "p_w": 0.12,
+     "n": 2826
+    },
+    "D_valence": {
+     "rho": -0.142,
+     "p": 3.7e-14,
+     "rho_within_spk": -0.007,
+     "p_w": 0.7,
+     "n": 2826
+    },
+    "prevD_seriousness": {
+     "rho": -0.039,
+     "p": 0.039,
+     "rho_within_spk": 0.033,
+     "p_w": 0.076,
+     "n": 2826
+    },
+    "prevD_vulnerable": {
+     "rho": 0.026,
+     "p": 0.17,
+     "rho_within_spk": 0.003,
+     "p_w": 0.89,
+     "n": 2826
+    },
+    "prevD_seeks_support": {
+     "rho": 0.126,
+     "p": 1.6e-11,
+     "rho_within_spk": -0.01,
+     "p_w": 0.6,
+     "n": 2826
+    },
+    "prevD_hook": {
+     "rho": 0.065,
+     "p": 0.00051,
+     "rho_within_spk": 0.084,
+     "p_w": 7.3e-06,
+     "n": 2826
+    },
+    "prevD_engagement": {
+     "rho": -0.053,
+     "p": 0.0046,
+     "rho_within_spk": 0.029,
+     "p_w": 0.13,
+     "n": 2826
+    },
+    "prevD_tension": {
+     "rho": 0.13,
+     "p": 4.8e-12,
+     "rho_within_spk": -0.023,
+     "p_w": 0.22,
+     "n": 2826
+    },
+    "prev_partner_chars": {
+     "rho": -0.179,
+     "p": 1.1e-21,
+     "rho_within_spk": 0.043,
+     "p_w": 0.021,
+     "n": 2826
+    },
+    "prev_partner_latency": {
+     "rho": 0.431,
+     "p": 1.6e-126,
+     "rho_within_spk": 0.071,
+     "p_w": 0.00019,
+     "n": 2784
+    }
+   },
+   "lat_after_partner_q": {
+    "q": 12.3,
+    "no_q": 14.0,
+    "mwu_p": 0.084
+   },
+   "lat_after_partner_vulnerable>=.5": {
+    "vuln": {
+     "n": 249,
+     "p10": 3.1,
+     "p25": 7.0,
+     "med": 15.1,
+     "p75": 30.0,
+     "p90": 41.0
+    },
+    "not": {
+     "n": 1857,
+     "p10": 2.8,
+     "p25": 6.0,
+     "med": 13.4,
+     "p75": 26.3,
+     "p90": 38.0
+    }
+   },
+   "reciprocity_rho(my_lat, partner_next_lat)": 0.431,
+   "reciprocity_within_conv": 0.048,
+   "rho(my_lat, partner_next_chars)": -0.176
+  },
+  "whatsapp_nl": {
+   "by_emotion": [
+    {
+     "D_emotion": "amusement",
+     "n": 262,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 300.0
+    },
+    {
+     "D_emotion": "anxiety_insecurity",
+     "n": 97,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 180.0
+    },
+    {
+     "D_emotion": "gratitude",
+     "n": 82,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 510.0
+    },
+    {
+     "D_emotion": "frustration_anger",
+     "n": 138,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 240.0
+    },
+    {
+     "D_emotion": "neutral_informational",
+     "n": 1053,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 480.0
+    },
+    {
+     "D_emotion": "surprise",
+     "n": 35,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 120.0
+    },
+    {
+     "D_emotion": "sadness",
+     "n": 55,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 330.0
+    },
+    {
+     "D_emotion": "playful_teasing",
+     "n": 489,
+     "med": 60.0,
+     "p25": 0.0,
+     "p75": 420.0
+    },
+    {
+     "D_emotion": "affection",
+     "n": 130,
+     "med": 120.0,
+     "p25": 60.0,
+     "p75": 375.0
+    },
+    {
+     "D_emotion": "joy_excitement",
+     "n": 369,
+     "med": 120.0,
+     "p25": 0.0,
+     "p75": 600.0
+    },
+    {
+     "D_emotion": "curiosity_interest",
+     "n": 273,
+     "med": 180.0,
+     "p25": 0.0,
+     "p75": 465.0
+    }
+   ],
+   "by_seriousness": [
+    {
+     "ser": 0.0,
+     "size": 761,
+     "median": 60.0
+    },
+    {
+     "ser": 1.0,
+     "size": 2014,
+     "median": 60.0
+    },
+    {
+     "ser": 2.0,
+     "size": 209,
+     "median": 60.0
+    },
+    {
+     "ser": 3.0,
+     "size": 16,
+     "median": 360.0
+    }
+   ],
+   "corr_latency": {
+    "D_engagement": {
+     "rho": -0.054,
+     "p": 0.0082,
+     "rho_within_spk": -0.083,
+     "p_w": 5.3e-05,
+     "n": 2381
+    },
+    "D_seriousness": {
+     "rho": 0.059,
+     "p": 0.0042,
+     "rho_within_spk": 0.066,
+     "p_w": 0.0013,
+     "n": 2381
+    },
+    "D_vulnerable": {
+     "rho": 0.02,
+     "p": 0.34,
+     "rho_within_spk": 0.027,
+     "p_w": 0.19,
+     "n": 2381
+    },
+    "D_anxious": {
+     "rho": -0.04,
+     "p": 0.051,
+     "rho_within_spk": 0.025,
+     "p_w": 0.22,
+     "n": 2381
+    },
+    "D_arousal": {
+     "rho": -0.025,
+     "p": 0.23,
+     "rho_within_spk": -0.045,
+     "p_w": 0.029,
+     "n": 2381
+    },
+    "D_playful": {
+     "rho": -0.039,
+     "p": 0.057,
+     "rho_within_spk": -0.056,
+     "p_w": 0.0067,
+     "n": 2381
+    },
+    "D_valence": {
+     "rho": 0.041,
+     "p": 0.046,
+     "rho_within_spk": -0.011,
+     "p_w": 0.58,
+     "n": 2381
+    },
+    "prevD_seriousness": {
+     "rho": 0.031,
+     "p": 0.14,
+     "rho_within_spk": 0.021,
+     "p_w": 0.32,
+     "n": 2347
+    },
+    "prevD_vulnerable": {
+     "rho": 0.016,
+     "p": 0.45,
+     "rho_within_spk": 0.006,
+     "p_w": 0.79,
+     "n": 2347
+    },
+    "prevD_seeks_support": {
+     "rho": -0.038,
+     "p": 0.064,
+     "rho_within_spk": 0.006,
+     "p_w": 0.79,
+     "n": 2347
+    },
+    "prevD_hook": {
+     "rho": 0.104,
+     "p": 4.5e-07,
+     "rho_within_spk": 0.073,
+     "p_w": 0.00042,
+     "n": 2347
+    },
+    "prevD_engagement": {
+     "rho": 0.009,
+     "p": 0.67,
+     "rho_within_spk": -0.036,
+     "p_w": 0.083,
+     "n": 2347
+    },
+    "prevD_tension": {
+     "rho": -0.073,
+     "p": 0.00037,
+     "rho_within_spk": -0.013,
+     "p_w": 0.52,
+     "n": 2347
+    },
+    "prev_partner_chars": {
+     "rho": 0.15,
+     "p": 1.9e-13,
+     "rho_within_spk": 0.076,
+     "p_w": 0.00019,
+     "n": 2381
+    },
+    "prev_partner_latency": {
+     "rho": 0.443,
+     "p": 6.4e-91,
+     "rho_within_spk": 0.361,
+     "p_w": 5.1e-59,
+     "n": 1878
+    }
+   },
+   "lat_after_partner_q": {
+    "q": 120.0,
+    "no_q": 60.0,
+    "mwu_p": 5.5e-07
+   },
+   "lat_after_partner_vulnerable>=.5": {
+    "vuln": {
+     "n": 311,
+     "p10": 0.0,
+     "p25": 0.0,
+     "med": 120.0,
+     "p75": 420.0,
+     "p90": 1560.0
+    },
+    "not": {
+     "n": 1438,
+     "p10": 0.0,
+     "p25": 0.0,
+     "med": 60.0,
+     "p75": 420.0,
+     "p90": 2718.0
+    }
+   },
+   "reciprocity_rho(my_lat, partner_next_lat)": 0.366,
+   "reciprocity_within_conv": 0.316,
+   "rho(my_lat, partner_next_chars)": 0.054
+  }
+ },
+ "whatsapp_lat_vs_session_end": [
+  {
+   "lat_b": "<1m",
+   "n": "10066",
+   "p_last": "0.06",
+   "next_partner_lat_med": "0.0",
+   "nm": "1.754",
+   "chars": "31.0"
+  },
+  {
+   "lat_b": "1m",
+   "n": "6540",
+   "p_last": "0.086",
+   "next_partner_lat_med": "0.0",
+   "nm": "1.762",
+   "chars": "37.0"
+  },
+  {
+   "lat_b": "2-5m",
+   "n": "5310",
+   "p_last": "0.108",
+   "next_partner_lat_med": "60.0",
+   "nm": "1.867",
+   "chars": "40.0"
+  },
+  {
+   "lat_b": "6-30m",
+   "n": "4223",
+   "p_last": "0.153",
+   "next_partner_lat_med": "180.0",
+   "nm": "1.931",
+   "chars": "40.0"
+  },
+  {
+   "lat_b": "31-60m",
+   "n": "1032",
+   "p_last": "0.185",
+   "next_partner_lat_med": "240.0",
+   "nm": "1.873",
+   "chars": "41.0"
+  },
+  {
+   "lat_b": "1-3h",
+   "n": "1059",
+   "p_last": "0.229",
+   "next_partner_lat_med": "300.0",
+   "nm": "1.775",
+   "chars": "40.0"
+  }
+ ]
+}

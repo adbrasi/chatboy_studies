@@ -1,0 +1,1012 @@
+{
+ "contagion": {
+  "maichat": {
+   "D_valence": {
+    "n": 2826,
+    "r_partner_prev": 0.431,
+    "r_own_prev": 0.472,
+    "r_partner_shuffled_same_conv": 0.22,
+    "r_within_conv": 0.274
+   },
+   "D_seriousness": {
+    "n": 2826,
+    "r_partner_prev": 0.766,
+    "r_own_prev": 0.644,
+    "r_partner_shuffled_same_conv": 0.303,
+    "r_within_conv": 0.665
+   },
+   "D_playful": {
+    "n": 2826,
+    "r_partner_prev": 0.562,
+    "r_own_prev": 0.504,
+    "r_partner_shuffled_same_conv": 0.332,
+    "r_within_conv": 0.343
+   },
+   "D_arousal": {
+    "n": 2826,
+    "r_partner_prev": 0.282,
+    "r_own_prev": 0.357,
+    "r_partner_shuffled_same_conv": 0.15,
+    "r_within_conv": 0.154
+   }
+  },
+  "whatsapp_nl": {
+   "D_valence": {
+    "n": 2629,
+    "r_partner_prev": 0.441,
+    "r_own_prev": 0.445,
+    "r_partner_shuffled_same_conv": 0.197,
+    "r_within_conv": 0.303
+   },
+   "D_seriousness": {
+    "n": 2629,
+    "r_partner_prev": 0.784,
+    "r_own_prev": 0.7,
+    "r_partner_shuffled_same_conv": 0.354,
+    "r_within_conv": 0.669
+   },
+   "D_playful": {
+    "n": 2629,
+    "r_partner_prev": 0.488,
+    "r_own_prev": 0.483,
+    "r_partner_shuffled_same_conv": 0.225,
+    "r_within_conv": 0.341
+   },
+   "D_arousal": {
+    "n": 2629,
+    "r_partner_prev": 0.278,
+    "r_own_prev": 0.376,
+    "r_partner_shuffled_same_conv": 0.123,
+    "r_within_conv": 0.179
+   }
+  },
+  "all": {
+   "D_valence": {
+    "n": 5455,
+    "r_partner_prev": 0.443,
+    "r_own_prev": 0.467,
+    "r_partner_shuffled_same_conv": 0.217,
+    "r_within_conv": 0.287
+   },
+   "D_seriousness": {
+    "n": 5455,
+    "r_partner_prev": 0.802,
+    "r_own_prev": 0.709,
+    "r_partner_shuffled_same_conv": 0.406,
+    "r_within_conv": 0.667
+   },
+   "D_playful": {
+    "n": 5455,
+    "r_partner_prev": 0.547,
+    "r_own_prev": 0.515,
+    "r_partner_shuffled_same_conv": 0.312,
+    "r_within_conv": 0.342
+   },
+   "D_arousal": {
+    "n": 5455,
+    "r_partner_prev": 0.282,
+    "r_own_prev": 0.366,
+    "r_partner_shuffled_same_conv": 0.141,
+    "r_within_conv": 0.166
+   }
+  }
+ },
+ "contagion_deterministic": {
+  "maichat": {
+   "laugh": {
+    "p_if_partner_did": 0.176,
+    "p_if_partner_didnt": 0.041,
+    "n_did": 131
+   },
+   "emoji_any": {
+    "p_if_partner_did": 0.168,
+    "p_if_partner_didnt": 0.039,
+    "n_did": 113
+   }
+  },
+  "whatsapp_nl": {
+   "laugh": {
+    "p_if_partner_did": 0.36,
+    "p_if_partner_didnt": 0.179,
+    "n_did": 542
+   },
+   "emoji_any": {
+    "p_if_partner_did": 0.364,
+    "p_if_partner_didnt": 0.113,
+    "n_did": 390
+   }
+  },
+  "all": {
+   "laugh": {
+    "p_if_partner_did": 0.324,
+    "p_if_partner_didnt": 0.101,
+    "n_did": 673
+   },
+   "emoji_any": {
+    "p_if_partner_did": 0.32,
+    "p_if_partner_didnt": 0.072,
+    "n_did": 503
+   }
+  }
+ },
+ "contagion_det_paired": {
+  "maichat:laugh": {
+   "n_conv": 31,
+   "mean_p_if_partner_did": 0.12,
+   "mean_p_if_partner_didnt": 0.061,
+   "share_conv_higher": 0.355
+  },
+  "maichat:emoji_any": {
+   "n_conv": 29,
+   "mean_p_if_partner_did": 0.061,
+   "mean_p_if_partner_didnt": 0.063,
+   "share_conv_higher": 0.138
+  },
+  "whatsapp_nl:laugh": {
+   "n_conv": 55,
+   "mean_p_if_partner_did": 0.287,
+   "mean_p_if_partner_didnt": 0.216,
+   "share_conv_higher": 0.545
+  },
+  "whatsapp_nl:emoji_any": {
+   "n_conv": 48,
+   "mean_p_if_partner_did": 0.216,
+   "mean_p_if_partner_didnt": 0.17,
+   "share_conv_higher": 0.458
+  }
+ },
+ "valence_by_partner_bin": [
+  {
+   "corpus": "maichat",
+   "pb": "neg",
+   "mean": 1.87,
+   "count": 483
+  },
+  {
+   "corpus": "maichat",
+   "pb": "neu",
+   "mean": 2.14,
+   "count": 1141
+  },
+  {
+   "corpus": "maichat",
+   "pb": "pos",
+   "mean": 2.65,
+   "count": 1202
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "pb": "neg",
+   "mean": 2.0,
+   "count": 273
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "pb": "neu",
+   "mean": 2.29,
+   "count": 1031
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "pb": "pos",
+   "mean": 2.76,
+   "count": 1325
+  }
+ ],
+ "after_serious": [
+  {
+   "corpus": "maichat",
+   "cond": "prev_serious",
+   "flag": true,
+   "n": 128,
+   "laugh": 0.031,
+   "emoji": 0.039,
+   "playful": 0.438,
+   "chars_median": 27.5,
+   "chars_mean": 39.1,
+   "n_msgs_mean": 1.36,
+   "has_q": 0.172,
+   "latency_median_s": 12.032,
+   "serious_self": 0.484,
+   "comfort_intent": 0.039
+  },
+  {
+   "corpus": "maichat",
+   "cond": "prev_serious",
+   "flag": false,
+   "n": 2698,
+   "laugh": 0.048,
+   "emoji": 0.044,
+   "playful": 0.681,
+   "chars_median": 24.5,
+   "chars_mean": 36.1,
+   "n_msgs_mean": 1.46,
+   "has_q": 0.09,
+   "latency_median_s": 13.9405,
+   "serious_self": 0.024,
+   "comfort_intent": 0.007
+  },
+  {
+   "corpus": "maichat",
+   "cond": "prev_vuln",
+   "flag": true,
+   "n": 306,
+   "laugh": 0.046,
+   "emoji": 0.059,
+   "playful": 0.778,
+   "chars_median": 23.0,
+   "chars_mean": 33.0,
+   "n_msgs_mean": 1.37,
+   "has_q": 0.072,
+   "latency_median_s": 15.5415,
+   "serious_self": 0.085,
+   "comfort_intent": 0.042
+  },
+  {
+   "corpus": "maichat",
+   "cond": "prev_vuln",
+   "flag": false,
+   "n": 2520,
+   "laugh": 0.047,
+   "emoji": 0.042,
+   "playful": 0.657,
+   "chars_median": 25.0,
+   "chars_mean": 36.6,
+   "n_msgs_mean": 1.47,
+   "has_q": 0.096,
+   "latency_median_s": 13.4315,
+   "serious_self": 0.04,
+   "comfort_intent": 0.004
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "cond": "prev_serious",
+   "flag": true,
+   "n": 316,
+   "laugh": 0.13,
+   "emoji": 0.111,
+   "playful": 0.301,
+   "chars_median": 51.5,
+   "chars_mean": 73.7,
+   "n_msgs_mean": 1.89,
+   "has_q": 0.266,
+   "latency_median_s": 60.0,
+   "serious_self": 0.642,
+   "comfort_intent": 0.07
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "cond": "prev_serious",
+   "flag": false,
+   "n": 2313,
+   "laugh": 0.228,
+   "emoji": 0.155,
+   "playful": 0.502,
+   "chars_median": 39.0,
+   "chars_mean": 58.4,
+   "n_msgs_mean": 1.75,
+   "has_q": 0.22,
+   "latency_median_s": 60.0,
+   "serious_self": 0.044,
+   "comfort_intent": 0.024
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "cond": "prev_vuln",
+   "flag": true,
+   "n": 385,
+   "laugh": 0.283,
+   "emoji": 0.166,
+   "playful": 0.522,
+   "chars_median": 54.0,
+   "chars_mean": 74.8,
+   "n_msgs_mean": 1.95,
+   "has_q": 0.262,
+   "latency_median_s": 60.0,
+   "serious_self": 0.231,
+   "comfort_intent": 0.091
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "cond": "prev_vuln",
+   "flag": false,
+   "n": 2244,
+   "laugh": 0.205,
+   "emoji": 0.147,
+   "playful": 0.471,
+   "chars_median": 39.0,
+   "chars_mean": 57.7,
+   "n_msgs_mean": 1.74,
+   "has_q": 0.219,
+   "latency_median_s": 60.0,
+   "serious_self": 0.096,
+   "comfort_intent": 0.019
+  }
+ ],
+ "after_serious_paired_by_corpus": {
+  "maichat:prev_serious:laugh": {
+   "n_conv": 26,
+   "mean_diff": 0.042,
+   "ci95": [
+    -0.035,
+    0.143
+   ]
+  },
+  "maichat:prev_serious:emoji_any": {
+   "n_conv": 26,
+   "mean_diff": 0.028,
+   "ci95": [
+    -0.028,
+    0.096
+   ]
+  },
+  "maichat:prev_serious:total_chars": {
+   "n_conv": 26,
+   "mean_diff": 6.445,
+   "ci95": [
+    0.479,
+    14.145
+   ]
+  },
+  "maichat:prev_serious:playful": {
+   "n_conv": 26,
+   "mean_diff": -0.099,
+   "ci95": [
+    -0.21,
+    -0.0
+   ]
+  },
+  "maichat:prev_serious:has_q": {
+   "n_conv": 26,
+   "mean_diff": 0.02,
+   "ci95": [
+    -0.042,
+    0.085
+   ]
+  },
+  "maichat:prev_serious:n_msgs": {
+   "n_conv": 26,
+   "mean_diff": 0.012,
+   "ci95": [
+    -0.162,
+    0.202
+   ]
+  },
+  "maichat:prev_serious:response_latency_s": {
+   "n_conv": 26,
+   "mean_diff": -6.287,
+   "ci95": [
+    -15.934,
+    0.496
+   ]
+  },
+  "maichat:prev_vuln:laugh": {
+   "n_conv": 41,
+   "mean_diff": 0.004,
+   "ci95": [
+    -0.023,
+    0.033
+   ]
+  },
+  "maichat:prev_vuln:emoji_any": {
+   "n_conv": 41,
+   "mean_diff": 0.009,
+   "ci95": [
+    -0.016,
+    0.037
+   ]
+  },
+  "maichat:prev_vuln:total_chars": {
+   "n_conv": 41,
+   "mean_diff": -0.304,
+   "ci95": [
+    -5.302,
+    5.314
+   ]
+  },
+  "maichat:prev_vuln:playful": {
+   "n_conv": 41,
+   "mean_diff": 0.06,
+   "ci95": [
+    0.003,
+    0.114
+   ]
+  },
+  "maichat:prev_vuln:has_q": {
+   "n_conv": 41,
+   "mean_diff": -0.031,
+   "ci95": [
+    -0.082,
+    0.025
+   ]
+  },
+  "maichat:prev_vuln:n_msgs": {
+   "n_conv": 41,
+   "mean_diff": -0.038,
+   "ci95": [
+    -0.119,
+    0.038
+   ]
+  },
+  "maichat:prev_vuln:response_latency_s": {
+   "n_conv": 41,
+   "mean_diff": -3.136,
+   "ci95": [
+    -9.796,
+    1.0
+   ]
+  },
+  "whatsapp_nl:prev_serious:laugh": {
+   "n_conv": 44,
+   "mean_diff": -0.004,
+   "ci95": [
+    -0.087,
+    0.076
+   ]
+  },
+  "whatsapp_nl:prev_serious:emoji_any": {
+   "n_conv": 44,
+   "mean_diff": -0.068,
+   "ci95": [
+    -0.118,
+    -0.017
+   ]
+  },
+  "whatsapp_nl:prev_serious:total_chars": {
+   "n_conv": 44,
+   "mean_diff": 5.958,
+   "ci95": [
+    -5.533,
+    17.991
+   ]
+  },
+  "whatsapp_nl:prev_serious:playful": {
+   "n_conv": 44,
+   "mean_diff": -0.07,
+   "ci95": [
+    -0.17,
+    0.025
+   ]
+  },
+  "whatsapp_nl:prev_serious:has_q": {
+   "n_conv": 44,
+   "mean_diff": 0.04,
+   "ci95": [
+    -0.048,
+    0.142
+   ]
+  },
+  "whatsapp_nl:prev_serious:n_msgs": {
+   "n_conv": 44,
+   "mean_diff": 0.0,
+   "ci95": [
+    -0.179,
+    0.187
+   ]
+  },
+  "whatsapp_nl:prev_serious:response_latency_s": {
+   "n_conv": 44,
+   "mean_diff": 117.738,
+   "ci95": [
+    -165.032,
+    462.541
+   ]
+  },
+  "whatsapp_nl:prev_vuln:laugh": {
+   "n_conv": 58,
+   "mean_diff": 0.091,
+   "ci95": [
+    0.029,
+    0.16
+   ]
+  },
+  "whatsapp_nl:prev_vuln:emoji_any": {
+   "n_conv": 58,
+   "mean_diff": -0.017,
+   "ci95": [
+    -0.061,
+    0.029
+   ]
+  },
+  "whatsapp_nl:prev_vuln:total_chars": {
+   "n_conv": 58,
+   "mean_diff": 13.656,
+   "ci95": [
+    2.562,
+    25.191
+   ]
+  },
+  "whatsapp_nl:prev_vuln:playful": {
+   "n_conv": 58,
+   "mean_diff": 0.067,
+   "ci95": [
+    -0.006,
+    0.137
+   ]
+  },
+  "whatsapp_nl:prev_vuln:has_q": {
+   "n_conv": 58,
+   "mean_diff": -0.01,
+   "ci95": [
+    -0.081,
+    0.058
+   ]
+  },
+  "whatsapp_nl:prev_vuln:n_msgs": {
+   "n_conv": 58,
+   "mean_diff": 0.112,
+   "ci95": [
+    -0.031,
+    0.244
+   ]
+  },
+  "whatsapp_nl:prev_vuln:response_latency_s": {
+   "n_conv": 58,
+   "mean_diff": -66.379,
+   "ci95": [
+    -321.67,
+    194.707
+   ]
+  }
+ },
+ "after_serious_paired": {
+  "laugh": {
+   "n_conv": 70,
+   "mean_diff": 0.013,
+   "share_conv_lower": 0.557
+  },
+  "emoji_any": {
+   "n_conv": 70,
+   "mean_diff": -0.033,
+   "share_conv_lower": 0.614
+  },
+  "total_chars": {
+   "n_conv": 70,
+   "mean_diff": 6.139,
+   "share_conv_lower": 0.429
+  },
+  "playful": {
+   "n_conv": 70,
+   "mean_diff": -0.081,
+   "share_conv_lower": 0.629
+  }
+ },
+ "after_vuln_paired": {
+  "laugh": {
+   "n_conv": 99,
+   "mean_diff": 0.055,
+   "share_conv_lower": 0.404
+  },
+  "emoji_any": {
+   "n_conv": 99,
+   "mean_diff": -0.006,
+   "share_conv_lower": 0.535
+  },
+  "total_chars": {
+   "n_conv": 99,
+   "mean_diff": 7.875,
+   "share_conv_lower": 0.444
+  },
+  "playful": {
+   "n_conv": 99,
+   "mean_diff": 0.064,
+   "share_conv_lower": 0.313
+  }
+ },
+ "wa_latency_after_serious": {
+  "False": {
+   "n": 2311,
+   "p_under_2min": 0.552,
+   "median_s": 60.0
+  },
+  "True": {
+   "n": 316,
+   "p_under_2min": 0.601,
+   "median_s": 60.0
+  }
+ },
+ "mai_latency_after_serious": {
+  "False": {
+   "n": 2698,
+   "median_s": 13.9405,
+   "compose_median": null
+  },
+  "True": {
+   "n": 128,
+   "median_s": 12.032,
+   "compose_median": null
+  }
+ },
+ "humor_return": {
+  "maichat": {
+   "n_episodes": 66,
+   "episode_len_mean": 1.94,
+   "share_returned": 0.985,
+   "turns_to_humor_median": 2.0,
+   "turns_to_humor_q": [
+    1.0,
+    3.0
+   ],
+   "who_other": 0.754,
+   "within_2_turns": 0.692
+  },
+  "whatsapp_nl": {
+   "n_episodes": 158,
+   "episode_len_mean": 2.28,
+   "share_returned": 0.582,
+   "turns_to_humor_median": 1.0,
+   "turns_to_humor_q": [
+    1.0,
+    3.0
+   ],
+   "who_other": 0.739,
+   "within_2_turns": 0.696
+  },
+  "all": {
+   "n_episodes": 224,
+   "episode_len_mean": 2.18,
+   "share_returned": 0.701,
+   "turns_to_humor_median": 1.0,
+   "turns_to_humor_q": [
+    1.0,
+    3.0
+   ],
+   "who_other": 0.745,
+   "within_2_turns": 0.694
+  }
+ },
+ "humor_return_after_serious_end": {
+  "maichat": {
+   "n": 66,
+   "p_humor_next_turn": 0.697,
+   "p_humor_within_10": 0.939,
+   "k_median": 1.0,
+   "who_other_share": 0.871,
+   "via_laugh_share": 0.113
+  },
+  "whatsapp_nl": {
+   "n": 113,
+   "p_humor_next_turn": 0.531,
+   "p_humor_within_10": 0.752,
+   "k_median": 1.0,
+   "who_other_share": 0.812,
+   "via_laugh_share": 0.341
+  },
+  "all": {
+   "n": 179,
+   "p_humor_next_turn": 0.592,
+   "p_humor_within_10": 0.821,
+   "k_median": 1.0,
+   "who_other_share": 0.837,
+   "via_laugh_share": 0.245
+  }
+ },
+ "humor_return_baseline_nonserious_nonhumor": {
+  "maichat": {
+   "n": 837,
+   "p_humor_next_turn": 0.401,
+   "p_humor_within_10": 0.87,
+   "k_median": 2.0,
+   "who_other_share": 0.676,
+   "via_laugh_share": 0.111
+  },
+  "whatsapp_nl": {
+   "n": 1081,
+   "p_humor_next_turn": 0.318,
+   "p_humor_within_10": 0.641,
+   "k_median": 2.0,
+   "who_other_share": 0.691,
+   "via_laugh_share": 0.39
+  },
+  "all": {
+   "n": 1918,
+   "p_humor_next_turn": 0.355,
+   "p_humor_within_10": 0.741,
+   "k_median": 2.0,
+   "who_other_share": 0.683,
+   "via_laugh_share": 0.247
+  }
+ },
+ "laugh_given_prev": {
+  "maichat": {
+   "p_laugh_base": 0.047,
+   "p_laugh_after_partner_joke": 0.055,
+   "p_laugh_after_partner_nonjoke": 0.039,
+   "p_laugh_after_partner_laugh": 0.176,
+   "n_partner_joke": 1429,
+   "share_laughs_preceded_by_joke": 0.586,
+   "share_turns_preceded_by_joke": 0.506,
+   "p_joker_laughs_in_own_joke_turn": 0.084,
+   "p_listener_laughs_next": 0.055
+  },
+  "whatsapp_nl": {
+   "p_laugh_base": 0.216,
+   "p_laugh_after_partner_joke": 0.363,
+   "p_laugh_after_partner_nonjoke": 0.14,
+   "p_laugh_after_partner_laugh": 0.36,
+   "n_partner_joke": 897,
+   "share_laughs_preceded_by_joke": 0.574,
+   "share_turns_preceded_by_joke": 0.341,
+   "p_joker_laughs_in_own_joke_turn": 0.504,
+   "p_listener_laughs_next": 0.363
+  },
+  "all": {
+   "p_laugh_base": 0.129,
+   "p_laugh_after_partner_joke": 0.174,
+   "p_laugh_after_partner_nonjoke": 0.095,
+   "p_laugh_after_partner_laugh": 0.324,
+   "n_partner_joke": 2326,
+   "share_laughs_preceded_by_joke": 0.576,
+   "share_turns_preceded_by_joke": 0.426,
+   "p_joker_laughs_in_own_joke_turn": 0.245,
+   "p_listener_laughs_next": 0.174
+  }
+ },
+ "prev_intent_by_laugh": {
+  "false": {
+   "answer": 0.2,
+   "ask_question": 0.194,
+   "change_topic": 0.01,
+   "closing": 0.024,
+   "comfort_support": 0.016,
+   "compliment_affection": 0.017,
+   "disagree_complain": 0.059,
+   "greet": 0.015,
+   "joke_tease": 0.11,
+   "make_plans_logistics": 0.08,
+   "react_acknowledge": 0.133,
+   "share_feeling": 0.04,
+   "share_story_or_info": 0.1
+  },
+  "true": {
+   "answer": 0.194,
+   "ask_question": 0.151,
+   "change_topic": 0.003,
+   "closing": 0.01,
+   "comfort_support": 0.026,
+   "compliment_affection": 0.026,
+   "disagree_complain": 0.037,
+   "greet": 0.007,
+   "joke_tease": 0.151,
+   "make_plans_logistics": 0.074,
+   "react_acknowledge": 0.13,
+   "share_feeling": 0.049,
+   "share_story_or_info": 0.143
+  }
+ },
+ "own_intent_by_laugh": {
+  "false": {
+   "answer": 0.199,
+   "ask_question": 0.19,
+   "change_topic": 0.009,
+   "closing": 0.03,
+   "comfort_support": 0.018,
+   "compliment_affection": 0.019,
+   "disagree_complain": 0.058,
+   "greet": 0.017,
+   "joke_tease": 0.102,
+   "make_plans_logistics": 0.084,
+   "react_acknowledge": 0.131,
+   "share_feeling": 0.039,
+   "share_story_or_info": 0.104
+  },
+  "true": {
+   "answer": 0.152,
+   "ask_question": 0.133,
+   "change_topic": 0.003,
+   "closing": 0.021,
+   "comfort_support": 0.021,
+   "compliment_affection": 0.012,
+   "disagree_complain": 0.019,
+   "greet": 0.003,
+   "joke_tease": 0.152,
+   "make_plans_logistics": 0.063,
+   "react_acknowledge": 0.258,
+   "share_feeling": 0.042,
+   "share_story_or_info": 0.122
+  }
+ },
+ "laugh_in_complaint_turns": {
+  "maichat": {
+   "p_laugh_if_complain": 0.012,
+   "n_complain": 240,
+   "p_laugh_if_tension": 0.009,
+   "n_tension": 462,
+   "p_laugh_base": 0.046
+  },
+  "whatsapp_nl": {
+   "p_laugh_if_complain": 0.147,
+   "n_complain": 75,
+   "p_laugh_if_tension": 0.062,
+   "n_tension": 112,
+   "p_laugh_base": 0.198
+  }
+ },
+ "laugh_position": {
+  "maichat": {
+   "end": 0.286,
+   "middle": 0.286,
+   "only": 0.113,
+   "start": 0.316
+  },
+  "whatsapp_nl": {
+   "end": 0.199,
+   "middle": 0.283,
+   "only": 0.071,
+   "start": 0.446
+  }
+ },
+ "joke_welcome": {
+  "maichat": {
+   "n": 2826,
+   "auc_predicts_S_jokes": 0.766,
+   "auc_predicts_S_playful": 0.789,
+   "auc_predicts_S_laugh": 0.527,
+   "n_S_joked_with_next": 1421,
+   "auc_welcome_predicts_reception": 0.609,
+   "reception_by_bin": [
+    {
+     "p_joke_welcome": "low<.3",
+     "mean": "0.769",
+     "count": "13"
+    },
+    {
+     "p_joke_welcome": "mid",
+     "mean": "0.797",
+     "count": "492"
+    },
+    {
+     "p_joke_welcome": "high>=.6",
+     "mean": "0.879",
+     "count": "916"
+    }
+   ],
+   "partner_laughs_by_bin": {
+    "low<.3": "0.154",
+    "mid": "0.069",
+    "high>=.6": "0.046"
+   }
+  },
+  "whatsapp_nl": {
+   "n": 2665,
+   "auc_predicts_S_jokes": 0.76,
+   "auc_predicts_S_playful": 0.779,
+   "auc_predicts_S_laugh": 0.692,
+   "n_S_joked_with_next": 817,
+   "auc_welcome_predicts_reception": 0.68,
+   "reception_by_bin": [
+    {
+     "p_joke_welcome": "low<.3",
+     "mean": "0.447",
+     "count": "47"
+    },
+    {
+     "p_joke_welcome": "mid",
+     "mean": "0.694",
+     "count": "448"
+    },
+    {
+     "p_joke_welcome": "high>=.6",
+     "mean": "0.87",
+     "count": "322"
+    }
+   ],
+   "partner_laughs_by_bin": {
+    "low<.3": "0.234",
+    "mid": "0.371",
+    "high>=.6": "0.391"
+   }
+  },
+  "all": {
+   "n": 5491,
+   "auc_predicts_S_jokes": 0.777,
+   "auc_predicts_S_playful": 0.8,
+   "auc_predicts_S_laugh": 0.56,
+   "n_S_joked_with_next": 2238,
+   "auc_welcome_predicts_reception": 0.658,
+   "reception_by_bin": [
+    {
+     "p_joke_welcome": "low<.3",
+     "mean": "0.517",
+     "count": "60"
+    },
+    {
+     "p_joke_welcome": "mid",
+     "mean": "0.748",
+     "count": "940"
+    },
+    {
+     "p_joke_welcome": "high>=.6",
+     "mean": "0.876",
+     "count": "1238"
+    }
+   ],
+   "partner_laughs_by_bin": {
+    "low<.3": "0.217",
+    "mid": "0.213",
+    "high>=.6": "0.136"
+   }
+  }
+ },
+ "joke_welcome_by_prev_serious": {
+  "maichat|prev_serious=False": 0.581,
+  "maichat|prev_serious=True": 0.393,
+  "whatsapp_nl|prev_serious=False": 0.47,
+  "whatsapp_nl|prev_serious=True": 0.325
+ },
+ "P_detectors": {
+  "maichat": {
+   "brincar: auc tone_playful->playful": 0.76,
+   "brincar: auc p_laugh->laugh": 0.632,
+   "serio: auc tone_support->serious": 0.814,
+   "acolher: auc tone_support->comfort_intent": 0.794,
+   "perguntar: auc p_question->has_q": 0.61,
+   "base_rates": {
+    "playful": 0.67,
+    "serious": 0.045,
+    "comfort": 0.008,
+    "has_q": 0.094
+   }
+  },
+  "whatsapp_nl": {
+   "brincar: auc tone_playful->playful": 0.766,
+   "brincar: auc p_laugh->laugh": 0.7,
+   "serio: auc tone_support->serious": 0.857,
+   "acolher: auc tone_support->comfort_intent": 0.725,
+   "perguntar: auc p_question->has_q": 0.609,
+   "base_rates": {
+    "playful": 0.477,
+    "serious": 0.116,
+    "comfort": 0.03,
+    "has_q": 0.225
+   }
+  },
+  "all": {
+   "brincar: auc tone_playful->playful": 0.78,
+   "brincar: auc p_laugh->laugh": 0.638,
+   "serio: auc tone_support->serious": 0.856,
+   "acolher: auc tone_support->comfort_intent": 0.771,
+   "perguntar: auc p_question->has_q": 0.624,
+   "base_rates": {
+    "playful": 0.576,
+    "serious": 0.079,
+    "comfort": 0.019,
+    "has_q": 0.158
+   }
+  }
+ },
+ "after_seeks_support_intent": {
+  "maichat": {
+   "answer": 0.12,
+   "ask_question": 0.154,
+   "change_topic": 0.009,
+   "closing": 0.0,
+   "comfort_support": 0.085,
+   "compliment_affection": 0.017,
+   "disagree_complain": 0.06,
+   "joke_tease": 0.308,
+   "make_plans_logistics": 0.034,
+   "react_acknowledge": 0.111,
+   "share_feeling": 0.06,
+   "share_story_or_info": 0.043
+  },
+  "whatsapp_nl": {
+   "answer": 0.134,
+   "ask_question": 0.173,
+   "change_topic": 0.0,
+   "closing": 0.016,
+   "comfort_support": 0.142,
+   "compliment_affection": 0.0,
+   "disagree_complain": 0.031,
+   "joke_tease": 0.071,
+   "make_plans_logistics": 0.142,
+   "react_acknowledge": 0.15,
+   "share_feeling": 0.024,
+   "share_story_or_info": 0.118
+  }
+ },
+ "after_seeks_support_n": {
+  "maichat": 117,
+  "whatsapp_nl": 127
+ }
+}
