@@ -5,7 +5,7 @@ a trajetória da v3d (pendências resolvidas mais cedo). Saída: adiciona 'FULL@
 import json, copy
 import numpy as np
 import c2_scen_run as R
-from c2_common import jev, physics_step, RelState, DEFAULT_BASE, jdump, ADATA
+from c2_common import jev, physics_step, RelState, DEFAULT_BASE, jdump, ADATA, PROC
 
 orig = jev.ask
 
@@ -63,7 +63,7 @@ def run_offline(name, spec):
 
 
 if __name__ == "__main__":
-    path = f"{ADATA}/c2_scen_results.json"
+    path = f"{PROC}/c2_scen_results.json"
     allres = json.load(open(path))
     for label, sv in (("FULL@v3c_offline_check", "v3c"), ("FULL@v3d_offline", "v3d"),
                       ("FULL@v3c+relief_offline", "v3c+relief"), ("FULL@v3e_offline", "v3e")):

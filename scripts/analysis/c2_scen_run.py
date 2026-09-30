@@ -5,11 +5,11 @@ plausibilidade PRÉ-REGISTRADOS (escritos antes de rodar; ver CRIT abaixo). Abla
   P        magnitude inferida só do Jev 1 (sem Jev 2)
   NOSTATE  Jev 1 sem bloco de estado/pendências (só turnos) + Jev 2 Score + física
   NAIVE    Jev 1 com estado + Jev 2 Score, mas física ingênua: delta cru, sem saturação/decaimento/histerese/AND
-Saída: analysis/data/c2_scen_results.json (trajetórias + critérios)"""
+Saída: data/processed/c2_scen_results.json (trajetórias + critérios)"""
 import json, sys, copy, time
 import numpy as np
 from concurrent.futures import ThreadPoolExecutor
-from c2_common import (jev, DIMS, jev1_bank, jev2_questions, make_state, RelState, DEFAULT_BASE, SPEC, physics_step,
+from c2_common import (PROC, jev, DIMS, jev1_bank, jev2_questions, make_state, RelState, DEFAULT_BASE, SPEC, physics_step,
                        active_dims, ADATA, jdump)
 
 C, U = "Mia", "Leo"
@@ -257,7 +257,7 @@ def check(name, res):
 
 
 def main(cfgs):
-    path = f"{ADATA}/c2_scen_results.json"
+    path = f"{PROC}/c2_scen_results.json"
     try:
         allres = json.load(open(path))
     except Exception:

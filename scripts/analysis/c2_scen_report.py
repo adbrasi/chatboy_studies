@@ -2,9 +2,9 @@
 critérios globais (saturação, oscilação, salto), e exemplos de trajetória. Saída: analysis/data/c2_scen_summary.json"""
 import json
 import numpy as np
-from c2_common import ADATA, DIMS, jdump
+from c2_common import ADATA, PROC, DIMS, jdump
 
-R = json.load(open(f"{ADATA}/c2_scen_results.json"))
+R = json.load(open(f"{PROC}/c2_scen_results.json"))
 names = list(next(iter(R.values()))["scenarios"])
 DEV = [n for n in names if int(n[1:3]) % 2 == 1]
 out = {"configs": {}, "per_crit": {}}
