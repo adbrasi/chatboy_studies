@@ -1,0 +1,52 @@
+{
+ "whatsapp_nl": {
+  "n_sessions": 2937,
+  "last_kind": {
+   "statement": 0.614,
+   "laugh": 0.106,
+   "farewell/xx": 0.075,
+   "ack(ok/top/goed)": 0.07,
+   "emoji/media only": 0.067,
+   "question (unanswered)": 0.067
+  },
+  "closer_is_opener": 0.456,
+  "tail3_bye_turns_mean": 0.19,
+  "share_ending_with_bye_in_last3": 0.148
+ },
+ "maichat": {
+  "n_sessions": 42,
+  "last_kind": {
+   "farewell/xx": 0.548,
+   "statement": 0.357,
+   "ack(ok/top/goed)": 0.071,
+   "question (unanswered)": 0.024
+  },
+  "closer_is_opener": 0.524,
+  "tail3_bye_turns_mean": 1.29,
+  "share_ending_with_bye_in_last3": 0.762
+ },
+ "maichat_ritual": {
+  "ritual_turns_mean": 1.21,
+  "ritual_turns_median": 1.0,
+  "dist": {
+   "0": 16,
+   "1": 6,
+   "2": 15,
+   "3": 5
+  },
+  "share_with_pre_closing": 0.238,
+  "pre_closing_turns_before_end_median": 2.5,
+  "share_with_bye_in_last10": 0.786,
+  "turns_after_first_bye_dist": {
+   "0.0": 4,
+   "1.0": 16,
+   "2.0": 5,
+   "3.0": 2,
+   "4.0": 2,
+   "5.0": 1,
+   "6.0": 1,
+   "7.0": 1,
+   "9.0": 1
+  }
+ }
+}

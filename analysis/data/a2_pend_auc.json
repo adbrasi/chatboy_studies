@@ -1,0 +1,230 @@
+{
+ "maichat": {
+  "T_is_last": {
+   "n": 2826,
+   "pos": 42,
+   "P_p_end": 0.914,
+   "-prev_chars": 0.558,
+   "prev_bye": 0.777,
+   "prev_winding(D)": 0.821,
+   "-prev_engagement(D)": 0.677,
+   "turn_in_session": 0.798,
+   "-P_p_length": 0.783,
+   "-P_p_question": 0.823,
+   "P_p_end_CI": [
+    0.856,
+    0.96
+   ],
+   "combined_cv": 0.919
+  },
+  "T_closing(bye|intent)": {
+   "n": 2826,
+   "pos": 130,
+   "P_p_end": 0.774,
+   "-prev_chars": 0.562,
+   "prev_bye": 0.624,
+   "prev_winding(D)": 0.683,
+   "-prev_engagement(D)": 0.639,
+   "turn_in_session": 0.719,
+   "-P_p_length": 0.642,
+   "-P_p_question": 0.729,
+   "P_p_end_CI": [
+    0.727,
+    0.823
+   ],
+   "combined_cv": 0.802
+  },
+  "end_within_3": {
+   "n": 2826,
+   "pos": 126,
+   "P_p_end": 0.863,
+   "-prev_chars": 0.574,
+   "prev_bye": 0.628,
+   "prev_winding(D)": 0.71,
+   "-prev_engagement(D)": 0.626,
+   "turn_in_session": 0.799,
+   "-P_p_length": 0.725,
+   "-P_p_question": 0.808,
+   "P_p_end_CI": [
+    0.82,
+    0.908
+   ],
+   "combined_cv": 0.885
+  },
+  "horizon": {
+   "0": {
+    "mean_p_end": 0.311,
+    "auc_vs_far": 0.937,
+    "n": 42
+   },
+   "1": {
+    "mean_p_end": 0.236,
+    "auc_vs_far": 0.833,
+    "n": 42
+   },
+   "2": {
+    "mean_p_end": 0.255,
+    "auc_vs_far": 0.866,
+    "n": 42
+   },
+   "3": {
+    "mean_p_end": 0.24,
+    "auc_vs_far": 0.808,
+    "n": 42
+   },
+   "4": {
+    "mean_p_end": 0.206,
+    "auc_vs_far": 0.747,
+    "n": 42
+   },
+   "5": {
+    "mean_p_end": 0.188,
+    "auc_vs_far": 0.694,
+    "n": 42
+   },
+   "6": {
+    "mean_p_end": 0.179,
+    "auc_vs_far": 0.709,
+    "n": 42
+   },
+   "far(>=8)": {
+    "mean_p_end": 0.091,
+    "n": 2490
+   }
+  },
+  "thresholds": {
+   "0.3": {
+    "share_flagged": 0.037,
+    "prec_closing_T": 0.433,
+    "prec_end_within_3": 0.49,
+    "recall_closing_T": 0.346
+   },
+   "0.5": {
+    "share_flagged": 0.011,
+    "prec_closing_T": 0.467,
+    "prec_end_within_3": 0.333,
+    "recall_closing_T": 0.108
+   },
+   "0.7": {
+    "share_flagged": 0.0,
+    "prec_closing_T": 0.0,
+    "prec_end_within_3": 0.0,
+    "recall_closing_T": 0.0
+   }
+  }
+ },
+ "whatsapp_nl": {
+  "T_is_last": {
+   "n": 2665,
+   "pos": 337,
+   "P_p_end": 0.656,
+   "-prev_chars": 0.513,
+   "prev_bye": 0.538,
+   "prev_winding(D)": 0.543,
+   "-prev_engagement(D)": 0.572,
+   "turn_in_session": 0.407,
+   "-P_p_length": 0.539,
+   "-P_p_question": 0.591,
+   "P_p_end_CI": [
+    0.624,
+    0.686
+   ],
+   "combined_cv": 0.69
+  },
+  "T_closing(bye|intent)": {
+   "n": 2665,
+   "pos": 175,
+   "P_p_end": 0.69,
+   "-prev_chars": 0.454,
+   "prev_bye": 0.591,
+   "prev_winding(D)": 0.575,
+   "-prev_engagement(D)": 0.521,
+   "turn_in_session": 0.438,
+   "-P_p_length": 0.521,
+   "-P_p_question": 0.617,
+   "P_p_end_CI": [
+    0.646,
+    0.733
+   ],
+   "combined_cv": 0.724
+  },
+  "end_within_3": {
+   "n": 2665,
+   "pos": 858,
+   "P_p_end": 0.611,
+   "-prev_chars": 0.49,
+   "prev_bye": 0.525,
+   "prev_winding(D)": 0.534,
+   "-prev_engagement(D)": 0.546,
+   "turn_in_session": 0.398,
+   "-P_p_length": 0.524,
+   "-P_p_question": 0.548,
+   "P_p_end_CI": [
+    0.59,
+    0.636
+   ],
+   "combined_cv": 0.663
+  },
+  "horizon": {
+   "0": {
+    "mean_p_end": 0.208,
+    "auc_vs_far": 0.697,
+    "n": 337
+   },
+   "1": {
+    "mean_p_end": 0.171,
+    "auc_vs_far": 0.602,
+    "n": 283
+   },
+   "2": {
+    "mean_p_end": 0.166,
+    "auc_vs_far": 0.59,
+    "n": 238
+   },
+   "3": {
+    "mean_p_end": 0.165,
+    "auc_vs_far": 0.58,
+    "n": 207
+   },
+   "4": {
+    "mean_p_end": 0.15,
+    "auc_vs_far": 0.548,
+    "n": 170
+   },
+   "5": {
+    "mean_p_end": 0.144,
+    "auc_vs_far": 0.542,
+    "n": 140
+   },
+   "6": {
+    "mean_p_end": 0.158,
+    "auc_vs_far": 0.56,
+    "n": 121
+   },
+   "far(>=8)": {
+    "mean_p_end": 0.133,
+    "n": 1064
+   }
+  },
+  "thresholds": {
+   "0.3": {
+    "share_flagged": 0.09,
+    "prec_closing_T": 0.243,
+    "prec_end_within_3": 0.552,
+    "recall_closing_T": 0.331
+   },
+   "0.5": {
+    "share_flagged": 0.012,
+    "prec_closing_T": 0.531,
+    "prec_end_within_3": 0.688,
+    "recall_closing_T": 0.097
+   },
+   "0.7": {
+    "share_flagged": 0.0,
+    "prec_closing_T": null,
+    "prec_end_within_3": null,
+    "recall_closing_T": 0.0
+   }
+  }
+ }
+}

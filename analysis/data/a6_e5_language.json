@@ -1,0 +1,681 @@
+{
+ "n_pt": 60,
+ "n_nl": 40,
+ "EN_vs_ENrep(noise)": {
+  "emotion": {
+   "mean_abs_or_flip": 0.016666666666666666,
+   "conf_A": 0.7411666666666666,
+   "conf_B": 0.7465
+  },
+  "valence": {
+   "mean_abs_or_flip": 0.04399999999999999,
+   "corr": 0.997394447887331,
+   "mean_A": 2.1345,
+   "mean_B": 2.1295
+  },
+  "arousal": {
+   "mean_abs_or_flip": 0.0438333333333333,
+   "corr": 0.9974328077060088,
+   "mean_A": 2.003166666666667,
+   "mean_B": 1.998
+  },
+  "anxious": {
+   "mean_abs_or_flip": 0.01416666666666666,
+   "corr": 0.9963884165942699,
+   "mean_A": 0.29166666666666674,
+   "mean_B": 0.29350000000000004,
+   "binary_agree": 0.9833333333333333
+  },
+  "playful": {
+   "mean_abs_or_flip": 0.014999999999999996,
+   "corr": 0.997200842303485,
+   "mean_A": 0.6674999999999999,
+   "mean_B": 0.6608333333333333,
+   "binary_agree": 1.0
+  },
+  "flirting": {
+   "mean_abs_or_flip": 0.009500000000000001,
+   "corr": 0.9912601745911259,
+   "mean_A": 0.10283333333333333,
+   "mean_B": 0.10133333333333333,
+   "binary_agree": 1.0
+  },
+  "vulnerable": {
+   "mean_abs_or_flip": 0.0105,
+   "corr": 0.998047222484989,
+   "mean_A": 0.22733333333333336,
+   "mean_B": 0.22350000000000003,
+   "binary_agree": 1.0
+  },
+  "seeks_support": {
+   "mean_abs_or_flip": 0.013166666666666662,
+   "corr": 0.9959410193115489,
+   "mean_A": 0.2318333333333334,
+   "mean_B": 0.22633333333333336,
+   "binary_agree": 0.9666666666666667
+  },
+  "tension": {
+   "mean_abs_or_flip": 0.0125,
+   "corr": 0.998497805940326,
+   "mean_A": 0.3188333333333333,
+   "mean_B": 0.32466666666666666,
+   "binary_agree": 1.0
+  },
+  "seriousness": {
+   "mean_abs_or_flip": 0.030000000000000006,
+   "corr": 0.99559256601211,
+   "mean_A": 0.5268333333333333,
+   "mean_B": 0.5461666666666667
+  }
+ },
+ "EN_vs_PT(state PT, questions EN)": {
+  "emotion": {
+   "mean_abs_or_flip": 0.21666666666666667,
+   "conf_A": 0.7411666666666666,
+   "conf_B": 0.7334999999999999
+  },
+  "valence": {
+   "mean_abs_or_flip": 0.2298333333333333,
+   "corr": 0.9273334219061337,
+   "mean_A": 2.1345,
+   "mean_B": 2.101
+  },
+  "arousal": {
+   "mean_abs_or_flip": 0.23283333333333334,
+   "corr": 0.9169427622834019,
+   "mean_A": 2.003166666666667,
+   "mean_B": 1.9646666666666668
+  },
+  "anxious": {
+   "mean_abs_or_flip": 0.061999999999999986,
+   "corr": 0.9163962467363422,
+   "mean_A": 0.29166666666666674,
+   "mean_B": 0.289,
+   "binary_agree": 0.95
+  },
+  "playful": {
+   "mean_abs_or_flip": 0.08016666666666665,
+   "corr": 0.8932768799583761,
+   "mean_A": 0.6674999999999999,
+   "mean_B": 0.6469999999999999,
+   "binary_agree": 0.8333333333333334
+  },
+  "flirting": {
+   "mean_abs_or_flip": 0.041666666666666664,
+   "corr": 0.8650029806936751,
+   "mean_A": 0.10283333333333333,
+   "mean_B": 0.12516666666666668,
+   "binary_agree": 0.9833333333333333
+  },
+  "vulnerable": {
+   "mean_abs_or_flip": 0.05749999999999999,
+   "corr": 0.9410655076072307,
+   "mean_A": 0.22733333333333336,
+   "mean_B": 0.2545,
+   "binary_agree": 0.95
+  },
+  "seeks_support": {
+   "mean_abs_or_flip": 0.06316666666666666,
+   "corr": 0.8990021180776712,
+   "mean_A": 0.2318333333333334,
+   "mean_B": 0.22433333333333333,
+   "binary_agree": 0.9666666666666667
+  },
+  "tension": {
+   "mean_abs_or_flip": 0.08466666666666668,
+   "corr": 0.9236128278431492,
+   "mean_A": 0.3188333333333333,
+   "mean_B": 0.3701666666666667,
+   "binary_agree": 0.8666666666666667
+  },
+  "seriousness": {
+   "mean_abs_or_flip": 0.1596666666666667,
+   "corr": 0.8853048669197734,
+   "mean_A": 0.5268333333333333,
+   "mean_B": 0.6088333333333333
+  }
+ },
+ "EN_vs_PT(state PT, questions PT)": {
+  "emotion": {
+   "mean_abs_or_flip": 0.25,
+   "conf_A": 0.7411666666666666,
+   "conf_B": 0.7203333333333333
+  },
+  "valence": {
+   "mean_abs_or_flip": 0.23883333333333334,
+   "corr": 0.9238257416743572,
+   "mean_A": 2.1345,
+   "mean_B": 2.1426666666666665
+  },
+  "arousal": {
+   "mean_abs_or_flip": 0.25183333333333335,
+   "corr": 0.9099768590936481,
+   "mean_A": 2.003166666666667,
+   "mean_B": 2.0073333333333334
+  },
+  "anxious": {
+   "mean_abs_or_flip": 0.08766666666666664,
+   "corr": 0.9081600504603324,
+   "mean_A": 0.29166666666666674,
+   "mean_B": 0.32533333333333336,
+   "binary_agree": 0.9333333333333333
+  },
+  "playful": {
+   "mean_abs_or_flip": 0.1,
+   "corr": 0.9034150881567018,
+   "mean_A": 0.6674999999999999,
+   "mean_B": 0.6005000000000001,
+   "binary_agree": 0.85
+  },
+  "flirting": {
+   "mean_abs_or_flip": 0.07466666666666666,
+   "corr": 0.8420734553154855,
+   "mean_A": 0.10283333333333333,
+   "mean_B": 0.16716666666666666,
+   "binary_agree": 0.9833333333333333
+  },
+  "vulnerable": {
+   "mean_abs_or_flip": 0.08033333333333333,
+   "corr": 0.9238317612867029,
+   "mean_A": 0.22733333333333336,
+   "mean_B": 0.29399999999999993,
+   "binary_agree": 0.9
+  },
+  "seeks_support": {
+   "mean_abs_or_flip": 0.09183333333333334,
+   "corr": 0.8758282525519232,
+   "mean_A": 0.2318333333333334,
+   "mean_B": 0.2783333333333334,
+   "binary_agree": 0.9333333333333333
+  },
+  "tension": {
+   "mean_abs_or_flip": 0.08600000000000001,
+   "corr": 0.9225912335165923,
+   "mean_A": 0.3188333333333333,
+   "mean_B": 0.3625,
+   "binary_agree": 0.8666666666666667
+  },
+  "seriousness": {
+   "mean_abs_or_flip": 0.1953333333333333,
+   "corr": 0.8644235700071682,
+   "mean_A": 0.5268333333333333,
+   "mean_B": 0.6524999999999999
+  }
+ },
+ "PTstate_ENq_vs_PTq": {
+  "emotion": {
+   "mean_abs_or_flip": 0.06666666666666667,
+   "conf_A": 0.7334999999999999,
+   "conf_B": 0.7203333333333333
+  },
+  "valence": {
+   "mean_abs_or_flip": 0.06666666666666667,
+   "corr": 0.9966534198594624,
+   "mean_A": 2.101,
+   "mean_B": 2.1426666666666665
+  },
+  "arousal": {
+   "mean_abs_or_flip": 0.0953333333333333,
+   "corr": 0.991711127483798,
+   "mean_A": 1.9646666666666668,
+   "mean_B": 2.0073333333333334
+  },
+  "anxious": {
+   "mean_abs_or_flip": 0.05500000000000001,
+   "corr": 0.974464453101941,
+   "mean_A": 0.289,
+   "mean_B": 0.32533333333333336,
+   "binary_agree": 0.95
+  },
+  "playful": {
+   "mean_abs_or_flip": 0.056833333333333326,
+   "corr": 0.9713530199385367,
+   "mean_A": 0.6469999999999999,
+   "mean_B": 0.6005000000000001,
+   "binary_agree": 0.8833333333333333
+  },
+  "flirting": {
+   "mean_abs_or_flip": 0.041999999999999996,
+   "corr": 0.9828303816770968,
+   "mean_A": 0.12516666666666668,
+   "mean_B": 0.16716666666666666,
+   "binary_agree": 1.0
+  },
+  "vulnerable": {
+   "mean_abs_or_flip": 0.04083333333333334,
+   "corr": 0.9891171483094339,
+   "mean_A": 0.2545,
+   "mean_B": 0.29399999999999993,
+   "binary_agree": 0.95
+  },
+  "seeks_support": {
+   "mean_abs_or_flip": 0.06133333333333333,
+   "corr": 0.9635148118474912,
+   "mean_A": 0.22433333333333333,
+   "mean_B": 0.2783333333333334,
+   "binary_agree": 0.9333333333333333
+  },
+  "tension": {
+   "mean_abs_or_flip": 0.02033333333333334,
+   "corr": 0.9960989629882592,
+   "mean_A": 0.3701666666666667,
+   "mean_B": 0.3625,
+   "binary_agree": 0.9666666666666667
+  },
+  "seriousness": {
+   "mean_abs_or_flip": 0.09000000000000001,
+   "corr": 0.9788207003022862,
+   "mean_A": 0.6088333333333333,
+   "mean_B": 0.6524999999999999
+  }
+ },
+ "NL_vs_NLrep(noise)": {
+  "emotion": {
+   "mean_abs_or_flip": 0.0,
+   "conf_A": 0.73525,
+   "conf_B": 0.75075
+  },
+  "valence": {
+   "mean_abs_or_flip": 0.02975000000000002,
+   "corr": 0.9993406236182522,
+   "mean_A": 2.285,
+   "mean_B": 2.28325
+  },
+  "arousal": {
+   "mean_abs_or_flip": 0.03724999999999999,
+   "corr": 0.9981540072974161,
+   "mean_A": 1.85875,
+   "mean_B": 1.8524999999999998
+  },
+  "anxious": {
+   "mean_abs_or_flip": 0.011500000000000002,
+   "corr": 0.9982219942133874,
+   "mean_A": 0.3095,
+   "mean_B": 0.3055,
+   "binary_agree": 0.975
+  },
+  "playful": {
+   "mean_abs_or_flip": 0.0175,
+   "corr": 0.9965792772187052,
+   "mean_A": 0.647,
+   "mean_B": 0.64,
+   "binary_agree": 1.0
+  },
+  "flirting": {
+   "mean_abs_or_flip": 0.011,
+   "corr": 0.9951913473446552,
+   "mean_A": 0.16825,
+   "mean_B": 0.16725,
+   "binary_agree": 1.0
+  },
+  "vulnerable": {
+   "mean_abs_or_flip": 0.013500000000000007,
+   "corr": 0.9977227313484502,
+   "mean_A": 0.28575,
+   "mean_B": 0.27825,
+   "binary_agree": 0.95
+  },
+  "seeks_support": {
+   "mean_abs_or_flip": 0.007750000000000004,
+   "corr": 0.9983604833312048,
+   "mean_A": 0.22175000000000003,
+   "mean_B": 0.21950000000000003,
+   "binary_agree": 1.0
+  },
+  "tension": {
+   "mean_abs_or_flip": 0.017749999999999995,
+   "corr": 0.9866621871316471,
+   "mean_A": 0.19824999999999998,
+   "mean_B": 0.1975,
+   "binary_agree": 0.95
+  },
+  "seriousness": {
+   "mean_abs_or_flip": 0.03549999999999999,
+   "corr": 0.9988045083253586,
+   "mean_A": 0.75125,
+   "mean_B": 0.7692499999999999
+  }
+ },
+ "NL_vs_EN(translated)": {
+  "emotion": {
+   "mean_abs_or_flip": 0.175,
+   "conf_A": 0.7457499999999999,
+   "conf_B": 0.73525
+  },
+  "valence": {
+   "mean_abs_or_flip": 0.1355,
+   "corr": 0.9765476379106716,
+   "mean_A": 2.288,
+   "mean_B": 2.285
+  },
+  "arousal": {
+   "mean_abs_or_flip": 0.1795,
+   "corr": 0.9431929463012493,
+   "mean_A": 1.8462500000000002,
+   "mean_B": 1.85875
+  },
+  "anxious": {
+   "mean_abs_or_flip": 0.034999999999999996,
+   "corr": 0.9779577042197859,
+   "mean_A": 0.3055,
+   "mean_B": 0.3095,
+   "binary_agree": 0.975
+  },
+  "playful": {
+   "mean_abs_or_flip": 0.03975,
+   "corr": 0.9807705606336872,
+   "mean_A": 0.63825,
+   "mean_B": 0.647,
+   "binary_agree": 0.95
+  },
+  "flirting": {
+   "mean_abs_or_flip": 0.04674999999999999,
+   "corr": 0.9251981142190912,
+   "mean_A": 0.19,
+   "mean_B": 0.16825,
+   "binary_agree": 0.95
+  },
+  "vulnerable": {
+   "mean_abs_or_flip": 0.032999999999999995,
+   "corr": 0.983886833882222,
+   "mean_A": 0.28625,
+   "mean_B": 0.28575,
+   "binary_agree": 0.975
+  },
+  "seeks_support": {
+   "mean_abs_or_flip": 0.037250000000000005,
+   "corr": 0.9643886735204396,
+   "mean_A": 0.22700000000000004,
+   "mean_B": 0.22175000000000003,
+   "binary_agree": 0.975
+  },
+  "tension": {
+   "mean_abs_or_flip": 0.055999999999999994,
+   "corr": 0.8685283312803431,
+   "mean_A": 0.20625,
+   "mean_B": 0.19824999999999998,
+   "binary_agree": 0.975
+  },
+  "seriousness": {
+   "mean_abs_or_flip": 0.10125000000000002,
+   "corr": 0.98144197818486,
+   "mean_A": 0.7310000000000001,
+   "mean_B": 0.75125
+  }
+ },
+ "examples_pt_biggest_diff": [
+  [
+   "prof made eye contact with me once / i panicked",
+   "o prof olhou pra mim uma vez / eu entrei em pânico",
+   {
+    "emotion": [
+     "anxiety_insecurity",
+     "anxiety_insecurity"
+    ],
+    "anxious": [
+     0.94,
+     0.92
+    ],
+    "playful": [
+     0.85,
+     0.37
+    ],
+    "seriousness": [
+     0.2,
+     1.41
+    ]
+   }
+  ],
+  [
+   "stop judging me im fragile",
+   "para de me julgar eu sou frágil",
+   {
+    "emotion": [
+     "frustration_anger",
+     "frustration_anger"
+    ],
+    "anxious": [
+     0.87,
+     0.86
+    ],
+    "playful": [
+     0.75,
+     0.33
+    ],
+    "seriousness": [
+     0.98,
+     2.35
+    ]
+   }
+  ],
+  [
+   "oh no",
+   "ai não",
+   {
+    "emotion": [
+     "surprise",
+     "frustration_anger"
+    ],
+    "anxious": [
+     0.75,
+     0.27
+    ],
+    "playful": [
+     0.5,
+     0.46
+    ],
+    "seriousness": [
+     0.97,
+     0.73
+    ]
+   }
+  ],
+  [
+   "did u fix it tho",
+   "mas vcs arrumaram",
+   {
+    "emotion": [
+     "neutral_informational",
+     "playful_teasing"
+    ],
+    "anxious": [
+     0.48,
+     0.26
+    ],
+    "playful": [
+     0.55,
+     0.73
+    ],
+    "seriousness": [
+     0.91,
+     0.53
+    ]
+   }
+  ],
+  [
+   "I hope she has a good time with steven and joe, the weather is on their side",
+   "Espero que ela se divirta com o steven e o joe, o tempo tá a favor deles",
+   {
+    "emotion": [
+     "affection",
+     "affection"
+    ],
+    "anxious": [
+     0.39,
+     0.45
+    ],
+    "playful": [
+     0.14,
+     0.57
+    ],
+    "seriousness": [
+     1,
+     0.94
+    ]
+   }
+  ],
+  [
+   "bike hike?",
+   "trilha de bike?",
+   {
+    "emotion": [
+     "curiosity_interest",
+     "curiosity_interest"
+    ],
+    "anxious": [
+     0.09,
+     0.14
+    ],
+    "playful": [
+     0.62,
+     0.32
+    ],
+    "seriousness": [
+     0.46,
+     0.87
+    ]
+   }
+  ]
+ ],
+ "examples_nl_biggest_diff(EN,NL)": [
+  [
+   "Wat moet je doen daar Dan? Brother troubles?",
+   "What do you have to do there then? Brother troubles?",
+   {
+    "emotion": [
+     "curiosity_interest",
+     "curiosity_interest"
+    ],
+    "anxious": [
+     0.23,
+     0.47
+    ],
+    "playful": [
+     0.66,
+     0.61
+    ],
+    "seriousness": [
+     0.82,
+     1.32
+    ]
+   }
+  ],
+  [
+   "Oh volgens mij is het een Duits bandje! / Flashed junk mind is ook echt een leuk liedje, b",
+   "Oh I think it's a German band! / Flashed junk mind is also a really nice song, a bit like ",
+   {
+    "emotion": [
+     "joy_excitement",
+     "joy_excitement"
+    ],
+    "anxious": [
+     0.12,
+     0.12
+    ],
+    "playful": [
+     0.44,
+     0.69
+    ],
+    "seriousness": [
+     0.79,
+     0.56
+    ]
+   }
+  ],
+  [
+   " Well  /  Ik besef me net dat ik mn onderwerp nog niet eens goed heb afgebakend  /  Dus ik",
+   "Well / I just realized I haven't even properly narrowed down my topic / So I'm actually no",
+   {
+    "emotion": [
+     "amusement",
+     "amusement"
+    ],
+    "anxious": [
+     0.79,
+     0.85
+    ],
+    "playful": [
+     0.91,
+     0.89
+    ],
+    "seriousness": [
+     0.85,
+     1.34
+    ]
+   }
+  ],
+  [
+   "Jij bent mijn inspiratie ",
+   "You are my inspiration",
+   {
+    "emotion": [
+     "gratitude",
+     "playful_teasing"
+    ],
+    "anxious": [
+     0.09,
+     0.08
+    ],
+    "playful": [
+     0.69,
+     0.82
+    ],
+    "seriousness": [
+     0.26,
+     0.07
+    ]
+   }
+  ],
+  [
+   "Haha jaa ze staan al in de koelkast",
+   "Haha yes they're already in the fridge",
+   {
+    "emotion": [
+     "amusement",
+     "amusement"
+    ],
+    "anxious": [
+     0.07,
+     0.06
+    ],
+    "playful": [
+     0.76,
+     0.69
+    ],
+    "seriousness": [
+     0.21,
+     0.51
+    ]
+   }
+  ],
+  [
+   " Hahahaa  /  Ja goed punt opzich ",
+   "Hahahaa / Yeah good point actually",
+   {
+    "emotion": [
+     "amusement",
+     "amusement"
+    ],
+    "anxious": [
+     0.08,
+     0.06
+    ],
+    "playful": [
+     0.72,
+     0.79
+    ],
+    "seriousness": [
+     0.66,
+     0.47
+    ]
+   }
+  ]
+ ],
+ "tokens_mean": {
+  "e5_en": 972.0833333333334,
+  "e5_pt": 976.35,
+  "e5_ptq": 1039.35,
+  "e5_nl": 1026.75,
+  "e5_nl2en": 1020.175
+ }
+}

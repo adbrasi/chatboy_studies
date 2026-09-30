@@ -1,0 +1,415 @@
+{
+ "n_moves": {
+  "maichat": 1600,
+  "whatsapp_nl": 1150
+ },
+ "transition_dist": {
+  "maichat": {
+   "abrupt_shift": 0.056,
+   "continues": 0.722,
+   "reaction_only": 0.156,
+   "returns_earlier": 0.031,
+   "smooth_shift": 0.034
+  },
+  "whatsapp_nl": {
+   "abrupt_shift": 0.07,
+   "continues": 0.727,
+   "reaction_only": 0.133,
+   "returns_earlier": 0.04,
+   "smooth_shift": 0.03
+  }
+ },
+ "callback_rate": {
+  "maichat": 0.086,
+  "whatsapp_nl": 0.134
+ },
+ "marker_by_transition": {
+  "abrupt_shift": 0.234,
+  "continues": 0.023,
+  "reaction_only": 0.007,
+  "returns_earlier": 0.042,
+  "smooth_shift": 0.045
+ },
+ "marker_rate_all": {
+  "maichat": 0.0313,
+  "whatsapp_nl": 0.0249
+ },
+ "transition_effect_raw": [
+  {
+   "transition": "abrupt_shift",
+   "n": 157,
+   "eng_next": 1.754,
+   "zch_next": -0.075,
+   "zlat_next": 0.127,
+   "p_next_q": 0.1592356687898089
+  },
+  {
+   "transition": "continues",
+   "n": 1880,
+   "eng_next": 2.072,
+   "zch_next": -0.001,
+   "zlat_next": -0.001,
+   "p_next_q": 0.15106382978723404
+  },
+  {
+   "transition": "reaction_only",
+   "n": 348,
+   "eng_next": 1.999,
+   "zch_next": -0.036,
+   "zlat_next": -0.043,
+   "p_next_q": 0.10057471264367816
+  },
+  {
+   "transition": "returns_earlier",
+   "n": 92,
+   "eng_next": 1.981,
+   "zch_next": 0.09,
+   "zlat_next": 0.081,
+   "p_next_q": 0.18478260869565216
+  },
+  {
+   "transition": "smooth_shift",
+   "n": 84,
+   "eng_next": 1.927,
+   "zch_next": 0.009,
+   "zlat_next": -0.028,
+   "p_next_q": 0.11904761904761904
+  }
+ ],
+ "transition_cont_whatsapp": [
+  {
+   "transition": "abrupt_shift",
+   "n": 81,
+   "p_cont1": 0.827,
+   "p_cont5": 0.469
+  },
+  {
+   "transition": "continues",
+   "n": 836,
+   "p_cont1": 0.894,
+   "p_cont5": 0.567
+  },
+  {
+   "transition": "reaction_only",
+   "n": 153,
+   "p_cont1": 0.693,
+   "p_cont5": 0.399
+  },
+  {
+   "transition": "returns_earlier",
+   "n": 46,
+   "p_cont1": 0.935,
+   "p_cont5": 0.5
+  },
+  {
+   "transition": "smooth_shift",
+   "n": 34,
+   "p_cont1": 0.853,
+   "p_cont5": 0.324
+  }
+ ],
+ "callback_transition_ols": {
+  "nx_D_engagement": {
+   "n": 2416,
+   "cb": [
+    0.026,
+    -0.101,
+    0.153,
+    0.6868
+   ],
+   "abrupt": [
+    -0.223,
+    -0.368,
+    -0.078,
+    0.0026
+   ],
+   "smooth": [
+    -0.085,
+    -0.261,
+    0.092,
+    0.3475
+   ],
+   "ret": [
+    -0.081,
+    -0.298,
+    0.136,
+    0.4622
+   ],
+   "react": [
+    0.077,
+    -0.014,
+    0.167,
+    0.0971
+   ]
+  },
+  "nx_zch": {
+   "n": 2424,
+   "cb": [
+    -0.024,
+    -0.182,
+    0.135,
+    0.7718
+   ],
+   "abrupt": [
+    -0.2,
+    -0.431,
+    0.032,
+    0.0906
+   ],
+   "smooth": [
+    -0.009,
+    -0.234,
+    0.217,
+    0.9396
+   ],
+   "ret": [
+    0.03,
+    -0.239,
+    0.299,
+    0.8276
+   ],
+   "react": [
+    0.149,
+    0.008,
+    0.289,
+    0.038
+   ]
+  },
+  "nx_zlat": {
+   "n": 2351,
+   "cb": [
+    -0.004,
+    -0.158,
+    0.15,
+    0.9586
+   ],
+   "abrupt": [
+    -0.01,
+    -0.188,
+    0.169,
+    0.9169
+   ],
+   "smooth": [
+    -0.074,
+    -0.383,
+    0.236,
+    0.6411
+   ],
+   "ret": [
+    0.033,
+    -0.223,
+    0.289,
+    0.8006
+   ],
+   "react": [
+    -0.037,
+    -0.188,
+    0.115,
+    0.6349
+   ]
+  }
+ },
+ "ex_callback": [
+  {
+   "corpus": "maichat",
+   "antes": "Now, now. That's for the other chat😆",
+   "turno": "Hehehehhehe / Righto shall we start watching telly then"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "too late 🧡",
+   "turno": "why is the video only 30 seconds but healed my stress"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "yes - we always have that. / and porridge",
+   "turno": "Also, I know sophie is coming round to have christmas dinner with us  / apparently she has opinions about what meat we should have "
+  },
+  {
+   "corpus": "maichat",
+   "antes": "(though that sometimes has tiktok videos too) / taste is a subjective metric",
+   "turno": "i agree / i would say a person of taste is one who enjoys cute animal videos / do you?"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "dammm i could keep going",
+   "turno": "Have fun eating worms"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "details",
+   "turno": "ok i should actually start my hw"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "antes": "Hoofdgerecht kunnen we zo simpel of moeilijk maken als we zelf willen / Pasta......",
+   "turno": "Hahaha / Aangezien we beiden ook aan de spooktocht deelnemen, moeten we het natuurlijk niet zo moeilijk maken dat we het risico lopen dat we het te laat maken /"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "antes": "",
+   "turno": "Morgen om [REMOVED] uur toch?"
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "antes": "Hahah",
+   "turno": "Wens [REMOVED] beterschap van me!!"
+  }
+ ],
+ "ex_abrupt": [
+  {
+   "corpus": "maichat",
+   "antes": "ikr / i replayed it 5 times",
+   "turno": "we need help"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "a little :))",
+   "turno": "btw did you eat"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "were about to be that anomalous data set they just ignore for results",
+   "turno": "yes! / err / see any good movies lately? / or TV"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "slightly",
+   "turno": "what u doing tonight"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "Youre terrible murielllll",
+   "turno": "Jahhahahahahajajahahahha / Im so funny / What are you doing with wee jams this weekend "
+  },
+  {
+   "corpus": "maichat",
+   "antes": "sorry sorry",
+   "turno": "ok i should actually start cleaning"
+  }
+ ],
+ "ex_smooth": [
+  {
+   "corpus": "maichat",
+   "antes": "Hi",
+   "turno": "I think sth is wrong about the system "
+  },
+  {
+   "corpus": "maichat",
+   "antes": "relatable tbh",
+   "turno": "mood during exams"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "oooh",
+   "turno": "oh uh but im 60 percent water"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "as always",
+   "turno": "ok im gonna sleep soon"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "record breaking",
+   "turno": "im tired 😭"
+  },
+  {
+   "corpus": "maichat",
+   "antes": "Me toooooo",
+   "turno": "🫠 / they have emojis!"
+  }
+ ],
+ "asks_back_after_q": {
+  "maichat": {
+   "n": 145,
+   "p": 0.034,
+   "ci": [
+    0.015,
+    0.078
+   ],
+   "after_personal_q": {
+    "n": 37,
+    "p": 0.081
+   },
+   "after_nonpersonal_q": {
+    "n": 45,
+    "p": 0.0
+   }
+  },
+  "whatsapp_nl": {
+   "n": 307,
+   "p": 0.085,
+   "ci": [
+    0.058,
+    0.121
+   ],
+   "after_personal_q": {
+    "n": 43,
+    "p": 0.14
+   },
+   "after_nonpersonal_q": {
+    "n": 74,
+    "p": 0.081
+   }
+  }
+ },
+ "asks_back_effect_raw": [
+  {
+   "ab": 0,
+   "n": 401,
+   "eng": 2.188,
+   "zch": -0.041,
+   "cont": 0.925
+  },
+  {
+   "ab": 1,
+   "n": 30,
+   "eng": 2.138,
+   "zch": 0.483,
+   "cont": 0.967
+  }
+ ],
+ "ex_asks_back": [
+  {
+   "antes": "Heej heej, hoe is het? Een lekkere vakantie gehad?",
+   "turno": "Hee! Ja goed! Met jou? Ja heel lekker, naar [REMOVED] geweest! En hoe is het met jou? Ook een leuke vakantie? :)"
+  },
+  {
+   "antes": "Hahaha maar dat is toch een leuke show / O oke! Ik zal duimen",
+   "turno": "Dat is ook zo hahaha! Als t niks wordt gaan we gewoon samen dansen met z'n tweetjes  / Dankjee! Ik ook voor jou morgen, hoelaat moet jij"
+  },
+  {
+   "antes": "Brother!! Hoeist?",
+   "turno": "Kop! / Joo bedoelde ik haha / Goed! Met jou ook??"
+  },
+  {
+   "antes": "Do you have a favorite type of dog?",
+   "turno": "German Shepard  / What about u"
+  },
+  {
+   "antes": "Lol / Fair / How's your day been today?",
+   "turno": "Good but it’s cold  / How about u"
+  },
+  {
+   "antes": "En en en? Hoe is het gegaan",
+   "turno": "Ich hub t gehoald!! Haha / Hoe ging het bij jou?  / Heb gereserveerd voor zondag trouwen"
+  },
+  {
+   "antes": "Is goed. Spitstrein om kwart over [REMOVED] in cuijk? / Heb jij veel om te presenteren morgen",
+   "turno": "Ja is prima. Niet veel. Ik heb wel een powerpointje gemaakt maar ik weet niet eens of dat wel afspeelbaar is daar. / Jij wel?"
+  },
+  {
+   "antes": "Oke :) bedankt alvast haha! Oke! Zal ik dan water vandaag opzeggen als dat lukt? / Heb al wel rekeni",
+   "turno": "Ja is goed, ben helemaal vergeten naar de waterstand te kijken bedenk ik me nu ineens... XD weet niet of jij had gekeken toen je weg ging?;)"
+  }
+ ],
+ "personal_q_rate": {
+  "maichat": 0.098,
+  "whatsapp_nl": 0.091
+ },
+ "personal_q_share_of_questions": {
+  "maichat": 0.468,
+  "whatsapp_nl": 0.341
+ }
+}

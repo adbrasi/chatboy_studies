@@ -1,0 +1,227 @@
+{
+ "maichat": {
+  "n": 4135,
+  "P(cont)": 0.316,
+  "P(cont)|func": {
+   "content": {
+    "size": 2743,
+    "mean": 0.295
+   },
+   "correction": {
+    "size": 20,
+    "mean": 0.3
+   },
+   "emoji": {
+    "size": 62,
+    "mean": 0.403
+   },
+   "laugh": {
+    "size": 52,
+    "mean": 0.538
+   },
+   "question": {
+    "size": 283,
+    "mean": 0.233
+   },
+   "reaction": {
+    "size": 975,
+    "mean": 0.383
+   }
+  },
+  "P(cont)|ends_q": {
+   "False": 0.322,
+   "True": 0.232
+  },
+  "P(cont)|ends_punct": {
+   "False": 0.318,
+   "True": 0.298
+  },
+  "P(cont)|ellipsis": {
+   "False": 0.314,
+   "True": 0.607
+  },
+  "P(cont)|first_in_turn": {
+   "False": 0.313,
+   "True": 0.317
+  },
+  "P(cont)|pos": {
+   "0": 0.317,
+   "1": 0.298,
+   "2": 0.32,
+   "3": 0.388,
+   "4": 0.418
+  },
+  "P(cont)|len": {
+   "(0, 5]": 0.425,
+   "(5, 15]": 0.313,
+   "(15, 30]": 0.235,
+   "(30, 60]": 0.347,
+   "(60, 5000]": 0.417
+  },
+  "hazard_after_silence_s": {
+   "0": {
+    "n": 4135,
+    "P(same speaker next)": 0.316
+   },
+   "3": {
+    "n": 3677,
+    "P(same speaker next)": 0.313
+   },
+   "5": {
+    "n": 3224,
+    "P(same speaker next)": 0.293
+   },
+   "10": {
+    "n": 2265,
+    "P(same speaker next)": 0.252
+   },
+   "15": {
+    "n": 1664,
+    "P(same speaker next)": 0.221
+   },
+   "20": {
+    "n": 1237,
+    "P(same speaker next)": 0.185
+   },
+   "30": {
+    "n": 689,
+    "P(same speaker next)": 0.16
+   },
+   "45": {
+    "n": 57,
+    "P(same speaker next)": 0.193
+   },
+   "60": {
+    "n": 36,
+    "P(same speaker next)": 0.167
+   }
+  },
+  "share_of_continuations_within_s": {
+   "3": 0.12,
+   "5": 0.276,
+   "10": 0.564,
+   "15": 0.718,
+   "20": 0.825,
+   "30": 0.916,
+   "45": 0.992,
+   "60": 0.995
+  },
+  "code_logit_auc": 0.597
+ },
+ "whatsapp_nl": {
+  "n": 58280,
+  "P(cont)": 0.481,
+  "P(cont)|func": {
+   "content": {
+    "size": 32858,
+    "mean": 0.483
+   },
+   "correction": {
+    "size": 178,
+    "mean": 0.489
+   },
+   "emoji": {
+    "size": 2028,
+    "mean": 0.462
+   },
+   "laugh": {
+    "size": 1725,
+    "mean": 0.682
+   },
+   "media": {
+    "size": 1127,
+    "mean": 0.691
+   },
+   "question": {
+    "size": 8762,
+    "mean": 0.26
+   },
+   "reaction": {
+    "size": 11602,
+    "mean": 0.595
+   }
+  },
+  "P(cont)|ends_q": {
+   "False": 0.514,
+   "True": 0.254
+  },
+  "P(cont)|ends_punct": {
+   "False": 0.511,
+   "True": 0.386
+  },
+  "P(cont)|ellipsis": {
+   "False": 0.481,
+   "True": 0.477
+  },
+  "P(cont)|first_in_turn": {
+   "False": 0.43,
+   "True": 0.526
+  },
+  "P(cont)|pos": {
+   "0": 0.526,
+   "1": 0.42,
+   "2": 0.41,
+   "3": 0.441,
+   "4": 0.545
+  },
+  "P(cont)|len": {
+   "(0, 5]": 0.556,
+   "(5, 15]": 0.553,
+   "(15, 30]": 0.458,
+   "(30, 60]": 0.422,
+   "(60, 5000]": 0.425
+  },
+  "share_of_continuations_within_s": {
+   "0": 0.664,
+   "60": 0.85,
+   "120": 0.865,
+   "300": 0.884,
+   "600": 0.896
+  },
+  "hazard_after_silence_s": {
+   "0": {
+    "n": 29582,
+    "P(same speaker next)": 0.318
+   },
+   "60": {
+    "n": 17840,
+    "P(same speaker next)": 0.236
+   },
+   "120": {
+    "n": 15209,
+    "P(same speaker next)": 0.25
+   },
+   "300": {
+    "n": 11576,
+    "P(same speaker next)": 0.281
+   },
+   "600": {
+    "n": 9346,
+    "P(same speaker next)": 0.314
+   }
+  },
+  "code_logit_auc": 0.611
+ },
+ "jev_sample": {
+  "maichat": {
+   "n": 250,
+   "rate_cont": 0.284,
+   "auc_jev": 0.65,
+   "auc_code": 0.596,
+   "auc_avg": 0.672,
+   "brier_jev": 0.1884,
+   "brier_code": 0.1991,
+   "mean_p_jev": 0.279
+  },
+  "whatsapp_nl": {
+   "n": 250,
+   "rate_cont": 0.42,
+   "auc_jev": 0.613,
+   "auc_code": 0.583,
+   "auc_avg": 0.614,
+   "brier_jev": 0.2565,
+   "brier_code": 0.2428,
+   "mean_p_jev": 0.275
+  }
+ }
+}

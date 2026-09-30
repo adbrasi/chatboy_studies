@@ -1,0 +1,231 @@
+{
+ "rule_open_type": {
+  "maichat": {
+   "greet_only": 0.378,
+   "greet+ping": 0.267,
+   "greet+content": 0.178,
+   "direct_statement": 0.089,
+   "ping": 0.044,
+   "greet+howareyou": 0.022,
+   "direct_question": 0.022
+  },
+  "whatsapp_nl": {
+   "direct_statement": 0.287,
+   "direct_question": 0.246,
+   "logistics": 0.15,
+   "greet+content": 0.128,
+   "continuation": 0.071,
+   "media+text": 0.047,
+   "media": 0.03,
+   "apology_late": 0.016,
+   "ping": 0.01,
+   "howareyou_only": 0.007,
+   "greet+howareyou": 0.004,
+   "greet_only": 0.003,
+   "greet+ping": 0.001
+  }
+ },
+ "jev_open_type_whatsapp": {
+  "n": 1109,
+  "chats": 57,
+  "raw": {
+   "new_question_or_request": 0.197,
+   "greeting_plus_topic": 0.189,
+   "late_reply": 0.152,
+   "logistics_update": 0.129,
+   "new_news_or_story": 0.106,
+   "media_or_link": 0.078,
+   "follow_up_earlier": 0.058,
+   "wishes": 0.035,
+   "availability_check": 0.03,
+   "greeting_only": 0.02,
+   "greeting_how_are_you": 0.006
+  },
+  "chat_weighted": {
+   "availability_check": 0.022,
+   "follow_up_earlier": 0.048,
+   "greeting_how_are_you": 0.006,
+   "greeting_only": 0.02,
+   "greeting_plus_topic": 0.225,
+   "late_reply": 0.151,
+   "logistics_update": 0.112,
+   "media_or_link": 0.085,
+   "new_news_or_story": 0.106,
+   "new_question_or_request": 0.186,
+   "wishes": 0.039
+  }
+ },
+ "reopen_by_gap": [
+  {
+   "gapb": "3-6h",
+   "n": 135,
+   "greet": 0.044,
+   "ack_gap": 0.037,
+   "refers_back": 0.652,
+   "late_reply": 0.415,
+   "same_as_prev_last": 0.333
+  },
+  {
+   "gapb": "6-12h",
+   "n": 158,
+   "greet": 0.133,
+   "ack_gap": 0.044,
+   "refers_back": 0.595,
+   "late_reply": 0.373,
+   "same_as_prev_last": 0.291
+  },
+  {
+   "gapb": "12-24h",
+   "n": 201,
+   "greet": 0.179,
+   "ack_gap": 0.04,
+   "refers_back": 0.507,
+   "late_reply": 0.144,
+   "same_as_prev_last": 0.458
+  },
+  {
+   "gapb": "1-3d",
+   "n": 260,
+   "greet": 0.192,
+   "ack_gap": 0.046,
+   "refers_back": 0.342,
+   "late_reply": 0.077,
+   "same_as_prev_last": 0.504
+  },
+  {
+   "gapb": "3-7d",
+   "n": 144,
+   "greet": 0.34,
+   "ack_gap": 0.049,
+   "refers_back": 0.257,
+   "late_reply": 0.021,
+   "same_as_prev_last": 0.604
+  },
+  {
+   "gapb": ">7d",
+   "n": 168,
+   "greet": 0.315,
+   "ack_gap": 0.006,
+   "refers_back": 0.185,
+   "late_reply": 0.012,
+   "same_as_prev_last": 0.476
+  }
+ ],
+ "outcome_by_type": [
+  {
+   "open_type_y": "availability_check",
+   "n": 33,
+   "replied": 0.818,
+   "n_turns_med": 5.0,
+   "rel_len": 0.243,
+   "reply_lat_med_min": 7.0
+  },
+  {
+   "open_type_y": "follow_up_earlier",
+   "n": 64,
+   "replied": 0.859,
+   "n_turns_med": 5.0,
+   "rel_len": 0.173,
+   "reply_lat_med_min": 12.0
+  },
+  {
+   "open_type_y": "greeting_how_are_you",
+   "n": 7,
+   "replied": 0.714,
+   "n_turns_med": 18.0,
+   "rel_len": 0.703,
+   "reply_lat_med_min": 11.0
+  },
+  {
+   "open_type_y": "greeting_only",
+   "n": 22,
+   "replied": 0.682,
+   "n_turns_med": 2.0,
+   "rel_len": -0.027,
+   "reply_lat_med_min": 3.0
+  },
+  {
+   "open_type_y": "greeting_plus_topic",
+   "n": 210,
+   "replied": 0.871,
+   "n_turns_med": 5.0,
+   "rel_len": 0.184,
+   "reply_lat_med_min": 6.0
+  },
+  {
+   "open_type_y": "late_reply",
+   "n": 169,
+   "replied": 0.604,
+   "n_turns_med": 2.0,
+   "rel_len": -0.319,
+   "reply_lat_med_min": 9.0
+  },
+  {
+   "open_type_y": "logistics_update",
+   "n": 143,
+   "replied": 0.748,
+   "n_turns_med": 3.0,
+   "rel_len": -0.199,
+   "reply_lat_med_min": 7.0
+  },
+  {
+   "open_type_y": "media_or_link",
+   "n": 87,
+   "replied": 0.713,
+   "n_turns_med": 3.0,
+   "rel_len": -0.284,
+   "reply_lat_med_min": 5.0
+  },
+  {
+   "open_type_y": "new_news_or_story",
+   "n": 117,
+   "replied": 0.855,
+   "n_turns_med": 5.0,
+   "rel_len": 0.202,
+   "reply_lat_med_min": 5.0
+  },
+  {
+   "open_type_y": "new_question_or_request",
+   "n": 218,
+   "replied": 0.876,
+   "n_turns_med": 5.0,
+   "rel_len": 0.17,
+   "reply_lat_med_min": 4.0
+  },
+  {
+   "open_type_y": "wishes",
+   "n": 39,
+   "replied": 0.744,
+   "n_turns_med": 2.0,
+   "rel_len": -0.405,
+   "reply_lat_med_min": 4.0
+  }
+ ],
+ "outcome_by_hook": [
+  {
+   "invites_reply": false,
+   "n": 437,
+   "replied": 0.7,
+   "n_turns_med": 3.0,
+   "rel_len": -0.203
+  },
+  {
+   "invites_reply": true,
+   "n": 672,
+   "replied": 0.848,
+   "n_turns_med": 5.0,
+   "rel_len": 0.132
+  }
+ ],
+ "initiative_major_share_per_chat": {
+  "count": 57.0,
+  "mean": 0.627,
+  "std": 0.117,
+  "min": 0.5,
+  "25%": 0.556,
+  "50%": 0.6,
+  "75%": 0.667,
+  "max": 1.0
+ },
+ "initiative_chats_over_65pct": 0.316
+}

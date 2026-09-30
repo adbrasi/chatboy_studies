@@ -1,0 +1,38 @@
+{
+ "n_dev": 60,
+ "human_rates_maichat": {
+  "has_q": 0.09508881922675026,
+  "laugh": 0.05329153605015674,
+  "emoji": 0.05363984674329502
+ },
+ "q": {
+  "mean_pred": 0.4018333333333334,
+  "dev_rate": 0.15,
+  "auc_dev": 0.6187363834422658,
+  "thr": 0.61
+ },
+ "laugh": {
+  "mean_pred": 0.4728333333333333,
+  "dev_rate": 0.03333333333333333,
+  "auc_dev": 0.7198275862068966,
+  "thr": 0.669
+ },
+ "emoji": {
+  "mean_pred": 0.2846666666666666,
+  "dev_rate": 0.05,
+  "auc_dev": 1.0,
+  "thr": 0.512
+ },
+ "bubbles": {
+  "spearman_dev": -0.1594617766458328,
+  "spearman_own_habit": 0.22456557887910517,
+  "p_ge2": 0.31313131313131315,
+  "p_ge3": 0.0926506443747823
+ },
+ "length": {
+  "spearman_jev_vs_human": 0.33080855750755045,
+  "spearman_ownmedian_vs_human": 0.21562254030688854,
+  "jev_mean": 0.853,
+  "human_median_words_dev": 5.0
+ }
+}

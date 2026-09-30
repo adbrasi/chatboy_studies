@@ -1,0 +1,32 @@
+{
+ "n_joins": 1021,
+ "greeted": 0.254,
+ "by_returning": [
+  {
+   "returning": false,
+   "n": 753,
+   "greeted": 0.28,
+   "wb": 0.054
+  },
+  {
+   "returning": true,
+   "n": 268,
+   "greeted": 0.179,
+   "wb": 0.112
+  }
+ ],
+ "posts_if_greeted_first": [
+  {
+   "greeted_before_posting": false,
+   "n": 808,
+   "any_post": 0.262,
+   "mean_posts": 0.525
+  },
+  {
+   "greeted_before_posting": true,
+   "n": 213,
+   "any_post": 0.657,
+   "mean_posts": 1.559
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "maichat": {
+  "n": 250,
+  "rate_multi": 0.292,
+  "base_P(joined)": {
+   "auc": 0.644,
+   "brier": 0.2774,
+   "mean_pred": 0.014,
+   "rho_n": 0.285
+  },
+  "v1_noul": {
+   "auc": 0.697,
+   "brier": 0.2138,
+   "mean_pred": 0.456,
+   "rho_n": 0.328
+  },
+  "v1_choice": {
+   "auc": 0.702,
+   "brier": 0.2121,
+   "mean_pred": 0.162,
+   "rho_n": 0.333
+  },
+  "v2_noul": {
+   "auc": 0.727,
+   "brier": 0.1958,
+   "mean_pred": 0.416,
+   "rho_n": 0.377
+  },
+  "v2_choice": {
+   "auc": 0.704,
+   "brier": 0.2035,
+   "mean_pred": 0.295,
+   "rho_n": 0.339
+  },
+  "code_own_rate": {
+   "auc": 0.714,
+   "brier": 0.1923,
+   "mean_pred": 0.321,
+   "rho_n": 0.351
+  },
+  "brier_base_rate": 0.2067
+ },
+ "whatsapp_nl": {
+  "n": 250,
+  "rate_multi": 0.472,
+  "base_P(joined)": {
+   "auc": 0.51,
+   "brier": 0.4527,
+   "mean_pred": 0.026,
+   "rho_n": 0.046
+  },
+  "v1_noul": {
+   "auc": 0.525,
+   "brier": 0.2573,
+   "mean_pred": 0.495,
+   "rho_n": 0.058
+  },
+  "v1_choice": {
+   "auc": 0.513,
+   "brier": 0.3313,
+   "mean_pred": 0.241,
+   "rho_n": 0.052
+  },
+  "v2_noul": {
+   "auc": 0.624,
+   "brier": 0.2391,
+   "mean_pred": 0.51,
+   "rho_n": 0.218
+  },
+  "v2_choice": {
+   "auc": 0.595,
+   "brier": 0.271,
+   "mean_pred": 0.476,
+   "rho_n": 0.163
+  },
+  "code_own_rate": {
+   "auc": 0.605,
+   "brier": 0.2489,
+   "mean_pred": 0.445,
+   "rho_n": 0.181
+  },
+  "brier_base_rate": 0.2492
+ }
+}

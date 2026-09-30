@@ -1,0 +1,982 @@
+{
+ "maichat": {
+  "flirt": [
+   {
+    "w": "love",
+    "z": 6.82,
+    "n_flirt": 18,
+    "n_neutral": 23
+   },
+   {
+    "w": "u",
+    "z": 4.59,
+    "n_flirt": 30,
+    "n_neutral": 146
+   },
+   {
+    "w": "👍",
+    "z": 4.34,
+    "n_flirt": 6,
+    "n_neutral": 3
+   },
+   {
+    "w": "proud",
+    "z": 3.95,
+    "n_flirt": 5,
+    "n_neutral": 2
+   },
+   {
+    "w": "miss",
+    "z": 3.95,
+    "n_flirt": 5,
+    "n_neutral": 2
+   },
+   {
+    "w": "😇",
+    "z": 3.94,
+    "n_flirt": 5,
+    "n_neutral": 2
+   },
+   {
+    "w": "sweet",
+    "z": 3.79,
+    "n_flirt": 5,
+    "n_neutral": 5
+   },
+   {
+    "w": "you",
+    "z": 3.61,
+    "n_flirt": 38,
+    "n_neutral": 263
+   },
+   {
+    "w": "aww",
+    "z": 3.54,
+    "n_flirt": 4,
+    "n_neutral": 2
+   },
+   {
+    "w": "tho",
+    "z": 3.44,
+    "n_flirt": 7,
+    "n_neutral": 17
+   },
+   {
+    "w": "eat",
+    "z": 3.32,
+    "n_flirt": 7,
+    "n_neutral": 18
+   },
+   {
+    "w": "hey",
+    "z": 3.25,
+    "n_flirt": 4,
+    "n_neutral": 5
+   },
+   {
+    "w": "too",
+    "z": 3.24,
+    "n_flirt": 13,
+    "n_neutral": 58
+   },
+   {
+    "w": "im",
+    "z": 3.09,
+    "n_flirt": 15,
+    "n_neutral": 77
+   },
+   {
+    "w": "😌",
+    "z": 3.05,
+    "n_flirt": 3,
+    "n_neutral": 2
+   },
+   {
+    "w": "btw",
+    "z": 3.01,
+    "n_flirt": 7,
+    "n_neutral": 22
+   },
+   {
+    "w": "cute",
+    "z": 2.84,
+    "n_flirt": 5,
+    "n_neutral": 13
+   },
+   {
+    "w": "will",
+    "z": 2.81,
+    "n_flirt": 9,
+    "n_neutral": 38
+   },
+   {
+    "w": "<3",
+    "z": 2.62,
+    "n_flirt": 8,
+    "n_neutral": 0
+   },
+   {
+    "w": "i'll",
+    "z": 2.6,
+    "n_flirt": 3,
+    "n_neutral": 5
+   },
+   {
+    "w": "call",
+    "z": 2.57,
+    "n_flirt": 3,
+    "n_neutral": 5
+   },
+   {
+    "w": "okay",
+    "z": 2.48,
+    "n_flirt": 5,
+    "n_neutral": 17
+   },
+   {
+    "w": "kinda",
+    "z": 2.46,
+    "n_flirt": 4,
+    "n_neutral": 11
+   },
+   {
+    "w": "🥺",
+    "z": 2.45,
+    "n_flirt": 7,
+    "n_neutral": 0
+   },
+   {
+    "w": "text",
+    "z": 2.44,
+    "n_flirt": 3,
+    "n_neutral": 6
+   },
+   {
+    "w": "our",
+    "z": 2.32,
+    "n_flirt": 4,
+    "n_neutral": 12
+   },
+   {
+    "w": "ur",
+    "z": 2.32,
+    "n_flirt": 5,
+    "n_neutral": 19
+   },
+   {
+    "w": "xx",
+    "z": 2.31,
+    "n_flirt": 5,
+    "n_neutral": 0
+   },
+   {
+    "w": "sleep",
+    "z": 2.26,
+    "n_flirt": 3,
+    "n_neutral": 7
+   },
+   {
+    "w": "pls",
+    "z": 2.12,
+    "n_flirt": 3,
+    "n_neutral": 8
+   },
+   {
+    "w": "us",
+    "z": 2.05,
+    "n_flirt": 4,
+    "n_neutral": 15
+   },
+   {
+    "w": "baby",
+    "z": 2.0,
+    "n_flirt": 3,
+    "n_neutral": 9
+   },
+   {
+    "w": "bye",
+    "z": 1.94,
+    "n_flirt": 5,
+    "n_neutral": 23
+   },
+   {
+    "w": "say",
+    "z": 1.91,
+    "n_flirt": 3,
+    "n_neutral": 10
+   },
+   {
+    "w": "babe",
+    "z": 1.89,
+    "n_flirt": 3,
+    "n_neutral": 0
+   },
+   {
+    "w": "look",
+    "z": 1.88,
+    "n_flirt": 3,
+    "n_neutral": 10
+   },
+   {
+    "w": "week",
+    "z": 1.88,
+    "n_flirt": 3,
+    "n_neutral": 10
+   },
+   {
+    "w": "😘",
+    "z": 1.86,
+    "n_flirt": 4,
+    "n_neutral": 0
+   },
+   {
+    "w": "go",
+    "z": 1.83,
+    "n_flirt": 6,
+    "n_neutral": 34
+   },
+   {
+    "w": "him",
+    "z": 1.77,
+    "n_flirt": 3,
+    "n_neutral": 11
+   }
+  ],
+  "neutral": [
+   {
+    "w": "the",
+    "z": -2.81,
+    "n_flirt": 15,
+    "n_neutral": 470
+   },
+   {
+    "w": "yeah",
+    "z": -2.09,
+    "n_flirt": 1,
+    "n_neutral": 115
+   },
+   {
+    "w": "it",
+    "z": -2.02,
+    "n_flirt": 10,
+    "n_neutral": 288
+   },
+   {
+    "w": "not",
+    "z": -1.87,
+    "n_flirt": 2,
+    "n_neutral": 117
+   },
+   {
+    "w": "no",
+    "z": -1.76,
+    "n_flirt": 1,
+    "n_neutral": 88
+   },
+   {
+    "w": "had",
+    "z": -1.6,
+    "n_flirt": 0,
+    "n_neutral": 53
+   },
+   {
+    "w": "is",
+    "z": -1.32,
+    "n_flirt": 8,
+    "n_neutral": 193
+   },
+   {
+    "w": "to",
+    "z": -1.32,
+    "n_flirt": 14,
+    "n_neutral": 293
+   },
+   {
+    "w": "on",
+    "z": -1.24,
+    "n_flirt": 3,
+    "n_neutral": 98
+   },
+   {
+    "w": "a",
+    "z": -1.22,
+    "n_flirt": 15,
+    "n_neutral": 299
+   },
+   {
+    "w": "like",
+    "z": -1.2,
+    "n_flirt": 8,
+    "n_neutral": 179
+   },
+   {
+    "w": "haha",
+    "z": -1.17,
+    "n_flirt": 0,
+    "n_neutral": 29
+   },
+   {
+    "w": "also",
+    "z": -1.16,
+    "n_flirt": 0,
+    "n_neutral": 31
+   },
+   {
+    "w": "need",
+    "z": -1.16,
+    "n_flirt": 0,
+    "n_neutral": 30
+   },
+   {
+    "w": "doing",
+    "z": -1.16,
+    "n_flirt": 0,
+    "n_neutral": 29
+   },
+   {
+    "w": "lol",
+    "z": -1.16,
+    "n_flirt": 0,
+    "n_neutral": 29
+   },
+   {
+    "w": "been",
+    "z": -1.15,
+    "n_flirt": 0,
+    "n_neutral": 28
+   },
+   {
+    "w": "going",
+    "z": -1.14,
+    "n_flirt": 0,
+    "n_neutral": 30
+   },
+   {
+    "w": "them",
+    "z": -1.14,
+    "n_flirt": 0,
+    "n_neutral": 28
+   },
+   {
+    "w": "really",
+    "z": -1.11,
+    "n_flirt": 1,
+    "n_neutral": 49
+   },
+   {
+    "w": "dog",
+    "z": -1.07,
+    "n_flirt": 0,
+    "n_neutral": 24
+   },
+   {
+    "w": "all",
+    "z": -1.06,
+    "n_flirt": 1,
+    "n_neutral": 44
+   },
+   {
+    "w": "an",
+    "z": -1.06,
+    "n_flirt": 0,
+    "n_neutral": 23
+   },
+   {
+    "w": "and",
+    "z": -1.06,
+    "n_flirt": 9,
+    "n_neutral": 187
+   },
+   {
+    "w": "have",
+    "z": -1.02,
+    "n_flirt": 5,
+    "n_neutral": 121
+   },
+   {
+    "w": "idk",
+    "z": -1.01,
+    "n_flirt": 0,
+    "n_neutral": 22
+   },
+   {
+    "w": "in",
+    "z": -1.01,
+    "n_flirt": 6,
+    "n_neutral": 134
+   },
+   {
+    "w": "watch",
+    "z": -1.0,
+    "n_flirt": 0,
+    "n_neutral": 22
+   },
+   {
+    "w": "what",
+    "z": -0.98,
+    "n_flirt": 6,
+    "n_neutral": 135
+   },
+   {
+    "w": "time",
+    "z": -0.97,
+    "n_flirt": 1,
+    "n_neutral": 41
+   },
+   {
+    "w": "i've",
+    "z": -0.96,
+    "n_flirt": 0,
+    "n_neutral": 19
+   },
+   {
+    "w": "cat",
+    "z": -0.96,
+    "n_flirt": 0,
+    "n_neutral": 21
+   },
+   {
+    "w": "school",
+    "z": -0.95,
+    "n_flirt": 0,
+    "n_neutral": 19
+   },
+   {
+    "w": "gonna",
+    "z": -0.94,
+    "n_flirt": 0,
+    "n_neutral": 18
+   },
+   {
+    "w": "videos",
+    "z": -0.94,
+    "n_flirt": 0,
+    "n_neutral": 20
+   },
+   {
+    "w": "hmm",
+    "z": -0.93,
+    "n_flirt": 0,
+    "n_neutral": 18
+   },
+   {
+    "w": "was",
+    "z": -0.91,
+    "n_flirt": 8,
+    "n_neutral": 157
+   },
+   {
+    "w": "type",
+    "z": -0.9,
+    "n_flirt": 0,
+    "n_neutral": 17
+   },
+   {
+    "w": "there",
+    "z": -0.89,
+    "n_flirt": 2,
+    "n_neutral": 56
+   },
+   {
+    "w": "does",
+    "z": -0.89,
+    "n_flirt": 0,
+    "n_neutral": 17
+   }
+  ],
+  "n_tokens": {
+   "flirt": 1230,
+   "neutral": 17033
+  }
+ },
+ "whatsapp_nl": {
+  "flirt": [
+   {
+    "w": "xx",
+    "z": 7.26,
+    "n_flirt": 28,
+    "n_neutral": 17
+   },
+   {
+    "w": "je",
+    "z": 6.63,
+    "n_flirt": 125,
+    "n_neutral": 385
+   },
+   {
+    "w": "bent",
+    "z": 5.57,
+    "n_flirt": 16,
+    "n_neutral": 9
+   },
+   {
+    "w": ";)",
+    "z": 4.05,
+    "n_flirt": 23,
+    "n_neutral": 49
+   },
+   {
+    "w": "<alongamento>",
+    "z": 3.97,
+    "n_flirt": 46,
+    "n_neutral": 143
+   },
+   {
+    "w": "schat",
+    "z": 3.94,
+    "n_flirt": 9,
+    "n_neutral": 1
+   },
+   {
+    "w": ":d",
+    "z": 3.76,
+    "n_flirt": 8,
+    "n_neutral": 6
+   },
+   {
+    "w": "😘",
+    "z": 3.65,
+    "n_flirt": 12,
+    "n_neutral": 0
+   },
+   {
+    "w": "slapen",
+    "z": 3.51,
+    "n_flirt": 6,
+    "n_neutral": 3
+   },
+   {
+    "w": "snel",
+    "z": 3.49,
+    "n_flirt": 11,
+    "n_neutral": 16
+   },
+   {
+    "w": "weer",
+    "z": 3.35,
+    "n_flirt": 24,
+    "n_neutral": 64
+   },
+   {
+    "w": "lekker",
+    "z": 3.34,
+    "n_flirt": 21,
+    "n_neutral": 52
+   },
+   {
+    "w": "leuke",
+    "z": 3.33,
+    "n_flirt": 6,
+    "n_neutral": 4
+   },
+   {
+    "w": "geval",
+    "z": 3.31,
+    "n_flirt": 6,
+    "n_neutral": 4
+   },
+   {
+    "w": "lief",
+    "z": 3.23,
+    "n_flirt": 5,
+    "n_neutral": 2
+   },
+   {
+    "w": "slaap",
+    "z": 3.2,
+    "n_flirt": 5,
+    "n_neutral": 1
+   },
+   {
+    "w": "jou",
+    "z": 3.17,
+    "n_flirt": 13,
+    "n_neutral": 27
+   },
+   {
+    "w": "balen",
+    "z": 3.17,
+    "n_flirt": 5,
+    "n_neutral": 2
+   },
+   {
+    "w": "vinden",
+    "z": 3.03,
+    "n_flirt": 6,
+    "n_neutral": 6
+   },
+   {
+    "w": "🎉",
+    "z": 3.0,
+    "n_flirt": 6,
+    "n_neutral": 6
+   },
+   {
+    "w": "uit",
+    "z": 2.85,
+    "n_flirt": 15,
+    "n_neutral": 37
+   },
+   {
+    "w": "ieder",
+    "z": 2.81,
+    "n_flirt": 4,
+    "n_neutral": 2
+   },
+   {
+    "w": "reis",
+    "z": 2.8,
+    "n_flirt": 4,
+    "n_neutral": 1
+   },
+   {
+    "w": "sterkte",
+    "z": 2.79,
+    "n_flirt": 4,
+    "n_neutral": 1
+   },
+   {
+    "w": "succes",
+    "z": 2.7,
+    "n_flirt": 8,
+    "n_neutral": 14
+   },
+   {
+    "w": "goed",
+    "z": 2.69,
+    "n_flirt": 37,
+    "n_neutral": 134
+   },
+   {
+    "w": "aah",
+    "z": 2.67,
+    "n_flirt": 4,
+    "n_neutral": 3
+   },
+   {
+    "w": "met",
+    "z": 2.53,
+    "n_flirt": 39,
+    "n_neutral": 149
+   },
+   {
+    "w": "x",
+    "z": 2.49,
+    "n_flirt": 4,
+    "n_neutral": 4
+   },
+   {
+    "w": "hihi",
+    "z": 2.48,
+    "n_flirt": 4,
+    "n_neutral": 4
+   },
+   {
+    "w": "liedje",
+    "z": 2.45,
+    "n_flirt": 3,
+    "n_neutral": 1
+   },
+   {
+    "w": "namens",
+    "z": 2.45,
+    "n_flirt": 3,
+    "n_neutral": 1
+   },
+   {
+    "w": "hoor",
+    "z": 2.45,
+    "n_flirt": 14,
+    "n_neutral": 39
+   },
+   {
+    "w": "lang",
+    "z": 2.44,
+    "n_flirt": 8,
+    "n_neutral": 16
+   },
+   {
+    "w": "👍",
+    "z": 2.41,
+    "n_flirt": 5,
+    "n_neutral": 7
+   },
+   {
+    "w": "komt",
+    "z": 2.41,
+    "n_flirt": 9,
+    "n_neutral": 21
+   },
+   {
+    "w": ";p",
+    "z": 2.36,
+    "n_flirt": 4,
+    "n_neutral": 5
+   },
+   {
+    "w": "jongen",
+    "z": 2.34,
+    "n_flirt": 3,
+    "n_neutral": 2
+   },
+   {
+    "w": "heel",
+    "z": 2.29,
+    "n_flirt": 17,
+    "n_neutral": 53
+   },
+   {
+    "w": "gezellig",
+    "z": 2.28,
+    "n_flirt": 6,
+    "n_neutral": 11
+   }
+  ],
+  "neutral": [
+   {
+    "w": "heb",
+    "z": -4.09,
+    "n_flirt": 16,
+    "n_neutral": 283
+   },
+   {
+    "w": "de",
+    "z": -3.95,
+    "n_flirt": 38,
+    "n_neutral": 457
+   },
+   {
+    "w": "ik",
+    "z": -3.26,
+    "n_flirt": 116,
+    "n_neutral": 980
+   },
+   {
+    "w": "ja",
+    "z": -3.21,
+    "n_flirt": 29,
+    "n_neutral": 339
+   },
+   {
+    "w": "die",
+    "z": -3.15,
+    "n_flirt": 13,
+    "n_neutral": 199
+   },
+   {
+    "w": "nee",
+    "z": -2.63,
+    "n_flirt": 6,
+    "n_neutral": 115
+   },
+   {
+    "w": "in",
+    "z": -2.48,
+    "n_flirt": 22,
+    "n_neutral": 239
+   },
+   {
+    "w": "ze",
+    "z": -2.21,
+    "n_flirt": 8,
+    "n_neutral": 112
+   },
+   {
+    "w": "heeft",
+    "z": -2.2,
+    "n_flirt": 2,
+    "n_neutral": 58
+   },
+   {
+    "w": "nog",
+    "z": -2.11,
+    "n_flirt": 27,
+    "n_neutral": 257
+   },
+   {
+    "w": "had",
+    "z": -2.07,
+    "n_flirt": 2,
+    "n_neutral": 56
+   },
+   {
+    "w": "zal",
+    "z": -2.03,
+    "n_flirt": 0,
+    "n_neutral": 43
+   },
+   {
+    "w": "geen",
+    "z": -2.0,
+    "n_flirt": 5,
+    "n_neutral": 79
+   },
+   {
+    "w": "ben",
+    "z": -1.99,
+    "n_flirt": 11,
+    "n_neutral": 139
+   },
+   {
+    "w": "of",
+    "z": -1.98,
+    "n_flirt": 13,
+    "n_neutral": 142
+   },
+   {
+    "w": "dus",
+    "z": -1.95,
+    "n_flirt": 11,
+    "n_neutral": 128
+   },
+   {
+    "w": "oh",
+    "z": -1.93,
+    "n_flirt": 3,
+    "n_neutral": 58
+   },
+   {
+    "w": "zijn",
+    "z": -1.84,
+    "n_flirt": 14,
+    "n_neutral": 141
+   },
+   {
+    "w": "dan",
+    "z": -1.81,
+    "n_flirt": 28,
+    "n_neutral": 250
+   },
+   {
+    "w": "dacht",
+    "z": -1.79,
+    "n_flirt": 1,
+    "n_neutral": 36
+   },
+   {
+    "w": "staat",
+    "z": -1.74,
+    "n_flirt": 0,
+    "n_neutral": 35
+   },
+   {
+    "w": "anders",
+    "z": -1.66,
+    "n_flirt": 2,
+    "n_neutral": 42
+   },
+   {
+    "w": "week",
+    "z": -1.66,
+    "n_flirt": 2,
+    "n_neutral": 41
+   },
+   {
+    "w": "denk",
+    "z": -1.61,
+    "n_flirt": 7,
+    "n_neutral": 81
+   },
+   {
+    "w": "n",
+    "z": -1.57,
+    "n_flirt": 0,
+    "n_neutral": 27
+   },
+   {
+    "w": "prima",
+    "z": -1.57,
+    "n_flirt": 1,
+    "n_neutral": 31
+   },
+   {
+    "w": "vanavond",
+    "z": -1.55,
+    "n_flirt": 1,
+    "n_neutral": 32
+   },
+   {
+    "w": "volgens",
+    "z": -1.5,
+    "n_flirt": 0,
+    "n_neutral": 25
+   },
+   {
+    "w": "oké",
+    "z": -1.49,
+    "n_flirt": 1,
+    "n_neutral": 28
+   },
+   {
+    "w": "over",
+    "z": -1.49,
+    "n_flirt": 4,
+    "n_neutral": 56
+   },
+   {
+    "w": "twee",
+    "z": -1.48,
+    "n_flirt": 0,
+    "n_neutral": 26
+   },
+   {
+    "w": "bij",
+    "z": -1.47,
+    "n_flirt": 15,
+    "n_neutral": 138
+   },
+   {
+    "w": "vragen",
+    "z": -1.47,
+    "n_flirt": 1,
+    "n_neutral": 27
+   },
+   {
+    "w": "nu",
+    "z": -1.47,
+    "n_flirt": 15,
+    "n_neutral": 141
+   },
+   {
+    "w": "thuis",
+    "z": -1.46,
+    "n_flirt": 1,
+    "n_neutral": 31
+   },
+   {
+    "w": "deze",
+    "z": -1.46,
+    "n_flirt": 0,
+    "n_neutral": 24
+   },
+   {
+    "w": "idd",
+    "z": -1.46,
+    "n_flirt": 1,
+    "n_neutral": 28
+   },
+   {
+    "w": "precies",
+    "z": -1.43,
+    "n_flirt": 2,
+    "n_neutral": 34
+   },
+   {
+    "w": "geweest",
+    "z": -1.41,
+    "n_flirt": 1,
+    "n_neutral": 25
+   },
+   {
+    "w": "oke",
+    "z": -1.39,
+    "n_flirt": 10,
+    "n_neutral": 96
+   }
+  ],
+  "n_tokens": {
+   "flirt": 3854,
+   "neutral": 23634
+  }
+ }
+}

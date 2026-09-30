@@ -61,7 +61,7 @@ res["callback_transition_ols"] = out
 # 6) exemplos
 def ex(mask, k=6):
     e = m[mask].sample(min(k, int(mask.sum())), random_state=11)
-    return [{"corpus": r.corpus, "antes": (r.pv_text or "")[:120], "turno": r.text[:160]} for _, r in e.iterrows()]
+    return [{"corpus": r.corpus, "antes": (r.pv_text if isinstance(r.pv_text, str) else "")[:120], "turno": r.text[:160]} for _, r in e.iterrows()]
 res["ex_callback"] = ex((m.callback > .8) & (m.corpus == "maichat")) + ex((m.callback > .8) & (m.corpus == "whatsapp_nl"), 3)
 res["ex_abrupt"] = ex((m.transition == "abrupt_shift") & (m.corpus == "maichat"))
 res["ex_smooth"] = ex((m.transition == "smooth_shift") & (m.corpus == "maichat"))
@@ -86,7 +86,7 @@ ab = m2.assign(ab=(m2.asks_back > .5).astype(int))
 eab = ab[ab.pv_has_q == True].groupby("ab").agg(n=("nx_D_engagement", "size"), eng=("nx_D_engagement", "mean"), zch=("nx_zch", "mean"),
                                                    cont=("nx_is_last", lambda s: 1 - s.astype(float).mean())).round(3)
 print(eab.to_string()); res["asks_back_effect_raw"] = eab.reset_index().to_dict("records")
-res["ex_asks_back"] = [{"antes": (r.pv_text or "")[:100], "turno": r.text[:140]} for _, r in m[(m.asks_back > .8)].sample(8, random_state=3).iterrows()]
+res["ex_asks_back"] = [{"antes": (r.pv_text if isinstance(r.pv_text, str) else "")[:100], "turno": r.text[:140]} for _, r in m[(m.asks_back > .8)].sample(8, random_state=3).iterrows()]
 print(res["ex_asks_back"])
 # pergunta pessoal: taxa e quem pergunta
 res["personal_q_rate"] = m.groupby("corpus").personal_q.apply(lambda s: round((s > .5).mean(), 3)).to_dict()

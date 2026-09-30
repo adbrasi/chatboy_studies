@@ -57,3 +57,19 @@ bins = pd.cut(d.P_p_question, [0, .1, .2, .4, .6, 1], include_lowest=True)
 cal = d.groupby(bins).agg(n=("has_q", "size"), obs=("has_q", "mean"), pred=("P_p_question", "mean")).round(3)
 print(cal.to_string()); res["p_question_calibration"] = cal.reset_index().astype(str).to_dict("records")
 json.dump(res, open(f"{OUT}/a5_validate_P.json", "w"), indent=1, default=str)
+# combinação Jev + baseline de código (logística com validação cruzada agrupada por conversa)
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GroupKFold, cross_val_predict
+comb = {}
+d["logit_pq"] = np.log(d.P_p_question.clip(.01, .99) / (1 - d.P_p_question.clip(.01, .99)))
+d["logit_pe"] = np.log(d.P_p_end.clip(.01, .99) / (1 - d.P_p_end.clip(.01, .99)))
+d["end_any"] = d.farewell | d.is_last | (d.D_intent == "closing")
+d["is_wa"] = (d.corpus == "whatsapp_nl").astype(float)
+d["logpos"] = np.log1p(d.turn_in_session)
+for name, y, feats in (("question", d.has_q, ["logit_pq", "spk_qrate", "is_wa"]), ("question_code_only", d.has_q, ["spk_qrate", "is_wa"]),
+                       ("end", d.end_any, ["logit_pe", "prev_farewell", "logpos", "is_wa"]), ("end_code_only", d.end_any, ["prev_farewell", "logpos", "is_wa"])):
+    X = d[feats].astype(float).values
+    p = cross_val_predict(LogisticRegression(max_iter=500), X, y.astype(int), groups=d.conv_id, cv=GroupKFold(5), method="predict_proba")[:, 1]
+    comb[name] = round(auc(y, p), 3)
+print("AUC combinada (CV por conversa):", comb); res["combined_auc_cv"] = comb
+json.dump(res, open(f"{OUT}/a5_validate_P.json", "w"), indent=1, default=str)

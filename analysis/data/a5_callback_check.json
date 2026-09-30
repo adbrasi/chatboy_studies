@@ -1,0 +1,20 @@
+{
+ "maichat": {
+  "n": 1600,
+  "AUC_overlap_for_jev_callback": 0.726,
+  "p_overlap>=1_if_cb": 0.642,
+  "p_overlap>=1_if_not": 0.204
+ },
+ "whatsapp_nl": {
+  "n": 1150,
+  "AUC_overlap_for_jev_callback": 0.759,
+  "p_overlap>=1_if_cb": 0.838,
+  "p_overlap>=1_if_not": 0.452
+ },
+ "all": {
+  "n": 2750,
+  "AUC_overlap_for_jev_callback": 0.748,
+  "p_overlap>=1_if_cb": 0.746,
+  "p_overlap>=1_if_not": 0.304
+ }
+}

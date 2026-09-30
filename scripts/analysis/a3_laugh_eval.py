@@ -53,3 +53,31 @@ for k in ("n", "function_share", "function_share_conf>=.6", "function_soft_share
     print(k, json.dumps(R[k], ensure_ascii=False))
 print(pd.DataFrame(R["after_by_function"]))
 print(json.dumps(ex, indent=0, ensure_ascii=False))
+
+# ---- forma do riso por função: comprimento do "hahaha", posição, riso sozinho, CAPS ----
+import re
+LA = re.compile(r"(a?ha(?:ha)+h?|he(?:he)+|hi(?:hi)+|lo+l+|lmf?ao+|haa+|hah+)", re.I)
+EM = re.compile("[\U0001F602\U0001F923\U0001F606\U0001F605\U0001F601\U0001F604\U0001F639]")
+def shape(t):
+    ms = [m.group(0) for m in LA.finditer(t)]
+    L_ = max((len(x) for x in ms), default=0)
+    rest = re.sub(r"[\W_]+", "", LA.sub("", EM.sub("", t)))
+    first = LA.search(t) or EM.search(t)
+    pos = None
+    if first:
+        pos = "start" if first.start() <= 2 else ("end" if first.end() >= len(t.rstrip(" !.?:;)(xXpP/")) - 1 else "middle")
+    return {"laugh_len": L_, "only_laugh": not rest, "pos": "only" if not rest else pos, "emoji_laugh": bool(EM.search(t)) and not ms,
+            "caps": any(x.isupper() and len(x) > 3 for x in ms), "long_laugh": L_ >= 6}
+S = pd.DataFrame([shape(t) for t in A.text], index=A.index)
+A2 = pd.concat([A, S], axis=1)
+tab = A2.groupby("function").agg(n=("text", "size"), laugh_len_median=("laugh_len", lambda s: s[s > 0].median()),
+                                 long_laugh=("long_laugh", "mean"), only_laugh=("only_laugh", "mean"), caps=("caps", "mean"),
+                                 emoji_laugh=("emoji_laugh", "mean"), partner_laughs=("next_laugh", "mean"),
+                                 partner_playful=("next_playful", lambda s: (s >= .5).mean())).round(3)
+pos = pd.crosstab(A2.function, A2.pos, normalize="index").round(3)
+R["shape_by_function"] = tab.to_dict("index"); R["position_by_function"] = pos.to_dict("index")
+R["shape_by_function_by_corpus"] = A2.groupby(["corpus", "function"]).agg(n=("text", "size"), long_laugh=("long_laugh", "mean"),
+                                    pos_end=("pos", lambda s: (s == "end").mean()), pos_start=("pos", lambda s: (s == "start").mean())).round(3).reset_index().to_dict("records")
+json.dump(R, open(os.path.join(OUT, "a3_laugh.json"), "w"), indent=1, ensure_ascii=False, default=str)
+pd.set_option("display.width", 200)
+print(tab); print(pos); print(pd.DataFrame(R["shape_by_function_by_corpus"]))

@@ -252,32 +252,32 @@
   }
  },
  "p_topic_shift_vs_moves_transition": {
-  "n": 9,
-  "base_rate": 0.111,
-  "mean_pred": 0.33,
-  "AUC_jev": 0.188,
-  "acc_jev@0.5": 0.889,
-  "acc_majority": 0.889,
-  "brier_jev": 0.1587,
-  "brier_const": 0.0988,
+  "n": 2601,
+  "base_rate": 0.105,
+  "mean_pred": 0.298,
+  "AUC_jev": 0.561,
+  "acc_jev@0.5": 0.891,
+  "acc_majority": 0.895,
+  "brier_jev": 0.1328,
+  "brier_const": 0.0942,
   "best_F1_thr": [
-   0.05,
-   0.2
+   0.25,
+   0.206
   ],
-  "AUC_prev_ack": 0.5
+  "AUC_prev_ack": 0.545
  },
  "p_topic_shift_vs_abrupt": {
-  "n": 9,
-  "base_rate": 0.111,
-  "mean_pred": 0.33,
-  "AUC_jev": 0.188,
-  "acc_jev@0.5": 0.889,
-  "acc_majority": 0.889,
-  "brier_jev": 0.1587,
-  "brier_const": 0.0988,
+  "n": 2601,
+  "base_rate": 0.047,
+  "mean_pred": 0.298,
+  "AUC_jev": 0.529,
+  "acc_jev@0.5": 0.948,
+  "acc_majority": 0.953,
+  "brier_jev": 0.1114,
+  "brier_const": 0.0447,
   "best_F1_thr": [
-   0.05,
-   0.2
+   0.3,
+   0.096
   ]
  },
  "p_end_calibration": [
@@ -343,5 +343,11 @@
    "obs": "0.327",
    "pred": "0.67"
   }
- ]
+ ],
+ "combined_auc_cv": {
+  "question": 0.687,
+  "question_code_only": 0.67,
+  "end": 0.801,
+  "end_code_only": 0.7
+ }
 }

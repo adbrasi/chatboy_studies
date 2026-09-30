@@ -1,0 +1,210 @@
+{
+ "clean_all": {
+  "n": 3046,
+  "quantreg": {
+   "0.25": {
+    "Intercept": -0.001,
+    "final_len": 0.138
+   },
+   "0.5": {
+    "Intercept": 0.153,
+    "final_len": 0.173
+   },
+   "0.75": {
+    "Intercept": 0.574,
+    "final_len": 0.234
+   }
+  },
+  "sec_per_char_by_len": {
+   "(0, 5]": {
+    "n": 403.0,
+    "compose_med": 1.5,
+    "compose_p25": 0.92,
+    "compose_p75": 2.21
+   },
+   "(5, 15]": {
+    "n": 986.0,
+    "compose_med": 2.03,
+    "compose_p25": 1.55,
+    "compose_p75": 2.67
+   },
+   "(15, 30]": {
+    "n": 1019.0,
+    "compose_med": 3.32,
+    "compose_p25": 2.66,
+    "compose_p75": 4.49
+   },
+   "(30, 60]": {
+    "n": 540.0,
+    "compose_med": 7.07,
+    "compose_p25": 5.08,
+    "compose_p75": 10.43
+   },
+   "(60, 120]": {
+    "n": 91.0,
+    "compose_med": 17.34,
+    "compose_p25": 13.72,
+    "compose_p75": 22.68
+   },
+   "(120, 1000]": {
+    "n": 7.0,
+    "compose_med": 29.85,
+    "compose_p25": 28.1,
+    "compose_p75": 37.28
+   }
+  }
+ },
+ "clean_mobile": {
+  "n": 1223,
+  "quantreg": {
+   "0.25": {
+    "Intercept": 0.048,
+    "final_len": 0.133
+   },
+   "0.5": {
+    "Intercept": 0.379,
+    "final_len": 0.137
+   },
+   "0.75": {
+    "Intercept": 0.659,
+    "final_len": 0.22
+   }
+  },
+  "sec_per_char_by_len": {
+   "(0, 5]": {
+    "n": 177.0,
+    "compose_med": 1.68,
+    "compose_p25": 0.93,
+    "compose_p75": 2.22
+   },
+   "(5, 15]": {
+    "n": 412.0,
+    "compose_med": 1.94,
+    "compose_p25": 1.52,
+    "compose_p75": 2.5
+   },
+   "(15, 30]": {
+    "n": 415.0,
+    "compose_med": 3.16,
+    "compose_p25": 2.58,
+    "compose_p75": 4.03
+   },
+   "(30, 60]": {
+    "n": 187.0,
+    "compose_med": 5.91,
+    "compose_p25": 4.84,
+    "compose_p75": 9.5
+   },
+   "(60, 120]": {
+    "n": 32.0,
+    "compose_med": 19.38,
+    "compose_p25": 13.64,
+    "compose_p75": 24.05
+   }
+  }
+ },
+ "clean_desktop": {
+  "n": 1823,
+  "quantreg": {
+   "0.25": {
+    "Intercept": -0.014,
+    "final_len": 0.141
+   },
+   "0.5": {
+    "Intercept": 0.17,
+    "final_len": 0.182
+   },
+   "0.75": {
+    "Intercept": 0.539,
+    "final_len": 0.239
+   }
+  },
+  "sec_per_char_by_len": {
+   "(0, 5]": {
+    "n": 226.0,
+    "compose_med": 1.43,
+    "compose_p25": 0.92,
+    "compose_p75": 2.15
+   },
+   "(5, 15]": {
+    "n": 574.0,
+    "compose_med": 2.12,
+    "compose_p25": 1.59,
+    "compose_p75": 2.75
+   },
+   "(15, 30]": {
+    "n": 604.0,
+    "compose_med": 3.47,
+    "compose_p25": 2.71,
+    "compose_p75": 5.01
+   },
+   "(30, 60]": {
+    "n": 353.0,
+    "compose_med": 7.52,
+    "compose_p25": 5.46,
+    "compose_p75": 11.09
+   },
+   "(60, 120]": {
+    "n": 59.0,
+    "compose_med": 16.61,
+    "compose_p25": 13.78,
+    "compose_p75": 20.57
+   },
+   "(120, 1000]": {
+    "n": 7.0,
+    "compose_med": 29.85,
+    "compose_p25": 28.1,
+    "compose_p75": 37.28
+   }
+  }
+ },
+ "think_time": {
+  "n": 1962,
+  "p25": 5.6,
+  "med": 14.6,
+  "p75": 28.6,
+  "rho_vs_partner_len": -0.088,
+  "quantreg_med": {
+   "Intercept": 17.306,
+   "prev_len": -0.113
+  },
+  "by_partner_len": {
+   "(0, 10]": 14.4,
+   "(10, 30]": 17.7,
+   "(30, 60]": 10.5,
+   "(60, 1000]": 7.5
+  },
+  "by_seriousness": {
+   "(-0.1, 0.5]": {
+    "size": 1203,
+    "median": 16.0
+   },
+   "(0.5, 1.5]": {
+    "size": 728,
+    "median": 12.0
+   },
+   "(1.5, 3.1]": {
+    "size": 31,
+    "median": 9.6
+   }
+  },
+  "by_vulnerable": {
+   "False": {
+    "size": 1798,
+    "median": 14.3
+   },
+   "True": {
+    "size": 164,
+    "median": 18.0
+   }
+  }
+ },
+ "overlap": {
+  "share_started_before_partner_msg": 0.299,
+  "reset_if_overlap": 0.181,
+  "reset_if_not": 0.009,
+  "deleted_if_overlap": 0.751,
+  "deleted_if_not": 0.153,
+  "n_overlap": 838
+ }
+}

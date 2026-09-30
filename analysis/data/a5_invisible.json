@@ -1,0 +1,43 @@
+{
+ "length_mirroring": {
+  "maichat": {
+   "n": 2784,
+   "b_partner_prev": 0.097,
+   "b_own_prev": -0.028,
+   "p_partner": 3.840796751861909e-07
+  },
+  "whatsapp_nl": {
+   "n": 27126,
+   "b_partner_prev": 0.117,
+   "b_own_prev": 0.063,
+   "p_partner": 9.280701577834985e-78
+  }
+ },
+ "bubbles_mirroring_rho": {
+  "maichat": 0.207,
+  "whatsapp_nl": 0.117
+ },
+ "p_opener_is_closer": 0.456,
+ "p_session_ends_with_unanswered_q": 0.077,
+ "p_session_ends_with_farewell": 0.064,
+ "p_session_opens_with_q": 0.542,
+ "p_session_opens_with_greeting": 0.101,
+ "p_next_session_opened_by_who_did_not_close": 0.52,
+ "p_next_opened_by_other_when_closed_with_unanswered_q": 0.549,
+ "sess_len_median_open_q_vs_not": [
+  6.0,
+  5.0
+ ],
+ "sess_len_mean_open_q_vs_not": [
+  11.03,
+  11.31
+ ],
+ "ex_unanswered_close": [
+  "Goed bezig XD / Nou ben er om [REMOVED], heb weer een heerlijke OV ervaring / Eeej kerel zit je in de bieb?",
+  "Ik zal er even over praten met de rest van het bestuur, goed? / eerst ga ik snel slapen want ik heb morgen [REMOVED] ten",
+  "Beestfeest  volgende week donderdag?",
+  " Teringjong  /  Moeten we eik nie mensen uitnodigen zodat we de datum hebben geclaimd zeg maar?  /  Anders negeer je me ",
+  "Haha heerlijk geslapen, jij/julloe ook? In een kerk?? Haha nee grapje maar oke, zal es vragen wat wij doen dan / Tante m",
+  "NEE :p  / Ben je dr al? "
+ ]
+}

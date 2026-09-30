@@ -1,0 +1,6587 @@
+{
+ "maichat": {
+  "intent:answer": {
+   "n": 536,
+   "median_chars_turn": 29.0,
+   "p25_p75_chars": [
+    17,
+    58
+   ],
+   "mean_bubbles": 1.67,
+   "pct_first_bubble_le3words": 46.6,
+   "pct_laugh": 4.3,
+   "pct_question": 5.4,
+   "pct_excl": 3.2,
+   "pct_emoji": 2.8,
+   "pct_no_final_punct": 94.6,
+   "pct_starts_lower": 75.2,
+   "top_forms": [
+    [
+     "yes",
+     15
+    ],
+    [
+     "no",
+     8
+    ],
+    [
+     "yeah",
+     7
+    ],
+    [
+     "hmm",
+     4
+    ],
+    [
+     "maybe",
+     4
+    ],
+    [
+     "yess",
+     3
+    ],
+    [
+     "wbu",
+     3
+    ],
+    [
+     "idk",
+     3
+    ],
+    [
+     "lol",
+     2
+    ],
+    [
+     ".",
+     2
+    ],
+    [
+     "haha",
+     2
+    ],
+    [
+     "not sure",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     67
+    ],
+    [
+     "yes",
+     35
+    ],
+    [
+     "yeah",
+     31
+    ],
+    [
+     "no",
+     19
+    ],
+    [
+     "the",
+     17
+    ],
+    [
+     "idk",
+     10
+    ],
+    [
+     "well",
+     9
+    ],
+    [
+     "maybe",
+     9
+    ],
+    [
+     "because",
+     9
+    ],
+    [
+     "im",
+     8
+    ],
+    [
+     "he",
+     8
+    ],
+    [
+     "",
+     7
+    ]
+   ],
+   "examples": [
+    "I'm good, how are you? ",
+    "Yes ! ",
+    "i mean anything could roam free around the house  / just depends if you'll lose it or if it'll destroy the house ",
+    "aries - I'm so firey / wbu",
+    "yes done ",
+    "by talking obviously",
+    "ok fine / a gaming setup",
+    "almost / i zoned out thinking abt lunch"
+   ]
+  },
+  "intent:ask_question": {
+   "n": 469,
+   "median_chars_turn": 28,
+   "p25_p75_chars": [
+    16,
+    46
+   ],
+   "mean_bubbles": 1.52,
+   "pct_first_bubble_le3words": 39.4,
+   "pct_laugh": 4.3,
+   "pct_question": 37.7,
+   "pct_excl": 2.3,
+   "pct_emoji": 2.8,
+   "pct_no_final_punct": 66.5,
+   "pct_starts_lower": 75.9,
+   "top_forms": [
+    [
+     "what",
+     5
+    ],
+    [
+     "why",
+     4
+    ],
+    [
+     "hi",
+     3
+    ],
+    [
+     "?",
+     3
+    ],
+    [
+     "which one",
+     3
+    ],
+    [
+     "tell me",
+     3
+    ],
+    [
+     "5?",
+     3
+    ],
+    [
+     "hmm",
+     3
+    ],
+    [
+     "next video?",
+     3
+    ],
+    [
+     "what abt u",
+     3
+    ],
+    [
+     "ok serious question",
+     3
+    ],
+    [
+     "send pic",
+     3
+    ]
+   ],
+   "top_first_words": [
+    [
+     "what",
+     67
+    ],
+    [
+     "did",
+     28
+    ],
+    [
+     "why",
+     22
+    ],
+    [
+     "so",
+     22
+    ],
+    [
+     "how",
+     17
+    ],
+    [
+     "is",
+     13
+    ],
+    [
+     "oh",
+     12
+    ],
+    [
+     "i",
+     11
+    ],
+    [
+     "do",
+     11
+    ],
+    [
+     "ok",
+     10
+    ],
+    [
+     "also",
+     9
+    ],
+    [
+     "what's",
+     7
+    ]
+   ],
+   "examples": [
+    "How are you?",
+    "oh noo :(  / what kind of party ",
+    "is it people playing dungeons and dragons, or you're inside a game?",
+    "No / They got missed  / What’s up? / U tell me?",
+    "Witch / Farting?",
+    "again??",
+    "why are you texting me when you're literally in the living room",
+    "gaming marathon?"
+   ]
+  },
+  "intent:change_topic": {
+   "n": 41,
+   "median_chars_turn": 38,
+   "p25_p75_chars": [
+    26,
+    45
+   ],
+   "mean_bubbles": 1.49,
+   "pct_first_bubble_le3words": 31.7,
+   "pct_laugh": 2.4,
+   "pct_question": 7.3,
+   "pct_excl": 2.4,
+   "pct_emoji": 2.4,
+   "pct_no_final_punct": 95.1,
+   "pct_starts_lower": 85.4,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "i",
+     4
+    ],
+    [
+     "ok",
+     4
+    ],
+    [
+     "btw",
+     3
+    ],
+    [
+     "that",
+     2
+    ],
+    [
+     "also",
+     2
+    ],
+    [
+     "no",
+     2
+    ],
+    [
+     "we",
+     2
+    ],
+    [
+     "remember",
+     2
+    ],
+    [
+     "oh",
+     1
+    ],
+    [
+     "it",
+     1
+    ],
+    [
+     "yeah",
+     1
+    ],
+    [
+     "shall",
+     1
+    ]
+   ],
+   "examples": [
+    "That’s true  / But some cars are nice ",
+    "it reminded me of the joy i get when going to Baskin Robbins / speaking of which",
+    "shall we play an emoji game",
+    "Go back to the cluuub",
+    "ok random question",
+    "ok i should actually start my hw",
+    "as always / anyway that goalkeeper slip was wild",
+    "ok random but i saw the cutest dog today"
+   ]
+  },
+  "intent:closing": {
+   "n": 88,
+   "median_chars_turn": 19.0,
+   "p25_p75_chars": [
+    10,
+    35
+   ],
+   "mean_bubbles": 1.48,
+   "pct_first_bubble_le3words": 59.1,
+   "pct_laugh": 5.7,
+   "pct_question": 4.5,
+   "pct_excl": 10.2,
+   "pct_emoji": 13.6,
+   "pct_no_final_punct": 85.2,
+   "pct_starts_lower": 75.0,
+   "top_forms": [
+    [
+     "bye",
+     8
+    ],
+    [
+     "byee",
+     3
+    ],
+    [
+     "bye!",
+     3
+    ],
+    [
+     "okay byee",
+     2
+    ],
+    [
+     "byyee",
+     2
+    ],
+    [
+     "bye 💀",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "bye",
+     13
+    ],
+    [
+     "ok",
+     8
+    ],
+    [
+     "i",
+     3
+    ],
+    [
+     "alright",
+     3
+    ],
+    [
+     "oh",
+     2
+    ],
+    [
+     "see",
+     2
+    ],
+    [
+     "aw",
+     2
+    ],
+    [
+     "yeah",
+     2
+    ],
+    [
+     "okay",
+     2
+    ],
+    [
+     "shall",
+     2
+    ],
+    [
+     "goodnight",
+     2
+    ],
+    [
+     "byee",
+     1
+    ]
+   ],
+   "examples": [
+    "Byee 😂",
+    "bye :)",
+    "well, I gotta go now, we can talk about red pandas next time we meet k?",
+    "Are you sure ?? / Okay Byee",
+    "Anyway dad I need to go now  / thanks for chatting and doing this with me ",
+    "bye",
+    "exactly / ok i should actually start hw",
+    "ok im gonna sleep soon"
+   ]
+  },
+  "intent:comfort_support": {
+   "n": 24,
+   "median_chars_turn": 23.0,
+   "p25_p75_chars": [
+    14,
+    48
+   ],
+   "mean_bubbles": 1.42,
+   "pct_first_bubble_le3words": 58.3,
+   "pct_laugh": 4.2,
+   "pct_question": 0.0,
+   "pct_excl": 0.0,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 87.5,
+   "pct_starts_lower": 79.2,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "i",
+     2
+    ],
+    [
+     "dont",
+     2
+    ],
+    [
+     "you",
+     2
+    ],
+    [
+     "come",
+     2
+    ],
+    [
+     "we",
+     1
+    ],
+    [
+     "woah",
+     1
+    ],
+    [
+     "their",
+     1
+    ],
+    [
+     "_",
+     1
+    ],
+    [
+     "please",
+     1
+    ],
+    [
+     "but",
+     1
+    ],
+    [
+     "im",
+     1
+    ],
+    [
+     "u",
+     1
+    ]
+   ],
+   "examples": [
+    "we should go  / im sorry you feel that way, do you want to discuss it further",
+    "dont cry because its over, smile because it happened",
+    "their not real / they*re",
+    "You don't need to get me anything much.",
+    "come rant",
+    "next time ok",
+    "relax",
+    "go eat smth pls"
+   ]
+  },
+  "intent:compliment_affection": {
+   "n": 60,
+   "median_chars_turn": 17.5,
+   "p25_p75_chars": [
+    12,
+    27
+   ],
+   "mean_bubbles": 1.2,
+   "pct_first_bubble_le3words": 61.7,
+   "pct_laugh": 1.7,
+   "pct_question": 0.0,
+   "pct_excl": 0.0,
+   "pct_emoji": 10.0,
+   "pct_no_final_punct": 96.7,
+   "pct_starts_lower": 80.0,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "love",
+     9
+    ],
+    [
+     "i",
+     3
+    ],
+    [
+     "im",
+     3
+    ],
+    [
+     "but",
+     2
+    ],
+    [
+     "that",
+     2
+    ],
+    [
+     "yes",
+     2
+    ],
+    [
+     "affectionately",
+     2
+    ],
+    [
+     "🥺",
+     1
+    ],
+    [
+     "🥰",
+     1
+    ],
+    [
+     "and",
+     1
+    ],
+    [
+     "they",
+     1
+    ],
+    [
+     "omg",
+     1
+    ]
+   ],
+   "examples": [
+    "🥺🥺🥺🥺 so cuteee",
+    "but clever for a podcast name ",
+    "impressive indeed / you tooo",
+    "Love you too",
+    "still my fav",
+    "im proud for u",
+    "it’s cute tho / very u",
+    "as u should ✨"
+   ]
+  },
+  "intent:disagree_complain": {
+   "n": 240,
+   "median_chars_turn": 21.0,
+   "p25_p75_chars": [
+    13,
+    38
+   ],
+   "mean_bubbles": 1.24,
+   "pct_first_bubble_le3words": 47.1,
+   "pct_laugh": 3.3,
+   "pct_question": 3.8,
+   "pct_excl": 0.8,
+   "pct_emoji": 2.5,
+   "pct_no_final_punct": 94.6,
+   "pct_starts_lower": 82.5,
+   "top_forms": [
+    [
+     "rude",
+     8
+    ],
+    [
+     "no",
+     5
+    ],
+    [
+     "dont mock my journey",
+     3
+    ],
+    [
+     "sorry",
+     2
+    ],
+    [
+     "pls dont",
+     2
+    ],
+    [
+     "stopp",
+     2
+    ],
+    [
+     "im just honest",
+     2
+    ],
+    [
+     "stop",
+     2
+    ],
+    [
+     "rude.",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "dont",
+     15
+    ],
+    [
+     "rude",
+     11
+    ],
+    [
+     "i",
+     9
+    ],
+    [
+     "im",
+     9
+    ],
+    [
+     "no",
+     8
+    ],
+    [
+     "why",
+     8
+    ],
+    [
+     "thats",
+     7
+    ],
+    [
+     "its",
+     7
+    ],
+    [
+     "it",
+     6
+    ],
+    [
+     "that",
+     6
+    ],
+    [
+     "we",
+     6
+    ],
+    [
+     "you",
+     5
+    ]
+   ],
+   "examples": [
+    "Your voice ain’t that good ",
+    "Well it’s a commonly accepted starter snake",
+    "its not like theyre doing a double blind randomised control trial here",
+    "barely",
+    "why would u ruin this wholesome moment",
+    "you enjoy this too much",
+    "for 40 mins???",
+    "it was just sitting there"
+   ]
+  },
+  "intent:greet": {
+   "n": 56,
+   "median_chars_turn": 8.5,
+   "p25_p75_chars": [
+    5,
+    14
+   ],
+   "mean_bubbles": 1.25,
+   "pct_first_bubble_le3words": 85.7,
+   "pct_laugh": 0.0,
+   "pct_question": 14.3,
+   "pct_excl": 14.3,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 80.4,
+   "pct_starts_lower": 55.4,
+   "top_forms": [
+    [
+     "hi",
+     7
+    ],
+    [
+     "hello",
+     5
+    ],
+    [
+     "hii",
+     5
+    ],
+    [
+     "hello!",
+     3
+    ],
+    [
+     "hi!",
+     2
+    ],
+    [
+     "hey",
+     2
+    ],
+    [
+     "yo",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "hi",
+     14
+    ],
+    [
+     "hello",
+     12
+    ],
+    [
+     "hey",
+     8
+    ],
+    [
+     "yo",
+     6
+    ],
+    [
+     "hii",
+     3
+    ],
+    [
+     "hellooo",
+     2
+    ],
+    [
+     "sup",
+     2
+    ],
+    [
+     "helluuuu",
+     1
+    ],
+    [
+     "hiiiiiiii",
+     1
+    ],
+    [
+     "heyyyy",
+     1
+    ],
+    [
+     "heyyy",
+     1
+    ],
+    [
+     "helloooo",
+     1
+    ]
+   ],
+   "examples": [
+    "Hi!",
+    "Hey hon",
+    "hii",
+    "Hi / Iam fine / How are you ",
+    "hello!!!",
+    "hi hi u free",
+    "bro",
+    "hello? u there son"
+   ]
+  },
+  "intent:joke_tease": {
+   "n": 464,
+   "median_chars_turn": 22.5,
+   "p25_p75_chars": [
+    14,
+    38
+   ],
+   "mean_bubbles": 1.32,
+   "pct_first_bubble_le3words": 48.9,
+   "pct_laugh": 6.0,
+   "pct_question": 3.0,
+   "pct_excl": 1.1,
+   "pct_emoji": 5.8,
+   "pct_no_final_punct": 95.9,
+   "pct_starts_lower": 87.5,
+   "top_forms": [
+    [
+     "too late",
+     4
+    ],
+    [
+     "suree",
+     3
+    ],
+    [
+     "hahahaha",
+     2
+    ],
+    [
+     "productive king",
+     2
+    ],
+    [
+     "never",
+     2
+    ],
+    [
+     "excuses",
+     2
+    ],
+    [
+     "clearly",
+     2
+    ],
+    [
+     "oh right",
+     2
+    ],
+    [
+     "betrayal",
+     2
+    ],
+    [
+     "…",
+     2
+    ],
+    [
+     "listen",
+     2
+    ],
+    [
+     "dont jinx it",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     26
+    ],
+    [
+     "u",
+     11
+    ],
+    [
+     "wow",
+     10
+    ],
+    [
+     "im",
+     10
+    ],
+    [
+     "dont",
+     9
+    ],
+    [
+     "you",
+     8
+    ],
+    [
+     "oh",
+     7
+    ],
+    [
+     "thats",
+     7
+    ],
+    [
+     "its",
+     7
+    ],
+    [
+     "they",
+     6
+    ],
+    [
+     "not",
+     6
+    ],
+    [
+     "no",
+     6
+    ]
+   ],
+   "examples": [
+    "Hahaha you are taking so long to type",
+    "bamboozled / lol",
+    "praying for them  / elena defo has choc / hidden in her room",
+    "clearly",
+    "balance in life ok",
+    "real friendship. no help. just content.",
+    "ok semi-failure",
+    "come get it"
+   ]
+  },
+  "intent:make_plans_logistics": {
+   "n": 124,
+   "median_chars_turn": 32.0,
+   "p25_p75_chars": [
+    20,
+    58
+   ],
+   "mean_bubbles": 1.65,
+   "pct_first_bubble_le3words": 31.5,
+   "pct_laugh": 2.4,
+   "pct_question": 5.6,
+   "pct_excl": 3.2,
+   "pct_emoji": 1.6,
+   "pct_no_final_punct": 91.1,
+   "pct_starts_lower": 73.4,
+   "top_forms": [
+    [
+     "dont be late",
+     2
+    ],
+    [
+     "ok go study",
+     2
+    ],
+    [
+     "ok im getting up now",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ok",
+     12
+    ],
+    [
+     "i",
+     9
+    ],
+    [
+     "we",
+     9
+    ],
+    [
+     "so",
+     4
+    ],
+    [
+     "okay",
+     3
+    ],
+    [
+     "oh",
+     3
+    ],
+    [
+     "now",
+     2
+    ],
+    [
+     "oooh",
+     2
+    ],
+    [
+     "i'd",
+     2
+    ],
+    [
+     "what",
+     2
+    ],
+    [
+     "ill",
+     2
+    ],
+    [
+     "maybe",
+     2
+    ]
+   ],
+   "examples": [
+    "let's go to leith  / i want to show you this filipino restaurant",
+    "i can't be happy in life without a daily sweet treat  / omg yum  / we'll eat it tonight when we watch the greatest showm",
+    "we require redaction in the first few messages and make the last few annoying",
+    "add lotus spread",
+    "So you are coming back here on Friday.",
+    "ok text me when u send the hair pic",
+    "ordering it is",
+    "fineeee ill make eggs"
+   ]
+  },
+  "intent:react_acknowledge": {
+   "n": 374,
+   "median_chars_turn": 10.0,
+   "p25_p75_chars": [
+    5,
+    19
+   ],
+   "mean_bubbles": 1.19,
+   "pct_first_bubble_le3words": 82.1,
+   "pct_laugh": 12.3,
+   "pct_question": 2.7,
+   "pct_excl": 2.7,
+   "pct_emoji": 7.5,
+   "pct_no_final_punct": 93.6,
+   "pct_starts_lower": 78.6,
+   "top_forms": [
+    [
+     "true",
+     11
+    ],
+    [
+     "exactly",
+     7
+    ],
+    [
+     "haha",
+     6
+    ],
+    [
+     "oh no",
+     5
+    ],
+    [
+     "good",
+     5
+    ],
+    [
+     "yeah",
+     4
+    ],
+    [
+     "thank u",
+     4
+    ],
+    [
+     "nice",
+     3
+    ],
+    [
+     "ooh",
+     3
+    ],
+    [
+     "yess",
+     3
+    ],
+    [
+     "cool",
+     3
+    ],
+    [
+     "thank you",
+     3
+    ]
+   ],
+   "top_first_words": [
+    [
+     "oh",
+     27
+    ],
+    [
+     "yeah",
+     15
+    ],
+    [
+     "true",
+     13
+    ],
+    [
+     "ok",
+     13
+    ],
+    [
+     "thank",
+     12
+    ],
+    [
+     "wow",
+     8
+    ],
+    [
+     "omg",
+     8
+    ],
+    [
+     "hahaha",
+     7
+    ],
+    [
+     "good",
+     7
+    ],
+    [
+     "exactly",
+     7
+    ],
+    [
+     "i",
+     7
+    ],
+    [
+     "haha",
+     7
+    ]
+   ],
+   "examples": [
+    "Hahahahahahahaha",
+    "ohh wow  / ngl i've never even heard of holographic makeup ",
+    "eww",
+    "yeah i kinda get that from you / crazy when they are true",
+    "🧠",
+    "oh no",
+    "as always",
+    "full chaos energy"
+   ]
+  },
+  "intent:share_feeling": {
+   "n": 147,
+   "median_chars_turn": 26,
+   "p25_p75_chars": [
+    15,
+    42
+   ],
+   "mean_bubbles": 1.44,
+   "pct_first_bubble_le3words": 43.5,
+   "pct_laugh": 8.8,
+   "pct_question": 1.4,
+   "pct_excl": 3.4,
+   "pct_emoji": 6.8,
+   "pct_no_final_punct": 96.6,
+   "pct_starts_lower": 76.9,
+   "top_forms": [
+    [
+     "same",
+     7
+    ],
+    [
+     "ahh",
+     2
+    ],
+    [
+     ":(",
+     2
+    ],
+    [
+     "you scare me sometimes",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     13
+    ],
+    [
+     "im",
+     12
+    ],
+    [
+     "yeah",
+     7
+    ],
+    [
+     "same",
+     7
+    ],
+    [
+     "the",
+     4
+    ],
+    [
+     "that",
+     3
+    ],
+    [
+     "but",
+     3
+    ],
+    [
+     "its",
+     3
+    ],
+    [
+     "oh",
+     3
+    ],
+    [
+     "so",
+     3
+    ],
+    [
+     "u",
+     3
+    ],
+    [
+     "it",
+     2
+    ]
+   ],
+   "examples": [
+    "Hehehe  / I don't like dancing :P",
+    "But omg I really want that flat idea, it would be so good / oh nooooo / ummm / I don't know ?",
+    "Yeah I do wish that they would come up with a more clever name ",
+    "i LOVE SAUSAGE ROLLS",
+    "Me toooooo",
+    "mountains sound peaceful tho",
+    "this is why i want a cat",
+    "ikr / feels like im being observed lol"
+   ]
+  },
+  "intent:share_story_or_info": {
+   "n": 248,
+   "median_chars_turn": 50.5,
+   "p25_p75_chars": [
+    32,
+    87
+   ],
+   "mean_bubbles": 1.74,
+   "pct_first_bubble_le3words": 14.5,
+   "pct_laugh": 4.0,
+   "pct_question": 4.0,
+   "pct_excl": 4.4,
+   "pct_emoji": 2.4,
+   "pct_no_final_punct": 93.1,
+   "pct_starts_lower": 69.8,
+   "top_forms": [
+    [
+     "but yeah",
+     2
+    ],
+    [
+     "also",
+     2
+    ],
+    [
+     "same",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     42
+    ],
+    [
+     "yeah",
+     10
+    ],
+    [
+     "but",
+     9
+    ],
+    [
+     "and",
+     8
+    ],
+    [
+     "we",
+     8
+    ],
+    [
+     "yes",
+     7
+    ],
+    [
+     "it",
+     6
+    ],
+    [
+     "oh",
+     6
+    ],
+    [
+     "ok",
+     6
+    ],
+    [
+     "its",
+     5
+    ],
+    [
+     "im",
+     5
+    ],
+    [
+     "she",
+     5
+    ]
+   ],
+   "examples": [
+    "One evening I was sitting on the floor, while my mum was putting oil on my hair and I had very long curly hair, so it wa",
+    "ahh yeah i was considering consulting gpt but i dont think it would get it / and the google sheets could be a good shout",
+    "I didnt't know they'd made a celeb edition! / yeah, my favourite was the guy pretending to be his girlfriend / if my mem",
+    "I also watched the dungeons and dragons movie over the weekend / No dragons involved",
+    "errr we can talk in generalities about it / yeah / they went 50p over the tab / but they wouldn't serve doubles",
+    "aha, makes sense / I'm going to the apple store to try out the ski goggles",
+    "family chaos hits diff",
+    "i counted"
+   ]
+  },
+  "reagir_algo_engracado": {
+   "n": 1129,
+   "median_chars_turn": 21,
+   "p25_p75_chars": [
+    12,
+    38
+   ],
+   "mean_bubbles": 1.4,
+   "pct_first_bubble_le3words": 52.8,
+   "pct_laugh": 7.7,
+   "pct_question": 6.5,
+   "pct_excl": 1.4,
+   "pct_emoji": 6.4,
+   "pct_no_final_punct": 92.8,
+   "pct_starts_lower": 83.1,
+   "top_forms": [
+    [
+     "rude",
+     9
+    ],
+    [
+     "no",
+     8
+    ],
+    [
+     "true",
+     7
+    ],
+    [
+     "hahaha",
+     6
+    ],
+    [
+     "exactly",
+     6
+    ],
+    [
+     "bye",
+     6
+    ],
+    [
+     "yeah",
+     5
+    ],
+    [
+     "stop",
+     4
+    ],
+    [
+     "maybe",
+     4
+    ],
+    [
+     "thank u",
+     4
+    ],
+    [
+     "stopp",
+     4
+    ],
+    [
+     "ahh",
+     3
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     71
+    ],
+    [
+     "ok",
+     33
+    ],
+    [
+     "im",
+     32
+    ],
+    [
+     "what",
+     24
+    ],
+    [
+     "yeah",
+     24
+    ],
+    [
+     "so",
+     22
+    ],
+    [
+     "no",
+     19
+    ],
+    [
+     "why",
+     17
+    ],
+    [
+     "oh",
+     16
+    ],
+    [
+     "dont",
+     16
+    ],
+    [
+     "thats",
+     14
+    ],
+    [
+     "it",
+     12
+    ]
+   ],
+   "examples": [
+    "One evening I was sitting on the floor, while my mum was putting oil on my hair and I had very long curly hair, so it wa",
+    "Yeah I do wish that they would come up with a more clever name ",
+    "okay so what should we do / maybe we can play a board game",
+    "I win",
+    "why are you lowkey responsible",
+    "we laugh but thats us at 2am",
+    "did anyone else eat it",
+    "love that for us <33"
+   ]
+  },
+  "reagir_desabafo_negativo": {
+   "n": 157,
+   "median_chars_turn": 21,
+   "p25_p75_chars": [
+    12,
+    32
+   ],
+   "mean_bubbles": 1.27,
+   "pct_first_bubble_le3words": 54.1,
+   "pct_laugh": 1.9,
+   "pct_question": 5.1,
+   "pct_excl": 1.3,
+   "pct_emoji": 5.1,
+   "pct_no_final_punct": 92.4,
+   "pct_starts_lower": 85.4,
+   "top_forms": [
+    [
+     "what happened",
+     2
+    ],
+    [
+     "oh right",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     7
+    ],
+    [
+     "did",
+     6
+    ],
+    [
+     "ok",
+     6
+    ],
+    [
+     "its",
+     5
+    ],
+    [
+     "same",
+     4
+    ],
+    [
+     "you",
+     4
+    ],
+    [
+     "wow",
+     4
+    ],
+    [
+     "it",
+     4
+    ],
+    [
+     "that",
+     3
+    ],
+    [
+     "yeah",
+     3
+    ],
+    [
+     "we",
+     3
+    ],
+    [
+     "but",
+     3
+    ]
+   ],
+   "examples": [
+    "That’s true  / But some cars are nice ",
+    "yessss",
+    "^That one's dated surely / well we're just having a normal convo",
+    "details",
+    "sounds like a you problem",
+    "did you see the cat one i sent after",
+    "did it stare back",
+    "character development"
+   ]
+  },
+  "reagir_noticia_boa": {
+   "n": 122,
+   "median_chars_turn": 32.0,
+   "p25_p75_chars": [
+    20,
+    66
+   ],
+   "mean_bubbles": 1.51,
+   "pct_first_bubble_le3words": 28.7,
+   "pct_laugh": 7.4,
+   "pct_question": 16.4,
+   "pct_excl": 8.2,
+   "pct_emoji": 4.9,
+   "pct_no_final_punct": 82.0,
+   "pct_starts_lower": 56.6,
+   "top_forms": [
+    [
+     "?",
+     3
+    ],
+    [
+     "woo",
+     2
+    ],
+    [
+     "same",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     13
+    ],
+    [
+     "yes",
+     5
+    ],
+    [
+     "what",
+     4
+    ],
+    [
+     "yeah",
+     4
+    ],
+    [
+     "oh",
+     4
+    ],
+    [
+     "the",
+     3
+    ],
+    [
+     "and",
+     3
+    ],
+    [
+     "u",
+     3
+    ],
+    [
+     "hahaha",
+     2
+    ],
+    [
+     "do",
+     2
+    ],
+    [
+     "we",
+     2
+    ],
+    [
+     "ohhhh",
+     2
+    ]
+   ],
+   "examples": [
+    "Hahaha you are taking so long to type",
+    "Also how long is it gonna take us to walk there’s  / *there?",
+    "music is soooo good ",
+    "home cinema would be pretty cool / I've got a meeting at 2pm, so I'll need to head off in a minute",
+    "Ahhhhh I used to get all of my friends to recreate the intro ",
+    "what was ur favorite / yeah banger",
+    "Nice nice I saw some of ur posts on Strava / Sick / Which one do u prefer",
+    "u cant even take care of urself"
+   ]
+  },
+  "responder_como_vai": {
+   "n": 22,
+   "median_chars_turn": 35.0,
+   "p25_p75_chars": [
+    23,
+    62
+   ],
+   "mean_bubbles": 1.91,
+   "pct_first_bubble_le3words": 31.8,
+   "pct_laugh": 4.5,
+   "pct_question": 31.8,
+   "pct_excl": 13.6,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 59.1,
+   "pct_starts_lower": 50.0,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "i",
+     4
+    ],
+    [
+     "good",
+     2
+    ],
+    [
+     "thats",
+     2
+    ],
+    [
+     "hi",
+     2
+    ],
+    [
+     "i'm",
+     1
+    ],
+    [
+     "how",
+     1
+    ],
+    [
+     "hahaha",
+     1
+    ],
+    [
+     "it's",
+     1
+    ],
+    [
+     "what",
+     1
+    ],
+    [
+     "tiktok",
+     1
+    ],
+    [
+     "were",
+     1
+    ],
+    [
+     "yes",
+     1
+    ]
+   ],
+   "examples": [
+    "I'm good, how are you? ",
+    "Good but it’s cold  / How about u",
+    "how has ur day been? what have u been doing?",
+    "it's alright! I need to do a lot of school work, but that's to be expected! / i did! they were all tiktoks / did you?",
+    "what kind of sweeties / i might get skittles / love me some skittles",
+    "Hi / Iam fine / How are you ",
+    "Tiktok is so cool ",
+    "yes sounds very nice / I like cookie dough a lot"
+   ]
+  },
+  "responder_flerte_afeto": {
+   "n": 138,
+   "median_chars_turn": 20.5,
+   "p25_p75_chars": [
+    12,
+    34
+   ],
+   "mean_bubbles": 1.43,
+   "pct_first_bubble_le3words": 53.6,
+   "pct_laugh": 7.2,
+   "pct_question": 5.1,
+   "pct_excl": 1.4,
+   "pct_emoji": 9.4,
+   "pct_no_final_punct": 94.2,
+   "pct_starts_lower": 87.0,
+   "top_forms": [
+    [
+     "bye",
+     4
+    ],
+    [
+     "dont jinx it",
+     2
+    ],
+    [
+     "hehe",
+     2
+    ],
+    [
+     "acceptable.",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     7
+    ],
+    [
+     "dont",
+     7
+    ],
+    [
+     "ok",
+     5
+    ],
+    [
+     "love",
+     5
+    ],
+    [
+     "yes",
+     4
+    ],
+    [
+     "oh",
+     3
+    ],
+    [
+     "yeah",
+     3
+    ],
+    [
+     "thats",
+     3
+    ],
+    [
+     "the",
+     3
+    ],
+    [
+     "so",
+     3
+    ],
+    [
+     "hehe",
+     3
+    ],
+    [
+     "good",
+     3
+    ]
+   ],
+   "examples": [
+    "Hahah howww / I find it so funny ",
+    "is it people playing dungeons and dragons, or you're inside a game?",
+    "i love that song",
+    "hi beautiful / what’s up",
+    "yes",
+    "hehe ttyl",
+    "love that for us <33",
+    "so what’s the plan this weekend"
+   ]
+  },
+  "responder_pergunta": {
+   "n": 469,
+   "median_chars_turn": 30,
+   "p25_p75_chars": [
+    17,
+    58
+   ],
+   "mean_bubbles": 1.68,
+   "pct_first_bubble_le3words": 45.8,
+   "pct_laugh": 3.4,
+   "pct_question": 10.2,
+   "pct_excl": 3.4,
+   "pct_emoji": 2.1,
+   "pct_no_final_punct": 89.8,
+   "pct_starts_lower": 75.3,
+   "top_forms": [
+    [
+     "yes",
+     11
+    ],
+    [
+     "hmm",
+     6
+    ],
+    [
+     "no",
+     4
+    ],
+    [
+     "yeah",
+     3
+    ],
+    [
+     "umm",
+     3
+    ],
+    [
+     "yess",
+     3
+    ],
+    [
+     "…",
+     3
+    ],
+    [
+     "ahh",
+     2
+    ],
+    [
+     "noo",
+     2
+    ],
+    [
+     "bug",
+     2
+    ],
+    [
+     "hi",
+     2
+    ],
+    [
+     "idk",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     46
+    ],
+    [
+     "yes",
+     24
+    ],
+    [
+     "yeah",
+     16
+    ],
+    [
+     "the",
+     14
+    ],
+    [
+     "no",
+     11
+    ],
+    [
+     "im",
+     10
+    ],
+    [
+     "oh",
+     8
+    ],
+    [
+     "",
+     7
+    ],
+    [
+     "well",
+     7
+    ],
+    [
+     "he",
+     7
+    ],
+    [
+     "idk",
+     7
+    ],
+    [
+     "my",
+     6
+    ]
+   ],
+   "examples": [
+    "I'm good, how are you? ",
+    "But like the balls at Reed freshman year when people dressed for the theme were fucking awesome ",
+    "Inside a game ig, it’s like a normal fantasy film  / Just has characteristic elements of dnd",
+    "Yaa",
+    "烦💩了",
+    "im on a budget ok",
+    "because i dont want to move",
+    "im down"
+   ]
+  },
+  "responder_plano": {
+   "n": 122,
+   "median_chars_turn": 26.0,
+   "p25_p75_chars": [
+    14,
+    47
+   ],
+   "mean_bubbles": 1.6,
+   "pct_first_bubble_le3words": 50.8,
+   "pct_laugh": 2.5,
+   "pct_question": 13.9,
+   "pct_excl": 1.6,
+   "pct_emoji": 5.7,
+   "pct_no_final_punct": 88.5,
+   "pct_starts_lower": 70.5,
+   "top_forms": [
+    [
+     "good",
+     2
+    ],
+    [
+     "oh yeah",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     10
+    ],
+    [
+     "yes",
+     9
+    ],
+    [
+     "oh",
+     5
+    ],
+    [
+     "good",
+     4
+    ],
+    [
+     "yeah",
+     3
+    ],
+    [
+     "thats",
+     3
+    ],
+    [
+     "why",
+     3
+    ],
+    [
+     "and",
+     2
+    ],
+    [
+     "also",
+     2
+    ],
+    [
+     "you",
+     2
+    ],
+    [
+     "",
+     2
+    ],
+    [
+     "bye",
+     2
+    ]
+   ],
+   "examples": [
+    "Oooooo is that the artsy place you were talking about?  / And do they have adobo in the Filipino restaurant? ",
+    "but i got it from my meeting on friday and was going to give it to you but then we made cupcakes (shoutout to Groundhog ",
+    "were about to be that anomalous data set they just ignore for results",
+    "Thats not allowed ",
+    "yes I will be ",
+    "fineeee / bye dramatic cousin",
+    "miracles happen",
+    "pretend but with intensity"
+   ]
+  },
+  "responder_provocacao_ou_bronca": {
+   "n": 141,
+   "median_chars_turn": 20,
+   "p25_p75_chars": [
+    12,
+    36
+   ],
+   "mean_bubbles": 1.25,
+   "pct_first_bubble_le3words": 56.0,
+   "pct_laugh": 2.1,
+   "pct_question": 5.7,
+   "pct_excl": 0.7,
+   "pct_emoji": 2.8,
+   "pct_no_final_punct": 93.6,
+   "pct_starts_lower": 87.9,
+   "top_forms": [
+    [
+     "exactly",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ok",
+     8
+    ],
+    [
+     "i",
+     6
+    ],
+    [
+     "im",
+     5
+    ],
+    [
+     "it",
+     4
+    ],
+    [
+     "the",
+     3
+    ],
+    [
+     "did",
+     3
+    ],
+    [
+     "wow",
+     3
+    ],
+    [
+     "that",
+     2
+    ],
+    [
+     "oh",
+     2
+    ],
+    [
+     "we",
+     2
+    ],
+    [
+     "they",
+     2
+    ],
+    [
+     "but",
+     2
+    ]
+   ],
+   "examples": [
+    "HAHAHA  / Fact",
+    "like free roaming around the house rabbit ",
+    "I want a lotus spread filled mooncake now ",
+    "thats actually valid",
+    "i counted",
+    "btw are u coming to grandma’s on sunday",
+    "im just saying / the planet is crying",
+    "shh just go with it"
+   ]
+  }
+ },
+ "whatsapp_nl": {
+  "intent:answer": {
+   "n": 618,
+   "median_chars_turn": 48.5,
+   "p25_p75_chars": [
+    20,
+    96
+   ],
+   "mean_bubbles": 1.89,
+   "pct_first_bubble_le3words": 41.1,
+   "pct_laugh": 12.9,
+   "pct_question": 12.5,
+   "pct_excl": 21.7,
+   "pct_emoji": 4.2,
+   "pct_no_final_punct": 79.4,
+   "pct_starts_lower": 3.4,
+   "top_forms": [
+    [
+     "ja",
+     22
+    ],
+    [
+     "[removed]",
+     13
+    ],
+    [
+     "nee",
+     11
+    ],
+    [
+     "<media weggelaten>",
+     10
+    ],
+    [
+     "jaa",
+     4
+    ],
+    [
+     "ja!",
+     3
+    ],
+    [
+     "haha",
+     3
+    ],
+    [
+     "bijna",
+     3
+    ],
+    [
+     "ja is goed!",
+     3
+    ],
+    [
+     "jup",
+     3
+    ],
+    [
+     "geen idee",
+     2
+    ],
+    [
+     ":p",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ja",
+     115
+    ],
+    [
+     "nee",
+     57
+    ],
+    [
+     "ik",
+     38
+    ],
+    [
+     "[",
+     29
+    ],
+    [
+     "haha",
+     18
+    ],
+    [
+     "heb",
+     10
+    ],
+    [
+     "jaa",
+     10
+    ],
+    [
+     "jawel",
+     7
+    ],
+    [
+     "geen",
+     7
+    ],
+    [
+     "het",
+     6
+    ],
+    [
+     "dat",
+     6
+    ],
+    [
+     "ehm",
+     6
+    ]
+   ],
+   "examples": [
+    "Ja!",
+    "Dode pixels",
+    "Yes! / Die twee bordjes hebben we niet :(",
+    "Nee, nog helemaal niks, maar je hebt wel gelijk dat t tijd begint te worden ja.. Ook met die overlap in het rooster enz",
+    "De platte tv in de [REMOVED] / Maar t was wel n showroom model, daarom was die eerste zo goedkoop",
+    "Ja bijna / Laatste bakkie thee",
+    "Computer jij",
+    "Jupp lange dagen / Half [REMOVED] tot half [REMOVED]"
+   ]
+  },
+  "intent:ask_question": {
+   "n": 620,
+   "median_chars_turn": 46.0,
+   "p25_p75_chars": [
+    26,
+    78
+   ],
+   "mean_bubbles": 1.76,
+   "pct_first_bubble_le3words": 36.0,
+   "pct_laugh": 10.3,
+   "pct_question": 88.5,
+   "pct_excl": 16.1,
+   "pct_emoji": 4.2,
+   "pct_no_final_punct": 31.0,
+   "pct_starts_lower": 2.9,
+   "top_forms": [
+    [
+     "<media weggelaten>",
+     14
+    ],
+    [
+     "?",
+     7
+    ],
+    [
+     "wat?",
+     6
+    ],
+    [
+     "haha",
+     6
+    ],
+    [
+     "nee",
+     6
+    ],
+    [
+     "oke",
+     6
+    ],
+    [
+     "hahaha",
+     5
+    ],
+    [
+     "[removed]",
+     4
+    ],
+    [
+     "en?",
+     4
+    ],
+    [
+     "waar?",
+     3
+    ],
+    [
+     "top!",
+     3
+    ],
+    [
+     "[removed]!",
+     3
+    ]
+   ],
+   "top_first_words": [
+    [
+     "wat",
+     30
+    ],
+    [
+     "ja",
+     26
+    ],
+    [
+     "haha",
+     24
+    ],
+    [
+     "[",
+     21
+    ],
+    [
+     "hoe",
+     18
+    ],
+    [
+     "ben",
+     17
+    ],
+    [
+     "en",
+     16
+    ],
+    [
+     "heb",
+     15
+    ],
+    [
+     "hey",
+     14
+    ],
+    [
+     "ik",
+     13
+    ],
+    [
+     "oke",
+     13
+    ],
+    [
+     "is",
+     11
+    ]
+   ],
+   "examples": [
+    "Oma wilde graag dat de zes kleindochters haar kist dragen. Wil je dat?",
+    "Zwemme is op tv ben jij dat?",
+    "Top! / Komen jullie ook zo naar VB?",
+    "Ja stom toch? Ik denk dat ik naar nog eens ga mailen. / Heb jij iets van boeken besteld? ",
+    "Hey [REMOVED], ik heb per ongeluk nog de oude huurprijs betaald, zou jij mij het verschil van €[REMOVED] over kunnen mak",
+    "Jij nu ook trein popke?",
+    "Waar?",
+    "Hoe laat gaan we weg?"
+   ]
+  },
+  "intent:change_topic": {
+   "n": 7,
+   "median_chars_turn": 43,
+   "p25_p75_chars": [
+    19,
+    64
+   ],
+   "mean_bubbles": 1.57,
+   "pct_first_bubble_le3words": 42.9,
+   "pct_laugh": 0.0,
+   "pct_question": 0.0,
+   "pct_excl": 42.9,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 85.7,
+   "pct_starts_lower": 14.3,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "vrijdag",
+     1
+    ],
+    [
+     "jammer",
+     1
+    ],
+    [
+     "je",
+     1
+    ],
+    [
+     "haaahahahaha",
+     1
+    ],
+    [
+     "het",
+     1
+    ],
+    [
+     "@",
+     1
+    ],
+    [
+     "jawel",
+     1
+    ]
+   ],
+   "examples": [
+    "Vrijdag is het al zover...gaat broeders een vrouw krijgen..weird",
+    "Jammer! / Wat ziet die pizza er lekker uit",
+    "je vader wordt oud!",
+    "Haaahahahaha / Heb je dat filmpje op fb gezien",
+    "Het koppelen van de emailadressen is best makkelijk trouwens",
+    "@vliegveld",
+    "Jawel er stond [REMOVED] / !! / In de mail van diner roulé staat dat je nog te horen zou krijgen of wij vegetariërs hebb"
+   ]
+  },
+  "intent:closing": {
+   "n": 87,
+   "median_chars_turn": 28,
+   "p25_p75_chars": [
+    17,
+    59
+   ],
+   "mean_bubbles": 1.67,
+   "pct_first_bubble_le3words": 42.5,
+   "pct_laugh": 10.3,
+   "pct_question": 4.6,
+   "pct_excl": 52.9,
+   "pct_emoji": 2.3,
+   "pct_no_final_punct": 64.4,
+   "pct_starts_lower": 3.4,
+   "top_forms": [
+    [
+     "xx",
+     3
+    ],
+    [
+     "[removed]",
+     3
+    ],
+    [
+     "slaap lekker!",
+     2
+    ],
+    [
+     "<media weggelaten>",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ok",
+     7
+    ],
+    [
+     "oke",
+     5
+    ],
+    [
+     "tot",
+     4
+    ],
+    [
+     "haha",
+     3
+    ],
+    [
+     "veel",
+     3
+    ],
+    [
+     "is",
+     3
+    ],
+    [
+     "ik",
+     2
+    ],
+    [
+     "jij",
+     2
+    ],
+    [
+     "ja",
+     2
+    ],
+    [
+     "o",
+     2
+    ],
+    [
+     "welterusten",
+     2
+    ],
+    [
+     "wij",
+     2
+    ]
+   ],
+   "examples": [
+    "Oké.  Fijn weekend.  Tot gauw. Xx",
+    "Ja ik ook  / Slaap lekker!",
+    "Yes, succes nog even!",
+    "Veel plezier! !",
+    "Oke dan genieten jullie nog maar lekker van het weer daar want de vooruitzichten zijn hier niet zo mooi. Gr aan [REMOVED",
+    "Tot zo!",
+    "Tot zoooxxx",
+    "Is goed we houden wel ff contact "
+   ]
+  },
+  "intent:comfort_support": {
+   "n": 84,
+   "median_chars_turn": 58.0,
+   "p25_p75_chars": [
+    34,
+    100
+   ],
+   "mean_bubbles": 1.54,
+   "pct_first_bubble_le3words": 15.5,
+   "pct_laugh": 14.3,
+   "pct_question": 6.0,
+   "pct_excl": 46.4,
+   "pct_emoji": 10.7,
+   "pct_no_final_punct": 75.0,
+   "pct_starts_lower": 1.2,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "goed",
+     5
+    ],
+    [
+     "nee",
+     5
+    ],
+    [
+     "ja",
+     4
+    ],
+    [
+     "haha",
+     4
+    ],
+    [
+     "maar",
+     3
+    ],
+    [
+     "ok",
+     3
+    ],
+    [
+     "oh",
+     3
+    ],
+    [
+     "o",
+     3
+    ],
+    [
+     "je",
+     2
+    ],
+    [
+     "dat",
+     2
+    ],
+    [
+     "ah",
+     2
+    ],
+    [
+     "ik",
+     2
+    ]
+   ],
+   "examples": [
+    "Balen zeg maar laat de pret niet bederven....",
+    "Nee maar dan kan jij er niks meer aan doen / Het moet nu van hem uit komen",
+    "Haha / Tis ff wennen he",
+    "O ja dat is altijd , moet je gewoon even overheen! Had ik ook bij die showgroep / Maar wel leuk dat we morgen er eens ov",
+    "Ik ook niet... / Nog even doorbijten! / Ga nu maar eens verder! / We whatsappen...",
+    "Maar je moet de motivatie ook even vinden hoor sies. Komt niet vanzelf. Je zult merken dat hoe vaker je gaat, hoe leuker",
+    "Heeeeeel veel succes vandaag!!  Zet hem op ",
+    "Oh arm kind! / 😕"
+   ]
+  },
+  "intent:compliment_affection": {
+   "n": 50,
+   "median_chars_turn": 46.5,
+   "p25_p75_chars": [
+    23,
+    81
+   ],
+   "mean_bubbles": 1.64,
+   "pct_first_bubble_le3words": 36.0,
+   "pct_laugh": 14.0,
+   "pct_question": 2.0,
+   "pct_excl": 54.0,
+   "pct_emoji": 20.0,
+   "pct_no_final_punct": 78.0,
+   "pct_starts_lower": 4.0,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "ik",
+     4
+    ],
+    [
+     "[",
+     3
+    ],
+    [
+     "haha",
+     3
+    ],
+    [
+     "oh",
+     2
+    ],
+    [
+     "hahaha",
+     2
+    ],
+    [
+     "goed",
+     2
+    ],
+    [
+     "mooi",
+     2
+    ],
+    [
+     "ja",
+     2
+    ],
+    [
+     "leuke",
+     1
+    ],
+    [
+     "ooh",
+     1
+    ],
+    [
+     "🎵",
+     1
+    ],
+    [
+     "okee",
+     1
+    ]
+   ],
+   "examples": [
+    "Leuke foto👍",
+    "Isabellie schatje",
+    "Haha. Ga je gang / Jij bent trouwens de eerste persoon die een ander nummer kan opnoemen afgezien van thrift shop, same ",
+    "ik heb hier nog souvenir voor je en bedankt voor oppassen op het huis",
+    "<media weggelaten> / Lekker bruin!",
+    "Dankzij [REMOVED] :p",
+    "Jaa inderdaad, dat is helemaal waar. Yes, goed idee :) Dankjewel in ieder geval dat je ze hebt opgeruimd!",
+    "Wat een geniaal beest"
+   ]
+  },
+  "intent:disagree_complain": {
+   "n": 75,
+   "median_chars_turn": 49,
+   "p25_p75_chars": [
+    27,
+    76
+   ],
+   "mean_bubbles": 1.88,
+   "pct_first_bubble_le3words": 29.3,
+   "pct_laugh": 9.3,
+   "pct_question": 2.7,
+   "pct_excl": 12.0,
+   "pct_emoji": 6.7,
+   "pct_no_final_punct": 84.0,
+   "pct_starts_lower": 1.3,
+   "top_forms": [
+    [
+     "ja",
+     3
+    ],
+    [
+     "nee",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ja",
+     14
+    ],
+    [
+     "ik",
+     7
+    ],
+    [
+     "nee",
+     6
+    ],
+    [
+     "haha",
+     5
+    ],
+    [
+     "maar",
+     2
+    ],
+    [
+     "ah",
+     2
+    ],
+    [
+     "nou",
+     2
+    ],
+    [
+     "dat",
+     2
+    ],
+    [
+     "meetrapporten",
+     2
+    ],
+    [
+     "hahah",
+     1
+    ],
+    [
+     "want",
+     1
+    ],
+    [
+     "wtf",
+     1
+    ]
+   ],
+   "examples": [
+    "Ik dacht dat je je gewoon bij honderd universiteiten in kon schrijven",
+    "Ik vind de naam 'milky chance' wel een beetje / Tja / Niet echt serieus te nemen",
+    "Kan het niet zien!",
+    "Rij nu weg!",
+    "Ja balen voor die docent dan / Hadden ze eerder met die boekenlijst moeten komen",
+    "Ik vind die trainingen helemaal niet leuk:( / Ja / Ja / Moet ook / Met klep",
+    "Ah, ik zag wat foto's op fb en dat zag er best wel suf uit",
+    "Er is gene prinsenplaatje "
+   ]
+  },
+  "intent:greet": {
+   "n": 35,
+   "median_chars_turn": 24,
+   "p25_p75_chars": [
+    11,
+    63
+   ],
+   "mean_bubbles": 1.69,
+   "pct_first_bubble_le3words": 65.7,
+   "pct_laugh": 2.9,
+   "pct_question": 37.1,
+   "pct_excl": 34.3,
+   "pct_emoji": 8.6,
+   "pct_no_final_punct": 62.9,
+   "pct_starts_lower": 8.6,
+   "top_forms": [
+    [
+     "<media weggelaten>",
+     7
+    ],
+    [
+     "hoi",
+     3
+    ],
+    [
+     "hooi",
+     2
+    ],
+    [
+     "hallo",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "hallo",
+     4
+    ],
+    [
+     "hoi",
+     3
+    ],
+    [
+     "[",
+     2
+    ],
+    [
+     "brother",
+     2
+    ],
+    [
+     "ik",
+     2
+    ],
+    [
+     "boe",
+     2
+    ],
+    [
+     "happy",
+     1
+    ],
+    [
+     "dkdm",
+     1
+    ],
+    [
+     "hiee",
+     1
+    ],
+    [
+     "what",
+     1
+    ],
+    [
+     "haai",
+     1
+    ],
+    [
+     "groep",
+     1
+    ]
+   ],
+   "examples": [
+    "Happy birthday [REMOVED]!! Hopelijk heb je een leuke en fijne dag al vandaag en tot vanavond! Xx",
+    "What up?",
+    "[REMOVED] whatsup? ",
+    "Brother!!! / Hoe is eet??",
+    "Hoi / Hoi",
+    "Hallo didier!",
+    "Welterusten namens iedereen hier ;) en of je morgen niet zo vroeg naar school hoeft..? Xx",
+    "Boe!"
+   ]
+  },
+  "intent:joke_tease": {
+   "n": 184,
+   "median_chars_turn": 48.0,
+   "p25_p75_chars": [
+    32,
+    76
+   ],
+   "mean_bubbles": 1.8,
+   "pct_first_bubble_le3words": 37.0,
+   "pct_laugh": 44.6,
+   "pct_question": 9.8,
+   "pct_excl": 19.6,
+   "pct_emoji": 13.0,
+   "pct_no_final_punct": 88.6,
+   "pct_starts_lower": 0.5,
+   "top_forms": [
+    [
+     "haha",
+     10
+    ],
+    [
+     "hahaha",
+     7
+    ],
+    [
+     "hahahahaha",
+     3
+    ],
+    [
+     "",
+     2
+    ],
+    [
+     ":p",
+     2
+    ],
+    [
+     "",
+     2
+    ],
+    [
+     "hahahaha",
+     2
+    ],
+    [
+     "<media weggelaten>",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "haha",
+     33
+    ],
+    [
+     "hahaha",
+     13
+    ],
+    [
+     "ik",
+     9
+    ],
+    [
+     "ja",
+     7
+    ],
+    [
+     "je",
+     6
+    ],
+    [
+     "oh",
+     5
+    ],
+    [
+     "maar",
+     5
+    ],
+    [
+     "ah",
+     4
+    ],
+    [
+     "en",
+     4
+    ],
+    [
+     "nee",
+     3
+    ],
+    [
+     "[",
+     3
+    ],
+    [
+     "hahahahaha",
+     2
+    ]
+   ],
+   "examples": [
+    "Zou ik ook niet doen als ik jou was. Gingers hebben geen ziel. Hij is wel jarig bedenk ik nu trouwens, haha. / Eet smake",
+    "Ook [REMOVED] ([REMOVED]) / Haha",
+    "Maar goed dat jij in de mailbox zit nu",
+    "Kloon met bruine ogen / We gaan zo gezellig aardappels schillen :) :)",
+    "Je had nog wel zo'n mooi hoesje",
+    "Wat een eindbaas / Coolio",
+    "Hahahahahaaa, net [REMOVED] Brothers muziekje bij the voice! :p",
+    "😛 nee ik snap t, zonder n dikke bankrekening is dat lang niet zo leuk / En stiekem sluipt die e reader je leven in hè  "
+   ]
+  },
+  "intent:make_plans_logistics": {
+   "n": 362,
+   "median_chars_turn": 66.5,
+   "p25_p75_chars": [
+    38,
+    115
+   ],
+   "mean_bubbles": 1.92,
+   "pct_first_bubble_le3words": 20.7,
+   "pct_laugh": 11.0,
+   "pct_question": 33.1,
+   "pct_excl": 31.5,
+   "pct_emoji": 3.3,
+   "pct_no_final_punct": 65.5,
+   "pct_starts_lower": 2.2,
+   "top_forms": [
+    [
+     "<media weggelaten>",
+     6
+    ],
+    [
+     "?",
+     4
+    ],
+    [
+     "[removed]",
+     3
+    ],
+    [
+     "ok",
+     3
+    ],
+    [
+     "is goed!",
+     3
+    ],
+    [
+     "oke",
+     2
+    ],
+    [
+     "ja idd",
+     2
+    ],
+    [
+     "haha",
+     2
+    ],
+    [
+     "ben er!",
+     2
+    ],
+    [
+     "ja!",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ik",
+     37
+    ],
+    [
+     "ja",
+     34
+    ],
+    [
+     "oke",
+     22
+    ],
+    [
+     "haha",
+     16
+    ],
+    [
+     "[",
+     14
+    ],
+    [
+     "ok",
+     11
+    ],
+    [
+     "hey",
+     7
+    ],
+    [
+     "we",
+     7
+    ],
+    [
+     "is",
+     7
+    ],
+    [
+     "kan",
+     5
+    ],
+    [
+     "hee",
+     5
+    ],
+    [
+     "dan",
+     5
+    ]
+   ],
+   "examples": [
+    "Hoi [REMOVED], als het lastig is met koken, zouden we ook met twee auto's naar oma kunnen gaan en dan gaan [REMOVED] en ",
+    "oké. doe maar over [REMOVED] minuten. / gaan we met een auto?",
+    "Oke:) waar moet ik hoe laat zijn?",
+    "Nou [REMOVED] ik heb n indeling gevonden maar mijn s nummer staat er niet tussen! / Jij wel / O wacht ik kijk bij 'prema",
+    "Ah. Mijn trein heeft [REMOVED] minuten vertraging. Ben iets later denk ik.",
+    "Ja was heel erg leuk! :) hebben jullie het ook mooi gehad? Oke! Ja ideaal is dat! Ja inderdaad! Handig en gezellig, moet",
+    "Nee / Ik kom naar je toe",
+    "Gek zeker haha / Moeten we maar doen dan / Ookal is t compleet gek :) / Gaan we nijmegen verkennen"
+   ]
+  },
+  "intent:react_acknowledge": {
+   "n": 503,
+   "median_chars_turn": 10,
+   "p25_p75_chars": [
+    5,
+    20
+   ],
+   "mean_bubbles": 1.27,
+   "pct_first_bubble_le3words": 81.3,
+   "pct_laugh": 26.2,
+   "pct_question": 1.6,
+   "pct_excl": 22.7,
+   "pct_emoji": 4.4,
+   "pct_no_final_punct": 80.9,
+   "pct_starts_lower": 1.8,
+   "top_forms": [
+    [
+     "haha",
+     22
+    ],
+    [
+     "hahaha",
+     12
+    ],
+    [
+     "oke",
+     10
+    ],
+    [
+     "oke!",
+     6
+    ],
+    [
+     ":)",
+     6
+    ],
+    [
+     "[removed]",
+     5
+    ],
+    [
+     "prima",
+     5
+    ],
+    [
+     "<media weggelaten>",
+     5
+    ],
+    [
+     "",
+     5
+    ],
+    [
+     "thanks!",
+     4
+    ],
+    [
+     "leuk!",
+     4
+    ],
+    [
+     "ok",
+     4
+    ]
+   ],
+   "top_first_words": [
+    [
+     "haha",
+     56
+    ],
+    [
+     "ja",
+     40
+    ],
+    [
+     "hahaha",
+     25
+    ],
+    [
+     "oke",
+     24
+    ],
+    [
+     "ok",
+     18
+    ],
+    [
+     "oh",
+     18
+    ],
+    [
+     "is",
+     14
+    ],
+    [
+     "prima",
+     8
+    ],
+    [
+     ":",
+     8
+    ],
+    [
+     "leuk",
+     6
+    ],
+    [
+     "thanks",
+     6
+    ],
+    [
+     "top",
+     6
+    ]
+   ],
+   "examples": [
+    "Klinkt heerlijk",
+    "Ohja oké",
+    "Hihi",
+    "Oo vandaar",
+    "Oh ja natuurlijk xD",
+    "Nou mooi",
+    "hahaha!",
+    "Haha, point taken, helemaal duidelijk / "
+   ]
+  },
+  "intent:share_feeling": {
+   "n": 88,
+   "median_chars_turn": 44.0,
+   "p25_p75_chars": [
+    26,
+    73
+   ],
+   "mean_bubbles": 1.8,
+   "pct_first_bubble_le3words": 37.5,
+   "pct_laugh": 19.3,
+   "pct_question": 1.1,
+   "pct_excl": 20.5,
+   "pct_emoji": 15.9,
+   "pct_no_final_punct": 92.0,
+   "pct_starts_lower": 3.4,
+   "top_forms": [
+    [
+     "🙈",
+     2
+    ],
+    [
+     "haha",
+     2
+    ],
+    [
+     "me too",
+     2
+    ],
+    [
+     "",
+     2
+    ],
+    [
+     "hahaha",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ja",
+     14
+    ],
+    [
+     "ik",
+     10
+    ],
+    [
+     "haha",
+     6
+    ],
+    [
+     "ben",
+     3
+    ],
+    [
+     "maar",
+     3
+    ],
+    [
+     "hahaha",
+     3
+    ],
+    [
+     "dat",
+     2
+    ],
+    [
+     "me",
+     2
+    ],
+    [
+     "gelukkig",
+     2
+    ],
+    [
+     "[",
+     2
+    ],
+    [
+     "mij",
+     1
+    ],
+    [
+     "😘",
+     1
+    ]
+   ],
+   "examples": [
+    "Ja heel leuk 😊! Xx",
+    " Ben zo tyfus waus ",
+    "Ja ik ook!,",
+    "Maar was wel gezellig iig ",
+    "gelukkig!!!",
+    " / Neeeeeeee / Oh neeee / Oh war erg /  / Nu kunnen ze over de kids overleggen / [REMOVED] kan dat alleen zo",
+    "Mooi / Ik ben er [REMOVED]. Ik schaam me dood",
+    "Hahahaha!! / Ja, een beetje sneu vind ik het nu wel.. Misschien toch maar een doelpunt aan brazilie gunnen?"
+   ]
+  },
+  "intent:share_story_or_info": {
+   "n": 384,
+   "median_chars_turn": 64.0,
+   "p25_p75_chars": [
+    39,
+    111
+   ],
+   "mean_bubbles": 2.03,
+   "pct_first_bubble_le3words": 27.1,
+   "pct_laugh": 15.1,
+   "pct_question": 7.3,
+   "pct_excl": 17.7,
+   "pct_emoji": 6.0,
+   "pct_no_final_punct": 85.2,
+   "pct_starts_lower": 1.6,
+   "top_forms": [
+    [
+     "<media weggelaten>",
+     37
+    ],
+    [
+     "<‎afbeelding weggelaten>",
+     9
+    ],
+    [
+     "",
+     6
+    ],
+    [
+     "ja",
+     3
+    ],
+    [
+     "hahaha",
+     3
+    ],
+    [
+     "[removed].jpg (bestand bijgevoegd)",
+     3
+    ],
+    [
+     "[removed]",
+     2
+    ],
+    [
+     "oke",
+     2
+    ],
+    [
+     "<afbeelding weggelaten>",
+     2
+    ],
+    [
+     ":d",
+     2
+    ],
+    [
+     ":)",
+     2
+    ],
+    [
+     "okee",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ik",
+     49
+    ],
+    [
+     "ja",
+     37
+    ],
+    [
+     "<",
+     26
+    ],
+    [
+     "haha",
+     17
+    ],
+    [
+     "[",
+     17
+    ],
+    [
+     "oh",
+     9
+    ],
+    [
+     "en",
+     9
+    ],
+    [
+     "heb",
+     7
+    ],
+    [
+     "nee",
+     6
+    ],
+    [
+     "oke",
+     6
+    ],
+    [
+     "het",
+     6
+    ],
+    [
+     "o",
+     6
+    ]
+   ],
+   "examples": [
+    "We geven het door.",
+    "Vrijdag voor de kwek is er de kwek-prom omdat het evenement al [REMOVED] jaar bestaat",
+    "He! Wij hebben hem om [REMOVED] augustus gestuurd vorig jaar. Als ik jullie was zou ik hem ook volgende week sturen, als",
+    "Vindt leo vast wel goed haha",
+    "<media weggelaten>",
+    "Jaa hoooor / Prima weer / de zee was niet koud / Maar kas is een watje / We zitten nu in de treint terug naar utrecht",
+    "Heel goed [REMOVED] / Heb twee of drie woorden verbeterd zodat het beter klonk oid / Nu ga ik printen en de Mappe maken ",
+    "Ik ben heel even naar de ndrgrnd"
+   ]
+  },
+  "reagir_algo_engracado": {
+   "n": 660,
+   "median_chars_turn": 39.0,
+   "p25_p75_chars": [
+    17,
+    74
+   ],
+   "mean_bubbles": 1.83,
+   "pct_first_bubble_le3words": 45.9,
+   "pct_laugh": 34.7,
+   "pct_question": 22.1,
+   "pct_excl": 22.0,
+   "pct_emoji": 7.3,
+   "pct_no_final_punct": 74.7,
+   "pct_starts_lower": 1.2,
+   "top_forms": [
+    [
+     "haha",
+     26
+    ],
+    [
+     "hahaha",
+     18
+    ],
+    [
+     "",
+     11
+    ],
+    [
+     "nee",
+     7
+    ],
+    [
+     "hahahahaha",
+     6
+    ],
+    [
+     "[removed]",
+     6
+    ],
+    [
+     "<media weggelaten>",
+     5
+    ],
+    [
+     "oke",
+     5
+    ],
+    [
+     "?",
+     5
+    ],
+    [
+     ":)",
+     5
+    ],
+    [
+     ":p",
+     4
+    ],
+    [
+     "hahahaha",
+     4
+    ]
+   ],
+   "top_first_words": [
+    [
+     "haha",
+     97
+    ],
+    [
+     "ja",
+     56
+    ],
+    [
+     "ik",
+     36
+    ],
+    [
+     "hahaha",
+     29
+    ],
+    [
+     "oke",
+     15
+    ],
+    [
+     "nee",
+     15
+    ],
+    [
+     "maar",
+     12
+    ],
+    [
+     "o",
+     11
+    ],
+    [
+     "oh",
+     10
+    ],
+    [
+     "[",
+     10
+    ],
+    [
+     "wat",
+     9
+    ],
+    [
+     "ok",
+     8
+    ]
+   ],
+   "examples": [
+    "Zou ik ook niet doen als ik jou was. Gingers hebben geen ziel. Hij is wel jarig bedenk ik nu trouwens, haha. / Eet smake",
+    "Hehe / Getsie",
+    "Haha oke sorry / Haha je mailtjes komen nu ook naar de svn;) / Top!:)",
+    "Ja precies / Maar ik denk dus dat we zo worden ingedeeld zodat we geen overlap hebbe",
+    "O ja / Gaan we zo beginnen",
+    "Woow ",
+    "Maar goed, die barbies... / Ik heb er vijf op de kop weten te tikken in een tweedehandszaak / Maar dat zal wel niet geno",
+    "Holy shit"
+   ]
+  },
+  "reagir_desabafo_negativo": {
+   "n": 103,
+   "median_chars_turn": 50,
+   "p25_p75_chars": [
+    30,
+    89
+   ],
+   "mean_bubbles": 1.95,
+   "pct_first_bubble_le3words": 35.9,
+   "pct_laugh": 16.5,
+   "pct_question": 18.4,
+   "pct_excl": 20.4,
+   "pct_emoji": 4.9,
+   "pct_no_final_punct": 76.7,
+   "pct_starts_lower": 3.9,
+   "top_forms": [
+    [
+     "oke",
+     3
+    ],
+    [
+     "haha",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ja",
+     12
+    ],
+    [
+     "haha",
+     8
+    ],
+    [
+     "ik",
+     8
+    ],
+    [
+     "oh",
+     4
+    ],
+    [
+     "nee",
+     3
+    ],
+    [
+     "en",
+     3
+    ],
+    [
+     "oke",
+     3
+    ],
+    [
+     "pfff",
+     2
+    ],
+    [
+     "ok",
+     2
+    ],
+    [
+     "heb",
+     2
+    ],
+    [
+     "dan",
+     2
+    ],
+    [
+     "",
+     2
+    ]
+   ],
+   "examples": [
+    "Balen zeg maar laat de pret niet bederven....",
+    "Aha oké! Nou, je zou heus welkom zijn hoor!",
+    "O ja das altijd fijn! Komt me bekend voor ook... Heb ook deze periode paar keer moeten samenwerken met mensen die niet w",
+    "Nee haha bij mij ook niet! Ik ben heel optimistisch beginnen maar zit nog steeds alleen maar aan de referentiële analyse",
+    "Oh / Hoe kan dat nou :(",
+    "En ik had t gevoel dat dit nooit een voldoende was / Voor inzage?",
+    "Ik moet even snel [REMOVED] uitlaten; tot zoooo! Hopen dat t in [REMOVED] minder kou is dan bij jou op t station! :p / H",
+    " hou op echt niet "
+   ]
+  },
+  "reagir_noticia_boa": {
+   "n": 128,
+   "median_chars_turn": 48.5,
+   "p25_p75_chars": [
+    21,
+    85
+   ],
+   "mean_bubbles": 1.63,
+   "pct_first_bubble_le3words": 33.6,
+   "pct_laugh": 18.8,
+   "pct_question": 26.6,
+   "pct_excl": 32.0,
+   "pct_emoji": 7.0,
+   "pct_no_final_punct": 71.1,
+   "pct_starts_lower": 2.3,
+   "top_forms": [
+    [
+     "hahaha",
+     3
+    ],
+    [
+     "jeej!",
+     2
+    ],
+    [
+     ":p",
+     2
+    ],
+    [
+     "lekker!",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ik",
+     9
+    ],
+    [
+     "haha",
+     9
+    ],
+    [
+     "hahaha",
+     6
+    ],
+    [
+     "ja",
+     5
+    ],
+    [
+     "ok",
+     4
+    ],
+    [
+     "o",
+     4
+    ],
+    [
+     "klinkt",
+     3
+    ],
+    [
+     "oeh",
+     3
+    ],
+    [
+     "dan",
+     3
+    ],
+    [
+     "we",
+     2
+    ],
+    [
+     "doe",
+     2
+    ],
+    [
+     "mooi",
+     2
+    ]
+   ],
+   "examples": [
+    "We geven het door.",
+    " Mooi zo.  /  Hoezo is het niet de moeite waard om tot [numerical_value] te blijven? ",
+    "Ah fijn. Nu de leukste dingen van de verhuizing. Alles een plekje geven, huisje bouwen. Net geen lego ;)",
+    "Me too",
+    "Lekker!!!! / :)",
+    "Heej heej, ja ik zag het! Zal er morgen middag even naar kijken! Komende week even afspreken? Kunnen we dan de handteken",
+    "Dan zou ik t doen ja",
+    "Goed dat je dat laatste even toevoegde / :p"
+   ]
+  },
+  "responder_como_vai": {
+   "n": 30,
+   "median_chars_turn": 100.5,
+   "p25_p75_chars": [
+    69,
+    182
+   ],
+   "mean_bubbles": 1.83,
+   "pct_first_bubble_le3words": 10.0,
+   "pct_laugh": 20.0,
+   "pct_question": 36.7,
+   "pct_excl": 43.3,
+   "pct_emoji": 16.7,
+   "pct_no_final_punct": 66.7,
+   "pct_starts_lower": 0.0,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "haha",
+     2
+    ],
+    [
+     "hee",
+     2
+    ],
+    [
+     "goed",
+     2
+    ],
+    [
+     "het",
+     1
+    ],
+    [
+     "pff",
+     1
+    ],
+    [
+     "die",
+     1
+    ],
+    [
+     "cool",
+     1
+    ],
+    [
+     "denk",
+     1
+    ],
+    [
+     "ja",
+     1
+    ],
+    [
+     "ik",
+     1
+    ],
+    [
+     "haai",
+     1
+    ],
+    [
+     "ah",
+     1
+    ]
+   ],
+   "examples": [
+    "Het gaat ietsje beter. We wisselen het een beetje af. Nu een vriendin van mijn moeder. Maar genieten jullie maar lekker ",
+    "Die waren het grootste gedeelte van de tijd niet thuis:p / Dus ik heb heerlijk geslapen op de bank / :p",
+    "Ja hoor. Druk aan het werk :)",
+    "Haai! Ja, zaterdag schoongemaakt en sleutels ingeleverd / Daarna [REMOVED] uitgevlucht voor een nachtje haha / Bijna kla",
+    "Prima",
+    "Hee! Ja goed! Met jou? Ja heel lekker, naar [REMOVED] geweest! En hoe is het met jou? Ook een leuke vakantie? :)",
+    "Heyy hier gaat alles super! Heel mooi hotel en ook super lekker eten :) Zijn vandaag naar zee geweest, gaan zo eten en d",
+    "Goed bezig, nog even volhouden! We zien jullie straks "
+   ]
+  },
+  "responder_flerte_afeto": {
+   "n": 141,
+   "median_chars_turn": 40,
+   "p25_p75_chars": [
+    18,
+    77
+   ],
+   "mean_bubbles": 1.87,
+   "pct_first_bubble_le3words": 53.9,
+   "pct_laugh": 31.2,
+   "pct_question": 17.0,
+   "pct_excl": 24.1,
+   "pct_emoji": 13.5,
+   "pct_no_final_punct": 76.6,
+   "pct_starts_lower": 2.8,
+   "top_forms": [
+    [
+     "hahaha",
+     5
+    ],
+    [
+     "haha",
+     4
+    ],
+    [
+     "",
+     4
+    ],
+    [
+     "<media weggelaten>",
+     3
+    ],
+    [
+     "😘",
+     3
+    ],
+    [
+     "jaa",
+     3
+    ],
+    [
+     "<‎afbeelding weggelaten>",
+     3
+    ],
+    [
+     "hahahahaha",
+     3
+    ],
+    [
+     "nee",
+     3
+    ],
+    [
+     "hahahaha",
+     2
+    ],
+    [
+     "",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "haha",
+     17
+    ],
+    [
+     "ja",
+     15
+    ],
+    [
+     "hahaha",
+     9
+    ],
+    [
+     "ik",
+     7
+    ],
+    [
+     "<",
+     4
+    ],
+    [
+     "oke",
+     4
+    ],
+    [
+     "ben",
+     4
+    ],
+    [
+     "maar",
+     3
+    ],
+    [
+     "dankjewel",
+     3
+    ],
+    [
+     "jaa",
+     3
+    ],
+    [
+     "nee",
+     3
+    ],
+    [
+     "hahahaha",
+     2
+    ]
+   ],
+   "examples": [
+    "Lief dat jullie zo goed voor hen zorgen. Ik had nog een kaart gestuurd in [REMOVED], maar die komt misschien heel laat. ",
+    " 😍 ",
+    " ❤️❤️❤️❤️  /  Ben buiten  /  Tegenover roosje ",
+    "hebben we toch nog een uurtje :p",
+    "Thanks jij ook ",
+    "Beetje lelijk maarja / Dat rode is een gaskachel / Jaa / Maar er komt nog een bank / Alleen nog niks gevonden dat door d",
+    "Haha / Uit je hoofd / Silent brass al geprobeerd?",
+    "Hahaha ik ben niet eng"
+   ]
+  },
+  "responder_pergunta": {
+   "n": 560,
+   "median_chars_turn": 48.0,
+   "p25_p75_chars": [
+    20,
+    94
+   ],
+   "mean_bubbles": 1.96,
+   "pct_first_bubble_le3words": 42.9,
+   "pct_laugh": 13.4,
+   "pct_question": 20.0,
+   "pct_excl": 18.8,
+   "pct_emoji": 4.3,
+   "pct_no_final_punct": 76.2,
+   "pct_starts_lower": 3.4,
+   "top_forms": [
+    [
+     "ja",
+     19
+    ],
+    [
+     "nee",
+     16
+    ],
+    [
+     "[removed]",
+     12
+    ],
+    [
+     "<media weggelaten>",
+     12
+    ],
+    [
+     "jaa",
+     5
+    ],
+    [
+     "ja!",
+     4
+    ],
+    [
+     "bijna",
+     3
+    ],
+    [
+     "haha",
+     3
+    ],
+    [
+     ":p",
+     3
+    ],
+    [
+     "jij?",
+     3
+    ],
+    [
+     "hahaha",
+     3
+    ],
+    [
+     "wat?",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ja",
+     94
+    ],
+    [
+     "nee",
+     52
+    ],
+    [
+     "ik",
+     32
+    ],
+    [
+     "[",
+     25
+    ],
+    [
+     "haha",
+     16
+    ],
+    [
+     "jaa",
+     9
+    ],
+    [
+     "dat",
+     8
+    ],
+    [
+     "heb",
+     8
+    ],
+    [
+     "het",
+     7
+    ],
+    [
+     "ehm",
+     7
+    ],
+    [
+     "wat",
+     6
+    ],
+    [
+     "geen",
+     6
+    ]
+   ],
+   "examples": [
+    "Ja!",
+    "Uhuh",
+    "Volgens mij bedoelen ze a en d. Dus commentaar op die [REMOVED] vragen van bb, maar ook problemen die je zelf ondervond ",
+    "Nee, nog helemaal niks, maar je hebt wel gelijk dat t tijd begint te worden ja.. Ook met die overlap in het rooster enz",
+    "Ja / Ben thuis net:) al was je luchtbed er al",
+    "ja geen idee / Bijna zwolle",
+    "Wifi @chinees haha / Wel slecht",
+    "Yep. Filmpje kijken :p"
+   ]
+  },
+  "responder_plano": {
+   "n": 312,
+   "median_chars_turn": 38.0,
+   "p25_p75_chars": [
+    15,
+    77
+   ],
+   "mean_bubbles": 1.7,
+   "pct_first_bubble_le3words": 45.5,
+   "pct_laugh": 14.7,
+   "pct_question": 22.8,
+   "pct_excl": 33.3,
+   "pct_emoji": 3.5,
+   "pct_no_final_punct": 65.4,
+   "pct_starts_lower": 1.3,
+   "top_forms": [
+    [
+     "is goed!",
+     6
+    ],
+    [
+     "oke",
+     5
+    ],
+    [
+     "[removed]",
+     4
+    ],
+    [
+     "hahaha",
+     4
+    ],
+    [
+     "is goed",
+     4
+    ],
+    [
+     "prima",
+     4
+    ],
+    [
+     "haha",
+     4
+    ],
+    [
+     "top",
+     2
+    ],
+    [
+     "oke!",
+     2
+    ],
+    [
+     "xx",
+     2
+    ],
+    [
+     "okee",
+     2
+    ],
+    [
+     "haai",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "ja",
+     50
+    ],
+    [
+     "ik",
+     20
+    ],
+    [
+     "is",
+     19
+    ],
+    [
+     "oke",
+     18
+    ],
+    [
+     "haha",
+     13
+    ],
+    [
+     "ok",
+     10
+    ],
+    [
+     "prima",
+     9
+    ],
+    [
+     "[",
+     9
+    ],
+    [
+     "hahaha",
+     7
+    ],
+    [
+     "top",
+     6
+    ],
+    [
+     "oh",
+     6
+    ],
+    [
+     "ah",
+     4
+    ]
+   ],
+   "examples": [
+    "Hoeft niet hoor.  We maken een lekkere viscurry. Kunnen we altijd nog gezellig samen doen. Bedankt voor het aanbod. Met ",
+    "Dat doe maar",
+    "Doe maar:)",
+    "Ok / Ik doe naar die oor mailen denk i",
+    "Ja is goed. Tot morgen dan!",
+    "Oke! Ja klopt! En kopie paspoort enzo! :) haha ja eerst bij een moeder en dochter thuis en dat was best wel leuk! En die",
+    "Ben je noi serieus boos?",
+    "Aaah das wel fijn"
+   ]
+  },
+  "responder_provocacao_ou_bronca": {
+   "n": 17,
+   "median_chars_turn": 44,
+   "p25_p75_chars": [
+    24,
+    84
+   ],
+   "mean_bubbles": 2.0,
+   "pct_first_bubble_le3words": 52.9,
+   "pct_laugh": 11.8,
+   "pct_question": 23.5,
+   "pct_excl": 17.6,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 64.7,
+   "pct_starts_lower": 0.0,
+   "top_forms": [
+    [
+     "oke",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "oke",
+     2
+    ],
+    [
+     "ja",
+     2
+    ],
+    [
+     "haha",
+     1
+    ],
+    [
+     "want",
+     1
+    ],
+    [
+     "<",
+     1
+    ],
+    [
+     "aha",
+     1
+    ],
+    [
+     "dan",
+     1
+    ],
+    [
+     "heel",
+     1
+    ],
+    [
+     "bij",
+     1
+    ],
+    [
+     "wat",
+     1
+    ],
+    [
+     "nou",
+     1
+    ],
+    [
+     "aaahhhhh",
+     1
+    ]
+   ],
+   "examples": [
+    "Haha, ok sorry.. / Maar doet jouw internet het?",
+    "<‎afbeelding weggelaten>",
+    "Oke",
+    "Ja, sorry!! Ik voel me echt lullig / Ja maar aan de [REMOVED] uur reistijd bedoel ik / Daar heb ik me in vergist / en op",
+    "Bij de bijrijdersstoel / Ik weet [REMOVED]% zeker dat ik ze er neer heb gelegd / En ik heb ze hier niet",
+    "Oke",
+    "Aaahhhhh :( zielig!",
+    " Klopt, ik heb huilend bij die deur gestaan "
+   ]
+  }
+ },
+ "nps_chatroom": {
+  "Statement": {
+   "n": 3185,
+   "median_chars_turn": 25,
+   "p25_p75_chars": [
+    15,
+    40
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 38.2,
+   "pct_laugh": 7.8,
+   "pct_question": 1.5,
+   "pct_excl": 1.2,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 87.7,
+   "pct_starts_lower": 70.0,
+   "top_forms": [
+    [
+     "yw",
+     12
+    ],
+    [
+     "oh",
+     9
+    ],
+    [
+     "hmm",
+     8
+    ],
+    [
+     "ty",
+     8
+    ],
+    [
+     "me too",
+     5
+    ],
+    [
+     "back",
+     5
+    ],
+    [
+     ".",
+     5
+    ],
+    [
+     "i see",
+     4
+    ],
+    [
+     "oops",
+     4
+    ],
+    [
+     "me",
+     4
+    ],
+    [
+     "11-06-adultsuser105",
+     4
+    ],
+    [
+     "good",
+     4
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     361
+    ],
+    [
+     "",
+     338
+    ],
+    [
+     "well",
+     59
+    ],
+    [
+     "you",
+     57
+    ],
+    [
+     "im",
+     55
+    ],
+    [
+     "oh",
+     53
+    ],
+    [
+     "lol",
+     53
+    ],
+    [
+     "i'm",
+     52
+    ],
+    [
+     "ty",
+     46
+    ],
+    [
+     "<",
+     39
+    ],
+    [
+     "my",
+     33
+    ],
+    [
+     "it",
+     32
+    ]
+   ],
+   "examples": [
+    "now im left with this gay name",
+    "You're just going to be disappointed that I look like a soccer mom",
+    "LoL 10-19-adultsUser32. .You know yer on the list of ppl that I let PM me =)",
+    "to play an atmospheric adventure together, it's great.  I love co op.",
+    "11-08-20sUser65 is my wife",
+    "Paxil, all antidepressants for that matter take at least a few weeks to work",
+    "i really gotta talk to her.",
+    "sing it, 11-09-40sUser52"
+   ]
+  },
+  "Emotion": {
+   "n": 1106,
+   "median_chars_turn": 4.0,
+   "p25_p75_chars": [
+    3,
+    19
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 96.6,
+   "pct_laugh": 61.7,
+   "pct_question": 0.0,
+   "pct_excl": 5.1,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 91.6,
+   "pct_starts_lower": 74.3,
+   "top_forms": [
+    [
+     "lol",
+     316
+    ],
+    [
+     "lmao",
+     39
+    ],
+    [
+     "haha",
+     30
+    ],
+    [
+     ":)",
+     23
+    ],
+    [
+     "omg",
+     12
+    ],
+    [
+     ";-)",
+     12
+    ],
+    [
+     ":-)",
+     10
+    ],
+    [
+     "damn",
+     10
+    ],
+    [
+     ":p",
+     9
+    ],
+    [
+     "hahaha",
+     9
+    ],
+    [
+     "aww",
+     8
+    ],
+    [
+     "lol 10-19-40suser9",
+     6
+    ]
+   ],
+   "top_first_words": [
+    [
+     "lol",
+     471
+    ],
+    [
+     "lmao",
+     91
+    ],
+    [
+     ":",
+     65
+    ],
+    [
+     "haha",
+     38
+    ],
+    [
+     "(",
+     37
+    ],
+    [
+     "",
+     25
+    ],
+    [
+     ";",
+     20
+    ],
+    [
+     "omg",
+     16
+    ],
+    [
+     "damn",
+     14
+    ],
+    [
+     "hahaha",
+     12
+    ],
+    [
+     "o",
+     12
+    ],
+    [
+     "oh",
+     10
+    ]
+   ],
+   "examples": [
+    ":P",
+    "lol 10-19-30sUser31... A++",
+    "hes hawt too",
+    ":-)",
+    "lol 11-06-adultsUser69",
+    "lol",
+    "damn!",
+    "lol 11-09-40sUser48"
+   ]
+  },
+  "Greet": {
+   "n": 1363,
+   "median_chars_turn": 18,
+   "p25_p75_chars": [
+    17,
+    21
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 92.7,
+   "pct_laugh": 0.5,
+   "pct_question": 0.7,
+   "pct_excl": 4.9,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 93.4,
+   "pct_starts_lower": 82.8,
+   "top_forms": [
+    [
+     "hi",
+     37
+    ],
+    [
+     "hey",
+     25
+    ],
+    [
+     "hi all",
+     19
+    ],
+    [
+     "hello",
+     19
+    ],
+    [
+     "hi 10-19-40suser30",
+     10
+    ],
+    [
+     "hi room",
+     8
+    ],
+    [
+     "hi everyone",
+     8
+    ],
+    [
+     "hi 10-19-40suser43",
+     7
+    ],
+    [
+     "hi 10-19-40suser53",
+     7
+    ],
+    [
+     "hi 11-09-40suser34",
+     7
+    ],
+    [
+     "hey everyone",
+     6
+    ],
+    [
+     "hi 10-19-40suser34",
+     6
+    ]
+   ],
+   "top_first_words": [
+    [
+     "hi",
+     617
+    ],
+    [
+     "hey",
+     238
+    ],
+    [
+     "wb",
+     92
+    ],
+    [
+     "hiya",
+     79
+    ],
+    [
+     "hello",
+     69
+    ],
+    [
+     "",
+     57
+    ],
+    [
+     "howdy",
+     20
+    ],
+    [
+     "heya",
+     15
+    ],
+    [
+     "welcome",
+     14
+    ],
+    [
+     "aloha",
+     9
+    ],
+    [
+     "heyy",
+     8
+    ],
+    [
+     ":",
+     8
+    ]
+   ],
+   "examples": [
+    "hey everyone",
+    "10-19-40sUser34",
+    "Wb 10-19-adultsUser50 =)",
+    "hi 10-24-40sUser20",
+    "hello 11-08-20sUser121",
+    "Hi 11-08-40sUser65",
+    "hey yall 17 f tx",
+    "Hi 11-09-40sUser42"
+   ]
+  },
+  "Accept": {
+   "n": 233,
+   "median_chars_turn": 11,
+   "p25_p75_chars": [
+    6,
+    26
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 71.7,
+   "pct_laugh": 9.0,
+   "pct_question": 1.3,
+   "pct_excl": 3.0,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 85.8,
+   "pct_starts_lower": 83.7,
+   "top_forms": [
+    [
+     "ok",
+     13
+    ],
+    [
+     "yeah",
+     7
+    ],
+    [
+     "yep",
+     6
+    ],
+    [
+     "right",
+     4
+    ],
+    [
+     "i agree",
+     3
+    ],
+    [
+     "right 11-08-40suser55",
+     3
+    ],
+    [
+     "uh huh",
+     2
+    ],
+    [
+     "yes",
+     2
+    ],
+    [
+     "yeppers",
+     2
+    ],
+    [
+     "k",
+     2
+    ],
+    [
+     "good",
+     2
+    ],
+    [
+     "yepper",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "yeah",
+     33
+    ],
+    [
+     "ok",
+     19
+    ],
+    [
+     "yes",
+     18
+    ],
+    [
+     "right",
+     13
+    ],
+    [
+     "yep",
+     11
+    ],
+    [
+     "i",
+     11
+    ],
+    [
+     "lol",
+     9
+    ],
+    [
+     "",
+     6
+    ],
+    [
+     "oh",
+     6
+    ],
+    [
+     "thats",
+     4
+    ],
+    [
+     "o",
+     4
+    ],
+    [
+     "k",
+     4
+    ]
+   ],
+   "examples": [
+    "10-19-20sUser7 is a gay name.",
+    "nice 10-19-30sUser11",
+    "yep",
+    "yep 10-24-40sUser19 ,,sigh sigh lol",
+    "me too 11-06-adultsUser1",
+    "ok girl",
+    "so i hear 11-08-adultsUser56",
+    "11-09-40sUser33  yep .."
+   ]
+  },
+  "Reject": {
+   "n": 159,
+   "median_chars_turn": 22,
+   "p25_p75_chars": [
+    13,
+    31
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 45.3,
+   "pct_laugh": 5.0,
+   "pct_question": 1.9,
+   "pct_excl": 8.2,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 78.0,
+   "pct_starts_lower": 71.1,
+   "top_forms": [
+    [
+     "no",
+     3
+    ],
+    [
+     "nah",
+     2
+    ],
+    [
+     "noo",
+     2
+    ],
+    [
+     "no!",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "no",
+     34
+    ],
+    [
+     "",
+     15
+    ],
+    [
+     "i",
+     12
+    ],
+    [
+     "not",
+     10
+    ],
+    [
+     "don't",
+     5
+    ],
+    [
+     "shut",
+     5
+    ],
+    [
+     "you",
+     4
+    ],
+    [
+     "stop",
+     4
+    ],
+    [
+     "dont",
+     4
+    ],
+    [
+     "u",
+     3
+    ],
+    [
+     "hell",
+     3
+    ],
+    [
+     "oh",
+     3
+    ]
+   ],
+   "examples": [
+    "don't golf clap me.",
+    "no one is pathetic, just human",
+    "not white shoes...bucks",
+    "No it's sucks",
+    "me? a good nite? pssssh",
+    "I do not care",
+    "dont fck with the bible 11-08-adultsUser95",
+    "you sick shit..."
+   ]
+  },
+  "whQuestion": {
+   "n": 533,
+   "median_chars_turn": 26,
+   "p25_p75_chars": [
+    16,
+    38
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 34.9,
+   "pct_laugh": 3.9,
+   "pct_question": 63.2,
+   "pct_excl": 2.6,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 37.5,
+   "pct_starts_lower": 79.5,
+   "top_forms": [
+    [
+     "?",
+     7
+    ],
+    [
+     "what?",
+     6
+    ],
+    [
+     "huh?",
+     4
+    ],
+    [
+     "why?",
+     4
+    ],
+    [
+     "who",
+     4
+    ],
+    [
+     "whats up",
+     3
+    ],
+    [
+     "what",
+     3
+    ],
+    [
+     "wtf",
+     2
+    ],
+    [
+     "how are you?",
+     2
+    ],
+    [
+     "whats green and silver?",
+     2
+    ],
+    [
+     "who?",
+     2
+    ],
+    [
+     "how are u doin?",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "what",
+     83
+    ],
+    [
+     "who",
+     54
+    ],
+    [
+     "how",
+     53
+    ],
+    [
+     "",
+     39
+    ],
+    [
+     "whats",
+     29
+    ],
+    [
+     "why",
+     28
+    ],
+    [
+     "where",
+     22
+    ],
+    [
+     "so",
+     12
+    ],
+    [
+     "wtf",
+     8
+    ],
+    [
+     "hows",
+     7
+    ],
+    [
+     "hey",
+     7
+    ],
+    [
+     "?",
+     7
+    ]
+   ],
+   "examples": [
+    "whats everyone up to?",
+    "who's horny ?",
+    "How are is everything",
+    "what is that saying abou tthe rest of us?",
+    "what happened 11-08-40sUser18?",
+    "where you at",
+    "What the hell? Where did the 2 come from???",
+    "hows the camel"
+   ]
+  },
+  "Continuer": {
+   "n": 168,
+   "median_chars_turn": 15.0,
+   "p25_p75_chars": [
+    8,
+    23
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 63.7,
+   "pct_laugh": 2.4,
+   "pct_question": 2.4,
+   "pct_excl": 0.6,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 86.3,
+   "pct_starts_lower": 79.8,
+   "top_forms": [
+    [
+     "jk",
+     4
+    ],
+    [
+     "and",
+     3
+    ],
+    [
+     "sexy love",
+     3
+    ],
+    [
+     "you wish",
+     2
+    ],
+    [
+     "huskers",
+     2
+    ],
+    [
+     "11-08-teensuser154",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "and",
+     29
+    ],
+    [
+     "or",
+     10
+    ],
+    [
+     "but",
+     10
+    ],
+    [
+     "",
+     10
+    ],
+    [
+     "i",
+     8
+    ],
+    [
+     "jk",
+     4
+    ],
+    [
+     "you",
+     3
+    ],
+    [
+     "with",
+     3
+    ],
+    [
+     "sexy",
+     3
+    ],
+    [
+     "&",
+     2
+    ],
+    [
+     "is",
+     2
+    ],
+    [
+     "the",
+     2
+    ]
+   ],
+   "examples": [
+    "and i dont even know what that means.",
+    "but getting back to the orgy......",
+    "and",
+    "or at least the stripper at the bachelorette party?",
+    "and 11-08-40sUser48",
+    "shorty lllllllliiiiiiiiiikeee mine",
+    "close",
+    "your home; watch out so as not to spark a crisis.."
+   ]
+  },
+  "ynQuestion": {
+   "n": 550,
+   "median_chars_turn": 27.0,
+   "p25_p75_chars": [
+    18,
+    38
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 31.3,
+   "pct_laugh": 4.7,
+   "pct_question": 71.5,
+   "pct_excl": 2.2,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 34.0,
+   "pct_starts_lower": 72.2,
+   "top_forms": [
+    [
+     "really?",
+     3
+    ],
+    [
+     "me?",
+     3
+    ],
+    [
+     "may i?",
+     2
+    ],
+    [
+     "anyone wanna chat",
+     2
+    ],
+    [
+     "anyone wanna cyber",
+     2
+    ],
+    [
+     "elbows?",
+     2
+    ],
+    [
+     "any 1 wanna chat",
+     2
+    ],
+    [
+     "11-09-20suser41?",
+     2
+    ],
+    [
+     "17/f/fl pics, wanna chat?",
+     2
+    ],
+    [
+     "any girl wanna chat?",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "",
+     73
+    ],
+    [
+     "any",
+     69
+    ],
+    [
+     "anyone",
+     31
+    ],
+    [
+     "you",
+     20
+    ],
+    [
+     "is",
+     19
+    ],
+    [
+     "hey",
+     19
+    ],
+    [
+     "are",
+     12
+    ],
+    [
+     "did",
+     12
+    ],
+    [
+     "can",
+     11
+    ],
+    [
+     "do",
+     8
+    ],
+    [
+     "the",
+     7
+    ],
+    [
+     "really",
+     6
+    ]
+   ],
+   "examples": [
+    "any ladis wanna chat? 29 m",
+    "Hi, 10-19-30sUser3, do u ever sleep",
+    "are you tere",
+    "Have any of you guys heard of gamefly?",
+    "11-08-20sUser20?",
+    "is a beanbag a racist comment?",
+    "any ladies wana chat with a canadaian",
+    "double header 11-09-adultsUser29? hahahaha"
+   ]
+  },
+  "yAnswer": {
+   "n": 108,
+   "median_chars_turn": 13.5,
+   "p25_p75_chars": [
+    6,
+    24
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 74.1,
+   "pct_laugh": 9.3,
+   "pct_question": 0.9,
+   "pct_excl": 6.5,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 79.6,
+   "pct_starts_lower": 86.1,
+   "top_forms": [
+    [
+     "yes",
+     13
+    ],
+    [
+     "yes!",
+     3
+    ],
+    [
+     "yeah",
+     3
+    ],
+    [
+     "yep",
+     2
+    ],
+    [
+     "yeah.",
+     2
+    ],
+    [
+     "yes i am",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "yes",
+     36
+    ],
+    [
+     "yeah",
+     14
+    ],
+    [
+     "yep",
+     7
+    ],
+    [
+     "i",
+     4
+    ],
+    [
+     "sure",
+     3
+    ],
+    [
+     "yea",
+     3
+    ],
+    [
+     "lol",
+     3
+    ],
+    [
+     "why",
+     2
+    ],
+    [
+     "it",
+     2
+    ],
+    [
+     "yup",
+     2
+    ],
+    [
+     "oh",
+     2
+    ],
+    [
+     "no",
+     2
+    ]
+   ],
+   "examples": [
+    "yes 10-19-20sUser30",
+    "yep...",
+    "Oh, #### yeah",
+    "should be shells",
+    "yes",
+    "sure 11-08-adultsUser69",
+    "yes",
+    "yes 11-09-40sUser49"
+   ]
+  },
+  "Bye": {
+   "n": 195,
+   "median_chars_turn": 19,
+   "p25_p75_chars": [
+    7,
+    22
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 79.5,
+   "pct_laugh": 0.0,
+   "pct_question": 0.0,
+   "pct_excl": 4.6,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 91.3,
+   "pct_starts_lower": 90.3,
+   "top_forms": [
+    [
+     "brb",
+     20
+    ],
+    [
+     "bye",
+     6
+    ],
+    [
+     "bye 10-24-40suser26",
+     4
+    ],
+    [
+     "afk",
+     3
+    ],
+    [
+     "good night all",
+     2
+    ],
+    [
+     "byee",
+     2
+    ],
+    [
+     "nite 10-19-30suser7",
+     2
+    ],
+    [
+     "bye 10-24-40suser11",
+     2
+    ],
+    [
+     "tc 10-24-40suser26",
+     2
+    ],
+    [
+     "night 11-06-adultsuser53",
+     2
+    ],
+    [
+     "bye 11-06-adultsuser1",
+     2
+    ],
+    [
+     "tc 11-06-adultsuser1",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "bye",
+     36
+    ],
+    [
+     "brb",
+     29
+    ],
+    [
+     "nite",
+     13
+    ],
+    [
+     "tc",
+     12
+    ],
+    [
+     "night",
+     9
+    ],
+    [
+     "see",
+     8
+    ],
+    [
+     "hb",
+     8
+    ],
+    [
+     "bbl",
+     5
+    ],
+    [
+     "afk",
+     4
+    ],
+    [
+     "cya",
+     3
+    ],
+    [
+     "",
+     3
+    ],
+    [
+     "well",
+     3
+    ]
+   ],
+   "examples": [
+    "brb",
+    "awww see ya 10-19-30sUser25 have a good one",
+    "bye honey bunny",
+    "byeee 10-24-40sUser26 hugs",
+    "tc 11-06-adultsUser1",
+    "have a gn 11-08-40sUser48",
+    "hb!",
+    "nite 11-09-40sUser19"
+   ]
+  },
+  "Clarify": {
+   "n": 38,
+   "median_chars_turn": 8.5,
+   "p25_p75_chars": [
+    5,
+    22
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 81.6,
+   "pct_laugh": 10.5,
+   "pct_question": 0.0,
+   "pct_excl": 0.0,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 94.7,
+   "pct_starts_lower": 81.6,
+   "top_forms": [],
+   "top_first_words": [
+    [
+     "i",
+     6
+    ],
+    [
+     "",
+     3
+    ],
+    [
+     "sho",
+     1
+    ],
+    [
+     "forwards",
+     1
+    ],
+    [
+     "my",
+     1
+    ],
+    [
+     "are",
+     1
+    ],
+    [
+     ".",
+     1
+    ],
+    [
+     "ooppsss",
+     1
+    ],
+    [
+     "him",
+     1
+    ],
+    [
+     "damn",
+     1
+    ],
+    [
+     "um",
+     1
+    ],
+    [
+     "hx",
+     1
+    ]
+   ],
+   "examples": [
+    "sho*",
+    "are",
+    "damn even",
+    "hx=history",
+    "10-24-40sUser35 even gezzz",
+    "*use",
+    "i mean.......sesky",
+    "not you 11-08-adultsUser56"
+   ]
+  },
+  "Emphasis": {
+   "n": 190,
+   "median_chars_turn": 23.0,
+   "p25_p75_chars": [
+    15,
+    39
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 46.8,
+   "pct_laugh": 4.7,
+   "pct_question": 2.1,
+   "pct_excl": 80.5,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 22.1,
+   "pct_starts_lower": 59.5,
+   "top_forms": [
+    [
+     "!",
+     2
+    ],
+    [
+     "really",
+     2
+    ],
+    [
+     "11-09-adultsuser27!",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "",
+     23
+    ],
+    [
+     "i",
+     16
+    ],
+    [
+     "lol",
+     5
+    ],
+    [
+     "you",
+     5
+    ],
+    [
+     "get",
+     4
+    ],
+    [
+     "thanks",
+     3
+    ],
+    [
+     "and",
+     3
+    ],
+    [
+     "thats",
+     3
+    ],
+    [
+     "*",
+     3
+    ],
+    [
+     "ok",
+     3
+    ],
+    [
+     "the",
+     3
+    ],
+    [
+     "ty",
+     3
+    ]
+   ],
+   "examples": [
+    "i thought of that!",
+    "CHOCO CHOCO",
+    "his story",
+    "love the playstation!",
+    "scream it biiiatch!!",
+    "really???? I talked to someone else who says she gained 30 lbs while on paxil!",
+    "get it here!",
+    "wow!!!  didn't realize that"
+   ]
+  },
+  "nAnswer": {
+   "n": 72,
+   "median_chars_turn": 21.0,
+   "p25_p75_chars": [
+    4,
+    31
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 52.8,
+   "pct_laugh": 12.5,
+   "pct_question": 2.8,
+   "pct_excl": 0.0,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 88.9,
+   "pct_starts_lower": 81.9,
+   "top_forms": [
+    [
+     "no",
+     15
+    ],
+    [
+     "nope",
+     3
+    ],
+    [
+     "nope.",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "no",
+     42
+    ],
+    [
+     "nope",
+     8
+    ],
+    [
+     "not",
+     4
+    ],
+    [
+     "newp",
+     2
+    ],
+    [
+     "nah",
+     2
+    ],
+    [
+     "nada",
+     1
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     "naw",
+     1
+    ],
+    [
+     "lol",
+     1
+    ],
+    [
+     "o",
+     1
+    ],
+    [
+     "noooooooooo",
+     1
+    ],
+    [
+     "close",
+     1
+    ]
+   ],
+   "examples": [
+    "no",
+    "no, everyone in the other room can see it",
+    "noooooooooo 10-24-40sUser41",
+    "newp i hate whispers",
+    "no",
+    "newp",
+    "Nope.",
+    "not me no"
+   ]
+  },
+  "Other": {
+   "n": 35,
+   "median_chars_turn": 3,
+   "p25_p75_chars": [
+    2,
+    7
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 97.1,
+   "pct_laugh": 2.9,
+   "pct_question": 2.9,
+   "pct_excl": 0.0,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 91.4,
+   "pct_starts_lower": 20.0,
+   "top_forms": [
+    [
+     "<empty>",
+     8
+    ],
+    [
+     "0",
+     4
+    ],
+    [
+     ".",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "<",
+     10
+    ],
+    [
+     "",
+     5
+    ],
+    [
+     ".",
+     2
+    ],
+    [
+     "-",
+     2
+    ],
+    [
+     "o",
+     2
+    ],
+    [
+     ">",
+     2
+    ],
+    [
+     "ysssssssss",
+     1
+    ],
+    [
+     "a",
+     1
+    ],
+    [
+     "^",
+     1
+    ],
+    [
+     "(",
+     1
+    ],
+    [
+     ",",
+     1
+    ],
+    [
+     "livin",
+     1
+    ]
+   ],
+   "examples": [
+    "0",
+    "^t",
+    "<empty>",
+    "livin lol nu >?",
+    "-",
+    "0",
+    "GN,GNG",
+    "<empty>"
+   ]
+  }
+ },
+ "empathetic": {
+  "B_reply_other": {
+   "n": 653,
+   "median_chars_turn": 45,
+   "p25_p75_chars": [
+    28,
+    66
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 5.4,
+   "pct_laugh": 1.1,
+   "pct_question": 54.5,
+   "pct_excl": 20.8,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 18.2,
+   "pct_starts_lower": 9.3,
+   "top_forms": [
+    [
+     "what happened?",
+     4
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     98
+    ],
+    [
+     "that",
+     82
+    ],
+    [
+     "oh",
+     52
+    ],
+    [
+     "what",
+     49
+    ],
+    [
+     "wow",
+     32
+    ],
+    [
+     "that's",
+     31
+    ],
+    [
+     "how",
+     17
+    ],
+    [
+     "why",
+     15
+    ],
+    [
+     "did",
+     14
+    ],
+    [
+     "you",
+     12
+    ],
+    [
+     "yes",
+     12
+    ],
+    [
+     "aww",
+     10
+    ]
+   ],
+   "examples": [
+    "Was this a friend you were in love with, or just a best friend?",
+    "I feel you.I also get sad when i see people living of the street.",
+    "I do too honestly, I used to play all these fun games with our neighbors late summer nights, it was amazing, but I took ",
+    "What does? Were you in a car ride with your aunt?",
+    "That's so nice of them! Was it a surprise party?",
+    "What happened?",
+    "No, Congratulation. Do you have something planned today?",
+    "Isn't that the best feeling when something you really want is actually on deep discount, and you are just in the right p"
+   ],
+   "top_first3": [
+    [
+     "i bet that",
+     8
+    ],
+    [
+     "that sounds like",
+     6
+    ],
+    [
+     "what did you",
+     5
+    ],
+    [
+     "i bet you",
+     5
+    ],
+    [
+     "that must have",
+     4
+    ],
+    [
+     "what happened?",
+     4
+    ],
+    [
+     "that is very",
+     4
+    ],
+    [
+     "that is really",
+     3
+    ],
+    [
+     "that is so",
+     3
+    ],
+    [
+     "i am sure",
+     3
+    ],
+    [
+     "that was nice",
+     3
+    ],
+    [
+     "what was the",
+     3
+    ],
+    [
+     "what kind of",
+     3
+    ],
+    [
+     "i do that",
+     3
+    ],
+    [
+     "that is a",
+     3
+    ]
+   ]
+  },
+  "B_reply_negative_story": {
+   "n": 2966,
+   "median_chars_turn": 45.0,
+   "p25_p75_chars": [
+    28,
+    66
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 6.2,
+   "pct_laugh": 1.9,
+   "pct_question": 57.7,
+   "pct_excl": 18.3,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 15.6,
+   "pct_starts_lower": 10.2,
+   "top_forms": [
+    [
+     "what happened?",
+     22
+    ],
+    [
+     "why is that?",
+     14
+    ],
+    [
+     "what did you do?",
+     8
+    ],
+    [
+     "what did he do?",
+     6
+    ],
+    [
+     "oh no. what happened?",
+     6
+    ],
+    [
+     "how come?",
+     5
+    ],
+    [
+     "how did it go?",
+     5
+    ],
+    [
+     "why?",
+     5
+    ],
+    [
+     "why? what happened?",
+     4
+    ],
+    [
+     "really?",
+     4
+    ],
+    [
+     "that sucks",
+     4
+    ],
+    [
+     "i'm sorry to hear that.",
+     3
+    ]
+   ],
+   "top_first_words": [
+    [
+     "oh",
+     544
+    ],
+    [
+     "i",
+     368
+    ],
+    [
+     "that",
+     280
+    ],
+    [
+     "what",
+     185
+    ],
+    [
+     "that's",
+     151
+    ],
+    [
+     "why",
+     109
+    ],
+    [
+     "wow",
+     88
+    ],
+    [
+     "did",
+     84
+    ],
+    [
+     "i'm",
+     82
+    ],
+    [
+     "how",
+     61
+    ],
+    [
+     "it",
+     40
+    ],
+    [
+     "you",
+     39
+    ]
+   ],
+   "examples": [
+    "Oh ya? I don't really see how",
+    "what is your exam on?",
+    "I am sure you are, that sounds bad",
+    "Lol. That's funny. Better hope you dont end up on YouTube.",
+    "I'm sorry, I think it's an opportunity to start a new job better",
+    "That's tough, it's good he has a friend like you to help him out though.",
+    "That's great. You both must be excited",
+    "That's terrible, what did you do?"
+   ],
+   "top_first3": [
+    [
+     "i'm sorry to",
+     34
+    ],
+    [
+     "i am sorry",
+     31
+    ],
+    [
+     "sorry to hear",
+     23
+    ],
+    [
+     "what happened?",
+     22
+    ],
+    [
+     "that is so",
+     19
+    ],
+    [
+     "what did you",
+     17
+    ],
+    [
+     "why is that?",
+     16
+    ],
+    [
+     "oh no! i",
+     16
+    ],
+    [
+     "i am sorry,",
+     13
+    ],
+    [
+     "i am so",
+     13
+    ],
+    [
+     "oh no, what",
+     12
+    ],
+    [
+     "oh no. did",
+     11
+    ],
+    [
+     "what kind of",
+     11
+    ],
+    [
+     "i hate when",
+     11
+    ],
+    [
+     "what are you",
+     11
+    ]
+   ]
+  },
+  "B_reply_positive_news": {
+   "n": 2379,
+   "median_chars_turn": 45,
+   "p25_p75_chars": [
+    30,
+    64
+   ],
+   "mean_bubbles": 1.0,
+   "pct_first_bubble_le3words": 5.6,
+   "pct_laugh": 1.0,
+   "pct_question": 51.7,
+   "pct_excl": 28.5,
+   "pct_emoji": 0.0,
+   "pct_no_final_punct": 16.5,
+   "pct_starts_lower": 8.9,
+   "top_forms": [
+    [
+     "what did you do?",
+     3
+    ],
+    [
+     "why is that?",
+     3
+    ],
+    [
+     "congratulations",
+     3
+    ],
+    [
+     "what happened?",
+     3
+    ],
+    [
+     "how did you do?",
+     3
+    ],
+    [
+     "how did it go?",
+     3
+    ],
+    [
+     "that is great.",
+     2
+    ],
+    [
+     "cool! where are you going?",
+     2
+    ],
+    [
+     "what did she say?",
+     2
+    ],
+    [
+     "why are you happy",
+     2
+    ],
+    [
+     "i bet you were proud",
+     2
+    ],
+    [
+     "ok",
+     2
+    ]
+   ],
+   "top_first_words": [
+    [
+     "i",
+     295
+    ],
+    [
+     "that",
+     292
+    ],
+    [
+     "that's",
+     223
+    ],
+    [
+     "oh",
+     182
+    ],
+    [
+     "what",
+     147
+    ],
+    [
+     "wow",
+     121
+    ],
+    [
+     "how",
+     68
+    ],
+    [
+     "thats",
+     65
+    ],
+    [
+     "did",
+     51
+    ],
+    [
+     "you",
+     44
+    ],
+    [
+     "i'm",
+     40
+    ],
+    [
+     "good",
+     35
+    ]
+   ],
+   "examples": [
+    "doing good.. how about you",
+    "I know what you mean, childhood friends are so important and treasured",
+    "What do you mean",
+    "Wow good luck, I'm a big fan of watching MMA myself.",
+    "I have not, I was hoping they called you instead.",
+    "You really got lucky that day.",
+    "Oh that is pretty neat. Who is your favorite band anyway?",
+    "That is great to hear.  Anything in particular?"
+   ],
+   "top_first3": [
+    [
+     "that sounds like",
+     26
+    ],
+    [
+     "that is a",
+     24
+    ],
+    [
+     "that is so",
+     21
+    ],
+    [
+     "what kind of",
+     16
+    ],
+    [
+     "i am sure",
+     15
+    ],
+    [
+     "that is great.",
+     14
+    ],
+    [
+     "i bet you",
+     14
+    ],
+    [
+     "that is very",
+     11
+    ],
+    [
+     "i bet that",
+     11
+    ],
+    [
+     "i hope you",
+     11
+    ],
+    [
+     "what do you",
+     10
+    ],
+    [
+     "that is great!",
+     9
+    ],
+    [
+     "what are you",
+     9
+    ],
+    [
+     "i'm sorry to",
+     8
+    ],
+    [
+     "what did you",
+     8
+    ]
+   ]
+  }
+ },
+ "nus_sms": {
+  "n": 55835,
+  "top_short_messages": [
+   [
+    "ok",
+    216
+   ],
+   [
+    "k",
+    152
+   ],
+   [
+    "<#>",
+    122
+   ],
+   [
+    "ok.",
+    93
+   ],
+   [
+    "okay.",
+    62
+   ],
+   [
+    "kk",
+    56
+   ],
+   [
+    "okay",
+    50
+   ],
+   [
+    "no",
+    46
+   ],
+   [
+    "post!",
+    46
+   ],
+   [
+    "?",
+    44
+   ],
+   [
+    "yup.",
+    42
+   ],
+   [
+    "ya",
+    40
+   ],
+   [
+    "ok!",
+    39
+   ],
+   [
+    "hi",
+    38
+   ],
+   [
+    "yes",
+    38
+   ],
+   [
+    "okay!",
+    37
+   ],
+   [
+    "<#> <#>",
+    34
+   ],
+   [
+    "yup",
+    31
+   ],
+   [
+    "thanks!",
+    31
+   ],
+   [
+    "<email>",
+    31
+   ],
+   [
+    "lol",
+    28
+   ],
+   [
+    "k.",
+    28
+   ],
+   [
+    "where are you?",
+    27
+   ],
+   [
+    "call me",
+    25
+   ],
+   [
+    "ya.",
+    24
+   ],
+   [
+    "p",
+    24
+   ],
+   [
+    "s",
+    23
+   ],
+   [
+    "yeah",
+    22
+   ],
+   [
+    "hi.",
+    22
+   ],
+   [
+    "wru",
+    21
+   ],
+   [
+    "der",
+    21
+   ],
+   [
+    "thks!",
+    20
+   ],
+   [
+    "happy new years!",
+    19
+   ],
+   [
+    "thks",
+    18
+   ],
+   [
+    "hai",
+    17
+   ],
+   [
+    "mo",
+    17
+   ],
+   [
+    "thanks.",
+    17
+   ],
+   [
+    "sup?",
+    17
+   ],
+   [
+    "where r u?",
+    16
+   ],
+   [
+    "thanks",
+    16
+   ]
+  ],
+  "top_first_words": [
+   [
+    "i",
+    2873
+   ],
+   [
+    "haha",
+    2801
+   ],
+   [
+    "hey",
+    1683
+   ],
+   [
+    "ok",
+    1604
+   ],
+   [
+    "lol",
+    1451
+   ],
+   [
+    "hi",
+    1219
+   ],
+   [
+    "oh",
+    1115
+   ],
+   [
+    "no",
+    823
+   ],
+   [
+    "okay",
+    713
+   ],
+   [
+    "u",
+    710
+   ],
+   [
+    "s",
+    706
+   ],
+   [
+    "hahaha",
+    706
+   ],
+   [
+    "yeah",
+    662
+   ],
+   [
+    "ya",
+    632
+   ],
+   [
+    "k",
+    579
+   ],
+   [
+    "<",
+    532
+   ],
+   [
+    "m",
+    517
+   ],
+   [
+    "",
+    477
+   ],
+   [
+    "yup",
+    458
+   ],
+   [
+    "eh",
+    454
+   ],
+   [
+    "what",
+    445
+   ],
+   [
+    "yes",
+    399
+   ],
+   [
+    "you",
+    388
+   ],
+   [
+    "where",
+    371
+   ],
+   [
+    "sorry",
+    362
+   ],
+   [
+    "i'm",
+    356
+   ],
+   [
+    "so",
+    339
+   ],
+   [
+    "how",
+    333
+   ],
+   [
+    "can",
+    331
+   ],
+   [
+    "ll",
+    326
+   ]
+  ]
+ }
+}

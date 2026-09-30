@@ -51,5 +51,7 @@ def load_turns(corpora=("maichat", "whatsapp_nl", "empathetic", "nps_chatroom"))
         r["end_none"] = base[-1].end == "none"
         r["end_excl"] = base[-1].end == "excl"
         r["logc"] = float(np.log1p(t["total_chars"]))
+        r["punct_frac"] = float(np.mean([x.end in ("period", "excl", "question", "ellipsis") for x in base]))
+        r["n_words"] = int(sum(x.n_words for x in base))
         rows.append(r)
     return pd.DataFrame(rows)

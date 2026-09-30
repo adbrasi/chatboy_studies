@@ -1,0 +1,1404 @@
+{
+ "n": 24840,
+ "ed_repertoire": {
+  "consolar_tristeza": {
+   "n": 3152,
+   "words_median": 10.0,
+   "words_p25_p75": [
+    7.0,
+    14.0
+   ],
+   "n_sent_median": 2.0,
+   "has_q": 0.562,
+   "ends_with_q": 0.525,
+   "template_short_reaction_then_question": 0.214,
+   "only_a_question": 0.209,
+   "starts_with_interjection": 0.446,
+   "top_first_word": [
+    "oh 19.5%",
+    "i 11.8%",
+    "that 9.5%",
+    "i'm 6.2%",
+    "that's 5.3%",
+    "what 4.1%",
+    "why 3.0%",
+    "did 2.5%",
+    "sorry 2.4%",
+    "how 2.0%",
+    "wow 1.8%",
+    "im 1.4%"
+   ],
+   "top_first_2words": [
+    "oh no 9.7%",
+    "that is 4.2%",
+    "i am 3.9%",
+    "i'm sorry 3.8%",
+    "sorry to 2.1%",
+    "oh my 1.8%",
+    "did you 1.7%",
+    "i'm so 1.7%",
+    "that sucks 1.4%",
+    "i know 1.1%",
+    "that sounds 1.1%",
+    "im sorry 1.0%",
+    "oh man 1.0%",
+    "oh i 1.0%",
+    "oh i'm 0.9%"
+   ],
+   "top_first_3words": [
+    "i'm sorry to 2.7%",
+    "sorry to hear 2.1%",
+    "i am sorry 1.9%",
+    "oh no i 1.6%",
+    "i'm so sorry 1.6%",
+    "i am so 1.5%",
+    "oh no i'm 1.4%",
+    "oh no that 0.9%",
+    "im sorry to 0.9%",
+    "oh no what 0.9%",
+    "oh no that's 0.8%",
+    "oh no did 0.8%"
+   ],
+   "examples_typical": [
+    "Oh man! What did you want to do with it?",
+    "Oh, my goodness! Are you and your family safe though?",
+    "Why do you think you often feel that way?",
+    "That is unfortunate, what do you usually avoid talking about?",
+    "Oh my god, Are you doing okay? What hapened?",
+    "oh, dear. That sounds lonely. How are you holding up?"
+   ]
+  },
+  "consolar_medo": {
+   "n": 2960,
+   "words_median": 9.0,
+   "words_p25_p75": [
+    6.0,
+    13.0
+   ],
+   "n_sent_median": 2.0,
+   "has_q": 0.621,
+   "ends_with_q": 0.575,
+   "template_short_reaction_then_question": 0.209,
+   "only_a_question": 0.251,
+   "starts_with_interjection": 0.355,
+   "top_first_word": [
+    "oh 19.1%",
+    "i 12.5%",
+    "that 8.0%",
+    "what 6.4%",
+    "that's 4.4%",
+    "why 4.0%",
+    "did 3.3%",
+    "wow 3.2%",
+    "how 2.3%",
+    "you 1.9%",
+    "i'm 1.5%",
+    "are 1.4%"
+   ],
+   "top_first_2words": [
+    "oh no 6.7%",
+    "that is 3.2%",
+    "that sounds 2.3%",
+    "did you 2.2%",
+    "oh my 2.2%",
+    "oh wow 2.1%",
+    "i am 1.6%",
+    "are you 1.3%",
+    "oh that 1.1%",
+    "i would 1.0%",
+    "do you 1.0%",
+    "i can 1.0%",
+    "wow that 0.9%",
+    "oh man 0.9%",
+    "what is 0.9%"
+   ],
+   "top_first_3words": [
+    "oh no i 1.0%",
+    "oh no what 1.0%",
+    "why is that 0.7%",
+    "oh no that 0.6%",
+    "oh no did 0.6%",
+    "what happened 0.6%",
+    "oh wow that 0.6%",
+    "oh my goodness 0.5%",
+    "why are you 0.5%",
+    "why were you 0.5%",
+    "i am sorry 0.5%",
+    "how did it 0.5%"
+   ],
+   "examples_typical": [
+    "Oh i can relate i am also afraid of that",
+    "Scary!!! What was it? Were you terrified or just curious?",
+    "That is nice of you. I hope he appreciated it.",
+    "how did that go? did you have fun?",
+    "I feel you.I am that way to.I fear public speaking.",
+    "That must have frightened you. Was it the beef jerky sasquatch?"
+   ]
+  },
+  "raiva_indignacao": {
+   "n": 4039,
+   "words_median": 9.0,
+   "words_p25_p75": [
+    6.0,
+    13.0
+   ],
+   "n_sent_median": 2.0,
+   "has_q": 0.561,
+   "ends_with_q": 0.521,
+   "template_short_reaction_then_question": 0.21,
+   "only_a_question": 0.229,
+   "starts_with_interjection": 0.38,
+   "top_first_word": [
+    "oh 18.0%",
+    "i 12.4%",
+    "that 11.0%",
+    "what 5.5%",
+    "that's 5.5%",
+    "did 3.4%",
+    "wow 3.4%",
+    "why 2.8%",
+    "how 1.6%",
+    "i'm 1.6%",
+    "you 1.4%",
+    "thats 1.1%"
+   ],
+   "top_first_2words": [
+    "oh no 7.6%",
+    "that is 4.7%",
+    "did you 2.5%",
+    "that sounds 1.6%",
+    "what did 1.5%",
+    "i am 1.4%",
+    "oh my 1.4%",
+    "oh man 1.4%",
+    "i hate 1.3%",
+    "i would 1.2%",
+    "oh wow 1.2%",
+    "that sucks 1.2%",
+    "i know 1.1%",
+    "are you 0.9%",
+    "i'm sorry 0.9%"
+   ],
+   "top_first_3words": [
+    "oh no i 1.2%",
+    "oh no did 1.0%",
+    "oh no that 1.0%",
+    "oh no what 0.9%",
+    "what did you 0.9%",
+    "i hate when 0.7%",
+    "oh no that's 0.7%",
+    "that is terrible 0.6%",
+    "that is so 0.6%",
+    "i am sorry 0.6%",
+    "what kind of 0.5%",
+    "i would be 0.5%"
+   ],
+   "examples_typical": [
+    "That sounds like a blast. Compared to my job LOL.",
+    "What was the gross part about the sandwich?",
+    "That is very bad. Did you complaint to the landlord?",
+    "Wow, really? Did you have any feelings for him?",
+    "What a jerk! Why is she always in your biz?",
+    "thats a shame! did he get any of it back?"
+   ]
+  },
+  "vergonha_culpa": {
+   "n": 2126,
+   "words_median": 9.0,
+   "words_p25_p75": [
+    6.0,
+    13.0
+   ],
+   "n_sent_median": 2.0,
+   "has_q": 0.586,
+   "ends_with_q": 0.543,
+   "template_short_reaction_then_question": 0.192,
+   "only_a_question": 0.268,
+   "starts_with_interjection": 0.43,
+   "top_first_word": [
+    "oh 25.0%",
+    "i 8.8%",
+    "that 6.1%",
+    "what 5.6%",
+    "did 5.2%",
+    "why 4.4%",
+    "that's 3.3%",
+    "how 2.5%",
+    "wow 2.3%",
+    "haha 2.1%",
+    "well 1.6%",
+    "i'm 1.5%"
+   ],
+   "top_first_2words": [
+    "oh no 12.8%",
+    "did you 3.4%",
+    "oh my 2.4%",
+    "what did 1.9%",
+    "that is 1.9%",
+    "why did 1.6%",
+    "oh man 1.6%",
+    "oh wow 1.5%",
+    "i am 1.3%",
+    "what happened 1.2%",
+    "how did 1.0%",
+    "that sounds 1.0%",
+    "uh oh 0.8%",
+    "that must 0.8%",
+    "i know 0.8%"
+   ],
+   "top_first_3words": [
+    "oh no did 2.0%",
+    "oh no what 1.9%",
+    "why did you 1.4%",
+    "oh no i 1.3%",
+    "what did you 1.2%",
+    "oh no that 0.9%",
+    "oh no how 0.9%",
+    "what happened 0.8%",
+    "oh no that's 0.8%",
+    "oh no was 0.6%",
+    "that must have 0.6%",
+    "why is that 0.6%"
+   ],
+   "examples_typical": [
+    "Ewwwwww. Kinda gross. My cats used to do that too.",
+    "Why, what happened to make you feel that",
+    "It's okay to have cheat days sometimes! Start again tomorrow!",
+    "Oh that sounds like a blast! Did you go?",
+    "That really sucks. Did you get in trouble?",
+    "Ooooof lmao do you work in an office?"
+   ]
+  },
+  "noticia_boa": {
+   "n": 6210,
+   "words_median": 9.0,
+   "words_p25_p75": [
+    6.0,
+    13.0
+   ],
+   "n_sent_median": 2.0,
+   "has_q": 0.526,
+   "ends_with_q": 0.498,
+   "template_short_reaction_then_question": 0.222,
+   "only_a_question": 0.196,
+   "starts_with_interjection": 0.424,
+   "top_first_word": [
+    "that 13.6%",
+    "that's 11.0%",
+    "i 9.3%",
+    "oh 9.1%",
+    "wow 6.4%",
+    "what 5.6%",
+    "thats 2.9%",
+    "how 2.6%",
+    "you 1.9%",
+    "did 1.9%",
+    "nice 1.8%",
+    "congratulations 1.5%"
+   ],
+   "top_first_2words": [
+    "that is 7.9%",
+    "that sounds 3.0%",
+    "that's great 2.8%",
+    "that's awesome 2.2%",
+    "oh wow 1.7%",
+    "wow that 1.7%",
+    "i love 1.4%",
+    "i bet 1.3%",
+    "did you 1.3%",
+    "i am 1.1%",
+    "wow that's 1.1%",
+    "what did 1.0%",
+    "that was 1.0%",
+    "you must 0.9%",
+    "oh no 0.8%"
+   ],
+   "top_first_3words": [
+    "that is great 1.4%",
+    "that sounds like 1.1%",
+    "that is awesome 1.0%",
+    "that is so 0.9%",
+    "wow that is 0.9%",
+    "that is a 0.8%",
+    "what kind of 0.7%",
+    "you must be 0.6%",
+    "what did you 0.5%",
+    "i bet that 0.5%",
+    "that is very 0.5%",
+    "that is good 0.5%"
+   ],
+   "examples_typical": [
+    "thats awesome, love the positive vibes. good for you!",
+    "That is nice. How many childrens do you have now?",
+    "Put what word ? You mean published the info?",
+    "I love animals too. What are their names?",
+    "What exactly did you do for the school year book?",
+    "That's awesome. Are you using any special types of lotion?"
+   ]
+  },
+  "expectativa_esperanca": {
+   "n": 4214,
+   "words_median": 9.0,
+   "words_p25_p75": [
+    6.0,
+    13.0
+   ],
+   "n_sent_median": 2.0,
+   "has_q": 0.556,
+   "ends_with_q": 0.523,
+   "template_short_reaction_then_question": 0.196,
+   "only_a_question": 0.235,
+   "starts_with_interjection": 0.356,
+   "top_first_word": [
+    "i 11.4%",
+    "that 10.1%",
+    "that's 9.2%",
+    "oh 9.1%",
+    "what 6.6%",
+    "wow 3.1%",
+    "did 2.7%",
+    "how 2.6%",
+    "you 2.5%",
+    "thats 2.0%",
+    "nice 1.8%",
+    "good 1.7%"
+   ],
+   "top_first_2words": [
+    "that is 5.8%",
+    "that sounds 2.2%",
+    "that's great 1.9%",
+    "oh no 1.6%",
+    "i hope 1.6%",
+    "did you 1.6%",
+    "i am 1.6%",
+    "that's awesome 1.4%",
+    "are you 1.4%",
+    "do you 1.2%",
+    "oh wow 1.2%",
+    "that's good 1.1%",
+    "what kind 1.0%",
+    "sounds like 1.0%",
+    "i bet 0.9%"
+   ],
+   "top_first_3words": [
+    "that is great 1.1%",
+    "what kind of 1.0%",
+    "that is good 0.9%",
+    "that sounds like 0.8%",
+    "i hope you 0.8%",
+    "that is awesome 0.6%",
+    "what are you 0.6%",
+    "that is a 0.6%",
+    "good for you 0.5%",
+    "i am sure 0.5%",
+    "that is so 0.5%",
+    "what do you 0.5%"
+   ],
+   "examples_typical": [
+    "Oh no. Whats wrong? Why are you going?",
+    "Good luck with that. Are you well prepared?",
+    "You must have been very hopeful about your prospects!",
+    "sounds like a lot of waiting. did you do well?",
+    "Ooh, sounds nice, Always good to see the siblings.",
+    "That's awesome! I wish I could do that too"
+   ]
+  },
+  "nostalgia_ternura": {
+   "n": 2139,
+   "words_median": 10.0,
+   "words_p25_p75": [
+    7.0,
+    14.0
+   ],
+   "n_sent_median": 2.0,
+   "has_q": 0.507,
+   "ends_with_q": 0.47,
+   "template_short_reaction_then_question": 0.173,
+   "only_a_question": 0.211,
+   "starts_with_interjection": 0.376,
+   "top_first_word": [
+    "i 13.2%",
+    "that 11.0%",
+    "oh 10.1%",
+    "that's 7.7%",
+    "what 5.8%",
+    "wow 2.9%",
+    "did 2.4%",
+    "how 2.2%",
+    "i'm 2.2%",
+    "thats 2.0%",
+    "aww 1.9%",
+    "yeah 1.8%"
+   ],
+   "top_first_2words": [
+    "that is 5.9%",
+    "oh no 2.0%",
+    "that sounds 1.6%",
+    "did you 1.4%",
+    "do you 1.4%",
+    "i bet 1.4%",
+    "i love 1.4%",
+    "i know 1.3%",
+    "i'm sorry 1.2%",
+    "that must 1.1%",
+    "i am 1.1%",
+    "what kind 1.1%",
+    "that's really 0.9%",
+    "i do 0.9%",
+    "oh wow 0.9%"
+   ],
+   "top_first_3words": [
+    "that is so 1.2%",
+    "what kind of 0.9%",
+    "that sounds like 0.7%",
+    "that must have 0.7%",
+    "i'm sorry to 0.6%",
+    "i bet that 0.6%",
+    "what did you 0.5%",
+    "sorry to hear 0.4%",
+    "i know what 0.4%",
+    "that is a 0.4%",
+    "that is nice 0.4%",
+    "i am so 0.4%"
+   ],
+   "examples_typical": [
+    "That is nice. Babysitting kids is sometime nice.",
+    "That must of been fun to go through.",
+    "I love them too. What kind of dog do you have?",
+    "Where are yours and what's going on withthem?",
+    "That is nice of you. What did you do?",
+    "What was it ? I'm a music lover."
+   ]
+  }
+ },
+ "ed_phrases_and_engagement": {
+  "consolar_tristeza": {
+   "oh no": {
+    "freq": 0.095,
+    "n": 300,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 1.04
+   },
+   "i'm so sorry / sorry to hear": {
+    "freq": 0.188,
+    "n": 592,
+    "A2_words_mean": 15.4,
+    "A2_vs_base": 0.97
+   },
+   "that sucks / that's terrible": {
+    "freq": 0.065,
+    "n": 206,
+    "A2_words_mean": 16.7,
+    "A2_vs_base": 1.05
+   },
+   "i can imagine / must be": {
+    "freq": 0.03,
+    "n": 96,
+    "A2_words_mean": 17.6,
+    "A2_vs_base": 1.11
+   },
+   "i understand": {
+    "freq": 0.01,
+    "n": 30,
+    "A2_words_mean": 16.9,
+    "A2_vs_base": 1.06
+   },
+   "you should / maybe you": {
+    "freq": 0.023,
+    "n": 73,
+    "A2_words_mean": 17.7,
+    "A2_vs_base": 1.11
+   },
+   "me too / same": {
+    "freq": 0.01,
+    "n": 32,
+    "A2_words_mean": 19.2,
+    "A2_vs_base": 1.21
+   },
+   "hope": {
+    "freq": 0.036,
+    "n": 113,
+    "A2_words_mean": 16.7,
+    "A2_vs_base": 1.05
+   },
+   "wow": {
+    "freq": 0.018,
+    "n": 57,
+    "A2_words_mean": 16.3,
+    "A2_vs_base": 1.02
+   },
+   "what happened?": {
+    "freq": 0.038,
+    "n": 121,
+    "A2_words_mean": 15.6,
+    "A2_vs_base": 0.98
+   },
+   "why": {
+    "freq": 0.043,
+    "n": 137,
+    "A2_words_mean": 14.2,
+    "A2_vs_base": 0.89
+   },
+   "_base_A2_words_mean": 15.9,
+   "ends_with_question": {
+    "freq": 0.525,
+    "A2_words_mean": 15.6,
+    "A2_vs_base": 0.98
+   },
+   "no_question": {
+    "freq": 0.438,
+    "A2_words_mean": 16.3,
+    "A2_vs_base": 1.02
+   },
+   "template_react_then_q": {
+    "freq": 0.214,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 1.04
+   }
+  },
+  "consolar_medo": {
+   "oh no": {
+    "freq": 0.066,
+    "n": 195,
+    "A2_words_mean": 18.2,
+    "A2_vs_base": 1.1
+   },
+   "i'm so sorry / sorry to hear": {
+    "freq": 0.027,
+    "n": 79,
+    "A2_words_mean": 16.3,
+    "A2_vs_base": 0.98
+   },
+   "that sucks / that's terrible": {
+    "freq": 0.023,
+    "n": 67,
+    "A2_words_mean": 16.7,
+    "A2_vs_base": 1.01
+   },
+   "i can imagine / must be": {
+    "freq": 0.028,
+    "n": 83,
+    "A2_words_mean": 18.7,
+    "A2_vs_base": 1.13
+   },
+   "you should / maybe you": {
+    "freq": 0.016,
+    "n": 48,
+    "A2_words_mean": 17.5,
+    "A2_vs_base": 1.06
+   },
+   "me too / same": {
+    "freq": 0.013,
+    "n": 39,
+    "A2_words_mean": 14.5,
+    "A2_vs_base": 0.88
+   },
+   "hope": {
+    "freq": 0.04,
+    "n": 117,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 0.99
+   },
+   "congrats": {
+    "freq": 0.011,
+    "n": 34,
+    "A2_words_mean": 15.6,
+    "A2_vs_base": 0.94
+   },
+   "wow": {
+    "freq": 0.032,
+    "n": 94,
+    "A2_words_mean": 17.2,
+    "A2_vs_base": 1.04
+   },
+   "what happened?": {
+    "freq": 0.034,
+    "n": 100,
+    "A2_words_mean": 19.6,
+    "A2_vs_base": 1.18
+   },
+   "why": {
+    "freq": 0.053,
+    "n": 157,
+    "A2_words_mean": 13.9,
+    "A2_vs_base": 0.84
+   },
+   "_base_A2_words_mean": 16.6,
+   "ends_with_question": {
+    "freq": 0.575,
+    "A2_words_mean": 16.4,
+    "A2_vs_base": 0.99
+   },
+   "no_question": {
+    "freq": 0.379,
+    "A2_words_mean": 16.7,
+    "A2_vs_base": 1.01
+   },
+   "template_react_then_q": {
+    "freq": 0.209,
+    "A2_words_mean": 17.6,
+    "A2_vs_base": 1.06
+   }
+  },
+  "raiva_indignacao": {
+   "oh no": {
+    "freq": 0.074,
+    "n": 299,
+    "A2_words_mean": 16.1,
+    "A2_vs_base": 0.97
+   },
+   "i'm so sorry / sorry to hear": {
+    "freq": 0.033,
+    "n": 135,
+    "A2_words_mean": 16.7,
+    "A2_vs_base": 1.01
+   },
+   "that sucks / that's terrible": {
+    "freq": 0.046,
+    "n": 187,
+    "A2_words_mean": 16.2,
+    "A2_vs_base": 0.97
+   },
+   "i can imagine / must be": {
+    "freq": 0.024,
+    "n": 97,
+    "A2_words_mean": 16.7,
+    "A2_vs_base": 1.01
+   },
+   "i understand": {
+    "freq": 0.008,
+    "n": 34,
+    "A2_words_mean": 15.3,
+    "A2_vs_base": 0.92
+   },
+   "you should / maybe you": {
+    "freq": 0.02,
+    "n": 79,
+    "A2_words_mean": 19.2,
+    "A2_vs_base": 1.16
+   },
+   "me too / same": {
+    "freq": 0.009,
+    "n": 38,
+    "A2_words_mean": 13.5,
+    "A2_vs_base": 0.81
+   },
+   "hope": {
+    "freq": 0.022,
+    "n": 89,
+    "A2_words_mean": 17.8,
+    "A2_vs_base": 1.07
+   },
+   "that's awesome/great": {
+    "freq": 0.01,
+    "n": 39,
+    "A2_words_mean": 16.7,
+    "A2_vs_base": 1.0
+   },
+   "wow": {
+    "freq": 0.034,
+    "n": 138,
+    "A2_words_mean": 18.1,
+    "A2_vs_base": 1.09
+   },
+   "what happened?": {
+    "freq": 0.025,
+    "n": 101,
+    "A2_words_mean": 16.9,
+    "A2_vs_base": 1.02
+   },
+   "why": {
+    "freq": 0.042,
+    "n": 171,
+    "A2_words_mean": 14.7,
+    "A2_vs_base": 0.89
+   },
+   "_base_A2_words_mean": 16.6,
+   "ends_with_question": {
+    "freq": 0.521,
+    "A2_words_mean": 16.2,
+    "A2_vs_base": 0.97
+   },
+   "no_question": {
+    "freq": 0.439,
+    "A2_words_mean": 16.9,
+    "A2_vs_base": 1.02
+   },
+   "template_react_then_q": {
+    "freq": 0.21,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 0.99
+   }
+  },
+  "vergonha_culpa": {
+   "oh no": {
+    "freq": 0.124,
+    "n": 264,
+    "A2_words_mean": 17.1,
+    "A2_vs_base": 1.02
+   },
+   "i'm so sorry / sorry to hear": {
+    "freq": 0.038,
+    "n": 80,
+    "A2_words_mean": 18.1,
+    "A2_vs_base": 1.08
+   },
+   "that sucks / that's terrible": {
+    "freq": 0.029,
+    "n": 62,
+    "A2_words_mean": 16.2,
+    "A2_vs_base": 0.97
+   },
+   "i can imagine / must be": {
+    "freq": 0.025,
+    "n": 54,
+    "A2_words_mean": 19.3,
+    "A2_vs_base": 1.16
+   },
+   "you should / maybe you": {
+    "freq": 0.024,
+    "n": 52,
+    "A2_words_mean": 15.8,
+    "A2_vs_base": 0.95
+   },
+   "hope": {
+    "freq": 0.039,
+    "n": 83,
+    "A2_words_mean": 17.2,
+    "A2_vs_base": 1.03
+   },
+   "wow": {
+    "freq": 0.023,
+    "n": 48,
+    "A2_words_mean": 16.8,
+    "A2_vs_base": 1.0
+   },
+   "what happened?": {
+    "freq": 0.041,
+    "n": 88,
+    "A2_words_mean": 19.0,
+    "A2_vs_base": 1.14
+   },
+   "why": {
+    "freq": 0.062,
+    "n": 132,
+    "A2_words_mean": 14.5,
+    "A2_vs_base": 0.87
+   },
+   "_base_A2_words_mean": 16.7,
+   "ends_with_question": {
+    "freq": 0.543,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 0.99
+   },
+   "no_question": {
+    "freq": 0.414,
+    "A2_words_mean": 17.0,
+    "A2_vs_base": 1.02
+   },
+   "template_react_then_q": {
+    "freq": 0.192,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 0.99
+   }
+  },
+  "noticia_boa": {
+   "oh no": {
+    "freq": 0.008,
+    "n": 49,
+    "A2_words_mean": 20.0,
+    "A2_vs_base": 1.33
+   },
+   "i'm so sorry / sorry to hear": {
+    "freq": 0.007,
+    "n": 46,
+    "A2_words_mean": 17.8,
+    "A2_vs_base": 1.19
+   },
+   "that sucks / that's terrible": {
+    "freq": 0.005,
+    "n": 30,
+    "A2_words_mean": 18.7,
+    "A2_vs_base": 1.25
+   },
+   "i can imagine / must be": {
+    "freq": 0.045,
+    "n": 278,
+    "A2_words_mean": 16.3,
+    "A2_vs_base": 1.09
+   },
+   "you should / maybe you": {
+    "freq": 0.005,
+    "n": 31,
+    "A2_words_mean": 18.8,
+    "A2_vs_base": 1.25
+   },
+   "me too / same": {
+    "freq": 0.007,
+    "n": 42,
+    "A2_words_mean": 16.0,
+    "A2_vs_base": 1.06
+   },
+   "hope": {
+    "freq": 0.019,
+    "n": 116,
+    "A2_words_mean": 15.7,
+    "A2_vs_base": 1.05
+   },
+   "congrats": {
+    "freq": 0.047,
+    "n": 289,
+    "A2_words_mean": 13.7,
+    "A2_vs_base": 0.91
+   },
+   "that's awesome/great": {
+    "freq": 0.123,
+    "n": 764,
+    "A2_words_mean": 14.8,
+    "A2_vs_base": 0.99
+   },
+   "wow": {
+    "freq": 0.064,
+    "n": 396,
+    "A2_words_mean": 16.3,
+    "A2_vs_base": 1.08
+   },
+   "good for you": {
+    "freq": 0.007,
+    "n": 44,
+    "A2_words_mean": 13.3,
+    "A2_vs_base": 0.89
+   },
+   "what happened?": {
+    "freq": 0.01,
+    "n": 64,
+    "A2_words_mean": 16.9,
+    "A2_vs_base": 1.13
+   },
+   "why": {
+    "freq": 0.015,
+    "n": 96,
+    "A2_words_mean": 15.1,
+    "A2_vs_base": 1.01
+   },
+   "_base_A2_words_mean": 15.0,
+   "ends_with_question": {
+    "freq": 0.498,
+    "A2_words_mean": 14.5,
+    "A2_vs_base": 0.97
+   },
+   "no_question": {
+    "freq": 0.474,
+    "A2_words_mean": 15.4,
+    "A2_vs_base": 1.03
+   },
+   "template_react_then_q": {
+    "freq": 0.222,
+    "A2_words_mean": 15.2,
+    "A2_vs_base": 1.01
+   }
+  },
+  "expectativa_esperanca": {
+   "oh no": {
+    "freq": 0.016,
+    "n": 66,
+    "A2_words_mean": 18.5,
+    "A2_vs_base": 1.23
+   },
+   "i'm so sorry / sorry to hear": {
+    "freq": 0.012,
+    "n": 50,
+    "A2_words_mean": 21.7,
+    "A2_vs_base": 1.44
+   },
+   "i can imagine / must be": {
+    "freq": 0.026,
+    "n": 111,
+    "A2_words_mean": 18.4,
+    "A2_vs_base": 1.22
+   },
+   "you should / maybe you": {
+    "freq": 0.009,
+    "n": 39,
+    "A2_words_mean": 14.7,
+    "A2_vs_base": 0.98
+   },
+   "me too / same": {
+    "freq": 0.009,
+    "n": 37,
+    "A2_words_mean": 13.2,
+    "A2_vs_base": 0.88
+   },
+   "hope": {
+    "freq": 0.056,
+    "n": 234,
+    "A2_words_mean": 15.2,
+    "A2_vs_base": 1.01
+   },
+   "congrats": {
+    "freq": 0.027,
+    "n": 113,
+    "A2_words_mean": 15.3,
+    "A2_vs_base": 1.02
+   },
+   "that's awesome/great": {
+    "freq": 0.084,
+    "n": 352,
+    "A2_words_mean": 14.6,
+    "A2_vs_base": 0.97
+   },
+   "wow": {
+    "freq": 0.031,
+    "n": 132,
+    "A2_words_mean": 16.6,
+    "A2_vs_base": 1.1
+   },
+   "good for you": {
+    "freq": 0.009,
+    "n": 39,
+    "A2_words_mean": 15.3,
+    "A2_vs_base": 1.01
+   },
+   "what happened?": {
+    "freq": 0.015,
+    "n": 62,
+    "A2_words_mean": 16.3,
+    "A2_vs_base": 1.08
+   },
+   "why": {
+    "freq": 0.019,
+    "n": 78,
+    "A2_words_mean": 15.9,
+    "A2_vs_base": 1.05
+   },
+   "_base_A2_words_mean": 15.1,
+   "ends_with_question": {
+    "freq": 0.523,
+    "A2_words_mean": 14.6,
+    "A2_vs_base": 0.97
+   },
+   "no_question": {
+    "freq": 0.444,
+    "A2_words_mean": 15.4,
+    "A2_vs_base": 1.02
+   },
+   "template_react_then_q": {
+    "freq": 0.196,
+    "A2_words_mean": 15.3,
+    "A2_vs_base": 1.02
+   }
+  },
+  "nostalgia_ternura": {
+   "oh no": {
+    "freq": 0.019,
+    "n": 41,
+    "A2_words_mean": 17.5,
+    "A2_vs_base": 1.09
+   },
+   "i'm so sorry / sorry to hear": {
+    "freq": 0.046,
+    "n": 98,
+    "A2_words_mean": 17.7,
+    "A2_vs_base": 1.11
+   },
+   "that sucks / that's terrible": {
+    "freq": 0.016,
+    "n": 35,
+    "A2_words_mean": 16.8,
+    "A2_vs_base": 1.05
+   },
+   "i can imagine / must be": {
+    "freq": 0.03,
+    "n": 65,
+    "A2_words_mean": 16.8,
+    "A2_vs_base": 1.05
+   },
+   "me too / same": {
+    "freq": 0.014,
+    "n": 30,
+    "A2_words_mean": 13.2,
+    "A2_vs_base": 0.82
+   },
+   "hope": {
+    "freq": 0.022,
+    "n": 48,
+    "A2_words_mean": 17.0,
+    "A2_vs_base": 1.06
+   },
+   "that's awesome/great": {
+    "freq": 0.047,
+    "n": 100,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 1.03
+   },
+   "wow": {
+    "freq": 0.029,
+    "n": 62,
+    "A2_words_mean": 15.9,
+    "A2_vs_base": 0.99
+   },
+   "why": {
+    "freq": 0.025,
+    "n": 53,
+    "A2_words_mean": 15.1,
+    "A2_vs_base": 0.94
+   },
+   "_base_A2_words_mean": 16.0,
+   "ends_with_question": {
+    "freq": 0.47,
+    "A2_words_mean": 15.7,
+    "A2_vs_base": 0.98
+   },
+   "no_question": {
+    "freq": 0.493,
+    "A2_words_mean": 16.1,
+    "A2_vs_base": 1.01
+   },
+   "template_react_then_q": {
+    "freq": 0.173,
+    "A2_words_mean": 16.5,
+    "A2_vs_base": 1.03
+   }
+  }
+ },
+ "jev_strategy_A2_words": [
+  {
+   "pol": "ambiguous",
+   "main": "congratulate_share_joy",
+   "mean": 18.0,
+   "count": 4
+  },
+  {
+   "pol": "ambiguous",
+   "main": "exploratory_question",
+   "mean": 13.3,
+   "count": 6
+  },
+  {
+   "pol": "ambiguous",
+   "main": "generic_reaction",
+   "mean": 18.0,
+   "count": 1
+  },
+  {
+   "pol": "ambiguous",
+   "main": "humor",
+   "mean": 45.0,
+   "count": 1
+  },
+  {
+   "pol": "ambiguous",
+   "main": "opinion_judgment",
+   "mean": 13.0,
+   "count": 1
+  },
+  {
+   "pol": "ambiguous",
+   "main": "self_disclosure",
+   "mean": 18.8,
+   "count": 5
+  },
+  {
+   "pol": "ambiguous",
+   "main": "validation_empathy",
+   "mean": 18.0,
+   "count": 1
+  },
+  {
+   "pol": "negative",
+   "main": "advice",
+   "mean": 20.6,
+   "count": 22
+  },
+  {
+   "pol": "negative",
+   "main": "congratulate_share_joy",
+   "mean": 28.5,
+   "count": 2
+  },
+  {
+   "pol": "negative",
+   "main": "exploratory_question",
+   "mean": 16.9,
+   "count": 125
+  },
+  {
+   "pol": "negative",
+   "main": "generic_reaction",
+   "mean": 12.0,
+   "count": 5
+  },
+  {
+   "pol": "negative",
+   "main": "humor",
+   "mean": 18.4,
+   "count": 8
+  },
+  {
+   "pol": "negative",
+   "main": "opinion_judgment",
+   "mean": 14.6,
+   "count": 17
+  },
+  {
+   "pol": "negative",
+   "main": "reassure_minimize",
+   "mean": 14.5,
+   "count": 19
+  },
+  {
+   "pol": "negative",
+   "main": "self_disclosure",
+   "mean": 16.3,
+   "count": 35
+  },
+  {
+   "pol": "negative",
+   "main": "validation_empathy",
+   "mean": 16.2,
+   "count": 71
+  },
+  {
+   "pol": "positive",
+   "main": "advice",
+   "mean": 17.8,
+   "count": 10
+  },
+  {
+   "pol": "positive",
+   "main": "congratulate_share_joy",
+   "mean": 14.0,
+   "count": 33
+  },
+  {
+   "pol": "positive",
+   "main": "exploratory_question",
+   "mean": 14.9,
+   "count": 131
+  },
+  {
+   "pol": "positive",
+   "main": "generic_reaction",
+   "mean": 14.7,
+   "count": 10
+  },
+  {
+   "pol": "positive",
+   "main": "humor",
+   "mean": 15.5,
+   "count": 6
+  },
+  {
+   "pol": "positive",
+   "main": "opinion_judgment",
+   "mean": 18.2,
+   "count": 20
+  },
+  {
+   "pol": "positive",
+   "main": "reassure_minimize",
+   "mean": 15.7,
+   "count": 3
+  },
+  {
+   "pol": "positive",
+   "main": "self_disclosure",
+   "mean": 15.0,
+   "count": 50
+  },
+  {
+   "pol": "positive",
+   "main": "validation_empathy",
+   "mean": 15.6,
+   "count": 22
+  }
+ ],
+ "chat_reactions": {
+  "maichat": {
+   "n_after_partner_joke": 1429,
+   "shape_share": {
+    "sem riso": 0.943,
+    "riso + comentário": 0.044,
+    "só emoji": 0.008,
+    "só riso": 0.006
+   },
+   "words_median": 5.0,
+   "playful_back(>=.5)": 0.847,
+   "laugh_tokens": [
+    "lol 16",
+    "hahaha 15",
+    "haha 13",
+    "hahah 5",
+    "lmao 4",
+    "lmaooo 3",
+    "hahahaha 3",
+    "hehe 3",
+    "hahahah 2",
+    "hehehe 2",
+    "hahahahahahahaha 1",
+    "ahahahah 1"
+   ],
+   "top_openers": [
+    "i 6.4%",
+    "im 2.8%",
+    "ok 2.7%",
+    "what 2.0%",
+    "yeah 2.0%",
+    " 2.0%",
+    "so 1.8%",
+    "no 1.5%",
+    "dont 1.5%",
+    "yes 1.4%",
+    "oh 1.3%",
+    "thats 1.3%"
+   ],
+   "examples": [
+    "HELP -> ok serious question / did you understand today’s lecture",
+    "ur evil -> slightly",
+    "academic influencer core -> the cat running into the door at the end???",
+    "your journey lasted 4 minutes -> ok but mentally i worked 8 hours",
+    "productive queen -> thank u",
+    "i totally related to that baby  -> it reminded me of the joy i get when going to Baskin Robbins / speaking of which",
+    "come get it -> on my way",
+    "the anything but a backpack was iconic tho -> Like the guy carrying a whole set of drawers on him"
+   ],
+   "after_serious": {
+    "n": 128,
+    "words_median": 6.0,
+    "intent_share": {
+     "answer": 0.18,
+     "react_acknowledge": 0.172,
+     "ask_question": 0.164,
+     "disagree_complain": 0.133,
+     "joke_tease": 0.109,
+     "share_story_or_info": 0.086
+    },
+    "top_openers": [
+     "i 7.0%",
+     "yeah 7.0%",
+     "oh 4.7%",
+     "we 3.9%",
+     "ok 3.1%",
+     "so 2.3%",
+     "what 2.3%",
+     "dont 2.3%",
+     "same 2.3%",
+     "no 1.6%"
+    ],
+    "examples": [
+     "there is a law suit going on about it currently  / so it hasnt completely been solved -> like, hired back?",
+     "cus i know like i france it's like \"t'as eu to bac mention tres bien\" it's like damn  -> less so in NM where we have one of the highest dropout rates in the country ",
+     "ive heard its soul crushing / but great -> was pretty good, not what I was expecting (I'd seen literally nothing about it before my flatmate bo",
+     "correct -> *",
+     "Oh yeah, months before that -> so there was legit no f. point ",
+     "remember this chat is for that assignment -> oh right / we need like 60 msgs",
+     "oh ahhaah, is that solved now? -> very interesting",
+     "less so in NM where we have one of the highest dropout rates in the country  -> i feel like it's a bare minimum tho nowadays, especially in the stateds  / ok fair that's true "
+    ]
+   },
+   "after_seeks_support_examples": [
+    "Yes that's probably the case. I think it will be alright as to begin with the responsibili -> Yes - I was expecting you to continue your studies while you are here.",
+    "why does that matter?? -> research purposes",
+    "mic stopped working / and everyone blamed everyone -> team bonding moment 💀",
+    "finally my parents will be proud -> lets not lie to ourselves",
+    "what is the point of a highschool diploma  / like is there any honour in it at all  -> yeah of course",
+    "dont mock my journey -> your journey lasted 4 minutes",
+    "HELP -> ok serious question / did you understand today’s lecture",
+    "same / we’re such failures -> speak for urself"
+   ]
+  },
+  "whatsapp_nl": {
+   "n_after_partner_joke": 897,
+   "shape_share": {
+    "sem riso": 0.666,
+    "riso + comentário": 0.291,
+    "só riso": 0.029,
+    "só emoji": 0.014
+   },
+   "words_median": 9.0,
+   "playful_back(>=.5)": 0.729,
+   "laugh_tokens": [
+    "haha 195",
+    "hahaha 63",
+    "hahah 9",
+    "hahahaha 9",
+    "hahahahaha 8",
+    "hihi 7",
+    "hehe 4",
+    "lol 3",
+    "hahahahahaha 3",
+    "hah 1",
+    "hahahah 1",
+    "hihihi 1"
+   ],
+   "top_openers": [
+    "haha 12.3%",
+    "ja 9.9%",
+    "ik 5.4%",
+    "hahaha 5.0%",
+    "nee 2.8%",
+    " 1.7%",
+    "oke 1.7%",
+    "o 1.7%",
+    "ok 1.6%",
+    "oh 1.6%",
+    "removed 1.6%",
+    "maar 1.4%"
+   ],
+   "examples": [
+    ":p -> :)",
+    "Ja! Hadden gisteren ff foto's gezocht voor [REMOVED];) / <Media weggelaten> -> Ahh oke, haha vet leuk",
+    "Hahaha! Wauw, een heuse primeur / O echt? Wat balen zeg :( / O gelukkig! Ook met -> Ja het voelt niet fijn, ze kan niets op de huid hebben. Maar verder doet ze nog alles gelu",
+    "<Media weggelaten> / No shit -> Netjessss",
+    "Okeee... / Haha -> Hahah nee je hoeft niet bang te zijn / Maar onze printer is net doodgegaan dus zou jij aub",
+    "[REMOVED] vindt dat gelukkig ook  -> Hahaha dat prinsessenplaatje daar ook bij",
+    "Geen poep / Oftewel / No shit -> <Media weggelaten> / No shit",
+    "Haha ik zit met [REMOVED] Belle & het Beest te kijken XD / Lekker op tijd naar b -> Haha "
+   ],
+   "after_serious": {
+    "n": 316,
+    "words_median": 11.0,
+    "intent_share": {
+     "answer": 0.237,
+     "ask_question": 0.228,
+     "react_acknowledge": 0.12,
+     "make_plans_logistics": 0.117,
+     "share_story_or_info": 0.111,
+     "comfort_support": 0.07
+    },
+    "top_openers": [
+     "ja 14.6%",
+     "nee 5.1%",
+     "ik 5.1%",
+     "haha 4.1%",
+     "oke 3.5%",
+     "ok 3.2%",
+     "en 1.9%",
+     "maar 1.6%",
+     "wat 1.6%",
+     "oh 1.6%"
+    ],
+    "examples": [
+     "Als haeserijn me mist straks, kun je dan melden dat ik ziek ben? -> Yes / Kater?",
+     "Rij nu weg! -> Oke",
+     "Ok / Ohja maar daar gaat t over wat anders / Ik zei net tegen robin / Als mycelium en ande -> Eh, ik zit nu vrij verplicht in [REMOVED] dus ik kan dit pas vrijdag oppakken. Als iemand eerder tij",
+     "Ja anders was et heel kut voor em / Ja ik denk dat ik gewoon n beetje confused was door he -> Oké nou als je dat echt voelt is het goed zo toch?",
+     "Gewoon in termijnen betalen!!! -> Haha oke, dan doe ik dat :) / Jaa ik las het inderdaad. Dan kijken we volgende week zaterdag wel eve",
+     "Wat? -> Maar lieve [REMOVED], je kan mensen niet alleen maar blij maken en alles oppervlakkig houden. Grote ",
+     "Ik vind hitlergrappen niet zo leuk 😳 -> Haha, ok sorry.. / Maar doet jouw internet het?",
+     "Die zijn nergens meer verbaasd over... / Nee dit is alles wat zij hebben, meer is er niet  -> Oke / Hahaha nee? Zoveel gezien? / Nou aan de ene kant mooi dat je het weet / Aan de andere kant, ho"
+    ]
+   },
+   "after_seeks_support_examples": [
+    "<Media weggelaten> / <Media weggelaten> / Hey, ik heb [REMOVED] brieven van de belasting g -> Gaat om huurtoeslag of zorgtoeslag en van wel jaar? Breng ze anders volgende keer maar mee of geef z",
+    "Ik heb geen wifi hier / Gelukkig ben jij er / Hij laadt / Niks zeggen /  -> [REMOVED] dienst he ",
+    " Mobiel is bijna leeg  /  Heb met [REMOVED] [numerical_value] uur afhard  /  Afgesproken   ->  Ja is goed schat.  /  😘 ",
+    "Maar echt chill dat je meekijkt. Ik hoef niet perse weg bij moenen ofzo hoor, maar wel han -> Ja en twee kleinere banen zou ook kunnen natuurlijk / Ik keek eigenlijk naar iets kleins erbij 😁",
+    "Ja, die is jarig nu. Maar allemaal vrij heftig, hij gaat psychische hulp in enzl / *enzo -> Aaahzo / Sterkte ermee dan! / En smakelijk uiteraard",
+    "Haha oké nice / Is goed toch? / Beetje luchtig houden / Ben benieuwd wat ie reageert -> <‎afbeelding weggelaten>",
+    "Ik moet even iets afmaken voor iemand, geef me een halfuur / Viel het tegen: nee. / Was he -> Meh / Nou laat maar weten als je klaar bent",
+    "Hooooooi / Ik heb treurig nieuws: manouk heeft nog niets gehoord over hoe laat we vanavond -> Oooo oke! Ik was het al bijna vergeten erg he / Maar helemaal goed / Heeeeuj"
+   ]
+  }
+ }
+}

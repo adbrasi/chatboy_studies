@@ -1,0 +1,958 @@
+{
+ "n_all": 705,
+ "n_expand_flirt": 67,
+ "n_expand": 300,
+ "n_used": 413,
+ "none_in_base": 56,
+ "move_dist": {
+  "maichat": {
+   "tease_banter": 33,
+   "caring_checkin": 26,
+   "compliment_indirect": 18,
+   "compliment_direct": 13,
+   "invitation_plan": 11,
+   "reassurance_validation": 11,
+   "love_declaration": 10,
+   "pet_name_greeting": 9,
+   "miss_longing": 8,
+   "mock_offense_pout": 8,
+   "affectionate_goodbye": 6,
+   "vulnerable_share": 4,
+   "emoji_or_kiss_only": 3,
+   "self_deprecation_charm": 2
+  },
+  "whatsapp_nl": {
+   "pet_name_greeting": 39,
+   "tease_banter": 37,
+   "caring_checkin": 34,
+   "invitation_plan": 27,
+   "affectionate_goodbye": 19,
+   "reassurance_validation": 17,
+   "innuendo_sexual": 17,
+   "compliment_direct": 16,
+   "miss_longing": 14,
+   "emoji_or_kiss_only": 13,
+   "compliment_indirect": 8,
+   "vulnerable_share": 5,
+   "love_declaration": 2,
+   "mock_offense_pout": 2,
+   "self_deprecation_charm": 1
+  }
+ },
+ "resp_dist": {
+  "maichat": {
+   "ignore_change_topic": 41,
+   "tease_back": 38,
+   "reciprocate": 21,
+   "minimal_ack": 16,
+   "engage_enthusiastic": 15,
+   "deflate_humor": 11,
+   "flustered_accept": 7,
+   "simple_thanks": 6,
+   "mock_offense": 3,
+   "polite_decline": 2,
+   "rude_reject": 2
+  },
+  "whatsapp_nl": {
+   "ignore_change_topic": 91,
+   "minimal_ack": 39,
+   "tease_back": 37,
+   "reciprocate": 32,
+   "engage_enthusiastic": 19,
+   "simple_thanks": 12,
+   "escalate": 7,
+   "polite_decline": 5,
+   "deflate_humor": 4,
+   "mock_offense": 4,
+   "rude_reject": 1
+  }
+ },
+ "move_x_resp": {
+  "affectionate_goodbye": {
+   "reciprocate": 9,
+   "ignore_change_topic": 7,
+   "minimal_ack": 6,
+   "simple_thanks": 2,
+   "tease_back": 1
+  },
+  "caring_checkin": {
+   "ignore_change_topic": 21,
+   "tease_back": 11,
+   "minimal_ack": 10,
+   "simple_thanks": 7,
+   "deflate_humor": 4,
+   "reciprocate": 4,
+   "flustered_accept": 1,
+   "mock_offense": 1,
+   "polite_decline": 1
+  },
+  "compliment_direct": {
+   "ignore_change_topic": 10,
+   "engage_enthusiastic": 5,
+   "reciprocate": 4,
+   "tease_back": 3,
+   "minimal_ack": 3,
+   "deflate_humor": 2,
+   "simple_thanks": 2
+  },
+  "compliment_indirect": {
+   "ignore_change_topic": 7,
+   "tease_back": 7,
+   "minimal_ack": 3,
+   "flustered_accept": 3,
+   "reciprocate": 2,
+   "deflate_humor": 2,
+   "engage_enthusiastic": 1,
+   "mock_offense": 1
+  },
+  "emoji_or_kiss_only": {
+   "ignore_change_topic": 6,
+   "tease_back": 3,
+   "minimal_ack": 3,
+   "engage_enthusiastic": 2,
+   "reciprocate": 2
+  },
+  "innuendo_sexual": {
+   "ignore_change_topic": 4,
+   "engage_enthusiastic": 3,
+   "escalate": 3,
+   "minimal_ack": 3,
+   "tease_back": 3,
+   "reciprocate": 1
+  },
+  "invitation_plan": {
+   "ignore_change_topic": 14,
+   "engage_enthusiastic": 8,
+   "reciprocate": 5,
+   "tease_back": 4,
+   "minimal_ack": 3,
+   "polite_decline": 2,
+   "escalate": 1,
+   "mock_offense": 1
+  },
+  "love_declaration": {
+   "ignore_change_topic": 4,
+   "reciprocate": 4,
+   "tease_back": 3,
+   "polite_decline": 1
+  },
+  "miss_longing": {
+   "ignore_change_topic": 11,
+   "reciprocate": 4,
+   "deflate_humor": 2,
+   "mock_offense": 2,
+   "escalate": 1,
+   "minimal_ack": 1,
+   "tease_back": 1
+  },
+  "mock_offense_pout": {
+   "tease_back": 5,
+   "minimal_ack": 2,
+   "deflate_humor": 1,
+   "engage_enthusiastic": 1,
+   "reciprocate": 1
+  },
+  "pet_name_greeting": {
+   "ignore_change_topic": 17,
+   "reciprocate": 11,
+   "minimal_ack": 6,
+   "tease_back": 4,
+   "simple_thanks": 3,
+   "engage_enthusiastic": 2,
+   "escalate": 2,
+   "flustered_accept": 1,
+   "polite_decline": 1,
+   "rude_reject": 1
+  },
+  "reassurance_validation": {
+   "ignore_change_topic": 12,
+   "engage_enthusiastic": 5,
+   "tease_back": 5,
+   "minimal_ack": 3,
+   "simple_thanks": 2,
+   "reciprocate": 1
+  },
+  "self_deprecation_charm": {
+   "engage_enthusiastic": 1,
+   "minimal_ack": 1,
+   "tease_back": 1
+  },
+  "tease_banter": {
+   "tease_back": 20,
+   "ignore_change_topic": 17,
+   "minimal_ack": 11,
+   "engage_enthusiastic": 5,
+   "deflate_humor": 4,
+   "reciprocate": 3,
+   "flustered_accept": 2,
+   "polite_decline": 2,
+   "mock_offense": 2,
+   "rude_reject": 2,
+   "simple_thanks": 2
+  },
+  "vulnerable_share": {
+   "tease_back": 4,
+   "ignore_change_topic": 2,
+   "reciprocate": 2,
+   "engage_enthusiastic": 1
+  }
+ },
+ "by_move": [
+  {
+   "move": "affectionate_goodbye",
+   "n": 25,
+   "R_chars_med": 21.0,
+   "T_chars_med": 39.0,
+   "R_emoji": 0.2,
+   "R_laugh": 0.0,
+   "R_q": 0.04,
+   "overlap": 0.172,
+   "too": 0.08,
+   "alive": 0.392,
+   "r_int": 0.85,
+   "t_int": 1.257,
+   "T2_flirt": 0.583,
+   "R_last": 0.4
+  },
+  {
+   "move": "caring_checkin",
+   "n": 60,
+   "R_chars_med": 23.5,
+   "T_chars_med": 34.0,
+   "R_emoji": 0.083,
+   "R_laugh": 0.133,
+   "R_q": 0.1,
+   "overlap": 0.08,
+   "too": 0.067,
+   "alive": 0.369,
+   "r_int": 0.65,
+   "t_int": 0.937,
+   "T2_flirt": 0.188,
+   "R_last": 0.117
+  },
+  {
+   "move": "compliment_direct",
+   "n": 29,
+   "R_chars_med": 37.0,
+   "T_chars_med": 22.0,
+   "R_emoji": 0.138,
+   "R_laugh": 0.31,
+   "R_q": 0.241,
+   "overlap": 0.062,
+   "too": 0.0,
+   "alive": 0.472,
+   "r_int": 0.774,
+   "t_int": 1.313,
+   "T2_flirt": 0.077,
+   "R_last": 0.034
+  },
+  {
+   "move": "compliment_indirect",
+   "n": 26,
+   "R_chars_med": 21.0,
+   "T_chars_med": 27.5,
+   "R_emoji": 0.077,
+   "R_laugh": 0.077,
+   "R_q": 0.077,
+   "overlap": 0.066,
+   "too": 0.0,
+   "alive": 0.484,
+   "r_int": 0.938,
+   "t_int": 1.549,
+   "T2_flirt": 0.348,
+   "R_last": 0.0
+  },
+  {
+   "move": "emoji_or_kiss_only",
+   "n": 16,
+   "R_chars_med": 36.0,
+   "T_chars_med": 11.5,
+   "R_emoji": 0.188,
+   "R_laugh": 0.312,
+   "R_q": 0.188,
+   "overlap": 0.04,
+   "too": 0.062,
+   "alive": 0.604,
+   "r_int": 1.141,
+   "t_int": 1.646,
+   "T2_flirt": 0.333,
+   "R_last": 0.0
+  },
+  {
+   "move": "innuendo_sexual",
+   "n": 17,
+   "R_chars_med": 35.0,
+   "T_chars_med": 72.0,
+   "R_emoji": 0.294,
+   "R_laugh": 0.294,
+   "R_q": 0.235,
+   "overlap": 0.115,
+   "too": 0.118,
+   "alive": 0.795,
+   "r_int": 2.036,
+   "t_int": 2.789,
+   "T2_flirt": 0.818,
+   "R_last": 0.0
+  },
+  {
+   "move": "invitation_plan",
+   "n": 38,
+   "R_chars_med": 42.0,
+   "T_chars_med": 66.0,
+   "R_emoji": 0.158,
+   "R_laugh": 0.184,
+   "R_q": 0.158,
+   "overlap": 0.125,
+   "too": 0.053,
+   "alive": 0.592,
+   "r_int": 1.259,
+   "t_int": 1.452,
+   "T2_flirt": 0.481,
+   "R_last": 0.026
+  },
+  {
+   "move": "love_declaration",
+   "n": 12,
+   "R_chars_med": 23.5,
+   "T_chars_med": 19.0,
+   "R_emoji": 0.0,
+   "R_laugh": 0.0,
+   "R_q": 0.25,
+   "overlap": 0.247,
+   "too": 0.333,
+   "alive": 0.568,
+   "r_int": 1.445,
+   "t_int": 2.175,
+   "T2_flirt": 0.1,
+   "R_last": 0.167
+  },
+  {
+   "move": "miss_longing",
+   "n": 22,
+   "R_chars_med": 37.0,
+   "T_chars_med": 35.5,
+   "R_emoji": 0.136,
+   "R_laugh": 0.091,
+   "R_q": 0.091,
+   "overlap": 0.119,
+   "too": 0.136,
+   "alive": 0.502,
+   "r_int": 1.052,
+   "t_int": 1.892,
+   "T2_flirt": 0.5,
+   "R_last": 0.136
+  },
+  {
+   "move": "mock_offense_pout",
+   "n": 10,
+   "R_chars_med": 22.0,
+   "T_chars_med": 8.5,
+   "R_emoji": 0.1,
+   "R_laugh": 0.3,
+   "R_q": 0.1,
+   "overlap": 0.058,
+   "too": 0.0,
+   "alive": 0.613,
+   "r_int": 1.215,
+   "t_int": 0.926,
+   "T2_flirt": 0.5,
+   "R_last": 0.1
+  },
+  {
+   "move": "pet_name_greeting",
+   "n": 48,
+   "R_chars_med": 35.0,
+   "T_chars_med": 44.5,
+   "R_emoji": 0.125,
+   "R_laugh": 0.167,
+   "R_q": 0.167,
+   "overlap": 0.101,
+   "too": 0.146,
+   "alive": 0.542,
+   "r_int": 1.153,
+   "t_int": 2.154,
+   "T2_flirt": 0.343,
+   "R_last": 0.083
+  },
+  {
+   "move": "reassurance_validation",
+   "n": 28,
+   "R_chars_med": 29.0,
+   "T_chars_med": 39.0,
+   "R_emoji": 0.107,
+   "R_laugh": 0.071,
+   "R_q": 0.107,
+   "overlap": 0.055,
+   "too": 0.071,
+   "alive": 0.488,
+   "r_int": 0.931,
+   "t_int": 1.113,
+   "T2_flirt": 0.3,
+   "R_last": 0.107
+  },
+  {
+   "move": "self_deprecation_charm",
+   "n": 3,
+   "R_chars_med": 17.0,
+   "T_chars_med": 59.0,
+   "R_emoji": 0.0,
+   "R_laugh": 0.333,
+   "R_q": 0.0,
+   "overlap": 0.056,
+   "too": 0.0,
+   "alive": 0.653,
+   "r_int": 1.053,
+   "t_int": 1.483,
+   "T2_flirt": 0.5,
+   "R_last": 0.0
+  },
+  {
+   "move": "tease_banter",
+   "n": 70,
+   "R_chars_med": 19.0,
+   "T_chars_med": 34.5,
+   "R_emoji": 0.086,
+   "R_laugh": 0.286,
+   "R_q": 0.143,
+   "overlap": 0.078,
+   "too": 0.114,
+   "alive": 0.532,
+   "r_int": 0.961,
+   "t_int": 1.543,
+   "T2_flirt": 0.393,
+   "R_last": 0.043
+  },
+  {
+   "move": "vulnerable_share",
+   "n": 9,
+   "R_chars_med": 34.0,
+   "T_chars_med": 86.0,
+   "R_emoji": 0.111,
+   "R_laugh": 0.444,
+   "R_q": 0.222,
+   "overlap": 0.137,
+   "too": 0.333,
+   "alive": 0.653,
+   "r_int": 1.458,
+   "t_int": 1.719,
+   "T2_flirt": 0.625,
+   "R_last": 0.111
+  }
+ ],
+ "by_resp": [
+  {
+   "resp": "deflate_humor",
+   "n": 15,
+   "R_chars_med": 27.0,
+   "alive": 0.433,
+   "T2_flirt": 0.357,
+   "n_T2": 14,
+   "T2_exists": 1.0,
+   "R_last": 0.0,
+   "r_minus_t": -0.67,
+   "lat_med": 31.0
+  },
+  {
+   "resp": "engage_enthusiastic",
+   "n": 34,
+   "R_chars_med": 36.5,
+   "alive": 0.695,
+   "T2_flirt": 0.469,
+   "n_T2": 32,
+   "T2_exists": 0.971,
+   "R_last": 0.029,
+   "r_minus_t": -0.26,
+   "lat_med": 26.0
+  },
+  {
+   "resp": "escalate",
+   "n": 7,
+   "R_chars_med": 73.0,
+   "alive": 0.896,
+   "T2_flirt": 1.0,
+   "n_T2": 4,
+   "T2_exists": 1.0,
+   "R_last": 0.0,
+   "r_minus_t": 0.98,
+   "lat_med": 120.0
+  },
+  {
+   "resp": "flustered_accept",
+   "n": 7,
+   "R_chars_med": 13.0,
+   "alive": 0.467,
+   "T2_flirt": 0.857,
+   "n_T2": 7,
+   "T2_exists": 1.0,
+   "R_last": 0.0,
+   "r_minus_t": -0.35,
+   "lat_med": 20.0
+  },
+  {
+   "resp": "ignore_change_topic",
+   "n": 132,
+   "R_chars_med": 41.5,
+   "alive": 0.362,
+   "T2_flirt": 0.192,
+   "n_T2": 104,
+   "T2_exists": 0.955,
+   "R_last": 0.038,
+   "r_minus_t": -0.97,
+   "lat_med": 29.502
+  },
+  {
+   "resp": "minimal_ack",
+   "n": 55,
+   "R_chars_med": 8.0,
+   "alive": 0.44,
+   "T2_flirt": 0.515,
+   "n_T2": 33,
+   "T2_exists": 0.836,
+   "R_last": 0.164,
+   "r_minus_t": -0.72,
+   "lat_med": 60.0
+  },
+  {
+   "resp": "mock_offense",
+   "n": 7,
+   "R_chars_med": 19.0,
+   "alive": 0.339,
+   "T2_flirt": 0.333,
+   "n_T2": 3,
+   "T2_exists": 0.857,
+   "R_last": 0.143,
+   "r_minus_t": -0.79,
+   "lat_med": 37.958
+  },
+  {
+   "resp": "polite_decline",
+   "n": 7,
+   "R_chars_med": 52.0,
+   "alive": 0.326,
+   "T2_flirt": 0.0,
+   "n_T2": 5,
+   "T2_exists": 0.857,
+   "R_last": 0.0,
+   "r_minus_t": -0.9,
+   "lat_med": 60.0
+  },
+  {
+   "resp": "reciprocate",
+   "n": 53,
+   "R_chars_med": 28.0,
+   "alive": 0.689,
+   "T2_flirt": 0.4,
+   "n_T2": 35,
+   "T2_exists": 0.755,
+   "R_last": 0.245,
+   "r_minus_t": 0.09,
+   "lat_med": 37.0
+  },
+  {
+   "resp": "rude_reject",
+   "n": 3,
+   "R_chars_med": 11.0,
+   "alive": 0.197,
+   "T2_flirt": 0.667,
+   "n_T2": 3,
+   "T2_exists": 1.0,
+   "R_last": 0.0,
+   "r_minus_t": -1.75,
+   "lat_med": 7.632
+  },
+  {
+   "resp": "simple_thanks",
+   "n": 18,
+   "R_chars_med": 22.5,
+   "alive": 0.539,
+   "T2_flirt": 0.167,
+   "n_T2": 12,
+   "T2_exists": 0.667,
+   "R_last": 0.333,
+   "r_minus_t": -0.12,
+   "lat_med": 50.5
+  },
+  {
+   "resp": "tease_back",
+   "n": 75,
+   "R_chars_med": 25.0,
+   "alive": 0.661,
+   "T2_flirt": 0.404,
+   "n_T2": 57,
+   "T2_exists": 0.987,
+   "R_last": 0.013,
+   "r_minus_t": -0.16,
+   "lat_med": 35.0
+  }
+ ],
+ "intensity": {
+  "spearman": 0.36220171670438905,
+  "delta_mean": -0.5060532687651331,
+  "share_R_above_T": 0.08232445520581114,
+  "share_R_above_T_plus1": 0.03389830508474576,
+  "share_R_below_T_minus1": 0.2324455205811138,
+  "share_within_1": 0.7336561743341404,
+  "by_t_level": [
+   {
+    "tl": 0.0,
+    "mean": 0.49,
+    "count": 10
+   },
+   {
+    "tl": 1.0,
+    "mean": 0.82,
+    "count": 204
+   },
+   {
+    "tl": 2.0,
+    "mean": 1.18,
+    "count": 165
+   },
+   {
+    "tl": 3.0,
+    "mean": 1.73,
+    "count": 30
+   },
+   {
+    "tl": 4.0,
+    "mean": 1.81,
+    "count": 4
+   }
+  ]
+ },
+ "alive_vs_intensity_gap": [
+  {
+   "g": "(-5.0, -1.5]",
+   "n": "43",
+   "alive": "0.304",
+   "T2_flirt": "0.469"
+  },
+  {
+   "g": "(-1.5, -0.5]",
+   "n": "157",
+   "alive": "0.427",
+   "T2_flirt": "0.325"
+  },
+  {
+   "g": "(-0.5, 0.5]",
+   "n": "179",
+   "alive": "0.588",
+   "T2_flirt": "0.279"
+  },
+  {
+   "g": "(0.5, 1.5]",
+   "n": "33",
+   "alive": "0.799",
+   "T2_flirt": "0.667"
+  },
+  {
+   "g": "(1.5, 5.0]",
+   "n": "1",
+   "alive": "0.92",
+   "T2_flirt": "1.0"
+  }
+ ],
+ "reply_vs_neutral": {
+  "maichat": {
+   "n_fa": 162,
+   "n_neu": 2250,
+   "R_chars_med_fa": 21.0,
+   "R_chars_med_neu": 26.0,
+   "p_chars": 0.0026329535133126692,
+   "R_lat_med_fa": 20.0,
+   "R_lat_med_neu": 13.1405,
+   "p_lat": 0.0002656112285670956,
+   "R_emoji_fa": 0.09259259259259259,
+   "R_emoji_neu": 0.03688888888888889,
+   "R_q_fa": 0.05555555555555555,
+   "R_q_neu": 0.09777777777777778,
+   "R_msgs_mean_fa": 1.4753086419753085,
+   "R_msgs_mean_neu": 1.4475555555555555,
+   "T_chars_med": 21.0,
+   "len_ratio_med": 1.0
+  },
+  "whatsapp_nl": {
+   "n_fa": 251,
+   "n_neu": 1771,
+   "R_chars_med_fa": 41.0,
+   "R_chars_med_neu": 40.0,
+   "p_chars": 0.8572539083443226,
+   "R_lat_med_fa": 60.0,
+   "R_lat_med_neu": 60.0,
+   "p_lat": 0.2090075028442876,
+   "R_emoji_fa": 0.1394422310756972,
+   "R_emoji_neu": 0.04291360813099943,
+   "R_q_fa": 0.1952191235059761,
+   "R_q_neu": 0.21852060982495766,
+   "R_msgs_mean_fa": 1.8207171314741035,
+   "R_msgs_mean_neu": 1.7317899491812536,
+   "T_chars_med": 57.0,
+   "len_ratio_med": 0.7272727272727273
+  }
+ },
+ "emoji_mirror": {
+  "P(R_emoji|T_emoji)": 0.24242424242424243,
+  "n_T_emoji": 66,
+  "P(R_emoji|no T_emoji)": 0.09798270893371758
+ },
+ "examples": {
+  "affectionate_goodbye": [
+   "Ok tot dalijk xxx  →  Tot zoooxxx  [reciprocate]",
+   "Oow ok!! Volgende keer dan!;) / 😘Xx See you!!;)  →  Oké Werkse vandaag nog!  [ignore_change_topic]",
+   "Ja ik ook  / Slaap lekker!  →  Wat vond je nou van het liedjeeee  [ignore_change_topic]",
+   "Het gaat ietsje beter. We wisselen het een beetje af. Nu een vriendin van mijn moeder. Maa  →  Goed om te horen. Wij genieten zeker. Het is echt top hier 😙 / Sterkte namens ons!  [reciprocate]",
+   "Hele goede reis en fijne vakantie. Je zit zeker al bijna in het vliegtuig? Liefs ook voor   →  Nee :( / <‎afbeelding weggelaten> / Krijgen net te horen dat we een uur en veertig minuten  [simple_thanks]",
+   "Ow ik vond t fijn jullie te zien! Slaap lekker! Ik moet om [REMOVED] werken, dus ga over n  →  Ooow balen! Nou veel succes morgen!  Tot snel! Dikke kus, ook van piet!  [reciprocate]",
+   "sleep well  →  u too  [reciprocate]",
+   "Oke dan genieten jullie nog maar lekker van het weer daar want de vooruitzichten zijn hier  →  Komt helemaal goed! Groeten aan pa en [REMOVED] & [REMOVED]  [reciprocate]"
+  ],
+  "caring_checkin": [
+   "did you eat today btw  →  coffee counts right  [deflate_humor]",
+   "u eating properly tho  →  yes i did  [minimal_ack]",
+   "u eating properly btw  →  kinda / had instant noodles  [ignore_change_topic]",
+   "btw did you eat  →  yes  [minimal_ack]",
+   "did you eat btw  →  i had noodles  [ignore_change_topic]",
+   "anyway did u eat  →  i had coffee  [ignore_change_topic]",
+   "proud of u  →  dont jinx it  [tease_back]",
+   "btw did u drink water  →  yes i did  [minimal_ack]"
+  ],
+  "compliment_direct": [
+   "Ya. You are a wonderful human being   →  The cat video which I saw was particularly cute  / What about you?  / Which video did you   [ignore_change_topic]",
+   "Mooie tanden!  →  Ben blij als we er klaar mee zijn kan ik die stomme folder niet meer zien😋 / Haha dankje d  [simple_thanks]",
+   "Zeker lekker bruin!!!!!! Vooral [REMOVED], diie is bruin!!!!! Jullie zien er goed uit😄 Nu   →  Mama, kun jij misschien een bon van [REMOVED] euro halen bij sanit zodat sel en ik die aan  [ignore_change_topic]",
+   " Ja 😊  /  Jij bent zo lief he  /  Haha ik was zo moe, ben jij niet brak?   →     /  Nee helemaal noet  /  Niet   [reciprocate]",
+   "talented  →  so what did u eat today  [ignore_change_topic]",
+   "ugh ur sweet  →  only for u  [reciprocate]",
+   "Leuke foto👍  →  😊 bedankt  [simple_thanks]",
+   "Hmm ja misschien kan ik zo iets in m'n verhaaltje verwerken / 🙈 / Ik ga nog een ding zegge  →  Haha oké nice / Is goed toch? / Beetje luchtig houden / Ben benieuwd wat ie reageert  [engage_enthusiastic]"
+  ],
+  "compliment_indirect": [
+   "i love how you understand me  →  i live with you. i have to.  [deflate_humor]",
+   "that’s the softest thing u’ve said  →  dont expose me  [flustered_accept]",
+   "still my fav  →  ugh ur sweet  [flustered_accept]",
+   "u know me too well  →  unfortunately yes  [tease_back]",
+   "wait thats kinda sweet  →  dont get used to it  [tease_back]",
+   " Jawel hamertje tik met het [numerical_value] bestuur  /  Samen eten en zuipen  /  Oh en v  →   Mooi   [minimal_ack]",
+   "only for u  →  we’re supposed to chat for the task btw  [ignore_change_topic]",
+   "such great conversation  →  Trueee  [minimal_ack]"
+  ],
+  "emoji_or_kiss_only": [
+   "🥰🥰  →  omg for me?!  [engage_enthusiastic]",
+   " 😍   →   Man man  /  Zoveel zin in morgen   [engage_enthusiastic]",
+   " Okeeeeeee  /  ❤️   →   Ik ga om [numerical_value] uur naar jou   [ignore_change_topic]",
+   ":)  →  Nog niet.op bed?  [ignore_change_topic]",
+   "hahahaha <3  →  i'm just a lil dumb round the edges  / ok yeah i do remember it  / the only like \"themed\"   [ignore_change_topic]",
+   " <‎afbeelding weggelaten>  /  Kusje   →   Hahaha  /  Oke dat zijn al twee kledingstukken 😍   [tease_back]",
+   "  →  Maar je moet de motivatie ook even vinden hoor sies. Komt niet vanzelf. Je zult merken dat  [ignore_change_topic]",
+   "  →  Hahaha  [minimal_ack]"
+  ],
+  "innuendo_sexual": [
+   " <‎afbeelding weggelaten>  /  In de blote tetten  /  Hoelaat neem je de trein?   →   Trein gaat half [numerical_value]   [ignore_change_topic]",
+   " Oeeeeeehhhh  /  Misschien wacht ik wel naakt op je   →   Jaaaaa    [engage_enthusiastic]",
+   " Ik wil antikater seks   →   Ik ook zo graag!  /  Even lekker lepeltje lepeltje  /  Wel rustig seksen  /  Naja misschi  [engage_enthusiastic]",
+   " Mij maakt het niet uit. Ik wil gewoon seksen👃👊💦💦👅   →   Hahaha  /  En tijdens de seks een boks geven? 👊   [tease_back]",
+   " Ik ben lekker met m'n tietjes aan het spelen  /  Kom je er ook even aan zitten?   →   Jaaaa   [engage_enthusiastic]",
+   " Haha  /  😊  /  Snel rijden! Mag je daarna nog een ritje maken in bed  /  Ben sex tape aan  →   Inspiratie op doen voor straks?  /  Ja doe maar  /  Ik app wel als ik in de trein zit   [tease_back]",
+   " Hihi 😊 probeer maar wat  /  Bij elk lief dingetje zal ik een kledingstuk uit doen   →   <‎afbeelding weggelaten>  /  Kusje   [minimal_ack]",
+   " Inspiratie op doen voor straks?  /  Ja doe maar  /  Ik app wel als ik in de trein zit   →   Hoelaat denk je?   [ignore_change_topic]"
+  ],
+  "invitation_plan": [
+   "okay so what should we do / maybe we can play a board game  →  read our horoscopes together? / and then board game  [engage_enthusiastic]",
+   "read our horoscopes together? / and then board game  →  I LOVE THIS IDEA / what horoscope are you / (you can make one up if you want)  [engage_enthusiastic]",
+   "Je mag wel met mij mee / if u wany  →  Waarheen?  [ignore_change_topic]",
+   "Gek zeker haha / Moeten we maar doen dan / Ookal is t compleet gek :) / Gaan we nijmegen v  →  Haha ja! / Hebben we later geen spijt dat we het nooit hebben gedaan / Elkaar hebben ontmo  [engage_enthusiastic]",
+   "O oke! Hihi! Ja ik ga er niet vanuit hoor we gaan vast járen door / Ja ik heb het al tegen  →  Oww okee dat was snel haha! Als iedereen t maar weet dan staan ze niet voor verrassingen    [engage_enthusiastic]",
+   "ok call me now  →  coming 🥰  [engage_enthusiastic]",
+   "Haha ik vind dat we dat best eens kunnen doen  →  Ja :)  [minimal_ack]",
+   "We gaan wel een x met z'n tweeën!  →  Of de ober / Als t niet te duur is! :p  [tease_back]"
+  ],
+  "love_declaration": [
+   "love u tho  →  love u more idiot  [tease_back]",
+   "Love you xxx  →  Love you too  [reciprocate]",
+   "love you <3  →  love you too <3  [reciprocate]",
+   "love u too / now go eat real food  →  yes sir / bye before u assign me chores  [tease_back]",
+   "love u dad  →  love u too / now go eat real food  [reciprocate]",
+   "hahahah  / love you  / bye  / bestie   →  cute love u too / BYEEEE  [reciprocate]",
+   "cute love u too / BYEEEE  →  good chat.  / baiii  / we need to do the feedback form  / in the email  / done it  / have   [ignore_change_topic]",
+   "love u more idiot  →  im telling ppl u called me that  [tease_back]"
+  ],
+  "miss_longing": [
+   "🥺🥺🥺 yes please  / I miss you   →  I will make sure you enjoy dancing by the end of this conversation😂  [tease_back]",
+   "i hope so / miss u guys  →  aww same  [reciprocate]",
+   "yes pls / i miss ur face  →  its the same face as yesterday  [deflate_humor]",
+   " Heerlijk liefje  /  Was jij hier maar  /  Om te knuffelen  /  Ik kom vroeg naar huis   →   Mooi zo.  /  Hoezo is het niet de moeite waard om tot [numerical_value] te blijven?   [ignore_change_topic]",
+   "Yay! / Ik heb je zo lang niet meer gezien!  / Oeps / 〓  →  Ja klopt! ;( / :( / En dit weekend ben ik ook weg  [mock_offense]",
+   " Oh schatje  /  Kon ik je maar knuffelen  /  <‎afbeelding weggelaten>  /  [REMOVED] haalt   →   Okee top.  /  Ik kan je dan ook nog wel ophalen hoor  /  Ga rond [numerical_value] naar j  [ignore_change_topic]",
+   "Waarom ben je niet hier?   →  Jouw axguld / Schuld / Kan nog wel / Fiets ik ju / Bn ik er half / Fiets [REMOVED] weer te  [ignore_change_topic]",
+   "Dan moet ik daar toch langs / Ik wou dat jullie er allemaal waren  →  Ogen dicht houden of stofzuiger pakken !  [ignore_change_topic]"
+  ],
+  "mock_offense_pout": [
+   "rude???  →  affectionately rude <3  [tease_back]",
+   "rude  →  jk jk  [deflate_humor]",
+   " Oooh niet eerlijk   →   Hahaha  /  Ik zit al zonder sokken en schoenen!  /  Al in de trein?   [tease_back]",
+   "pls dont 😭  →  hehe ttyl  [minimal_ack]",
+   "oh  →  let me check my diary   [tease_back]",
+   "Haha / Ja! / :( / Lekkerding!!!!  →  :( / Schrijf dan!  [reciprocate]",
+   "again??  →  dont judge my coping mechanisms  [tease_back]",
+   "NO  →  hehe  [minimal_ack]"
+  ],
+  "pet_name_greeting": [
+   "Hey hon  →  heya!! / did you watch the videos  [ignore_change_topic]",
+   "Hello my love   →  How are you tonight   [ignore_change_topic]",
+   "hey love / im here  →  guess what  [ignore_change_topic]",
+   "yo babe u there  →  hey love / im here  [reciprocate]",
+   "Ahhh schatje / Misschien moet je het er gewoon even bij laten zitten  →  Ja nee  [rude_reject]",
+   "Isabellie schatje  →  Ik heb een favor to ask 😁  [ignore_change_topic]",
+   "Lieverd / Wil jij voor mij ff een enquete invullen? Is een opdr voor school.. duurt ongeve  →  Ja hoor is goed / Doe t vnv of anders morgen  [ignore_change_topic]",
+   "Maart liefie, hoe gaat het met je? Bevalt het daar? En al begonnen met je master? [REMOVED  →  Schattie! Wat een toeval wilde jou net appen! Jaa zit nu in de les 😅. Bevalt wel echt goed  [engage_enthusiastic]"
+  ],
+  "reassurance_validation": [
+   "I wouldn't worry about that too much. / Just be honest and say 'I dont know' / but I'll fi  →  No, well in any case it will be good for me to do it even if it doesn't go perfectly  / I   [ignore_change_topic]",
+   "never  →  text u in 10  [ignore_change_topic]",
+   " Dus je Hoeft niet meteen onzeker te worden mocht je die drie dadelijk niet gehaald hebben  →   Bevalt de uni wel verder?   [ignore_change_topic]",
+   "dont say that / i dont hate you xxx  →  thank you, that makes one of us x  [tease_back]",
+   " Was niet erg. 😉   →   Tja ik vond vooral dat laatste ook niet erg 😇   [tease_back]",
+   "that's okay <3  / right!!  →  ugh I would love that  / Well we'll hopefully be closer to that when I come back !!!  [engage_enthusiastic]",
+   "Ja dat je ineens zulke dingen hebt  →  Ja dat snap ik ik kan er alleen nog niet zoveel op zeggen...het is zo verwarrend allemaal  [ignore_change_topic]",
+   "Lekker! / Heel goed bezig!  →  Gestuurd!  [ignore_change_topic]"
+  ],
+  "self_deprecation_charm": [
+   "u know im weak  →  thats why its fun  [tease_back]",
+   "thats so true xx / i think im a gemini because im too faced xx  →  yeah i kinda get that from you / crazy when they are true  [engage_enthusiastic]",
+   " Haha ik durfde het niet aan, ben nog naar huis gegaan  /  Ik mol altijd alles :p   →   Hahaha   [minimal_ack]"
+  ],
+  "tease_banter": [
+   "brat  →  hehe / btw this chat is def natural enough right  [ignore_change_topic]",
+   "define finish  →  oh no  [minimal_ack]",
+   "Haha / Sukkel  →  Waarom.sujkel? / Zielig zeg  [tease_back]",
+   "Nice / Haha :p prutsers daar bij pm  →  <Media weggelaten> / Wat is er trouwes met jou beeldscherm?  [ignore_change_topic]",
+   "Haha, you don't know me for sure ;) / Nagellak is voor meisjes  / Hij was foto's aan het   →  Ik ben trouwens iets later..was en zo  [ignore_change_topic]",
+   "Haha uhuh tuurlijk / Voor jezelf ook?  →  Haha / Het is een liedje  [deflate_humor]",
+   "Moeten we het netjes houden? ;) grapjeeeeeeee  →  Hahahaha / Niks moet  [minimal_ack]",
+   "too late  →  ok call me now  [engage_enthusiastic]"
+  ],
+  "vulnerable_share": [
+   "Haha nou. Ik durfde niet / En mn moeder duwde me ergens naar binnen / En toen was ik boos   →  Hahaha ik ben niet eng  [tease_back]",
+   "i like falling asleep to ur voice  →  that’s the softest thing u’ve said  [reciprocate]",
+   "Ja! / Ik wil je natuurlijk niet laten gaan / Dat kan ik gewoon niet aan / Al zeg je dat he  →  Haha uhuh tuurlijk / Voor jezelf ook?  [tease_back]",
+   "im thinking  / Lets do the second one about a fond memory / Or like your first memorable e  →  LOL  / Cute  / A fond memory is when I bought my first car   [reciprocate]",
+   "Kans is groot dat ik terug moet naar [REMOVED], krijg mn werk niet geruild / Xxx  →  Ok laat maar weten! Succes met ruilen hoor / Xx  [ignore_change_topic]",
+   "i saw a couple that reminded me of us  →  good or bad 😭  [engage_enthusiastic]",
+   "Haha ja! / Hebben we later geen spijt dat we het nooit hebben gedaan / Elkaar hebben ontmo  →  Goed dat je dat laatste even toevoegde / :p  [tease_back]",
+   " / Hihi, ik kan dat poppetje echt niet sturen/ontvangen zonder aan [REMOVED] te denken :p  →  Haha ik dus ook haha.. sorry even tv kijkee dalijk ema's! Maar met mij gaat ie goed en met  [ignore_change_topic]"
+  ]
+ },
+ "examples_resp": {
+  "deflate_humor": [
+   "yes pls / i miss ur face  →  its the same face as yesterday",
+   "hero  →  pls / i just unplugged and plugged again",
+   "im proud u survived tho  →  barely survived",
+   "Haha uhuh tuurlijk / Voor jezelf ook?  →  Haha / Het is een liedje",
+   "because we’re old souls  →  or just tired",
+   "ahhh a person of taste i seee  →  (though that sometimes has tiktok videos too) / taste is a subjective metric",
+   "Ja precies / Vind jij die verantwoordelijkheid niet vervelend, [REMOVED]? Want d  →  Ja aan een kant wel eigenlijk haha... Ik stond daar ook even van te kijke / Maar",
+   " Ja ik mag van [REMOVED] niet naar de soos komen..  /  Ik ga thuis werken  /  He  →   Jawel. Was toch al goed aangeschoten dus dan is het sochtends sowieso zwaar. Du"
+  ],
+  "engage_enthusiastic": [
+   "read our horoscopes together? / and then board game  →  I LOVE THIS IDEA / what horoscope are you / (you can make one up if you want)",
+   "ik heb hier nog souvenir voor je en bedankt voor oppassen op het huis  →  ben benieuwd naar souvenir!",
+   "Wat een geniaal beest  →  Hahahahha vertel (:",
+   "I always have a sweet treat / speaking of which i have one for you / not on me /  →  i can't be happy in life without a daily sweet treat  / omg yum  / we'll eat it ",
+   "stoppp / but fr that edit was savage  →  the slow motion replay killed me / and the dramatic music 💀",
+   "i saw a couple that reminded me of us  →  good or bad 😭",
+   "it’s cute tho / very u  →  thats all i needed to hear / purchasing now 💳",
+   "Gek zeker haha / Moeten we maar doen dan / Ookal is t compleet gek :) / Gaan we   →  Haha ja! / Hebben we later geen spijt dat we het nooit hebben gedaan / Elkaar he"
+  ],
+  "escalate": [
+   " Ik ook schat   →   Ik ben lekker met m'n tietjes aan het spelen  /  Kom je er ook even aan zitten?",
+   " Ik ook zo graag!  /  Even lekker lepeltje lepeltje  /  Wel rustig seksen  /  Na  →   Mij maakt het niet uit. Ik wil gewoon seksen👃👊💦💦👅 ",
+   " Jaaaa   →   <‎afbeelding weggelaten>  /  In de blote tetten  /  Hoelaat neem je de trein? ",
+   " Ik ook schat   →   Haha  /  😊  /  Snel rijden! Mag je daarna nog een ritje maken in bed  /  Ben se",
+   " Wil zo wel komen. Als je thuis bent   →   [REMOVED] vind dat je moet komen ",
+   " Als je nu thuis bent kom ik wel   →   Ben nog niet thuis..  /  Net biertje open getrokken  /  Schatteke kom gewoon ev",
+   " Jaa kan ooo nog wel   →   😘  /  Geil "
+  ],
+  "flustered_accept": [
+   "still my fav  →  ugh ur sweet",
+   "that’s the softest thing u’ve said  →  dont expose me",
+   "yeah i kinda get that from you / crazy when they are true  →  shut up",
+   "that was vulnerable  →  HELP",
+   "hehe  →  u know im weak",
+   "bestie tho  →  ugh fine ttyl",
+   "go eat smth pls  →  fineeee ill make eggs"
+  ],
+  "ignore_change_topic": [
+   "quality over quantity babe  →  deadline today right",
+   "as u should ✨  →  also gym later?",
+   "only for u  →  we’re supposed to chat for the task btw",
+   "Ya. You are a wonderful human being   →  The cat video which I saw was particularly cute  / What about you?  / Which vide",
+   "Haha, you don't know me for sure ;) / Nagellak is voor meisjes  / Hij was foto'  →  Ik ben trouwens iets later..was en zo",
+   " <‎afbeelding weggelaten>  /  In de blote tetten  /  Hoelaat neem je de trein?   →   Trein gaat half [numerical_value] ",
+   "talent  →  so what’s the plan this weekend",
+   "O, haha. Nou, slaap lekker dan.  →  En bij ons gaat niemand naar de merthal"
+  ],
+  "minimal_ack": [
+   "Hahaha ooh 😳 / Oeps  →  Hahaha",
+   " Haha ik durfde het niet aan, ben nog naar huis gegaan  /  Ik mol altijd alles :  →   Hahaha ",
+   "Haha. Ga je gang / Jij bent trouwens de eerste persoon die een ander nummer kan   →  😎",
+   " Jawel hamertje tik met het [numerical_value] bestuur  /  Samen eten en zuipen    →   Mooi ",
+   "  →  Hahaha",
+   "NO  →  hehe",
+   " Gelukkig  /  Haha hoorde al van [REMOVED] dat je redelijk beschonken was   →   Hahaha ja ",
+   "bc we care  →  true"
+  ],
+  "mock_offense": [
+   " Geen foto's maken tijdens t rijden!!!  /  Anders trek ik alles weer aan   →   Oooh niet eerlijk ",
+   "Yay! / Ik heb je zo lang niet meer gezien!  / Oeps / 〓  →  Ja klopt! ;( / :( / En dit weekend ben ik ook weg",
+   "thats kinda cute ngl  →  its NOT my name 😭",
+   "I miss you too😚😚 / Okay byeee  →  Oh okay bye 😒",
+   "add veggies  →  who do u think i am",
+   "Bijnaaaaaa / Jaaaaaaa  →  Veel plezier leave / [REMOVED] / Ik houd niet meer van je / Ik ga / ",
+   " [REMOVED] vind dat je moet komen   →   Vind het schraal omte komen voor jou en dan pleite te gaan. "
+  ],
+  "polite_decline": [
+   "Ga dan op bed pop  →  Nee / Niet moe :(",
+   "Wilde je iets doen dsn? / Haha / Ja / Je hebt geen leven met mij  →  Nee / Maar gewoon",
+   "Vanmiddag keek ik bij accounts maar dat lukte niet / Aaah love him / Praat je m  →  Nee / Maar als ik iets niet weet vraag ik het meestal aan hem",
+   "I am trying its just a bit boring / Apparnelty pilates is better / Do you just l  →  Now, now. That's for the other chat😆",
+   " Oke chill 😊  /  Moet ik het anders ook nog even nakijken?   →   Nee hoeft niet hoor  /  Kan je wel ff je code sturen? ",
+   "Hee! Gaan we woensdag samen naar dat feest of ga jij met mensen van campus in be  →  Hey! Ik moet daar om [REMOVED] al zijn om te versieren enz. dus dan zie ik julli",
+   "we should go  / im sorry you feel that way, do you want to discuss it further  →  sweet treat after this? 🤔 / no, i just think I needed to get that off my chest /"
+  ],
+  "reciprocate": [
+   "love you <3  →  love you too <3",
+   "hello handsome  →  hi beautiful / what’s up",
+   "i hope so / miss u guys  →  aww same",
+   "Love you xxx  →  Love you too",
+   "hahahah  / love you  / bye  / bestie   →  cute love u too / BYEEEE",
+   "aw bye time's up / ill miss our chat   →  hahahah  / love you  / bye  / bestie ",
+   " Man man  /  Zoveel zin in morgen   →   Ik ook schat ",
+   "love u dad  →  love u too / now go eat real food"
+  ],
+  "rude_reject": [
+   "Ahhh schatje / Misschien moet je het er gewoon even bij laten zitten  →  Ja nee",
+   "love sick / for valentines day  →  ur annoying",
+   "11:59pm we believe in last minute miracles ✨  →  u stress me out"
+  ],
+  "simple_thanks": [
+   "Leuke foto👍  →  😊 bedankt",
+   "im proud actually  →  thank you",
+   "Jij succes met alles dan!  →  Thanks!",
+   "Goed gedaan met school!!! / Trots op jou   →  Dankjewel ",
+   "good luck with your tutorial! and see you later!  →  thank u😊 see u!",
+   "u’re strong ok  →  thanks baby",
+   "Mooie tanden!  →  Ben blij als we er klaar mee zijn kan ik die stomme folder niet meer zien😋 / Hah",
+   "Haha wie weet ;) / Feest ze kerel! :D  →  Thanks jij ook "
+  ],
+  "tease_back": [
+   " Mij maakt het niet uit. Ik wil gewoon seksen👃👊💦💦👅   →   Hahaha  /  En tijdens de seks een boks geven? 👊 ",
+   " Nietes  /  Krijg je wel extra kusje van me 😁  /  [REMOVED] vind t mooi   →   Nou vooruit. Kom ik ff de schrale haas uithange ",
+   "im proud  →  dont sound like my mom",
+   "love u too / now go eat real food  →  yes sir / bye before u assign me chores",
+   "never ❤️  →  liar",
+   " Jaaaaa    →   😇 haha als je lief bent ",
+   " Je kusje was fijn hoor 😘   →   Gelukkig maar 😇  /  Kan ik nog een kusje terug verwachten via een postduif of r",
+   "its giving enemies to lovers  →  you and productivity will never happen"
+  ]
+ }
+}

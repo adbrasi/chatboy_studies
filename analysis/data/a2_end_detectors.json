@@ -1,0 +1,45 @@
+{
+ "n": 757,
+ "pos": 337,
+ "P_p_end(base)": {
+  "auc_last": 0.664,
+  "ci": [
+   0.618,
+   0.701
+  ],
+  "auc_closingT": 0.765
+ },
+ "quiet_after": {
+  "auc_last": 0.646,
+  "ci": [
+   0.609,
+   0.686
+  ],
+  "auc_closingT": 0.717
+ },
+ "-open_loop": {
+  "auc_last": 0.593,
+  "ci": [
+   0.55,
+   0.631
+  ],
+  "auc_closingT": 0.614
+ },
+ "resolved": {
+  "auc_last": 0.67,
+  "ci": [
+   0.626,
+   0.703
+  ],
+  "auc_closingT": 0.717
+ },
+ "closure": {
+  "auc_last": 0.688,
+  "ci": [
+   0.651,
+   0.724
+  ],
+  "auc_closingT": 0.769
+ },
+ "combined_cv_auc_last": 0.685
+}

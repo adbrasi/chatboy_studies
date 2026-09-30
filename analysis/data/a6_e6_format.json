@@ -1,0 +1,187 @@
+{
+ "n": 50,
+ "n_pert": 30,
+ "formats": {
+  "json_AB_explicit": {
+   "perturb_noul_meanabs": 0.013296296296296297,
+   "perturb_score_meanabs": 0.03658333333333331,
+   "perturb_choice_flip": 0.06666666666666667,
+   "vs_json_AB_explicit_noul_meanabs": 0.0,
+   "vs_json_AB_explicit_choice_flip": 0.0,
+   "vs_json_AB_explicit_score_meanabs": 0.0,
+   "choice_conf_mean": 0.7604499999999998,
+   "focus_probe_q_auc": 0.926829268292683,
+   "focus_probe_q_acc@.5": 0.9,
+   "focus_probe_laugh_acc@.5": 0.98,
+   "hook_vs_hasq_auc": 0.8658536585365854,
+   "playful_vs_laugh_auc": 0.7022222222222222,
+   "mean_seriousness": 0.6358,
+   "mean_topic_shift": 0.23200000000000004,
+   "tokens": 1953.4
+  },
+  "json_userassistant_explicit": {
+   "perturb_noul_meanabs": 0.013703703703703704,
+   "perturb_score_meanabs": 0.03675000000000002,
+   "perturb_choice_flip": 0.025,
+   "vs_json_AB_explicit_noul_meanabs": 0.031733333333333336,
+   "vs_json_AB_explicit_choice_flip": 0.065,
+   "vs_json_AB_explicit_score_meanabs": 0.08109999999999999,
+   "choice_conf_mean": 0.7537999999999999,
+   "focus_probe_q_auc": 0.9051490514905149,
+   "focus_probe_q_acc@.5": 0.9,
+   "focus_probe_laugh_acc@.5": 0.98,
+   "hook_vs_hasq_auc": 0.8753387533875339,
+   "playful_vs_laugh_auc": 0.74,
+   "mean_seriousness": 0.5988,
+   "mean_topic_shift": 0.24400000000000002,
+   "tokens": 1953.4
+  },
+  "json_AB_implicit": {
+   "perturb_noul_meanabs": 0.016925925925925928,
+   "perturb_score_meanabs": 0.04775,
+   "perturb_choice_flip": 0.08333333333333333,
+   "vs_json_AB_explicit_noul_meanabs": 0.037422222222222225,
+   "vs_json_AB_explicit_choice_flip": 0.095,
+   "vs_json_AB_explicit_score_meanabs": 0.11604999999999997,
+   "choice_conf_mean": 0.7343000000000001,
+   "focus_probe_q_auc": 0.907859078590786,
+   "focus_probe_q_acc@.5": 0.88,
+   "focus_probe_laugh_acc@.5": 0.98,
+   "hook_vs_hasq_auc": 0.8577235772357723,
+   "playful_vs_laugh_auc": 0.6466666666666666,
+   "mean_seriousness": 0.5775999999999999,
+   "mean_topic_shift": 0.2766,
+   "tokens": 1996.4
+  },
+  "text_AB_explicit": {
+   "perturb_noul_meanabs": 0.015444444444444445,
+   "perturb_score_meanabs": 0.043000000000000003,
+   "perturb_choice_flip": 0.041666666666666664,
+   "vs_json_AB_explicit_noul_meanabs": 0.0274,
+   "vs_json_AB_explicit_choice_flip": 0.065,
+   "vs_json_AB_explicit_score_meanabs": 0.10365,
+   "choice_conf_mean": 0.7587999999999999,
+   "focus_probe_q_auc": 0.9173441734417345,
+   "focus_probe_q_acc@.5": 0.9,
+   "focus_probe_laugh_acc@.5": 0.98,
+   "hook_vs_hasq_auc": 0.8577235772357723,
+   "playful_vs_laugh_auc": 0.6866666666666666,
+   "mean_seriousness": 0.6172,
+   "mean_topic_shift": 0.22560000000000002,
+   "tokens": 1791.16
+  },
+  "text_AB_implicit": {
+   "perturb_noul_meanabs": 0.016962962962962964,
+   "perturb_score_meanabs": 0.05416666666666667,
+   "perturb_choice_flip": 0.058333333333333334,
+   "vs_json_AB_explicit_noul_meanabs": 0.054755555555555564,
+   "vs_json_AB_explicit_choice_flip": 0.14,
+   "vs_json_AB_explicit_score_meanabs": 0.16905,
+   "choice_conf_mean": 0.7298,
+   "focus_probe_q_auc": 0.9186991869918699,
+   "focus_probe_q_acc@.5": 0.88,
+   "focus_probe_laugh_acc@.5": 0.98,
+   "hook_vs_hasq_auc": 0.8509485094850948,
+   "playful_vs_laugh_auc": 0.6422222222222222,
+   "mean_seriousness": 0.528,
+   "mean_topic_shift": 0.282,
+   "tokens": 1831.7
+  }
+ },
+ "base_rate": {
+  "has_q": 0.18,
+  "laugh": 0.1
+ },
+ "relationship_dist": {
+  "json_AB_explicit": [
+   [
+    "close_friends",
+    30
+   ],
+   [
+    "colleagues_or_classmates",
+    10
+   ],
+   [
+    "romantic_partners",
+    4
+   ],
+   [
+    "family",
+    3
+   ]
+  ],
+  "json_userassistant_explicit": [
+   [
+    "close_friends",
+    34
+   ],
+   [
+    "colleagues_or_classmates",
+    7
+   ],
+   [
+    "romantic_partners",
+    4
+   ],
+   [
+    "acquaintances_or_new",
+    2
+   ]
+  ],
+  "json_AB_implicit": [
+   [
+    "close_friends",
+    28
+   ],
+   [
+    "colleagues_or_classmates",
+    12
+   ],
+   [
+    "romantic_partners",
+    4
+   ],
+   [
+    "family",
+    3
+   ]
+  ],
+  "text_AB_explicit": [
+   [
+    "close_friends",
+    32
+   ],
+   [
+    "colleagues_or_classmates",
+    10
+   ],
+   [
+    "romantic_partners",
+    3
+   ],
+   [
+    "acquaintances_or_new",
+    2
+   ]
+  ],
+  "text_AB_implicit": [
+   [
+    "close_friends",
+    30
+   ],
+   [
+    "colleagues_or_classmates",
+    11
+   ],
+   [
+    "romantic_partners",
+    6
+   ],
+   [
+    "family",
+    1
+   ]
+  ]
+ }
+}

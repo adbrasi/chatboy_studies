@@ -1,0 +1,420 @@
+{
+ "n": {
+  "laugh": 745,
+  "control": 150,
+  "by_corpus": {
+   "whatsapp_nl": 612,
+   "maichat": 133
+  }
+ },
+ "function_share": {
+  "maichat": {
+   "reaction_to_humor": 0.436,
+   "own_joke_marker": 0.195,
+   "softener": 0.143,
+   "amused_own_story": 0.105,
+   "friendly_backchannel": 0.105,
+   "nervous_awkward": 0.015
+  },
+  "whatsapp_nl": {
+   "reaction_to_humor": 0.309,
+   "softener": 0.253,
+   "friendly_backchannel": 0.209,
+   "own_joke_marker": 0.154,
+   "amused_own_story": 0.067,
+   "nervous_awkward": 0.008
+  },
+  "all": {
+   "reaction_to_humor": 0.332,
+   "softener": 0.234,
+   "friendly_backchannel": 0.191,
+   "own_joke_marker": 0.161,
+   "amused_own_story": 0.074,
+   "nervous_awkward": 0.009
+  }
+ },
+ "function_share_conf>=.6": {
+  "maichat": {
+   "reaction_to_humor": 0.548,
+   "amused_own_story": 0.137,
+   "own_joke_marker": 0.137,
+   "softener": 0.096,
+   "friendly_backchannel": 0.082
+  },
+  "whatsapp_nl": {
+   "reaction_to_humor": 0.375,
+   "softener": 0.257,
+   "friendly_backchannel": 0.199,
+   "own_joke_marker": 0.121,
+   "amused_own_story": 0.037,
+   "nervous_awkward": 0.011
+  },
+  "all": {
+   "reaction_to_humor": 0.412,
+   "softener": 0.223,
+   "friendly_backchannel": 0.174,
+   "own_joke_marker": 0.125,
+   "amused_own_story": 0.058,
+   "nervous_awkward": 0.009
+  }
+ },
+ "function_soft_share": {
+  "maichat": {
+   "own_joke_marker": 0.195,
+   "softener": 0.151,
+   "nervous_awkward": 0.02,
+   "friendly_backchannel": 0.112,
+   "reaction_to_humor": 0.406,
+   "amused_own_story": 0.115
+  },
+  "whatsapp_nl": {
+   "reaction_to_humor": 0.289,
+   "softener": 0.249,
+   "own_joke_marker": 0.162,
+   "amused_own_story": 0.078,
+   "nervous_awkward": 0.018,
+   "friendly_backchannel": 0.204
+  },
+  "all": {
+   "own_joke_marker": 0.168,
+   "softener": 0.231,
+   "nervous_awkward": 0.018,
+   "friendly_backchannel": 0.187,
+   "reaction_to_humor": 0.31,
+   "amused_own_story": 0.085
+  }
+ },
+ "macro_share": {
+  "maichat": {
+   "reação": 0.436,
+   "próprio humor": 0.301,
+   "social": 0.263
+  },
+  "whatsapp_nl": {
+   "social": 0.471,
+   "reação": 0.309,
+   "próprio humor": 0.221
+  },
+  "all": {
+   "social": 0.434,
+   "reação": 0.332,
+   "próprio humor": 0.235
+  }
+ },
+ "noul_rates": {
+  "maichat": {
+   "prev_funny>=.5": 0.534,
+   "cur_joke>=.5": 0.556,
+   "softening>=.5": 0.624,
+   "face_threat>=.5": 0.346,
+   "no_prev_funny_and_no_cur_joke": 0.316
+  },
+  "whatsapp_nl": {
+   "prev_funny>=.5": 0.526,
+   "cur_joke>=.5": 0.462,
+   "softening>=.5": 0.712,
+   "face_threat>=.5": 0.435,
+   "no_prev_funny_and_no_cur_joke": 0.377
+  },
+  "all": {
+   "prev_funny>=.5": 0.528,
+   "cur_joke>=.5": 0.479,
+   "softening>=.5": 0.697,
+   "face_threat>=.5": 0.419,
+   "no_prev_funny_and_no_cur_joke": 0.366
+  }
+ },
+ "control_face_threat": {
+  "maichat": {
+   "n": 86,
+   "face_threat>=.5": 0.442
+  },
+  "whatsapp_nl": {
+   "n": 64,
+   "face_threat>=.5": 0.297
+  },
+  "all": {
+   "n": 150,
+   "face_threat>=.5": 0.38
+  }
+ },
+ "after_by_function": {
+  "amused_own_story": {
+   "n": 55,
+   "partner_laughs": 0.3958333333333333,
+   "partner_playful": 0.673,
+   "chars_med": 96.0
+  },
+  "friendly_backchannel": {
+   "n": 142,
+   "partner_laughs": 0.22580645161290322,
+   "partner_playful": 0.5,
+   "chars_med": 45.0
+  },
+  "nervous_awkward": {
+   "n": 7,
+   "partner_laughs": 0.2857142857142857,
+   "partner_playful": 0.571,
+   "chars_med": 35.0
+  },
+  "own_joke_marker": {
+   "n": 120,
+   "partner_laughs": 0.4247787610619469,
+   "partner_playful": 0.75,
+   "chars_med": 71.5
+  },
+  "reaction_to_humor": {
+   "n": 247,
+   "partner_laughs": 0.2772727272727273,
+   "partner_playful": 0.684,
+   "chars_med": 31.0
+  },
+  "softener": {
+   "n": 174,
+   "partner_laughs": 0.37267080745341613,
+   "partner_playful": 0.58,
+   "chars_med": 68.0
+  }
+ },
+ "examples": {
+  "amused_own_story": [
+   "[maichat] prev: Hahaha you are taking so long to type || laugh turn: One evening I was sitting on the floor, while my mum was putting oil on my hair and I had very long curly hair",
+   "[maichat] prev: What about youu?  / Do you have a funny memory? || laugh turn: I do! When I was around 6 or 7 I would wait for my mom to come home from work. I would then wear her slippers ",
+   "[maichat] prev: oh thats very american they have like senior week / with like  / senior prank etc || laugh turn: yes exactly / did I tell you / Alice got suspended on her last day of secondary school for putting chicken fee",
+   "[whatsapp_nl] prev: Ja || laugh turn: Was ook heel gek / Voorste twee treinstellen zaten niet eens mensen in / Ze gaan hun best doen het eruit te ri",
+   "[whatsapp_nl] prev: nan || laugh turn: Hee pa en ma, hoe is t daar? Hier gaat alles prima! Lekker weer hier, maar soms en dan vooral s middags wel ie"
+  ],
+  "friendly_backchannel": [
+   "[maichat] prev: not bad! stayed up a little late last night so slept in a little today / nothing cray just || laugh turn: haha, that sounds nice / were you up to anything fun last night?",
+   "[maichat] prev: i was reading something very different earlier tho lol,, a collection of essays by george  || laugh turn: haha nice! thats a bit of a genre switch for sure / non-fiction?",
+   "[maichat] prev: aw bye time's up / ill miss our chat  || laugh turn: hahahah  / love you  / bye  / bestie ",
+   "[whatsapp_nl] prev: Toevallig dit weekend naar dorpsfeest in de tynje? || laugh turn: Ja! / Jij ook he ",
+   "[whatsapp_nl] prev: Ok heel leuk || laugh turn: Hihi"
+  ],
+  "nervous_awkward": [
+   "[maichat] prev: idk what time abby is coming round  / think elena said theyre havibg a catch up here || laugh turn: oh yeah forgot about her  / oh ncie  / nice  / i have no idea ] / she didnt sya  / say  / omg im typing too qu",
+   "[maichat] prev: yeah / which is funny bc now it feels not normal || laugh turn: ikr / feels like im being observed lol",
+   "[whatsapp_nl] prev: Dan hadden ze misschien ook meer gecommuniceerd  || laugh turn:  / Vast / xD / Oh wat genant",
+   "[whatsapp_nl] prev: Ja dat kan ook idd / Maar daarna moet je dan wel echt even proberen om niet meer te praten || laugh turn: Ja en over t afspreken dan? / 🙈 / Ik ben stom hahaha"
+  ],
+  "own_joke_marker": [
+   "[maichat] prev: 🥺🥺🥺 yes please  / I miss you  || laugh turn: I will make sure you enjoy dancing by the end of this conversation😂",
+   "[maichat] prev: Please keep up the Yoga || laugh turn: I am trying its just a bit boring / Apparnelty pilates is better / Do you just like me stretchy 🤣🤣 / 🤪🤪🤪",
+   "[maichat] prev: i dont || laugh turn: ok / the audience will lol at that one / truss me",
+   "[whatsapp_nl] prev: Hè prut, maar hoe dan ook we spreken toch wel af  / Was idd weer gezellig! Morgen nog paa || laugh turn: Haha nou, nu je niet rijker bent geworden weet ik niet of ik nog wel afspreken wil hoor  haha / Heb trouwens ",
+   "[whatsapp_nl] prev: nan || laugh turn: Ladies! Ik vind het een zeer geslaagde avond Iemand nog laat van hoofdpijn?  / *vond / *ladt / *last :p"
+  ],
+  "reaction_to_humor": [
+   "[maichat] prev: One evening I was sitting on the floor, while my mum was putting oil on my hair and I had  || laugh turn: Hahahahahahahaha",
+   "[maichat] prev: not fell he DRAMATICALLY resigned from gravity || laugh turn: LMAOOO",
+   "[maichat] prev: once I ran a marathon by accident across the thames back and forth on a aschool trip becau || laugh turn: LOL THAT IS SOOOO SILLY  / Ahahahahahahahah / I have never done anything silly in my life . / I dont mess arou",
+   "[whatsapp_nl] prev: Ik heb net een meloen geslacht en die neem ik dan mee zodat we dat tijdens het kokkerellen || laugh turn: Hahaha / Geslacht  / En nou, neem maar mee die meloen!  Lekker :D",
+   "[whatsapp_nl] prev:  Well  /  Ik besef me net dat ik mn onderwerp nog niet eens goed heb afgebakend  /  Dus ik || laugh turn:  Hahahahaha "
+  ],
+  "softener": [
+   "[maichat] prev: Family friendly castles wizards and knights type stuff / Yh you’d like it I think || laugh turn: haha i didn't think it sounded very me",
+   "[maichat] prev: ahhhhhh its sooo funny i used to love it || laugh turn: although I didn't actually really like it, it was a bit strange  / oop / hahaha",
+   "[maichat] prev: Which video was your favourite? || laugh turn: i like the one with the cat lol / hated the others",
+   "[whatsapp_nl] prev: Ah fijn. Nu de leukste dingen van de verhuizing. Alles een plekje geven, huisje bouwen. Ne || laugh turn: Inderdaad :). Al ben ik er nu wel klaar mee haha",
+   "[whatsapp_nl] prev: Ja precies / Vind jij die verantwoordelijkheid niet vervelend, [REMOVED]? Want dat wordt j || laugh turn: Ja aan een kant wel eigenlijk haha... Ik stond daar ook even van te kijke / Maarja niks aan te doe"
+  ]
+ },
+ "shape_by_function": {
+  "amused_own_story": {
+   "n": 55,
+   "laugh_len_median": 4.0,
+   "long_laugh": 0.218,
+   "only_laugh": 0.0,
+   "caps": 0.0,
+   "emoji_laugh": 0.127,
+   "partner_laughs": 0.3958333333333333,
+   "partner_playful": 0.673
+  },
+  "friendly_backchannel": {
+   "n": 142,
+   "laugh_len_median": 4.0,
+   "long_laugh": 0.106,
+   "only_laugh": 0.077,
+   "caps": 0.0,
+   "emoji_laugh": 0.282,
+   "partner_laughs": 0.22580645161290322,
+   "partner_playful": 0.5
+  },
+  "nervous_awkward": {
+   "n": 7,
+   "laugh_len_median": 4.0,
+   "long_laugh": 0.286,
+   "only_laugh": 0.0,
+   "caps": 0.0,
+   "emoji_laugh": 0.143,
+   "partner_laughs": 0.2857142857142857,
+   "partner_playful": 0.571
+  },
+  "own_joke_marker": {
+   "n": 120,
+   "laugh_len_median": 4.0,
+   "long_laugh": 0.233,
+   "only_laugh": 0.008,
+   "caps": 0.008,
+   "emoji_laugh": 0.175,
+   "partner_laughs": 0.4247787610619469,
+   "partner_playful": 0.75
+  },
+  "reaction_to_humor": {
+   "n": 247,
+   "laugh_len_median": 4.0,
+   "long_laugh": 0.381,
+   "only_laugh": 0.186,
+   "caps": 0.04,
+   "emoji_laugh": 0.061,
+   "partner_laughs": 0.2772727272727273,
+   "partner_playful": 0.684
+  },
+  "softener": {
+   "n": 174,
+   "laugh_len_median": 4.0,
+   "long_laugh": 0.086,
+   "only_laugh": 0.0,
+   "caps": 0.0,
+   "emoji_laugh": 0.201,
+   "partner_laughs": 0.37267080745341613,
+   "partner_playful": 0.58
+  }
+ },
+ "position_by_function": {
+  "amused_own_story": {
+   "end": 0.309,
+   "middle": 0.455,
+   "only": 0.0,
+   "start": 0.236
+  },
+  "friendly_backchannel": {
+   "end": 0.232,
+   "middle": 0.246,
+   "only": 0.08,
+   "start": 0.442
+  },
+  "nervous_awkward": {
+   "end": 0.286,
+   "middle": 0.286,
+   "only": 0.0,
+   "start": 0.429
+  },
+  "own_joke_marker": {
+   "end": 0.286,
+   "middle": 0.42,
+   "only": 0.008,
+   "start": 0.286
+  },
+  "reaction_to_humor": {
+   "end": 0.089,
+   "middle": 0.134,
+   "only": 0.186,
+   "start": 0.591
+  },
+  "softener": {
+   "end": 0.316,
+   "middle": 0.379,
+   "only": 0.0,
+   "start": 0.305
+  }
+ },
+ "shape_by_function_by_corpus": [
+  {
+   "corpus": "maichat",
+   "function": "amused_own_story",
+   "n": 14,
+   "long_laugh": 0.143,
+   "pos_end": 0.571,
+   "pos_start": 0.143
+  },
+  {
+   "corpus": "maichat",
+   "function": "friendly_backchannel",
+   "n": 14,
+   "long_laugh": 0.286,
+   "pos_end": 0.214,
+   "pos_start": 0.5
+  },
+  {
+   "corpus": "maichat",
+   "function": "nervous_awkward",
+   "n": 2,
+   "long_laugh": 0.0,
+   "pos_end": 0.5,
+   "pos_start": 0.0
+  },
+  {
+   "corpus": "maichat",
+   "function": "own_joke_marker",
+   "n": 26,
+   "long_laugh": 0.269,
+   "pos_end": 0.462,
+   "pos_start": 0.038
+  },
+  {
+   "corpus": "maichat",
+   "function": "reaction_to_humor",
+   "n": 58,
+   "long_laugh": 0.431,
+   "pos_end": 0.121,
+   "pos_start": 0.466
+  },
+  {
+   "corpus": "maichat",
+   "function": "softener",
+   "n": 19,
+   "long_laugh": 0.211,
+   "pos_end": 0.368,
+   "pos_start": 0.263
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "function": "amused_own_story",
+   "n": 41,
+   "long_laugh": 0.244,
+   "pos_end": 0.22,
+   "pos_start": 0.268
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "function": "friendly_backchannel",
+   "n": 128,
+   "long_laugh": 0.086,
+   "pos_end": 0.227,
+   "pos_start": 0.422
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "function": "nervous_awkward",
+   "n": 5,
+   "long_laugh": 0.4,
+   "pos_end": 0.2,
+   "pos_start": 0.6
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "function": "own_joke_marker",
+   "n": 94,
+   "long_laugh": 0.223,
+   "pos_end": 0.234,
+   "pos_start": 0.351
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "function": "reaction_to_humor",
+   "n": 189,
+   "long_laugh": 0.365,
+   "pos_end": 0.079,
+   "pos_start": 0.63
+  },
+  {
+   "corpus": "whatsapp_nl",
+   "function": "softener",
+   "n": 155,
+   "long_laugh": 0.071,
+   "pos_end": 0.31,
+   "pos_start": 0.31
+  }
+ ]
+}
