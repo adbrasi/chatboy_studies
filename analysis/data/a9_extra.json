@@ -1,0 +1,88 @@
+{
+ "H_all_maichat": {
+  "perf_open": 0.053,
+  "plain_open": 0.319,
+  "recip_q": 0.012,
+  "n": 2871
+ },
+ "H": {
+  "perf_open": 0.05,
+  "plain_open": 0.412,
+  "recip_q": 0.05,
+  "n": 119
+ },
+ "A": {
+  "perf_open": 0.37,
+  "plain_open": 0.134,
+  "recip_q": 0.176,
+  "artifacts": 5,
+  "n": 119
+ },
+ "S": {
+  "perf_open": 0.294,
+  "plain_open": 0.218,
+  "recip_q": 0.134,
+  "artifacts": 1,
+  "n": 119
+ },
+ "B": {
+  "perf_open": 0.076,
+  "plain_open": 0.168,
+  "recip_q": 0.008,
+  "artifacts": 0,
+  "n": 119
+ },
+ "C": {
+  "perf_open": 0.067,
+  "plain_open": 0.185,
+  "recip_q": 0.0,
+  "artifacts": 0,
+  "n": 119
+ },
+ "D": {
+  "perf_open": 0.319,
+  "plain_open": 0.269,
+  "recip_q": 0.193,
+  "artifacts": 3,
+  "n": 119
+ },
+ "Bnojev": {
+  "perf_open": 0.0,
+  "plain_open": 0.167,
+  "recip_q": 0.056,
+  "artifacts": 0,
+  "n": 36
+ },
+ "Blong": {
+  "perf_open": 0.056,
+  "plain_open": 0.056,
+  "recip_q": 0.111,
+  "artifacts": 0,
+  "n": 36
+ },
+ "Bnoban": {
+  "perf_open": 0.056,
+  "plain_open": 0.083,
+  "recip_q": 0.0,
+  "artifacts": 0,
+  "n": 36
+ },
+ "Bpure": {
+  "perf_open": 0.0,
+  "plain_open": 0.111,
+  "recip_q": 0.0,
+  "artifacts": 0,
+  "n": 36
+ },
+ "len_spearman_sub36": {
+  "A": 0.199,
+  "S": 0.09,
+  "B": 0.467,
+  "C": 0.399,
+  "D": 0.216,
+  "Bnojev": 0.279,
+  "Bpure": 0.428,
+  "Bnoban": 0.199,
+  "Blong": 0.197
+ }
+}
