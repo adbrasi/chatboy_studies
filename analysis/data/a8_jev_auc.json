@@ -847,5 +847,38 @@
    "gate_v2": -0.561
   }
  },
- "pairwise": {}
+ "pairwise": {
+  "base_gemini": {
+   "n": 250,
+   "acc_picks_human": 0.12,
+   "mean_p_human": 0.289,
+   "pct_choose_A": 0.468,
+   "acc_maichat": 0.11,
+   "acc_empathetic": 0.16
+  },
+  "base_gpt4omini": {
+   "n": 250,
+   "acc_picks_human": 0.456,
+   "mean_p_human": 0.457,
+   "pct_choose_A": 0.384,
+   "acc_maichat": 0.465,
+   "acc_empathetic": 0.42
+  },
+  "styled_gemini": {
+   "n": 250,
+   "acc_picks_human": 0.428,
+   "mean_p_human": 0.434,
+   "pct_choose_A": 0.46,
+   "acc_maichat": 0.455,
+   "acc_empathetic": 0.32
+  },
+  "bestof3_jev": {
+   "n": 250,
+   "acc_picks_human": 0.388,
+   "mean_p_human": 0.431,
+   "pct_choose_A": 0.46,
+   "acc_maichat": 0.415,
+   "acc_empathetic": 0.28
+  }
+ }
 }

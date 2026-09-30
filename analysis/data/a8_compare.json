@@ -335,6 +335,174 @@
    "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 1.2,
    "pct:sentences>=3": 41.6,
    "pct:multi_paragraph": 0.0
+  },
+  "styled_gemini": {
+   "n": 250,
+   "chars_median": 19.0,
+   "chars_mean": 24.32,
+   "words_median": 4.0,
+   "words_mean": 4.68,
+   "sentences_median": 1.0,
+   "sentences_mean": 1.15,
+   "lines_median": 1.0,
+   "lines_mean": 1.11,
+   "echo_ratio_median": 0.0,
+   "echo_ratio_mean": 0.04,
+   "pct:any_q": 3.6,
+   "pct:ends_q": 2.0,
+   "pct:any_excl": 0.4,
+   "pct:multi_excl": 0.4,
+   "pct:emoji": 1.6,
+   "pct:laugh": 9.6,
+   "pct:final_punct": 2.0,
+   "pct:final_period": 0.0,
+   "pct:starts_lower": 99.6,
+   "pct:all_lower": 98.4,
+   "pct:elongation": 2.0,
+   "pct:no_apostrophe": 4.8,
+   "pct:self_correction": 0.0,
+   "pct:le3_words": 43.2,
+   "pct:echo_any2": 2.0,
+   "pct:tic:like (qualquer uso)": 0.8,
+   "pct:tic:honestly": 0.4,
+   "pct:tic:literally": 2.4,
+   "pct:tic:i mean": 0.0,
+   "pct:tic:tbh/ngl": 9.6,
+   "pct:tic:idk/dunno": 0.8,
+   "pct:tic:omg": 1.6,
+   "pct:tic:lol/lmao": 8.4,
+   "pct:tic:haha-família": 0.8,
+   "pct:tic:anyway(s)": 0.8,
+   "pct:tic:wait": 14.4,
+   "pct:tic:so (início)": 1.6,
+   "pct:tic:oh/ooh (início)": 0.0,
+   "pct:tic:ok/okay/k (início)": 0.4,
+   "pct:tic:yeah/yea/ya/yes": 5.6,
+   "pct:tic:no/nah/nope": 3.2,
+   "pct:tic:hmm/umm/uh": 0.0,
+   "pct:tic:ugh": 2.8,
+   "pct:tic:same": 1.6,
+   "pct:tic:true/fair/exactly": 6.0,
+   "pct:tic:kinda/sorta/gonna/wanna": 2.4,
+   "pct:tic:u/ur/r (abreviação)": 2.0,
+   "pct:tic:começa com and/but": 0.0,
+   "pct:tic:começa com wait": 12.4,
+   "pct:tic:lol no fim (pontuação)": 6.4,
+   "pct:llm:absolutely": 0.0,
+   "pct:llm:totally": 1.6,
+   "pct:llm:definitely": 2.0,
+   "pct:llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.0,
+   "pct:llm:sounds (like/amazing/fun/great…)": 1.2,
+   "pct:llm:i'd love to / i would love": 0.0,
+   "pct:llm:it's okay to / it's normal to / it's understandable": 0.0,
+   "pct:llm:i'm here for you / here if you need": 0.0,
+   "pct:llm:i'm (so) sorry to hear / sorry you're": 0.0,
+   "pct:llm:so proud of you": 0.0,
+   "pct:llm:that's so sweet / aww": 0.0,
+   "pct:llm:journey": 0.0,
+   "pct:llm:vibe(s)": 0.4,
+   "pct:llm:em dash —": 0.0,
+   "pct:llm:começa com 'Oh,'": 0.0,
+   "pct:llm:começa com 'Haha,' / 'Lol,'": 0.0,
+   "pct:llm:what about you / how about you / and you?": 0.4,
+   "pct:llm:let me know / feel free": 0.0,
+   "pct:llm:i hope / hopefully": 0.0,
+   "pct:llm:for sure": 0.4,
+   "pct:llm:can't wait": 0.8,
+   "pct:llm:tell me (more/everything)": 0.0,
+   "pct:llm:so much fun / a blast": 0.0,
+   "pct:llm:nome do usuário (vocativo)": 0.4,
+   "pct:llm:right? (tag)": 0.4,
+   "pct:llm:💀/😭 (gíria emoji)": 0.8,
+   "pct:llm:😂/🤣": 0.4,
+   "pct:llm:😊/🥰/❤️/✨/🎉": 0.0,
+   "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.4,
+   "pct:sentences>=3": 0.4,
+   "pct:multi_paragraph": 5.2
+  },
+  "bestof3_jev": {
+   "n": 250,
+   "chars_median": 19.0,
+   "chars_mean": 21,
+   "words_median": 4.0,
+   "words_mean": 4.25,
+   "sentences_median": 1.0,
+   "sentences_mean": 1.08,
+   "lines_median": 1.0,
+   "lines_mean": 1.07,
+   "echo_ratio_median": 0.0,
+   "echo_ratio_mean": 0.03,
+   "pct:any_q": 2.0,
+   "pct:ends_q": 0.8,
+   "pct:any_excl": 1.2,
+   "pct:multi_excl": 0.0,
+   "pct:emoji": 1.6,
+   "pct:laugh": 6.0,
+   "pct:final_punct": 1.2,
+   "pct:final_period": 0.0,
+   "pct:starts_lower": 99.6,
+   "pct:all_lower": 98.0,
+   "pct:elongation": 0.4,
+   "pct:no_apostrophe": 2.8,
+   "pct:self_correction": 0.0,
+   "pct:le3_words": 44.0,
+   "pct:echo_any2": 0.8,
+   "pct:tic:like (qualquer uso)": 1.2,
+   "pct:tic:honestly": 2.0,
+   "pct:tic:literally": 2.0,
+   "pct:tic:i mean": 0.0,
+   "pct:tic:tbh/ngl": 9.2,
+   "pct:tic:idk/dunno": 1.2,
+   "pct:tic:omg": 1.2,
+   "pct:tic:lol/lmao": 5.2,
+   "pct:tic:haha-família": 0.4,
+   "pct:tic:anyway(s)": 0.8,
+   "pct:tic:wait": 14.8,
+   "pct:tic:so (início)": 2.4,
+   "pct:tic:oh/ooh (início)": 2.8,
+   "pct:tic:ok/okay/k (início)": 0.4,
+   "pct:tic:yeah/yea/ya/yes": 6.4,
+   "pct:tic:no/nah/nope": 3.6,
+   "pct:tic:hmm/umm/uh": 0.0,
+   "pct:tic:ugh": 2.4,
+   "pct:tic:same": 1.2,
+   "pct:tic:true/fair/exactly": 2.8,
+   "pct:tic:kinda/sorta/gonna/wanna": 0.8,
+   "pct:tic:u/ur/r (abreviação)": 0.8,
+   "pct:tic:começa com and/but": 0.0,
+   "pct:tic:começa com wait": 13.2,
+   "pct:tic:lol no fim (pontuação)": 2.8,
+   "pct:llm:absolutely": 0.0,
+   "pct:llm:totally": 0.0,
+   "pct:llm:definitely": 0.8,
+   "pct:llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.0,
+   "pct:llm:sounds (like/amazing/fun/great…)": 1.2,
+   "pct:llm:i'd love to / i would love": 0.0,
+   "pct:llm:it's okay to / it's normal to / it's understandable": 0.0,
+   "pct:llm:i'm here for you / here if you need": 0.0,
+   "pct:llm:i'm (so) sorry to hear / sorry you're": 0.0,
+   "pct:llm:so proud of you": 0.0,
+   "pct:llm:that's so sweet / aww": 0.0,
+   "pct:llm:journey": 0.0,
+   "pct:llm:vibe(s)": 0.0,
+   "pct:llm:em dash —": 0.0,
+   "pct:llm:começa com 'Oh,'": 0.0,
+   "pct:llm:começa com 'Haha,' / 'Lol,'": 0.0,
+   "pct:llm:what about you / how about you / and you?": 0.0,
+   "pct:llm:let me know / feel free": 0.4,
+   "pct:llm:i hope / hopefully": 0.0,
+   "pct:llm:for sure": 0.4,
+   "pct:llm:can't wait": 0.8,
+   "pct:llm:tell me (more/everything)": 0.0,
+   "pct:llm:so much fun / a blast": 0.0,
+   "pct:llm:nome do usuário (vocativo)": 0.4,
+   "pct:llm:right? (tag)": 0.8,
+   "pct:llm:💀/😭 (gíria emoji)": 0.4,
+   "pct:llm:😂/🤣": 0.4,
+   "pct:llm:😊/🥰/❤️/✨/🎉": 0.0,
+   "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.0,
+   "pct:sentences>=3": 0.0,
+   "pct:multi_paragraph": 3.6
   }
  },
  "by_src": {
@@ -674,6 +842,174 @@
     "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 1.0,
     "pct:sentences>=3": 28.5,
     "pct:multi_paragraph": 0.0
+   },
+   "styled_gemini": {
+    "n": 200,
+    "chars_median": 18.0,
+    "chars_mean": 22.05,
+    "words_median": 4.0,
+    "words_mean": 4.29,
+    "sentences_median": 1.0,
+    "sentences_mean": 1.11,
+    "lines_median": 1.0,
+    "lines_mean": 1.09,
+    "echo_ratio_median": 0.0,
+    "echo_ratio_mean": 0.04,
+    "pct:any_q": 2.0,
+    "pct:ends_q": 1.0,
+    "pct:any_excl": 0.0,
+    "pct:multi_excl": 0.0,
+    "pct:emoji": 2.0,
+    "pct:laugh": 11.0,
+    "pct:final_punct": 1.0,
+    "pct:final_period": 0.0,
+    "pct:starts_lower": 99.5,
+    "pct:all_lower": 99.0,
+    "pct:elongation": 2.0,
+    "pct:no_apostrophe": 4.5,
+    "pct:self_correction": 0.0,
+    "pct:le3_words": 47.0,
+    "pct:echo_any2": 2.0,
+    "pct:tic:like (qualquer uso)": 0.5,
+    "pct:tic:honestly": 0.5,
+    "pct:tic:literally": 2.5,
+    "pct:tic:i mean": 0.0,
+    "pct:tic:tbh/ngl": 11.5,
+    "pct:tic:idk/dunno": 1.0,
+    "pct:tic:omg": 2.0,
+    "pct:tic:lol/lmao": 9.5,
+    "pct:tic:haha-família": 1.0,
+    "pct:tic:anyway(s)": 1.0,
+    "pct:tic:wait": 8.0,
+    "pct:tic:so (início)": 2.0,
+    "pct:tic:oh/ooh (início)": 0.0,
+    "pct:tic:ok/okay/k (início)": 0.5,
+    "pct:tic:yeah/yea/ya/yes": 6.0,
+    "pct:tic:no/nah/nope": 3.0,
+    "pct:tic:hmm/umm/uh": 0.0,
+    "pct:tic:ugh": 1.5,
+    "pct:tic:same": 1.5,
+    "pct:tic:true/fair/exactly": 7.5,
+    "pct:tic:kinda/sorta/gonna/wanna": 2.5,
+    "pct:tic:u/ur/r (abreviação)": 2.0,
+    "pct:tic:começa com and/but": 0.0,
+    "pct:tic:começa com wait": 5.5,
+    "pct:tic:lol no fim (pontuação)": 7.0,
+    "pct:llm:absolutely": 0.0,
+    "pct:llm:totally": 2.0,
+    "pct:llm:definitely": 2.5,
+    "pct:llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.0,
+    "pct:llm:sounds (like/amazing/fun/great…)": 1.5,
+    "pct:llm:i'd love to / i would love": 0.0,
+    "pct:llm:it's okay to / it's normal to / it's understandable": 0.0,
+    "pct:llm:i'm here for you / here if you need": 0.0,
+    "pct:llm:i'm (so) sorry to hear / sorry you're": 0.0,
+    "pct:llm:so proud of you": 0.0,
+    "pct:llm:that's so sweet / aww": 0.0,
+    "pct:llm:journey": 0.0,
+    "pct:llm:vibe(s)": 0.5,
+    "pct:llm:em dash —": 0.0,
+    "pct:llm:começa com 'Oh,'": 0.0,
+    "pct:llm:começa com 'Haha,' / 'Lol,'": 0.0,
+    "pct:llm:what about you / how about you / and you?": 0.5,
+    "pct:llm:let me know / feel free": 0.0,
+    "pct:llm:i hope / hopefully": 0.0,
+    "pct:llm:for sure": 0.5,
+    "pct:llm:can't wait": 1.0,
+    "pct:llm:tell me (more/everything)": 0.0,
+    "pct:llm:so much fun / a blast": 0.0,
+    "pct:llm:nome do usuário (vocativo)": 0.0,
+    "pct:llm:right? (tag)": 0.5,
+    "pct:llm:💀/😭 (gíria emoji)": 1.0,
+    "pct:llm:😂/🤣": 0.5,
+    "pct:llm:😊/🥰/❤️/✨/🎉": 0.0,
+    "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.5,
+    "pct:sentences>=3": 0.0,
+    "pct:multi_paragraph": 3.0
+   },
+   "bestof3_jev": {
+    "n": 200,
+    "chars_median": 18.0,
+    "chars_mean": 20.2,
+    "words_median": 4.0,
+    "words_mean": 4.06,
+    "sentences_median": 1.0,
+    "sentences_mean": 1.08,
+    "lines_median": 1.0,
+    "lines_mean": 1.06,
+    "echo_ratio_median": 0.0,
+    "echo_ratio_mean": 0.02,
+    "pct:any_q": 1.5,
+    "pct:ends_q": 0.0,
+    "pct:any_excl": 1.0,
+    "pct:multi_excl": 0.0,
+    "pct:emoji": 2.0,
+    "pct:laugh": 7.0,
+    "pct:final_punct": 0.5,
+    "pct:final_period": 0.0,
+    "pct:starts_lower": 99.5,
+    "pct:all_lower": 98.5,
+    "pct:elongation": 0.5,
+    "pct:no_apostrophe": 3.0,
+    "pct:self_correction": 0.0,
+    "pct:le3_words": 47.0,
+    "pct:echo_any2": 0.5,
+    "pct:tic:like (qualquer uso)": 0.5,
+    "pct:tic:honestly": 2.5,
+    "pct:tic:literally": 2.5,
+    "pct:tic:i mean": 0.0,
+    "pct:tic:tbh/ngl": 10.5,
+    "pct:tic:idk/dunno": 1.5,
+    "pct:tic:omg": 1.0,
+    "pct:tic:lol/lmao": 6.0,
+    "pct:tic:haha-família": 0.5,
+    "pct:tic:anyway(s)": 1.0,
+    "pct:tic:wait": 8.5,
+    "pct:tic:so (início)": 2.0,
+    "pct:tic:oh/ooh (início)": 2.0,
+    "pct:tic:ok/okay/k (início)": 0.5,
+    "pct:tic:yeah/yea/ya/yes": 8.0,
+    "pct:tic:no/nah/nope": 3.0,
+    "pct:tic:hmm/umm/uh": 0.0,
+    "pct:tic:ugh": 1.5,
+    "pct:tic:same": 1.0,
+    "pct:tic:true/fair/exactly": 3.5,
+    "pct:tic:kinda/sorta/gonna/wanna": 0.5,
+    "pct:tic:u/ur/r (abreviação)": 1.0,
+    "pct:tic:começa com and/but": 0.0,
+    "pct:tic:começa com wait": 7.0,
+    "pct:tic:lol no fim (pontuação)": 3.0,
+    "pct:llm:absolutely": 0.0,
+    "pct:llm:totally": 0.0,
+    "pct:llm:definitely": 1.0,
+    "pct:llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.0,
+    "pct:llm:sounds (like/amazing/fun/great…)": 1.5,
+    "pct:llm:i'd love to / i would love": 0.0,
+    "pct:llm:it's okay to / it's normal to / it's understandable": 0.0,
+    "pct:llm:i'm here for you / here if you need": 0.0,
+    "pct:llm:i'm (so) sorry to hear / sorry you're": 0.0,
+    "pct:llm:so proud of you": 0.0,
+    "pct:llm:that's so sweet / aww": 0.0,
+    "pct:llm:journey": 0.0,
+    "pct:llm:vibe(s)": 0.0,
+    "pct:llm:em dash —": 0.0,
+    "pct:llm:começa com 'Oh,'": 0.0,
+    "pct:llm:começa com 'Haha,' / 'Lol,'": 0.0,
+    "pct:llm:what about you / how about you / and you?": 0.0,
+    "pct:llm:let me know / feel free": 0.5,
+    "pct:llm:i hope / hopefully": 0.0,
+    "pct:llm:for sure": 0.5,
+    "pct:llm:can't wait": 1.0,
+    "pct:llm:tell me (more/everything)": 0.0,
+    "pct:llm:so much fun / a blast": 0.0,
+    "pct:llm:nome do usuário (vocativo)": 0.0,
+    "pct:llm:right? (tag)": 1.0,
+    "pct:llm:💀/😭 (gíria emoji)": 0.5,
+    "pct:llm:😂/🤣": 0.5,
+    "pct:llm:😊/🥰/❤️/✨/🎉": 0.0,
+    "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.0,
+    "pct:sentences>=3": 0.0,
+    "pct:multi_paragraph": 2.0
    }
   },
   "empathetic": {
@@ -1012,6 +1348,174 @@
     "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 2.0,
     "pct:sentences>=3": 94.0,
     "pct:multi_paragraph": 0.0
+   },
+   "styled_gemini": {
+    "n": 50,
+    "chars_median": 22.0,
+    "chars_mean": 33.36,
+    "words_median": 4.5,
+    "words_mean": 6.26,
+    "sentences_median": 1.0,
+    "sentences_mean": 1.3,
+    "lines_median": 1.0,
+    "lines_mean": 1.2,
+    "echo_ratio_median": 0.0,
+    "echo_ratio_mean": 0.05,
+    "pct:any_q": 10.0,
+    "pct:ends_q": 6.0,
+    "pct:any_excl": 2.0,
+    "pct:multi_excl": 2.0,
+    "pct:emoji": 0.0,
+    "pct:laugh": 4.0,
+    "pct:final_punct": 6.0,
+    "pct:final_period": 0.0,
+    "pct:starts_lower": 100.0,
+    "pct:all_lower": 96.0,
+    "pct:elongation": 2.0,
+    "pct:no_apostrophe": 6.0,
+    "pct:self_correction": 0.0,
+    "pct:le3_words": 28.0,
+    "pct:echo_any2": 2.0,
+    "pct:tic:like (qualquer uso)": 2.0,
+    "pct:tic:honestly": 0.0,
+    "pct:tic:literally": 2.0,
+    "pct:tic:i mean": 0.0,
+    "pct:tic:tbh/ngl": 2.0,
+    "pct:tic:idk/dunno": 0.0,
+    "pct:tic:omg": 0.0,
+    "pct:tic:lol/lmao": 4.0,
+    "pct:tic:haha-família": 0.0,
+    "pct:tic:anyway(s)": 0.0,
+    "pct:tic:wait": 40.0,
+    "pct:tic:so (início)": 0.0,
+    "pct:tic:oh/ooh (início)": 0.0,
+    "pct:tic:ok/okay/k (início)": 0.0,
+    "pct:tic:yeah/yea/ya/yes": 4.0,
+    "pct:tic:no/nah/nope": 4.0,
+    "pct:tic:hmm/umm/uh": 0.0,
+    "pct:tic:ugh": 8.0,
+    "pct:tic:same": 2.0,
+    "pct:tic:true/fair/exactly": 0.0,
+    "pct:tic:kinda/sorta/gonna/wanna": 2.0,
+    "pct:tic:u/ur/r (abreviação)": 2.0,
+    "pct:tic:começa com and/but": 0.0,
+    "pct:tic:começa com wait": 40.0,
+    "pct:tic:lol no fim (pontuação)": 4.0,
+    "pct:llm:absolutely": 0.0,
+    "pct:llm:totally": 0.0,
+    "pct:llm:definitely": 0.0,
+    "pct:llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.0,
+    "pct:llm:sounds (like/amazing/fun/great…)": 0.0,
+    "pct:llm:i'd love to / i would love": 0.0,
+    "pct:llm:it's okay to / it's normal to / it's understandable": 0.0,
+    "pct:llm:i'm here for you / here if you need": 0.0,
+    "pct:llm:i'm (so) sorry to hear / sorry you're": 0.0,
+    "pct:llm:so proud of you": 0.0,
+    "pct:llm:that's so sweet / aww": 0.0,
+    "pct:llm:journey": 0.0,
+    "pct:llm:vibe(s)": 0.0,
+    "pct:llm:em dash —": 0.0,
+    "pct:llm:começa com 'Oh,'": 0.0,
+    "pct:llm:começa com 'Haha,' / 'Lol,'": 0.0,
+    "pct:llm:what about you / how about you / and you?": 0.0,
+    "pct:llm:let me know / feel free": 0.0,
+    "pct:llm:i hope / hopefully": 0.0,
+    "pct:llm:for sure": 0.0,
+    "pct:llm:can't wait": 0.0,
+    "pct:llm:tell me (more/everything)": 0.0,
+    "pct:llm:so much fun / a blast": 0.0,
+    "pct:llm:nome do usuário (vocativo)": 2.0,
+    "pct:llm:right? (tag)": 0.0,
+    "pct:llm:💀/😭 (gíria emoji)": 0.0,
+    "pct:llm:😂/🤣": 0.0,
+    "pct:llm:😊/🥰/❤️/✨/🎉": 0.0,
+    "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.0,
+    "pct:sentences>=3": 2.0,
+    "pct:multi_paragraph": 14.0
+   },
+   "bestof3_jev": {
+    "n": 50,
+    "chars_median": 21.5,
+    "chars_mean": 24.22,
+    "words_median": 4.5,
+    "words_mean": 5,
+    "sentences_median": 1.0,
+    "sentences_mean": 1.1,
+    "lines_median": 1.0,
+    "lines_mean": 1.1,
+    "echo_ratio_median": 0.0,
+    "echo_ratio_mean": 0.03,
+    "pct:any_q": 4.0,
+    "pct:ends_q": 4.0,
+    "pct:any_excl": 2.0,
+    "pct:multi_excl": 0.0,
+    "pct:emoji": 0.0,
+    "pct:laugh": 2.0,
+    "pct:final_punct": 4.0,
+    "pct:final_period": 0.0,
+    "pct:starts_lower": 100.0,
+    "pct:all_lower": 96.0,
+    "pct:elongation": 0.0,
+    "pct:no_apostrophe": 2.0,
+    "pct:self_correction": 0.0,
+    "pct:le3_words": 32.0,
+    "pct:echo_any2": 2.0,
+    "pct:tic:like (qualquer uso)": 4.0,
+    "pct:tic:honestly": 0.0,
+    "pct:tic:literally": 0.0,
+    "pct:tic:i mean": 0.0,
+    "pct:tic:tbh/ngl": 4.0,
+    "pct:tic:idk/dunno": 0.0,
+    "pct:tic:omg": 2.0,
+    "pct:tic:lol/lmao": 2.0,
+    "pct:tic:haha-família": 0.0,
+    "pct:tic:anyway(s)": 0.0,
+    "pct:tic:wait": 40.0,
+    "pct:tic:so (início)": 4.0,
+    "pct:tic:oh/ooh (início)": 6.0,
+    "pct:tic:ok/okay/k (início)": 0.0,
+    "pct:tic:yeah/yea/ya/yes": 0.0,
+    "pct:tic:no/nah/nope": 6.0,
+    "pct:tic:hmm/umm/uh": 0.0,
+    "pct:tic:ugh": 6.0,
+    "pct:tic:same": 2.0,
+    "pct:tic:true/fair/exactly": 0.0,
+    "pct:tic:kinda/sorta/gonna/wanna": 2.0,
+    "pct:tic:u/ur/r (abreviação)": 0.0,
+    "pct:tic:começa com and/but": 0.0,
+    "pct:tic:começa com wait": 38.0,
+    "pct:tic:lol no fim (pontuação)": 2.0,
+    "pct:llm:absolutely": 0.0,
+    "pct:llm:totally": 0.0,
+    "pct:llm:definitely": 0.0,
+    "pct:llm:that's/that is + amazing/awesome/great/wonderful/fantastic": 0.0,
+    "pct:llm:sounds (like/amazing/fun/great…)": 0.0,
+    "pct:llm:i'd love to / i would love": 0.0,
+    "pct:llm:it's okay to / it's normal to / it's understandable": 0.0,
+    "pct:llm:i'm here for you / here if you need": 0.0,
+    "pct:llm:i'm (so) sorry to hear / sorry you're": 0.0,
+    "pct:llm:so proud of you": 0.0,
+    "pct:llm:that's so sweet / aww": 0.0,
+    "pct:llm:journey": 0.0,
+    "pct:llm:vibe(s)": 0.0,
+    "pct:llm:em dash —": 0.0,
+    "pct:llm:começa com 'Oh,'": 0.0,
+    "pct:llm:começa com 'Haha,' / 'Lol,'": 0.0,
+    "pct:llm:what about you / how about you / and you?": 0.0,
+    "pct:llm:let me know / feel free": 0.0,
+    "pct:llm:i hope / hopefully": 0.0,
+    "pct:llm:for sure": 0.0,
+    "pct:llm:can't wait": 0.0,
+    "pct:llm:tell me (more/everything)": 0.0,
+    "pct:llm:so much fun / a blast": 0.0,
+    "pct:llm:nome do usuário (vocativo)": 2.0,
+    "pct:llm:right? (tag)": 0.0,
+    "pct:llm:💀/😭 (gíria emoji)": 0.0,
+    "pct:llm:😂/🤣": 0.0,
+    "pct:llm:😊/🥰/❤️/✨/🎉": 0.0,
+    "pct:llm:gíria forçada (bestie/slay/no cap/fr fr/vibing/elite/iconic/lowkey)": 0.0,
+    "pct:sentences>=3": 0.0,
+    "pct:multi_paragraph": 10.0
    }
   }
  },
@@ -1048,6 +1552,22 @@
     "sent_mean": 4.16,
     "excl_pct": 88,
     "emoji_pct": 0
+   },
+   "styled_gemini": {
+    "n": 25,
+    "chars_med": 27,
+    "ends_q_pct": 12,
+    "sent_mean": 1.52,
+    "excl_pct": 0,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 25,
+    "chars_med": 27,
+    "ends_q_pct": 8,
+    "sent_mean": 1.16,
+    "excl_pct": 0,
+    "emoji_pct": 0
    }
   },
   "emp_pos": {
@@ -1081,6 +1601,22 @@
     "ends_q_pct": 88,
     "sent_mean": 3.96,
     "excl_pct": 92,
+    "emoji_pct": 0
+   },
+   "styled_gemini": {
+    "n": 25,
+    "chars_med": 18,
+    "ends_q_pct": 0,
+    "sent_mean": 1.08,
+    "excl_pct": 4,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 25,
+    "chars_med": 18,
+    "ends_q_pct": 0,
+    "sent_mean": 1.04,
+    "excl_pct": 4,
     "emoji_pct": 0
    }
   },
@@ -1116,6 +1652,22 @@
     "sent_mean": 2.13,
     "excl_pct": 67,
     "emoji_pct": 7
+   },
+   "styled_gemini": {
+    "n": 15,
+    "chars_med": 19,
+    "ends_q_pct": 7,
+    "sent_mean": 1.13,
+    "excl_pct": 0,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 15,
+    "chars_med": 17,
+    "ends_q_pct": 0,
+    "sent_mean": 1.07,
+    "excl_pct": 0,
+    "emoji_pct": 0
    }
   },
   "reagir_algo_engracado": {
@@ -1150,6 +1702,22 @@
     "sent_mean": 1.52,
     "excl_pct": 32,
     "emoji_pct": 24
+   },
+   "styled_gemini": {
+    "n": 25,
+    "chars_med": 23,
+    "ends_q_pct": 4,
+    "sent_mean": 1.08,
+    "excl_pct": 0,
+    "emoji_pct": 8
+   },
+   "bestof3_jev": {
+    "n": 25,
+    "chars_med": 20,
+    "ends_q_pct": 0,
+    "sent_mean": 1.08,
+    "excl_pct": 4,
+    "emoji_pct": 8
    }
   },
   "reagir_desabafo_negativo": {
@@ -1184,6 +1752,22 @@
     "sent_mean": 1.44,
     "excl_pct": 36,
     "emoji_pct": 8
+   },
+   "styled_gemini": {
+    "n": 25,
+    "chars_med": 22,
+    "ends_q_pct": 0,
+    "sent_mean": 1.08,
+    "excl_pct": 0,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 25,
+    "chars_med": 15,
+    "ends_q_pct": 0,
+    "sent_mean": 1.04,
+    "excl_pct": 0,
+    "emoji_pct": 0
    }
   },
   "reagir_noticia_boa": {
@@ -1218,6 +1802,22 @@
     "sent_mean": 2.48,
     "excl_pct": 68,
     "emoji_pct": 12
+   },
+   "styled_gemini": {
+    "n": 25,
+    "chars_med": 16,
+    "ends_q_pct": 0,
+    "sent_mean": 1.12,
+    "excl_pct": 0,
+    "emoji_pct": 4
+   },
+   "bestof3_jev": {
+    "n": 25,
+    "chars_med": 17,
+    "ends_q_pct": 0,
+    "sent_mean": 1.12,
+    "excl_pct": 0,
+    "emoji_pct": 0
    }
   },
   "responder_como_vai": {
@@ -1251,6 +1851,22 @@
     "ends_q_pct": 70,
     "sent_mean": 3.15,
     "excl_pct": 70,
+    "emoji_pct": 0
+   },
+   "styled_gemini": {
+    "n": 20,
+    "chars_med": 17.0,
+    "ends_q_pct": 0,
+    "sent_mean": 1.2,
+    "excl_pct": 0,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 20,
+    "chars_med": 21.0,
+    "ends_q_pct": 0,
+    "sent_mean": 1.15,
+    "excl_pct": 5,
     "emoji_pct": 0
    }
   },
@@ -1286,6 +1902,22 @@
     "sent_mean": 1.44,
     "excl_pct": 28,
     "emoji_pct": 20
+   },
+   "styled_gemini": {
+    "n": 25,
+    "chars_med": 16,
+    "ends_q_pct": 0,
+    "sent_mean": 1.04,
+    "excl_pct": 0,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 25,
+    "chars_med": 17,
+    "ends_q_pct": 0,
+    "sent_mean": 1.04,
+    "excl_pct": 0,
+    "emoji_pct": 4
    }
   },
   "responder_pergunta": {
@@ -1320,6 +1952,22 @@
     "sent_mean": 2.36,
     "excl_pct": 48,
     "emoji_pct": 4
+   },
+   "styled_gemini": {
+    "n": 25,
+    "chars_med": 25,
+    "ends_q_pct": 0,
+    "sent_mean": 1.24,
+    "excl_pct": 0,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 25,
+    "chars_med": 24,
+    "ends_q_pct": 0,
+    "sent_mean": 1.16,
+    "excl_pct": 0,
+    "emoji_pct": 0
    }
   },
   "responder_plano": {
@@ -1354,6 +2002,22 @@
     "sent_mean": 2.05,
     "excl_pct": 45,
     "emoji_pct": 5
+   },
+   "styled_gemini": {
+    "n": 20,
+    "chars_med": 15.0,
+    "ends_q_pct": 0,
+    "sent_mean": 1.05,
+    "excl_pct": 0,
+    "emoji_pct": 0
+   },
+   "bestof3_jev": {
+    "n": 20,
+    "chars_med": 17.5,
+    "ends_q_pct": 0,
+    "sent_mean": 1.05,
+    "excl_pct": 0,
+    "emoji_pct": 0
    }
   },
   "responder_provocacao_ou_bronca": {
@@ -1388,6 +2052,22 @@
     "sent_mean": 1.7,
     "excl_pct": 30,
     "emoji_pct": 5
+   },
+   "styled_gemini": {
+    "n": 20,
+    "chars_med": 16.0,
+    "ends_q_pct": 0,
+    "sent_mean": 1.1,
+    "excl_pct": 0,
+    "emoji_pct": 5
+   },
+   "bestof3_jev": {
+    "n": 20,
+    "chars_med": 15.5,
+    "ends_q_pct": 0,
+    "sent_mean": 1,
+    "excl_pct": 0,
+    "emoji_pct": 5
    }
   }
  },
@@ -1403,6 +2083,14 @@
   "base_llama70b": {
    "median_ratio_chars": 2.21,
    "pct_llm_longer": 76.0
+  },
+  "styled_gemini": {
+   "median_ratio_chars": 0.59,
+   "pct_llm_longer": 25.6
+  },
+  "bestof3_jev": {
+   "median_ratio_chars": 0.57,
+   "pct_llm_longer": 26.0
   }
  },
  "logodds": {
@@ -1572,19 +2260,19 @@
     2
    ],
    [
-    "that !",
-    2.96,
-    23,
-    1
-   ],
-   [
     "! i'm",
     2.96,
     23,
     1
    ],
    [
-    "hear that",
+    "that !",
+    2.96,
+    23,
+    1
+   ],
+   [
+    "feeling",
     2.95,
     25,
     2
@@ -1596,19 +2284,19 @@
     2
    ],
    [
-    "feeling",
+    "hear that",
     2.95,
     25,
     2
    ],
    [
-    "so sorry",
+    ", i'm",
     2.9,
     20,
     0
    ],
    [
-    ", i'm",
+    "so sorry",
     2.9,
     20,
     0
@@ -1638,25 +2326,25 @@
     13
    ],
    [
-    "thanks !",
-    2.83,
-    19,
-    0
-   ],
-   [
     ", thanks",
     2.83,
     19,
     0
    ],
    [
-    "i'm so sorry",
+    "thanks !",
+    2.83,
+    19,
+    0
+   ],
+   [
+    ". it's",
     2.75,
     18,
     0
    ],
    [
-    ". it's",
+    "i'm so sorry",
     2.75,
     18,
     0
@@ -1668,13 +2356,13 @@
     1
    ],
    [
-    "sorry to",
+    "sorry to hear",
     2.67,
     23,
     3
    ],
    [
-    "sorry to hear",
+    "sorry to",
     2.67,
     23,
     3
@@ -1734,7 +2422,19 @@
     3
    ],
    [
+    "!! i",
+    2.51,
+    15,
+    0
+   ],
+   [
     "totally get",
+    2.51,
+    15,
+    0
+   ],
+   [
+    ", right",
     2.51,
     15,
     0
@@ -1746,25 +2446,13 @@
     0
    ],
    [
-    ", thanks !",
-    2.51,
-    15,
-    0
-   ],
-   [
-    "!! i",
-    2.51,
-    15,
-    0
-   ],
-   [
     "jordan !",
     2.51,
     15,
     0
    ],
    [
-    ", right",
+    ", thanks !",
     2.51,
     15,
     0
@@ -1806,13 +2494,13 @@
     3
    ],
    [
-    ", right ?",
+    "to talk about",
     2.43,
     14,
     0
    ],
    [
-    "to talk about",
+    ", right ?",
     2.43,
     14,
     0
@@ -1884,13 +2572,13 @@
     1
    ],
    [
-    "sounds like",
+    "<s> that sounds",
     2.32,
     22,
     5
    ],
    [
-    "<s> that sounds",
+    "sounds like",
     2.32,
     22,
     5
@@ -1902,13 +2590,7 @@
     4
    ],
    [
-    "got back",
-    2.25,
-    12,
-    0
-   ],
-   [
-    "just got back",
+    ". what's",
     2.25,
     12,
     0
@@ -1920,19 +2602,19 @@
     0
    ],
    [
-    "got back from",
+    "just got back",
     2.25,
     12,
     0
    ],
    [
-    ". what's",
+    "got back",
     2.25,
     12,
     0
    ],
    [
-    "! what's",
+    "so sorry to",
     2.25,
     12,
     0
@@ -1950,7 +2632,13 @@
     0
    ],
    [
-    "so sorry to",
+    "! what's",
+    2.25,
+    12,
+    0
+   ],
+   [
+    "got back from",
     2.25,
     12,
     0
@@ -1974,7 +2662,7 @@
     3
    ],
    [
-    "! just got",
+    "huge",
     2.15,
     11,
     0
@@ -1986,31 +2674,7 @@
     0
    ],
    [
-    "jordan .",
-    2.15,
-    11,
-    0
-   ],
-   [
     "ugh ,",
-    2.15,
-    11,
-    0
-   ],
-   [
-    ", jordan .",
-    2.15,
-    11,
-    0
-   ],
-   [
-    "huge",
-    2.15,
-    11,
-    0
-   ],
-   [
-    "totally get that",
     2.15,
     11,
     0
@@ -2023,6 +2687,30 @@
    ],
    [
     "it's so",
+    2.15,
+    11,
+    0
+   ],
+   [
+    "! just got",
+    2.15,
+    11,
+    0
+   ],
+   [
+    "totally get that",
+    2.15,
+    11,
+    0
+   ],
+   [
+    "jordan .",
+    2.15,
+    11,
+    0
+   ],
+   [
+    ", jordan .",
     2.15,
     11,
     0
@@ -2088,19 +2776,7 @@
     2
    ],
    [
-    "thanks ! just",
-    2.05,
-    10,
-    0
-   ],
-   [
-    "wait ,",
-    2.05,
-    10,
-    0
-   ],
-   [
-    "? did you",
+    ", though",
     2.05,
     10,
     0
@@ -2112,19 +2788,31 @@
     0
    ],
    [
-    ", though",
-    2.05,
-    10,
-    0
-   ],
-   [
     "frustrating",
     2.05,
     10,
     0
    ],
    [
-    "<s> i totally",
+    "thanks ! just",
+    2.05,
+    10,
+    0
+   ],
+   [
+    "? did you",
+    2.05,
+    10,
+    0
+   ],
+   [
+    "wait ,",
+    2.05,
+    10,
+    0
+   ],
+   [
+    "what were",
     2.04,
     12,
     1
@@ -2366,13 +3054,13 @@
     50
    ],
    [
-    "idk",
+    "rude",
     -2.08,
     2,
     25
    ],
    [
-    "rude",
+    "idk",
     -2.08,
     2,
     25
@@ -2438,13 +3126,13 @@
     36
    ],
    [
-    "hello",
+    "yes i",
     -1.93,
     0,
     16
    ],
    [
-    "yes i",
+    "hello",
     -1.93,
     0,
     16
@@ -2480,13 +3168,13 @@
     27
    ],
    [
-    "<s> hello",
+    "<s> they",
     -1.87,
     0,
     15
    ],
    [
-    "<s> they",
+    "<s> hello",
     -1.87,
     0,
     15
@@ -2522,6 +3210,12 @@
     21
    ],
    [
+    "eat",
+    -1.83,
+    4,
+    26
+   ],
+   [
     "<s> it",
     -1.83,
     4,
@@ -2534,10 +3228,16 @@
     26
    ],
    [
-    "eat",
-    -1.83,
-    4,
-    26
+    "many",
+    -1.81,
+    0,
+    14
+   ],
+   [
+    "<s> btw",
+    -1.81,
+    0,
+    14
    ],
    [
     "<s> did u",
@@ -2552,31 +3252,19 @@
     14
    ],
    [
-    "<s> btw",
-    -1.81,
-    0,
-    14
-   ],
-   [
-    "many",
-    -1.81,
-    0,
-    14
-   ],
-   [
     "because",
     -1.75,
     3,
     22
    ],
    [
-    "<s> is",
+    "<s> yes i",
     -1.74,
     0,
     13
    ],
    [
-    "<s> do",
+    "<s> is",
     -1.74,
     0,
     13
@@ -2588,7 +3276,7 @@
     13
    ],
    [
-    "<s> yes i",
+    "<s> do",
     -1.74,
     0,
     13
@@ -2620,6 +3308,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 1.6,
    "base_llama70b": 0.4,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.5,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.1,
@@ -2631,6 +3321,8 @@
    "base_gemini": 8.0,
    "base_gpt4omini": 6.4,
    "base_llama70b": 1.6,
+   "styled_gemini": 1.6,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.2,
    "nps_chatroom_per1000msg": 0.3,
    "nus_sms_per1000msg": 1.0,
@@ -2642,6 +3334,8 @@
    "base_gemini": 4.8,
    "base_gpt4omini": 4.8,
    "base_llama70b": 0.8,
+   "styled_gemini": 2.0,
+   "bestof3_jev": 0.8,
    "maichat_per1000msg": 1.2,
    "nps_chatroom_per1000msg": 0.1,
    "nus_sms_per1000msg": 1.1,
@@ -2653,6 +3347,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 5.6,
    "base_llama70b": 4.4,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.5,
    "nps_chatroom_per1000msg": 0.4,
    "nus_sms_per1000msg": 0.5,
@@ -2664,6 +3360,8 @@
    "base_gemini": 2.0,
    "base_gpt4omini": 9.2,
    "base_llama70b": 4.0,
+   "styled_gemini": 1.2,
+   "bestof3_jev": 1.2,
    "maichat_per1000msg": 2.6,
    "nps_chatroom_per1000msg": 0.4,
    "nus_sms_per1000msg": 0.9,
@@ -2675,6 +3373,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 0.0,
    "base_llama70b": 0.8,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.2,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.1,
@@ -2686,6 +3386,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 1.2,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2697,6 +3399,8 @@
    "base_gemini": 0.8,
    "base_gpt4omini": 0.4,
    "base_llama70b": 0.4,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2708,6 +3412,8 @@
    "base_gemini": 2.0,
    "base_gpt4omini": 5.2,
    "base_llama70b": 4.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.4,
    "nus_sms_per1000msg": 0.0,
@@ -2719,6 +3425,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 0.0,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2730,6 +3438,8 @@
    "base_gemini": 4.8,
    "base_gpt4omini": 0.8,
    "base_llama70b": 3.6,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 2.2,
    "nps_chatroom_per1000msg": 4.7,
    "nus_sms_per1000msg": 1.7,
@@ -2741,6 +3451,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 0.4,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 1.7,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.5,
@@ -2752,6 +3464,8 @@
    "base_gemini": 2.0,
    "base_gpt4omini": 2.4,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.4,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 1.9,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2763,6 +3477,8 @@
    "base_gemini": 0.4,
    "base_gpt4omini": 0.8,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2774,6 +3490,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 0.4,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.2,
    "nps_chatroom_per1000msg": 0.8,
    "nus_sms_per1000msg": 0.6,
@@ -2785,6 +3503,8 @@
    "base_gemini": 0.8,
    "base_gpt4omini": 2.0,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.2,
    "nps_chatroom_per1000msg": 1.3,
    "nus_sms_per1000msg": 0.8,
@@ -2796,6 +3516,8 @@
    "base_gemini": 5.6,
    "base_gpt4omini": 8.0,
    "base_llama70b": 4.0,
+   "styled_gemini": 0.4,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 4.8,
    "nps_chatroom_per1000msg": 2.3,
    "nus_sms_per1000msg": 4.0,
@@ -2807,6 +3529,8 @@
    "base_gemini": 1.6,
    "base_gpt4omini": 1.2,
    "base_llama70b": 0.4,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.4,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.1,
    "nus_sms_per1000msg": 3.8,
@@ -2818,6 +3542,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 1.6,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 1.7,
    "nps_chatroom_per1000msg": 0.8,
    "nus_sms_per1000msg": 3.8,
@@ -2829,6 +3555,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 1.2,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.4,
+   "bestof3_jev": 0.4,
    "maichat_per1000msg": 1.0,
    "nps_chatroom_per1000msg": 0.1,
    "nus_sms_per1000msg": 0.4,
@@ -2840,6 +3568,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 2.8,
    "base_llama70b": 0.8,
+   "styled_gemini": 0.8,
+   "bestof3_jev": 0.8,
    "maichat_per1000msg": 0.7,
    "nps_chatroom_per1000msg": 0.5,
    "nus_sms_per1000msg": 0.7,
@@ -2851,6 +3581,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 0.0,
    "base_llama70b": 0.4,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.1,
@@ -2862,6 +3594,8 @@
    "base_gemini": 0.0,
    "base_gpt4omini": 0.4,
    "base_llama70b": 2.4,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 0.7,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2873,6 +3607,8 @@
    "base_gemini": 5.2,
    "base_gpt4omini": 4.8,
    "base_llama70b": 5.2,
+   "styled_gemini": 0.4,
+   "bestof3_jev": 0.4,
    "maichat_per1000msg": 0.0,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.1,
@@ -2884,6 +3620,8 @@
    "base_gemini": 4.4,
    "base_gpt4omini": 8.4,
    "base_llama70b": 3.2,
+   "styled_gemini": 0.4,
+   "bestof3_jev": 0.8,
    "maichat_per1000msg": 0.7,
    "nps_chatroom_per1000msg": 0.5,
    "nus_sms_per1000msg": 4.2,
@@ -2895,6 +3633,8 @@
    "base_gemini": 8.4,
    "base_gpt4omini": 0.0,
    "base_llama70b": 0.0,
+   "styled_gemini": 0.8,
+   "bestof3_jev": 0.4,
    "maichat_per1000msg": 5.5,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2906,6 +3646,8 @@
    "base_gemini": 14.0,
    "base_gpt4omini": 4.8,
    "base_llama70b": 3.6,
+   "styled_gemini": 0.4,
+   "bestof3_jev": 0.4,
    "maichat_per1000msg": 2.4,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2917,6 +3659,8 @@
    "base_gemini": 6.8,
    "base_gpt4omini": 2.8,
    "base_llama70b": 1.2,
+   "styled_gemini": 0.0,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 2.2,
    "nps_chatroom_per1000msg": 0.0,
    "nus_sms_per1000msg": 0.0,
@@ -2928,6 +3672,8 @@
    "base_gemini": 2.0,
    "base_gpt4omini": 0.8,
    "base_llama70b": 1.2,
+   "styled_gemini": 0.4,
+   "bestof3_jev": 0.0,
    "maichat_per1000msg": 3.4,
    "nps_chatroom_per1000msg": 0.3,
    "nus_sms_per1000msg": 0.5,
