@@ -1,0 +1,83 @@
+{
+ "jev": {
+  "calls": 420,
+  "cached": 0,
+  "input_tokens": 287358,
+  "cost": 0.012069036000000002,
+  "latency_p50_s": 0.4978475570678711,
+  "n_lat": 420
+ },
+ "noul": {
+  "tryhard": {
+   "real_mean": 0.29,
+   "llm_plain": {
+    "mean": 0.402,
+    "auc_detect": 0.657
+   },
+   "llm_styled": {
+    "mean": 0.327,
+    "auc_detect": 0.542
+   }
+  },
+  "more_markers": {
+   "real_mean": 0.189,
+   "llm_plain": {
+    "mean": 0.403,
+    "auc_detect": 0.811
+   },
+   "llm_styled": {
+    "mean": 0.344,
+    "auc_detect": 0.694
+   }
+  },
+  "ai_imitating": {
+   "real_mean": 0.26,
+   "llm_plain": {
+    "mean": 0.328,
+    "auc_detect": 0.691
+   },
+   "llm_styled": {
+    "mean": 0.309,
+    "auc_detect": 0.624
+   }
+  },
+  "typical": {
+   "real_mean": 2.579,
+   "llm_plain": {
+    "mean": 2.624,
+    "auc_detect": 0.464
+   },
+   "llm_styled": {
+    "mean": 2.713,
+    "auc_detect": 0.407
+   }
+  }
+ },
+ "pair": {
+  "llm_plain": {
+   "acc": 0.3,
+   "mean_p_real": 0.449
+  },
+  "llm_styled": {
+   "acc": 0.3,
+   "mean_p_real": 0.446
+  }
+ },
+ "code_marker_excess": {
+  "llm_plain": {
+   "auc_detect": 0.79,
+   "mean_excess_llm": 0.733,
+   "mean_excess_real": -0.1
+  },
+  "llm_styled": {
+   "auc_detect": 0.694,
+   "mean_excess_llm": 0.139,
+   "mean_excess_real": -0.1
+  }
+ },
+ "len_ratio_vs_samples_median": {
+  "real": 1.46,
+  "llm_plain": 2.14,
+  "llm_styled": 1.03
+ }
+}
