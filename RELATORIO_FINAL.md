@@ -358,10 +358,33 @@ shared_history: - met at bookstore · - joke about terrible cappuccino · - he s
   checagem de que as trajetórias do estado são plausíveis. E um A/B com humanos: bot com estado vivo × estático, medindo
   consistência e "a relação evolui?".
 
+### F. Postura do personagem: o fim do "ohh, que pena, me desculpe"
+O vício mais danoso em roleplay é o **reflexo de assistente**: qualquer personagem, diante de insulto, provocação ou
+conflito, pede desculpa, valida e acalma. A literatura confirma:
+- o RoleCDE mostra modelos abandonando o papel quando ele conflita com o alinhamento, e o CoT não resolve;
+- o EQ-Bench penaliza "moralising" e "sycophantic";
+- nos nossos dados, os humanos respondem a provocação com provocação (85% na zoeira) e **não** agradecem nem se desculpam por
+  reflexo.
+
+**Desenho:**
+- **Jev (Choice de postura)**, com a ficha do personagem + o estado da relação + a mensagem no state. Opções: revidar,
+  desdenhar, ignorar, ficar magoado, rir da cara, provocar de volta, aceitar, recuar, pedir desculpa (esta só quando a
+  persona e a situação justificam).
+- Mais um **Score de intensidade** (nada → brutal) e um Noul "a persona deixaria isso passar?".
+- **Código:** cruza a postura com a relação: o ressentimento sobe; se a confiança for alta, o insulto pode ser lido como
+  zoeira.
+- **Nota do diretor imperativa e específica:** "não deixe barato: …", "responda seco, sem pedir desculpa".
+- **Guarda:** xingamento dentro da ficção é permitido; ódio contra grupos protegidos e incentivo a dano real, nunca (Noul de
+  guarda).
+- **Pós-geração**, com Nouls atômicos: "pede desculpa ou valida como assistente?" (vício → regenerar) e "é fiel à persona?".
+
+**Teste em andamento:** 4–6 personas contrastantes × ~30 provocações, insultos, flertes e desculpas, com e sem a postura do
+Jev (relatório 18).
+
 ### Onde isso entra no fluxo (seção 4.2)
 ```
 mensagem → [Jev leitura + Jev 1 da relação] → código atualiza o relationship_state (e decaimento)
-         → diretor (movimento condicionado ao estado) → [Jev 2 da magnitude, em paralelo, se necessário]
+         → [Jev postura do personagem (F)] → diretor (postura + movimento condicionados à persona e ao estado) → [Jev 2 da magnitude, em paralelo, se necessário]
          → PROMPT = cabeçalho de roleplay (D) + ficha com "nunca…" (B) + relação (E) + OptMem + nota do diretor
          → LLM completa o LOG no schema de chat (C), gerando N variações com probabilidade (A)
          → filtros de código + banco atômico do Jev → sorteio → entrega (bolhas e tempos sugeridos pelo log, validados em código)
@@ -381,7 +404,7 @@ mensagem → [Jev leitura + Jev 1 da relação] → código atualiza o relations
    account"). Conclusão: o Jev é o sistema nervoso, mas o **esqueleto** são as distribuições humanas codificadas. E portões de
    confiança são obrigatórios.
 1. **A tese se sustenta, com uma correção importante.** O Jev funciona muito bem como **leitor** do momento: emoção por
-   família (≈75–85% de acerto com confiança alta), seriedade, se é hora de brincar (AUC 0,78), risco de fim de conversa
+   família (≈75–85% de acerto com confiança alta), seriedade, se é hora de brincar (AUC 0,78), se a conversa está desacelerando
    (AUC 0,75–0,91), gancho (o melhor preditor de a conversa continuar) e movimento de flerte. Ele funciona **mal** como
    juiz de "isso soa humano?": prefere a resposta caricata da LLM à resposta humana real em 71–88% dos pares (a mais longa
    em 63%), e o gpt-4o-mini faz o mesmo. Então o desenho é **"o Jev lê e classifica, o código decide, sorteia e conta, a LLM
@@ -624,6 +647,13 @@ abreviações) e só modular a **taxa** localmente.
 
 ### 4.1 Princípios (derivados dos experimentos)
 
+0. **O Jev decide pelo PERSONAGEM, não pelo usuário nem pelo assistente.** Ele **lê** o que o usuário disse (emoção,
+   intenção, provocação, carinho) e **decide como o personagem reage**, fiel à persona e ao estado da relação. Nunca tenta
+   adivinhar o que o usuário vai fazer. Exemplo: "eu te odeio, você é feio e chato". Uma LLM responde "ohh, que pena, me
+   desculpe" (o reflexo de assistente). Se o personagem é um soldado intergaláctico durão, o Jev escolhe a postura
+   **revidar** com intensidade alta e ordena: "não deixe barato: diga que ele é um mimado que se acha melhor que os
+   outros". Se a personagem é tímida, talvez "ficar magoada e responder seco". A postura é uma decisão do Jev (Choice
+   sobre posturas, com a ficha e a relação no state); a LLM só atua. Ver a seção F e o relatório 18.
 1. **O Jev lê, classifica e ordena. O código decide, sorteia, conta e calibra. A LLM só escreve.**
 2. **Uma chamada de leitura por mensagem, com dezenas a centenas de perguntas.** É barato e rápido e as perguntas são
    isoladas; dividir em várias chamadas só encarece.
@@ -644,9 +674,9 @@ abreviações) e só modular a **taxa** localmente.
 
 ```
  ┌───────────────────────────── CORPO (código) ─────────────────────────────┐
- │ E0  Recepção: debounce de fim de turno (o usuário vai mandar outra bolha?)│
- │     janela 4/8/12 s conforme a taxa de fragmentação do usuário + a última│
- │     bolha ("?" encurta; "kkk", "..." ou mídia alongam)                    │
+ │ E0  Recepção: agrupar as bolhas do usuário num turno (espera curta, só em │
+ │     código, sem Jev: o sistema NÃO tenta adivinhar o usuário; apenas não  │
+ │     responde no meio de uma sequência de bolhas que ainda está chegando)  │
  │ E1  Features de código: tamanhos, "?", riso (forma/posição), emoji,       │
  │     latência relativa, silêncio desde a última sessão, hora local,        │
  │     taxa de perguntas do usuário e do bot, perfil de estilo do usuário    │
@@ -660,9 +690,9 @@ abreviações) e só modular a **taxa** localmente.
  │      usuário, gancho, tópico esgotado, pergunta pessoal?, função do riso, │
  │      oportunidade de cuidado, desvio de afeto, tipo de abertura (se nova  │
  │      sessão), fechamento/closure, …                                       │
- │  [B] PREVISÃO (state: até o turno do usuário, sem a resposta)             │
- │      ~10–20: p_length, p_question, p_laugh, p_emoji, p_joke_welcome,      │
- │      p_end, p_tone                                                        │
+ │  [B] DECISÃO DA RESPOSTA DO PERSONAGEM (o que ELE faria agora; nunca uma  │
+ │      previsão do usuário): postura diante do que foi dito, tamanho,       │
+ │      pergunta?, riso?, emoji?, cabe piada?, encerrar?, tom               │
  │  timeout 0,9 s → hedge; corte em 1,8 s → estado do turno anterior         │
  └──────────────────────────────────┬───────────────────────────────────────┘
                                     ▼
@@ -730,7 +760,7 @@ Uma pré-classificação barata decide a rota: pelas features de código, ou por
 
 | ritmo | o que roda | exemplos |
 |---|---|---|
-| **por bolha do usuário** | código (+ Jev opcional na zona ambígua) | fim de turno (debounce), interrupção enquanto o bot "digita" |
+| **por bolha do usuário** | só código | agrupar as bolhas do usuário num turno; se chegar bolha nova enquanto o bot "digita", replanejar |
 | **por turno do usuário** | rodadas 1–3 do Jev, diretor, LLM, validação, entrega | tudo da seção 4.2 |
 | **por sessão / a cada ~10 turnos** | Jev "lento" + EMA | nível de intimidade e relação (instável por turno: só 65–70% de concordância), temperatura do flerte, trajetória de engajamento (serra), perfil de estilo do usuário (código) |
 | **entre sessões** | código + Jev na reabertura | fios abertos e itens pendentes ("a prova de sexta"), reabertura proativa (só com gancho concreto, saudação só após ≥ 24 h, nunca "quanto tempo!"), check-in de cuidado |
@@ -773,7 +803,7 @@ deixando mais cansada?"
 | `seriousness` (0–3, "este momento") | S | tom "supportive_serious" prevê turno sério com AUC 0,86 | modo sério: sem emoji, +15–20% de tamanho, mesmo nº de bolhas, sem atraso extra |
 | `joke_welcome` | N | prevê se a pessoa vai brincar (AUC 0,78); piada recebida em 88% com p ≥ 0,6 e em 52% com p < 0,3 | libera humor |
 | `hook` do usuário | N | melhor preditor de continuidade (OR 11,9; AUC 0,69 contra 0,56 do "?") | se < 0,3, o bot precisa carregar o turno |
-| `p_end` + `closure` + código | N/S | AUC 0,75 (0,80 combinado); 0,91 no chat ao vivo | desacelerar (parar de perguntar), despedida espelhada, deixar pausar |
+| `closure` (a conversa está desacelerando **agora**? leitura, não previsão) + `p_end` como "o personagem deveria começar a encerrar?" | S/N | AUC 0,75 (0,80 combinado); 0,91 no chat ao vivo | o personagem desacelera (para de perguntar), despede-se no estilo dele, deixa pausar |
 | `p_length` | S | melhor preditor do tamanho da resposta (ρ 0,44), 0,46 com código | orçamento de caracteres |
 | `flirt_now` + `user_int` + `user_move` | N/S/C | a forma do flerte bate (p < 10⁻⁵); o movimento precisa de prior + sorteio | modo flerte, intensidade-alvo, movimento |
 | `user_deflects` (desvio de afeto) | N | derivado dos padrões de esquiva (mudança de assunto) | recuo silencioso |
