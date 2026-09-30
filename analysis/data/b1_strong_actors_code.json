@@ -1,0 +1,163 @@
+{
+ "base_gemini": {
+  "code_lr_test": {
+   "auc": 0.96,
+   "ci": [
+    0.933,
+    0.98
+   ],
+   "auc_len": 0.955,
+   "ci_len": [
+    0.923,
+    0.978
+   ],
+   "n_llm": 132,
+   "n_hum": 132
+  },
+  "median_chars": 86.5,
+  "pct_ends_q": 46.0,
+  "pct_excl": 40.4,
+  "pct_emoji": 61.2,
+  "pct_validation_rx": 8.4,
+  "pct_perf_open": 40.0,
+  "pct_gen_recip_q": 9.2,
+  "pct_3plus_sent": 49.2,
+  "pct_llmish": 53.2
+ },
+ "styled_gemini": {
+  "code_lr_test": {
+   "auc": 0.746,
+   "ci": [
+    0.653,
+    0.818
+   ],
+   "auc_len": 0.725,
+   "ci_len": [
+    0.623,
+    0.821
+   ],
+   "n_llm": 132,
+   "n_hum": 132
+  },
+  "median_chars": 19.0,
+  "pct_ends_q": 2.0,
+  "pct_excl": 0.4,
+  "pct_emoji": 1.6,
+  "pct_validation_rx": 2.8,
+  "pct_perf_open": 18.8,
+  "pct_gen_recip_q": 0.4,
+  "pct_3plus_sent": 0.4,
+  "pct_llmish": 9.2
+ },
+ "base_luna": {
+  "code_lr_test": {
+   "auc": 0.94,
+   "ci": [
+    0.907,
+    0.969
+   ],
+   "auc_len": 0.936,
+   "ci_len": [
+    0.902,
+    0.968
+   ],
+   "n_llm": 132,
+   "n_hum": 132
+  },
+  "median_chars": 74.0,
+  "pct_ends_q": 40.8,
+  "pct_excl": 23.2,
+  "pct_emoji": 74.8,
+  "pct_validation_rx": 10.0,
+  "pct_perf_open": 17.6,
+  "pct_gen_recip_q": 8.4,
+  "pct_3plus_sent": 14.8,
+  "pct_llmish": 70.8
+ },
+ "styled_luna": {
+  "code_lr_test": {
+   "auc": 0.905,
+   "ci": [
+    0.882,
+    0.931
+   ],
+   "auc_len": 0.892,
+   "ci_len": [
+    0.855,
+    0.928
+   ],
+   "n_llm": 132,
+   "n_hum": 132
+  },
+  "median_chars": 36.0,
+  "pct_ends_q": 7.6,
+  "pct_excl": 1.6,
+  "pct_emoji": 26.4,
+  "pct_validation_rx": 4.0,
+  "pct_perf_open": 21.2,
+  "pct_gen_recip_q": 2.0,
+  "pct_3plus_sent": 0.0,
+  "pct_llmish": 22.8
+ },
+ "base_deepseek": {
+  "code_lr_test": {
+   "auc": 0.929,
+   "ci": [
+    0.893,
+    0.958
+   ],
+   "auc_len": 0.916,
+   "ci_len": [
+    0.843,
+    0.961
+   ],
+   "n_llm": 132,
+   "n_hum": 132
+  },
+  "median_chars": 91.5,
+  "pct_ends_q": 29.6,
+  "pct_excl": 18.4,
+  "pct_emoji": 34.8,
+  "pct_validation_rx": 10.8,
+  "pct_perf_open": 18.8,
+  "pct_gen_recip_q": 9.6,
+  "pct_3plus_sent": 50.8,
+  "pct_llmish": 46.8
+ },
+ "styled_deepseek": {
+  "code_lr_test": {
+   "auc": 0.772,
+   "ci": [
+    0.714,
+    0.825
+   ],
+   "auc_len": 0.751,
+   "ci_len": [
+    0.689,
+    0.811
+   ],
+   "n_llm": 132,
+   "n_hum": 132
+  },
+  "median_chars": 28.0,
+  "pct_ends_q": 8.8,
+  "pct_excl": 0.0,
+  "pct_emoji": 0.4,
+  "pct_validation_rx": 3.6,
+  "pct_perf_open": 14.0,
+  "pct_gen_recip_q": 0.4,
+  "pct_3plus_sent": 5.6,
+  "pct_llmish": 2.8
+ },
+ "human_a8": {
+  "median_chars": 31.5,
+  "pct_ends_q": 20.0,
+  "pct_excl": 6.8,
+  "pct_emoji": 2.4,
+  "pct_validation_rx": 4.0,
+  "pct_perf_open": 8.0,
+  "pct_gen_recip_q": 2.4,
+  "pct_llmish": 9.6,
+  "pct_3plus_sent": 13.2
+ }
+}
