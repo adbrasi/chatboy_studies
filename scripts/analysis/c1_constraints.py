@@ -407,8 +407,6 @@ def analyze():
     return out
 
 
-if __name__ == "__main__":
-    {"contexts": build_contexts, "gen": gen, "jev": jev_run, "jev2": jev_run2, "analyze": analyze, "manual": manual}[sys.argv[1]]()
 
 
 def manual():
@@ -425,3 +423,7 @@ def manual():
         r = G[(EXP, m, f, pid)]
         v = viol(p, p["restr"], r["text"], have[k])
         print(f"{k} | restr={p['restr']} | jev_viol={v} | LAST: {p['history_named'][-1]['text'][:120]!r}\n    REPLY: {r['text'][:220]!r}")
+
+
+if __name__ == "__main__":
+    {"contexts": build_contexts, "gen": gen, "jev": jev_run, "jev2": jev_run2, "analyze": analyze, "manual": manual}[sys.argv[1]]()

@@ -19,13 +19,18 @@ from b4_common import STATIC
 from b4_gen import target_brief
 
 EXP = "pipe"
+# gerações (uma chamada por registro). "hdr_end#k" = cabeçalho de RP + ficha situacional + nota do diretor no FIM, seed k
+# (a seed 0 é o próprio H1e do experimento 4); "hdr_end_vs5" = idem, com a instrução de VS-5 junto da nota no fim.
+GENS = {"hdr_end": dict(n=None), "hdr_end_vs5": dict(n=5), "min_vs5": dict(n=5, header=False)}
 CONFIGS = {
-    # nome: (cabeçalho, posição da nota, schema, N do VS (None = seeds), estratégia)
-    "P_hdr_vs5_bank": dict(header=True, note="end", schema="free", n=5, strat="bank_pass"),
-    "P_hdr_vs5_low": dict(header=True, note="end", schema="free", n=5, strat="lowpass"),
-    "P_hdr_seed4_bank": dict(header=True, note="end", schema="free", n=None, strat="bank_pass"),
-    "P_min_vs5_bank": dict(header=False, note="before", schema="free", n=5, strat="bank_pass"),
-    "P_hdr_vs5wa_bank": dict(header=True, note="before", schema="wa_time", n=5, strat="bank_pass"),
+    # nome: geração, nº de seeds (se não for VS), estratégia de escolha
+    "P1_hdr": dict(gen="hdr_end", k=1, strat="first"),
+    "P4_hdr_seed4_viol": dict(gen="hdr_end", k=4, strat="viol"),
+    "P4_hdr_seed4_bank": dict(gen="hdr_end", k=4, strat="bank_pass"),
+    "P5_hdr_vs5_top": dict(gen="hdr_end_vs5", strat="top"),
+    "P5_hdr_vs5_low": dict(gen="hdr_end_vs5", strat="lowpass"),
+    "P5_hdr_vs5_viol": dict(gen="hdr_end_vs5", strat="viol"),
+    "P5_hdr_vs5_bank": dict(gen="hdr_end_vs5", strat="bank_pass"),
 }
 
 
@@ -33,39 +38,32 @@ def brief_of(p):
     return target_brief(p, C.budget(p))
 
 
-def messages(p, cfg, seed_k=None):
+def messages(p, gname):
+    g = GENS[gname]
     br = brief_of(p)
-    sch, n = cfg["schema"], cfg["n"]
-    if sch == "free":
-        sysm = H.header_system(p) if cfg["header"] else C.PERSONA
-        if cfg["note"] == "before":
-            sysm += f"\n\nDirector's note for your next message:\n{br}"
-        if n:
-            sysm += V.VS_FREE.format(n=n, u=C.USER)
-        m = C.schema_messages(p, "free", None, system_override=sysm)
-        if cfg["note"] == "end":
-            m.append({"role": "system", "content": f"DIRECTOR NOTE (this turn only):\n{br}"})
-        return m
-    sysm = (H.header_system(p) + "\n\n" if cfg["header"] else "") + C.LOG_SYS.format(platform=C.PLATFORM[sch])
-    if n:
-        sysm += V.VS_LOG.format(n=n, b=C.BOT)
-    return C.schema_messages(p, sch, br, system_override=sysm, note_pos=cfg["note"])
+    sysm = H.header_system(p) if g.get("header", True) else C.PERSONA
+    m = C.schema_messages(p, "free", None, system_override=sysm)
+    tail = f"DIRECTOR NOTE (this turn only):\n{br}"
+    if g["n"]:
+        tail += "\n" + V.VS_FREE.format(n=g["n"], u=C.USER)
+    m.append({"role": "system", "content": tail})
+    return m
 
 
 def spec(p, model, cond):
-    """cond = '<config>' (chamada VS) ou '<config>#k' (seed k de uma config de seeds) ou 'T#k' (briefing T do b4)."""
+    """cond = 'T#k' (briefing T do b4, seed k) | 'hdr_end#k' | 'hdr_end_vs5'."""
     if cond.startswith("T#"):
         k = int(cond[2:])
         b = C.budget(p)
         msgs = C.B4.msgs(p, STATIC + "\n\nFor your next message:\n" + target_brief(p, b))
         return dict(messages=msgs, model=model, temperature=0.8, max_tokens=300, seed=k, tag="c1:b4T"), {"schema": "free"}
-    name, _, k = cond.partition("#")
-    cfg = CONFIGS[name]
-    if cfg["n"]:
-        return dict(messages=messages(p, cfg), model=model, temperature=0.8, max_tokens=250 + 120 * cfg["n"], seed=0,
-                    tag=f"c1:{name}"), {"schema": cfg["schema"], "n_req": cfg["n"]}
-    return dict(messages=messages(p, cfg), model=model, temperature=0.8, max_tokens=300, seed=int(k), tag=f"c1:{name}"), \
-        {"schema": cfg["schema"]}
+    gname, _, k = cond.partition("#")
+    g = GENS[gname]
+    if g["n"]:
+        return dict(messages=messages(p, gname), model=model, temperature=0.8, max_tokens=250 + 120 * g["n"], seed=0,
+                    tag=f"c1:{gname}"), {"schema": "free", "n_req": g["n"]}
+    return dict(messages=messages(p, gname), model=model, temperature=0.8, max_tokens=300, seed=int(k), tag=f"c1:{gname}"), \
+        {"schema": "free"}
 
 
 def post(p, model, cond, r, meta):
@@ -83,8 +81,12 @@ def post(p, model, cond, r, meta):
 def gen_conds(configs):
     out = ["T#0", "T#1", "T#2", "T#3"]
     for c in configs:
-        out += [c] if CONFIGS[c]["n"] else [f"{c}#{k}" for k in range(4)]
-    return out
+        cf = CONFIGS[c]
+        if GENS[cf["gen"]]["n"]:
+            out.append(cf["gen"])
+        else:
+            out += [f"{cf['gen']}#{k}" for k in range(1, cf["k"])]  # a seed 0 vem do H1e
+    return list(dict.fromkeys(out))
 
 
 def gen(split, configs):
@@ -93,13 +95,13 @@ def gen(split, configs):
 
 
 def candidates(p, model, cfgname, G):
-    cfg = CONFIGS[cfgname]
-    if cfg["n"]:
-        r = G.get((EXP, model, cfgname, p["id"]))
+    cf = CONFIGS[cfgname]
+    if GENS[cf["gen"]]["n"]:
+        r = G.get((EXP, model, cf["gen"], p["id"]))
         if not r:
             return None, None
         return [c for c in r.get("cands", []) if (c["text"] or "").strip()], [r]
-    rs = [G.get((EXP, model, f"{cfgname}#{k}", p["id"])) for k in range(4)]
+    rs = [G.get(("header", model, "H1e", p["id"]))] + [G.get((EXP, model, f"{cf['gen']}#{k}", p["id"])) for k in range(1, cf["k"])]
     if not all(rs):
         return None, None
     return [{"text": r.get("text") or "", "prob": None, "invented_user": r.get("invented_user")} for r in rs
@@ -134,7 +136,8 @@ def final(p, model, cond, G, stage="final"):
     if not cands:  # nada utilizável: cai na LLM pura
         r = G.get(("schema", model, "free|0", p["id"])) or {}
         return C.normalize(r.get("text") or "", b), rec
-    ch = V.choose(p, model, name, cands, CONFIGS[name]["strat"])
+    st = CONFIGS[name]["strat"]
+    ch = cands[0] if st == "first" else V.choose(p, model, name, cands, st)
     t = ch["text"]
     if stage == "pre":
         return t, rec
