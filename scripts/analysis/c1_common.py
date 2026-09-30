@@ -873,3 +873,23 @@ def bank_half(p, text, half, ans=None):
     v = np.array(_half_vec(B1norm(text), p["history"][-1]["text"], ans, half), float)
     v = np.where(np.isnan(v), sc["mu"], v)
     return float(sc["models"][fold_of(p["conv_id"])].predict_proba(v[None])[0, 1])
+
+
+def jev_recover_cached(pairs):
+    """SÓ LOCAL: copia para o store do c1 as avaliações que já estão no cache do Jev (pagas antes do 402) e ainda não
+    foram transferidas. Nunca chama a API."""
+    S = _jsload()
+    c = jev._load_cache()
+    rows = []
+    for p, t in pairs:
+        if not B1norm(t):
+            continue
+        k = ekey(p["id"], t)
+        if k in S:
+            continue
+        h = jev._hash(eval_state(p, t), EVALQ)
+        if h in c and c[h]:
+            S[k] = compact(c[h])
+            rows.append({"k": k, "pid": p["id"], "a": S[k]})
+    jl_append(JSTORE, rows)
+    return len(rows)
