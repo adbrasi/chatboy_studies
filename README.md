@@ -4,14 +4,15 @@ Estudo sobre o que torna uma conversa de chat realista e engajante, a partir de 
 usar o **Jev** (TypeSafe, modelo "System One") como sistema nervoso de uma LLM rápida: o Jev lê o momento, o código decide
 e a LLM só escreve.
 
-**Comece por [`RELATORIO_FINAL.md`](RELATORIO_FINAL.md)**, que traz a síntese, as respostas às perguntas, a tabela "o que
+**Comece por [`FUNDACAO.md`](FUNDACAO.md)** (o desenho final do sistema, uma página) e depois [`RELATORIO_FINAL.md`](RELATORIO_FINAL.md), que traz a síntese, as respostas às perguntas, a tabela "o que
 escrever em cada momento", a arquitetura proposta e o resultado do experimento A/B.
 
 ## Estrutura
 
 | caminho | conteúdo |
 |---|---|
-| `RELATORIO_FINAL.md` | síntese e proposta de sistema |
+| `FUNDACAO.md` | **o mapa final**: 5 peças, 4 objetos de estado, cada escolha ligada à evidência |
+| `RELATORIO_FINAL.md` | síntese de todas as rodadas e detalhes da proposta |
 | `analysis/01…09_*.md` | 1ª rodada: ritmo, aberturas, emoção, estilo, engajamento, confiabilidade do Jev, flerte, vocabulário × LLM, A/B |
 | `analysis/10…16_*.md` | 2ª rodada: arquiteturas de chamadas do Jev (juiz, entrega/rajadas, o que escrever), controle de saída, literatura e benchmarks |
 | `analysis/17…19_*.md` | 3ª rodada: laboratório de geração, estado da relação + postura do personagem, variantes do juiz |

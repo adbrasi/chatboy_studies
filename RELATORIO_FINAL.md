@@ -1,3 +1,5 @@
+> **O desenho final e enxuto do sistema está em [`FUNDACAO.md`](FUNDACAO.md).** Este relatório é a evidência por trás dele.
+
 # Jev como sistema nervoso de um chatbot conversacional: estudo com conversas humanas reais
 
 > **Pergunta do estudo:** o que torna uma conversa de chat realista e engajante, inclusive os padrões que ninguém percebe,
