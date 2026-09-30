@@ -9,13 +9,16 @@ from a9_brief import BAN, moment_of, TH
 
 RNG = np.random.default_rng(9)
 MAIN = ["A", "S", "B", "C", "D"]
-ABL = ["A", "S", "B", "Bnoban", "Blong", "Bpure"]
+ABL = ["A", "S", "B", "Bnoban", "Blong", "Bpure", "Bnojev"]
 B_ITERS = 2000
 
 
 def cboot(vals, groups, stat=np.mean, iters=B_ITERS):
     """IC 95% bootstrap por cluster (conversa)."""
-    vals, groups = np.asarray(vals, float), np.asarray(groups)
+    keep = [k for k, v in enumerate(vals) if v is not None]
+    if not keep:
+        return None
+    vals, groups = np.asarray([vals[k] for k in keep], float), np.asarray([groups[k] for k in keep])
     ok = ~np.isnan(vals)
     vals, groups = vals[ok], groups[ok]
     ug = np.unique(groups)
@@ -63,7 +66,7 @@ def main():
         d = J[i]["llm_judge"].get(c)
         return None if not d else d["fooled"]
 
-    allc = MAIN + ["Bnoban", "Blong", "Bpure"]
+    allc = MAIN + ["Bnoban", "Blong", "Bpure", "Bnojev"]
     R["jev_fool_soft"] = col(jev_fool, allc)
     R["jev_fool_hard"] = col(jev_fool_hard, allc)
     R["llm_fool"] = col(llm_fool, allc)
@@ -81,6 +84,31 @@ def main():
     lf = [J[i]["llm_judge"][c]["fooled"] for i in ids for c in J[i]["llm_judge"]]
     lpick1 = [int((f == 1 and o == 1) or (f == 0 and o == 0)) for f, o in zip(lf, lo)]
     R["llm_judge_position"] = {"P_pick_candidate1": float(np.mean(lpick1))}
+    # o juiz escolhe como "humana" a resposta MAIS LONGA? (pares com tamanhos diferentes)
+    longer_j, longer_l = [], []
+    for i in ids:
+        hw = F[i]["H"]["n_words"]
+        for c in MAIN:
+            cw = F[i][c]["n_words"]
+            if cw == hw:
+                continue
+            x = jev_fool(i, c)
+            if x is not None:
+                longer_j.append((x > 0.5) == (cw > hw))
+            y = llm_fool(i, c)
+            if y is not None:
+                longer_l.append(bool(y) == (cw > hw))
+    R["judge_picks_longer_as_human"] = {"jev": [float(np.mean(longer_j)), len(longer_j)],
+                                        "llm": [float(np.mean(longer_l)), len(longer_l)]}
+    # distinguibilidade = |2*fool - 1| (0 = o juiz não separa; 1 = separa sempre, em qualquer direção)
+    R["distinguishability"] = {k: {c: (None if v is None else round(abs(2 * v[0] - 1), 3)) for c, v in R[k].items()}
+                               for k in ("jev_fool_hard", "llm_fool")}
+    # tamanho por ponto: a condição acompanha a variação do humano? (Spearman palavras cond x humano)
+    from scipy.stats import spearmanr as _sp
+    R["len_tracking_spearman"] = {}
+    for c in allc:
+        sub_ = [i for i in ids if c in F[i]]
+        R["len_tracking_spearman"][c] = [float(_sp([F[i][c]["n_words"] for i in sub_], [F[i]["H"]["n_words"] for i in sub_]).correlation), len(sub_)]
     # concordância Jev x LLM (por par)
     both = [(jev_fool_hard(i, c), llm_fool(i, c)) for i in ids for c in MAIN if jev_fool(i, c) is not None and llm_fool(i, c) is not None]
     R["judge_agreement_jev_vs_llm"] = float(np.mean([a == b for a, b in both]))

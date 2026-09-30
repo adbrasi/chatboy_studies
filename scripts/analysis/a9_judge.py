@@ -10,7 +10,8 @@ from jev import choice, noul
 import jev, llm
 
 OUT = os.path.join(ADATA, "a9_judge.jsonl")
-CONDS = ["A", "S", "B", "C", "D", "Bnoban", "Blong", "Bpure"]
+CONDS = ["A", "S", "B", "C", "D", "Bnoban", "Blong", "Bpure", "Bnojev"]
+LLM_CONDS = ["A", "S", "B", "C", "D", "Bnoban", "Blong", "Bpure"]  # Bnojev só com o Jev (orçamento de LLM esgotado)
 
 PAIR = {"human": choice(
     f"This is a real text chat between two friends. One of `reply_1` and `reply_2` is the message {BOT} actually sent "
@@ -79,7 +80,7 @@ def main():
     # ---------- (4) juiz LLM
     items, keys = [], []
     for p in pts:
-        for c in CONDS:
+        for c in LLM_CONDS:
             if c not in p["gen"]:
                 continue
             o = h01(p["id"] + p["gen"][c])
