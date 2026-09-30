@@ -1,0 +1,593 @@
+{
+ "maichat": {
+  "n_turns": 2871,
+  "pct_turns_ge5_bubbles": 1.15,
+  "pct_turns_fast_burst_ge5_le60s": 0.91,
+  "n_speakers_ge30_turns": 44,
+  "pct_speakers_with_any_fast_burst": 22.7,
+  "speaker_rate_p50_p90_max_pct": [
+   0.0,
+   2.7,
+   4.55
+  ],
+  "share_of_fast_bursts_top5_speakers_pct": 53.8,
+  "n_fast_bursts_with_jev_D": 26,
+  "jev_D_fast_vs_ctrl": {
+   "arousal": {
+    "fast_burst": 2.36,
+    "ctrl_same_length_weighted": 1.756,
+    "ci95_diff_unweighted_boot_conv": [
+     0.5,
+     0.975
+    ]
+   },
+   "anxious": {
+    "fast_burst": 0.225,
+    "ctrl_same_length_weighted": 0.204,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.077,
+     0.075
+    ]
+   },
+   "tension": {
+    "fast_burst": 0.118,
+    "ctrl_same_length_weighted": 0.141,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.16,
+     -0.029
+    ]
+   },
+   "vulnerable": {
+    "fast_burst": 0.285,
+    "ctrl_same_length_weighted": 0.279,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.018,
+     0.174
+    ]
+   },
+   "playful": {
+    "fast_burst": 0.72,
+    "ctrl_same_length_weighted": 0.552,
+    "ci95_diff_unweighted_boot_conv": [
+     0.004,
+     0.187
+    ]
+   },
+   "seriousness": {
+    "fast_burst": 0.456,
+    "ctrl_same_length_weighted": 0.64,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.212,
+     0.136
+    ]
+   },
+   "valence": {
+    "fast_burst": 2.862,
+    "ctrl_same_length_weighted": 2.589,
+    "ci95_diff_unweighted_boot_conv": [
+     0.195,
+     0.743
+    ]
+   },
+   "engagement": {
+    "fast_burst": 2.913,
+    "ctrl_same_length_weighted": 2.615,
+    "ci95_diff_unweighted_boot_conv": [
+     0.538,
+     0.816
+    ]
+   },
+   "flirting": {
+    "fast_burst": 0.118,
+    "ctrl_same_length_weighted": 0.089,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.051,
+     0.063
+    ]
+   },
+   "seeks_support": {
+    "fast_burst": 0.127,
+    "ctrl_same_length_weighted": 0.135,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.066,
+     0.034
+    ]
+   }
+  },
+  "emotion_dist_fast_vs_ctrl_pct": {
+   "playful_teasing": [
+    34.6,
+    21.6
+   ],
+   "joy_excitement": [
+    30.8,
+    14.5
+   ],
+   "neutral_informational": [
+    11.5,
+    27.8
+   ],
+   "curiosity_interest": [
+    11.5,
+    13.3
+   ],
+   "affection": [
+    7.7,
+    2.1
+   ],
+   "frustration_anger": [
+    3.8,
+    2.9
+   ],
+   "anxiety_insecurity": [
+    0.0,
+    3.1
+   ],
+   "boredom_disengaged": [
+    0.0,
+    0.9
+   ]
+  },
+  "intent_dist_fast_vs_ctrl_pct": {
+   "share_story_or_info": [
+    26.9,
+    23.7
+   ],
+   "ask_question": [
+    19.2,
+    14.9
+   ],
+   "answer": [
+    19.2,
+    27.3
+   ],
+   "make_plans_logistics": [
+    15.4,
+    8.6
+   ],
+   "closing": [
+    3.8,
+    1.4
+   ],
+   "share_feeling": [
+    3.8,
+    4.0
+   ],
+   "disagree_complain": [
+    3.8,
+    3.6
+   ],
+   "joke_tease": [
+    3.8,
+    11.1
+   ]
+  },
+  "phase_dist_fast_vs_ctrl_pct": {
+   "playful_banter": [
+    53.8,
+    42.3
+   ],
+   "logistics": [
+    30.8,
+    26.6
+   ],
+   "deep_personal": [
+    7.7,
+    3.9
+   ],
+   "small_talk": [
+    3.8,
+    21.4
+   ],
+   "winding_down": [
+    3.8,
+    3.4
+   ],
+   "conflict_or_repair": [
+    0.0,
+    2.3
+   ],
+   "opening": [
+    0.0,
+    0.2
+   ]
+  },
+  "latency_before_fast_burst_median_s": 9.5,
+  "latency_all_turns_median_s": 13.8,
+  "partner_latency_after_fast_burst_median_s": 7.0,
+  "examples": [
+   {
+    "texts": [
+     "honestly dream flat ",
+     "you ",
+     "morven ",
+     "willl ",
+     "Minh Hao "
+    ],
+    "span_s": 15.05,
+    "emotion": "joy_excitement",
+    "arousal": 1.87,
+    "anxious": 0.16,
+    "tension": 0.05
+   },
+   {
+    "texts": [
+     "this vietnamese iced coffee is fire today ",
+     "1. Cappuccino ",
+     "2. Black Medicine ",
+     "3. Books n Cup ",
+     "actually switch books n cup and black medicine because black"
+    ],
+    "span_s": 29.462,
+    "emotion": "joy_excitement",
+    "arousal": 2.75,
+    "anxious": 0.11,
+    "tension": 0.08
+   },
+   {
+    "texts": [
+     "Yeah and it’s hands also \\",
+     "Also yeah babies dont have teeth ",
+     "So ",
+     "Ur silly ",
+     "Please dont report meeee"
+    ],
+    "span_s": 22.252,
+    "emotion": "playful_teasing",
+    "arousal": 2.87,
+    "anxious": 0.85,
+    "tension": 0.65
+   },
+   {
+    "texts": [
+     "NOW",
+     "kidding ",
+     "erm ",
+     "7:45?",
+     "no 7:30"
+    ],
+    "span_s": 12.973,
+    "emotion": "playful_teasing",
+    "arousal": 2.49,
+    "anxious": 0.31,
+    "tension": 0.08
+   },
+   {
+    "texts": [
+     "girl look it up",
+     "she used to have a giant clear jar that she filled with rand",
+     "and then she owuld eat it",
+     "but it was iconic",
+     "she doesnt really make the jar anymore though"
+    ],
+    "span_s": 27.911,
+    "emotion": "frustration_anger",
+    "arousal": 2.67,
+    "anxious": 0.09,
+    "tension": 0.37
+   },
+   {
+    "texts": [
+     "yay",
+     "meow",
+     "🐈🐈‍⬛",
+     "heyhey and feyfey",
+     "no luma"
+    ],
+    "span_s": 40.712,
+    "emotion": "joy_excitement",
+    "arousal": 3.04,
+    "anxious": 0.08,
+    "tension": 0.05
+   }
+  ],
+  "kalman": {
+   "n_speakers": 42,
+   "median_pct_within_own_mean": 57.4,
+   "pct_speakers_with_ge70pct_within_mean": 16.7,
+   "median_pct_beyond_10x_mean": 0.0,
+   "pct_speakers_with_le4pct_beyond_10x": 100.0,
+   "aggregate_mean_s": 20.2,
+   "aggregate_pct_within_mean": 69.7,
+   "aggregate_pct_beyond_10x": 0.11,
+   "note": "latências só dentro da sessão (sessão nova após 3 h): a cauda longa está truncada"
+  }
+ },
+ "whatsapp_nl": {
+  "n_turns": 33896,
+  "pct_turns_ge5_bubbles": 2.88,
+  "pct_turns_fast_burst_ge5_le60s": 1.38,
+  "n_speakers_ge30_turns": 86,
+  "pct_speakers_with_any_fast_burst": 60.5,
+  "speaker_rate_p50_p90_max_pct": [
+   0.41,
+   4.0,
+   11.11
+  ],
+  "share_of_fast_bursts_top5_speakers_pct": 57.3,
+  "n_fast_bursts_with_jev_D": 47,
+  "jev_D_fast_vs_ctrl": {
+   "arousal": {
+    "fast_burst": 2.234,
+    "ctrl_same_length_weighted": 1.841,
+    "ci95_diff_unweighted_boot_conv": [
+     0.262,
+     0.71
+    ]
+   },
+   "anxious": {
+    "fast_burst": 0.358,
+    "ctrl_same_length_weighted": 0.303,
+    "ci95_diff_unweighted_boot_conv": [
+     0.031,
+     0.152
+    ]
+   },
+   "tension": {
+    "fast_burst": 0.149,
+    "ctrl_same_length_weighted": 0.125,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.02,
+     0.05
+    ]
+   },
+   "vulnerable": {
+    "fast_burst": 0.401,
+    "ctrl_same_length_weighted": 0.348,
+    "ci95_diff_unweighted_boot_conv": [
+     0.046,
+     0.211
+    ]
+   },
+   "playful": {
+    "fast_burst": 0.64,
+    "ctrl_same_length_weighted": 0.511,
+    "ci95_diff_unweighted_boot_conv": [
+     0.046,
+     0.223
+    ]
+   },
+   "seriousness": {
+    "fast_burst": 0.912,
+    "ctrl_same_length_weighted": 0.959,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.116,
+     0.23
+    ]
+   },
+   "valence": {
+    "fast_burst": 2.423,
+    "ctrl_same_length_weighted": 2.497,
+    "ci95_diff_unweighted_boot_conv": [
+     -0.25,
+     0.09
+    ]
+   },
+   "engagement": {
+    "fast_burst": 2.729,
+    "ctrl_same_length_weighted": 2.591,
+    "ci95_diff_unweighted_boot_conv": [
+     0.195,
+     0.553
+    ]
+   },
+   "flirting": {
+    "fast_burst": 0.195,
+    "ctrl_same_length_weighted": 0.151,
+    "ci95_diff_unweighted_boot_conv": [
+     0.01,
+     0.092
+    ]
+   },
+   "seeks_support": {
+    "fast_burst": 0.27,
+    "ctrl_same_length_weighted": 0.205,
+    "ci95_diff_unweighted_boot_conv": [
+     0.034,
+     0.143
+    ]
+   }
+  },
+  "emotion_dist_fast_vs_ctrl_pct": {
+   "playful_teasing": [
+    25.5,
+    19.2
+   ],
+   "neutral_informational": [
+    23.4,
+    30.7
+   ],
+   "joy_excitement": [
+    14.9,
+    12.9
+   ],
+   "curiosity_interest": [
+    14.9,
+    8.2
+   ],
+   "frustration_anger": [
+    6.4,
+    6.5
+   ],
+   "affection": [
+    6.4,
+    6.3
+   ],
+   "anxiety_insecurity": [
+    4.3,
+    6.3
+   ],
+   "sadness": [
+    2.1,
+    2.3
+   ]
+  },
+  "intent_dist_fast_vs_ctrl_pct": {
+   "answer": [
+    40.4,
+    23.3
+   ],
+   "share_story_or_info": [
+    21.3,
+    16.9
+   ],
+   "ask_question": [
+    17.0,
+    20.0
+   ],
+   "make_plans_logistics": [
+    10.6,
+    19.6
+   ],
+   "joke_tease": [
+    4.3,
+    5.5
+   ],
+   "closing": [
+    2.1,
+    1.4
+   ],
+   "share_feeling": [
+    2.1,
+    2.0
+   ],
+   "disagree_complain": [
+    2.1,
+    2.6
+   ]
+  },
+  "phase_dist_fast_vs_ctrl_pct": {
+   "logistics": [
+    53.2,
+    57.9
+   ],
+   "playful_banter": [
+    17.0,
+    14.1
+   ],
+   "deep_personal": [
+    10.6,
+    8.5
+   ],
+   "small_talk": [
+    10.6,
+    10.7
+   ],
+   "winding_down": [
+    4.3,
+    5.2
+   ],
+   "conflict_or_repair": [
+    2.1,
+    1.6
+   ],
+   "opening": [
+    2.1,
+    1.9
+   ]
+  },
+  "latency_before_fast_burst_median_s": 60.0,
+  "latency_all_turns_median_s": 60.0,
+  "partner_latency_after_fast_burst_median_s": 60.0,
+  "examples": [
+   {
+    "texts": [
+     "O ja ik wilde al mailen naar t secretariaa",
+     "Ene hae",
+     "Man of vrouw? ",
+     "Maar hoe moet ik dat nou Egge",
+     "zege"
+    ],
+    "span_s": 60.0,
+    "emotion": "anxiety_insecurity",
+    "arousal": 1.91,
+    "anxious": 0.59,
+    "tension": 0.09
+   },
+   {
+    "texts": [
+     "Beetje lelijk maarja",
+     "Dat rode is een gaskachel",
+     "Jaa",
+     "Maar er komt nog een bank",
+     "Alleen nog niks gevonden dat door de deur past "
+    ],
+    "span_s": 60.0,
+    "emotion": "neutral_informational",
+    "arousal": 1.52,
+    "anxious": 0.31,
+    "tension": 0.05
+   },
+   {
+    "texts": [
+     "",
+     "Neeeeeeee",
+     "Oh neeee",
+     "Oh war erg",
+     "",
+     "Nu kunnen ze over de kids overleggen",
+     "[REMOVED] kan dat alleen zo"
+    ],
+    "span_s": 60.0,
+    "emotion": "sadness",
+    "arousal": 3.75,
+    "anxious": 0.82,
+    "tension": 0.4
+   },
+   {
+    "texts": [
+     "Ja heb me ingeschreven voor journalistiek",
+     "Maar ik moet zeggen niet heel veel zin haha",
+     "T was echt mission impossible om mn ba nog te halen",
+     "En nu haal ik m miss toch",
+     "Ahhh doe gezellig mee journalistiek!"
+    ],
+    "span_s": 60.0,
+    "emotion": "playful_teasing",
+    "arousal": 2.76,
+    "anxious": 0.41,
+    "tension": 0.07
+   },
+   {
+    "texts": [
+     "Jaaaaa goeed! Hoe gaat ie bij jou?? En vakantie en alles??",
+     "[REMOVED] is kut",
+     "Mijn huis fijn",
+     "De uni een drama",
+     "",
+     "But hey i'll survive"
+    ],
+    "span_s": 60.0,
+    "emotion": "curiosity_interest",
+    "arousal": 2.93,
+    "anxious": 0.37,
+    "tension": 0.13
+   },
+   {
+    "texts": [
+     "Ja",
+     "En twee of drie blikjes knak",
+     "Zo'n pakje roomboter gewoon",
+     "Party knaks!",
+     "Als ze het hebben ook een pak eieren.. zes is genoeg"
+    ],
+    "span_s": 60.0,
+    "emotion": "neutral_informational",
+    "arousal": 2.17,
+    "anxious": 0.11,
+    "tension": 0.07
+   }
+  ],
+  "kalman": {
+   "n_speakers": 79,
+   "median_pct_within_own_mean": 82.4,
+   "pct_speakers_with_ge70pct_within_mean": 96.2,
+   "median_pct_beyond_10x_mean": 2.23,
+   "pct_speakers_with_le4pct_beyond_10x": 96.2,
+   "aggregate_mean_s": 481.4,
+   "aggregate_pct_within_mean": 82.7,
+   "aggregate_pct_beyond_10x": 2.33,
+   "note": "latências só dentro da sessão (sessão nova após 3 h): a cauda longa está truncada"
+  }
+ }
+}
