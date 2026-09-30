@@ -28,8 +28,8 @@ LQ = {"g_move": choice(f"Which move does `reply` make, as {BOT}'s reply to `last
       "g_family": choice(f"What kind of move is `reply`, as {BOT}'s reply to `last_message`?", FAMILY_OPTS),
       "g_tone": choice("Which tone does `reply` have?", TONE_OPTS)}
 LQ.update({k: noul(v) for k, v in TRAITS.items()})
-ACTORS = ["flash", "luna", "mercury", "deepseek"]
-CONDS = ["A", "B1", "N2", "K2", "B2", "O2"]
+ACTORS = ["flash", "luna"]  # rodada reduzida (créditos): mercury/deepseek não rodaram
+CONDS = ["A", "B1", "N2", "B2"]  # K2/O2 construídos mas não gerados
 
 
 def replies():
@@ -142,14 +142,14 @@ def analyze():
         return v
     out["paired"] = {}
     for a in ACTORS:
-        for x, y in [("N2", "A"), ("K2", "N2"), ("B2", "K2"), ("B2", "N2"), ("B2", "B1"), ("O2", "B2"), ("B2", "A")]:
+        for x, y in [("N2", "A"), ("B2", "N2"), ("B2", "B1"), ("B2", "A"), ("B1", "A")]:
             cx, cy = f"{a}|{x}", f"{a}|{y}"
             out["paired"][f"{a}: {x}-{y}"] = {m: cboot_diff(per_point(cx, m), per_point(cy, m), grp)
                                                for m in ("g_move", "g_family", "lenerr", "prof")}
     # aderência do briefing: pedido x feito (B2)
     adh = {}
     for a in ACTORS:
-        for c in ("N2", "K2", "B2", "O2"):
+        for c in ("N2", "B2"):
             q_ok, lg_ok, ex_ok = [], [], []
             for i in ids:
                 meta, t = B[i].get(c + "_meta"), R[i].get(f"{a}|{c}")
