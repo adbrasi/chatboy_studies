@@ -38,6 +38,10 @@
   - o Choice "qual é o vício principal?" (5,8%): cada vício precisa ser um Noul próprio;
   - o Score com níveis ancorados ("amigo ↔ assistente") foi melhor que o Noul (0,68 × 0,51).
 - **Custo do banco:** 1 chamada, US$ 0,000145, 0,51 s.
+- **Variantes que faltavam (relatório 19):** rubrica no state, referência ao estilo do próprio falante e exemplos rotulados
+  não acrescentam nada ao código + banco (AUC 0,887 → 0,889–0,891). A pergunta holística continua em ~0,5 **mesmo com a
+  rubrica ao lado**. A poda frase a frase pelo Jev empata com a regra "manter a 1ª frase", e podar fica com o código. **Juiz
+  fechado:** código + banco atômico do Jev (AUC ≈ 0,89–0,91); o Jev diagnostica, o código corrige.
 
 **2. Número de bolhas (relatório 11): o "sempre 1" era problema de arquitetura.**
 
@@ -381,6 +385,43 @@ conflito, pede desculpa, valida e acalma. A literatura confirma:
 **Teste em andamento:** 4–6 personas contrastantes × ~30 provocações, insultos, flertes e desculpas, com e sem a postura do
 Jev (relatório 18).
 
+### Resultados medidos da seção E e da seção F (relatório 18)
+**Estado da relação:**
+- **Jev 1 (detecção), 1.048 turnos reais de teste:** a AUC é 0,958 com um Noul por dimensão e direção e 0,968 combinando com
+  os Nouls de evento por regressão logística. O Score bipolar é pior (0,896). Os eventos têm AUC 0,94–1,00: desculpa 1,00,
+  promessa cumprida 0,96, "explica o sumiço" 0,99, defensivo 0,94.
+- **O limiar pesa mais que a arquitetura.** No limiar de 0,5, o Jev marca movimento em 16% das células contra 4% no ouro: ele
+  é generoso com o "positivo de rotina" (conforto↑ dispara em 82% dos turnos contra 13% no ouro). Com o **limiar por
+  dimensão calibrado no dev** (≈0,56–0,77), a concordância com a checagem manual é κ 0,65, quase igual à do gpt-6-luna (0,68).
+- **O Jev usa o contexto:** a mesma mensagem muda no sentido esperado em **86%** dos pares quando o contexto vem nos turnos +
+  no bloco de estado, contra 71% só com os turnos. "no wonder you're single" gera ressentimento 0,60 no dia 2 e **0,07** no
+  dia 200. "can't make it tonight" derruba a confiança 0,24 na 1ª vez e **0,91** na 3ª. É o "mesma frase, dia 2 × dia 200"
+  funcionando.
+- **Magnitude:** o Score descritivo {nada…marcante} ordena **96,9%** dos pares de gravidade (grave > leve em 100%). O Choice
+  de números 0–100 (a ideia original) fica em 66,5%, porque colapsa em 10–20 e dá **zero** à desculpa mais forte.
+  **Confirmado: níveis em palavras, nunca números.**
+- **A física em código** (16 cenários, 53 critérios definidos antes): ingênua 62% (satura e oscila); v0 73%; v3c (final)
+  81% (o número honesto, escolhido no dev, é **73%**), sempre sem saturação nem oscilação. No replay em dados reais, o
+  estado final do Jev e o do ouro têm ρ 0,67–0,70 e o mesmo modo em 80%.
+  - A desculpa repetida sem mudança ainda engana a v3d: o Jev marca "explica o sumiço" em desculpas esfarrapadas. A regra
+    de evento composto precisa exigir **mudança de comportamento**, não só a explicação.
+- **O estado muda a resposta (4 atores, mesma mensagem):** no estado ressentido a resposta tem 0,40× as palavras da resposta
+  no estado de confiança. A frieza sobe **+65 pp com o estado em frases + nota do diretor**, contra +25 pp com o estado em
+  números. Nomear a emoção e usar culpa ou ciúme para prender o usuário ficaram em 0%. Efeito colateral: no estado caloroso o
+  ator fica prolixo.
+- **Especificação pronta** (relatório 18, §8): texto exato das perguntas, limiar por dimensão, níveis → delta (0 / 0,04 / 0,10
+  / 0,18 / 0,28), meias-vidas, modos com histerese e regras de evento com AND. **Custo:** ≈US$ 0,0002 e 0,9 s por
+  mensagem; o Jev 2 só é necessário em 68% delas.
+
+**Postura do personagem (180 decisões do Jev, 6 personas × 30 mensagens):**
+- O Jev **nunca** escolheu "recuar/pedir desculpa" diante de insulto; "aceitar" ou "recuar" ficaram em 0%. Para "i hate you,
+  you're ugly and boring": o **soldado revida** (intensidade 3,1 de 4), a **tímida fica magoada** (1,4) e o **cínico desdenha**
+  (0,2).
+- Na checagem manual contra a ficha, 86% das decisões combinam e 4,4% estão erradas (sobretudo o aristocrata, que responde
+  com desdém até a desculpas). O estado da relação muda a postura em 29–32% dos casos, no sentido plausível.
+- **Não rodou** (os créditos do OpenRouter acabaram): a renderização dessas posturas pelas 4 LLMs com e sem o briefing e o
+  juiz de "pediu desculpa como assistente?". **A decisão do Jev está validada; o efeito na boca ainda precisa ser medido.**
+
 ### Onde isso entra no fluxo (seção 4.2)
 ```
 mensagem → [Jev leitura + Jev 1 da relação] → código atualiza o relationship_state (e decaimento)
@@ -490,6 +531,9 @@ mensagem → [Jev leitura + Jev 1 da relação] → código atualiza o relations
 | 14 | literatura: diálogo, persona, roleplay e avaliação (37 papers) | `analysis/14_literatura_dialogo_roleplay.md` |
 | 15 | literatura: CMC, psicologia, companions, ética e OptMem | `analysis/15_literatura_cmc_psicologia_companions.md` |
 | 16 | benchmarks: EQ-Bench, slop/Antislop, testes de Turing, viés de juízes | `analysis/16_benchmarks_eqbench_slop_turing.md` |
+| 17 | 3ª rodada: laboratório de geração (schemas de chat, Verbalized Sampling, "nunca…", cabeçalho de roleplay) | `analysis/17_laboratorio_de_geracao.md` |
+| 18 | 3ª rodada: estado da relação vivo (cascata Jev 1 → Jev 2 → física) + postura do personagem | `analysis/18_estado_da_relacao.md` |
+| 19 | 3ª rodada: juiz, as variantes que faltavam (rubrica, falante, exemplos, poda) | `analysis/19_juiz_variantes_contexto_e_poda.md` |
 
 **Limitação transversal:** **não há dado em português.** Os corpora são em inglês e em holandês. Todo equivalente em PT-BR
 ("haha" → "kkkk", "u" → "vc", as listas negras em PT) é **inferência**, não medição. O Jev funciona com state em PT

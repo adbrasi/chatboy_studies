@@ -14,10 +14,11 @@ escrever em cada momento", a arquitetura proposta e o resultado do experimento A
 | `RELATORIO_FINAL.md` | síntese e proposta de sistema |
 | `analysis/01…09_*.md` | 1ª rodada: ritmo, aberturas, emoção, estilo, engajamento, confiabilidade do Jev, flerte, vocabulário × LLM, A/B |
 | `analysis/10…16_*.md` | 2ª rodada: arquiteturas de chamadas do Jev (juiz, entrega/rajadas, o que escrever), controle de saída, literatura e benchmarks |
+| `analysis/17…19_*.md` | 3ª rodada: laboratório de geração, estado da relação + postura do personagem, variantes do juiz |
 | `analysis/data/` | saídas pequenas das análises (json/csv/jsonl) |
 | `docs/DATA.md` | corpora, esquemas e camada base de anotação do Jev |
 | `scripts/` | pipeline: `download.sh` → `normalize.py` → `features.py` → `annotate_base.py`; clientes `jev.py` e `llm.py` |
-| `scripts/analysis/` | scripts de cada relatório (prefixos `a1_` a `a9_`) |
+| `scripts/analysis/` | scripts de cada relatório (prefixos `a1_`–`a9_`, `b1_`–`b7_`, `c1_`–`c2_`, `d1_`) |
 
 Os dados brutos e processados ficam em `data/` e não são versionados. Para usar os clientes, ponha a chave do OpenRouter
 em `.env` como `OPENROUTER_API_KEY=...`.
