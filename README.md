@@ -12,7 +12,8 @@ escrever em cada momento", a arquitetura proposta e o resultado do experimento A
 | caminho | conteúdo |
 |---|---|
 | `RELATORIO_FINAL.md` | síntese e proposta de sistema |
-| `analysis/01…09_*.md` | os 9 relatórios temáticos (ritmo, aberturas, emoção, estilo, engajamento, confiabilidade do Jev, flerte, vocabulário × LLM, A/B) |
+| `analysis/01…09_*.md` | 1ª rodada: ritmo, aberturas, emoção, estilo, engajamento, confiabilidade do Jev, flerte, vocabulário × LLM, A/B |
+| `analysis/10…16_*.md` | 2ª rodada: arquiteturas de chamadas do Jev (juiz, entrega/rajadas, o que escrever), controle de saída, literatura e benchmarks |
 | `analysis/data/` | saídas pequenas das análises (json/csv/jsonl) |
 | `docs/DATA.md` | corpora, esquemas e camada base de anotação do Jev |
 | `scripts/` | pipeline: `download.sh` → `normalize.py` → `features.py` → `annotate_base.py`; clientes `jev.py` e `llm.py` |

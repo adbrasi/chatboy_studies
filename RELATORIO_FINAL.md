@@ -283,6 +283,13 @@
 | 7 | flerte, afeto e intimidade: o que dizer e como responder | `analysis/07_flerte_afeto_intimidade.md` |
 | 8 | vocabulário, vícios humanos × vícios de LLM, lista negra | `analysis/08_vocabulario_vicios_humano_vs_llm.md` |
 | 9 | experimento A/B: LLM pura × LLM + briefing do Jev × humano | `analysis/09_experimento_briefing_jev.md` |
+| 10 | 2ª rodada: arquiteturas do Jev como juiz e diagnosticador de "cara de LLM" (parcial) | `analysis/10_arquiteturas_jev_juiz_llm.md` |
+| 11 | 2ª rodada: rajadas ("5 bolhas em < 1 min") e arquiteturas do Jev para a entrega (parcial) | `analysis/11_arquiteturas_jev_entrega_e_rajadas.md` |
+| 12 | 2ª rodada: arquiteturas para "o que escrever" + Briefing v2 (parcial) | `analysis/12_arquiteturas_jev_o_que_escrever.md` |
+| 13 | 2ª rodada: controle de saída da LLM, 4 atores (parcial, só dev) | `analysis/13_controle_de_saida_llm.md` |
+| 14 | literatura: diálogo, persona, roleplay e avaliação (37 papers) | `analysis/14_literatura_dialogo_roleplay.md` |
+| 15 | literatura: CMC, psicologia, companions, ética e OptMem | `analysis/15_literatura_cmc_psicologia_companions.md` |
+| 16 | benchmarks: EQ-Bench, slop/Antislop, testes de Turing, viés de juízes | `analysis/16_benchmarks_eqbench_slop_turing.md` |
 
 **Limitação transversal:** **não há dado em português.** Os corpora são em inglês e em holandês. Todo equivalente em PT-BR
 ("haha" → "kkkk", "u" → "vc", as listas negras em PT) é **inferência**, não medição. O Jev funciona com state em PT
