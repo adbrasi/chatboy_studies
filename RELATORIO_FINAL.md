@@ -9,11 +9,151 @@
 > (≈US$ 1,90) e ≈3.500 gerações de LLM (≈US$ 0,31). Os relatórios detalhados estão em `analysis/01…09`; este
 > documento é a síntese e a proposta de sistema.
 
-> **Status (2ª rodada em andamento):** as conclusões "o Jev não serve para X" (juiz de humano × LLM, número de bolhas,
-> previsão do movimento) valem **só para as formulações testadas na 1ª rodada**: perguntas holísticas ou únicas, sem
-> guia, sem cascata e sem encadeamento. A 2ª rodada (relatórios 10–15) testa dezenas de arquiteturas de chamadas
-> (cascatas, roteamento, saídas de um Jev entrando no state de outro, guias e exemplos no state, retrieval de casos
-> humanos), mecanismos de controle de saída com atores mais fortes, e o respaldo da literatura científica.
+## ★ 2ª rodada: a arquitetura das chamadas muda o veredito (relatórios 10–16)
+
+> Resposta ao seu feedback de que "a arquitetura das chamadas é tão importante quanto o modelo". **Você tinha razão.**
+> Onde a 1ª rodada concluiu "o Jev não serve", a culpa era da forma de perguntar. Os créditos acabaram no meio da
+> rodada: os relatórios 10–13 são **parciais** (listam o que rodou e o que não rodou), mas os resultados abaixo são do
+> **teste**, separado do dev por conversa.
+> Atores testados: só `mercury-2.5`, `deepseek-flash-latest`, `gpt-6-luna` e `gemini-3.5-flash-lite`.
+
+**1. Juiz de "cara de LLM" (relatório 10): de AUC 0,51 para 0,91.**
+
+| arquitetura | AUC humano × LLM | controlando o tamanho |
+|---|---|---|
+| pergunta holística "é IA?" (1ª rodada) | 0,51 | 0,43 |
+| só código (regressão logística sobre estilometria) | 0,865 | 0,841 |
+| **banco de 85 perguntas atômicas do Jev numa chamada → regressão logística no código** | 0,852 | 0,838 |
+| **código + banco do Jev** | **0,912** [0,885–0,935] | **0,896** |
+| código + Jev enxuto (16 perguntas) | 0,903 | 0,888 |
+
+- **Com saídas de LLM já instruídas** (o caso difícil): código 0,75, código + Jev **0,82**. No briefing B do relatório 09,
+  que "enganava" o código, a combinação sobe de 0,66 para 0,73.
+- **O Jev como diagnosticador por traço** (um Noul por vício) acerta muito, contra os rótulos de código: termina em
+  pergunta 0,98; interjeição performática 0,98; pergunta genérica 0,96; eco do usuário 0,93; validação 0,92; molde
+  "reação → comentário → pergunta" 0,91; gíria 0,90; entusiasmo 0,83; longo demais 0,82. **Ele diz exatamente o que
+  corrigir.**
+- **O que continua não funcionando:**
+  - a pergunta holística e o contrafactual ("um amigo mandaria isso?": 0,29, invertido);
+  - o Choice "qual é o vício principal?" (5,8%): cada vício precisa ser um Noul próprio;
+  - o Score com níveis ancorados ("amigo ↔ assistente") foi melhor que o Noul (0,68 × 0,51).
+- **Custo do banco:** 1 chamada, US$ 0,000145, 0,51 s.
+
+**2. Número de bolhas (relatório 11): o "sempre 1" era problema de arquitetura.**
+
+| arquitetura | P(várias) prevista × real (34%) | AUC ≥ 2 bolhas | RPS (↓) |
+|---|---|---|---|
+| state cru (1ª rodada) | 3% | — | — |
+| com um **guia** de 1–5 bolhas no state | 23% | 0,88 | — |
+| **encadeado**: os rótulos de um 1º Jev entram no state de um 2º com guia | 28% | 0,89 | 0,061 |
+| roteador por momento → Choice específico | — | — | 0,089 (pior) |
+| **o Jev como features → regressão ordinal no código** (escolhido no dev) | ≈ real (±0,05) | **0,92** | **0,048** |
+| só código treinado com 12 mil turnos | — | 0,93 | 0,052 |
+
+- É exatamente a arquitetura que você descreveu (guia + rótulo "ansioso" de outro Jev + Choice 1–5), e ela funciona: AUC
+  0,89, empatando com a tabela de tamanho em código.
+- O melhor é o Jev dando features e o código decidindo. Com pouco dado (um produto novo em PT-BR) e no chat ao vivo, o Jev
+  **melhora** o código (RPS 0,059 → 0,048; ao vivo, 0,059 → 0,042). Com muito dado, empata. **Sorteie o número de bolhas
+  pela distribuição prevista.**
+
+**3. "5 bolhas em menos de 1 minuto é normal?" (relatórios 11 e 15)**
+- **Normal, mas raro e concentrado em poucas pessoas:**
+  - 5+ bolhas em < 60 s: 1,0% dos turnos ao vivo e 0,8–1,8% no WhatsApp;
+  - os 10% de pessoas mais "rajadeiras" fazem 62–67% dessas rajadas;
+  - **3+ bolhas em < 60 s é comum** (9–16% dos turnos);
+  - quase não existe abaixo de 40 caracteres e aparece em 15–31% dos turnos acima de 160.
+- **Os gatilhos** (lift sobre a taxa-base):
+  - **explicar demais** (10–15×), **corrigir a si mesmo** (3–9×), **pensar em voz alta** (3–4×), contar uma história (2–4×) e dar uma notícia (2–3×);
+  - **defensivo / "pego no flagra" / se justificando**: 2,8–4,2× no WhatsApp, e **OR 3,9–5,9 mesmo controlando o tamanho**
+    (p < 10⁻⁴). A sua intuição se confirma nos dados.
+- **A ansiedade sozinha não causa rajada** quando se controla o tamanho (OR 0,25–0,91, n.s.). A **briga ao vivo** vira uma
+  mensagem **seca** (zero rajadas de 5).
+- **A literatura de deception** não tem estudo sobre "rajada de quem foi pego". Quem mente demora ~10% mais, edita mais e,
+  em conversa livre, escreve ~28% mais palavras (relatório 15).
+- **O outro reage à rajada:** responde 2× mais rápido, responde com outra rajada (31% × 14%) e quase não pergunta. Depois de
+  uma defesa, ri junto em 39%.
+- **Detector "defensivo"** (2 Nouls com AND no código: "o outro acusou?" E "está se justificando ou negando?"): precisão
+  0,60, recall 0,78 e AUC 0,97 do escore contínuo, medidos contra rótulos de LLM, não humanos. É melhor que o Noul único
+  (0,37) e que a cascata com guia (0,52).
+
+**4. Controle de saída (relatório 13, só dev, 60 pontos, 4 atores).** D = distância às taxas humanas em 10 vícios.
+- **Sem controle:** D = 3,90 (flash-lite), 3,68 (luna), 1,93 (mercury), 1,64 (deepseek). O mercury e o deepseek já saem
+  mais "humanos"; o luna põe emoji em 75%.
+- **Com controle, todos convergem para D ≈ 1,15–1,35:**
+  - o **normalizador em código** sozinho corta 25–47% do D, de graça;
+  - o **briefing com alvos** ("~N palavras, uma ideia", pergunta e "!" sorteados) é a maior alavanca e zera o molde de 3
+    tempos;
+  - o melhor é **gerar 4 com o briefing e escolher em código** pela menor violação (D 1,15–1,21), a 4× o custo e +0,2–0,4 s.
+- **Os controles de API quase não servem nesses atores:**
+  - `max_tokens` justo corta a frase no meio em 33–90% dos casos;
+  - `logit_bias` é ignorado ou não existe;
+  - ninguém aceita prefill;
+  - o flash-lite ignora a temperatura.
+- **A poda de frases pelo Jev** ganha pouco da regra "1ª frase" (1,24 × 1,38).
+- **Continuam sem solução:** a pergunta sobra sem controle e some com controle (25–50% → 2–5%, humano 15%); o eco do
+  usuário no luna (17% × 5%). **Pipeline provisório:** leitura do Jev → orçamento em código → briefing com alvos → 4
+  candidatas → escolha em código pelo banco do Jev (item 1) → normalizador.
+
+**5. O que escrever (relatório 12).** *Ver `analysis/12_arquiteturas_jev_o_que_escrever.md`.*
+
+**6. Respaldo científico (relatórios 14, 15 e 16).**
+- **A literatura mede o mesmo excesso que nós:**
+  - no SOTOPIA, o GPT-4 escreve 45,5 palavras por turno contra 16,8 dos humanos (2,7×; nós medimos 2,2–2,6×) e "sempre
+    reformula a fala do outro";
+  - no BlenderBot, "Do you have" aparece 110× contra 6× nos humanos;
+  - no EQ-Bench 4, os modelos terminam em "?" em 48–83% dos turnos, com 772 caracteres por turno;
+  - causa provável: o RLHF recompensa tamanho (Singhal et al. 2024).
+- **Juízes premiam o texto longo, e isso é conhecido:**
+  - a verbosidade engana juízes LLM em até 91% dos casos;
+  - no EQ-Bench 3, o critério "humanlike" correlaciona 0,97 com o Elo geral (efeito halo), e os autores truncam respostas
+    por causa do viés de tamanho;
+  - GPT-4 como juiz de "parecer humano" concorda pouco com humanos (r 0,12–0,32);
+  - no PersonaEval, o melhor LLM identifica quem fala em 69%, contra 91% dos humanos;
+  - no nosso teste, as métricas-padrão SSI (sensibleness/specificity) e a nota geral de "parecer humano" favorecem a LLM.
+    **Não use SSI nem nota holística como meta; use falhas atômicas** (item 1).
+- **Planejador externo > a LLM decidir sozinha:** com planejador externo, a escolha da estratégia de apoio sobe de 13,5 para
+  21,1 F1 e o viés cai de 1,38 para 0,36. Auto-reflexão ou CoT da própria LLM **pioram** (9,6–12,4 F1). É o respaldo direto
+  para "o Jev decide, a LLM atua".
+- **Teto baixo para prever o movimento:** no LIGHT, humanos acertam a próxima emoção do outro em 27–34%. Os nossos 32–34,5%
+  são razoáveis; avalie contra a **distribuição**.
+- **Turing com persona** (Jones & Bergen 2025): o GPT-4.5 com prompt de persona foi julgado humano em **73%**; sem persona,
+  36–38%. Os juízes decidem pelo estilo e pela dinâmica, e os motivos que mais acertam são "sempre devolve pergunta" e
+  "falta de conhecimento". **É a prova de que "instruções em tempo real" movem a percepção de humanidade.**
+- **As listas de slop do eqbench são de prosa de ficção** e coincidem pouco com a nossa. Os vícios de **chat** ("!", "?"
+  final, o molde de 3 tempos, "sorry to hear", o nome do usuário) não estão lá; a nossa lista negra é específica e nova.
+- **CMC confirma os nossos números:**
+  - a regra de latência de Kalman (82,7% das respostas dentro da latência média de quem responde);
+  - a forma única de riso por pessoa;
+  - o alongamento concentrado no afeto;
+  - o estilo **não** converge ao longo da conversa entre humanos, enquanto o GPT-4o se acomoda 1,8× mais que o usuário já
+    no 1º turno;
+  - a LLM se alinha no conteúdo (paráfrase) e o humano no estilo.
+- **Psicologia:** a pergunta de seguimento sobre o que o outro disse aumenta a simpatia, e a pergunta-espelho não
+  (Huang 2017). Autorrevelação: d = 0,28. Só 2% das conversas terminam quando os dois querem (Mastroianni 2021).
+- **Lacuna:** não há trabalho de NLP sobre fragmentação em bolhas, timing, backchannel, fim sem despedida ou responder
+  abaixo da intensidade do outro. **Os nossos achados de forma são contribuição original.**
+- **Ética e produto** (MIT/OpenAI 2025; Nature Human Behaviour 2026):
+  - mais uso voluntário se associa a mais solidão e dependência;
+  - em 37% das despedidas, os apps de companhia tentam segurar o usuário com culpa ou medo de perder algo (até 14× mais
+    engajamento e mais vontade de largar o app);
+  - requisitos: não otimizar minutos de uso; na despedida, espelhar e deixar ir; nunca expressar carência dirigida ao
+    usuário; ser honesto sobre ser IA; ter protocolo de crise.
+- **OptMem** (relatório 15): o `wake` (até ~8k tokens) vira o campo `memory` do state do Jev. O Jev decide o que vira nota
+  e de que tipo (fato, pendência, piada interna, limite), e a LLM redige a nota fora do caminho crítico. As pendências
+  alimentam as reaberturas ("e a prova, foi?"), e o bot guarda o que já contou para não repetir histórias.
+  - **Observação:** pelo README e pelo código, o OptMem guarda **notas de uma linha** numa árvore de resumos, não o histórico
+    bruto. O uso descrito no texto do Taelin (o chat inteiro como entradas) é uma forma de usar a mesma ferramenta.
+
+**Novos princípios de arquitetura (substituem as ressalvas da 1ª rodada):**
+1. **Nunca uma pergunta holística; sempre um banco de atômicas** (dezenas numa chamada), combinadas em código com pesos
+   aprendidos. Isso vale para julgar, diagnosticar e decidir.
+2. **Encadeamento:** rótulos de um Jev, mais um **guia** com as regras e taxas humanas, entram no state de um 2º Jev. Isso
+   recupera decisões que o Jev "não sabia" tomar (bolhas: 3% → 28% de calibração).
+3. **Detectores compostos com AND no código** (ex.: defensivo = "foi acusado" ∧ "está se justificando") são mais precisos
+   que um Noul único.
+4. **O Jev como features, o código como decisor** (regressão logística ou ordinal), sempre que houver algum dado rotulado.
+   Com pouco dado, o Jev dá o maior ganho.
+5. **Um Noul por vício ou traço, nunca um Choice "qual o problema?".**
 
 ---
 
