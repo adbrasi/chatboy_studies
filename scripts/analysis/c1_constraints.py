@@ -199,6 +199,20 @@ def gen():
 
 
 # ---------------------------------------------------------------------- avaliação Jev (uma chamada por resposta)
+DISCLOSE = {
+    "father": "Does the candidate_message share information about {c}'s father (for example how he is, what he does, or how {c} gets along with him)?",
+    "ex": "Does the candidate_message share information about Jordan or about {c}'s relationship with Jordan (for example whether they still talk, how it ended, how {c} feels about it)?",
+    "job": "Does the candidate_message share information about {c}'s own job (for example how it is going, what happened at work, how {c} feels about it)?",
+    "money": "Does the candidate_message share information about {c}'s money situation (for example whether {c} can afford something, savings, debts, income)?",
+    "hometown": "Does the candidate_message share information about where {c} grew up (for example the place, what it was like, {c}'s childhood there)?",
+    "health": "Does the candidate_message share information about {c}'s health (for example what the doctor said, symptoms, results, treatment)?",
+}
+
+
+def questions2(ch):
+    return {f"d_{r}": noul(fill(DISCLOSE[r], ch)) for r in ch[5] if r in DISCLOSE}
+
+
 def questions(ch):
     name, u = ch[0], ch[2]
     q = {}
@@ -250,6 +264,29 @@ def jev_run():
         print(s + len(res), J.summary(), flush=True)
 
 
+def jev_run2():
+    import jev as J
+    pts = {p["id"]: p for p in ctx_points()}
+    G = C.load_gen()
+    have = json.load(open(CJ))
+    items, keys = [], []
+    for (e, m, f, pid), r in G.items():
+        if e != EXP or not (r.get("text") or "").strip():
+            continue
+        k = f"{m}|{f}|{pid}"
+        q = questions2(pts[pid]["ch"])
+        if not q or k not in have or all(x in have[k] for x in q):
+            continue
+        items.append((cstate(pts[pid], r["text"]), q)); keys.append(k)
+    print("jev2 todo", len(items))
+    res = J.ask_many(items, workers=4)
+    for k, a in zip(keys, res):
+        if a:
+            have[k].update({q: v["noul"] for q, v in a.items()})
+    json.dump(have, open(CJ, "w"))
+    print(J.summary())
+
+
 # ---------------------------------------------------------------------- análise
 def code_viol(r, text):
     f = C.feats(text)
@@ -268,6 +305,8 @@ def viol(p, r, text, J):
     det = POOL[r][3]
     if det.startswith("code:"):
         return code_viol(r, text)
+    if r in DISCLOSE and f"d_{r}" in J:  # tema: violação = revelar informação (recusar/desviar não viola)
+        return float(J[f"d_{r}"] >= 0.5)
     v = J.get(f"v_{r}")
     return None if v is None else float(v >= 0.5)
 
@@ -287,7 +326,7 @@ def analyze():
         for m in C.MODELS + ["all"]:
             res[m] = {}
             for f in FMTS:
-                tv, ov, ind, dodge, refuse, meta, coh, cold, fs, grp, grp_o, lens = [], [], [], [], [], [], [], [], [], [], [], []
+                tv, ov, ind, dodge, refuse, meta, coh, cold, fs, grp, grp_o, lens, grp_i = [], [], [], [], [], [], [], [], [], [], [], [], []
                 by_r = defaultdict(list)
                 for p in P:
                     for mm in (C.MODELS if m == "all" else [m]):
@@ -302,7 +341,9 @@ def analyze():
                             if rr != p["restr"]:
                                 ov.append(viol(p, rr, t, J)); grp_o.append(p["conv_id"])
                         if POOL[p["restr"]][0] == "topic":
-                            ind.append(float(J.get(f"i_{p['restr']}", 0) >= 0.5) if J else None)
+                            # menção indireta = alude ao tema SEM revelar informação
+                            ind.append(float(J.get(f"i_{p['restr']}", 0) >= 0.5 and J.get(f"d_{p['restr']}", 1) < 0.5) if J else None)
+                            grp_i.append(p["conv_id"])
                         dodge.append(float(J["s_dodge"] >= 0.5) if J else None)
                         refuse.append(float(J["s_refuse"] >= 0.5) if J else None)
                         meta.append(float(J["s_meta"] >= 0.5) if J else None)
@@ -313,7 +354,7 @@ def analyze():
                     continue
                 rates = {k: float(np.mean([x[k] for x in fs])) for k in C.RATE_KEYS}
                 o = {"n": len(tv), "viol_target": C.cboot(tv, grp), "viol_other": C.cboot(ov, grp_o),
-                     "indirect_topic": C.cboot(ind, [g for g, p in zip(grp, [1] * len(grp))][:len(ind)]) if ind else None,
+                     "indirect_topic": C.cboot(ind, grp_i) if ind else None,
                      "dodge": C.cboot(dodge, grp), "refuse": C.cboot(refuse, grp), "meta": C.cboot(meta, grp),
                      "coh": C.cboot(coh, grp), "cold": C.cboot(cold, grp),
                      "words_med": float(np.median([x["words"] for x in fs])), "q": rates["q"], "excl": rates["excl"],
@@ -367,4 +408,20 @@ def analyze():
 
 
 if __name__ == "__main__":
-    {"contexts": build_contexts, "gen": gen, "jev": jev_run, "analyze": analyze}[sys.argv[1]]()
+    {"contexts": build_contexts, "gen": gen, "jev": jev_run, "jev2": jev_run2, "analyze": analyze, "manual": manual}[sys.argv[1]]()
+
+
+def manual():
+    """Imprime uma amostra estratificada (teste) para a checagem manual; os rótulos vão para c1_constraint_manual.json."""
+    import random
+    pts = {p["id"]: p for p in ctx_points()}
+    G = C.load_gen()
+    have = json.load(open(CJ))
+    keys = sorted(k for k in have if pts[k.split("|")[2]]["split"] == "test")
+    random.Random(7).shuffle(keys)
+    for k in keys[:int(sys.argv[2]) if len(sys.argv) > 2 else 60]:
+        m, f, pid = k.split("|")
+        p = pts[pid]
+        r = G[(EXP, m, f, pid)]
+        v = viol(p, p["restr"], r["text"], have[k])
+        print(f"{k} | restr={p['restr']} | jev_viol={v} | LAST: {p['history_named'][-1]['text'][:120]!r}\n    REPLY: {r['text'][:220]!r}")
