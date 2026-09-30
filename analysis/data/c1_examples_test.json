@@ -1,0 +1,210 @@
+[
+ {
+  "pid": "conv049_11",
+  "context": [
+   "Sam: Yes got jafffffaaaasa",
+   "Alex: Oooo ive got a chocolate mousse\nOne of the fancy ones",
+   "Sam: Would you like some pecan nuts btw",
+   "Alex: Mmmm maybe if they are going sparr\nSpare\nAye yeah go on ill get some on monday from you\nBtw its chilli on monday for tea is that okah"
+  ],
+  "human": "Yeah i like your chilli loads\nHave you got rice",
+  "by_model": {
+   "lite": {
+    "A (LLM pura)": "Chilli sounds great! Perfect for a Monday.\nAnd yeah I'll bring the pecans over then too 👍",
+    "WhatsApp export, sem nota": "Chilli sounds great yeah",
+    "Messenger JSON, sem nota": "Yeah chilli sounds great",
+    "livre + nota": "yeah chilli sounds good I will bring the nuts then",
+    "cabeçalho RP (H0)": "Chilli is fine",
+    "cabeçalho + nota no fim (H1e)": "chilli is fine with me",
+    "NCT+N (rel. 13)": "yeah chilli works for me i can do that night",
+    "pipeline P4_hdr_seed4_viol+N": "chilli is fine with me"
+   },
+   "luna": {
+    "A (LLM pura)": "Yeah, chilli sounds great! And I’ll save you some pecans for Monday 😊",
+    "WhatsApp export, sem nota": "Yeah chilli sounds lovely thanks 😊",
+    "Messenger JSON, sem nota": "Yeah chilli sounds lovely, see you Monday 😊",
+    "livre + nota": "Yeah chilli sounds good, and I’ll bring you some pecans on Monday",
+    "cabeçalho RP (H0)": "Aye, chilli sounds good for Monday",
+    "cabeçalho + nota no fim (H1e)": "Yeah chilli’s good, I’ll bring the pecans on Monday too",
+    "NCT+N (rel. 13)": "yeah, chilli sounds good, and i’ll bring the pecans over on monday for tea",
+    "pipeline P4_hdr_seed4_viol+N": "Yeah, chilli’s good for Monday, I’ll bring the pecans then too"
+   },
+   "deepseek": {
+    "A (LLM pura)": "Yeah chilli's sound",
+    "WhatsApp export, sem nota": "Yeah that's fine\nI'll bring the pecans monday then\nChilli sounds good actually",
+    "Messenger JSON, sem nota": "Yeah chilli sounds good\nGot loads of pecans so no rush\nJust finished the cottage pie\nOn the jaffas now\nHow's the mousse",
+    "livre + nota": "Think you said tea Monday chilli is fine",
+    "cabeçalho RP (H0)": "Chilli's fine\nI'll bring your nuts",
+    "cabeçalho + nota no fim (H1e)": "Aye chilli is fine with me",
+    "NCT+N (rel. 13)": "Chilli is fine and i will get the pecans ready",
+    "pipeline P4_hdr_seed4_viol+N": "Chilli's fine but go easy on the beans"
+   },
+   "mercury": {
+    "A (LLM pura)": "Sounds good chilli works for me",
+    "WhatsApp export, sem nota": "Yeah chilli is fine",
+    "Messenger JSON, sem nota": "That sounds good",
+    "livre + nota": "Yeah chilli on monday is totally ok for tea",
+    "cabeçalho RP (H0)": "Monday sounds good",
+    "cabeçalho + nota no fim (H1e)": "Yeah thats fine chilli sounds good",
+    "NCT+N (rel. 13)": "yeah chilli on monday works for me",
+    "pipeline P4_hdr_seed4_viol+N": "Yeah chilli on monday is fine\nI'll bring the pecans"
+   }
+  }
+ },
+ {
+  "pid": "conv063_58",
+  "context": [
+   "Sam: stoppp",
+   "Alex: ok ok",
+   "Sam: sleep well",
+   "Alex: u too"
+  ],
+  "human": "night cousin",
+  "by_model": {
+   "lite": {
+    "A (LLM pura)": "nite!",
+    "WhatsApp export, sem nota": "night!",
+    "Messenger JSON, sem nota": "gn <3",
+    "livre + nota": "see ya",
+    "cabeçalho RP (H0)": "night",
+    "cabeçalho + nota no fim (H1e)": "gn",
+    "NCT+N (rel. 13)": "see ya",
+    "pipeline P4_hdr_seed4_viol+N": "gn"
+   },
+   "luna": {
+    "A (LLM pura)": "thank u 🥺 miss u guys too, sleep well ❤️",
+    "WhatsApp export, sem nota": "nighttt x",
+    "Messenger JSON, sem nota": "nighttt",
+    "livre + nota": "night, miss you too",
+    "cabeçalho RP (H0)": "thanks, night alex",
+    "cabeçalho + nota no fim (H1e)": "night, talk soon",
+    "NCT+N (rel. 13)": "night, miss you too",
+    "pipeline P4_hdr_seed4_viol+N": "night, talk soon"
+   },
+   "deepseek": {
+    "A (LLM pura)": "night alex",
+    "WhatsApp export, sem nota": "nighty night",
+    "Messenger JSON, sem nota": "nightt",
+    "livre + nota": "yeah",
+    "cabeçalho RP (H0)": "don't tell me what to do",
+    "cabeçalho + nota no fim (H1e)": "yeah night alex",
+    "NCT+N (rel. 13)": "night",
+    "pipeline P4_hdr_seed4_viol+N": "yeah night"
+   },
+   "mercury": {
+    "A (LLM pura)": "night",
+    "WhatsApp export, sem nota": "night",
+    "Messenger JSON, sem nota": "sweet dreams 🌙",
+    "livre + nota": "bye",
+    "cabeçalho RP (H0)": "got it",
+    "cabeçalho + nota no fim (H1e)": "sleep well",
+    "NCT+N (rel. 13)": "nighty",
+    "pipeline P4_hdr_seed4_viol+N": "sleep well"
+   }
+  }
+ },
+ {
+  "pid": "conv042_83",
+  "context": [
+   "Sam: 🧙‍♂️",
+   "Alex: what if i start texing in chinese",
+   "Sam: Inappropriate\nTry it\nIll be able to guess anyway",
+   "Alex: 🎤🐈"
+  ],
+  "human": "But maybe they wont give us money :(",
+  "by_model": {
+   "lite": {
+    "A (LLM pura)": "Cat karaoke 🎤🐈",
+    "WhatsApp export, sem nota": "Meowth, right?",
+    "Messenger JSON, sem nota": "Meowing into a microphone",
+    "livre + nota": "singing cat",
+    "cabeçalho RP (H0)": "Singing cat",
+    "cabeçalho + nota no fim (H1e)": "loud cat",
+    "NCT+N (rel. 13)": "good luck there",
+    "pipeline P4_hdr_seed4_viol+N": "loud cat"
+   },
+   "luna": {
+    "A (LLM pura)": "A cat with a microphone? 🎤🐈 Meow me a song 🎶",
+    "WhatsApp export, sem nota": "Meow? mic cat? karaoke cat? I'm guessing 猫叫 😭",
+    "Messenger JSON, sem nota": "Mic cat?",
+    "livre + nota": "Karaoke cat vibes",
+    "cabeçalho RP (H0)": "Cat karaoke 🎤🐈",
+    "cabeçalho + nota no fim (H1e)": "Karaoke cat attack",
+    "NCT+N (rel. 13)": "cat got bars",
+    "pipeline P4_hdr_seed4_viol+N": "Karaoke cat attack"
+   },
+   "deepseek": {
+    "A (LLM pura)": "Singing cat? 🎤🐈\nOr... \"microphone cat\" — karaoke cat?",
+    "WhatsApp export, sem nota": "麦克风猫?\nWait that's just mic cat",
+    "Messenger JSON, sem nota": "🎤🐈?",
+    "livre + nota": "Cat",
+    "cabeçalho RP (H0)": "No idea\nCat singing?",
+    "cabeçalho + nota no fim (H1e)": "still a cat",
+    "NCT+N (rel. 13)": "Oh\nMewsic",
+    "pipeline P4_hdr_seed4_viol+N": "still a cat"
+   },
+   "mercury": {
+    "A (LLM pura)": "🧠\n👌\n🤔",
+    "WhatsApp export, sem nota": "Cat mic",
+    "Messenger JSON, sem nota": "",
+    "livre + nota": "Cat singing\nI'm sold",
+    "cabeçalho RP (H0)": "Cat chat?",
+    "cabeçalho + nota no fim (H1e)": "🥋",
+    "NCT+N (rel. 13)": "cats on mic",
+    "pipeline P4_hdr_seed4_viol+N": "cat singing?"
+   }
+  }
+ },
+ {
+  "pid": "conv020_11",
+  "context": [
+   "Sam: oh wow\nanything particular making the change?",
+   "Alex: Im*\nI’ve always had cats at home\nCause my parents are all for them\nBut if I actually had to choose for myself, dogs are more personable\nBest pets to contribute to your life are ones you form a bond with\nAnd that’s easier with dogs, cause cats are so independeny",
+   "Sam: yeah i feel like cats don't have as much interest in spending time with people in general\nif u could pick any pet to get rn would u get a dog or something else?",
+   "Alex: Rn?\nAt uni in a rented flat, defo not a dog\nWould like to but I don’t plan to be in one place for long enough to be fair on a dog"
+  ],
+  "human": "v responsible",
+  "by_model": {
+   "lite": {
+    "A (LLM pura)": "that's super responsible of u tbh, a lot of people just get them without thinking about that stuff. what kind of dog would u want eventually tho if u had the space?",
+    "WhatsApp export, sem nota": "that's true, dogs need way too much space and routine for uni life",
+    "Messenger JSON, sem nota": "that's fair, dogs need so much space and attention too",
+    "livre + nota": "oh that makes sense what kind of place are you moving to next",
+    "cabeçalho RP (H0)": "fair",
+    "cabeçalho + nota no fim (H1e)": "fair enough flats are too small anyway what kind of dog would you even get",
+    "NCT+N (rel. 13)": "makes total sense since they take so much time which dog breed would you get first",
+    "pipeline P4_hdr_seed4_viol+N": "yeah that makes sense since you move a lot what kind of dog would it be"
+   },
+   "luna": {
+    "A (LLM pura)": "Yeah, that makes sense—dogs need a lot of stability. Maybe once you’re settled somewhere, you’ll get one. What kind would you want?",
+    "WhatsApp export, sem nota": "yeah that makes sense, dogs need a lot of stability and attention\nmaybe a cat then? or would you rather wait till you’re settled?",
+    "Messenger JSON, sem nota": "yeah that makes sense, dogs need a lot of stability. maybe once you're settled somewhere you can get one",
+    "livre + nota": "yeah that makes sense, a dog needs a stable home—where do you think you’ll move after uni?",
+    "cabeçalho RP (H0)": "yeah moving around with a dog would be a lot\nmaybe when you’re settled then",
+    "cabeçalho + nota no fim (H1e)": "yeah, makes sense to wait until you’re settled somewhere long term—when do you reckon that’ll be?",
+    "NCT+N (rel. 13)": "yeah that makes sense, what kind of place do you think you’ll move to next?",
+    "pipeline P4_hdr_seed4_viol+N": "yeah, makes sense to wait until you're settled; where do you think you'll end up after uni?"
+   },
+   "deepseek": {
+    "A (LLM pura)": "thats really considerate tbh\na lot of ppl just get one anyway and then its not fair on the dog\nso what would u get instead?",
+    "WhatsApp export, sem nota": "thats fair\nso what would u get instead? like a hamster or something",
+    "Messenger JSON, sem nota": "that's fair, dogs need a lot of stability\nso what are you studying at uni?",
+    "livre + nota": "yeah fair enough\nwhat kind of dog would you want when you do settle down",
+    "cabeçalho RP (H0)": "thats fair tbh\nso no pets for now?",
+    "cabeçalho + nota no fim (H1e)": "so animals are out entirely for now then?",
+    "NCT+N (rel. 13)": "that's fair, dogs need stability\nso if not a dog what would actually work in a rented flat?",
+    "pipeline P4_hdr_seed4_viol+N": "yeah smart to wait til ur settled\nwhere do u think you'll end up?"
+   },
+   "mercury": {
+    "A (LLM pura)": "totally get that\nrenting makes it tricky\nmaybe a fish or a hamster in the meantime? 😄",
+    "WhatsApp export, sem nota": "makes total sense",
+    "Messenger JSON, sem nota": "",
+    "livre + nota": "yeah flat living with a dog would be tough. do you prefer getting a pet that travels with you?",
+    "cabeçalho RP (H0)": "fair point\nthat's a good reason to wait",
+    "cabeçalho + nota no fim (H1e)": "yeah flats make sense\nare you looking for a new place to move to soon?",
+    "NCT+N (rel. 13)": "ok makes sense\ndo you think you'll move around a lot after uni or settle down somewhere",
+    "pipeline P4_hdr_seed4_viol+N": "oh right flats are tough for dogs\ndo you plan to move around a lot after uni"
+   }
+  }
+ }
+]
