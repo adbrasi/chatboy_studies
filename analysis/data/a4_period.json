@@ -1,0 +1,262 @@
+{
+ "real_data": {
+  "maichat/all": {
+   "n_period": 53,
+   "n": 2871,
+   "tension": {
+    "period": 0.253,
+    "no_period": 0.233,
+    "within": {
+     "n_spk": 9,
+     "mean_diff": -0.029,
+     "p": 0.692
+    }
+   },
+   "valence": {
+    "period": 2.129,
+    "no_period": 2.313,
+    "within": {
+     "n_spk": 9,
+     "mean_diff": -0.177,
+     "p": 0.3626
+    }
+   },
+   "next_tension": {
+    "period": 0.225,
+    "no_period": 0.236,
+    "within": {
+     "n_spk": 9,
+     "mean_diff": -0.078,
+     "p": 0.3299
+    }
+   },
+   "next_valence": {
+    "period": 2.445,
+    "no_period": 2.307,
+    "within": {
+     "n_spk": 9,
+     "mean_diff": 0.284,
+     "p": 0.2259
+    }
+   }
+  },
+  "maichat/short<=6w": {
+   "n_period": 28,
+   "n": 1777,
+   "tension": {
+    "period": 0.363,
+    "no_period": 0.268,
+    "within": {
+     "n_spk": 5,
+     "mean_diff": 0.042,
+     "p": 0.6456
+    }
+   },
+   "valence": {
+    "period": 1.828,
+    "no_period": 2.218,
+    "within": {
+     "n_spk": 5,
+     "mean_diff": -0.454,
+     "p": 0.1134
+    }
+   },
+   "next_tension": {
+    "period": 0.335,
+    "no_period": 0.271,
+    "within": {
+     "n_spk": 5,
+     "mean_diff": -0.022,
+     "p": 0.8395
+    }
+   },
+   "next_valence": {
+    "period": 2.308,
+    "no_period": 2.224,
+    "within": {
+     "n_spk": 5,
+     "mean_diff": 0.362,
+     "p": 0.1004
+    }
+   }
+  },
+  "whatsapp_nl/all": {
+   "n_period": 93,
+   "n": 3078,
+   "tension": {
+    "period": 0.139,
+    "no_period": 0.136,
+    "within": {
+     "n_spk": 17,
+     "mean_diff": 0.024,
+     "p": 0.1617
+    }
+   },
+   "valence": {
+    "period": 2.196,
+    "no_period": 2.495,
+    "within": {
+     "n_spk": 17,
+     "mean_diff": -0.244,
+     "p": 0.0123
+    }
+   },
+   "next_tension": {
+    "period": 0.133,
+    "no_period": 0.137,
+    "within": {
+     "n_spk": 16,
+     "mean_diff": 0.016,
+     "p": 0.2097
+    }
+   },
+   "next_valence": {
+    "period": 2.51,
+    "no_period": 2.498,
+    "within": {
+     "n_spk": 16,
+     "mean_diff": -0.019,
+     "p": 0.8481
+    }
+   }
+  },
+  "whatsapp_nl/short<=6w": {
+   "n_period": 21,
+   "n": 1233,
+   "tension": {
+    "period": 0.131,
+    "no_period": 0.137,
+    "within": null
+   },
+   "valence": {
+    "period": 2.129,
+    "no_period": 2.518,
+    "within": null
+   },
+   "next_tension": {
+    "period": 0.155,
+    "no_period": 0.146,
+    "within": null
+   },
+   "next_valence": {
+    "period": 2.358,
+    "no_period": 2.471,
+    "within": null
+   }
+  }
+ },
+ "jev_minimal_pairs": {
+  "n_cases": 60,
+  "examples": [
+   "sounds good xx",
+   "productive queen",
+   "so what r u doing now",
+   "not u tho",
+   "no windows",
+   "yeah feels natural enough",
+   "then stop supervising my life",
+   "pls dont"
+  ],
+  "variants": {
+   "bare": {
+    "cold": {
+     "mean": 0.421
+    },
+    "warm": {
+     "mean": 0.396
+    },
+    "bot": {
+     "mean": 0.22
+    }
+   },
+   "excl": {
+    "cold": {
+     "mean": 0.362,
+     "paired_diff": -0.059,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.2
+    },
+    "warm": {
+     "mean": 0.527,
+     "paired_diff": 0.131,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.917
+    },
+    "bot": {
+     "mean": 0.22,
+     "paired_diff": 0.001,
+     "p_wilcoxon": 0.624,
+     "share_up": 0.45
+    }
+   },
+   "haha": {
+    "cold": {
+     "mean": 0.184,
+     "paired_diff": -0.237,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.017
+    },
+    "warm": {
+     "mean": 0.746,
+     "paired_diff": 0.35,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.983
+    },
+    "bot": {
+     "mean": 0.182,
+     "paired_diff": -0.038,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.033
+    }
+   },
+   "period": {
+    "cold": {
+     "mean": 0.456,
+     "paired_diff": 0.034,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.8
+    },
+    "warm": {
+     "mean": 0.375,
+     "paired_diff": -0.021,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.1
+    },
+    "bot": {
+     "mean": 0.221,
+     "paired_diff": 0.001,
+     "p_wilcoxon": 0.9273,
+     "share_up": 0.4
+    }
+   },
+   "smiley": {
+    "cold": {
+     "mean": 0.224,
+     "paired_diff": -0.197,
+     "p_wilcoxon": 0.0,
+     "share_up": 0.0
+    },
+    "warm": {
+     "mean": 0.756,
+     "paired_diff": 0.36,
+     "p_wilcoxon": 0.0,
+     "share_up": 1.0
+    },
+    "bot": {
+     "mean": 0.236,
+     "paired_diff": 0.016,
+     "p_wilcoxon": 0.0015,
+     "share_up": 0.617
+    }
+   }
+  }
+ },
+ "jev": {
+  "calls": 300,
+  "cached": 0,
+  "input_tokens": 106950,
+  "cost": 0.004491899999999991,
+  "latency_p50_s": 0.5126407146453857,
+  "n_lat": 300
+ }
+}
