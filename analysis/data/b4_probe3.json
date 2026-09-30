@@ -1,0 +1,27 @@
+{
+ "deepseek_logit_bias_require_parameters": "aceito sem erro, mas NÃO honrado: '!' e 'amazing' continuaram em 4/4 e 'congrats!!!' com {'3':-100,'6909':-100}",
+ "prefill": {
+  "lite": "rejeitado (400: Requests ending with a model turn are not supported)",
+  "luna": "ignorado (gera resposta nova)",
+  "deepseek": "ignorado (trata como turno anterior)",
+  "mercury": "ignorado/lixo (<|think_end|> vazado)"
+ },
+ "stop": {
+  "lite": "aceito",
+  "luna": "NÃO aceito (descartado)",
+  "deepseek": "aceito",
+  "mercury": "aceito"
+ },
+ "temperature/top_p": {
+  "lite": "ambos",
+  "luna": "nenhum",
+  "deepseek": "ambos",
+  "mercury": "só temperatura"
+ },
+ "reasoning": {
+  "lite": "obrigatório, não desliga (0 tokens no padrão)",
+  "luna": "effort=none funciona (26→0 tokens)",
+  "deepseek": "enabled=false funciona (195→0)",
+  "mercury": "padrão gasta TODO o max_tokens em raciocínio (resposta vazia); effort=none resolve"
+ }
+}

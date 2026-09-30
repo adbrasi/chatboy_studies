@@ -227,7 +227,8 @@ def elements(text, max_words=12, max_phr=10):
     cont, seen = [], set()
     for t in toks:
         tl = t.lower().strip("'")
-        if tl in STOP or len(tl) < 2 or LAUGH.fullmatch(tl or "x"):
+        if (tl in STOP or len(tl) < 2 or LAUGH.fullmatch(tl or "x")
+                or re.fullmatch(r"(h+m+|a+h+|o+h+|u+h+|u+m+|h+a+|o+k+a*y*|y+e+a*h*|n+o+|y+e+s+|w+o+w+|l+o+l+)", tl)):
             continue
         if tl not in seen:
             seen.add(tl); cont.append(t)

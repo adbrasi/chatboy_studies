@@ -92,7 +92,9 @@ def load_units(include_new=True):
                     "turn_idx": p["turn_idx"], "speaker": spk, "bucket": p["stratum"]}
         units.append({"uid": ck + "|human", "ckey": ck, "cond": "human", "label": 0, "family": "human", "text": norm_text(p["human"])})
         for cn in A9_CONDS:
-            t = p["gen"].get(cn)
+            if cn in ("B",) and p.get("fallback"):
+                continue
+            t = p.get("gen", {}).get(cn)
             if t:
                 units.append({"uid": ck + "|" + cn, "ckey": ck, "cond": cn, "label": 1, "family": FAMILY[cn], "text": norm_text(t)})
     units = [u for u in units if u["text"]]
@@ -261,3 +263,19 @@ def val(a):
         return float("nan")
     t = a["type"]
     return a["noul"] if t == "noul" else a["score"] if t == "score" else a["choice"]
+
+
+CORE_A8 = ["human", "base_gemini", "base_luna", "styled_luna", "styled_deepseek"]
+CORE_A9 = ["human", "B"]
+
+
+def core_units(ctxs, units):
+    """Subset used by the state-variant architectures (cost control): maichat only."""
+    out = []
+    for u in units:
+        c = ctxs[u["ckey"]]
+        if c["src"] == "a8_maichat" and u["cond"] in CORE_A8:
+            out.append(u)
+        elif c["src"] == "a9" and u["cond"] in CORE_A9:
+            out.append(u)
+    return out
