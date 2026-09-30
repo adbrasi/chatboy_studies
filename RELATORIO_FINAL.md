@@ -94,7 +94,38 @@
   usuário no luna (17% × 5%). **Pipeline provisório:** leitura do Jev → orçamento em código → briefing com alvos → 4
   candidatas → escolha em código pelo banco do Jev (item 1) → normalizador.
 
-**5. O que escrever (relatório 12).** *Ver `analysis/12_arquiteturas_jev_o_que_escrever.md`.*
+**5. O que escrever (relatório 12): 13 arquiteturas + 12 misturas, teste com 400 pontos.**
+- **O teto é baixo por natureza.** Dois rotuladores independentes que **veem** a resposta real concordam no movimento em
+  73,5%. Prevendo antes de vê-la:
+
+| arquitetura | top-1 do movimento |
+|---|---|
+| classe majoritária | 19,8% |
+| voto kNN de casos parecidos (sem o Jev online) | 30,2% |
+| **Choice plana do Jev** | **37,5%** |
+| **retrieval de 20 casos humanos parecidos + Choice plana (escolhida no dev)** | **38,8%** (top-3 66,8%) |
+
+  - O retrieval melhora de forma significativa a **distribuição** (log-loss −0,16), que é o que importa para sortear, mas não
+    o argmax.
+  - A similaridade que funcionou foi um **"embedding Jev"** (os rótulos D do turno do parceiro); TF-IDF puro recuperava
+    casos ruins.
+- **As cascatas pioraram a decisão do movimento:** rótulos no state de um 2º Jev + guia 33,2%; + prior empírico 33,0%; guia
+  no state 34,5%; 16 Nouls 26%. **Para o "o que fazer", o Jev decide melhor com o contexto cru** do que com rótulos
+  intermediários: o 2º passo herda os erros dos rótulos e ancora nas taxas do guia. (Nas bolhas, que são uma decisão
+  estrutural, o encadeamento ajudou. **A arquitetura certa depende do tipo de decisão.**)
+- **A LLM como cérebro é pior que o Jev:** o gpt-6-luna prevendo o movimento com raciocínio acertou 32,5%, contra 37,5%, a
+  ~10× o custo.
+- **O portão de confiança funciona muito bem:** com confiança ≥ 0,7 (29% dos pontos), o top-1 sobe para **64%**. Abaixo de
+  0,55, fica em 25–30%. **Dite o movimento só com confiança alta; senão, dite só a forma.**
+- **A que palavra reagir (especificidade): o Jev acerta 61,6%**, contra 42,7% da regra "última palavra" e 30% do acaso. É o
+  sinal de conteúdo mais forte que achamos e ataca o "responder à palavra, não ao tema" e a falta de especificidade (Meena).
+- **Tom:** 44,8% (majoritária 29%, teto 72,5%). **Subtexto** ("deixar implícito?"): AUC 0,62, fraco.
+- **Briefing v2** (reduzido: 40 pontos, 2 atores, ICs largos):
+  - os dois atores ficaram perto do humano na forma com qualquer briefing, e de novo quem faz o grosso é o **código**;
+  - passar o movimento do Jev como ordem **não** melhorou a coincidência de movimento nesse n (flash 30% contra 42% só
+    código; luna 35% contra 35%);
+  - novo vício criado pelo próprio briefing: "greet back + one concrete thing" gerou "hey drinking coffee" em 5 de 6
+    aberturas. **Cada ordem fixa vira um vício; as ordens precisam variar.**
 
 **6. Respaldo científico (relatórios 14, 15 e 16).**
 - **A literatura mede o mesmo excesso que nós:**
@@ -147,13 +178,17 @@
 **Novos princípios de arquitetura (substituem as ressalvas da 1ª rodada):**
 1. **Nunca uma pergunta holística; sempre um banco de atômicas** (dezenas numa chamada), combinadas em código com pesos
    aprendidos. Isso vale para julgar, diagnosticar e decidir.
-2. **Encadeamento:** rótulos de um Jev, mais um **guia** com as regras e taxas humanas, entram no state de um 2º Jev. Isso
-   recupera decisões que o Jev "não sabia" tomar (bolhas: 3% → 28% de calibração).
+2. **Encadeamento com critério:** rótulos de um Jev, mais um **guia** com as regras e taxas humanas, no state de um 2º Jev
+   recuperam decisões **estruturais** (bolhas: 3% → 28% de calibração). Mas **pioram** as decisões de conteúdo (movimento:
+   37,5% → 33%), em que o contexto cru mais o **retrieval de casos humanos parecidos** funciona melhor. Teste as duas
+   opções para cada decisão.
 3. **Detectores compostos com AND no código** (ex.: defensivo = "foi acusado" ∧ "está se justificando") são mais precisos
    que um Noul único.
 4. **O Jev como features, o código como decisor** (regressão logística ou ordinal), sempre que houver algum dado rotulado.
    Com pouco dado, o Jev dá o maior ganho.
 5. **Um Noul por vício ou traço, nunca um Choice "qual o problema?".**
+6. **O portão de confiança é o que torna o Jev confiável para ditar conteúdo:** com confiança ≥ 0,7, ele acerta o movimento em
+   64% dos casos; abaixo disso, dite só a forma (tamanho, pergunta sim/não, riso, a palavra a que reagir).
 
 ---
 
