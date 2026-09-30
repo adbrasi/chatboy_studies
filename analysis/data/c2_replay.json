@@ -279,6 +279,118 @@
    "drift_gold": 0.0251,
    "moves_per_turn_jev": 0.712,
    "moves_per_turn_gold": 0.732
+  },
+  "v3a": {
+   "n_chars": 26,
+   "final_rho": {
+    "trust": 0.694,
+    "comfort": 0.646,
+    "affection": 0.298,
+    "resentment": 0.433,
+    "jealousy": null,
+    "respect": 0.143,
+    "protectiveness": 0.569,
+    "playfulness": 0.932
+   },
+   "final_rho_mean": 0.531,
+   "final_mae": 0.0339,
+   "delta_r": 0.418,
+   "mode_agree": 0.796,
+   "mode_agree_ci": [
+    0.7957,
+    0.6593,
+    0.8961
+   ],
+   "sat_jev": 0.0,
+   "sat_gold": 0.0,
+   "drift_jev": 0.04,
+   "drift_gold": 0.0283,
+   "moves_per_turn_jev": 0.797,
+   "moves_per_turn_gold": 0.732
+  },
+  "v3b": {
+   "n_chars": 26,
+   "final_rho": {
+    "trust": 0.704,
+    "comfort": 0.631,
+    "affection": 0.298,
+    "resentment": 0.426,
+    "jealousy": null,
+    "respect": 0.102,
+    "protectiveness": 0.514,
+    "playfulness": 0.925
+   },
+   "final_rho_mean": 0.514,
+   "final_mae": 0.0413,
+   "delta_r": 0.445,
+   "mode_agree": 0.797,
+   "mode_agree_ci": [
+    0.7969,
+    0.6644,
+    0.8959
+   ],
+   "sat_jev": 0.0,
+   "sat_gold": 0.0,
+   "drift_jev": 0.0507,
+   "drift_gold": 0.0341,
+   "moves_per_turn_jev": 0.8,
+   "moves_per_turn_gold": 0.733
+  },
+  "v3c": {
+   "n_chars": 26,
+   "final_rho": {
+    "trust": 0.704,
+    "comfort": 0.631,
+    "affection": 0.298,
+    "resentment": 0.426,
+    "jealousy": null,
+    "respect": 0.102,
+    "protectiveness": 0.514,
+    "playfulness": 0.925
+   },
+   "final_rho_mean": 0.514,
+   "final_mae": 0.0421,
+   "delta_r": 0.443,
+   "mode_agree": 0.78,
+   "mode_agree_ci": [
+    0.7804,
+    0.662,
+    0.8892
+   ],
+   "sat_jev": 0.0,
+   "sat_gold": 0.0,
+   "drift_jev": 0.0514,
+   "drift_gold": 0.0341,
+   "moves_per_turn_jev": 0.803,
+   "moves_per_turn_gold": 0.733
+  },
+  "v3d": {
+   "n_chars": 26,
+   "final_rho": {
+    "trust": 0.704,
+    "comfort": 0.631,
+    "affection": 0.298,
+    "resentment": 0.426,
+    "jealousy": null,
+    "respect": 0.102,
+    "protectiveness": 0.514,
+    "playfulness": 0.925
+   },
+   "final_rho_mean": 0.514,
+   "final_mae": 0.042,
+   "delta_r": 0.443,
+   "mode_agree": 0.78,
+   "mode_agree_ci": [
+    0.7804,
+    0.662,
+    0.8892
+   ],
+   "sat_jev": 0.0,
+   "sat_gold": 0.0,
+   "drift_jev": 0.0514,
+   "drift_gold": 0.0341,
+   "moves_per_turn_jev": 0.804,
+   "moves_per_turn_gold": 0.739
   }
  },
  "test": {
@@ -561,6 +673,118 @@
    "drift_gold": 0.0211,
    "moves_per_turn_jev": 0.867,
    "moves_per_turn_gold": 0.76
+  },
+  "v3a": {
+   "n_chars": 34,
+   "final_rho": {
+    "trust": 0.581,
+    "comfort": 0.866,
+    "affection": 0.855,
+    "resentment": 0.496,
+    "jealousy": null,
+    "respect": 0.195,
+    "protectiveness": 0.722,
+    "playfulness": 0.93
+   },
+   "final_rho_mean": 0.664,
+   "final_mae": 0.0341,
+   "delta_r": 0.468,
+   "mode_agree": 0.796,
+   "mode_agree_ci": [
+    0.7958,
+    0.7019,
+    0.8987
+   ],
+   "sat_jev": 0.0,
+   "sat_gold": 0.0,
+   "drift_jev": 0.046,
+   "drift_gold": 0.0265,
+   "moves_per_turn_jev": 0.98,
+   "moves_per_turn_gold": 0.76
+  },
+  "v3b": {
+   "n_chars": 34,
+   "final_rho": {
+    "trust": 0.543,
+    "comfort": 0.852,
+    "affection": 0.855,
+    "resentment": 0.524,
+    "jealousy": null,
+    "respect": 0.231,
+    "protectiveness": 0.723,
+    "playfulness": 0.937
+   },
+   "final_rho_mean": 0.666,
+   "final_mae": 0.0397,
+   "delta_r": 0.495,
+   "mode_agree": 0.808,
+   "mode_agree_ci": [
+    0.8082,
+    0.7142,
+    0.8812
+   ],
+   "sat_jev": 0.012,
+   "sat_gold": 0.0,
+   "drift_jev": 0.056,
+   "drift_gold": 0.0322,
+   "moves_per_turn_jev": 0.983,
+   "moves_per_turn_gold": 0.76
+  },
+  "v3c": {
+   "n_chars": 34,
+   "final_rho": {
+    "trust": 0.543,
+    "comfort": 0.852,
+    "affection": 0.855,
+    "resentment": 0.524,
+    "jealousy": 0.674,
+    "respect": 0.231,
+    "protectiveness": 0.723,
+    "playfulness": 0.937
+   },
+   "final_rho_mean": 0.667,
+   "final_mae": 0.0397,
+   "delta_r": 0.499,
+   "mode_agree": 0.802,
+   "mode_agree_ci": [
+    0.8015,
+    0.7097,
+    0.8804
+   ],
+   "sat_jev": 0.012,
+   "sat_gold": 0.0,
+   "drift_jev": 0.0561,
+   "drift_gold": 0.0322,
+   "moves_per_turn_jev": 0.986,
+   "moves_per_turn_gold": 0.763
+  },
+  "v3d": {
+   "n_chars": 34,
+   "final_rho": {
+    "trust": 0.543,
+    "comfort": 0.852,
+    "affection": 0.855,
+    "resentment": 0.514,
+    "jealousy": 0.674,
+    "respect": 0.231,
+    "protectiveness": 0.723,
+    "playfulness": 0.937
+   },
+   "final_rho_mean": 0.666,
+   "final_mae": 0.0395,
+   "delta_r": 0.5,
+   "mode_agree": 0.802,
+   "mode_agree_ci": [
+    0.8015,
+    0.7097,
+    0.8804
+   ],
+   "sat_jev": 0.012,
+   "sat_gold": 0.0,
+   "drift_jev": 0.0561,
+   "drift_gold": 0.032,
+   "moves_per_turn_jev": 0.987,
+   "moves_per_turn_gold": 0.77
   }
  },
  "chosen_on_dev_criterion_v0": "v0+thr0.74+mood",

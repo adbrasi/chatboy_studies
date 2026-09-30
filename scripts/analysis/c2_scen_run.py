@@ -21,6 +21,15 @@ KNOWN = {"S14_day200_banter": "about 5 years, best friends", "S03_bad_joke": "a 
 
 # v2 = especificação escolhida no dev dos dados reais (c2_replay.py): limiar de detecção 0,74 + humor volta 10%/msg
 SPEC2 = copy.deepcopy(SPEC); SPEC2["detect_thr"] = 0.74; SPEC2["routine_thr"] = 0.74; SPEC2["mood_decay_msg"] = 0.1
+# v3* = correções do diagnóstico nos cenários-DEV (ímpares); avaliadas nos cenários-TESTE (pares) e no replay real
+CELL_THR = json.load(open(f"{ADATA}/c2_cell_thr.json"))["cell_thr"]
+SPECS = {"v2": SPEC2}
+s3 = copy.deepcopy(SPEC); s3["mood_decay_msg"] = 0.1; s3["cell_thr"] = CELL_THR; SPECS["v3a"] = s3
+s3 = copy.deepcopy(s3); s3["delta_interp"] = [0.0, 0.04, 0.10, 0.18, 0.28]; SPECS["v3b"] = s3
+s3 = copy.deepcopy(s3); s3["jealousy_rule"] = True
+s3["modes"] = dict(s3["modes"], cold=("resentment", 0.40, 0.28, ">"), jealous=("jealousy", 0.35, 0.22, ">")); SPECS["v3c"] = s3
+s3 = copy.deepcopy(s3); s3["resolve_v3"] = True; s3["resolve_relief"] = True; SPECS["v3d"] = s3
+DEV_SC = [k for k in SC if k[1:3].isdigit() and int(k[1:3]) % 2 == 1]
 NAIVE_SPEC = copy.deepcopy(SPEC)
 NAIVE_SPEC["rate_up"] = {d: 1.0 for d in DIMS}; NAIVE_SPEC["rate_down"] = {d: 1.0 for d in DIMS}
 NAIVE_SPEC["half_life_h"] = {d: None for d in DIMS}
@@ -67,8 +76,11 @@ def naive_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=Fal
 
 
 def run(name, cfg0):
-    cfg = cfg0.replace("v2", "")
-    spec = SPEC2 if cfg0.endswith("v2") else SPEC
+    if "@" in cfg0:
+        cfg, sv = cfg0.split("@"); spec = SPECS[sv]
+    else:
+        cfg = cfg0.replace("v2", "")
+        spec = SPEC2 if cfg0.endswith("v2") else SPEC
     turns = SC[name]["turns"]
     base = dict(DEFAULT_BASE, **BASES.get(name, {}))
     rel = NaiveRel(base, spec=NAIVE_SPEC) if cfg == "NAIVE" else RelState(base, spec=spec)
@@ -257,7 +269,12 @@ def main(cfgs):
             out[n] = r
         sc = [c["ok"] for r in out.values() for c in r["checks"] if not c["global"]]
         gl = [c["ok"] for r in out.values() for c in r["checks"] if c["global"]]
+        split_pass = {}
+        for sp, names in (("dev", DEV_SC), ("test", [k for k in SC if k not in DEV_SC])):
+            split_pass[sp] = round(float(np.mean([c["ok"] for n in names for c in out[n]["checks"] if not c["global"]])), 3)
+            split_pass[sp + "_global"] = round(float(np.mean([c["ok"] for n in names for c in out[n]["checks"] if c["global"]])), 3)
         allres[cfg] = {"scenarios": out, "pass_specific": round(float(np.mean(sc)), 3), "n_specific": len(sc),
+                       "split": split_pass,
                        "pass_global": round(float(np.mean(gl)), 3), "n_global": len(gl),
                        "scen_all_pass": sum(all(c["ok"] for c in r["checks"]) for r in out.values())}
         jdump(allres, path)

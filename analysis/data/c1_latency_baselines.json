@@ -1,0 +1,15 @@
+{
+ "dev": {
+  "const_median_err": 1.028,
+  "prev_sam_rho": 0.16,
+  "prev_sam_err": 1.246,
+  "n": 60
+ },
+ "test": {
+  "const_median_err": 1.115,
+  "prev_sam_rho": 0.592,
+  "prev_sam_err": 0.832,
+  "n": 101
+ },
+ "note": "const = mediana real do dev (15 s); prev = latência da última resposta de Sam no histórico"
+}

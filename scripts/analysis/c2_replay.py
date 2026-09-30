@@ -133,6 +133,10 @@ def variants():
     s = copy.deepcopy(v["v1"]); s["detect_thr"] = 0.74; s["routine_thr"] = 0.74; v["v1+thr0.74"] = s
     s = copy.deepcopy(v["v0+thr0.74"]); s["mood_decay_msg"] = 0.1; v["v0+thr0.74+mood"] = s
     s = copy.deepcopy(v["v0+thr0.74"]); s["habituation"] = True; v["v0+thr0.74+hab"] = s
+    # v3* (diagnóstico nos cenários-dev): limiar por célula calibrado no dev real, delta contínuo, regra de ciúme, modos
+    from c2_scen_run import SPECS
+    for k in ("v3a", "v3b", "v3c", "v3d"):
+        v[k] = copy.deepcopy(SPECS[k])
     return v
 
 

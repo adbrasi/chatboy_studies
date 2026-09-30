@@ -286,6 +286,8 @@ SPEC = {
     "cell_thr": None,            # {dim_dir: limiar} calibrado no dev real por casamento de taxa (c2_calib.py)
     "delta_interp": None,        # tabela contínua sobre o valor esperado do Score (0..4) -> delta
     "jealousy_rule": False,      # ciúme sobe se evento "outra pessoa" AND afeto >= 0,55 (AND em código)
+    "resolve_v3": False,         # regra de resolução de pendência v3d (ver physics_step)
+    "resolve_relief": False,     # ao resolver, alívio do ressentimento de nível (severidade - 1)
 }
 ROUTINE_UP = {"trust": ["promise_kept", "vulnerability", "absence_explained"],
               "comfort": ["vulnerability", "practical_care", "affection_expr", "interest_in_char", "friendly_tease", "gratitude"],
@@ -526,7 +528,13 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
             # resolve se a reparação é forte o bastante: 1a desculpa resolve pendência leve/moderada;
             # pendência forte precisa de reparação concreta (promessa cumprida) ou de duas desculpas
             concrete = ev["promise_kept"] >= spec["evt_thr"]
-            if u["sev"] <= 2 or concrete or u["apologies"] >= 2 and ev["apology"] >= spec["evt_thr"]:
+            if spec.get("resolve_v3"):
+                # v3d: reparação concreta inclui explicação crível do sumiço; duas mensagens de reparação bastam
+                concrete = concrete or ev["absence_explained"] >= spec["evt_thr"]
+                two = u["apologies"] >= 2
+            else:
+                two = u["apologies"] >= 2 and ev["apology"] >= spec["evt_thr"]
+            if u["sev"] <= 2 or concrete or two:
                 if not (u.get("repeat_offense", 0) >= 2 and not concrete):   # desculpa repetida sem mudança não resolve
                     resolved.append(u)
         if a1.get(f"u_worse_{i}", {}).get("noul", 0) >= spec["addr_thr"]:
@@ -534,6 +542,10 @@ def physics_step(rel, C, U, msg, a1, a2, t_hours, gap_hours=None, char_waiting=F
             u["sev"] = min(4, u["sev"] + 1)
     for u in resolved:
         rel.unresolved.remove(u)
+        if spec.get("resolve_relief"):
+            # fechamento: perdoar alivia o ressentimento de uma vez (nível = severidade - 1)
+            rel._apply("resentment", -1, max(1, u["sev"] - 1))
+            applied.append(("resentment", "down", max(1, u["sev"] - 1), "resolved"))
         if u["sev"] >= 3:
             rel.shared.append(f"they got past it when {U} made up for: {u['text']}")
     # promessas

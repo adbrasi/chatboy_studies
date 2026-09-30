@@ -46,3 +46,13 @@ imperativo** (ICs sobrepostos em todos os atores; no deepseek o imperativo é me
 mesmo custo colateral: menção indireta ao tema 30–55% (× 5–10% sem restrição), esquiva 19–36%, recusa explícita 13–30%,
 resposta "fria" 28–51% (× 2–11%) e coerência 0,72–0,85 (× 0,87–0,91). Checagem manual: 60 casos (não cega) + 20 cegos,
 concordância 100% com o Noul do Jev nos dois.
+
+## (checkpoint) Pipeline no DEV e regra de escolha fixada antes do teste
+
+No dev (60 pontos) todos os pipelines com cabeçalho/nota ficam em D 1,13–1,35 (ICs sobrepostos; A = 1,64–3,90). Escolher
+pelo banco do Jev e avaliar com o mesmo banco é circular; por isso o banco foi partido em meia-bateria A (código + 43
+perguntas, para ESCOLHER; AUC-CV 0,885 no b1) e meia-bateria B (42 outras perguntas, sem código, para AVALIAR; AUC-CV
+0,821). No dev, escolher com A ainda baixa o escore B (ex.: lite 0,61 → 0,55; deepseek 0,67 → 0,63), mas custa 0,03–0,10
+de coerência. Levados ao teste: A, NCT+N (rel. 13), P1 (cabeçalho + nota no fim, 1 chamada), P4-bankA (cabeçalho + nota
+no fim, 4 seeds, filtros de código + escolha pela meia-bateria A, normalizador) e P5-viol (cabeçalho + nota + VS-5 numa
+chamada, escolha por código).
