@@ -5,20 +5,29 @@
 > uma pessoa escreveria?
 >
 > **O que foi feito:** 5 corpora de conversas humanas reais (≈238 mil mensagens), 6 mil turnos anotados por uma camada
-> base do Jev, e 9 análises paralelas, cada uma com experimentos próprios de Jev e de LLM. Foram ≈40 mil chamadas ao Jev
-> (≈US$ 2,50) e ≈2.000 gerações de LLM barata (≈US$ 0,30). Os relatórios detalhados estão em `analysis/01…09`; este
+> base do Jev, e 9 análises paralelas, cada uma com experimentos próprios de Jev e de LLM. Foram ≈35 mil chamadas ao Jev
+> (≈US$ 1,90) e ≈3.500 gerações de LLM (≈US$ 0,31). Os relatórios detalhados estão em `analysis/01…09`; este
 > documento é a síntese e a proposta de sistema.
 
 ---
 
-## 0. Resumo em 12 pontos
+## 0. Resumo em 13 pontos
 
+0. **O teste direto da tese (A/B, 119 pontos reais) confirma o essencial.** Uma LLM **barata + briefing do Jev** ficou mais perto
+   do humano do que a mesma LLM sozinha **e** do que uma LLM ~3× mais cara sem briefing (claude-haiku-4.5), em todas as métricas
+   de forma e na coincidência do "movimento" (o que fazer na resposta: 34,5% × 23,5% × 26%). Os juízes automáticos, que separavam
+   com facilidade a LLM pura do humano, ficaram **no acaso** com o briefing. **Mas, honestamente, ~80% do ganho veio das regras de
+   código calibradas às taxas humanas** (tamanho, "sem pergunta reflexa", "sem !", estilo da persona). Um controle com o mesmo
+   briefing **sem** Jev chegou quase lá. O Jev acrescentou o que só ele faz: fazer o **tamanho acompanhar o momento** (ρ 0,47 ×
+   0,28) e acertar um pouco mais o **movimento**. E, quando lê errado, a LLM obedece o erro ("love u dad" → "delete your
+   account"). Conclusão: o Jev é o sistema nervoso, mas o **esqueleto** são as distribuições humanas codificadas. E portões de
+   confiança são obrigatórios.
 1. **A tese se sustenta, com uma correção importante.** O Jev funciona muito bem como **leitor** do momento: emoção por
    família (≈75–85% de acerto com confiança alta), seriedade, se é hora de brincar (AUC 0,78), risco de fim de conversa
    (AUC 0,75–0,91), gancho (o melhor preditor de a conversa continuar) e movimento de flerte. Ele funciona **mal** como
-   juiz de "isso soa humano?": prefere a resposta caricata da LLM à resposta humana real em 75–88% dos pares. Então o
-   desenho é **"o Jev lê e classifica, o código decide, sorteia e conta, a LLM escreve"**, e não "o Jev julga a
-   qualidade final".
+   juiz de "isso soa humano?": prefere a resposta caricata da LLM à resposta humana real em 71–88% dos pares (a mais longa
+   em 63%), e o gpt-4o-mini faz o mesmo. Então o desenho é **"o Jev lê e classifica, o código decide, sorteia e conta, a LLM
+   escreve"**, e não "o Jev julga a qualidade final".
 2. **Cabem centenas de perguntas por mensagem.** 132 perguntas numa chamada levam ≈0,55 s e custam ≈US$ 0,00023; a latência
    é quase a mesma de 1 pergunta, e as perguntas não interferem entre si. Um usuário com 200 mensagens/dia custa entre
    ≈US$ 0,50 e 3 por mês em Jev. **O Jev não é o gargalo; a LLM é.**
@@ -378,6 +387,15 @@ NÃO USE: "sinto muito", "entendo perfeitamente", "é normal se sentir assim", "
 EXEMPLOS DE TOM (não copie): "putz" · "eita, semana braba?" · "o que aconteceu dessa vez"
 ```
 
+**Regras de redação do briefing** (relatórios 8 e 9):
+- curto e imperativo (≈60–70 palavras), nunca probabilidades em prosa;
+- tamanho como **alvo com folga** ("~35 caracteres"), não como teto;
+- pergunta, riso e "!" **sorteados** com as taxas humanas do momento, não proibidos sempre;
+- exemplos de **tom** com outro conteúdo, sorteados a cada vez e verificados contra cópia;
+- a política de estilo (minúsculas, sem ponto final), mas **nunca** a lista de gírias da persona;
+- uma linha positiva de como começar;
+- se a confiança do movimento for < 0,4, **não ditar o movimento**, só a forma.
+
 Resposta humana típica: "putz kkk o que rolou dessa vez". A resposta típica da LLM sem briefing seria: "Ah, sinto muito que
 você esteja se sentindo assim! 😔 A faculdade pode ser muito desgastante mesmo. Lembre-se de que você é capaz! O que está te
 deixando mais cansada?"
@@ -404,11 +422,57 @@ deixando mais cansada?"
 
 ## 5. O que o experimento A/B mostrou (relatório 9)
 
-> *Seção preenchida com os resultados do experimento A/B, a LLM pura × a LLM + briefing do Jev × o humano real.*
+**Desenho:** 119 pontos de decisão reais do maichat, estratificados em abertura, fechamento, sério, flerte/afeto, logística,
+brincadeira e casual. Em cada ponto, o histórico vai até o turno do parceiro, e a comparação é com o que a pessoa realmente
+respondeu. A "boca" é a `gemini-3.5-flash-lite`. Os limiares foram calibrados num conjunto de dev separado e congelados antes
+do teste.
 
-(ver `analysis/09_experimento_briefing_jev.md`)
+| condição | palavras (mediana) | pergunta | riso | emoji | "!" | LLM-ish | movimento = humano | custo por resposta | latência p50 |
+|---|---|---|---|---|---|---|---|---|---|
+| **humano** | **6** | **12%** | **7%** | **5%** | **7%** | **5%** | — | — | — |
+| A: LLM barata pura | 15 | 57% | 37% | 39% | 29% | 21% | 23,5% | US$ 0,00009 | 1,29 s |
+| S: + prompt de estilo fixo | 9 | 27% | 36% | 16% | 16% | 13% | 28,6% | US$ 0,00007 | 1,32 s |
+| **B: + briefing do Jev** (~30 perguntas) | 4 | 1% | 8% | 4% | 0% | 3% | **34,5%** | US$ 0,00017 | 1,75 s |
+| C: B + 3 candidatas + gate do Jev | 4 | 1% | 8% | 4% | 0% | 3% | 34,5% | US$ 0,00037 | 2,48 s |
+| D: LLM ~3× mais cara, sem briefing | 13 | 54% | 47% | 20% | 32% | 25% | 26,1% | US$ 0,00026 | 1,43 s |
 
----
+**Leitura:**
+- **Barato + Jev > caro sem Jev** em todas as métricas de forma e no movimento (+8 pp). **Pagar por um modelo maior não tira os
+  vícios; a instrução concreta tira.** Isso confirma a sua intuição de focar em velocidade.
+- **O briefing corrige demais:** 4 palavras contra 6, 1% de pergunta contra 12%, 0% de "!" contra 7%, e às vezes fica seco ou
+  "engraçadinho" ("hey there" em aberturas, "im a chaotic potato"). **Correção:** pergunta e "!" devem ser **sorteados** com a
+  taxa humana, não proibidos; o tamanho entra como **alvo com folga**, não como teto (o teto cortou 43% dos humanos); e uma linha
+  positiva de como começar ("comece simples: ah/então/sim, ou direto no conteúdo").
+- **O controle sem Jev chegou quase lá** (subconjunto de 36): mesma distinguibilidade e mesmas taxas de superfície. O Jev
+  acrescentou: o tamanho acompanhando o momento (0,47 × 0,28) e +5,6 pp de movimento (IC de 0 a 13,5). No tom, o controle foi
+  até melhor (44% × 28%). **O valor do Jev está em ler o momento para decidir O QUE fazer, e é aí que precisa melhorar**: top-1
+  do movimento em 32% (contra 16% da classe majoritária) é informativo, mas erra 2 em cada 3.
+- **O briefing precisa ser curto e imperativo.** Despejar as probabilidades do Jev em prosa (~145 palavras) devolveu a LLM ao
+  baseline: ela lê "laugh 43%" como licença. As ordens curtas (~68 palavras) tiveram aderência de 97–100%.
+- **"Não use X" não fez a LLM usar X** (1,7% × 39,5%). Mas **listar as gírias da persona** ("words you use: idk, omg") fez a
+  LLM enfiá-las em tudo. Dê a política de estilo (minúsculas, sem ponto) e não o vocabulário.
+- **O gate não se pagou:** 3 candidatas + escolha do Jev custam 2,2×, somam 0,7 s e não trazem ganho. E a Choice "qual
+  candidata é melhor" tem **viés de posição** (53/32/15%). Se usar gate, faça **um Noul por candidata**, em ordem embaralhada.
+- **O Jev prevendo a forma da resposta humana** (na posição do bot): tamanho ρ 0,49 (útil), emoji AUC 0,71 (útil), pergunta
+  0,57 (fraco), riso **0,41 (pior que o acaso)**, nº de bolhas 0,04 (inútil). Riso e bolhas ficam em regra de código.
+- **Padrões novos que só apareceram aqui:**
+  - 32% dos turnos humanos começam com marcador simples ("ok", "so", "oh", "yeah", "same", "i") e só 5% com interjeição
+    performática ("omg", "wait", "ooh", "honestly"). A LLM faz 37% performático.
+  - A pergunta recíproca genérica ("what about you?", "how's your day?") aparece em **1,2%** dos turnos humanos, contra 18–19% da
+    LLM.
+  - Na abertura, 13 de 17 humanos já trazem conteúdo ("guess what", "just got home / im exhausted"); a LLM pergunta em 17 de 17.
+  - O humano **responde à palavra, não ao tema** ("so how has your day been" → "why are you talking like a customer survey").
+
+**Exemplos lado a lado:**
+
+| contexto (o outro disse) | humano real | A: LLM pura | B: + briefing Jev | D: LLM cara |
+|---|---|---|---|---|
+| "hey love / im here" | "guess what" | "Hey! Perfect timing. How was your day?" | "hey there" | "hey! 💙 good to hear from you, how's your day going?" |
+| "im proud" | "dont sound like my mom" | "thx someone has to be lol / what about u? got plans?" | "stop it" | "thanks lol, means a lot coming from you" |
+| "i have been trying to learn some coding since morning / its so hard :(" | "did u try watching videos on coding tht could possibly help u" | "aww hang in there! what language are you trying to learn? coding can definitely be super frustrating at first 😭" | "coding is no joke, you got this" | "Ah yeah coding can be tough at first! What language are you learning? I found it gets easier…" |
+| "kinda / still adjusting" (cabelo novo) | "send pic" | "that's so valid tbh, every time i change my hair i stare in the mirror like 'who is this stranger'…" | "takes a minute" | "that's fair, takes a bit to get used to a new cut. does it feel different?" |
+| "love u dad" | "love u too / now go eat real food" | "go to your room" | "delete your account" ⚠️ leitura errada | "lol stop / you're gonna make me sentimental" |
+| "Anyway dad I need to go now / thanks for chatting" | "OK - see you Friday." | "You're welcome, Alex. Good luck with the meeting tomorrow! See you for Christmas." | "goodnight / sleep well" | "No problem! Good luck with your meeting tomorrow - you'll be fine… Take care!" |
 
 ## 6. Armadilhas descobertas (o que NÃO fazer)
 
