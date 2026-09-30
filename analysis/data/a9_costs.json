@@ -32,5 +32,19 @@
   "calls": 121,
   "cost": 0.010723400000000001,
   "per_call": 8.862314049586778e-05
+ },
+ "empty_B1_test_try1": 1,
+ "empty_B1_test_try2": 1,
+ "gen_B1_test": {
+  "calls": 121,
+  "cost": 0.0108334,
+  "per_call": 8.953223140495868e-05
+ },
+ "empty_B2_test_try1": 1,
+ "empty_B2_test_try2": 1,
+ "gen_B2_test": {
+  "calls": 121,
+  "cost": 0.010733400000000032,
+  "per_call": 8.870578512396721e-05
  }
 }

@@ -12,7 +12,7 @@ Jev calls
   Noul per candidate (with / without X's samples): is_bot, same_person
 Code baseline: nearest style profile (deterministic features) for real vs partner.
 Output: analysis/data/a4_jev_style.json + a4_jev_style_cases.csv (small)"""
-import json, os, random, re, sys
+import json, os, random, re, sys, zlib
 import numpy as np, pandas as pd
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, os.path.dirname(__file__))
@@ -88,7 +88,7 @@ def build_cases():
         lab = lambda s: "X" if s == spk else "Y"
         ctx = [{"speaker": lab(r.speaker), "text": "\n".join(r.texts)} for _, r in g.iloc[max(0, i - 8):i].iterrows()]
         own = [x for j, r in g.iterrows() if r.speaker == spk and abs(j - i) > 3 for x in r.texts if len(x.strip()) >= 2]
-        r2 = random.Random(hash((cv, i)) % 10**6)
+        r2 = random.Random(zlib.crc32(f"{cv}:{i}".encode()))  # NB: first run used hash() (process-random samples)
         samples = r2.sample(own, min(10, len(own)))
         # keep chronological-ish order of samples
         samples = [x for x in own if x in samples][:10]
