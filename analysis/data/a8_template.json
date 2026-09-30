@@ -1,0 +1,26 @@
+{
+ "human": {
+  "pct_3beat": 1.6,
+  "pct_react_then_question": 4.8
+ },
+ "base_gemini": {
+  "pct_3beat": 20.4,
+  "pct_react_then_question": 28.4
+ },
+ "base_gpt4omini": {
+  "pct_3beat": 25.2,
+  "pct_react_then_question": 30.4
+ },
+ "base_llama70b": {
+  "pct_3beat": 19.2,
+  "pct_react_then_question": 24.0
+ },
+ "styled_gemini": {
+  "pct_3beat": 0.0,
+  "pct_react_then_question": 0.4
+ },
+ "bestof3_jev": {
+  "pct_3beat": 0.0,
+  "pct_react_then_question": 0.4
+ }
+}

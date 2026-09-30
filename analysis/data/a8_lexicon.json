@@ -1,0 +1,879 @@
+{
+ "notícia boa": {
+  "congrats/congratulations": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.3,
+   "nus_sms": 1.0,
+   "empathetic": 7.1,
+   "LLM base (3 modelos)": 12.0,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 4.0
+  },
+  "omg": {
+   "maichat": 6.9,
+   "nps_chatroom": 4.4,
+   "nus_sms": 7.5,
+   "empathetic": 1.1,
+   "LLM base (3 modelos)": 44.0,
+   "LLM styled": 16.0,
+   "humano mesmos pontos": 8.0
+  },
+  "yay/yayy": {
+   "maichat": 1.2,
+   "nps_chatroom": 1.0,
+   "nus_sms": 3.5,
+   "empathetic": 0.5,
+   "LLM base (3 modelos)": 5.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "woo/woohoo": {
+   "maichat": 0.7,
+   "nps_chatroom": 1.1,
+   "nus_sms": 2.9,
+   "empathetic": 0.3,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "nice/niceee": {
+   "maichat": 8.9,
+   "nps_chatroom": 6.4,
+   "nus_sms": 10.9,
+   "empathetic": 25.2,
+   "LLM base (3 modelos)": 20.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 24.0
+  },
+  "wow": {
+   "maichat": 6.5,
+   "nps_chatroom": 3.5,
+   "nus_sms": 4.7,
+   "empathetic": 22.4,
+   "LLM base (3 modelos)": 5.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 28.0
+  },
+  "no way": {
+   "maichat": 0.7,
+   "nps_chatroom": 0.4,
+   "nus_sms": 0.4,
+   "empathetic": 0.8,
+   "LLM base (3 modelos)": 9.3,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "finally": {
+   "maichat": 0.7,
+   "nps_chatroom": 0.5,
+   "nus_sms": 1.5,
+   "empathetic": 5.7,
+   "LLM base (3 modelos)": 10.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "yess/yesss": {
+   "maichat": 3.4,
+   "nps_chatroom": 0.1,
+   "nus_sms": 0.3,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 12.0,
+   "LLM styled": 12.0,
+   "humano mesmos pontos": 4.0
+  },
+  "let's go/lesgo": {
+   "maichat": 0.5,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.5,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "amazing": {
+   "maichat": 0.5,
+   "nps_chatroom": 0.1,
+   "nus_sms": 0.3,
+   "empathetic": 6.8,
+   "LLM base (3 modelos)": 26.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "awesome": {
+   "maichat": 0.2,
+   "nps_chatroom": 1.3,
+   "nus_sms": 2.9,
+   "empathetic": 13.4,
+   "LLM base (3 modelos)": 12.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 8.0
+  },
+  "great": {
+   "maichat": 4.5,
+   "nps_chatroom": 2.6,
+   "nus_sms": 5.4,
+   "empathetic": 31.3,
+   "LLM base (3 modelos)": 36.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 8.0
+  },
+  "cool": {
+   "maichat": 3.6,
+   "nps_chatroom": 2.9,
+   "nus_sms": 5.0,
+   "empathetic": 11.3,
+   "LLM base (3 modelos)": 20.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 16.0
+  },
+  "proud of you": {
+   "maichat": 0.2,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "so happy for you": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.1,
+   "empathetic": 1.9,
+   "LLM base (3 modelos)": 4.0,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  }
+ },
+ "notícia ruim/desabafo": {
+  "oh no/noo": {
+   "maichat": 5.5,
+   "nps_chatroom": 1.4,
+   "nus_sms": 3.5,
+   "empathetic": 12.9,
+   "LLM base (3 modelos)": 29.3,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 24.0
+  },
+  "aw/aww": {
+   "maichat": 2.2,
+   "nps_chatroom": 4.7,
+   "nus_sms": 1.7,
+   "empathetic": 3.6,
+   "LLM base (3 modelos)": 29.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "ugh": {
+   "maichat": 1.2,
+   "nps_chatroom": 1.0,
+   "nus_sms": 0.4,
+   "empathetic": 2.2,
+   "LLM base (3 modelos)": 17.3,
+   "LLM styled": 28.0,
+   "humano mesmos pontos": 0.0
+  },
+  "that sucks/sucks": {
+   "maichat": 0.2,
+   "nps_chatroom": 3.3,
+   "nus_sms": 0.8,
+   "empathetic": 6.7,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 16.0,
+   "humano mesmos pontos": 8.0
+  },
+  "sorry": {
+   "maichat": 3.8,
+   "nps_chatroom": 3.8,
+   "nus_sms": 22.8,
+   "empathetic": 24.6,
+   "LLM base (3 modelos)": 48.0,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 16.0
+  },
+  "damn": {
+   "maichat": 0.5,
+   "nps_chatroom": 3.8,
+   "nus_sms": 4.1,
+   "empathetic": 0.6,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "rip": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.1,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 0.0
+  },
+  "wtf": {
+   "maichat": 0.2,
+   "nps_chatroom": 1.4,
+   "nus_sms": 0.9,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 0.0
+  },
+  "what happened": {
+   "maichat": 0.5,
+   "nps_chatroom": 0.5,
+   "nus_sms": 0.6,
+   "empathetic": 7.1,
+   "LLM base (3 modelos)": 12.0,
+   "LLM styled": 12.0,
+   "humano mesmos pontos": 0.0
+  },
+  "are you ok/u ok": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.1,
+   "nus_sms": 0.8,
+   "empathetic": 1.2,
+   "LLM base (3 modelos)": 8.0,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "hugs/*hug*": {
+   "maichat": 0.0,
+   "nps_chatroom": 2.3,
+   "nus_sms": 1.9,
+   "empathetic": 0.3,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "sorry to hear": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.4,
+   "nus_sms": 0.0,
+   "empathetic": 11.9,
+   "LLM base (3 modelos)": 30.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 12.0
+  },
+  "that must be": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 1.3,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "i'm here for you": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 2.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "it's okay to feel": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  }
+ },
+ "algo engraçado": {
+  "lol": {
+   "maichat": 8.4,
+   "nps_chatroom": 101.8,
+   "nus_sms": 53.0,
+   "empathetic": 17.1,
+   "LLM base (3 modelos)": 52.0,
+   "LLM styled": 80.0,
+   "humano mesmos pontos": 8.0
+  },
+  "haha": {
+   "maichat": 7.2,
+   "nps_chatroom": 5.8,
+   "nus_sms": 91.7,
+   "empathetic": 6.2,
+   "LLM base (3 modelos)": 32.0,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 12.0
+  },
+  "hahaha+": {
+   "maichat": 7.4,
+   "nps_chatroom": 2.9,
+   "nus_sms": 30.8,
+   "empathetic": 1.4,
+   "LLM base (3 modelos)": 9.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 20.0
+  },
+  "lmao": {
+   "maichat": 2.6,
+   "nps_chatroom": 17.6,
+   "nus_sms": 0.7,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 10.7,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "hehe": {
+   "maichat": 1.4,
+   "nps_chatroom": 2.6,
+   "nus_sms": 5.8,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "😂": {
+   "maichat": 2.2,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 74.7,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "💀": {
+   "maichat": 1.4,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 16.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "😭": {
+   "maichat": 4.1,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 12.0,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 4.0
+  },
+  "dead/i'm dead": {
+   "maichat": 0.5,
+   "nps_chatroom": 1.1,
+   "nus_sms": 0.5,
+   "empathetic": 1.4,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "i'm crying/crying": {
+   "maichat": 1.0,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.1,
+   "empathetic": 0.5,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "stop/stopp": {
+   "maichat": 3.4,
+   "nps_chatroom": 0.9,
+   "nus_sms": 0.3,
+   "empathetic": 0.1,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "rude": {
+   "maichat": 6.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.1,
+   "empathetic": 1.2,
+   "LLM base (3 modelos)": 2.7,
+   "LLM styled": 16.0,
+   "humano mesmos pontos": 4.0
+  },
+  "that's hilarious": {
+   "maichat": 0.5,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.0,
+   "empathetic": 0.3,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "you're so funny": {
+   "maichat": 2.4,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.3,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 2.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  }
+ },
+ "concordar/aceitar": {
+  "yeah/yea/ya": {
+   "maichat": 32.8,
+   "nps_chatroom": 24.8,
+   "nus_sms": 51.6,
+   "empathetic": 35.6,
+   "LLM base (3 modelos)": 58.7,
+   "LLM styled": 40.0,
+   "humano mesmos pontos": 36.0
+  },
+  "yes/yess": {
+   "maichat": 29.2,
+   "nps_chatroom": 10.6,
+   "nus_sms": 10.8,
+   "empathetic": 32.1,
+   "LLM base (3 modelos)": 32.0,
+   "LLM styled": 16.0,
+   "humano mesmos pontos": 52.0
+  },
+  "ok/okay/k": {
+   "maichat": 24.7,
+   "nps_chatroom": 10.1,
+   "nus_sms": 52.1,
+   "empathetic": 1.6,
+   "LLM base (3 modelos)": 37.3,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 20.0
+  },
+  "true": {
+   "maichat": 6.2,
+   "nps_chatroom": 1.6,
+   "nus_sms": 2.4,
+   "empathetic": 6.4,
+   "LLM base (3 modelos)": 21.3,
+   "LLM styled": 56.0,
+   "humano mesmos pontos": 8.0
+  },
+  "exactly": {
+   "maichat": 3.8,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.7,
+   "empathetic": 3.4,
+   "LLM base (3 modelos)": 6.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 8.0
+  },
+  "same": {
+   "maichat": 11.5,
+   "nps_chatroom": 2.8,
+   "nus_sms": 6.5,
+   "empathetic": 9.0,
+   "LLM base (3 modelos)": 25.3,
+   "LLM styled": 20.0,
+   "humano mesmos pontos": 8.0
+  },
+  "fair": {
+   "maichat": 3.1,
+   "nps_chatroom": 0.1,
+   "nus_sms": 0.5,
+   "empathetic": 1.7,
+   "LLM base (3 modelos)": 24.0,
+   "LLM styled": 16.0,
+   "humano mesmos pontos": 4.0
+  },
+  "sure": {
+   "maichat": 4.8,
+   "nps_chatroom": 3.5,
+   "nus_sms": 14.2,
+   "empathetic": 28.4,
+   "LLM base (3 modelos)": 16.0,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 16.0
+  },
+  "yep/yup": {
+   "maichat": 3.4,
+   "nps_chatroom": 3.8,
+   "nus_sms": 11.7,
+   "empathetic": 2.6,
+   "LLM base (3 modelos)": 2.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "right": {
+   "maichat": 8.4,
+   "nps_chatroom": 6.8,
+   "nus_sms": 11.8,
+   "empathetic": 16.7,
+   "LLM base (3 modelos)": 84.0,
+   "LLM styled": 32.0,
+   "humano mesmos pontos": 24.0
+  },
+  "for real/fr": {
+   "maichat": 1.7,
+   "nps_chatroom": 0.3,
+   "nus_sms": 1.1,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 5.3,
+   "LLM styled": 12.0,
+   "humano mesmos pontos": 0.0
+  },
+  "agreed/i agree": {
+   "maichat": 1.0,
+   "nps_chatroom": 0.9,
+   "nus_sms": 0.8,
+   "empathetic": 5.8,
+   "LLM base (3 modelos)": 4.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "absolutely": {
+   "maichat": 0.5,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.1,
+   "empathetic": 1.9,
+   "LLM base (3 modelos)": 6.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "totally": {
+   "maichat": 0.2,
+   "nps_chatroom": 0.3,
+   "nus_sms": 1.0,
+   "empathetic": 2.3,
+   "LLM base (3 modelos)": 53.3,
+   "LLM styled": 16.0,
+   "humano mesmos pontos": 0.0
+  },
+  "definitely": {
+   "maichat": 1.2,
+   "nps_chatroom": 0.1,
+   "nus_sms": 1.1,
+   "empathetic": 5.4,
+   "LLM base (3 modelos)": 34.7,
+   "LLM styled": 20.0,
+   "humano mesmos pontos": 0.0
+  },
+  "sounds good": {
+   "maichat": 1.4,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.3,
+   "empathetic": 0.3,
+   "LLM base (3 modelos)": 5.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  }
+ },
+ "discordar/recusar": {
+  "no/noo": {
+   "maichat": 16.3,
+   "nps_chatroom": 13.9,
+   "nus_sms": 15.4,
+   "empathetic": 13.1,
+   "LLM base (3 modelos)": 12.0,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 24.0
+  },
+  "nah": {
+   "maichat": 1.7,
+   "nps_chatroom": 0.8,
+   "nus_sms": 1.1,
+   "empathetic": 0.5,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "nope": {
+   "maichat": 0.7,
+   "nps_chatroom": 1.5,
+   "nus_sms": 6.0,
+   "empathetic": 1.1,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "not really": {
+   "maichat": 0.2,
+   "nps_chatroom": 0.5,
+   "nus_sms": 0.9,
+   "empathetic": 1.1,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 0.0
+  },
+  "idk": {
+   "maichat": 6.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.8,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 2.7,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 0.0
+  },
+  "hmm": {
+   "maichat": 6.5,
+   "nps_chatroom": 5.4,
+   "nus_sms": 14.6,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 8.0
+  },
+  "i mean": {
+   "maichat": 1.7,
+   "nps_chatroom": 1.0,
+   "nus_sms": 1.8,
+   "empathetic": 1.6,
+   "LLM base (3 modelos)": 5.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "wdym": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "excuse me": {
+   "maichat": 1.2,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.1,
+   "LLM base (3 modelos)": 2.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "but": {
+   "maichat": 17.2,
+   "nps_chatroom": 3.0,
+   "nus_sms": 3.0,
+   "empathetic": 1.0,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 8.0
+  },
+  "i disagree": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.0,
+   "empathetic": 0.2,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "i see your point": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  }
+ },
+ "despedir": {
+  "bye/byee": {
+   "maichat": 9.3,
+   "nps_chatroom": 6.2,
+   "nus_sms": 3.4,
+   "empathetic": 0.1,
+   "LLM base (3 modelos)": 5.3,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 0.0
+  },
+  "gn/good night/night": {
+   "maichat": 4.3,
+   "nps_chatroom": 7.6,
+   "nus_sms": 15.1,
+   "empathetic": 12.1,
+   "LLM base (3 modelos)": 14.7,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 4.0
+  },
+  "ttyl/talk later": {
+   "maichat": 0.7,
+   "nps_chatroom": 0.3,
+   "nus_sms": 1.0,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "see ya/cya": {
+   "maichat": 2.6,
+   "nps_chatroom": 3.8,
+   "nus_sms": 13.6,
+   "empathetic": 0.4,
+   "LLM base (3 modelos)": 18.7,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "gtg/gotta go": {
+   "maichat": 1.2,
+   "nps_chatroom": 0.4,
+   "nus_sms": 0.2,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 2.7,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "brb": {
+   "maichat": 0.0,
+   "nps_chatroom": 4.0,
+   "nus_sms": 0.1,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "take care": {
+   "maichat": 0.2,
+   "nps_chatroom": 0.1,
+   "nus_sms": 3.6,
+   "empathetic": 1.7,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  },
+  "xx/xoxo": {
+   "maichat": 1.7,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.1,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 4.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "love you/ly": {
+   "maichat": 2.4,
+   "nps_chatroom": 1.0,
+   "nus_sms": 6.8,
+   "empathetic": 0.1,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "sleep well": {
+   "maichat": 0.2,
+   "nps_chatroom": 0.0,
+   "nus_sms": 0.4,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  }
+ },
+ "como vai": {
+  "good/gud": {
+   "maichat": 6.0,
+   "nps_chatroom": 4.2,
+   "nus_sms": 6.8,
+   "empathetic": 4.3,
+   "LLM base (3 modelos)": 8.0,
+   "LLM styled": 8.0,
+   "humano mesmos pontos": 24.0
+  },
+  "fine": {
+   "maichat": 5.5,
+   "nps_chatroom": 2.0,
+   "nus_sms": 6.1,
+   "empathetic": 5.2,
+   "LLM base (3 modelos)": 16.0,
+   "LLM styled": 12.0,
+   "humano mesmos pontos": 4.0
+  },
+  "ok/okay": {
+   "maichat": 24.2,
+   "nps_chatroom": 8.8,
+   "nus_sms": 41.5,
+   "empathetic": 1.5,
+   "LLM base (3 modelos)": 37.3,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 20.0
+  },
+  "tired": {
+   "maichat": 1.2,
+   "nps_chatroom": 0.6,
+   "nus_sms": 3.0,
+   "empathetic": 1.3,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 8.0
+  },
+  "meh": {
+   "maichat": 0.5,
+   "nps_chatroom": 0.1,
+   "nus_sms": 3.5,
+   "empathetic": 0.0,
+   "LLM base (3 modelos)": 1.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "not bad": {
+   "maichat": 0.5,
+   "nps_chatroom": 0.0,
+   "nus_sms": 1.1,
+   "empathetic": 0.5,
+   "LLM base (3 modelos)": 0.0,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "busy": {
+   "maichat": 0.5,
+   "nps_chatroom": 1.3,
+   "nus_sms": 3.9,
+   "empathetic": 2.1,
+   "LLM base (3 modelos)": 6.7,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 0.0
+  },
+  "u?/you?/wbu/hbu": {
+   "maichat": 5.7,
+   "nps_chatroom": 5.2,
+   "nus_sms": 11.7,
+   "empathetic": 10.6,
+   "LLM base (3 modelos)": 46.7,
+   "LLM styled": 4.0,
+   "humano mesmos pontos": 24.0
+  },
+  "doing well": {
+   "maichat": 0.7,
+   "nps_chatroom": 0.8,
+   "nus_sms": 0.2,
+   "empathetic": 0.8,
+   "LLM base (3 modelos)": 12.0,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 4.0
+  },
+  "thanks for asking": {
+   "maichat": 0.0,
+   "nps_chatroom": 0.3,
+   "nus_sms": 0.0,
+   "empathetic": 0.1,
+   "LLM base (3 modelos)": 5.3,
+   "LLM styled": 0.0,
+   "humano mesmos pontos": 0.0
+  }
+ },
+ "_length_by_p_length": {
+  "0": {
+   "n": 136,
+   "median": 15.0,
+   "p25": 9.0,
+   "p75": 26.0
+  },
+  "1": {
+   "n": 2079,
+   "median": 21,
+   "p25": 12.0,
+   "p75": 36.0
+  },
+  "2": {
+   "n": 608,
+   "median": 52.0,
+   "p25": 30.0,
+   "p75": 89.25
+  },
+  "3": {
+   "n": 3,
+   "median": 73,
+   "p25": 45.5,
+   "p75": 154.0
+  }
+ }
+}
