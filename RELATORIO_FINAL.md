@@ -190,6 +190,183 @@
 6. **O portão de confiança é o que torna o Jev confiável para ditar conteúdo:** com confiança ≥ 0,7, ele acerta o movimento em
    64% dos casos; abaixo disso, dite só a forma (tamanho, pergunta sim/não, riso, a palavra a que reagir).
 
+## ★ Próxima camada: técnicas de geração e estado vivo do personagem
+
+> Propostas do usuário, integradas à arquitetura. Ainda **não foram medidas** neste estudo; cada uma vem com o desenho
+> do teste. Onde há evidência nossa ou da literatura, ela é citada.
+
+### A. Geração com variações e probabilidade (Verbalized Sampling)
+**Ideia:** em vez de "escreva a resposta", pedir "escreva 3–5 variações, cada uma com a probabilidade de ser a resposta
+certa". O artigo é *Verbalized Sampling* (Zhang et al., 2025, arXiv 2510.01171): o alinhamento colapsa a LLM na resposta
+"típica" (*mode collapse*), e pedir a **distribuição verbalizada** recupera a diversidade do pré-treino. Uma variação que o
+modelo rotula com 0,3 tende a ser algo que ele **não** escreveria por padrão.
+
+**Por que encaixa aqui:**
+- O vício da LLM é justamente a resposta modal: longa, validando e terminando em pergunta.
+- A resposta humana típica é "improvável" para ela: "hehe", seguir o assunto, "é a mesma cara de ontem".
+- O relatório 12 mostrou que sortear o movimento aproxima a variedade humana (3,2 contra 3,5 bits).
+
+**Como usar no sistema:**
+1. A LLM gera N variações com probabilidade verbalizada, numa chamada só.
+2. O código descarta as que violam o orçamento (tamanho, "?", "!", lista negra).
+3. O **banco atômico do Jev** (relatório 10, AUC 0,91) pontua cada uma.
+4. O código sorteia com um peso que favorece as de probabilidade verbalizada **média ou baixa** que passaram nos filtros,
+   o que evita a moda sem cair no aleatório.
+
+Isso também substitui o "gerar 4 com seeds diferentes", que teve pouca diversidade (2,64 textos distintos em 3, relatório
+08) e o flash-lite ignorando a temperatura (relatório 13).
+
+**Teste proposto:** as mesmas condições do relatório 13 (D = distância às taxas humanas), com VS-3 e VS-5 contra 4 seeds.
+Medir também a coincidência de movimento e a diversidade.
+
+### B. Restrições como fatos do personagem, não como ordens
+**Ideia:** "Alice nunca fala sobre o pai" guia melhor que "não fale sobre o seu pai". A negação no imperativo põe o tema no
+foco da atenção (o problema do "elefante rosa"; ver *Suppressing Pink Elephants with Direct Principle Feedback*,
+Castricato et al. 2024). Um **traço de identidade** muda o comportamento sem nomear a ação proibida como tarefa.
+
+**Evidência nossa (mista):**
+- No relatório 09, a lista "Never use: aww, totally…" **não** causou efeito rebote (itens proibidos caíram de 39,5% para
+  1,7%).
+- Mas **listar o vocabulário da persona** ("palavras que você usa: idk, omg") fez a LLM enfiá-lo em tudo.
+- Ou seja: proibir léxico no imperativo funcionou, e *afirmar* traços léxicos virou caricatura.
+- O caso do usuário é outro, de **temas e comportamentos** ("nunca fala do pai", "nunca pede desculpa primeiro", "nunca
+  manda textão"). Aí o formato de fato de identidade é o mais provável de funcionar, e vale testar.
+
+**Desenho:**
+- A ficha do personagem ganha uma seção **"Alice nunca…" / "Alice raramente…"**, com fatos de identidade em 3ª pessoa.
+- Proibições **situacionais** geradas pelo diretor a cada turno (ex.: sem pergunta agora) continuam como ordens curtas no
+  briefing, que funcionaram.
+- O Jev vigia: um Noul por "nunca" ("A resposta menciona o pai de Alice?"), no banco pós-geração.
+
+**Teste proposto:** a mesma ficha em três formatos (imperativo "não faça" × identidade "ela nunca" × nenhum), medindo a taxa
+de violação e o efeito colateral (menção indireta ao tema, rigidez).
+
+### C. Gerar dentro de um formato de chat real (o "schema" de exportação)
+**Ideia:** em vez de deixar a LLM escrever livre, fazê-la **completar um log de conversa** no formato de exportação de uma
+plataforma. Isso ativa a memória de chats reais do pré-treino, e ela passa a escrever "como no WhatsApp" sem precisar de
+instruções de estilo:
+
+```
+[30/09/2026, 18:31:02] Cesar: mano
+[30/09/2026, 18:31:05] Cesar: pior q pensei nisso
+[30/09/2026, 18:31:08] Cesar: ontem
+[30/09/2026, 18:31:14] Cesar: mas sla
+[30/09/2026, 18:31:17] Cesar: acho q n vai dar
+[30/09/2026, 18:32:40] Marcela:
+```
+
+**Por que é promissor:**
+- Ataca a raiz: o *assistant prior* (reconhecer → validar → perguntar) é um **formato**, e trocar o formato troca o prior.
+- O teste de Turing com persona (Jones & Bergen 2025, 73%) mostra quanto o enquadramento muda a percepção.
+- É consistente com o nosso achado de que instruções abstratas de estilo corrigem demais ou criam vícios novos.
+- **Bônus de entrega:** o formato com timestamps faz a LLM propor as **bolhas** (uma por linha) e os **intervalos**. O
+  código trata isso como sugestão, validada pela camada de entrega (relatórios 01 e 11), e o Jev confere com o modelo de
+  bolhas (AUC 0,92).
+- O histórico real da conversa já pode ser apresentado nesse formato, o que dá continuidade de estilo.
+
+**Riscos a medir:**
+- A LLM pode continuar a conversa **pelos dois lados**, inventando a fala do usuário (a Gemini já fez isso no relatório 09).
+  Mitigação: parar na próxima linha que não seja do personagem, com `stop` ou corte em código.
+- Pode copiar o estilo de um usuário real do histórico em vez do estilo da persona.
+- Pode perder a instrução do diretor. Mitigação: o briefing entra como um bloco **antes** do log (estilo Author's Note) ou
+  como "nota" de sistema no próprio log.
+
+**Benchmark de schemas proposto** (os mesmos contextos do maichat, os 4 atores permitidos, as métricas D do relatório 13,
+a coincidência de movimento e o banco do Jev):
+
+| schema | exemplo |
+|---|---|
+| livre (baseline) | persona + histórico como mensagens user/assistant |
+| WhatsApp export | `[30/09/2026, 18:31:04] Cesar: texto` |
+| WhatsApp só com hora | `[18:31:04] Cesar: texto` |
+| Messenger/Facebook JSON | `{"sender_name": "Cesar", "timestamp_ms": …, "content": "…"}` |
+| Snapchat JSON | `{"From": "cesar", "Media Type": "TEXT", "Created": "…", "Content": "…"}` |
+| IRC/Discord log | `<cesar> texto` / `cesar — hoje às 18:31` |
+| SMS/iMessage | um par remetente/texto por linha |
+
+Hipótese: os formatos de linha (WhatsApp) vencem os JSON (mais "máquina"), e os timestamps ajudam no ritmo. Em PT-BR, o
+formato WhatsApp é o mais natural, porque o próprio corpus brasileiro a coletar virá nesse formato.
+
+### D. Cabeçalho de roleplay no system prompt
+Deixar explícito que é **atuação**, no formato consagrado pelos front-ends de RP (SillyTavern, Character Cards):
+
+```
+SYSTEM: You are roleplaying as {{char}} in a private text chat with {{user}}. Stay consistent with {{char}}'s identity,
+voice and history. You are not an assistant.
+CHARACTER: Name / personality (as behaviours, not adjectives) / background / "{{char}} never…" / how {{char}} texts
+RELATIONSHIP: (the live state, section E)
+MEMORY: (OptMem wake)
+DIRECTOR NOTE (this turn): (briefing do Jev, curto e imperativo; relatórios 09, 12 e 13)
+```
+
+**Respaldo:**
+- CoSER mostra que pensamentos internos e motivações melhoram a atuação.
+- Personalidade descrita por **comportamentos situacionais** ("quando desconfortável, desvia com humor seco e responde
+  curto") supera adjetivos ("tsundere").
+- A nota do diretor fica **no fim do contexto**, onde tem mais influência (Author's Note do SillyTavern).
+- O RoleCDE mostra que alguns modelos abandonam o papel quando ele conflita com o alinhamento (claude-haiku-4.5 no pior
+  lugar). É mais um motivo para testar o ator.
+
+### E. Estado da relação vivo, atualizado pelo Jev a cada mensagem
+O traço estático ("tímida, sarcástica, gosta de gatos") não evolui. O que evolui é a **relação**:
+
+```
+relationship_toward_user:
+  trust 0.72 · comfort 0.84 · romantic_interest 0.51 · resentment 0.19 · protectiveness 0.62 · respect … · jealousy …
+unresolved:   - user cancelled dinner last Friday · - suspects user was avoiding her
+shared_history: - met at bookstore · - joke about terrible cappuccino · - he stayed up talking after her bad day
+```
+
+**Cascata do Jev (o "neurônio" que o usuário descreveu), em tempo real:**
+1. **Jev 1, detecção:** "quais dimensões esta mensagem do usuário move?", com **um Noul por dimensão** (ex.: "a mensagem
+   aumenta o ressentimento de Alice?", "…aumenta a confiança?"), não um Choice. O relatório 10 mostrou que "qual o
+   principal?" falha e um Noul por item funciona.
+   - Nouls de evento, compostos com AND no código como o detector "defensivo" do relatório 11: "ele se desculpou?", "fez
+     piada de mau gosto?", "cumpriu algo que prometeu?", "mencionou outra pessoa de forma que gera ciúme?", "revelou algo
+     vulnerável?"
+   - **State:** a mensagem, os 6–8 turnos anteriores, o `relationship` atual e as `unresolved` (o contexto muda a leitura:
+     a mesma piada ofende no dia 2 e não no dia 200).
+2. **Jev 2, magnitude:** só para as dimensões ativadas, um **Score com níveis descritivos**, **não números**. A
+   documentação do Jev (*jaggedness*) desaconselha números: "quanto isso mexe com o ressentimento de Alice, dado o
+   contexto?" com os níveis {nada, leve, moderado, forte, marcante}.
+3. **Código, a física do estado:**
+   - mapeia o nível para um delta (ex.: leve +0,03, moderado +0,07, forte +0,15, marcante +0,25), escalado por
+     `(1 − valor)` ao subir e por `valor` ao descer, para não saturar;
+   - aplica **decaimento** por tempo (o ressentimento esfria em dias, a confiança muda devagar) e **inércia** (a confiança
+     cai rápido e sobe devagar);
+   - aplica **histerese** para mudar de "modo" (ex.: `resentment > 0,5` → Alice fica seca), sem oscilar a cada turno. O
+     relatório 06 mostrou que a relação lida turno a turno é instável (65–70%): aqui ela é um **acumulador**, não uma
+     leitura;
+   - aplica **eventos compostos**: um pedido de desculpas **só** reduz o ressentimento se houver `unresolved` ligada. Uma
+     desculpa repetida sem mudança rende menos a cada vez.
+4. **Eventos viram memória:** o Jev decide se o evento entra em `unresolved` ou `shared_history` (Noul "é algo que Alice
+   lembraria daqui a um mês?"), e a LLM redige uma nota curta **fora do caminho crítico** (OptMem, relatório 15). Pendências
+   resolvidas saem da lista.
+5. **O estado alimenta o diretor, não só o prompt:** `resentment` alto + `unresolved` → o movimento sorteado favorece
+   "responder seco", "cobrar indiretamente" ou "ignorar o carinho", com **subtexto**: "olha só quem resolveu aparecer", e
+   não "estou chateada porque…". `trust` e `comfort` altos → mais autorrevelação e provocação carinhosa. É exatamente o
+   "mesma frase no dia 2 × dia 200".
+
+**Cuidados:**
+- **Anti-bajulação:** a relação precisa poder **piorar** de verdade e o personagem precisa querer coisas próprias, senão
+  vira espelho.
+- **Ética** (relatório 15): nunca usar ciúme, carência ou culpa para prender o usuário (37% das despedidas em apps de
+  companhia fazem isso). O ressentimento se expressa, mas não vira chantagem.
+- **Custo:** Jev 1 cabe na chamada de leitura já existente (+10–20 Nouls). Jev 2 é uma chamada condicional pequena (~0,5 s),
+  paralela à geração.
+- **Teste proposto:** conversas sintéticas roteirizadas (desculpa, piada ruim, sumir por 3 dias, cumprir promessa), com
+  checagem de que as trajetórias do estado são plausíveis. E um A/B com humanos: bot com estado vivo × estático, medindo
+  consistência e "a relação evolui?".
+
+### Onde isso entra no fluxo (seção 4.2)
+```
+mensagem → [Jev leitura + Jev 1 da relação] → código atualiza o relationship_state (e decaimento)
+         → diretor (movimento condicionado ao estado) → [Jev 2 da magnitude, em paralelo, se necessário]
+         → PROMPT = cabeçalho de roleplay (D) + ficha com "nunca…" (B) + relação (E) + OptMem + nota do diretor
+         → LLM completa o LOG no schema de chat (C), gerando N variações com probabilidade (A)
+         → filtros de código + banco atômico do Jev → sorteio → entrega (bolhas e tempos sugeridos pelo log, validados em código)
+```
+
 ---
 
 ## 0. Resumo em 13 pontos
